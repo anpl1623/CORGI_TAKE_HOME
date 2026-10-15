@@ -1,0 +1,258 @@
+{
+ "tracking": 642,
+ "documents": [
+  {
+   "file": "205 Gach Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-02-02",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES at 33/month, policy start 02/02/2024. Renters insurance YES at 17."
+  },
+  {
+   "file": "205 Gach Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "9 pages, no text layer. Not opened: rent 960 and term are clear from the sheet and ledger, program from the addendum."
+  },
+  {
+   "file": "205 Gach Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid ledger, oldest-first. Used for the opening 180, the NSF history and the subsidy (HAP) split."
+  },
+  {
+   "file": "205 Gach Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-18",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 587.00."
+  },
+  {
+   "file": "205 Gach Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-18",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting document. Ending balance 587.00."
+  },
+  {
+   "file": "205 Gach SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Undated. Credits line 'June prorate 4 days/NSF fee' 148 (128 rent + 20 NSF), reletting 250, eco fee 5, SD prorated 4, cleaning 55, touch-up painting 125 = 587."
+  },
+  {
+   "file": "LFO DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened. Classified from the file name."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 960,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2025-01-31",
+  "current_term_start": "2024-02-02",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Not reviewed (lease not opened). PM charged a 250 reletting fee on 06/18/2024.",
+  "lease_end": "2025-01-31",
+  "lease_start": "2024-02-02",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters insurance (YRIG)",
+    "amount": 17
+   },
+   {
+    "name": "Utility revenue / eco fee",
+    "amount": 35
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 960
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-06-04",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Returned check charge (NSF of ACH 180 on 06/03/2024)",
+   "category": "nsf_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-06-03",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Residential Rent (06/2024) 4 days, prorated 06/01-06/04 (960 x 4/30)",
+   "category": "rent_in_term",
+   "amount_charged": 128,
+   "amount_open": 128,
+   "date_posted": "2024-06-18",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Security Deposit Protection (06/2024) 4 days",
+   "category": "sdrp_premium",
+   "amount_charged": 4,
+   "amount_open": 4,
+   "date_posted": "2024-06-18",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue / Eco Fee (06/2024) 4 days",
+   "category": "utilities",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "date_posted": "2024-06-18",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning Charges",
+   "category": "cleaning",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-06-18",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Touch Up Painting",
+   "category": "painting",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-06-18",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-06-18",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "205 Gach Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant check-scan payment 06/03/2024 cleared the 180 opening balance (May tenant portion 110, NSF fee 20, late fee 50). The ACH 180 payment on the same day bounced.",
+   "amount": 180,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "205 Gach Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-07-01",
+  "balance_due": 587,
+  "first_full_month": "2024-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-03"
+ },
+ "pm_stated_amount_due": 587,
+ "winning_document": "205 Gach Move Out Statement.pdf",
+ "reconciliation": "Open lines 20+128+4+5+55+125+250 = 587.00, credit 180 already netted, vs PM stated 587.00 (statement, letter and SDI). Match. The SDI groups rent 128 + NSF 20 as the 148 'June prorate/NSF' credit line.",
+ "extraction_confidence": 0.8,
+ "notes": "Tenant is on a housing subsidy (HAP): contract rent 960 = tenant 25 + subsidy 935 per ledger. Early termination: notice 04/15/24, vacated 06/04/24, lease end 01/31/25. Ledger anomaly: the 5/10 late charge (50) and the 06/18 rent (128) carry ':Write Off by Charge Ctrl# 3465604 / 3465610', but no write-off rows appear and the ledger balance still shows 587. I followed the PM statement, letter and SDI (all 587), so the rent line confidence is 0.75. The first payment on 2/1 cleared; the first NSF was 05/03/24. SD program is a Perry Reid Security Deposit Waiver addendum with a 33/month fee.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa5bd1a3e28a7c40e"
+ }
+}

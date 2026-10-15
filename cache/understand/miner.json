@@ -1,0 +1,1430 @@
+{
+ "rules": [
+  {
+   "rule": "RENT-BASED CAP: benefit may not exceed Monthly Rent rounded UP to the next $500 multiple (cap = ceil(rent/500)*500; rent already on a multiple stays, e.g. 2000->2000, 1525->2000, 940->1000, 3195->3500). Effective payout ceiling = min(Max Benefit, cap). Formula confirmed in 134/137 cap notes (3 'mismatches' are a different statement, a typo and a total-rent calc).",
+   "kind": "cap",
+   "count": 137,
+   "first_seen": "2023-04-18",
+   "last_seen": "2025-04-03",
+   "example_trackings": [
+    1241,
+    1235,
+    1067,
+    926,
+    846,
+    809,
+    575,
+    687,
+    701,
+    1191,
+    1174,
+    420,
+    406
+   ],
+   "quotes": [
+    "#1241: 'Based on monthly rent of 2895.00, the maximum sd benefit cannot exceed 3000.00'",
+    "#751: 'Based on monthly rent of 940.00, the benefit cannot exceed 1000.00.'",
+    "#793: 'ensure that the correct rates table is used along with program rules and guidelines issued in July of 2023'"
+   ]
+  },
+  {
+   "rule": "RENT-CAP ERA: before ~2024-04-24 the cap was only NOTED ('benefit should not have exceeded X', 96 claims, 92 notes by Dmitriy Finkler written on the claim day) and the claim was still paid above it in 61/96 (management paid Max Benefit). From #539 (2024-04-24) / #575 (2024-05-20) the cap is APPLIED at payment ('cannot exceed X', 41 notes): approved == cap in 30/41, above cap in only 8 (mostly goodwill/revisions: 1020, 1081, 1150, 730, 751, 799).",
+   "kind": "era",
+   "count": 137,
+   "first_seen": "2023-04-18",
+   "last_seen": "2025-04-03",
+   "example_trackings": [
+    75,
+    87,
+    420,
+    406,
+    473,
+    475,
+    539,
+    573,
+    575,
+    614,
+    616,
+    657,
+    687,
+    701
+   ],
+   "quotes": [
+    "#420 (2024-01): 'the benefit should not have exceeded 1500.00' (paid 2500)",
+    "#575 (2024-05): 'benefit cannot exceed 1500.00' (paid 1500)"
+   ]
+  },
+  {
+   "rule": "RENT-CAP SCOPE: enforcement is essentially PURE-program (Treaty T00001) only. Claims with Max Benefit > cap after 2024-04-24: PURE/T00001 91 claims -> paid above cap in 16 (18%), exactly cap in 27; T00002 (StarPointe, RentWerx, Blue Fox, Johnson...) 127 -> above cap in 77 (61%); Perry Reid/T00003 (flat 1500 max) 91 -> above cap in 50, never capped. Before 2024-04-24 PURE was paid above cap in 52/87. So: apply the rent cap for PURE claims dated >= ~May 2024 (and whenever an adjuster cap note exists); do NOT apply it to Perry Reid/T00002 by default.",
+   "kind": "cap",
+   "count": 309,
+   "first_seen": "2024-04-24",
+   "last_seen": "2025-04-04",
+   "example_trackings": [
+    701,
+    703,
+    809,
+    824,
+    834,
+    846,
+    868,
+    914,
+    926,
+    1076,
+    1082,
+    1109,
+    1125,
+    1170
+   ],
+   "quotes": [
+    "#1235: 'checked on QL, SD premiums paid up until March 2025, Based on monthly rent of 1829.00, the maximum benefit cannot exceed 2000'"
+   ]
+  },
+  {
+   "rule": "MAX BENEFIT is the hard ceiling of the policy: Approved > Max Benefit in only 3 Posted claims (44, 94 and one 2024 supplemental). Lost rent alone often exhausts it ('caps out at max benefit').",
+   "kind": "cap",
+   "count": 36,
+   "first_seen": "2023-01-25",
+   "last_seen": "2025-03-31",
+   "example_trackings": [
+    150,
+    1139,
+    737,
+    44,
+    94,
+    240
+   ],
+   "quotes": [
+    "#150: 'cannot pay over the benefit amount.  approved for $2k'",
+    "#1139: 'plus repairs, caps out at max benefit.'"
+   ]
+  },
+  {
+   "rule": "UTILITIES CAP $150 (StarPointe Realty, per April-2024 agreement with the PM); otherwise utilities are excluded.",
+   "kind": "cap",
+   "count": 4,
+   "first_seen": "2024-08-29",
+   "last_seen": "2025-03-07",
+   "example_trackings": [
+    785,
+    1004,
+    1110,
+    1182
+   ],
+   "quotes": [
+    "#1004: 'Utility charge caps out at 150.00 a per April 2024 agreement'"
+   ]
+  },
+  {
+   "rule": "LANDSCAPING beyond normal wear & tear capped at $500 (earlier, landscaping sometimes simply 'not approved').",
+   "kind": "cap",
+   "count": 3,
+   "first_seen": "2024-08-21",
+   "last_seen": "2025-01-22",
+   "example_trackings": [
+    730,
+    858,
+    1102,
+    283,
+    95
+   ],
+   "quotes": [
+    "#1102: 'Landscaping coverage caps out at 500.00.'",
+    "#283: 'Landscaping not approved.'"
+   ]
+  },
+  {
+   "rule": "MAINTENANCE COORDINATION FEE: excluded in 2023, later allowed up to $200.",
+   "kind": "cap",
+   "count": 6,
+   "first_seen": "2023-04-18",
+   "last_seen": "2024-09-26",
+   "example_trackings": [
+    74,
+    84,
+    95,
+    105,
+    107,
+    830
+   ],
+   "quotes": [
+    "#830: 'policy will not pay higher than 200.00 for maint coordination fee'"
+   ]
+  },
+  {
+   "rule": "CARPET/FLOORING pro-rata: policy pays only damage beyond wear & tear, often a fraction of replacement (e.g. 1/3 of flooring, partial carpet), and less when no photos/invoices.",
+   "kind": "adjustment",
+   "count": 4,
+   "first_seen": "2024-10-28",
+   "last_seen": "2025-02-20",
+   "example_trackings": [
+    898,
+    993,
+    1052,
+    1164
+   ],
+   "quotes": [
+    "#993: 'policy cannot pay for entire carpet, only items beyond regular wear and tear'",
+    "#1164: 'covering 1/3 of flooring replacement'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: late fees / late charges (most frequent exclusion).",
+   "kind": "exclusion",
+   "count": 51,
+   "first_seen": "2023-04-18",
+   "last_seen": "2025-03-21",
+   "example_trackings": [
+    74,
+    105,
+    299,
+    357,
+    374,
+    405,
+    410,
+    417,
+    422,
+    432
+   ],
+   "quotes": [
+    "#652: 'No coverage for late fee.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: SDRP / SD fee / SD premium / program fees / 'zero deposit program' charges (exception: in 2024-11..2025-03 one month's unpaid SD fee within the term was covered: 945, 1117, 1229).",
+   "kind": "exclusion",
+   "count": 43,
+   "first_seen": "2023-11-14",
+   "last_seen": "2025-03-28",
+   "example_trackings": [
+    299,
+    374,
+    410,
+    422,
+    432,
+    463,
+    466,
+    538,
+    574,
+    578
+   ],
+   "quotes": [
+    "#410: 'no coverage for non-paid SDRP, RBP, late fees, paper payment fee'",
+    "#1117: 'Covering one month rent as per the SD policy and 1 month of SD fee'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: utilities / utility chargebacks / temporary utilities / gas / electric (PM-specific exceptions: StarPointe $150 cap from Apr-2024; 'UTILITIES ALLOWED FOR PROPERTY SERVICES OF COLUMBUS' 2025-04 #1242; Johnson #683 paid utilities). Doug Keys 2023-08: 'in the future we will not settle with tenants for utilities'.",
+   "kind": "exclusion",
+   "count": 50,
+   "first_seen": "2023-07-25",
+   "last_seen": "2025-03-21",
+   "example_trackings": [
+    146,
+    150,
+    393,
+    405,
+    449,
+    462,
+    463,
+    466,
+    504,
+    537
+   ],
+   "quotes": [
+    "#537: 'There is no coverage for utility charge backs.'",
+    "#150: 'in the future we will not settle with tenants for utilities'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: pet damage, pet odor, ozone, flea treatment, pet urine carpet, pet fees -> must go to pet policy / pet deposit (7 claims declined because damage was pet-only).",
+   "kind": "exclusion",
+   "count": 52,
+   "first_seen": "2023-05-24",
+   "last_seen": "2025-03-18",
+   "example_trackings": [
+    358,
+    468,
+    502,
+    567,
+    590,
+    711,
+    787,
+    790,
+    792,
+    810,
+    870,
+    873,
+    989
+   ],
+   "quotes": [
+    "#590: 'no coverage for pet related damages under security deposit policy, must be charged to the pet policy'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: RBP / renter's insurance / renter's liability / 'second nature resident benefit' / insurance-service fees.",
+   "kind": "exclusion",
+   "count": 28,
+   "first_seen": "2023-08-21",
+   "last_seen": "2025-02-26",
+   "example_trackings": [
+    173,
+    299,
+    301,
+    405,
+    410,
+    422,
+    463,
+    466,
+    506,
+    522
+   ],
+   "quotes": [
+    "#463: 'no coverage for unpaid SDRP fees, late fees, renter's liability fees'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: NSF / returned payment / stop-pay / returned cheque / paper or in-office payment fees.",
+   "kind": "exclusion",
+   "count": 22,
+   "first_seen": "2024-01-11",
+   "last_seen": "2025-02-20",
+   "example_trackings": [
+    410,
+    413,
+    424,
+    430,
+    450,
+    462,
+    533,
+    534,
+    549,
+    552
+   ],
+   "quotes": [
+    "#533: 'No coverage for itemization fee and NSF returned payment fee'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: itemization fees.",
+   "kind": "exclusion",
+   "count": 14,
+   "first_seen": "2024-01-11",
+   "last_seen": "2025-03-18",
+   "example_trackings": [
+    413,
+    424,
+    430,
+    450,
+    462,
+    510,
+    533,
+    534,
+    536,
+    549
+   ],
+   "quotes": [
+    "#510: 'No coverage for 95.00 itemization fee.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: PM admin fees and markups (e.g. 25% markup on repairs).",
+   "kind": "exclusion",
+   "count": 8,
+   "first_seen": "2023-11-07",
+   "last_seen": "2024-12-04",
+   "example_trackings": [
+    288,
+    466,
+    538,
+    552,
+    596,
+    653,
+    726,
+    995
+   ],
+   "quotes": [
+    "#653: 'no coverage for 25% mark up admin fee.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: lease-violation / coordination / lease-penalty fees.",
+   "kind": "exclusion",
+   "count": 19,
+   "first_seen": "2023-04-18",
+   "last_seen": "2025-01-28",
+   "example_trackings": [
+    74,
+    84,
+    95,
+    105,
+    106,
+    107,
+    168,
+    170,
+    299,
+    484
+   ],
+   "quotes": [
+    "#484: 'No coverage for lease violation fee.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: rent and fees after lease expiration (holdover, month-to-month, 'future months'); systematically applied from 2023-11 (#325). Before that (e.g. #155 2023-08, m2m) claims were paid. Small exceptions: a few holdover days at move-out (#764 '33.00 holdover', #935 '2 days'), and 2025 m2m renewals paid one month rent (#1229).",
+   "kind": "exclusion",
+   "count": 42,
+   "first_seen": "2023-11-29",
+   "last_seen": "2025-03-19",
+   "example_trackings": [
+    325,
+    366,
+    375,
+    383,
+    417,
+    504,
+    536,
+    552,
+    572,
+    596
+   ],
+   "quotes": [
+    "#325: 'Rent charges and fees after the lease expiration date of 6-30-23 are not eligible.'",
+    "#966: 'There is no coverage for month to month rent under the SD policy.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: amenity / amenity-service packages.",
+   "kind": "exclusion",
+   "count": 9,
+   "first_seen": "2023-12-15",
+   "last_seen": "2024-11-21",
+   "example_trackings": [
+    374,
+    432,
+    522,
+    613,
+    683,
+    723,
+    814,
+    854,
+    969
+   ],
+   "quotes": [
+    "#522: 'No coverage for amenity package or renters insurance charge.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: eviction services / eviction filing / court appearance / legal fees (one 2024 note implies they might be paid with invoices: #799). Eviction as a termination type is NOT excluded - unpaid rent from evictions is routinely paid (Termination Type=Eviction on 213 claims).",
+   "kind": "exclusion",
+   "count": 4,
+   "first_seen": "2024-01-04",
+   "last_seen": "2024-09-10",
+   "example_trackings": [
+    405,
+    565,
+    798,
+    799
+   ],
+   "quotes": [
+    "#565: 'no coverage for court appearance fees, no coverage for eviction filing or eviction charge'",
+    "#799: 'No coverage for eviction fees as no invoices provided by PM'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: HOA fees / HOA violations ('misc. income').",
+   "kind": "exclusion",
+   "count": 3,
+   "first_seen": "2023-12-13",
+   "last_seen": "2024-07-11",
+   "example_trackings": [
+    365,
+    594,
+    664
+   ],
+   "quotes": [
+    "#365: 'No coverage for misc. income-HOA violations, covering damages to property only.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: pest control and gutter cleaning.",
+   "kind": "exclusion",
+   "count": 2,
+   "first_seen": "2024-02-14",
+   "last_seen": "2025-01-03",
+   "example_trackings": [
+    455,
+    1061
+   ],
+   "quotes": [
+    "#455: 'No coverage for pest control. No coverage for gutter cleaning.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: asset-protection / risk-mitigation fees.",
+   "kind": "exclusion",
+   "count": 2,
+   "first_seen": "2023-07-25",
+   "last_seen": "2024-06-21",
+   "example_trackings": [
+    145,
+    449,
+    615,
+    734
+   ],
+   "quotes": [
+    "#449: 'No coverage for assett protection fee or utility expenses'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: 3-day notice / posting / notice fees.",
+   "kind": "exclusion",
+   "count": 4,
+   "first_seen": "2024-05-29",
+   "last_seen": "2024-11-21",
+   "example_trackings": [
+    593,
+    814,
+    903,
+    969
+   ],
+   "quotes": [
+    "#814: 'No coverage for SD program charge, amenity service package, 3 days notice fee'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: reletting / re-rent fee ON TOP of the one-month lease-break rent (pays one or the other: reletting fee alone covered when no lease-break rent is owed, #1162; 2023 #88 paid prorated rent + reletting fee).",
+   "kind": "exclusion",
+   "count": 10,
+   "first_seen": "2023-05-15",
+   "last_seen": "2025-03-18",
+   "example_trackings": [
+    560,
+    574,
+    578,
+    752,
+    764,
+    1213,
+    1162,
+    88
+   ],
+   "quotes": [
+    "#1213: 'Eligible for one month rent under SD program, no reletting fee on top.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: short-term leases (claim declined or rent portion excluded).",
+   "kind": "exclusion",
+   "count": 5,
+   "first_seen": "2024-09-23",
+   "last_seen": "2025-03-10",
+   "example_trackings": [
+    818,
+    956,
+    1025,
+    1048,
+    1190
+   ],
+   "quotes": [
+    "#956: 'No coverage for short term leases.'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED -> other policy: fire, flood, water-line break, plumbing leaks go to TLL / HO4 / renters or owner's insurance; leaking pipes are landlord responsibility.",
+   "kind": "exclusion",
+   "count": 8,
+   "first_seen": "2023-06-06",
+   "last_seen": "2025-03-28",
+   "example_trackings": [
+    105,
+    301,
+    506,
+    561,
+    714,
+    1176,
+    1190,
+    1232
+   ],
+   "quotes": [
+    "#1232: 'Water leak damage due to leaking plumbing must be submitted via TLL policy claim'",
+    "#561: 'claim should filed with HO4 policy or TLL policy'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: garage rent, unspecified non-refundable fees, missing household items.",
+   "kind": "exclusion",
+   "count": 8,
+   "first_seen": "2024-05-17",
+   "last_seen": "2025-02-20",
+   "example_trackings": [
+    572,
+    637,
+    772,
+    776,
+    777,
+    778,
+    858,
+    1166
+   ],
+   "quotes": [
+    "#772: 'No coverage for unspecified non refundable 90.00 fee'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: repayment of move-in specials / move-out specials / concessions.",
+   "kind": "exclusion",
+   "count": 2,
+   "first_seen": "2023-08-11",
+   "last_seen": "2024-12",
+   "example_trackings": [
+    759,
+    161
+   ],
+   "quotes": [
+    "#759: 'There is no coverage for move out special repayment'"
+   ]
+  },
+  {
+   "rule": "EXCLUDED: normal wear and tear; only 'excess wear and tear' repairs are eligible.",
+   "kind": "exclusion",
+   "count": 15,
+   "first_seen": "2023-01-24",
+   "last_seen": "2025-03-11",
+   "example_trackings": [
+    36,
+    40,
+    95,
+    235,
+    240,
+    620,
+    662,
+    722,
+    728,
+    730
+   ],
+   "quotes": [
+    "#95: 'the only eligible excess wear and tear repair is for 100.00 for ripped drywall'"
+   ]
+  },
+  {
+   "rule": "COVERED: unpaid rent WITHIN the lease term (lost rent), including eviction cases ('EVICTION, RENT NOT PAID SINCE ...').",
+   "kind": "inclusion",
+   "count": 298,
+   "first_seen": "2022-10-26",
+   "last_seen": "2025-04-04",
+   "example_trackings": [
+    22,
+    36,
+    40,
+    44,
+    45,
+    49,
+    55,
+    65,
+    74,
+    75
+   ],
+   "quotes": [
+    "#1219: 'Covering unpaid 7 days rent for October, plus Nov rent'"
+   ]
+  },
+  {
+   "rule": "COVERED: lease break = ONE month's rent as the lease-break/termination fee (plus any unpaid rent/prorated rent up to move-out and repairs). Not one month + reletting fee. If PM released tenant without a break fee -> not owed (#210 declined) or paid as goodwill (#808).",
+   "kind": "inclusion",
+   "count": 195,
+   "first_seen": "2023-02-24",
+   "last_seen": "2025-03-31",
+   "example_trackings": [
+    44,
+    45,
+    55,
+    86,
+    104,
+    105,
+    107,
+    109,
+    112,
+    125
+   ],
+   "quotes": [
+    "#752: 'policy covers one month rent as lease break fee'",
+    "#1000: 'lease break coverage is one month rent, no coverage for other fees.'"
+   ]
+  },
+  {
+   "rule": "COVERED: prorated rent for days within the lease term up to move-out (e.g. '6 days prorated rent for February').",
+   "kind": "inclusion",
+   "count": 37,
+   "first_seen": "2023-05-15",
+   "last_seen": "2025-03-28",
+   "example_trackings": [
+    88,
+    105,
+    114,
+    153,
+    244,
+    289,
+    349,
+    392,
+    422,
+    423
+   ],
+   "quotes": [
+    "#1206: 'Covering 6 days prorated rent for February 2025, plus 1 full month rent for lease break'"
+   ]
+  },
+  {
+   "rule": "COVERED: cleaning, make-ready, move-out repairs, excess-wear damages, trash-out, rekey, paint, blinds, drywall, landscaping/lawn (<=$500), carpet (pro-rata).",
+   "kind": "inclusion",
+   "count": 400,
+   "first_seen": "2023-01-26",
+   "last_seen": "2025-04-04",
+   "example_trackings": [
+    41,
+    44,
+    45,
+    49,
+    50,
+    55,
+    56,
+    60,
+    65,
+    74
+   ],
+   "quotes": [
+    "#449: 'paying eligible charges of move out repairs, cleaning and lawn service'"
+   ]
+  },
+  {
+   "rule": "ADJUSTMENT: supplemental / revised payments - Approved Benefit Amount is the TOTAL of initial + additional payments (status 'Approved Revised'; Kelly Carroll posts 'additional $X'). Many 2023 claims were topped up to Max Benefit.",
+   "kind": "adjustment",
+   "count": 50,
+   "first_seen": "2023-01-26",
+   "last_seen": "2025-02-26",
+   "example_trackings": [
+    41,
+    44,
+    45,
+    55,
+    65,
+    72,
+    74,
+    105,
+    107,
+    138
+   ],
+   "quotes": [
+    "#44: 'Paying an additional $2,120 for full benefit of $3,000.'",
+    "#963: 'APPROVED REVISED status, please add an additional 1000.00'"
+   ]
+  },
+  {
+   "rule": "ADJUSTMENT: payout reduced to the PM/tenant agreed revised balance or dispute outcome (charges removed, balance adjusted).",
+   "kind": "adjustment",
+   "count": 35,
+   "first_seen": "2023-05-02",
+   "last_seen": "2025-03-13",
+   "example_trackings": [
+    80,
+    81,
+    86,
+    104,
+    142,
+    147,
+    176,
+    253,
+    273,
+    280
+   ],
+   "quotes": [
+    "#474: 'Tenant has agreed with the PM to remove power wash of $183.'",
+    "#528: 'Tenant said Blue Fox adjusted the balance to $1,000'"
+   ]
+  },
+  {
+   "rule": "ADJUSTMENT: GOODWILL payments authorized by management (Doug Keys, 'Duane') outside the rules - e.g. first-month default, expired lease, wrong rate table, PM mistake on lease-break fee. Goodwill amounts usually = one month rent or Max Benefit.",
+   "kind": "adjustment",
+   "count": 7,
+   "first_seen": "2023-11-30",
+   "last_seen": "2024-12-16",
+   "example_trackings": [
+    328,
+    454,
+    691,
+    697,
+    793,
+    808,
+    1020
+   ],
+   "quotes": [
+    "#697: '1198.00 authorized By Doug Keys as goodwill'",
+    "#691: 'authorizing goodwill based on one month rent charge'"
+   ]
+  },
+  {
+   "rule": "ADJUSTMENT: when PM cannot supply invoices/photos, adjuster pays a 'reasonable amount' / fraction rather than the itemized total.",
+   "kind": "adjustment",
+   "count": 3,
+   "first_seen": "2024-09-12",
+   "last_seen": "2025-02-20",
+   "example_trackings": [
+    807,
+    898,
+    1164
+   ],
+   "quotes": [
+    "#807: 'claim settlement provided based on reasonable amount.'"
+   ]
+  },
+  {
+   "rule": "NOT AN ADJUSTMENT: 'Agreed Tenant Settlement' / 'Collected Amount' are post-payout recoveries from the tenant (collections/subrogation) - NOT subtracted from the payout. 239 claims have a settlement; it is < approved in 202 and == approved in 35; Collected == Settlement in 152.",
+   "kind": "adjustment",
+   "count": 239,
+   "first_seen": "2022-07-08",
+   "last_seen": "2025-04-04",
+   "example_trackings": [
+    44,
+    80,
+    81,
+    84,
+    86,
+    92,
+    93
+   ],
+   "quotes": [
+    "#44: 'Courtney and Danial have agreed to pay YRIG $1,334'"
+   ]
+  },
+  {
+   "rule": "DECLINE: tenant defaulted on FIRST FULL MONTH rent (incl. bounced first payment) -> not eligible. In 2023 adjusters recommended denial but management usually paid (51, 114, 171, 220, 254, 259, 297, 346 paid at max); enforced via PM Explanation from 2023-11-27 (#314) and consistently declined 2024-06 onward (623, 734, 803, 869, 953, 1053, 1085, 1086, 1093, 1096, 1097, 1152). Exceptions: 606, 665, goodwill 793.",
+   "kind": "decline",
+   "count": 43,
+   "first_seen": "2023-01-24",
+   "last_seen": "2025-02-17",
+   "example_trackings": [
+    314,
+    386,
+    623,
+    734,
+    869,
+    953,
+    1053,
+    1085,
+    1086,
+    1093,
+    1096,
+    1097,
+    1152
+   ],
+   "quotes": [
+    "#1085: 'First full month rent payment never made, not eligible under SD program.'",
+    "#697: 'When a tenant signs the lease, the first month's rent and SD fee must be paid.'"
+   ]
+  },
+  {
+   "rule": "DECLINE: tenant paid / settled directly with PM / payment arrangement / ledger shows zero balance (also: 'TENANT HAS SETTLED' before payout).",
+   "kind": "decline",
+   "count": 30,
+   "first_seen": "2023-08-21",
+   "last_seen": "2025-03-03",
+   "example_trackings": [
+    169,
+    193,
+    202,
+    206,
+    252,
+    282,
+    312,
+    370,
+    453,
+    543,
+    568,
+    710
+   ],
+   "quotes": [
+    "#716: 'Tenant has settled directly with PM, portal payment receipt provided.'"
+   ]
+  },
+  {
+   "rule": "DECLINE: no active SD policy with YRIG (not our policy, not in QL/verification file, tenant paid a cash deposit, SD through another provider e.g. RHINO, premiums/SD fee never paid or started only after tenant was already behind).",
+   "kind": "decline",
+   "count": 17,
+   "first_seen": "2023-03-05",
+   "last_seen": "2025-04-02",
+   "example_trackings": [
+    50,
+    62,
+    184,
+    248,
+    319,
+    329,
+    330,
+    418,
+    448,
+    603,
+    604,
+    605
+   ],
+   "quotes": [
+    "#1033: 'No SD with policy with YRIG, this SD is through RHINO.'",
+    "#418: 'no current active SD policy, claim denied.'"
+   ]
+  },
+  {
+   "rule": "DECLINE: policy with PRIOR CARRIER / before program start ('Our program started on 12/1/23'); PM took over lease from previous company.",
+   "kind": "decline",
+   "count": 2,
+   "first_seen": "2024-02-05",
+   "last_seen": "2024-09-30",
+   "example_trackings": [
+    440,
+    836
+   ],
+   "quotes": [
+    "#440: 'This policy was with a prior carrier.  Our program started on 12/1/23'"
+   ]
+  },
+  {
+   "rule": "DECLINE: duplicate claim (status Declined, approved blank/0).",
+   "kind": "decline",
+   "count": 9,
+   "first_seen": "2023-11-29",
+   "last_seen": "2025-04-02",
+   "example_trackings": [
+    324,
+    465,
+    679,
+    731,
+    747,
+    786,
+    837,
+    1008,
+    1238
+   ],
+   "quotes": [
+    "#679: 'Duplicate claim, already filed on 7-11-2024'"
+   ]
+  },
+  {
+   "rule": "DECLINE: test claims (123 Main St / 'Test Claim' policy / TEST PM / The Boss / YRIG Inc).",
+   "kind": "decline",
+   "count": 11,
+   "first_seen": "2023-03-01",
+   "last_seen": "2025-03-04",
+   "example_trackings": [
+    46,
+    53,
+    67,
+    246,
+    247,
+    354,
+    591,
+    732,
+    861,
+    862,
+    1181
+   ],
+   "quotes": [
+    "#861: 'test claim'"
+   ]
+  },
+  {
+   "rule": "DECLINE: cancelled / voided / 'ignore' / withdrawn / resubmitted per PM.",
+   "kind": "decline",
+   "count": 13,
+   "first_seen": "2023-02-20",
+   "last_seen": "2025-01-31",
+   "example_trackings": [
+    47,
+    151,
+    438,
+    480,
+    638,
+    742,
+    800,
+    802,
+    829,
+    877,
+    884,
+    1092,
+    1121
+   ],
+   "quotes": [
+    "#1121: 'Claim cancelled as per PM email.'"
+   ]
+  },
+  {
+   "rule": "DECLINE: only ineligible charges remain (pet-only damage 7; utilities/late fees/specials only 5; month-to-month rent only 4; short-term lease 2; fire/water -> other policy 2).",
+   "kind": "decline",
+   "count": 20,
+   "first_seen": "2023-06-06",
+   "last_seen": "2025-03-18",
+   "example_trackings": [
+    590,
+    870,
+    873,
+    989,
+    537,
+    759,
+    1072,
+    375,
+    968,
+    1205,
+    818,
+    956,
+    301,
+    561
+   ],
+   "quotes": [
+    "#968: 'No coverage for month to month rent or rent and fees after lease expiration.'"
+   ]
+  },
+  {
+   "rule": "DECLINE (rare): Servicemembers Civil Relief Act / military (lease break cannot be charged to military tenants), tenant still in property, tenant never moved in / released from lease without penalty, ledger shows credit and no repairs done, no response/docs from PM.",
+   "kind": "decline",
+   "count": 7,
+   "first_seen": "2023-08-21",
+   "last_seen": "2024-08-27",
+   "example_trackings": [
+    622,
+    564,
+    172,
+    210,
+    241,
+    743,
+    44
+   ],
+   "quotes": [
+    "#622: 'Tenant has provided a copy of Service members civil relief act'",
+    "#44: 'Can't charge lease break for military.'"
+   ]
+  },
+  {
+   "rule": "ERA 2022: claims (tracking 1-~35) were paid exactly Max Benefit (31/33 Posted 2022 claims with a Max Benefit); no adjuster comments exist before 2023-01-02.",
+   "kind": "era",
+   "count": 33,
+   "first_seen": "2022-03-04",
+   "last_seen": "2022-12-31",
+   "example_trackings": [
+    1,
+    2,
+    6,
+    16,
+    22,
+    24,
+    27,
+    28
+   ],
+   "quotes": []
+  },
+  {
+   "rule": "ERA 2023-H1 (Gabe Galaviz adjudicating with Doug Keys approving, Dmitriy Finkler processing, Kelly Carroll payments): liberal - first-month defaults, m2m and rent-cap overages paid; many supplemental top-ups to Max Benefit.",
+   "kind": "era",
+   "count": null,
+   "first_seen": "2023-01-02",
+   "last_seen": "2023-07-31",
+   "example_trackings": [
+    49,
+    51,
+    75,
+    87,
+    44,
+    45
+   ],
+   "quotes": [
+    "#49 (Gabe, 2023-03): 'between the repairs and the lost rent is how Dmitriy came to the max benefit of 3500'"
+   ]
+  },
+  {
+   "rule": "ERA July-2023: 'program rules and guidelines issued in July of 2023' with a rates table (benefit tier by rent) - basis of the rent cap; some PMs (Excalibur) unclear when they received them.",
+   "kind": "era",
+   "count": 3,
+   "first_seen": "2023-07-01",
+   "last_seen": "2024-09-09",
+   "example_trackings": [
+    793,
+    796,
+    320
+   ],
+   "quotes": [
+    "#320: 'The $33 per month for preferred tenant is for a $1,500 benefit.'"
+   ]
+  },
+  {
+   "rule": "ERA from 2023-11: PM Explanation column used (323 entries, claim dates 2023-11-03..2025-04-03) with itemized 'no coverage for ...' lists; holdover/m2m exclusion and first-month-default declines become routine.",
+   "kind": "era",
+   "count": 323,
+   "first_seen": "2023-11-03",
+   "last_seen": "2025-04-03",
+   "example_trackings": [
+    278,
+    314,
+    325,
+    366,
+    375
+   ],
+   "quotes": []
+  },
+  {
+   "rule": "ERA 12/1/2023: new program start (claims for move-outs before 12/1/23 belong to prior carrier).",
+   "kind": "era",
+   "count": 2,
+   "first_seen": "2023-12-01",
+   "last_seen": "2024-09-30",
+   "example_trackings": [
+    440,
+    697
+   ],
+   "quotes": [
+    "#440: 'Our program started on 12/1/23 and tenant moved out on 11/28/23.'"
+   ]
+  },
+  {
+   "rule": "ERA 2024-04/05 onward: rent cap applied at payment (PURE); StarPointe utilities $150 agreement (April 2024); from 2024-08 Gabe no longer tagged (Dmitriy reports only to @dkeys), Bobby Oommen (reinsure.com) on payments; 2024-09 'going forward use correct rates table' notice; 2024-09+ short-term-lease exclusion.",
+   "kind": "era",
+   "count": null,
+   "first_seen": "2024-04-24",
+   "last_seen": "2025-04-04",
+   "example_trackings": [
+    539,
+    575,
+    785,
+    793,
+    818
+   ],
+   "quotes": []
+  },
+  {
+   "rule": "PROCESS: required docs = complete ledger from lease start, current/renewal lease, signed SD addendum, move-out itemization, invoices/photos; claim placed 'Pending Docs from PM' / on hold; policy & premium status verified in QL / verification file.",
+   "kind": "process",
+   "count": 49,
+   "first_seen": "2023-02-20",
+   "last_seen": "2025-03-18",
+   "example_trackings": [
+    919,
+    1243,
+    1197,
+    1235,
+    1237
+   ],
+   "quotes": [
+    "#919: 'Need complete ledger from the beginning of 2023 lease, and copy of lease starting in 2023'"
+   ]
+  },
+  {
+   "rule": "PROCESS: renewals - coverage follows the current (renewal) lease term; renewal while tenant already in default -> denied (goodwill possible); renewal benefit still subject to rent cap.",
+   "kind": "process",
+   "count": 37,
+   "first_seen": "2023-05-22",
+   "last_seen": "2025-03-28",
+   "example_trackings": [
+    406,
+    697,
+    714,
+    210
+   ],
+   "quotes": [
+    "#714: 'THE LEASE HAS RENEWED ON 1-30-2024 ALREADY WITH TENANT IN DEFAULT ... AUTHORIZING 1500.00 MAX.'"
+   ]
+  }
+ ],
+ "decline_reasons": [
+  {
+   "reason": "Tenant paid / settled with PM / payment arrangement / zero balance",
+   "count": 30,
+   "example_trackings": [
+    169,
+    193,
+    202,
+    206,
+    252,
+    282,
+    312,
+    370,
+    453,
+    543
+   ]
+  },
+  {
+   "reason": "Tenant defaulted on first full month rent",
+   "count": 18,
+   "example_trackings": [
+    39,
+    183,
+    263,
+    270,
+    314,
+    386,
+    623,
+    734,
+    803,
+    836
+   ]
+  },
+  {
+   "reason": "No active SD policy with YRIG / not in QL / premiums or SD fee not paid / other provider",
+   "count": 17,
+   "example_trackings": [
+    50,
+    62,
+    184,
+    248,
+    319,
+    329,
+    330,
+    418,
+    448,
+    603
+   ]
+  },
+  {
+   "reason": "Cancelled / voided / withdrawn / ignore per PM",
+   "count": 13,
+   "example_trackings": [
+    47,
+    151,
+    438,
+    480,
+    638,
+    742,
+    800,
+    802,
+    829,
+    877
+   ]
+  },
+  {
+   "reason": "Test claim",
+   "count": 11,
+   "example_trackings": [
+    46,
+    53,
+    67,
+    246,
+    247,
+    354,
+    591,
+    732,
+    861,
+    862
+   ]
+  },
+  {
+   "reason": "Duplicate claim",
+   "count": 9,
+   "example_trackings": [
+    324,
+    465,
+    679,
+    731,
+    747,
+    786,
+    837,
+    1008,
+    1238
+   ]
+  },
+  {
+   "reason": "Only pet damage (pet policy)",
+   "count": 7,
+   "example_trackings": [
+    132,
+    590,
+    673,
+    870,
+    873,
+    989,
+    1018
+   ]
+  },
+  {
+   "reason": "Only ineligible charges (utilities, late fees, move-out special)",
+   "count": 5,
+   "example_trackings": [
+    106,
+    537,
+    759,
+    1072,
+    1168
+   ]
+  },
+  {
+   "reason": "Only month-to-month / post-lease rent",
+   "count": 4,
+   "example_trackings": [
+    375,
+    709,
+    968,
+    1205
+   ]
+  },
+  {
+   "reason": "No reason recorded",
+   "count": 3,
+   "example_trackings": [
+    71,
+    112,
+    266
+   ]
+  },
+  {
+   "reason": "Tenant never moved in / PM released tenant without penalty",
+   "count": 2,
+   "example_trackings": [
+    172,
+    210
+   ]
+  },
+  {
+   "reason": "Fire / flood -> TLL/HO4/renters insurance",
+   "count": 2,
+   "example_trackings": [
+    301,
+    561
+   ]
+  },
+  {
+   "reason": "Short-term lease",
+   "count": 2,
+   "example_trackings": [
+    818,
+    956
+   ]
+  },
+  {
+   "reason": "Ledger in credit, no actual repairs",
+   "count": 1,
+   "example_trackings": [
+    241
+   ]
+  },
+  {
+   "reason": "Prior carrier (program started 12/1/23)",
+   "count": 1,
+   "example_trackings": [
+    440
+   ]
+  },
+  {
+   "reason": "Tenant still living in property",
+   "count": 1,
+   "example_trackings": [
+    564
+   ]
+  },
+  {
+   "reason": "Servicemembers Civil Relief Act",
+   "count": 1,
+   "example_trackings": [
+    622
+   ]
+  },
+  {
+   "reason": "No response / docs from PM",
+   "count": 1,
+   "example_trackings": [
+    743
+   ]
+  }
+ ],
+ "rent_cap_analysis": "Formula: cap = smallest multiple of $500 >= Monthly Rent (ceil(rent/500)*500); 134 of 137 claims whose notes state a cap match it exactly; payout ceiling = min(Max Benefit, cap). Timing: Dmitriy Finkler started noting it on 2023-04-18 (#75 'SD benefit is nearly double the rent amount, should not exceed 2k'). Until ~2024-04 the notes are retrospective ('should not have exceeded', 96 claims) and the claim was still paid above the cap in 61 of them (management paid Max Benefit; e.g. #420 rent 1245 cap 1500 paid 2500). From #539 (2024-04-24) / #575 (2024-05-20) the language becomes 'cannot exceed' (41 claims) and approved == cap in 30, > cap in 8 (goodwill/revisions 1020, 1081, 1150, 730, 751, 799). Scope: enforcement is concentrated on PURE / Treaty T00001: among claims with Max Benefit > cap after 2024-04-24, PURE was paid above cap 16/91 (18%) vs 52/87 (60%) before; T00002 PMs (StarPointe, RentWerx, Blue Fox, Johnson...) 77/127 above cap; Perry Reid (T00003, flat $1,500 max, rents often < $1,000) 50/91 above cap and never capped. Origin: July-2023 'program rules and guidelines' rates table (premium tier by rent, e.g. '$33 per month for preferred tenant is for a $1,500 benefit'); #793 (2024-09) paid goodwill 1500 because 'the incorrect rate has been used for 2000.00 benefit'. Recommendation for the engine: apply the cap for PURE (T00001) claims with claim date >= 2024-05 and any claim with a 'cannot exceed' note; otherwise use Max Benefit as ceiling; flag the rest as 'cap would apply under guidelines'.",
+ "row_mapping": "'Row N' in the Comments sheet = row position in the original Smartsheet at export time (2025-04-04). Rows 1-10 = the 10 newest claims added on top after the last sort, in descending tracking order (1246, 1245, 1244, 1243, 1242, 1241, 1238, 1237, 1236, 1235; 1239/1240 deleted). Rows 11+ = all other claims sorted by Property Management Company (case-insensitive A-Z), then Claim Date descending, then Tracking Number descending (ties). It is NOT a pure claim-date-descending order. Known deviations: #1222 (PM now 'x') was 'Perry Reid Properties'; #46 (test claim, blank PM) was not at the top; a few claims whose Claim Date was edited after export (reopened, e.g. 117, 142, 50) are locally out of order and were repaired with a banded optimal (Hungarian) assignment plus explicit text evidence; Row 391 refers to a claim no longer in the sheet (unmapped). Result: 1176 of 1177 commented rows mapped (569 high, 601 medium = date-consistent inside same-date blocks, 6 low).",
+ "mapping_validation": "First comment of the thread falls on the claim date for 965/1176 mapped rows, within 0-3 days for 1146 (97.4%), within 0-14 days for 1163; only 8 precede the claim date. Null check: shifting every mapping by +1/-1/+5/-5 positions drops the 0-3-day agreement to 595/1176 / 501/1176 / 178/1174 / 122/1172. Independent text anchors: 'monthly rent of X' quotes match the mapped Monthly Rent 34/34; cap phrases equal ceil500(mapped rent) 120/123; unique strong anchors (address, policy #, tracking #, rent) agree 55/59 (the 4 disagreements: #166's comment says the attached 205 Amberwood ledger 'does not pertain to this claim', the others are coincidental amount matches); denial phrases in the latest comment match a Declined/zero-paid claim 14/15; 'approved for $X' equals Approved Benefit Amount 5/9 (misses are supplemental top-ups, e.g. 1175+825=2000). Seed anchors from the brief all hold: Row 6->1241, Row 7->1238 (Declined duplicate), Row 8->1237, Row 9->1236, Row 10->1235, plus Row 5->1242 (Property Services of Columbus) and Row 4->1243 (Pending Docs). Tie-break (tracking desc within same date) validated in the 16-claim Perry Reid 2025-03-18 block (Row 441->1205 Declined 'CLAIM IS DENIED', Row 447->1197 Pending Docs, Row 433->1213 one-month-rent=approved 745).",
+ "notes": [
+  "Output written: /Users/Andrewpleeter/Downloads/CORGI_TAKE_HOME/cache/comments_by_tracking.json ({tracking: {comments:[{text,author,ts,reply}], source_row, mapping_confidence, first_comment_gap_days, override_reason}} + _mapping_method/_confidence_levels/_unmapped_rows meta keys). Credentials found in one thread (Row 1241 -> #22) were redacted.",
+  "Comment authors: Dmitriy Finkler 3727 (2023-01..2025-04, intake/adjudication/collections), 'james keys' = Doug Keys (dkeys@, approver/management) 553, Kelly Carroll 109 (policy admin & payments), Gabe Galaviz 42 (2023-01..2023-07, adjudication; tagged until 2024-08), PM staff (purepm.co etc.) a handful; Bobby Oommen (reinsure.com) payments 2024-07+.",
+  "Treaty map: T00001 = PURE family + New Heights (458 claims, 2022-03..2025-04); T00002 = StarPointe/RentWerx/Blue Fox/Johnson/etc (378); T00003 = Perry Reid (192, Max Benefit flat 1500, from 2023-04); T00004 = Excalibur (174, 2022-11..2025-01); T00005 = Reliant (17).",
+  "Lease-break rule of thumb from notes: payout = unpaid rent within term + prorated days up to move-out + ONE month rent as lease-break fee (or the reletting fee if no lease-break rent) + eligible repairs/cleaning, minus exclusions, capped at min(Max Benefit, rent cap where enforced).",
+  "Month-to-month leases: excluded from 2023-11 (rent after original lease end not covered; repairs under original policy are covered, #725/#383); 2025 PURE m2m renewal paid one month rent + one SDRP fee (#1229); Perry Reid m2m: partial current-month rent paid, no future months (#1214).",
+  "Eviction: Termination Type 'Eviction' claims are paid for unpaid in-term rent (dozens of 'EVICTION, RENT NOT PAID SINCE ...' notes on Posted claims); only eviction/court/legal FEES are excluded (2024+ notes). No note shows eviction fees being paid; 2023 eviction claims were simply paid to Max Benefit.",
+  "Utilities: generally excluded; PM-specific exceptions (StarPointe $150 cap per April-2024 agreement; Property Services of Columbus allowed 2025-04; Johnson #683 2024-07 'repairs and utilities').",
+  "Military: tenant with military orders cannot be charged a lease-break fee (#44 2023-02); SCRA letter -> decline (#622).",
+  "Status 'Declined' with non-zero Approved Benefit Amount exists (440, 568, 803, 829, 1092, 1168): treat Declined as payout 0 regardless of the amount column.",
+  "Decline reasons were classified for all 124 Declined + 4 Test Claim rows using PM Explanation first, then latest comment; 3 have no recorded reason (71, 112, 266).",
+  "The PM Explanation for #79 ('5066 Stoney Po') is a stray address, not an explanation."
+ ],
+ "validation_metrics": {
+  "n_comment_rows": 1177,
+  "n_mapped": 1176,
+  "first_comment_same_day_as_claim": 965,
+  "first_comment_within_0_3_days": 1146,
+  "first_comment_within_0_14_days": 1163,
+  "negative_gap": 8,
+  "null_shift_+1_within_0_3": "595/1176",
+  "null_shift_-1_within_0_3": "501/1176",
+  "null_shift_+5_within_0_3": "178/1174",
+  "null_shift_-5_within_0_3": "122/1172",
+  "strong_text_anchor_agree": 55,
+  "strong_text_anchor_disagree": 4,
+  "anchor_disagreements": [
+   [
+    "166",
+    "304",
+    "299",
+    "['addr 205 amberwood']"
+   ],
+   [
+    "702",
+    "123",
+    "588",
+    "['amt 410.0', 'amt 410.0']"
+   ],
+   [
+    "915",
+    "1174",
+    "753",
+    "['rent 995.0', 'amt 995.0']"
+   ],
+   [
+    "983",
+    "445",
+    "863",
+    "['amt 99.0', 'amt 99.0']"
+   ]
+  ],
+  "quoted_monthly_rent_matches": "34/34",
+  "quoted_rent_mismatches": [],
+  "cap_phrase_equals_rent_rounded_up_to_500": "120/123",
+  "approved_for_X_matches_approved_amount": "5/9",
+  "approved_for_X_mismatch_examples": [
+   [
+    "94",
+    "44",
+    "[880.36]",
+    "3000.36"
+   ],
+   [
+    "393",
+    "50",
+    "[1500.0]",
+    "0.0"
+   ],
+   [
+    "396",
+    "45",
+    "[1175.0]",
+    "2000.0"
+   ],
+   [
+    "700",
+    "150",
+    "[2.0, 2028.0]",
+    "2000.0"
+   ]
+  ],
+  "denial_phrase_latest_comment_vs_declined_or_zero": "14/15",
+  "denial_mismatch_examples": [
+   [
+    "264",
+    "61",
+    "Posted",
+    "2000"
+   ]
+  ],
+  "confidence_counts": {
+   "medium": 605,
+   "high": 565,
+   "low": 6,
+   "unmapped": 1
+  }
+ }
+}

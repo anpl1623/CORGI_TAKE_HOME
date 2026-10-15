@@ -1,0 +1,260 @@
+{
+ "tracking": 809,
+ "winning_document": "Tenant-Ledger-2024_09_16_13_10_56.pdf",
+ "pm_stated_amount_due": 3837.71,
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "Tenant-Ledger-2024_09_16_13_10_56.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first, correct tenant (Clarissa Neely, 192 Upper Wing Trl); five post-move-out chargebacks total 3,837.71; balance 0 before them."
+  },
+  {
+   "file": "Demand Email_192 Upper Wing Trl_Neely.png",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PM email states balance 3,837.71 due; Final Statement attachment not in folder."
+  },
+  {
+   "file": "Ledger_192 Upper Wing Trl_Neely.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "MISFILED: ledger for a different tenant and property (Latreeshla Tinsley, 405 Harbison Blvd #426). Ignored entirely."
+  },
+  {
+   "file": "Garage Door Repair.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-07-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Precision Garage Door estimate 648048679 for new 16x7 door, total 2,826.15; equals the ledger charge. Estimate only."
+  },
+  {
+   "file": "Invoice #648026767.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Garage door adjustment repair 283.25 billed to and paid on 7/21/2024 by the tenant (Visa); tenant-paid receipt, not a charge and not credited on the ledger."
+  },
+  {
+   "file": "Safety Checklist-Appt 648026767-1.pdf",
+   "doc_type": "other",
+   "doc_date": "2024-07-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Garage door technician checklist: worn rollers, springs unbalanced, bottom two panels damaged and sagging, recommends new door."
+  },
+  {
+   "file": "Adobe Scan Sep 9, 2024.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Midlands Appliance invoice: wash arms and conduit, parts 82 + tax 6.56 + labor 184 = 272.56; replaced broken or melted pieces."
+  },
+  {
+   "file": "Spot On Carpet Cleaning Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 000285, 6 rooms deep steam clean 240.20; together with 000286 (100.00) supports the 340.00 ledger line."
+  },
+  {
+   "file": "Spot on Carpet-2.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-22",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 000286, 1-2 rooms deep steam clean 100.00."
+  },
+  {
+   "file": "Lease_192 Upper Wing Trl_Neely.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-17",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Page 1 read: term 08/01/2023-08/01/2024, rent 3,095, deposit 0.00."
+  },
+  {
+   "file": "SDRP Addendum_192 Upper Wing Trl_Neely.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-17",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, 65.00/month in lieu of 4,000.00 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3095,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-08-01",
+  "current_term_start": "2023-08-01",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2024-08-01",
+  "lease_start": "2023-08-01",
+  "monthly_sd_premium": 65,
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly fee",
+    "amount": 65
+   },
+   {
+    "name": "RBP w/insurance",
+    "amount": 45.95
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 4000
+ },
+ "move_out": {
+  "move_out_date": "2024-08-01",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out rekey",
+   "category": "rekey_locks",
+   "amount_charged": 99,
+   "amount_open": 99,
+   "date_posted": "2024-08-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_16_13_10_56.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Paint touch ups (no invoice in folder)",
+   "category": "painting",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_16_13_10_56.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet cleaning (Spot On invoices 000285 240.20 + 000286 100.00; PM charged 340.00)",
+   "category": "carpet_cleaning",
+   "amount_charged": 340,
+   "amount_open": 340,
+   "date_posted": "2024-08-16",
+   "service_period_start": "2024-08-16",
+   "service_period_end": "2024-08-22",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_16_13_10_56.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Garage door replacement charged at Precision Garage Door ESTIMATE 648048679 (new 16x7 door 2,805 + 3% card surcharge 84.15 + recycling fee 42 + service fee 95 - coupons); no replacement invoice in folder",
+   "category": "repairs_damage",
+   "amount_charged": 2826.15,
+   "amount_open": 2826.15,
+   "date_posted": "2024-08-16",
+   "service_period_start": "2024-07-21",
+   "service_period_end": "2024-07-21",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "Garage Door Repair.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Dishwasher repair, ledger note: arm broke from overloading (Midlands Appliance, wash arms and conduit)",
+   "category": "appliance",
+   "amount_charged": 272.56,
+   "amount_open": 272.56,
+   "date_posted": "2024-08-20",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Adobe Scan Sep 9, 2024.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-09-16",
+  "balance_due": 3837.71,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "sum(open lines) 99+300+340+2826.15+272.56 = 3,837.71 - credits 0 = 3,837.71 vs PM stated 3,837.71 (demand email and ledger balance): match.",
+ "notes": "No PM move-out statement in folder; ledger open rows are the winning document and the demand email total confirms them. Ledger shows balance 0.00 before move-out. 'Ledger_192 Upper Wing Trl_Neely.pdf' belongs to another tenant/property and was ignored. Garage door line equals the full-replacement estimate dated 07-21-2024 (3% card surcharge and recycling fee embedded), not a billed replacement; the same-day repair invoice (283.25) was paid by the tenant and technician notes cite worn rollers and springs plus bent bottom panels, so part of the damage may be wear. Midlands invoice is dated 09-09-2024 though the ledger charge posted 08-20-2024. Paint touch ups and rekey have no vendor support. First payment was a 07-17-2023 cashier's check covering August 2023 rent.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a494229859b1afb21"
+ }
+}

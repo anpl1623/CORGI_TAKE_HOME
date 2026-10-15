@@ -1,0 +1,171 @@
+{
+  "tracking": 130,
+  "documents": [
+    {
+      "file": "Itemization - 15141 Imagine.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-05-12",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Lizzette Thomas - 15141 Imagine Drive - 1 Collections.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Lease Agreement - Lizzette Thomas.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-13",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Itemization - 15141 Imagine.pdf",
+  "pm_stated_amount_due": 1781.9,
+  "lease": {
+    "base_monthly_rent": 1725.0,
+    "recurring_addons": [
+      {
+        "name": "Security deposit waiver monthly payment",
+        "amount": 33.0
+      }
+    ],
+    "lease_start": "2022-08-13",
+    "lease_end": "2023-07-31",
+    "current_term_start": "2022-08-13",
+    "current_term_end": "2023-07-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 250.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-05-12",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": null,
+    "balance_due": null,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": null
+  },
+  "line_items": [
+    {
+      "description": "Repair drywall in living room, touch up paint dining/hallway, master bedroom drywall, tighten toilet seat, secure towel bar, replace light bulbs",
+      "category": "repairs_damage",
+      "amount_open": 492.47,
+      "amount_charged": 492.47,
+      "date_posted": "2023-05-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Itemization - 15141 Imagine.pdf",
+      "source_page": 4,
+      "confidence": 0.95
+    },
+    {
+      "description": "Carpet Clean",
+      "category": "carpet_cleaning",
+      "amount_open": 189.44,
+      "amount_charged": 189.44,
+      "date_posted": "2023-05-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Itemization - 15141 Imagine.pdf",
+      "source_page": 4,
+      "confidence": 0.95
+    },
+    {
+      "description": "Power wash outdoor stucco with enzyme treatment due to pet urine damage, repair and paint; 1 missing window screen and 2 damaged",
+      "category": "pet_damage_odor",
+      "amount_open": 909.99,
+      "amount_charged": 909.99,
+      "date_posted": "2023-05-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Itemization - 15141 Imagine.pdf",
+      "source_page": 4,
+      "confidence": 0.95
+    },
+    {
+      "description": "Cleaning / maintenance of Property per itemization line (2)",
+      "category": "cleaning",
+      "amount_open": 440.0,
+      "amount_charged": 440.0,
+      "date_posted": "2023-05-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Itemization - 15141 Imagine.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Security Deposit tendered by Tenant",
+      "amount": 250.0,
+      "type": "security_deposit_applied",
+      "already_netted_in_line_items": false,
+      "source_file": "Itemization - 15141 Imagine.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 2031.90 - 250.00 = 1781.90 vs PM stated 1781.90 (exact match).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Power wash of outdoor stucco with enzyme treatment due to pet urine damage, repair and paint. 1 missing window screen",
+      "file": "Itemization - 15141 Imagine.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated on 2023-05-12 before lease expiration of 2023-07-31. Itemization form TXR-2216 itemizes physical damage and cleaning deductions totaling $2,031.90, minus $250.00 tendered deposit, leaving $1,781.90 due. A $910.00 line item mixes pet urine stucco power wash with damaged/missing window screens."
+}

@@ -1,0 +1,152 @@
+{
+ "tracking": 892,
+ "winning_document": "6979 Zaniah Road - Ledger.pdf (statement 10/17/24) with no-refund letter (10/17/2024)",
+ "documents": [
+  {
+   "file": "6979 Zaniah Road - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Only accounting document; 10/04/24 damage postings total 1,105"
+  },
+  {
+   "file": "6979 Zaniah Road - No refund letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Disposition letter refers to attached ledger; no amounts"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2245,
+  "lease_start": "2022-09-16",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 48
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 1105,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-04"
+ },
+ "line_items": [
+  {
+   "description": "Drywall damage from TV mount, decals, peeling",
+   "category": "repairs_damage",
+   "amount_open": 600,
+   "amount_charged": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-04",
+   "source_file": "6979 Zaniah Road - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet stain, two upstairs bedrooms",
+   "category": "carpet_cleaning",
+   "amount_open": 50,
+   "amount_charged": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-04",
+   "source_file": "6979 Zaniah Road - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  },
+  {
+   "description": "Attic air-handler filter wrong size",
+   "category": "other_fee",
+   "amount_open": 35,
+   "amount_charged": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-04",
+   "source_file": "6979 Zaniah Road - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.75
+  },
+  {
+   "description": "Carpet cleaning, no receipt in file",
+   "category": "carpet_cleaning",
+   "amount_open": 400,
+   "amount_charged": 400,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-04",
+   "source_file": "6979 Zaniah Road - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.6
+  },
+  {
+   "description": "Lower right cabinet hinge, master bath",
+   "category": "repairs_damage",
+   "amount_open": 20,
+   "amount_charged": 20,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-04",
+   "source_file": "6979 Zaniah Road - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "Opening ledger credit (previous balance), consumed by 2022 charges",
+   "amount": 2395,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "short_term_lease": false
+ },
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 1105,
+ "reconciliation": "Open lines 1,105.00 (600+50+35+400+20) less 0 open credits = 1,105.00 vs PM 1,105.00: match. No open rent or fees; the 9/4/24 payment covered September rent and SD insurance.",
+ "notes": "Ledger-only claim with the no-refund letter. Rent through 9/30/24 is paid, so no holdover or post-move-out rent. The opening -2,395 ledger credit is netted into 2022 history, not an open-line credit. The 400 carpet cleaning posting says no receipt; it is cleaning, not flooring replacement, so the flooring flag does not apply. Lease fields from sheet only (LITE).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa257c12afa44520c"
+ }
+}

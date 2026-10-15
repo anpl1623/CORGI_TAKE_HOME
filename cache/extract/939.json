@@ -1,0 +1,211 @@
+{
+ "tracking": 939,
+ "winning_document": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "PM statement, total due 11262.00; winning document"
+  },
+  {
+   "file": "tenant_ledger-jasmine_j_thompson-20241114.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Confirms open Apr-Sep items; 04/05 payment cleared pre-April balance"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1300,
+  "lease_start": "2023-08-07",
+  "lease_end": "2024-08-06",
+  "current_term_start": "2023-08-07",
+  "current_term_end": "2024-08-06",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": null,
+  "cash_deposit_amount": 0,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-09-06",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 31,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Apr 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "May 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Jun 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Jul 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Aug 2024 rent, holdover after 8/6",
+   "category": "rent_after_lease_end",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": 1,
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Sep 2024 rent, holdover; moved out 9/6",
+   "category": "rent_after_lease_end",
+   "amount_open": 1300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 26,
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "SDRP fee RIS_1500, Apr-Sep (6 x 28)",
+   "category": "sdrp_premium",
+   "amount_open": 168,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP w/ insurance, Apr-Sep (6 x 39)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 234,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Flat late fees Apr-Sep (6 x 130)",
+   "category": "late_fee",
+   "amount_open": 780,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Per-diem late fees Apr 5-Sep 23",
+   "category": "late_fee",
+   "amount_open": 2280,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-05",
+   "service_period_end": "2024-09-23",
+   "source_file": "deposit_disposition_amount_due_jasmine_j_thompson_110124 (1).pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 11262,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-04-05"
+ },
+ "pm_stated_amount_due": 11262,
+ "reconciliation": "Open lines total 11262.00 with no credits, equal to stated 11262.00; the 04/05/2024 payment cleared pre-April charges so no credit applies.",
+ "extraction_confidence": 0.9,
+ "notes": "Sheet and statement both say eviction; no writ or eviction costs billed. Aug and Sep rent charged in full; lease end per sheet 2024-08-06, tenant out 9/6. Per-diem late fees run to 9/23.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a029a31b1805cefd9"
+ }
+}

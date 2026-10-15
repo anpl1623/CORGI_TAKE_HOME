@@ -1,0 +1,225 @@
+{
+ "tracking": 652,
+ "documents": [
+  {
+   "file": "212  Duncan SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Undated. Ledger balance 394 less reversals 150+30 = 214. Lists move-out date 04/03/24, which conflicts with the statement, ledger and sheet (all 05/31/24). Treated as a typo."
+  },
+  {
+   "file": "212 Duncan Addendum.PDF",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-15",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES at 33/month in lieu of a one-month-rent deposit. Renters insurance YES at 19."
+  },
+  {
+   "file": "212 Duncan Lease.PDF",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "15 pages, no text layer. Not opened: rent, term and SD program are clear from the sheet, ledger and addendum."
+  },
+  {
+   "file": "212 Duncan Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid ledger, oldest-first. Used to split the statement's 1,347 prior balance, allocate payments and get first-month history."
+  },
+  {
+   "file": "212 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 214.00, 10 days to pay before referral to Hunter Warfield."
+  },
+  {
+   "file": "212 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting document. Final balance 214.00."
+  },
+  {
+   "file": "WTF DD Authorization.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened. Classified from the file name."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1150,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-09-30",
+  "current_term_start": "2023-09-22",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease Break Fee of 500 was charged 02/27/2024 and paid the same day (ledger). The lease clause itself was not reviewed.",
+  "lease_end": "2024-09-30",
+  "lease_start": "2023-09-22",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Garage rent (Apr/May garage reversed by PM)",
+    "amount": 50
+   },
+   {
+    "name": "Renters insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Pet fee (monthly pet rent; Apr/May reversed by PM)",
+    "amount": 25
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 40
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1150
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-05-31",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (05/2024), unpaid remainder. Charged 1,150. Payments of 2,300 cleared April (1,347) first, then 953 of May. The 75 surplus from the Apr/May garage and pet reversals nets against this rent, leaving 122.",
+   "category": "rent_in_term",
+   "amount_charged": 1150,
+   "amount_open": 122,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "212 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Renters Insurance (05/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "212 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Security Deposit Protection (05/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "212 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility Revenue (05/2024)",
+   "category": "utilities",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "212 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments 05/13/2024 (1,800) and 05/22/2024 (500) via PayLease ACH",
+   "amount": 2300,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "212 Move Out Statement.pdf"
+  },
+  {
+   "description": "PM reversals: Apr/May garage rent -100, Apr/May pet fees -50, May late fee -30",
+   "amount": 180,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "212 Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-07-01",
+  "balance_due": 214,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-22"
+ },
+ "pm_stated_amount_due": 214,
+ "winning_document": "212 Move Out Statement.pdf",
+ "reconciliation": "Open lines 122+19+33+40 = 214.00, no unnetted credits, vs PM stated 214.00 (statement, letter and SDI). Match. The SDI shows ledger balance 394 less 180 of reversals = 214.",
+ "extraction_confidence": 0.85,
+ "notes": "Early termination: notice 02/21/24, lease break fee 500 paid 02/27/24 (not open), vacated 05/31/24, lease end 09/30/24. No future rent or reletting fee claimed. The first-month payment cleared. The June 2024 and later statement has no further charges. If payments are applied strictly in posting order before the reversals, the 214 splits as rent 197 plus fees 19+33+40 less a 75 credit. The category mix is the same, and rent is the only variable piece. SD program is a Perry Reid Security Deposit Waiver addendum with a 33/month fee, so it is recorded as deposit_waiver.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa5bd1a3e28a7c40e"
+ }
+}

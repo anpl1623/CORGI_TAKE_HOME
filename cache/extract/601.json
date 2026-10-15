@@ -1,0 +1,148 @@
+{
+ "tracking": 601,
+ "winning_document": "10421 Ashwood C Itemization (version 2).pdf",
+ "pm_stated_amount_due": 916.44,
+ "extraction_confidence": 0.88,
+ "documents": [
+  {
+   "file": "10421 Ashwood C Itemization (version 2).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": true,
+   "revised": true,
+   "opened_visually": false,
+   "note": "TXR-2216 05-15-24 revised itemization: repair 500 + clean 350 + water 66.44; balance 916.44. Move-out 4/30/2024."
+  },
+  {
+   "file": "10421 Ashwood C Itemization (1).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-05-21",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Superseded earlier version (1,232.66; wrong move-out date 5/13/2024; included landscape 243.57)."
+  },
+  {
+   "file": "Statement (6).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Latest ledger; MO Repairs 850.00 + water 66.44 open = 916.44; all earlier charges paid. Used for payment history and water period."
+  },
+  {
+   "file": "Statement.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-12",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Earlier ledger (1,232.66), superseded."
+  },
+  {
+   "file": "Lease ashwood C.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "No text layer; read via local OCR (pages 7-44): TXR-2001 lease p7-8, zero deposit addendum p31, rent breakdown p38."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1500,
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-04-21",
+  "lease_end": "2024-04-30",
+  "current_term_start": "2023-04-21",
+  "current_term_end": "2024-04-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Pet rent",
+    "amount": 35
+   },
+   {
+    "name": "Zero Deposit monthly payment (ZDP)",
+    "amount": 33
+   },
+   {
+    "name": "Renter's insurance (from 12/2023)",
+    "amount": 14
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out repairs lump (curtain brackets, 4 bulbs, smoke detector/alarms reinstall, toilet won't flush, towel bar, ceiling tissue, blinds, damaged blinds, backyard pet waste removal)",
+   "category": "repairs_damage",
+   "amount_open": 500,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "10421 Ashwood C Itemization (version 2).pdf",
+   "source_page": 1,
+   "confidence": 0.75,
+   "date_posted": "2024-06-13"
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "10421 Ashwood C Itemization (version 2).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-06-13"
+  },
+  {
+   "description": "Water utilities (EPW bill service 3/5/24-4/4/24)",
+   "category": "utilities",
+   "amount_open": 66.44,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Statement (6).pdf",
+   "source_page": 4,
+   "confidence": 0.95,
+   "date_posted": "2024-04-12",
+   "service_period_start": "2024-03-05",
+   "service_period_end": "2024-04-04"
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-06-13",
+  "balance_due": 916.44,
+  "first_full_month": "2023-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-04"
+ },
+ "flags": {
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "10421 Ashwood C Itemization (version 2).pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "BACKYARD -REMOVE PET WASTE (listed within the Repair $500.00 damages addendum)"
+  }
+ ],
+ "reconciliation": "sum(open lines) 500.00 + 350.00 + 66.44 = 916.44 - credits 0 = PM stated 916.44 (itemization v2 balance and Statement (6) agree).",
+ "notes": "Used revised v2 (6/13/24) over v1 (6/12 ledger 1,232.66). Sheet rent 1535 = base 1500 + pet rent 35; ZDP 33 and renter's insurance 14 are add-ons. Repair 500 lump has no split between pet waste removal and general repairs, so line marked pet_related with mixed flag. Late fees and NSF in Aug 2023 were paid history. Deposits held 0.00.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa37b49fc61e54eed"
+ }
+}

@@ -1,0 +1,448 @@
+{
+ "tracking": 665,
+ "winning_document": "C Fletcher final statement.pdf",
+ "pm_stated_amount_due": 3757,
+ "documents": [
+  {
+   "file": "C Fletcher final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc. Rent Manager final statement; balance due 3,757.00. The 'Collection fees 1,878.50 / 5,635.50 if assigned to collections' lines are hypothetical and not counted."
+  },
+  {
+   "file": "C Fletcher ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Full ledger from 12/2023, oldest first. Used for payment allocation and first-month history. Same open balance 3,757.00 as the final statement."
+  },
+  {
+   "file": "C Fletcher demand letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Demands 3,757.00 within 7 days. Corroborates the statement total."
+  },
+  {
+   "file": "C Fletcher letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical copy of the demand letter (same byte size)."
+  },
+  {
+   "file": "C Fletcher collection letter.pdf",
+   "doc_type": "other",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Generic JPM deposit-return cover letter with no amounts."
+  },
+  {
+   "file": "C Fletcher ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-12-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Zero Deposit Program addendum, $45/month in lieu of deposit. Tenant initialed."
+  },
+  {
+   "file": "C Fletcher invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "RPM invoice 8676 = 343.75, same as the statement repair line."
+  },
+  {
+   "file": "C Fletcher invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Contractor invoice 280.00; PM billed 235.00 and the statement governs."
+  },
+  {
+   "file": "C Fletcher invoice paint.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Tenant-charge labor 90 (owner-charge paint 120 excluded); PM billed 84.00 and the statement governs."
+  },
+  {
+   "file": "C Fletcher invoice landscaping.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Handwritten receipt, mow/yard cleanup and removal of carpet and items. Total illegible; statement lines 390.00 landscaping and 90.00 hauling govern."
+  },
+  {
+   "file": "C Fletcher invoice carpet.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Flooring invoice 3-313539 = 1,590.73 (LR/hall carpet, garage carpet, bath LVP). PM billed only a partial/prorated 743.84."
+  },
+  {
+   "file": "C Fletcher lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "19-page scan not opened. Rent, dates and SD program are clear from sheet facts, ZDP addendum and ledger."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1395,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "initial_term_months": 13.5,
+  "lease_start": "2023-12-12",
+  "lease_end": "2025-01-31",
+  "current_term_start": "2023-12-12",
+  "current_term_end": "2025-01-31",
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Resident Insurance Program / YRIG renters insurance",
+    "amount": 16
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-06-05",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-10",
+  "balance_due": 3757,
+  "first_full_month": "2024-01",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-24"
+ },
+ "line_items": [
+  {
+   "description": "Rent May 2024. Charged 1,395.00; open remainder after the 600.00 of tenant payments is allocated oldest-first (17.00 renters insurance, then 583.00 rent).",
+   "category": "rent_in_term",
+   "amount_charged": 1395,
+   "amount_open": 812,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Amenity Service Package May 2024",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Zero Deposit Program Charge May 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late charge (May rent)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-05-08",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "3-day notice mailed and served per Idaho law",
+   "category": "eviction_legal_court",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-05-20",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent June 2024, 5-day prorate through return of possession",
+   "category": "rent_in_term",
+   "amount_charged": 232.5,
+   "amount_open": 232.5,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Amenity Service Package, 5-day June prorate",
+   "category": "other_fee",
+   "amount_charged": 8.33,
+   "amount_open": 8.33,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Zero Deposit Program Charge June 2024 (full 45.00, not prorated)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance, YRIG policy June 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-06-01",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant-responsible repairs, parts and labor (invoice RPM 8676: screen, door stop, drip pans, nail-hole patch, blind slats, 2.5 hr labor)",
+   "category": "repairs_damage",
+   "amount_charged": 343.75,
+   "amount_open": 343.75,
+   "date_posted": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear cleaning (Rayo; invoice says 280.00, PM billed 235.00)",
+   "category": "cleaning",
+   "amount_charged": 235,
+   "amount_open": 235,
+   "date_posted": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear painting (Tona; patched drywall touch-up)",
+   "category": "painting",
+   "amount_charged": 84,
+   "amount_open": 84,
+   "date_posted": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant-responsible yard cleanup (Pablo)",
+   "category": "landscaping_lawn",
+   "amount_charged": 390,
+   "amount_open": 390,
+   "date_posted": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant-responsible hauling of left-over items (Pablo)",
+   "category": "trash_removal",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-06-05",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Legal eviction services (attorney, filing, service)",
+   "category": "eviction_legal_court",
+   "amount_charged": 461.58,
+   "amount_open": 461.58,
+   "date_posted": "2024-06-06",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Pet Flooring Inspection Service: tenant-responsible carpet pet/animal urine inspection",
+   "category": "pet_damage_odor",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-06-10",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Repairs: partial/prorated amount to replace ruined carpet inside house (flooring invoice 3-313539 total 1,590.73; PM bills 743.84). The sequence after the pet urine inspection suggests pet-related, but no document says so explicitly.",
+   "category": "flooring",
+   "amount_charged": 743.84,
+   "amount_open": 743.84,
+   "date_posted": "2024-06-25",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "C Fletcher final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments of 300.00 on 5/17/24 and 300.00 on 5/24/24 (EMO). Allocated oldest-first into the May 2024 lines: 17.00 renters insurance (fully paid, omitted) and 583.00 against May rent.",
+   "amount": 600,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "C Fletcher ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "C Fletcher final statement.pdf",
+   "flag": "pet_related_line",
+   "quote": "Tenant responsible carpet pet/animal urine inspection 125.00"
+  },
+  {
+   "file": "C Fletcher final statement.pdf",
+   "flag": "eviction_termination",
+   "quote": "Legal eviction services - attorney/filing/service 461.58; charged through return of possession"
+  },
+  {
+   "file": "C Fletcher ZDP Addendum.pdf",
+   "flag": "sd_program_zero_deposit",
+   "quote": "I/We agree to pay $45.00 monthly in lieu of making an up-front security deposit."
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "reconciliation": "Sum of open lines 3,757.00 (gross charges 4,357.00 less 600.00 payments allocated into lines) equals PM stated 3,757.00; no difference.",
+ "notes": "Rent Manager eviction. The statement billing period starts 4/23/24 with previous balance 0.00, and the ledger confirms the open balance is 3,757.00 from May-June 2024 charges only. Earlier NSF, late and 3-day-notice items (Jan-Apr 2024) were paid and are excluded. First full month is Jan 2024: two Web Pay checks (600 and 550) were NSF-reversed 1/25 and 2/1, so Jan rent was not paid in full by month end. The first payment (12/6/23 move-in, 387.00) cleared, so first_payment_bounced is false. Lease start is 12/12/2023 per the sheet, but the ledger prorates move-in from 12/16 (initial term about 13.5 months). Lease PDF not opened. The landscaping receipt is handwritten and its total is illegible.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aad1597ffcd560114"
+ }
+}

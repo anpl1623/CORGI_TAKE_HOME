@@ -1,0 +1,126 @@
+{
+  "tracking": 193,
+  "documents": [
+    {
+      "file": "7891_Champion_Way_Unit_C_Move_Out_Evaluation_2023-07-24.pdf",
+      "doc_type": "inspection_photo_report",
+      "doc_date": "2023-07-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Collections - SDRP Notice to Tenant (16).pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-08-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(06-23-2022_-_06-23-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-23",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_NHPM_Lease_v_2022_(06-23-2022_-_06-23-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-23",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "invoice_17_Aug_2023_11_51_35.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-08-17",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Collections - SDRP Notice to Tenant (16).pdf",
+  "pm_stated_amount_due": 610.0,
+  "lease": {
+    "base_monthly_rent": 1695.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 50.0
+      }
+    ],
+    "lease_start": "2022-07-22",
+    "lease_end": "2023-07-21",
+    "current_term_start": "2022-07-22",
+    "current_term_end": "2023-07-21",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2543.0,
+    "monthly_sd_premium": 50.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "Rent and late fees until re-rented plus costs of locating new tenant/securing residence"
+  },
+  "move_out": {
+    "move_out_date": "2023-07-21",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 0,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": null,
+    "balance_due": null,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": null
+  },
+  "line_items": [
+    {
+      "description": "Current outstanding charges and damages per move-out inspection",
+      "category": "repairs_damage",
+      "amount_open": 610.0,
+      "amount_charged": 610.0,
+      "date_posted": "2023-08-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Collections - SDRP Notice to Tenant (16).pdf",
+      "source_page": 1,
+      "confidence": 0.9
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 610.00 - 0.00 = 610.00 vs PM stated 610.00; exact match. Note: demand letter demands $610.00, which reflects $410.00 vendor invoice (drywall $130, carpet cleaning $80, repairs/coax/bulbs $200) plus lease paragraph 8 $200.00 SD repair administrative fee. Attached ledger was not provided.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": true,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [
+    {
+      "flag": "missing_ledger",
+      "quote": "Please review the attached tenant ledger for details regarding these final charges.",
+      "file": "Collections - SDRP Notice to Tenant (16).pdf"
+    }
+  ],
+  "extraction_confidence": 0.9,
+  "notes": "PM demand letter used as winning document per doc-handling rule 1 (preference 3: demand letter total over preference 4: vendor invoices). Vendor invoice totals $410.00 with the remaining $200.00 corresponding to the lease administrative fee."
+}

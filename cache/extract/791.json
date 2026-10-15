@@ -1,0 +1,312 @@
+{
+ "tracking": 791,
+ "extraction_confidence": 0.9,
+ "winning_document": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+ "pm_stated_amount_due": 14914.96,
+ "reconciliation": "Open lines sum 14914.96; no extra credits (1.05 overpayment credit already netted in Aug rent); PM amount due 14914.96; match.",
+ "notes": "Statement and ledger tie at 14914.96. Ledger is oldest-first; every charge is open. The 10913 lease-break charge is split into seven monthly rent lines (7 x 1559). Sheet termination Eviction kept; no writ or filing charge in the documents. Lease excerpts visible in digest not used; inspection report not used.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-30",
+   "used_for_amounts": true,
+   "note": "Winning PM statement, 14914.96 due",
+   "opened_visually": false
+  },
+  {
+   "file": "tenant_ledger-aaron_a_vannoy_christina_rinker-20240903.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-03",
+   "used_for_amounts": true,
+   "note": "Splits lines, ties to statement, 1.05 credit",
+   "opened_visually": false
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 5676 AAron Vannoy and Christina Rinker.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-30",
+   "used_for_amounts": false,
+   "note": "Same 14914.96 total; corroborates only",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1598.95,
+  "lease_start": "2023-10-01",
+  "lease_end": "2025-03-31",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-09-03",
+  "balance_due": 14914.96,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-20"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-14",
+  "termination": "eviction"
+ },
+ "line_items": [
+  {
+   "description": "Aug 2024 rent (full month charged)",
+   "category": "rent_in_term",
+   "amount_charged": 1559,
+   "amount_open": 1557.95,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Garbage and recycling Aug 2024",
+   "category": "utilities",
+   "amount_open": 20,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "TLL20 liability fee Aug 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19.95,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee Aug 2024",
+   "category": "late_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee $5/day 08/05-08/14",
+   "category": "late_fee",
+   "amount_open": 50,
+   "service_period_start": "2024-08-05",
+   "service_period_end": "2024-08-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Sep 2024 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Oct 2024 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Nov 2024 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Dec 2024 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Jan 2025 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Feb 2025 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2025-02-01",
+   "service_period_end": "2025-02-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Mar 2025 (post move-out, in term)",
+   "category": "rent_after_move_out",
+   "amount_open": 1559,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Final utility bill 07/16-08/13/24",
+   "category": "utilities",
+   "amount_open": 982.06,
+   "service_period_start": "2024-07-16",
+   "service_period_end": "2024-08-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Crisper drawer, cracked",
+   "category": "appliance",
+   "amount_open": 129,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Stove drip pans (4)",
+   "category": "appliance",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Bulk items removal",
+   "category": "trash_removal",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Closet repair, foam damage",
+   "category": "repairs_damage",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Unit clean",
+   "category": "cleaning",
+   "amount_open": 199,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 115,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting charges",
+   "category": "painting",
+   "amount_open": 104,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_aaron_a_vannoy_Christina Rinker_083024.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Jul 5 overpayment credit applied to Aug rent",
+   "amount": 1.05,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

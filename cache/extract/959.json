@@ -1,0 +1,389 @@
+{
+ "tracking": 959,
+ "winning_document": "Ewing 0911 Move Out Statement.pdf",
+ "pm_stated_amount_due": 2555.21,
+ "documents": [
+  {
+   "file": "Ewing 0911 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Deposit waiver YES $33/mo in lieu of $1,200 deposit; renters insurance YES $19/mo (YRIG)."
+  },
+  {
+   "file": "Ewing 0911 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-3 read: rent 900, term 10/12/2023-9/30/2024, auto MTM, cash SD 0.00, reletting charge 250 clause."
+  },
+  {
+   "file": "Ewing 0911 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 2,555.21; matches statement."
+  },
+  {
+   "file": "Ewing 0911 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; opening balance 1,032.00 split via ledger into Sept components."
+  },
+  {
+   "file": "Ewing 0911 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Agrees: ledger balance 2,156.00 + reletting 250 + misc 149.21 = 2,555.21; no deposit held."
+  },
+  {
+   "file": "Ewing Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first (Rent Manager style). Used to split balance forward and for first-month history."
+  },
+  {
+   "file": "STJ DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 30
+   },
+   {
+    "name": "Liability Protection Option 1 (Oct 2024 only)",
+    "amount": 16
+   }
+  ],
+  "lease_start": "2023-10-12",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2024-10-01",
+  "current_term_end": null,
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Para 11: reletting charge $250 if no written 60-day move-out notice, move out without paying full term rent, move out at landlord demand, or evicted. Not a release from rent."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-17",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 17,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (09/2024) - unpaid, in balance forward",
+   "category": "rent_in_term",
+   "amount_charged": 900,
+   "amount_open": 900,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing Ledger.docx",
+   "source_page": null,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance (09/2024) - unpaid",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection (09/2024) - unpaid",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing Ledger.docx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Utility Revenue (09/2024) - unpaid",
+   "category": "utilities",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late Charge Late Fee (Sept, posted 09/06/2024) - unpaid",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing Ledger.docx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Residential Rent (10/2024) charged full month, tenant held over after 9/30 lease end and vacated 10/17",
+   "category": "rent_after_lease_end",
+   "amount_charged": 945,
+   "amount_open": 945,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Month to Month Rent premium (10/2024)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Liability Protection Option 1 (10/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection (10/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Utility Revenue (10/2024)",
+   "category": "utilities",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Late Charge Late Fee (Oct, posted 10/06/2024)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash Removal (SDI: Removal of Trash)",
+   "category": "trash_removal",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-10-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rekeying - No Keys Returned (SDI label: Keys)",
+   "category": "rekey_locks",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Electric Bill (SDI: Light bill)",
+   "category": "utilities",
+   "amount_charged": 24.21,
+   "amount_open": 24.21,
+   "date_posted": "2024-10-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Reletting Fee - No Notice Given",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-10-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ewing 0911 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Ewing 0911 Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "You waive payment of the security deposit of $1,200 in lieu of the indicated monthly payment. $33 per month"
+  },
+  {
+   "file": "Ewing 0911 Move Out Statement.pdf",
+   "flag": "holdover_mtm",
+   "quote": "Month to Month Rent (10/2024) 50.00"
+  },
+  {
+   "file": "Ewing 0911 Move Out Statement.pdf",
+   "flag": "early_notice_reletting",
+   "quote": "Reletting Fee - No Notice Given 250.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 2555.21,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-12"
+ },
+ "reconciliation": "sum(open lines)=2,555.21 (Sept 1,032.00 + Oct recurring 1,124.00 + move-out charges 399.21) - credits 0 = 2,555.21 vs PM stated 2,555.21; exact match (statement, letter, SDI, ledger agree).",
+ "notes": "Lease ended 9/30/2024 (auto MTM). Sept charges (1,032.00) never paid after 8/12/2024 payment. Oct rent 945 + 50 MTM premium billed for the full month although tenant vacated 10/17 (no proration, no credit); line days_after_lease_end=31 reflects the period charged, actual possession was 17 days after lease end. Rent header shows 995 = 945 + 50 MTM. Lease base rent 900 (sheet 900). Cash deposit 0; no credits. NSF checks Dec 2023 and Feb 2024 historic, already paid. Lease read pages 1-3 only (23 pages); addendum opened visually.",
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a0f1937c02b1d1965"
+ }
+}

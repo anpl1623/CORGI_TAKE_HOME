@@ -1,0 +1,274 @@
+{
+ "tracking": 943,
+ "winning_document": "Seward final statement1.pdf (statement dated 11/14/24, balance 4,812.50)",
+ "documents": [
+  {
+   "file": "Seward final statement1.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager final statement; 13 charge lines total 4,812.50"
+  },
+  {
+   "file": "Seward ZDP collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance 4,812.50 agrees with statement"
+  },
+  {
+   "file": "Seward invoice carpet.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "New carpet invoice 2,540.08; supports prorated 425.50 line"
+  },
+  {
+   "file": "Seward invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Move-out clean 280, ties to statement"
+  },
+  {
+   "file": "Seward invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 1054 total 594, ties to statement"
+  },
+  {
+   "file": "Seward invoice painting.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 1073 totals 500; statement claims 300"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "lease_start": "2024-03-08",
+  "lease_end": "2025-03-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-14",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Amenity service package (Oct)",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-01",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct rent prorated through re-rent",
+   "category": "rent_after_move_out",
+   "amount_charged": 752,
+   "amount_open": 752,
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-18",
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-01",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Zero deposit program charge (Oct)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-01",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance, YRIG policy",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-01",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Re-rent service charge, early termination",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Repair service, parts and labor",
+   "category": "repairs_damage",
+   "amount_charged": 594,
+   "amount_open": 594,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Non-normal wear cleaning",
+   "category": "cleaning",
+   "amount_charged": 280,
+   "amount_open": 280,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear painting",
+   "category": "painting",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Prorated new carpet, pet inspection basis",
+   "category": "flooring",
+   "amount_charged": 425.5,
+   "amount_open": 425.5,
+   "is_estimate_only": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Hauling left-over items at vacancy",
+   "category": "trash_removal",
+   "amount_charged": 240,
+   "amount_open": 240,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Mailbox key not left at vacancy",
+   "category": "keys_remotes",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Unauthorized pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "is_estimate_only": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-04",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late charge (Oct 2024)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-08",
+   "source_file": "Seward final statement1.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 4812.5,
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 4812.5,
+  "last_payment_date": "2024-09-21",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Sum of 13 open lines = 4,812.50; credits 0.00; PM final statement due 4,812.50. Difference 0.00. Collection fees 2,406.25 and the 7,218.75 owed-if-assigned total are hypothetical and excluded.",
+ "notes": "Winner is the Rent Manager final statement dated 11/14/24. The collection letter agrees on 4,812.50. Re-rent charge 1,000 is for early termination (lease runs to 3/31/25). The Oct prorated rent 752 is about 18 of 31 days, so the end date 10/18 is inferred. The unauthorized pet fee appears once; the comments repeat it. Carpet invoice 2,540.08 supports the flooring line. Cleaning and repair invoices tie. Painting invoice totals 500 versus 300 claimed; the statement line is used. Water-intrusion trim is in the repair invoice, but water_fire_flood is left false. Hauling invoice and ledger scan not opened (lite mode). Lease not opened.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

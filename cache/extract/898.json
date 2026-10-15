@@ -1,0 +1,247 @@
+{
+ "tracking": 898,
+ "winning_document": "Niemann 12D Move Out Statement.pdf",
+ "pm_stated_amount_due": 2932.34,
+ "reconciliation": "Open lines 80.00 + 30.00 + 11.00 + 45.00 + 2,766.34 = 2,932.34; credits 0.00 open (9/19/2024 payment of 1,178.00 already cleared September charges); equals PM stated 2,932.34 on statement, letter, SDI and 10/28 ledger.",
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "Niemann 12D Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "KS addendum: Security Deposit Waiver YES $33/month; renters insurance YES $19/month; policy start 10/18/23."
+  },
+  {
+   "file": "Niemann 12D Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Digest excerpt: SD $0.00, rent $1,036 from 11/01/2023, prorated $449, term 10/18/2023-9/30/2024, 30-day notice, reletting charge $250."
+  },
+  {
+   "file": "Niemann 12D Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due $2,932.34; collections threat."
+  },
+  {
+   "file": "Niemann 12D Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning document; five turnover charges after 9/19 payment cleared September."
+  },
+  {
+   "file": "Niemann 12D SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Notice Date: SKIP; flooring replacement 'carpet & vinyl New @ M/I' 2,766.34; lockwork 45; drip pans 11; blinds 80; trash 30; total 2,932.34 due."
+  },
+  {
+   "file": "Niemann Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same five open charges as the statement; balance 2,932.34; used for first-month history."
+  },
+  {
+   "file": "SAL DD Authorization.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit form; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1036,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-09-30",
+  "current_term_start": "2023-10-18",
+  "initial_term_months": 11.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Para 11: reletting charge $250 for early move-out; K.S.A. 58-25,137 termination fee equal to one month's rent in place of reletting fee; 30-day written notice for expiry, otherwise converts to month-to-month.",
+  "lease_end": "2024-09-30",
+  "lease_start": "2023-10-18",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 40
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1036
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-09-30",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Door blinds x2 @ $40 each",
+   "category": "repairs_damage",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-10-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Loads of trash x3 @ $10 each",
+   "category": "trash_removal",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-10-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Stove drip pans (set of 4)",
+   "category": "appliance",
+   "amount_charged": 11,
+   "amount_open": 11,
+   "date_posted": "2024-10-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Rekeying - didn't turn in keys",
+   "category": "rekey_locks",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-10-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet/Vinyl new at M/I (SDI: Flooring Replacement 'carpet & vinyl New @ M/I'); no invoice, photos or inspection in folder",
+   "category": "flooring",
+   "amount_charged": 2766.34,
+   "amount_open": 2766.34,
+   "date_posted": "2024-10-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payment 9/19/2024 (CashPay) of 1,178.00 cleared Sept 2024 rent, renters insurance, SD protection, utility and late fee; not part of open lines",
+   "amount": 1178,
+   "type": "tenant_payment",
+   "source_file": "Niemann 12D Move Out Statement.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Niemann 12D SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Flooring Replacement carpet & vinyl New @ M/I $2,766.34 (no invoice, photos or inspection in folder)"
+  },
+  {
+   "file": "Niemann 12D SDI.pdf",
+   "flag": "termination_note_skip",
+   "quote": "Notice Date: SKIP (statement shows Notice 09/30/2024, same day as move-out and lease end)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 2932.34,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-19"
+ },
+ "notes": "Tenant moved out on the lease end date 9/30/2024; all rent through September was paid (late) before the claim. Open claim is entirely five turnover charges posted 10/7/2024; 94 percent is flooring (carpet and vinyl 'new at move-in', roughly 1 year old) with no invoice, photos or move-out inspection. The SDI notice date says SKIP and keys were not returned, so skip/abandon is possible, but no rent after move-out is claimed, so end_of_term is used. History of late fees every month and one NSF (Feb 2024), all paid. No pet evidence.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "aeee161bb03c1c2ef"
+ }
+}

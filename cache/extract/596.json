@@ -1,0 +1,187 @@
+{
+ "tracking": 596,
+ "winning_document": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+ "pm_stated_amount_due": 1728.63,
+ "extraction_confidence": 0.93,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-28",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "PURE deposit disposition letter, total charges and amount due 1,728.63."
+  },
+  {
+   "file": "tenant_ledger-emmanuel_c_galloway-20240603.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-03",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Status Past, move-out 4/4/2024; Sep 2023-Apr 2024 plus 5/28 deposit forfeit lines; balance 1,728.63. Used to split rent/RBP/SDRP and payment history."
+  },
+  {
+   "file": "tenant_ledger-emmanuel_c_galloway-20240603 (1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-03",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Earlier period (Mar 2023-Aug 2023), ends at 0.00 balance; history only."
+  },
+  {
+   "file": "Lease- 4-1-23 thru 3-31-24 (1).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Digest excerpt sufficient: term 4/1/23-3/31/24, rent 1,750, termination 5.4, holdover at double rent."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1750,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 35,
+  "lease_start": "2023-04-01",
+  "lease_end": "2024-03-31",
+  "current_term_start": "2023-04-01",
+  "current_term_end": "2024-03-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Sec 5.4: after 6 months, 60 days notice plus termination fee of 2 months additional rent + $125 modification fee + $150 processing fee. Holdover at double rent.",
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP fee (SDRP_$2,000.00)",
+    "amount": 35
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-04-04",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 4,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Prorated April 2024 rent (4/1-4/4/24, 4 days past lease end 3/31)",
+   "category": "rent_after_lease_end",
+   "amount_open": 233.32,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-04",
+   "days_after_lease_end": 4
+  },
+  {
+   "description": "April 2024 RBP w/ Insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30"
+  },
+  {
+   "description": "April 2024 SDRP fee (SDRP_$2,000.00)",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30"
+  },
+  {
+   "description": "R/R damaged blinds",
+   "category": "repairs_damage",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-05-28"
+  },
+  {
+   "description": "Professional clean",
+   "category": "cleaning",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-05-28"
+  },
+  {
+   "description": "Administration fee for cleaning (tenant administrative fee)",
+   "category": "admin_itemization_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-05-28"
+  },
+  {
+   "description": "Replace damaged dishwasher",
+   "category": "appliance",
+   "amount_open": 541.31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-05-28"
+  },
+  {
+   "description": "Debris removal of items left",
+   "category": "trash_removal",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_emmanuel_c_galloway_052824 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2024-05-28"
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-06-03",
+  "balance_due": 1728.63,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-03-06"
+ },
+ "flags": {},
+ "evidence": [],
+ "reconciliation": "sum(open lines) 233.32+39+35+125+600+55+541.31+100 = 1,728.63 - credits 0 = PM stated 1,728.63; letter and ledger agree.",
+ "notes": "Ledger Sep 2023-Mar 2024 fully paid (late fees paid); earlier ledger ends at 0.00 so no older open items. Move-out 4/4/24 is 4 days after lease end 3/31/24: prorated rent at normal rate (not double holdover). April RBP and SDRP charged for full month. Deposit paid 0.00 (SDRP replaces 2,000 deposit). Ledger labels move-out items as Deposit Forfeit lines.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa37b49fc61e54eed"
+ }
+}

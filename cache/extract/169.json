@@ -1,0 +1,134 @@
+{
+  "tracking": 169,
+  "documents": [
+    {
+      "file": "Collections - SDRP Notice to Tenant (10).pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-08-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(06-13-2022_-_06-13-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-14",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_NHPM_Lease_v_2022_(06-13-2022_-_06-13-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-13",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Ledger (7).pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-09",
+      "revised": false,
+      "used_for_amounts": true
+    }
+  ],
+  "winning_document": "Ledger (7).pdf",
+  "pm_stated_amount_due": 725.0,
+  "lease": {
+    "base_monthly_rent": 2700.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 72.0
+      },
+      {
+        "name": "RBP with Ins",
+        "amount": 39.0
+      }
+    ],
+    "lease_start": "2022-06-25",
+    "lease_end": "2023-06-24",
+    "current_term_start": "2022-06-25",
+    "current_term_end": "2023-06-24",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 4050.0,
+    "monthly_sd_premium": 72.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-24",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-09",
+    "balance_due": 725.0,
+    "first_full_month": "2022-07",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-06-10"
+  },
+  "line_items": [
+    {
+      "description": "5018 - Move-out Repair : TQV4UN8",
+      "category": "repairs_damage",
+      "amount_open": 525.0,
+      "amount_charged": 525.0,
+      "date_posted": "2023-08-02",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Ledger (7).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4010 - Maintenance Coordination Fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-08-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Ledger (7).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 725.00 - 0.00 = 725.00 vs PM stated 725.00; exactly matches",
+  "flags": {
+    "flooring_without_support": false,
+    "military_scra": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "mixed_pet_nonpet_line": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "owner_waived_balance": false,
+    "payment_arrangement": false,
+    "pm_withdrew_or_void": false,
+    "premiums_unpaid": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "tenant_never_moved_in": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "tenant_still_in_possession": false,
+    "test_claim": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant fulfilled 12-month lease. Outstanding balance consists of move-out repair $525.00 and maintenance coordination fee $200.00."
+}

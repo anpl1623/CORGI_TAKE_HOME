@@ -1,0 +1,188 @@
+{
+  "tracking": 132,
+  "documents": [
+    {
+      "file": "8072closeout.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-06-29",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Transactions_20230706045649953.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-06",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Transactions_20230706040634813.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-06",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "8072Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2021-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "SD.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2021-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "s1.pdf",
+      "doc_type": "email_or_screenshot",
+      "doc_date": "2023-07-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "s2.pdf",
+      "doc_type": "email_or_screenshot",
+      "doc_date": "2023-07-07",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "8072closeout.pdf",
+  "pm_stated_amount_due": 1153.61,
+  "lease": {
+    "base_monthly_rent": 2050.0,
+    "recurring_addons": [
+      {
+        "name": "Renters Choice Program",
+        "amount": 60.0
+      },
+      {
+        "name": "Tenant Benefits A2",
+        "amount": 36.0
+      }
+    ],
+    "lease_start": "2022-01-01",
+    "lease_end": "2023-05-31",
+    "current_term_start": "2022-01-01",
+    "current_term_end": "2023-05-31",
+    "initial_term_months": 17,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3000.0,
+    "monthly_sd_premium": 60.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-05-30",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-07-06",
+    "balance_due": 1153.61,
+    "first_full_month": "2022-01",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-04-27"
+  },
+  "line_items": [
+    {
+      "description": "Make ready maintenance - trash removal, door trim paint from dog scratches, window blinds, back door weather stripping from dog damage",
+      "category": "repairs_damage",
+      "amount_open": 525.0,
+      "amount_charged": 525.0,
+      "date_posted": "2023-06-29",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "8072closeout.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Cleaning Fee - full clean of appliances, window sills, baseboards, drawers and cabinets",
+      "category": "cleaning",
+      "amount_open": 450.0,
+      "amount_charged": 450.0,
+      "date_posted": "2023-06-29",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "8072closeout.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Carpet Cleaning Fee - steam clean carpets and pet treatment",
+      "category": "carpet_cleaning",
+      "amount_open": 178.61,
+      "amount_charged": 178.61,
+      "date_posted": "2023-06-29",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "8072closeout.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) = 1153.61 matches PM stated amount due 1153.61 on TXR-2216 Itemization of Security Deposit and tenant ledger. (Note: on 2023-07-03 PM agreed to credit back $178.61 for carpet cleaning dispatched in error and set up a $975.00 payment arrangement via DocuSign).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": true,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": true,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "payment_arrangement",
+      "quote": "I sent you the payment arrangement via Docusign to sign off on.",
+      "file": "s2.pdf"
+    },
+    {
+      "flag": "tenant_disputes_charges",
+      "quote": "The carpet cleaning was dispatched in error, so that $178.61 will be credited back to you balance.",
+      "file": "s2.pdf"
+    },
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Steam Clean All Carpets 140.00 Pet Treat Carpet 25.00",
+      "file": "8072closeout.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated at end of term on 2023-05-30. Itemization form TXR-2216 and ledger show $1,153.61 in move-out charges. Following dispute by tenant regarding carpet cleaning (tenant provided prior cleaning receipt), PM agreed on 2023-07-03 to credit $178.61 and established a $975.00 DocuSign payment arrangement in two equal installments of $487.50."
+}

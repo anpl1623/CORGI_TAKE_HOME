@@ -1,0 +1,149 @@
+{
+ "tracking": 850,
+ "documents": [
+  {
+   "file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-09-27",
+   "note": "TXR-2216 itemization, demand 1238.15 after 400 deposit; winning document",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "1602 Benttree Dr Apt B-Ellis-Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-07",
+   "note": "Ending balance 1238.15 agrees; used to split lines and confirm deposit credit",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 700,
+  "cash_deposit_amount": 400,
+  "lease_start": "2023-12-04",
+  "lease_end": "2024-12-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-07",
+  "balance_due": 1238.15,
+  "last_payment_date": "2024-07-26",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out damages: door frame, HVAC filter, wall, blinds, closet door, stopper",
+   "category": "repairs_damage",
+   "amount_charged": 1053,
+   "amount_open": 1053,
+   "date_posted": "2024-09-27",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  },
+  {
+   "description": "Kitchen sink plumbing stoppage clearing",
+   "category": "repairs_damage",
+   "amount_charged": 116,
+   "amount_open": 116,
+   "date_posted": "2024-09-27",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  },
+  {
+   "description": "Replace light bulbs, living room",
+   "category": "repairs_damage",
+   "amount_charged": 21,
+   "amount_open": 21,
+   "date_posted": "2024-09-27",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  },
+  {
+   "description": "Carpet cleaning (move-out), split from ledger",
+   "category": "carpet_cleaning",
+   "amount_charged": 150.47,
+   "amount_open": 150.47,
+   "date_posted": "2024-09-27",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  },
+  {
+   "description": "Move-out cleaning, split from ledger",
+   "category": "cleaning",
+   "amount_charged": 297.68,
+   "amount_open": 297.68,
+   "date_posted": "2024-09-27",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit tendered, applied at move-out",
+   "amount": 400,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 1238.15,
+ "winning_document": "1602-B Benttree Dr-Ellis-Itemization of Security Deposit.pdf",
+ "reconciliation": "Open lines 1638.15 (1169.00 damages split as 1053.00 + 116.00 plumbing per ledger; light bulbs 21.00; cleaning 448.15 split as 150.47 carpet + 297.68 cleaning) minus security deposit credit 400.00 equals 1238.15, matching PM stated 1238.15 (itemization 09/27/2024). Ledger ending balance 1238.15 agrees.",
+ "notes": "Itemization shows 400.00 deposit tendered and applied; ledger carries it as a balance-forward deposit. Monthly SECDEPREPLAC fees indicate SDRP participation. Lease end 2024-12-31 vs move-out 2024-08-31 is early termination; PM charged no post-move-out rent or break fee. Ledger PW and lease not opened (lite mode).",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa69d676c477787bc"
+ }
+}

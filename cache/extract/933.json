@@ -1,0 +1,265 @@
+{
+ "tracking": 933,
+ "winning_document": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+ "documents": [
+  {
+   "file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-31",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out itemization letter, total 10787.82; winning document"
+  },
+  {
+   "file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Running balance 7467.07 at 07/05 split into May-Jul components"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1550,
+  "lease_start": "2023-05-09",
+  "lease_end": "2024-04-30",
+  "current_term_start": "2023-05-09",
+  "current_term_end": "2024-04-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "cash_deposit_amount": 0,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-11",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 72,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "May 2024 rent, month-to-month +25%",
+   "category": "rent_after_lease_end",
+   "amount_open": 1937.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "days_after_lease_end": 1,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Jun 2024 rent, month-to-month +25%",
+   "category": "rent_after_lease_end",
+   "amount_open": 1937.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "days_after_lease_end": 32,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Jul 2024 rent, MTM; moved out 7/11",
+   "category": "rent_after_lease_end",
+   "amount_open": 1937.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "days_after_lease_end": 62,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Preferred resident fee, May-Jul (3 x 33)",
+   "category": "sdrp_premium",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Resident benefit package, May-Jul (3 x 41)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 123,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "MTM admin fee, May-Jul (3 x 85)",
+   "category": "other_fee",
+   "amount_open": 255,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Late fees May-Jul (3 x 232.50)",
+   "category": "late_fee",
+   "amount_open": 697.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-05",
+   "service_period_end": "2024-07-05",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Notice to vacate fee, May 2024",
+   "category": "eviction_legal_court",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-03",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Eviction fees, 6/6/2024 invoice",
+   "category": "eviction_legal_court",
+   "amount_open": 380.07,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-14",
+   "source_file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Writ fee, 7/2/2024 invoice",
+   "category": "eviction_legal_court",
+   "amount_open": 367.77,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-08-30",
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "NSF fee, returned payment",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-08-06",
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Make-ready bundle, not split",
+   "category": "other_damage",
+   "amount_open": 2772.98,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2 Bratton Dr - Itemization - Anthony Gil & Sabrina Cordova.pdf",
+   "confidence": 0.5
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": true,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "flag": "payment_arrangement",
+   "quote": "Pull funds per lease agreement PTP (Gil $1550)"
+  },
+  {
+   "file": "2 Bratton Dr - Ledger - Anthony Gil & Sabrina Cordova.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant chargeback on PTP funds pulled - in violation of lease agreement"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-12",
+  "balance_due": 10787.82,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-01"
+ },
+ "pm_stated_amount_due": 10787.82,
+ "reconciliation": "Open lines total 10787.82, no credits, equal to stated 10787.82. Ledger balance 7467.07 split into May 2429.00, Jun 2709.07, Jul 2329.00; itemization fee 95 split 45 and 50 per statement.",
+ "extraction_confidence": 0.8,
+ "notes": "PTP pull of 1550 on 08/01 was charged back 08/06 and nets to zero; flags reflect that reversal, not the itemization. Month-to-month from May at +25%. Move-out 7/11/2024 gives 72 holdover days. Make-ready 2772.98 is one bundle, sub-amounts not given; photo report not opened. Application files not used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a029a31b1805cefd9"
+ }
+}

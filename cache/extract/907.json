@@ -1,0 +1,195 @@
+{
+ "tracking": 907,
+ "winning_document": "Abdi Ilmi 24-6004 Move Out Statement.pdf (dated 10/08/2024). Matches Move Out Letter (10/08/2024, 5,300.00) and SDI (total 5,300.00). Ledger (10/28/2024) confirms Oct credits.",
+ "documents": [
+  {
+   "file": "Abdi Ilmi 24-6004 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/08/2024; winning doc; total 5,300.00"
+  },
+  {
+   "file": "Abdi Ilmi 24-6004 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "10/08/2024; balance due 5,300.00"
+  },
+  {
+   "file": "Abdi Ilmi 24-6004 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Current ledger Oct rent and fees 1,463 credited n/c (1,463) so (A) = 0; (B) maintenance 5,300"
+  },
+  {
+   "file": "Abdo Ilmi Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/28/2024; used for payment history and first full month; Oct charges net to zero"
+  },
+  {
+   "file": "Abdi Ilmi 24-6004 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "IA/MO addendum: renters insurance NO; Security Deposit Waiver YES $33/mo (waives 1,200 deposit); signed 09/19/2023"
+  },
+  {
+   "file": "Abdi Ilmi 24-6004 Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "26pp no text layer; not opened (rent and term from sheet and ledger)"
+  },
+  {
+   "file": "AJC DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "ignored"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1370,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-10-27",
+  "current_term_end": "2024-10-31",
+  "lease_start": "2023-10-27",
+  "lease_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease not read (26pp). PM let tenant vacate 10/01/2024, about 30 days before 10/31 expiry, and waived Oct 2024 rent and fees (n/c).",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 60
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200
+ },
+ "move_out": {
+  "move_out_date": "2024-10-01",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 5300,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-03"
+ },
+ "line_items": [
+  {
+   "description": "Carpet/LVP replace - new at move-in, prorated (no invoice or photo in folder)",
+   "category": "flooring",
+   "amount_charged": 2577,
+   "amount_open": 2577,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Abdi Ilmi 24-6004 Move Out Statement.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Blinds replace x6",
+   "category": "other_damage",
+   "amount_charged": 240,
+   "amount_open": 240,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Abdi Ilmi 24-6004 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace stove and microwave - new at move-in, prorated",
+   "category": "appliance",
+   "amount_charged": 720,
+   "amount_open": 720,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Abdi Ilmi 24-6004 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Painting/Drywall Repairs - drywall repairs and full paint, prorated",
+   "category": "painting",
+   "amount_charged": 1763,
+   "amount_open": 1763,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Abdi Ilmi 24-6004 Move Out Statement.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "Oct 2024 rent 1,370 + SD protection 33 + utility 60 credited 'we let him go 1 month early n/c' (charged then reversed; no rent line emitted)",
+   "amount": 1463,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": true,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "10/08/2024 Carpet/LVP replace - new at MI prorate 2,577.00",
+   "file": "Abdi Ilmi 24-6004 Move Out Statement.pdf"
+  },
+  {
+   "flag": "owner_waived_balance",
+   "quote": "we let him go 1 month early n/c (1,463.00)",
+   "file": "Abdi Ilmi 24-6004 SDI.pdf"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 5300,
+ "reconciliation": "Sum(open lines) = 2,577 + 240 + 720 + 1,763 = 5,300.00. Credits: 1,463 Oct 2024 charges waived n/c, already netted (charged-then-reversed, so no rent line). 5,300 - 0 = 5,300.00 = PM statement and SDI total.",
+ "notes": "Owner waived only the Oct 2024 charges (1,463); the damage claim of 5,300 is unchanged. Flooring and appliance lines are prorated by the PM with no invoices or photos in the folder. Ledger filename is 'Abdo Ilmi Ledger.docx'.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "abf787c28a9ada6ce"
+ }
+}

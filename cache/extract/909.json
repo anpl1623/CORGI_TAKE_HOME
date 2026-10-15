@@ -1,0 +1,166 @@
+{
+ "tracking": 909,
+ "winning_document": "deposit_disposition_amount_due_kennedy_l_franko_102424.pdf",
+ "pm_stated_amount_due": 500,
+ "extraction_confidence": 0.9,
+ "reconciliation": "sum(open line items) 500.00 - credits 0.00 = 500.00 vs PM stated 500.00 (letter, ledger Deposit Forfeit rows and Best One invoice 1617 all tie).",
+ "notes": "PURE Tennessee, SDRP (58/mo), no cash deposit, 12-month lease 09/29/2023-09/28/2024, moved out at lease end. Ledger balance was zero before the two 10/24/2024 'Deposit Forfeit' charges. Both lines are backed by Best One Cleaning invoice 1617 (full clean 300, carpet clean 200, 10/04/2024). The 300 line is labeled by the PM 'cleaning chargeback for pet per lease' while the invoice only says 'Full clean'; tenant has a pet (Cooper) on a monthly pet program (60/mo). Categorized as pet_damage_odor/pet_related at moderate confidence; if treated as ordinary cleaning it is still 300. Carpet cleaning 200 is the lease clause 2.8 chargeback, not labeled pet.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_kennedy_l_franko_102424.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-24",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning PM statement; balance due 500.00"
+  },
+  {
+   "file": "tenant_ledger-kennedy_l_franko_max_j_miller-20241028.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Zero balance before 10/24/2024 Deposit Forfeit rows; first-month history; pet program and SDRP fee rows"
+  },
+  {
+   "file": "INV1617.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Best One Cleaning invoice 1617: full clean 300 + carpet clean 200 = 500, service 10/04/2024"
+  },
+  {
+   "file": "kennedy-l-franko_09-14-2023.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-14",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Lease facts from digest excerpt: 09/29/2023-09/28/2024, rent 2,350, early termination 150% rent, holdover 115%, carpet cleaning clause 2.8, pet addendum"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2350,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 58,
+  "recurring_addons": [
+   {
+    "name": "Monthly pet fee (Cooper, 3 paws)",
+    "amount": 60
+   },
+   {
+    "name": "SDRP fee",
+    "amount": 58
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 39
+   }
+  ],
+  "lease_start": "2023-09-29",
+  "lease_end": "2024-09-28",
+  "current_term_start": "2023-09-29",
+  "current_term_end": "2024-09-28",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination only with written landlord permission, 45 days notice, fee of 150% of one month's rent (plus 50% admin fee if under 9 months); holdover rent 115%. Not triggered."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-28",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 500,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-04"
+ },
+ "line_items": [
+  {
+   "description": "Property cleaning chargeback for pet per lease (invoice 1617 'Full clean')",
+   "category": "pet_damage_odor",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-10-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_kennedy_l_franko_102424.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Carpet cleaning chargeback per lease (invoice 1617 'Carpet clean')",
+   "category": "carpet_cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-10-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_kennedy_l_franko_102424.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "deposit_disposition_amount_due_kennedy_l_franko_102424.pdf",
+   "flag": "pet_related_cleaning",
+   "quote": "Property cleaning chargeback for pet per lease $300.00"
+  },
+  {
+   "file": "INV1617.pdf",
+   "flag": "invoice_description_generic",
+   "quote": "Full clean 300.00 / Carpet clean 200.00"
+  },
+  {
+   "file": "tenant_ledger-kennedy_l_franko_max_j_miller-20241028.pdf",
+   "flag": "sdrp_program",
+   "quote": "SDRP Fee - Security Deposit Replacement Program 58.00"
+  }
+ ],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a4cc4d6e931d30d9a"
+ }
+}

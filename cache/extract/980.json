@@ -1,0 +1,390 @@
+{
+ "tracking": 980,
+ "documents": [
+  {
+   "file": "Closeout.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-27",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2216 itemization, total 11,397.10; winning document"
+  },
+  {
+   "file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-27",
+   "used_for_amounts": true,
+   "note": "charge-forward split of rent and fees; balance 6,904.47 at 10/04"
+  },
+  {
+   "file": "Transactions_20241127011954526.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-27",
+   "used_for_amounts": false,
+   "note": "Rent Manager full ledger; Nov 2024 charges not in itemization"
+  },
+  {
+   "file": "5714 Wellington Dr - Maintenance.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-31",
+   "used_for_amounts": true,
+   "note": "split of forfeit lines: landscaping, debris, paint, blinds, cleaning"
+  },
+  {
+   "file": "5714 Wellington Dr - Maintenance 2.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-16",
+   "used_for_amounts": true,
+   "note": "split of forfeit lines: roach, ozone, light cleaning"
+  },
+  {
+   "file": "invoice_29_Oct_2024_22_13_30 - PACK UP AND HAUL AWAY.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": true,
+   "note": "haul-away and writ put-out, 1,650.00"
+  },
+  {
+   "file": "invoice-14913 - REKEY.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": true,
+   "note": "rekey invoice, total 152.63"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2100,
+  "cash_deposit_amount": 0,
+  "lease_start": "2023-10-01",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDWP / Renters Choice fee",
+    "amount": 59
+   },
+   {
+    "name": "RBP / Tenant Benefits Package A3",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-10-29",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 29
+ },
+ "ledger": {
+  "as_of_date": "2024-11-27",
+  "balance_due": 11397.1,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-13"
+ },
+ "line_items": [
+  {
+   "description": "Aug 2024 rent, open after partial payments",
+   "amount_charged": 2100,
+   "amount_open": 1498,
+   "category": "rent_in_term",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Sep 2024 rent",
+   "amount_charged": 2100,
+   "amount_open": 2100,
+   "category": "rent_in_term",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 holdover rent after lease end",
+   "amount_charged": 2100,
+   "amount_open": 2100,
+   "category": "rent_after_lease_end",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 29,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Aug 2024 SDWP fee",
+   "amount_open": 59,
+   "category": "sdrp_premium",
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 SDWP fee",
+   "amount_open": 59,
+   "category": "sdrp_premium",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 SDWP fee",
+   "amount_open": 59,
+   "category": "sdrp_premium",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Aug 2024 RBP with insurance",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 RBP with insurance",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 RBP with insurance",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Aug 2024 late fee, open part",
+   "amount_charged": 147,
+   "amount_open": 47,
+   "category": "late_fee",
+   "date_posted": "2024-08-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Sep 2024 late fee",
+   "amount_open": 210,
+   "category": "late_fee",
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 late fee",
+   "amount_open": 315,
+   "category": "late_fee",
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Legal notice posting, Aug 5",
+   "amount_open": 35,
+   "category": "eviction_legal_court",
+   "date_posted": "2024-08-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Court filing fee, Aug 23",
+   "amount_open": 75,
+   "category": "eviction_legal_court",
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Eviction filing fees, protection program",
+   "amount_open": 230.47,
+   "category": "eviction_legal_court",
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "tenant_ledger-evan_c_tiemann_stephanie_harriman-20241127.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Landscaping mow and edge",
+   "amount_open": 200,
+   "category": "landscaping_lawn",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5714 Wellington Dr - Maintenance.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Remove debris from property",
+   "amount_open": 150,
+   "category": "trash_removal",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Touch-up paint, walls and trim",
+   "amount_open": 1100,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace broken blinds (4)",
+   "amount_open": 290,
+   "category": "other_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Roach pest control, 2 visits",
+   "amount_open": 300,
+   "category": "pest_remediation",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance 2.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pack up and haul away (writ)",
+   "amount_open": 1650,
+   "category": "trash_removal",
+   "date_posted": "2024-10-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "invoice_29_Oct_2024_22_13_30 - PACK UP AND HAUL AWAY.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Deep cleaning, property and appliances",
+   "amount_open": 350,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Light cleaning",
+   "amount_open": 100,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance 2.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Ozone treatment, smoke damage per PM",
+   "amount_open": 200,
+   "category": "other_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "5714 Wellington Dr - Maintenance 2.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Costs to rekey locks",
+   "amount_open": 152.63,
+   "category": "rekey_locks",
+   "date_posted": "2024-10-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "invoice-14913 - REKEY.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 11397.1,
+ "reconciliation": "Sum of 25 open lines = 11,397.10; no credits; equals PM stated 11,397.10 (TXR-2216). Full ledger Nov 2024 charges (2,618.00) are not in the PM itemization and were excluded.",
+ "notes": "Winning doc Closeout.pdf (TXR-2216, 11/27/2024). Rent and fees split from tenant ledger; forfeit lines split from invoices (ledger forfeits equal invoices, counted once). PM labels ozone 'damages caused by smoking', so coded other_damage with pet_related false, not pet_damage_odor. Oct 2024 rent is holdover: lease ended 9/30, tenant out 10/29 (29 days). Maintenance 2 header says 'Need estimate' but it is invoiced and itemized; treated as billed. Lease, photo report and waiver not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

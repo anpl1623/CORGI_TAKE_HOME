@@ -1,0 +1,147 @@
+{
+  "tracking": 170,
+  "documents": [
+    {
+      "file": "Collections - SDRP Notice to Tenant (11).pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-08-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(07-07-2022_-_07-07-2022) (1).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-07-08",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_NHPM_Lease_v_2022_(07-07-2022_-_07-07-2022) (1).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-07-08",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Ledger (8).pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "invoice_03_Aug_2023_14_41_25 (1).pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-08-03",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Ledger (8).pdf",
+  "pm_stated_amount_due": 1900.0,
+  "lease": {
+    "base_monthly_rent": 2600.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 104.0
+      },
+      {
+        "name": "RBP with Ins",
+        "amount": 39.0
+      }
+    ],
+    "lease_start": "2022-07-12",
+    "lease_end": "2023-07-11",
+    "current_term_start": "2022-07-12",
+    "current_term_end": "2023-07-11",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 5200.0,
+    "monthly_sd_premium": 104.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-07-11",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-09",
+    "balance_due": 1900.0,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-07-03"
+  },
+  "line_items": [
+    {
+      "description": "4010 - Maintenance Coordination Fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-08-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Ledger (8).pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "5018 - Move-out Repair : TJZ52MY (Invoice breakdown: Deep cleaning $850.00, Trash out leftover items $275.00, Touch up doors/trim with pet damage and paint Bedroom 3/drywall at stairs $425.00, Landscaping $150.00)",
+      "category": "repairs_damage",
+      "amount_open": 1700.0,
+      "amount_charged": 1700.0,
+      "date_posted": "2023-08-03",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Ledger (8).pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 200.00 + 1700.00 - 0.00 = 1900.00 vs PM stated 1900.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Touch up doors/trim with pet damage and paint Bedroom 3: Paint wall with headboard damage Drywall at stairs-patch and paint",
+      "file": "invoice_03_Aug_2023_14_41_25 (1).pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Winning accounting document is tenant ledger Ledger (8).pdf showing balance due of $1,900.00 ($200.00 maintenance coordination fee and $1,700.00 move-out repair TJZ52MY). Invoice TJZ52MY itemizes cleaning $850, trash out $275, painting/pet trim $425, landscaping $150."
+}

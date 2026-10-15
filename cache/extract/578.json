@@ -1,0 +1,319 @@
+{
+ "tracking": 578,
+ "documents": [
+  {
+   "file": "EMP DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule; template amounts ignored"
+  },
+  {
+   "file": "Taylor 1212 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-08",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "KS lease addendum: renters insurance 19/mo (YES) and Security Deposit Waiver 33/mo (YES) in lieu of one month's rent deposit; signed 9-8-23"
+  },
+  {
+   "file": "Taylor 1212 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "9 pages, no text layer; rent, term, move-in and SD program already clear from ledger header, sheet and addendum"
+  },
+  {
+   "file": "Taylor 1212 Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first Resident Ledger; used to split lumped 944.00 and for payment history; balance still 3,334.00 on 5/15/2024"
+  },
+  {
+   "file": "Taylor 1212 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-04-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "States balance due 3,334.00 within 10 days or Hunter Warfield collections"
+  },
+  {
+   "file": "Taylor 1212 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Running statement ending 3,334.00; matches SDI and ledger"
+  },
+  {
+   "file": "Taylor 1212 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Perry Reid Security Deposit Itemization - Move Out; total 3,334.00; winning document (undated, move-out 04/03/24)"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 870,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-09-08",
+  "current_term_end": "2024-08-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease not read (scan). PM billed a reletting fee of 250 and May/June rent (1,740) as future rent on early move-out.",
+  "lease_start": "2023-09-08",
+  "lease_end": "2024-08-31",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Pet Fee (monthly)",
+    "amount": 25
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 25
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 870
+ },
+ "move_out": {
+  "move_out_date": "2024-04-03",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-05-15",
+  "balance_due": 3334,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-03-19"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent April 2024 (billed full month; tenant moved out 4/3/2024)",
+   "category": "rent_in_term",
+   "amount_charged": 870,
+   "amount_open": 870,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 Ledger.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Renters Insurance April 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pet Fee Income April 2024",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection April 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue April 2024",
+   "category": "utilities",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 Ledger.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet cleaning - dirty and stains",
+   "category": "carpet_cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-04-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "General cleaning - nothing cleaned",
+   "category": "cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-04-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Window blinds - all blinds broken",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-04-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Dispose of belongings left (misc charge)",
+   "category": "trash_removal",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-04-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Future month's rent - May 2024 (part of 1,740 May/June rent)",
+   "category": "rent_after_move_out",
+   "amount_charged": 870,
+   "amount_open": 870,
+   "date_posted": "2024-04-03",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Future month's rent - June 2024 (part of 1,740 May/June rent)",
+   "category": "rent_after_move_out",
+   "amount_charged": 870,
+   "amount_open": 870,
+   "date_posted": "2024-04-03",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-04-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Taylor 1212 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit balance (28.00) carried into 4/1/2024 from March overpayment; SDI current ledger balance 944.00 is net of it but April lines above are gross",
+   "amount": 28,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false,
+   "source_file": "Taylor 1212 Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "winning_document": "Taylor 1212 SDI.pdf",
+ "pm_stated_amount_due": 3334,
+ "reconciliation": "sum(open lines) 3,362.00 - credits 28.00 = 3,334.00 vs PM SDI/statement/letter 3,334.00 (match); SDI's 944.00 'current ledger balance' = April charges 972.00 less 28.00 credit.",
+ "notes": "Statement, SDI, move-out letter and 5/15/2024 ledger all show 3,334.00 with no payments after move-out. April rent was billed as a full month on 4/1 although move-out was 4/3; kept as one line for 4/1-4/30 (straddles move-out). May and June rent (1,740) split into two 870 lines and treated as future rent within the lease term (lease ends 8/31/2024). Earlier ledger late fees were paid. Lease is a scan and was not opened; term, rent and SD waiver come from ledger header, sheet facts and the addendum; initial term is 9/8/2023-8/31/2024 (about 11.8 months). Pet fee appears as a monthly pet fee only; no pet damage charged.",
+ "extraction_confidence": 0.88,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a76ad5dd1d275364a"
+ }
+}

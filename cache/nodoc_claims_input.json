@@ -1,0 +1,5794 @@
+[
+{
+"tracking": 46,
+"claim_date": "2023-03-01",
+"termination": null,
+"pm": null,
+"treaty": null,
+"monthly_rent": 1950.0,
+"max_benefit": 2000.0,
+"lease_start": "None",
+"lease_end": "None",
+"move_out": "None",
+"pm_explanation": null,
+"comments": []
+},
+{
+"tracking": 85,
+"claim_date": "2023-05-05",
+"termination": "Eviction",
+"pm": "GDAA Property Management",
+"treaty": "T00001",
+"monthly_rent": 1140.0,
+"max_benefit": 3500.0,
+"lease_start": "2022-02-09",
+"lease_end": "None",
+"move_out": "2023-03-29",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2023-05-05T09:27:00",
+"text": "@gabe@yrig.com @dkeys@yrig.com Not sure what's a renter's choice program, otherwise I do not see any SD payments on the ledger, I will request SD addendum from PM"
+},
+{
+"ts": "2023-05-05T09:29:00",
+"text": "@gabe@yrig.com @dkeys@yrig.com policy has expired on 2-9-23"
+},
+{
+"ts": "2023-05-05T10:19:00",
+"text": "The addendums have been attached"
+},
+{
+"ts": "2023-05-05T11:56:00",
+"text": "@gabe@yrig.com @dkeys@yrig.com The benefit should not have exceeded 1500.00"
+},
+{
+"ts": "2023-05-05T11:58:00",
+"text": "@gabe@yrig.com policy expired 2-9-23"
+},
+{
+"ts": "2023-05-05T13:12:00",
+"text": "@gabe@yrig.com @dkeys@yrig.com tried calling tenant, when calling number it states service restricted, most likely a prepaid phone that has no money on it"
+}
+]
+},
+{
+"tracking": 964,
+"claim_date": "2024-11-21",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1295.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-10-02",
+"lease_end": "2025-09-30",
+"move_out": "2024-10-27",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-11-21T10:42:00",
+"text": "@dkeys@yrig.com"
+},
+{
+"ts": "2024-11-21T10:51:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2024-11-21T11:09:00",
+"text": "@dkeys@yrig.com tried calling tenant, call drops and declines right away, tried calling from my mobile, same effect."
+},
+{
+"ts": "2024-11-21T11:12:00",
+"text": "@dkeys@yrig.com searched online, found no indication of military service, found a Linked in profile for tenant, appears to be a waitress, found a record of DUI"
+}
+]
+},
+{
+"tracking": 1018,
+"claim_date": "2024-12-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2000.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-04-24",
+"lease_end": "2025-04-23",
+"move_out": "2024-11-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-13T13:28:00",
+"text": "@dkeys@yrig.com CLEANING AND CARPET CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2024-12-14T05:03:00",
+"text": "@dfinkler@yrig.com"
+},
+{
+"ts": "2024-12-14T05:03:00",
+"text": "I have received a request from one of our office managers that they would like to rescind the claim for the following:\n\n\u201c Owner is waiving total due from tenant of $950.00 at 33 27th St, San Francisco, CA 94110for tenant Fadoua Khmissi and Tara Ouhmaida.\u201d\n\n\nLet me know how to proceed. Thanks so much and have a great weekend.\n\nJoe"
+}
+]
+},
+{
+"tracking": 1019,
+"claim_date": "2024-12-16",
+"termination": "Move-Out",
+"pm": "Excalibur Homes",
+"treaty": "T00004",
+"monthly_rent": 1650.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-16T07:48:00",
+"text": "@dkeys@yrig.com repairs, contacting tenant"
+},
+{
+"ts": "2024-12-17T08:40:00",
+"text": "@dkeys@yrig.com left a detailed message for tenant"
+},
+{
+"ts": "2024-12-17T11:50:00",
+"text": "@dkeys@yrig.com will settle right before new years"
+}
+]
+},
+{
+"tracking": 1020,
+"claim_date": "2024-12-16",
+"termination": "Eviction",
+"pm": "1st Choice Property Managment",
+"treaty": "T00002",
+"monthly_rent": 1795.0,
+"max_benefit": 4000.0,
+"lease_start": "2023-10-18",
+"lease_end": "2024-11-04",
+"move_out": "2024-11-04",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-16T07:45:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2024-12-16T07:46:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 1795.00, maximum benefit cannot exceed 2000.00"
+},
+{
+"ts": "2024-12-16T12:40:00",
+"text": "@dkeys@yrig.com per Duane's email: Dmitriy...Please forward a goodwill payment to 1st Choice PM for the claim on 3816 Wedgewort Road for the balance of the contacted security deposit of $3990.00.\n\nThank you...\n\nSincerely,\n \nDuane C Hughes\nExecutive VP\nNational Sales"
+},
+{
+"ts": "2024-12-16T12:41:00",
+"text": "@dkeys@yrig.com goodwill payment issued per Duane."
+}
+]
+},
+{
+"tracking": 1021,
+"claim_date": "2024-12-16",
+"termination": "Move-Out",
+"pm": "Forefront Property Management",
+"treaty": "T00002",
+"monthly_rent": 2300.0,
+"max_benefit": 3000.0,
+"lease_start": "2022-11-22",
+"lease_end": "2024-08-31",
+"move_out": "2024-08-31",
+"pm_explanation": "There is no coverage under the SD policy for utility charges, NSF charges, pet damages, or pet odor treatment.",
+"comments": [
+{
+"ts": "2024-12-17T07:22:00",
+"text": "@dkeys@yrig.com NEED CURRENT LEASE COPY, THE LEASE PROVIDED EXPIRED IN 2023"
+},
+{
+"ts": "2024-12-17T07:52:00",
+"text": "they have a risk mitigation fee of $1,500 that was collected at the beginning of the lease.  Need to know when happened with the $1,500.  Pet damage and order and NSF not covered  @dfinkler@yrig.com"
+},
+{
+"ts": "2024-12-17T08:33:00",
+"text": "@dkeys@yrig.com There is no coverage under the SD policy for utility charges, NSF charges, pet damages, or pet odor treatment"
+},
+{
+"ts": "2024-12-17T08:40:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2024-12-17T09:33:00",
+"text": "@dkeys@yrig.com tenant is disputing charges, she stated she paid 3000.00 plus 1st months rent upon move in"
+},
+{
+"ts": "2024-12-23T06:51:00",
+"text": "@dkeys@yrig.com called tenant to check on her progress of dispute as I have not seen any correspondence since the last conversation, phone just rings no answer, cannot leave vm."
+},
+{
+"ts": "2024-12-24T06:28:00",
+"text": "@dkeys@yrig.com tenant emailed, stated is working on the letter of dispute, will give it a few more days"
+},
+{
+"ts": "2024-12-27T08:14:00",
+"text": "@dkeys@yrig.com TENANT STILL HAS NOT FILED ANY DISPUTE LETTERS WITH PM AFTER 10 BUSINESS DAYS."
+},
+{
+"ts": "2025-01-09T08:37:00",
+"text": "@dkeys@yrig.com ADVISED TENANT ON SETTLEMENT OPTION"
+},
+{
+"ts": "2025-01-10T06:09:00",
+"text": "@dkeys@yrig.com tenant wants to settle, calling back today"
+},
+{
+"ts": "2025-01-13T09:49:00",
+"text": "@dkeys@yrig.com tenant promised to call after work, will give it a few more days."
+},
+{
+"ts": "2025-01-13T14:00:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1022,
+"claim_date": "2024-12-18",
+"termination": "Move-Out",
+"pm": "Property Mgmt Svs Columbus OH",
+"treaty": "T00002",
+"monthly_rent": 1475.0,
+"max_benefit": 1000.0,
+"lease_start": "2024-02-20",
+"lease_end": "2024-11-19",
+"move_out": "2024-11-19",
+"pm_explanation": "Per PM tenant paid them directly.",
+"comments": [
+{
+"ts": "2024-12-18T08:26:00",
+"text": "@dkeys@yrig.com CONTACTING PM TO DETERMINE REASON FOR CARPET REPLACEMENT"
+},
+{
+"ts": "2024-12-18T09:41:00",
+"text": "@dkeys@yrig.com received and reviewed inspection move out photos"
+},
+{
+"ts": "2024-12-18T09:43:00",
+"text": "@dkeys@yrig.com email came in from tenant: I find the term \u201cdemand\u201d exceptionally rude when I received all of the information regarding the need for payment in one day. Property Management Services is, in my opinion, a rude company with little regard for tenants and their needs. \n\nI paid your \u201cdemand\u201d now you can cross us off your books. (Receipt #9205-1F40, dated 18 December 2024)\n\nOh, and I very much find the fact that you are \u201cthreatening\u201d me with the \u201cfurther damaging [my] credit rating.\u201d Honestly, scare tactics when it hasn\u2019t been long enough to submit anything to a credit company? Unbelievable. It\u2019s no wonder everyone has been moving out in masses. \n\nV/r, \n\nCatherine Meyer"
+},
+{
+"ts": "2024-12-18T09:44:00",
+"text": "@dkeys@yrig.com fwd email to pm, checking on supposed payment from 12-18-24"
+}
+]
+},
+{
+"tracking": 1023,
+"claim_date": "2024-12-18",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1995.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-28",
+"move_out": "2024-11-13",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-18T13:35:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE 09-2024, EVICTION"
+}
+]
+},
+{
+"tracking": 1024,
+"claim_date": "2024-12-19",
+"termination": "Move-Out",
+"pm": "Pure Property Management of SC",
+"treaty": "T00001",
+"monthly_rent": 1325.0,
+"max_benefit": 2000.0,
+"lease_start": "2022-11-18",
+"lease_end": "2024-12-01",
+"move_out": "2024-09-25",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-20T07:55:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2024-12-23T06:04:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2024-12-24T06:28:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1025,
+"claim_date": "2024-12-23",
+"termination": "Move-Out",
+"pm": "Pure Property Management of Georgia",
+"treaty": "T00001",
+"monthly_rent": 2240.0,
+"max_benefit": 3500.0,
+"lease_start": "2023-07-21",
+"lease_end": "2024-10-31",
+"move_out": "2024-10-31",
+"pm_explanation": "No coverage for late fees.",
+"comments": [
+{
+"ts": "2024-12-23T07:34:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR ANY LATE FEES, COVERING ELIGIBLE DAMAGES ONLY, RENEWED FOR 3 MONTH SHORT TERM LEASE"
+},
+{
+"ts": "2024-12-23T07:39:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2024-12-24T08:50:00",
+"text": "@dkeys@yrig.com LEFT A DETAILED MESSAGE FOR  TENANT"
+},
+{
+"ts": "2024-12-26T06:12:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1026,
+"claim_date": "2024-12-23",
+"termination": "Eviction",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1925.0,
+"max_benefit": null,
+"lease_start": "2024-07-01",
+"lease_end": "2025-06-30",
+"move_out": "2024-11-20",
+"pm_explanation": "No SD policy in the system for this property.",
+"comments": [
+{
+"ts": "2024-12-23T12:52:00",
+"text": "@dkeys@yrig.com Eviction"
+},
+{
+"ts": "2024-12-23T16:03:00",
+"text": "@dkeys@yrig.com rent not paid since October 2024"
+},
+{
+"ts": "2024-12-23T16:09:00",
+"text": "@dkeys@yrig.com no SD fee reflected in ledger, no policy under either tenant in QL."
+}
+]
+},
+{
+"tracking": 1027,
+"claim_date": "2024-12-25",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1749.0,
+"max_benefit": 2000.0,
+"lease_start": "2023-09-29",
+"lease_end": "2024-10-01",
+"move_out": "2024-10-01",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-26T06:22:00",
+"text": "@dkeys@yrig.com REPAIRS, ITEM REMOVAL, CONTACTING TENANT"
+},
+{
+"ts": "2024-12-26T09:10:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2024-12-27T07:44:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2024-12-31T11:29:00",
+"text": "CARSON 8012015922"
+},
+{
+"ts": "2024-12-31T11:35:00",
+"text": "@dkeys@yrig.com spoke with husband, agreed on settlement."
+},
+{
+"ts": "2025-01-17T12:27:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT RECEIVED"
+},
+{
+"ts": "2025-02-14T09:59:00",
+"text": "@dkeys@yrig.com left message as 2nd payment is due"
+},
+{
+"ts": "2025-02-14T10:06:00",
+"text": "@dkeys@yrig.com 2ND PAYMENT COLLECTED"
+},
+{
+"ts": "2025-03-14T09:48:00",
+"text": "@dkeys@yrig.com left message as 3rd payment is due"
+},
+{
+"ts": "2025-03-14T14:17:00",
+"text": "@dkeys@yrig.com 3RD PAYMENT COLLECTED"
+}
+]
+},
+{
+"tracking": 1028,
+"claim_date": "2024-12-27",
+"termination": "Move-Out",
+"pm": "RentWerx LLX",
+"treaty": "T00002",
+"monthly_rent": 2150.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-06-30",
+"lease_end": "2025-06-30",
+"move_out": "2024-02-05",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-27T08:12:00",
+"text": "@dkeys@yrig.com TENANT MOVED OUT IN FEB 2024, CURIOUS AS TO HOW THEY ARE JUST NOW FILING A CLAIM, WAS THE PROPERTY NOT RE-RENTED ALL THIS TIME?.................."
+},
+{
+"ts": "2024-12-30T07:38:00",
+"text": "@dkeys@yrig.com rent not paid for at least two months"
+}
+]
+},
+{
+"tracking": 1029,
+"claim_date": "2024-12-27",
+"termination": "Move-Out",
+"pm": "Property Mgmt Svs Columbus OH",
+"treaty": "T00002",
+"monthly_rent": 1440.0,
+"max_benefit": 1000.0,
+"lease_start": "2023-09-23",
+"lease_end": "2024-09-22",
+"move_out": "2024-09-22",
+"pm_explanation": "No coverage for pet urine damage to carpet under SD program.",
+"comments": [
+{
+"ts": "2024-12-27T08:43:00",
+"text": "Pet damage to carpet not covered.  They have started a pet policy damage but not on this customer.  Just started it last month.  @dfinkler@yrig.com"
+},
+{
+"ts": "2024-12-27T08:49:00",
+"text": "@dkeys@yrig.com CLAIM PREVIOUSLY FILED AND CANCELLED BY PM, PENDING RESPONSE FROM PM FOR REASON FOR REFILING."
+},
+{
+"ts": "2024-12-27T09:21:00",
+"text": "@dkeys@yrig.com spoke with tenant, had financial hardship and that is why was not able to make December payment to PM as er their plan, so PM has reopened the claim for remaining amount; the tenant wishes to settle with us."
+},
+{
+"ts": "2025-01-09T06:42:00",
+"text": "@dkeys@yrig.com spoke with tenant, agreed on dates"
+},
+{
+"ts": "2025-02-03T09:35:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE AS 1ST PAYMENT IS DUE"
+},
+{
+"ts": "2025-02-03T12:35:00",
+"text": "@KEYS"
+},
+{
+"ts": "2025-02-03T12:36:00",
+"text": "@dkeys@yrig.com CALLED TENANT BACK AGAIN, ADVISED HER THAT SHE IS CALLING BACK ON THE WORNG NUMBER AND AGAIN PROVIDED BY DIRECT NUMBER IN VM"
+},
+{
+"ts": "2025-02-03T12:52:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT COLLECTED, NEXT PAYMENT MARCH 5TH AT 1 15 AM CENTRAL TIME"
+},
+{
+"ts": "2025-03-05T06:56:00",
+"text": "@dkeys@yrig.com left message as final payment is due"
+},
+{
+"ts": "2025-03-07T06:17:00",
+"text": "@dkeys@yrig.com left another message as payment is overdue"
+},
+{
+"ts": "2025-03-07T08:48:00",
+"text": "@dkeys@yrig.com tenant requested two more weeks, stated has financial difficulties and has no room on her cards, advised tenant this is the last delay, payment rescheduled"
+},
+{
+"ts": "2025-03-20T08:56:00",
+"text": "@dkeys@yrig.com tenant did not call yesterday for final payment, I called twice today voicemail is full."
+},
+{
+"ts": "2025-03-21T08:10:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1030,
+"claim_date": "2024-12-27",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1300.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-30",
+"lease_end": "2024-11-30",
+"move_out": "2024-10-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-27T14:56:00",
+"text": "@dkeys@yrig.com THIS IS AN EVICTION, RENT NOT PAID SINCE AUGUST 2024"
+},
+{
+"ts": "2024-12-31T06:25:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, DOES NOT WANT TO SETTLE OUR AMOUNT AS HE STATED OWES A LOT MORE TO PM, WANTS TO CONSULT WITH HIS LAWYER.."
+}
+]
+},
+{
+"tracking": 1031,
+"claim_date": "2024-12-27",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1451.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-03",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-27T14:54:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR NOVEMBER 2024, PUS OVERSTAYED, HIGH REPAIR BILLS"
+}
+]
+},
+{
+"tracking": 1032,
+"claim_date": "2024-12-28",
+"termination": "Move-Out",
+"pm": "1st Choice Property Managment",
+"treaty": "T00002",
+"monthly_rent": 1795.0,
+"max_benefit": 2000.0,
+"lease_start": "2023-12-28",
+"lease_end": "2024-12-27",
+"move_out": "2024-11-14",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-29T11:07:00",
+"text": "@KEYS LEASE EXPIRATION DATE ON THE LEASE SHOWS JAN 2024, DOES NOT CORRESPOND WITH THE DATE PROVIDED."
+},
+{
+"ts": "2024-12-30T07:44:00",
+"text": "@dkeys@yrig.com emailed tenant itemization and ledger"
+},
+{
+"ts": "2024-12-30T08:22:00",
+"text": "@dkeys@yrig.com tenant stated there was no damage and threatened to go to court"
+}
+]
+},
+{
+"tracking": 1033,
+"claim_date": "2024-12-30",
+"termination": "Move-Out",
+"pm": "Pure Property Management of Georgia",
+"treaty": "T00001",
+"monthly_rent": 2000.0,
+"max_benefit": null,
+"lease_start": "2021-01-30",
+"lease_end": "2025-01-31",
+"move_out": "2024-11-25",
+"pm_explanation": "No SD with policy with YRIG, this SD is through RHINO.",
+"comments": [
+{
+"ts": "2024-12-30T08:12:00",
+"text": "The security deposit is with Rhino.  @dfinkler@yrig.com"
+}
+]
+},
+{
+"tracking": 1034,
+"claim_date": "2024-12-30",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1900.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-05-01",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-18",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-30T09:18:00",
+"text": "@dkeys@yrig.com requesting missing tenant ledger from PM"
+},
+{
+"ts": "2024-12-30T09:23:00",
+"text": "@dkeys@yrig.com lease break"
+},
+{
+"ts": "2024-12-30T09:31:00",
+"text": "@dkeys@yrig.com rent not paid for November 2024,  plus lease break, contacting tenant"
+},
+{
+"ts": "2024-12-30T11:14:00",
+"text": "@dkeys@yrig.com left message for tnant"
+},
+{
+"ts": "2024-12-31T06:23:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1035,
+"claim_date": "2024-12-31",
+"termination": "Eviction",
+"pm": "Pure Property Management North Carolina Charlotte Office",
+"treaty": "T00001",
+"monthly_rent": 1870.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-06-30",
+"lease_end": "2025-06-30",
+"move_out": "2024-10-22",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-31T06:22:00",
+"text": "@dkeys@yrig.com ONLY FIRST MONTH RENT PAID, NO RENT PAID SINCE AUGUST 2024, EVICTION"
+}
+]
+},
+{
+"tracking": 1036,
+"claim_date": "2024-12-31",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 800.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-09",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2024-12-31T09:53:00",
+"text": "@dkeys@yrig.com   CONTACTING TENANT"
+},
+{
+"ts": "2025-01-02T07:39:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-02T12:45:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1037,
+"claim_date": "2025-01-02",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Oklahoma",
+"treaty": "T00001",
+"monthly_rent": 950.0,
+"max_benefit": 1000.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-02T10:30:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-01-03T06:30:00",
+"text": "@dkeys@yrig.com TENANT EMAILED AND IS CALLING BACK THIS MORNING FOR SETTLEMENT ARRANGEMENT"
+},
+{
+"ts": "2025-01-03T10:32:00",
+"text": "@dkeys@yrig.com settled"
+}
+]
+},
+{
+"tracking": 1038,
+"claim_date": "2025-01-02",
+"termination": "Move-Out",
+"pm": "Forefront Property Management",
+"treaty": "T00002",
+"monthly_rent": 1000.0,
+"max_benefit": 2000.0,
+"lease_start": "2022-11-03",
+"lease_end": "2024-10-31",
+"move_out": "2024-10-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-02T10:47:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE AUGUST 2024"
+}
+]
+},
+{
+"tracking": 1039,
+"claim_date": "2025-01-02",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Oklahoma",
+"treaty": "T00001",
+"monthly_rent": 1100.0,
+"max_benefit": 1000.0,
+"lease_start": "2022-11-16",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-04",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-02T13:44:00",
+"text": "@dkeys@yrig.com BLINDS AND CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-03T06:05:00",
+"text": "@dkeys@yrig.com COMMUNICATING VIA EMAIL, TENANT IS DENYING OWING ANY MONEY, SENDING HER THE DOCUMENT SUBMITTED BY PM."
+}
+]
+},
+{
+"tracking": 1040,
+"claim_date": "2025-01-02",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 2500.0,
+"max_benefit": 4000.0,
+"lease_start": "2023-11-27",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-02T13:43:00",
+"text": "@dkeys@yrig.com REPAIRS, TRASHOUT, CLEANING///CONTACTING TENANT"
+},
+{
+"ts": "2025-01-03T09:02:00",
+"text": "@dkeys@yrig.com spoke with wife, very nice lady, reached a settlement with first payment due on 1-10-25"
+},
+{
+"ts": "2025-01-10T10:57:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT COLLECTED"
+},
+{
+"ts": "2025-02-03T09:40:00",
+"text": "@dkeys@yrig.com COLLECTED 2ND PAYMENT"
+},
+{
+"ts": "2025-02-21T11:26:00",
+"text": "@dkeys@yrig.com settled"
+}
+]
+},
+{
+"tracking": 1041,
+"claim_date": "2025-01-02",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1275.0,
+"max_benefit": 2000.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-02T13:49:00",
+"text": "@dkeys@yrig.com CLEANING, MOVE OUT REPAIRS, LAWN///CONTACTING TENANT"
+},
+{
+"ts": "2025-01-03T08:57:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-06T08:14:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1042,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 948.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-07-26",
+"lease_end": "2025-06-30",
+"move_out": "2024-11-18",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T06:13:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-01-03T06:53:00",
+"text": "@dkeys@yrig.com owes partial rent for Nov 2024, plus lease break, contacting tenant"
+},
+{
+"ts": "2025-01-06T08:38:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-07T05:39:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1043,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 982.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-04-29",
+"lease_end": "2025-03-31",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T06:03:00",
+"text": "@dkeys@yrig.com CARPET CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-03T08:26:00",
+"text": "@dkeys@yrig.com TENANT CALLED WANTING A PAYMENT PLAN, ADVISED ITS ONLY 100.00, THEN SHE SAID OK AND HUNG UP, WILL WAIT TO SEE IF SHE PAYD PERRY REID DIRECTLY"
+}
+]
+},
+{
+"tracking": 1044,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 815.0,
+"max_benefit": 0.0,
+"lease_start": "2024-09-24",
+"lease_end": "2025-09-30",
+"move_out": "2024-11-30",
+"pm_explanation": "Tenant has moved out on 11 30 2024 and still paid rent for entire month of December.  Tenant returned payment.",
+"comments": [
+{
+"ts": "2025-01-03T06:39:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-01-03T06:41:00",
+"text": "@dkeys@yrig.com TENANT HAS MOVED OUT ON 11-30-24, BUT STILL PAID FOR ENTIRE MONTH OF DECEMEBER, COVERING CLEANING AND REAPIRS ONLY"
+},
+{
+"ts": "2025-01-06T08:36:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-07T05:43:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-01-14T12:19:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com refund pending from PM, per PM email"
+},
+{
+"ts": "2025-01-21T09:44:00",
+"text": "@dkeys@yrig.com per mother, all has been paid to PM 2 weeks ago, 6412307018 Ana, emailing PM to verify"
+},
+{
+"ts": "2025-01-21T10:29:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com PM has confirmed that tenant paid them and stated will refund our payment."
+}
+]
+},
+{
+"tracking": 1045,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 871.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-08",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-07",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T06:48:00",
+"text": "@dkeys@yrig.com lease break"
+},
+{
+"ts": "2025-01-03T06:50:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-01-06T08:35:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-07T05:40:00",
+"text": "@dkeys@yrig.com recording in Spanish, left another message"
+},
+{
+"ts": "2025-01-09T14:55:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1046,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1150.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-15",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T06:47:00",
+"text": "@dkeys@yrig.com rent not paid for November 2024, plus maint and cleaning"
+}
+]
+},
+{
+"tracking": 1047,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1005.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-07-18",
+"lease_end": "2025-06-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T06:44:00",
+"text": "@dkeys@yrig.com lease break"
+},
+{
+"ts": "2025-01-03T06:45:00",
+"text": "@dkeys@yrig.com rent not paid for Nov 2024 plus lease break"
+}
+]
+},
+{
+"tracking": 1048,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1230.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-10-01",
+"lease_end": "2025-03-31",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T08:42:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR MISSING RENT FOR THE SHORT TERM LEASE SIGNED IN OCTOBER 2024. NO RENT MISSING FROM PREVIOUS LEASE"
+},
+{
+"ts": "2025-01-03T08:47:00",
+"text": "@dkeys@yrig.com Tenant has no missing rent from the previous lease, the short term lease signed in October 2024 is not eligible for SD program. Covering carpet cleaning and property cleaning only as rent and program fees is not eligible"
+},
+{
+"ts": "2025-01-03T09:32:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT WILL SETTLE"
+},
+{
+"ts": "2025-01-20T09:21:00",
+"text": "New balance to the tenant is $1,200.  Kelly is approving the additional amount since it is a lease carry over.  Tenant will pay 4 payment of $300 each with 1st payment due this week.  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-20T10:39:00",
+"text": "I am thinking a benefit of $750 for the 6 month lease.  Will discuss with Dana and Jenny  @kcarroll@yrig.com @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-22T09:18:00",
+"text": "Please process an additonal $1,190 for a total of $1,500./  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-22T09:20:00",
+"text": "@dkeys@yrig.com will do"
+},
+{
+"ts": "2025-01-22T12:44:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT FOR 1ST PAYMENT OF 300.00"
+},
+{
+"ts": "2025-01-22T13:17:00",
+"text": "@kcarroll@yrig.com please issue payment for additional 1190.00, #1048"
+},
+{
+"ts": "2025-02-03T09:43:00",
+"text": "@dkeys@yrig.com CALLED TENANT TO COLLECT 1ST PAYMENT, VERY RUDE, SCREAMING THAT SHE IS AT WORK, NOT SURE WHY SHE IS ANSWERING IF SHE IS BUSY AT WORK, ADVISED ON HOURS OF OPERATION, WILL CALL BACK RIGHT BEFORE 5 PM"
+},
+{
+"ts": "2025-02-03T13:06:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT AND ADVISED ON PAYMENT AND TOTAL AMOUNT, STATED SHE IS GETTING DIFFERENT INFORMATION FROM 5 DIFFERENT PEOPLE, REFUSES THE AMOUNT OF 1200.00, ADVISED WILL HAVE TO SEND IT TO COLLECTIONS, SHE SAID THANK YOU, SENDING FILE TO COLLECTIONS"
+}
+]
+},
+{
+"tracking": 1049,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 720.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-10-15",
+"lease_end": "2024-09-30",
+"move_out": "2024-12-05",
+"pm_explanation": "No coverage for month to month rent under SD program, covering carpet and items removal.",
+"comments": [
+{
+"ts": "2025-01-03T08:52:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR MONTH TO MONTH RENT, CARPET AND ITEM REMOVAL ONLY"
+}
+]
+},
+{
+"tracking": 1050,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1065.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-08",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T08:37:00",
+"text": "@dkeys@yrig.com pending reason for caret replacement, but rent not paid for November 2024 and other covered items basically add up to max benefit."
+}
+]
+},
+{
+"tracking": 1051,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1375.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-11",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T10:16:00",
+"text": "@dkeys@yrig.com damages and carpet cleaning"
+},
+{
+"ts": "2025-01-06T08:33:00",
+"text": "@dkeys@yrig.com called tenant, started explaining and he hung on me"
+},
+{
+"ts": "2025-01-07T10:20:00",
+"text": "@dkeys@yrig.com settled for full amount"
+}
+]
+},
+{
+"tracking": 1052,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1145.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": "Reviewed photos, some of the carpet appears to be torn by pet/animal, SD policy no responsible for entire carpet repl. 633.00 towards carpet replacement, no coverage for electric bill.",
+"comments": [
+{
+"ts": "2025-01-03T09:53:00",
+"text": "@dkeys@yrig.com emailing PM to find out what was the 1900.00 carpet damage."
+},
+{
+"ts": "2025-01-06T08:32:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-13T07:47:00",
+"text": "@dkeys@yrig.com reviewed photos provided by PM, sone of the carpet appears to be torn by pet/animal, some cannot tell, not responsible for entire carpet replacement, paying 633.00 towards carpet repl."
+}
+]
+},
+{
+"tracking": 1053,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1370.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-09-17",
+"lease_end": "2025-08-31",
+"move_out": "2024-11-13",
+"pm_explanation": "First full month rent never paid, claim not eligible.",
+"comments": [
+{
+"ts": "2025-01-03T09:50:00",
+"text": "@dkeys@yrig.com LEASE BREAK, FIRST FULL MONTH RENT NEVER PAID, CLAIM DENIED"
+}
+]
+},
+{
+"tracking": 1054,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 875.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T09:35:00",
+"text": "@dkeys@yrig.com CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-06T08:31:00",
+"text": "@dkeys@yrig.com spoke with tenant, will pay in a few days"
+},
+{
+"ts": "2025-01-20T09:19:00",
+"text": "Tenant is calling Dmitriy now for payment of the $135 @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-20T09:30:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1055,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1150.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-10",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-20",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T09:47:00",
+"text": "@dkeys@yrig.com LEASE BREAK, PLUS UNPAID RENT FOR NOVEMBER, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-06T08:27:00",
+"text": "@dkeys@yrig.com spoke with Mark, not sure of relation, advised that will pass the message on to call me back"
+}
+]
+},
+{
+"tracking": 1056,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 813.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-28",
+"move_out": "2024-12-02",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T09:57:00",
+"text": "@dkeys@yrig.com Need more information re. flooring replacement"
+},
+{
+"ts": "2025-01-13T07:40:00",
+"text": "@dkeys@yrig.com reviewed photos provided by pm, multiple rooms with vinyl flooring show damage, does not appear to be pet related"
+},
+{
+"ts": "2025-01-13T07:41:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-01-13T12:03:00",
+"text": "@dkeys@yrig.com spoke with tenant stated that made arrangements with PM, emailing PM for confirmation"
+},
+{
+"ts": "2025-01-14T07:52:00",
+"text": "@dkeys@yrig.com PENDING CALL BACK FROM TENANT FOR PAYMENT ARRANGEMENT"
+}
+]
+},
+{
+"tracking": 1057,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 975.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-10-13",
+"lease_end": "2024-09-30",
+"move_out": "2024-11-30",
+"pm_explanation": "Total rent missing for the lease period is 950.50, there is no coverage under SD program for month to month rent after lease expiration, late fees, or any of the program fees.",
+"comments": [
+{
+"ts": "2025-01-03T11:49:00",
+"text": "@dkeys@yrig.com 77.50 SHORT FOR APRIL 2024, 798 SHORT FOR AUGUST 2024, 75.00 SHORT FOR SEPTEMBER 2024; TOTAL SHORT RENT FOR THE LEASE PERIOD IS 950.50, NO COVERAGE FOR MONTH TO MONTH RENT OR PROGRAM FEES."
+}
+]
+},
+{
+"tracking": 1058,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 910.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-11",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T11:53:00",
+"text": "@dkeys@yrig.com NO RENT PAID SINCE SEPTEMBER 2024"
+}
+]
+},
+{
+"tracking": 1059,
+"claim_date": "2025-01-03",
+"termination": "Eviction",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 900.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-12",
+"lease_end": "2025-02-28",
+"move_out": "2024-12-03",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T15:43:00",
+"text": "@dkeys@yrig.com EVICTION"
+}
+]
+},
+{
+"tracking": 1060,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1840.0,
+"max_benefit": 3000.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-12-01",
+"move_out": "2024-12-01",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-03T15:50:00",
+"text": "@dkeys@yrig.com MULTIPLE REPAIRS AND NON COVERED ITEMS SUCH AS PEST CONTROL AND INFESTATION DAMAGES, COVERED ITEMS MAX OUT THE BENEFIT"
+}
+]
+},
+{
+"tracking": 1061,
+"claim_date": "2025-01-03",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1850.0,
+"max_benefit": 5500.0,
+"lease_start": "2023-11-02",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-02",
+"pm_explanation": "Paint invoice attached by Lynn is for 1948.50, no coverage for pest control under SD program, no coverage for entry room set of blinds with bite marks.",
+"comments": [
+{
+"ts": "2025-01-04T14:26:00",
+"text": "@dkeys@yrig.com OUTRAGEOUS MOVE OUT REPAIR COSTS AND PAINT, REQUESTING FURTHER INFORMATION FROM PM"
+},
+{
+"ts": "2025-01-07T11:52:00",
+"text": "@dkeys@yrig.com Paint invoice attached by Lynn is for 1948.50, no coverage for pest control under SD program, no coverage for entry room set of blinds with bite marks"
+}
+]
+},
+{
+"tracking": 1062,
+"claim_date": "2025-01-07",
+"termination": "Eviction",
+"pm": "PURE Operating LLC, dba Turner Properties",
+"treaty": "T00001",
+"monthly_rent": 1695.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-07-16",
+"lease_end": "2025-08-01",
+"move_out": "2024-11-17",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-07T11:40:00",
+"text": "@dkeys@yrig.com EVICTION, RENT NOT PAID FOR NOV 2024"
+},
+{
+"ts": "2025-01-17T08:17:00",
+"text": "@dkeys@yrig.com spoke with tenant, offered to settle for a lesser amount, she stated will just let it hit her credit and hung up"
+}
+]
+},
+{
+"tracking": 1063,
+"claim_date": "2025-01-08",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1750.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-02",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-08T08:18:00",
+"text": "@dkeys@yrig.com REVIEWED REPORT, REFRIGERATOR MISSING, VERY DIRTY, LOTS OF TRASH LEFT BEHIND, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-09T07:20:00",
+"text": "@dkeys@yrig.com LEFT A DETAILED MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-01-10T06:15:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1064,
+"claim_date": "2025-01-08",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1400.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-10-13",
+"lease_end": "2024-09-30",
+"move_out": "2024-12-02",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-08T08:34:00",
+"text": "@dkeys@yrig.com MAKEREADY, PLACE LEFT VERY DIRTY PER THE PHOTOS, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-09T07:23:00",
+"text": "@dkeys@yrig.com LEFT A DETAILED MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-01-10T06:14:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1065,
+"claim_date": "2025-01-08",
+"termination": "Eviction",
+"pm": "Pure Property Management of Kentucky",
+"treaty": "T00001",
+"monthly_rent": 1795.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-04-17",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-12",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-08T09:04:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE OCTOBER 2024, EVICTION"
+}
+]
+},
+{
+"tracking": 1066,
+"claim_date": "2025-01-08",
+"termination": "Eviction",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1737.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-12-26",
+"lease_end": "2024-12-29",
+"move_out": "2024-12-29",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-08T14:03:00",
+"text": "@dkeys@yrig.com EVICTION, NEED ACTUAL LEDGER"
+},
+{
+"ts": "2025-01-08T14:06:00",
+"text": "@dkeys@yrig.com contacting pm"
+},
+{
+"ts": "2025-01-13T11:54:00",
+"text": "@dkeys@yrig.com eviction, NSF, rent not paid properly since October 2024"
+}
+]
+},
+{
+"tracking": 1067,
+"claim_date": "2025-01-08",
+"termination": "Move-Out",
+"pm": "1st Choice Property Management",
+"treaty": "T00002",
+"monthly_rent": 2145.0,
+"max_benefit": 3000.0,
+"lease_start": "2022-11-07",
+"lease_end": "2024-11-06",
+"move_out": "2024-11-06",
+"pm_explanation": "Based on monthly rent of 2145.00, the SD benefit cannot exceed 2500.00.",
+"comments": [
+{
+"ts": "2025-01-08T14:05:00",
+"text": "@dkeys@yrig.com MISSING ALL NECESSARY DOCUMENTS"
+},
+{
+"ts": "2025-01-08T14:06:00",
+"text": "@dkeys@yrig.com contacting pm"
+},
+{
+"ts": "2025-01-09T06:37:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 2145.00, the SD benefit cannot exceed 2500.00"
+}
+]
+},
+{
+"tracking": 1068,
+"claim_date": "2025-01-08",
+"termination": "Move-Out",
+"pm": "PURE Property Management Silicon Valley",
+"treaty": "T00001",
+"monthly_rent": 3750.0,
+"max_benefit": 4000.0,
+"lease_start": "2024-05-01",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-27",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-09T06:26:00",
+"text": "@dkeys@yrig.com EVICTION, FULL RENT NOT PAID SINCE OCTIBER 2024"
+},
+{
+"ts": "2025-01-09T10:55:00",
+"text": "@dkeys@yrig.com spoke with tenant, wants to settle to avoid collections"
+},
+{
+"ts": "2025-02-03T09:47:00",
+"text": "@dkeys@yrig.com phone just rings and rings, 1st payment is due today, but will not go into voicemail. Will try again later."
+},
+{
+"ts": "2025-02-03T12:56:00",
+"text": "@dkeys@yrig.com WAS ABLE TO NOW GET THE VOICEMAIL, LEFT MESSAGE AS 1ST PAYMENT IS DUE"
+},
+{
+"ts": "2025-02-03T13:29:00",
+"text": "@dkeys@yrig.com SPOKE WITH CHRISTIAN, REQUESTED TO MAKE 1ST PAYMENT THIS FRIDAY WHEN HE GETS PAID"
+},
+{
+"ts": "2025-02-07T09:25:00",
+"text": "@dkeys@yrig.com left message as 1st payment is due"
+},
+{
+"ts": "2025-02-10T08:22:00",
+"text": "@dkeys@yrig.com tenant stopped communicating"
+},
+{
+"ts": "2025-02-12T08:08:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT MADE"
+},
+{
+"ts": "2025-03-14T09:50:00",
+"text": "@dkeys@yrig.com left message as 2nd payment is due"
+},
+{
+"ts": "2025-03-18T08:52:00",
+"text": "@dkeys@yrig.com 2ND PAYMENT MADE"
+}
+]
+},
+{
+"tracking": 1069,
+"claim_date": "2025-01-09",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1295.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-12-23",
+"lease_end": "2025-10-31",
+"move_out": "2024-12-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-10T06:47:00",
+"text": "@dkeys@yrig.com BOUNCED PAYMENT FOR DECEMBER 2024, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1070,
+"claim_date": "2025-01-10",
+"termination": "Eviction",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1672.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-01-19",
+"lease_end": "2025-02-18",
+"move_out": "2025-01-01",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-10T11:46:00",
+"text": "@dkeys@yrig.com MISSING LEDGER AND ADDENDUM, EMAILING PM"
+},
+{
+"ts": "2025-01-13T11:52:00",
+"text": "@dkeys@yrig.com eviction, rent not paid since Nov 2024"
+}
+]
+},
+{
+"tracking": 1071,
+"claim_date": "2025-01-11",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2100.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-02-09",
+"lease_end": "2025-02-08",
+"move_out": "2014-11-14",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-12T16:48:00",
+"text": "@dkeys@yrig.com owes partial rent for Nov 2024, plus lease break, contacting tenant"
+}
+]
+},
+{
+"tracking": 1072,
+"claim_date": "2025-01-11",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1550.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": "There is no coverage for late fees under SD program.",
+"comments": [
+{
+"ts": "2025-01-12T16:46:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR LATE FEES UNDER SD PROGRAM"
+}
+]
+},
+{
+"tracking": 1073,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1850.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-13T10:59:00",
+"text": "@dkeys@yrig.com ALMOST 3K IN REPAIRS, CLEANING AND ITEM REMOVEL, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-14T10:16:00",
+"text": "@dkeys@yrig.com message left for tenant"
+},
+{
+"ts": "2025-01-15T08:30:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-01-22T08:52:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, STATES HAS KNOWLEDGE IN LEASE LAW AND WILL DISPUTE AND INVESTIGATE"
+}
+]
+},
+{
+"tracking": 1074,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "Pure Operating LLC",
+"treaty": "T00001",
+"monthly_rent": 1550.0,
+"max_benefit": 1500.0,
+"lease_start": "2022-12-29",
+"lease_end": "2024-12-15",
+"move_out": "2024-12-14",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-15T08:38:00",
+"text": "left message for Brian.  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-27T13:39:00",
+"text": "Talked to the tenant  He has filed for bankruptcy and does not care about it being reported.  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-01-27T14:01:00",
+"text": "@dkeys@yrig.com got it, thank you"
+}
+]
+},
+{
+"tracking": 1075,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1400.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-11-19",
+"lease_end": "2024-11-18",
+"move_out": "2024-11-18",
+"pm_explanation": 1110.2,
+"comments": [
+{
+"ts": "2025-01-13T13:02:00",
+"text": "@dkeys@yrig.com repairs, contacting tenant"
+},
+{
+"ts": "2025-01-14T10:22:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-15T08:31:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1076,
+"claim_date": "2025-01-13",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2300.0,
+"max_benefit": 3500.0,
+"lease_start": "2023-12-12",
+"lease_end": "2024-12-13",
+"move_out": "2024-12-04",
+"pm_explanation": "Based on monthly rent of 2300.00, the maximum SD benefit cannot exceed 2500.00",
+"comments": [
+{
+"ts": "2025-01-13T13:11:00",
+"text": "@dkeys@yrig.com eviction, rent not paid since November 2024, Based on monthly rent of 2300.00, the benefit cannot exceed 2500.00"
+}
+]
+},
+{
+"tracking": 1077,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2400.0,
+"max_benefit": 3500.0,
+"lease_start": "2024-01-27",
+"lease_end": "2025-01-26",
+"move_out": "2024-11-22",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-13T13:18:00",
+"text": "@dkeys@yrig.com CLEANING AND TRASH OUT, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-14T10:24:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-15T07:51:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-01-20T10:37:00",
+"text": "@dkeys@yrig.com TENANT CALLED BACK, WANTS TO SETTLE"
+},
+{
+"ts": "2025-01-20T12:56:00",
+"text": "@dkeys@yrig.com settled"
+}
+]
+},
+{
+"tracking": 1078,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1850.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-05-01",
+"lease_end": "2025-04-30",
+"move_out": "2024-11-27",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-13T13:25:00",
+"text": "@dkeys@yrig.com REPAIRS, MAINT, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-14T13:20:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-15T07:51:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1079,
+"claim_date": "2025-01-13",
+"termination": "Move-Out",
+"pm": "Reliant Property Management",
+"treaty": "T00005",
+"monthly_rent": 1550.0,
+"max_benefit": 1500.0,
+"lease_start": "2022-11-18",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-14T07:39:00",
+"text": "@dkeys@yrig.com REPAIRS, DAMAGES, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-14T13:23:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-15T07:50:00",
+"text": "@dkeys@yrig.com spoke with tenant and wants to settle, will call back later on this morning."
+},
+{
+"ts": "2025-01-15T10:49:00",
+"text": "@dkeys@yrig.com 1st payment collected"
+},
+{
+"ts": "2025-02-03T09:54:00",
+"text": "@dkeys@yrig.com 2ND PAYMENT COLLECTED"
+},
+{
+"ts": "2025-02-21T09:58:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1080,
+"claim_date": "2025-01-13",
+"termination": "Eviction",
+"pm": "Reliant Property Management",
+"treaty": "T00005",
+"monthly_rent": 1550.0,
+"max_benefit": 1500.0,
+"lease_start": "2022-12-09",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-09",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-14T07:43:00",
+"text": "@dkeys@yrig.com EVICTION"
+}
+]
+},
+{
+"tracking": 1081,
+"claim_date": "2025-01-14",
+"termination": "Eviction",
+"pm": "PURE",
+"treaty": "T00001",
+"monthly_rent": 1570.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-05-01",
+"lease_end": "2025-05-11",
+"move_out": "2024-12-14",
+"pm_explanation": "Based on monthly rent of 1570.00, the maximum SD benefit cannot exceed 2000.00.",
+"comments": [
+{
+"ts": "2025-01-14T10:12:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-02-27T12:50:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com per Doug, additional 500.00, #1081"
+}
+]
+},
+{
+"tracking": 1082,
+"claim_date": "2025-01-15",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1750.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-08-31",
+"lease_end": "2025-08-30",
+"move_out": "2024-12-05",
+"pm_explanation": "Based on monthly rent of 1750.00, the maximum SD benefit cannot exceed 2000.00.",
+"comments": [
+{
+"ts": "2025-01-15T13:24:00",
+"text": "@dkeys@yrig.com MISSING TENANT LEDGER, EMAILING PM"
+},
+{
+"ts": "2025-01-16T06:31:00",
+"text": "@dkeys@yrig.com eviction"
+},
+{
+"ts": "2025-01-16T06:33:00",
+"text": "@dkeys@yrig.com rent not paid for Nov and partial Dec 2024"
+}
+]
+},
+{
+"tracking": 1083,
+"claim_date": "2025-01-16",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1895.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-08-01",
+"lease_end": "2025-07-31",
+"move_out": "2026-01-01",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T09:24:00",
+"text": "@dkeys@yrig.com need current lease copy"
+},
+{
+"ts": "2025-01-17T09:25:00",
+"text": "@dkeys@yrig.com lease break, rent and fees owed"
+},
+{
+"ts": "2025-01-17T10:31:00",
+"text": "@dkeys@yrig.com lease break plus repairs, contacting tenant"
+},
+{
+"ts": "2025-01-20T08:26:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-21T06:14:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1084,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1205.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-17",
+"lease_end": "2025-05-31",
+"move_out": "2024-12-27",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:56:00",
+"text": "@dkeys@yrig.com OWES RENT SINCE 10-2024"
+}
+]
+},
+{
+"tracking": 1085,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 700.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-11-22",
+"lease_end": "2025-11-30",
+"move_out": "2024-12-12",
+"pm_explanation": "First full month rent payment never made, not eligible under SD program.",
+"comments": [
+{
+"ts": "2025-01-17T10:22:00",
+"text": "@dkeys@yrig.com First full month rent payment never made."
+}
+]
+},
+{
+"tracking": 1086,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1575.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-11-07",
+"lease_end": "2025-11-30",
+"move_out": "2024-11-26",
+"pm_explanation": "First full month rent never paid, not eligible under SD program.",
+"comments": [
+{
+"ts": "2025-01-17T10:19:00",
+"text": "@dkeys@yrig.com FIRST FULL MONTH RENT NEVER PAID"
+}
+]
+},
+{
+"tracking": 1087,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1129.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-03-26",
+"lease_end": "2025-02-28",
+"move_out": "2024-12-09",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:13:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE SEPTEMBER 2024"
+}
+]
+},
+{
+"tracking": 1088,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 560.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-26",
+"lease_end": "2025-01-31",
+"move_out": "2024-11-15",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:09:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE OCTOBER 2024, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-20T08:24:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-21T06:14:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1089,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 810.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-21",
+"lease_end": "2025-07-31",
+"move_out": "2024-12-17",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:05:00",
+"text": "@dkeys@yrig.com OWES NOV 2024 RENT THAT BOUNCED PLUS LEASE BREAK, RENT CHECKS KEPT BOUNCING PRETTY MUCH SINCE THE BEGINNING OF THE LEASE"
+}
+]
+},
+{
+"tracking": 1090,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 813.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-06-05",
+"lease_end": "2025-05-31",
+"move_out": "2024-11-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:00:00",
+"text": "@dkeys@yrig.com OWES PARTIAL RENT FOR NOVEMEBER PLUS LEASE BREAK"
+},
+{
+"ts": "2025-01-17T10:01:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-01-20T08:20:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-21T06:15:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1091,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 890.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-29",
+"lease_end": "2025-01-31",
+"move_out": "2024-12-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T08:27:00",
+"text": "@dkeys@yrig.com Ledger attached does not match tenant or amount, pending correct ledger from PM"
+},
+{
+"ts": "2025-01-20T13:05:00",
+"text": "@dkeys@yrig.com received correct ledger, cleaning charges, contacting tenant"
+},
+{
+"ts": "2025-01-21T06:14:00",
+"text": "@dkeys@yrig.com left message for tenant"
+}
+]
+},
+{
+"tracking": 1092,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1365.0,
+"max_benefit": 0.0,
+"lease_start": "2024-02-06",
+"lease_end": "2025-02-28",
+"move_out": "2024-12-23",
+"pm_explanation": "Claim cancelled per PM",
+"comments": [
+{
+"ts": "2025-01-17T08:24:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE SEPTEMBER 2024"
+},
+{
+"ts": "2025-01-17T09:18:00",
+"text": "@dkeys@yrig.com tenant called, nearly spend 30 min on the phone, arguing everything, wanting to see the contract where it states he owes us, etc; explained how everything works and what we facilitate multiple times, just keeps arguing, does not understand that he owes security deposit."
+},
+{
+"ts": "2025-01-21T09:35:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com PM requested to cancel claim"
+},
+{
+"ts": "2025-01-21T10:17:00",
+"text": "@dkeys@yrig.com cheque has never gone out per Kelly"
+},
+{
+"ts": "2025-01-21T12:44:00",
+"text": "Don\u2019t forget to add the claim number to your comments.\nKelly"
+}
+]
+},
+{
+"tracking": 1093,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1105.0,
+"max_benefit": null,
+"lease_start": "2024-11-15",
+"lease_end": "2025-11-30",
+"move_out": "2024-12-26",
+"pm_explanation": "First full month rent never paid, not eligible per SD guidelines.",
+"comments": [
+{
+"ts": "2025-01-17T09:56:00",
+"text": "@dkeys@yrig.com ONLY 15 DAY RENT PAID, NO RENT PAID FOR THE FIRST FULL MONTH, CLAIM DENIED"
+},
+{
+"ts": "2025-01-20T08:53:00",
+"text": "@dkeys@yrig.com call from tenant, he had questions about automated email, advised request has been denied to the PM as the guidelines have not been met, advised for further questions to contact PM directly."
+}
+]
+},
+{
+"tracking": 1094,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1043.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-01",
+"lease_end": "2025-07-31",
+"move_out": "2024-12-09",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T09:40:00",
+"text": "@dkeys@yrig.com LEASE BREAK, OWES RENT FOR SEPTEMBER, NOVEMEBER AND PARTIAL DECEMBER 2024"
+}
+]
+},
+{
+"tracking": 1095,
+"claim_date": "2025-01-17",
+"termination": "Move-Out",
+"pm": "Pure Operating LLC",
+"treaty": "T00001",
+"monthly_rent": 1926.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-02-03",
+"lease_end": "2024-08-31",
+"move_out": "2025-10-08",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-17T10:53:00",
+"text": "@dkeys@yrig.com CALCULATED ACTUAL TOTAL RENT FOR THE TERM OF LEASE FROM 2-2023 TO 8-2024 SHOULD HAVE BEEN 24883.00, TENANT TOTAL PAYMENTS THROUGH THE END OF THE LEASE ARE 20133.76, COVERING MAX BENEFIT FOR  LOST RENT"
+}
+]
+},
+{
+"tracking": 1096,
+"claim_date": "2025-01-17",
+"termination": "Eviction",
+"pm": "Pure Operating LLC",
+"treaty": "T00001",
+"monthly_rent": 1600.0,
+"max_benefit": null,
+"lease_start": "2023-07-07",
+"lease_end": "2024-07-15",
+"move_out": "2023-11-14",
+"pm_explanation": "1st FULL month rent never paid by tenant, not eligible under SD program.",
+"comments": [
+{
+"ts": "2025-01-17T11:36:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-01-17T11:43:00",
+"text": "@dkeys@yrig.com NO POLICY FOUND IN QL, PLUS FIRST FULL MONTH RENT NEVER PAID, THIS IS FROM 2023..........."
+}
+]
+},
+{
+"tracking": 1097,
+"claim_date": "2025-01-21",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1925.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-08-15",
+"lease_end": "2025-08-14",
+"move_out": "2024-12-26",
+"pm_explanation": "First full month rent never collected, payments have bounced, not eligible under Sd program.",
+"comments": [
+{
+"ts": "2025-01-21T06:01:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-01-21T06:06:00",
+"text": "@dkeys@yrig.com 1ST FULL MONTH PAYMENT NEVER MADE, PAYMENTS KEPT BOUNCING BACK"
+},
+{
+"ts": "2025-01-21T06:10:00",
+"text": "@dkeys@yrig.com PAID SOME OF IT LATER, SHOWS PREMIUM PAYMENTS MADE IN QL TO JANUARY 25"
+},
+{
+"ts": "2025-01-21T06:14:00",
+"text": "@dkeys@yrig.com Doug, when you get a chance, can you take a look at this one, I am torn between not paying it, and premiums paid up to January 2025, please advise."
+}
+]
+},
+{
+"tracking": 1098,
+"claim_date": "2025-01-22",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2100.0,
+"max_benefit": 3500.0,
+"lease_start": "2023-12-19",
+"lease_end": "2024-12-18",
+"move_out": "2024-12-18",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-22T08:09:00",
+"text": "@dkeys@yrig.com MAINT, CLEANING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-23T08:41:00",
+"text": "@dkeys@yrig.com spoke with tenant, she stated that she moved out 8 months ago, and this should be on the other two tenants, I advised that will contact them, but while explaining that it affects all the tenants on the lease, she has hung up"
+},
+{
+"ts": "2025-01-23T08:44:00",
+"text": "@dkeys@yrig.com left a detailed message for both spouses on the lease"
+},
+{
+"ts": "2025-02-14T08:11:00",
+"text": "@dkeys@yrig.com EMAIL FROM TENANT, VERIFYING AMOUNT OWED, POSSIBLY WANTS TO SETTLE, IN DISCUSSION"
+},
+{
+"ts": "2025-02-28T08:57:00",
+"text": "@dkeys@yrig.com father called back and settled"
+}
+]
+},
+{
+"tracking": 1099,
+"claim_date": "2025-01-22",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1402.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-18",
+"lease_end": "2024-12-22",
+"move_out": "2024-12-23",
+"pm_explanation": null,
+"comments": []
+},
+{
+"tracking": 1100,
+"claim_date": "2025-01-22",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1895.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-02-28",
+"lease_end": "2024-12-19",
+"move_out": "2024-12-19",
+"pm_explanation": "No coverage for pet cleaning chargeback under SD policy.",
+"comments": [
+{
+"ts": "2025-01-22T12:14:00",
+"text": "@dkeys@yrig.com LEDGER INCOMPLETE, EMAILING PM"
+},
+{
+"ts": "2025-01-22T13:13:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-01-22T13:13:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR THE PROPERTY CLEANING CHARGEBACK FOR PET"
+},
+{
+"ts": "2025-01-23T08:35:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-31T07:42:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com #1100, per PM should not have charged 200.00 for the screens, and should be refunding us 200.00.////collection will be for 250.00 only."
+}
+]
+},
+{
+"tracking": 1101,
+"claim_date": "2025-01-22",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Kentucky",
+"treaty": "T00001",
+"monthly_rent": 1195.0,
+"max_benefit": 1000.0,
+"lease_start": "2024-09-11",
+"lease_end": "2025-09-30",
+"move_out": "2024-12-17",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-22T12:26:00",
+"text": "@dkeys@yrig.com LEASE BREAK, OWES 11K PER THE LEDGER"
+},
+{
+"ts": "2025-02-05T08:43:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com #1101 Pure will be issuing refund for 670.00."
+}
+]
+},
+{
+"tracking": 1102,
+"claim_date": "2025-01-22",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 3410.0,
+"max_benefit": 3500.0,
+"lease_start": "2024-06-21",
+"lease_end": "2025-06-20",
+"move_out": "2025-01-09",
+"pm_explanation": "Landscaping coverage caps out at 500.00. There is no coverage for utilities under the SD program.",
+"comments": [
+{
+"ts": "2025-01-22T15:46:00",
+"text": "@dkeys@yrig.com Incorrect lease provided, tenant names do not match with tenant names on the ledger, emaiing PM"
+},
+{
+"ts": "2025-01-22T16:09:00",
+"text": "@dkeys@yrig.com EMAIL FROM TENANT, WANTS TO KNOW IF OTHER TENANTS HAVE BEEN SENT NOTICES"
+},
+{
+"ts": "2025-01-22T16:10:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-01-22T16:13:00",
+"text": "@dkeys@yrig.com not covering more than 500.00 for sod/backyard."
+},
+{
+"ts": "2025-01-22T16:16:00",
+"text": "@dkeys@yrig.com partial prorated rent not fully paid for January 2025"
+},
+{
+"ts": "2025-01-23T08:33:00",
+"text": "@dkeys@yrig.com calling all 3 tenants"
+},
+{
+"ts": "2025-01-23T08:45:00",
+"text": "@dkeys@yrig.com Landscaping coverage caps out at 500.00. There is no coverage for utilities under the SD program"
+},
+{
+"ts": "2025-01-24T06:51:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-01-31T07:46:00",
+"text": "@dkeys@yrig.com primary tenant called back after hours, called her back and left a message"
+}
+]
+},
+{
+"tracking": 1103,
+"claim_date": "2025-01-23",
+"termination": "Move-Out",
+"pm": "1st Choice Property Management",
+"treaty": "T00002",
+"monthly_rent": 2095.0,
+"max_benefit": 5000.0,
+"lease_start": "2023-09-09",
+"lease_end": "2024-09-08",
+"move_out": "2024-11-22",
+"pm_explanation": "No coverage for rent after lease expiration in September 2024, covering maintenance, repairs, lawn, and cleaning.",
+"comments": [
+{
+"ts": "2025-01-23T15:27:00",
+"text": "@dkeys@yrig.com TENANT OVERSTAYED, NO COVERAGE FOR RENT AFTER LEASE END IN SEPT 2024, COVERING MAINT, CLEANING, REPAIRS, LAWN."
+}
+]
+},
+{
+"tracking": 1104,
+"claim_date": "2025-01-23",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1077.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-13",
+"lease_end": "2025-05-18",
+"move_out": "2025-01-10",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-23T15:19:00",
+"text": "@dkeys@yrig.com RENT NOT FULLY PAID FOR DECEMBER AND PARTIAL JANUARY 2025, PLUS LEASE BREAK, REPAIRS"
+}
+]
+},
+{
+"tracking": 1105,
+"claim_date": "2025-01-24",
+"termination": "Move-Out",
+"pm": "1st Choice Property Managment",
+"treaty": "T00002",
+"monthly_rent": 3045.0,
+"max_benefit": 6000.0,
+"lease_start": "2023-04-26",
+"lease_end": "2025-04-25",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-24T07:36:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-01-24T07:39:00",
+"text": "@dkeys@yrig.com OWES LEASE BREAK FEE AND CLEANING, MAKE READY, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-25T14:22:00",
+"text": "@dkeys@yrig.com email and call back request from tenant, called tenant, left a message"
+},
+{
+"ts": "2025-01-27T08:18:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-01-28T14:00:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1106,
+"claim_date": "2025-01-24",
+"termination": "Eviction",
+"pm": "Excalibur Homes",
+"treaty": "T00004",
+"monthly_rent": 2295.0,
+"max_benefit": null,
+"lease_start": "2023-12-07",
+"lease_end": "2025-03-31",
+"move_out": "2025-01-13",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-24T10:55:00",
+"text": "@dkeys@yrig.com EVICTION, RENT NOT PAID SINCE OCTOBER 2024"
+}
+]
+},
+{
+"tracking": 1107,
+"claim_date": "2025-01-24",
+"termination": "Move-Out",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 1102.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-01-08",
+"lease_end": "2025-01-12",
+"move_out": "2025-01-12",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-24T13:23:00",
+"text": "@dkeys@yrig.com MOVE OUT REPAIRS DETAILED, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-27T08:19:00",
+"text": "@dkeys@yrig.com received an email from tenant disputing all charges, calling tenant"
+},
+{
+"ts": "2025-01-27T08:44:00",
+"text": "@dkeys@yrig.com spoke with tenant, advised on all options//Tenant is disputing charges as multiple items were broken or missing at move in, tenant requested photos of move in from PM, has not received access to ztenant photos as of yet"
+},
+{
+"ts": "2025-02-11T08:39:00",
+"text": "@dkeys@yrig.com received new total, claim has been reduced by PM to 1472.00, wow"
+},
+{
+"ts": "2025-02-11T08:41:00",
+"text": "@dkeys@yrig.com contacting tenant back for settlement"
+},
+{
+"ts": "2025-02-12T08:20:00",
+"text": "@dkeys@yrig.com FINALLY SPOKE WITH TENANT AND OFFERED A SETTLEMENT OPTION, WANTS TO DISCUSS WITH HER PARTNER AS IS DISABLED AND CURRENTLY NOT WORKING, WILL CALL ME BACK"
+},
+{
+"ts": "2025-02-21T08:54:00",
+"text": "@dkeys@yrig.com tenant called back and stated after speaking to family, partner, and fact that she has no money, they will go to court; offered to settle for 300.00, I advised that will not work and will send to collections."
+},
+{
+"ts": "2025-02-21T12:45:00",
+"text": "@dkeys@yrig.com TENANT CALLED BACK AND DECIED TO SETTLE INSTEAD OF COURT"
+},
+{
+"ts": "2025-02-21T13:03:00",
+"text": "@dkeys@yrig.com settled"
+}
+]
+},
+{
+"tracking": 1108,
+"claim_date": "2025-01-24",
+"termination": "Move-Out",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 1477.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-06-21",
+"lease_end": "2025-06-20",
+"move_out": "2025-01-07",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-24T13:20:00",
+"text": "@dkeys@yrig.com LEASE BREAK, RENT NOT PAID SINCE DECEMBER 2024, CONTACTING TENANT"
+}
+]
+},
+{
+"tracking": 1109,
+"claim_date": "2025-01-24",
+"termination": "Move-Out",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 1248.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-04-29",
+"lease_end": "2025-04-28",
+"move_out": "2025-01-06",
+"pm_explanation": "Based on monthly rent of 1248.00, maximum SD benefit amount cannot exceed 1500.00",
+"comments": [
+{
+"ts": "2025-01-24T13:15:00",
+"text": "@dkeys@yrig.com BASED ON MONTHLY RENT, BENEFIT MAX CANNOT EXCEED 1500.00."
+},
+{
+"ts": "2025-01-24T13:16:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE NOVEMBER 2024"
+}
+]
+},
+{
+"tracking": 1110,
+"claim_date": "2025-01-27",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 2750.0,
+"max_benefit": 4500.0,
+"lease_start": "2023-09-07",
+"lease_end": "2024-09-30",
+"move_out": "2024-12-18",
+"pm_explanation": "No rent coverage or late fee coverage for month to month rent after lease expiration; no coverage for utilities to exceed 150.00 as per April 2024 agreement with PM.",
+"comments": [
+{
+"ts": "2025-01-27T17:56:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-01-27T17:56:00",
+"text": "@dkeys@yrig.com No rent coverage or late fee coverage for month to month rent after lease expiration; no coverage for utilities to exceed 150.00 as per April 2024 agreement with PM."
+},
+{
+"ts": "2025-01-28T13:58:00",
+"text": "@dkeys@yrig.com email from tenant: And we have sent countless emails in response to the egregious claims and debts that StarPointe has unfairly and illegally charged us with zero response from them. If you too would like to be listed in the lawsuit against them we can do that because by law we have asked for an itemized breakdown of the charges and StarPointe has not responded or sent a break down of each particular charge. We will file an appeal against the claims to each credit bureau and list you as the collection agency who is assisting to criminally file collections against tenants. This email from you and my response will go on record and be used in both our civil suit and submitted to each credit bureau. The fact that your agency blindly makes claims that are biased and unfactual shows what kind of fraudulent company you represent. If you would like a copy of the civil suit we would be glad to provide it to you along with listing you as a money hungry collection agency.\n\nHave a nice day.\n\nJames"
+}
+]
+},
+{
+"tracking": 1111,
+"claim_date": "2025-01-28",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 895.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-01-18",
+"lease_end": "2025-01-13",
+"move_out": "2025-01-13",
+"pm_explanation": "no coverage for program fees, late fees, or lease violation fees",
+"comments": [
+{
+"ts": "2025-01-28T14:58:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR THE AST MONTH OF LEASE, JANUARY 2025; no coverage for program fees, late fees, or lease violation fees; contacting tenant"
+},
+{
+"ts": "2025-01-29T06:47:00",
+"text": "@dkeys@yrig.com MESSAGE LEFT FOR TENANT"
+},
+{
+"ts": "2025-01-29T12:23:00",
+"text": "@dkeys@yrig.com call back from the spouse, explained what we administer, very combative, quoted some of Idaho rental laws and stated will be taking this to court, will not pay anything, even after offer to settle"
+}
+]
+},
+{
+"tracking": 1112,
+"claim_date": "2025-01-28",
+"termination": "Move-Out",
+"pm": "Property Mgmt Svs Columbus OH",
+"treaty": "T00002",
+"monthly_rent": 1750.95,
+"max_benefit": 1000.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-28T14:47:00",
+"text": "@dkeys@yrig.com UTILITIES AND CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-29T06:49:00",
+"text": "@dkeys@yrig.com VOICEMAI DOES NOT PICK, JUST HANGS UP THE CALL"
+}
+]
+},
+{
+"tracking": 1113,
+"claim_date": "2025-01-28",
+"termination": "Move-Out",
+"pm": "Pure Property Management of Kentucky",
+"treaty": "T00001",
+"monthly_rent": 525.0,
+"max_benefit": 1000.0,
+"lease_start": "2023-12-20",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": "No coverage for rent post lease expiration.",
+"comments": [
+{
+"ts": "2025-01-28T14:34:00",
+"text": "@dkeys@yrig.com No coverage for rent post lease expiration.  Contacting tenant."
+},
+{
+"ts": "2025-01-29T06:54:00",
+"text": "@dkeys@yrig.com LEFT TWO MESSAGES FOR TENANT"
+},
+{
+"ts": "2025-01-29T12:29:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+},
+{
+"ts": "2025-02-11T10:14:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com per PM email, tenant paid them directly, PM owes a refund of 305.00, #1113"
+}
+]
+},
+{
+"tracking": 1114,
+"claim_date": "2025-01-28",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1690.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-12-03",
+"lease_end": "2024-12-02",
+"move_out": "2024-12-04",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-28T14:26:00",
+"text": "@dkeys@yrig.com Need a copy of the latest lease/renewed lease ending in 2024, contacting PM"
+},
+{
+"ts": "2025-01-28T14:47:00",
+"text": "@dkeys@yrig.com PER PM, EMAIL, ORIGINAL LEASE HAS AN AUTORENEWAL CLAUSE"
+},
+{
+"ts": "2025-02-03T10:01:00",
+"text": "@dkeys@yrig.com CALLED BACK ADN AGREED TO SETTLE"
+},
+{
+"ts": "2025-02-03T10:01:00",
+"text": "@dkeys@yrig.com TYLER 404-821-8236"
+},
+{
+"ts": "2025-02-21T11:31:00",
+"text": "@dkeys@yrig.com left message as first payment is due"
+},
+{
+"ts": "2025-02-24T12:00:00",
+"text": "@dkeys@yrig.com tried calling husband as no calls were returned, dropped the call"
+}
+]
+},
+{
+"tracking": 1115,
+"claim_date": "2025-01-28",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1995.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-07-18",
+"lease_end": "2025-08-01",
+"move_out": "2024-11-20",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-29T06:42:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-01-29T06:43:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE 10-2024"
+}
+]
+},
+{
+"tracking": 1116,
+"claim_date": "2025-01-28",
+"termination": "Move-Out",
+"pm": "Pure Property Management-Antioch",
+"treaty": "T00001",
+"monthly_rent": 2495.0,
+"max_benefit": 3500.0,
+"lease_start": "2024-01-16",
+"lease_end": "2024-11-23",
+"move_out": "2025-01-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-29T06:40:00",
+"text": "@dkeys@yrig.com CLEANING AND MAINT, REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-29T12:29:00",
+"text": "@dkeys@yrig.com LEFT A MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-01-29T17:18:00",
+"text": "@dkeys@yrig.com spoke with tenant, very nice lady, will be settling in two payments"
+},
+{
+"ts": "2025-02-06T08:02:00",
+"text": "@dkeys@yrig.com left message as first payment is due"
+},
+{
+"ts": "2025-02-07T09:21:00",
+"text": "@dkeys@yrig.com scheduled with tenant to make first payment today at 3 30 pm"
+},
+{
+"ts": "2025-02-07T13:38:00",
+"text": "@dkeys@yrig.com  1ST PAYMENT MADE"
+},
+{
+"ts": "2025-02-20T07:53:00",
+"text": "@dkeys@yrig.com let message as final payment is due"
+},
+{
+"ts": "2025-02-20T14:07:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1117,
+"claim_date": "2025-01-29",
+"termination": "Move-Out",
+"pm": "Pure Property Management North Carolina Charlotte Office",
+"treaty": "T00001",
+"monthly_rent": 1550.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-06-10",
+"lease_end": "2025-06-15",
+"move_out": "2024-08-29",
+"pm_explanation": "Covering one month rent as per the SD policy and 1 month of SD fee; no coverage for late fees, program fees.",
+"comments": [
+{
+"ts": "2025-01-29T07:23:00",
+"text": "@dkeys@yrig.com ALMOST ALL NECESSARY DOCUMENTS MISSING, CONTACTING PM"
+},
+{
+"ts": "2025-01-29T08:23:00",
+"text": "@dkeys@yrig.com LEASE BREAK IMPROPER, OWES AT LEAST ONE MONTH RENT"
+},
+{
+"ts": "2025-01-29T08:25:00",
+"text": "@dkeys@yrig.com COVERING ONE MONTH RENT AS PER SD PROGRAM"
+}
+]
+},
+{
+"tracking": 1118,
+"claim_date": "2025-01-29",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 2150.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-01-08",
+"lease_end": "2025-01-12",
+"move_out": "2025-01-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-29T12:31:00",
+"text": "@dkeys@yrig.com SEVERE CLEANING, RIDICULOUS REPAIR CHARGES, PAYING REQUESTED AMOUNT BY PM"
+}
+]
+},
+{
+"tracking": 1119,
+"claim_date": "2025-01-30",
+"termination": "Move-Out",
+"pm": "Pure Property Management of Kentucky",
+"treaty": "T00001",
+"monthly_rent": 1750.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-07-10",
+"lease_end": "2025-07-31",
+"move_out": "2024-11-08",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-30T13:36:00",
+"text": "@dkeys@yrig.com PARTIAL RENT FOR NOVEMBER 2024 NOT PAID, PLUS LEASE BREAK, CONTACTING TENANT"
+},
+{
+"ts": "2025-01-31T07:47:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+},
+{
+"ts": "2025-01-31T09:32:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1120,
+"claim_date": "2025-01-31",
+"termination": "Eviction",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1025.0,
+"max_benefit": 1500.0,
+"lease_start": "2022-11-18",
+"lease_end": "2025-01-14",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-31T09:25:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR DEC 2024, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1121,
+"claim_date": "2025-01-31",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1895.0,
+"max_benefit": 3000.0,
+"lease_start": "2022-11-04",
+"lease_end": "2025-01-07",
+"move_out": "2025-01-08",
+"pm_explanation": "Claim cancelled as per PM email.",
+"comments": [
+{
+"ts": "2025-01-31T09:31:00",
+"text": "@dkeys@yrig.com GENERAL AND WINDOW CLEANING, CONTACTING TENANT FOR PAYMENT"
+},
+{
+"ts": "2025-02-03T08:55:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-03T12:57:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+},
+{
+"ts": "2025-02-04T13:34:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com per PM email, claim to be cancelled, apparently tenant paid them directly #1121"
+}
+]
+},
+{
+"tracking": 1122,
+"claim_date": "2025-01-31",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1650.0,
+"max_benefit": 2500.0,
+"lease_start": "2022-11-09",
+"lease_end": "2025-01-07",
+"move_out": "2024-12-29",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-01-31T09:39:00",
+"text": "@dkeys@yrig.com REVIEWED PHOTOS OF CARPET DAMAGES, NON-PET; CONTACTING TENANT"
+},
+{
+"ts": "2025-02-03T08:54:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-06T10:39:00",
+"text": "@dkeys@yrig.com TENANT CALLED BACK AND SETTLED"
+}
+]
+},
+{
+"tracking": 1123,
+"claim_date": "2025-02-03",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2595.0,
+"max_benefit": null,
+"lease_start": "2023-12-20",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-03T09:19:00",
+"text": "@dkeys@yrig.com CLEANING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-04T09:13:00",
+"text": "@dkeys@yrig.com VM MAILBOX IS FULL, CONTACTING OTHER TENANT"
+}
+]
+},
+{
+"tracking": 1124,
+"claim_date": "2025-02-04",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Alabama | Huntsville",
+"treaty": "T00001",
+"monthly_rent": 1875.0,
+"max_benefit": 2000.0,
+"lease_start": "2023-09-05",
+"lease_end": "2024-09-04",
+"move_out": "2024-10-07",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-04T09:11:00",
+"text": "@dkeys@yrig.com LOTS OF LATE RENT SINCE AUGUST 2024, RENT INCOMPLETE FOR SEPTEMBER"
+}
+]
+},
+{
+"tracking": 1125,
+"claim_date": "2025-02-04",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1850.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-09-23",
+"lease_end": "2025-09-22",
+"move_out": "2024-12-23",
+"pm_explanation": "Based on monthly rent of 1850.00, the maximum benefit cannot exceed 2000.00.",
+"comments": [
+{
+"ts": "2025-02-04T12:59:00",
+"text": "@dkeys@yrig.com LEASE BREAK, RENT NOT PAID FOR DECEMBER 2024"
+},
+{
+"ts": "2025-02-04T13:00:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 1850.00, the maximum benefit cannot exceed 2000.00."
+}
+]
+},
+{
+"tracking": 1126,
+"claim_date": "2025-02-04",
+"termination": "Move-Out",
+"pm": "Property Mgmt Svs Columbus OH",
+"treaty": "T00002",
+"monthly_rent": 1587.95,
+"max_benefit": 1000.0,
+"lease_start": "2024-04-01",
+"lease_end": "2025-09-30",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-05T06:17:00",
+"text": "@dkeys@yrig.com CLEANING AND MAINTENANCE, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-05T12:57:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-02-05T13:30:00",
+"text": "@dkeys@yrig.com tenant disputing all charges, advised on his options, at this time does not want to settle, may call back later"
+}
+]
+},
+{
+"tracking": 1127,
+"claim_date": "2025-02-05",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 950.0,
+"max_benefit": null,
+"lease_start": "2024-01-05",
+"lease_end": "2025-01-05",
+"move_out": "2025-01-24",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-05T06:12:00",
+"text": "@dkeys@yrig.com REPAIRS, MAINT, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-06T08:08:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-06T08:16:00",
+"text": "@dkeys@yrig.com spoke with tenant, settling"
+},
+{
+"ts": "2025-02-28T09:22:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1128,
+"claim_date": "2025-02-05",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2200.0,
+"max_benefit": 3500.0,
+"lease_start": "2023-12-16",
+"lease_end": "2024-12-15",
+"move_out": "2024-12-15",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-05T12:55:00",
+"text": "@dkeys@yrig.com MAINT AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-06T08:10:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-07T08:03:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+},
+{
+"ts": "2025-03-03T13:19:00",
+"text": "@dkeys@yrig.com TENANT SETTLED"
+}
+]
+},
+{
+"tracking": 1129,
+"claim_date": "2025-02-05",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1855.0,
+"max_benefit": 3000.0,
+"lease_start": "2023-11-19",
+"lease_end": "2024-11-18",
+"move_out": "2024-12-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-05T17:40:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE SEPTEMBER 2024, MOVE OUT DECEMBER 2024"
+}
+]
+},
+{
+"tracking": 1130,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1485.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-10-20",
+"lease_end": "2024-11-19",
+"move_out": "2024-01-11",
+"pm_explanation": "Received proof of payment for 775.00 from tenant.",
+"comments": [
+{
+"ts": "2025-02-07T08:50:00",
+"text": "@dkeys@yrig.com MAINT AND CLEANING, NEED A COPY OF ORIGINAL LEASE FROM 2023"
+},
+{
+"ts": "2025-02-07T11:11:00",
+"text": "@dkeys@yrig.com contacting tenanat"
+},
+{
+"ts": "2025-02-10T08:31:00",
+"text": "@dkeys@yrig.com spoke with tenant, apparently paid 775.00 to PM on 2-7-25"
+}
+]
+},
+{
+"tracking": 1131,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2050.0,
+"max_benefit": 3000.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T09:05:00",
+"text": "@dkeys@yrig.com need clarification/itemization on move out charges for tenant"
+},
+{
+"ts": "2025-02-07T11:11:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-02-07T11:11:00",
+"text": "@dkeys@yrig.com per PM email: Tenant repaircharges: $475\nRemove tape from bedroom three drywall repair and touch up paint\nDrywall repair and touch up paint bedroom two\nDrywall repair touch up paint Master bedroom\nMaintenance coordination fee $250"
+},
+{
+"ts": "2025-02-10T09:27:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-10T09:32:00",
+"text": "@dkeys@yrig.com received message from tenant, wants to set up a payment plan, currently at work"
+},
+{
+"ts": "2025-02-12T08:15:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, AGREED TO SETTLE, WITH 1ST PAYMENT DUE NEXT THURSDAY"
+},
+{
+"ts": "2025-02-20T06:46:00",
+"text": "843-708-0116"
+},
+{
+"ts": "2025-02-20T07:51:00",
+"text": "@dkeys@yrig.com message left as 1st payment is due"
+},
+{
+"ts": "2025-02-20T12:14:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT COLLECTED"
+},
+{
+"ts": "2025-03-06T08:33:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1132,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1650.0,
+"max_benefit": null,
+"lease_start": "2023-12-19",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-25",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T09:10:00",
+"text": "@dkeys@yrig.com  RENT NOT PAID FOR NOVEMBER 2024 AND ALREADY BEEN LATE FOR A WHILE ON RENT"
+}
+]
+},
+{
+"tracking": 1133,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1845.0,
+"max_benefit": 3000.0,
+"lease_start": "2023-02-01",
+"lease_end": "2025-02-04",
+"move_out": "2024-12-31",
+"pm_explanation": "Rent coverage only, no coverage for pet and program fees under SD program.",
+"comments": [
+{
+"ts": "2025-02-07T11:27:00",
+"text": "@dkeys@yrig.com RENT ONLY FOR 4 DAYS IN FEBRURY, NO COVERAGE FOR PROGRAM FEES."
+},
+{
+"ts": "2025-02-10T09:30:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-11T08:18:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1134,
+"claim_date": "2025-02-07",
+"termination": "Eviction",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1100.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-12",
+"lease_end": "2025-01-31",
+"move_out": "2024-12-18",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T11:31:00",
+"text": "@dkeys@yrig.com  EVICTION, RENT BOUNCED FOR DECEMBER, OWES FOR JANUARY"
+}
+]
+},
+{
+"tracking": 1135,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1900.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-22",
+"lease_end": "2024-11-30",
+"move_out": "2024-11-26",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T11:37:00",
+"text": "@dkeys@yrig.com MAKE READY AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-07T12:50:00",
+"text": "@dkeys@yrig.com spoke with tenant, disputing charges, advised on options, claim on hold"
+},
+{
+"ts": "2025-02-13T07:27:00",
+"text": "@dkeys@yrig.com tried contacting tenant, as no dispute emails ever came through, will give it until 2-17 when the 10 days expire."
+},
+{
+"ts": "2025-02-17T08:06:00",
+"text": "@dkeys@yrig.com no dispute information received from tenant"
+}
+]
+},
+{
+"tracking": 1136,
+"claim_date": "2025-02-07",
+"termination": "Eviction",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1600.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-08-01",
+"lease_end": "2025-01-31",
+"move_out": "2024-09-23",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T11:43:00",
+"text": "@dkeys@yrig.com eviction, rent not paid since June 2024"
+}
+]
+},
+{
+"tracking": 1137,
+"claim_date": "2025-02-07",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 2400.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-01-04",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-10",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-07T12:10:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR DECEMBER 2024, PLUS OVER 7K IN REPAIRS!!!!????"
+}
+]
+},
+{
+"tracking": 1138,
+"claim_date": "2025-02-10",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1120.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-05-30",
+"lease_end": "2025-05-31",
+"move_out": "2025-01-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-10T11:13:00",
+"text": "@dkeys@yrig.com LEASE BREAK, PLUS REPAIRS, CLEANING, HAULING, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-11T08:18:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-12T08:21:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE FOR TENANT"
+}
+]
+},
+{
+"tracking": 1139,
+"claim_date": "2025-02-11",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Austin",
+"treaty": "T00001",
+"monthly_rent": 2095.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-11-27",
+"lease_end": "2025-05-26",
+"move_out": "2025-01-06",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T10:25:00",
+"text": "@dkeys@yrig.com lease break, covering one month rent for lease break, 6 days rent for January, plus repairs, caps out at max benefit."
+}
+]
+},
+{
+"tracking": 1140,
+"claim_date": "2025-02-11",
+"termination": "Eviction",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 2150.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-02-12",
+"lease_end": "2025-02-07",
+"move_out": "2025-02-07",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T11:36:00",
+"text": "@dkeys@yrig.com NO RENT PAID SINCE DECEMBER 2024, MOVED OUT ON DATE OF LEASE END, OWES FOR TWO MONTHS PLUS PARTIAL FEBRUARY"
+}
+]
+},
+{
+"tracking": 1141,
+"claim_date": "2025-02-11",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1250.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-01-29",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T17:11:00",
+"text": "@dkeys@yrig.com MOVE OUT REPAIRS, CLEANING, MAINT. CONTACTING TENANT"
+},
+{
+"ts": "2025-02-12T11:02:00",
+"text": "@dkeys@yrig.com call tenant, got hung up on"
+}
+]
+},
+{
+"tracking": 1142,
+"claim_date": "2025-02-11",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1700.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-05-23",
+"lease_end": "2025-05-31",
+"move_out": "2025-01-08",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T17:07:00",
+"text": "@dkeys@yrig.com MOVE OUT REPAIRS, MAINT, HAUL AWAY, CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-12T11:05:00",
+"text": "@dkeys@yrig.com spoke with tenant, refuses to pay anything does not agree with anything, claims already reached out to PM..."
+}
+]
+},
+{
+"tracking": 1143,
+"claim_date": "2025-02-11",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1700.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-09-13",
+"lease_end": "2025-09-30",
+"move_out": "2025-01-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T16:52:00",
+"text": "@dkeys@yrig.com lease break, partial rent for January 2025 not paid, repairs...."
+},
+{
+"ts": "2025-02-12T12:52:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com per conversation with Doug, adding additional 500.00, rent times 1.5////claim # 1143"
+}
+]
+},
+{
+"tracking": 1144,
+"claim_date": "2025-02-11",
+"termination": "Eviction",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1250.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-07-18",
+"lease_end": "2025-07-31",
+"move_out": "2025-01-10",
+"pm_explanation": "Based on monthly rent of 1250.00, the maximum SD benefit cannot exceed 1500.00.",
+"comments": [
+{
+"ts": "2025-02-11T16:44:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 1250.00, the maximum SD benefit cannot exceed 1500.00"
+},
+{
+"ts": "2025-02-11T16:46:00",
+"text": "@dkeys@yrig.com rent not paid since November 2024, eviction"
+}
+]
+},
+{
+"tracking": 1145,
+"claim_date": "2025-02-11",
+"termination": "Eviction",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 950.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-04-10",
+"lease_end": "2025-04-30",
+"move_out": "2025-01-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-11T16:36:00",
+"text": "@dkeys@yrig.com EVICTION, RENT INCOMPLETE SINCE SEPTEMBER 2024"
+}
+]
+},
+{
+"tracking": 1146,
+"claim_date": "2025-02-12",
+"termination": "Move-Out",
+"pm": "1st Choice Property Management",
+"treaty": "T00002",
+"monthly_rent": 1850.0,
+"max_benefit": 2500.0,
+"lease_start": "2022-11-01",
+"lease_end": "2024-10-31",
+"move_out": "2024-11-01",
+"pm_explanation": "No coverage for pet damages under SD program.",
+"comments": [
+{
+"ts": "2025-02-13T07:26:00",
+"text": "@dkeys@yrig.com CLEANING AND MAINT., CONTACTING TENANT"
+},
+{
+"ts": "2025-02-13T07:26:00",
+"text": "@dkeys@yrig.com NO COVERAGES FOR PET DAMAGES"
+},
+{
+"ts": "2025-02-14T09:20:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, DOES NOT HAVE THE MONEY, ALREADY HAVE SPOKEN WITH PM, STATED TO DO WHAT WE GOT TO DO....."
+}
+]
+},
+{
+"tracking": 1147,
+"claim_date": "2025-02-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1482.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-01-05",
+"lease_end": "2025-01-05",
+"move_out": "2025-02-06",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-13T11:04:00",
+"text": "@dkeys@yrig.com NO COVERAGE FOR OVERSTAYED RENT, VERY LARGE AMOUNT OF CLEANING, TRASHOUT, REPAIRS, OUR BENEFIT CAPS OUT AT 1500"
+}
+]
+},
+{
+"tracking": 1148,
+"claim_date": "2025-02-13",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2490.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-05-15",
+"lease_end": "2025-05-14",
+"move_out": "2024-12-15",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-13T13:19:00",
+"text": "@dkeys@yrig.com LEASE BREAK, CONTACTING TENANT"
+}
+]
+},
+{
+"tracking": 1149,
+"claim_date": "2025-02-14",
+"termination": "Eviction",
+"pm": "Pure Property Management of Georgia",
+"treaty": "T00001",
+"monthly_rent": 1350.0,
+"max_benefit": 2000.0,
+"lease_start": "2022-06-14",
+"lease_end": "2025-06-30",
+"move_out": "2024-12-30",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-14T09:17:00",
+"text": "@dkeys@yrig.com EVICTION, RENT NOT PAID FOR DECEMBER 2024"
+}
+]
+},
+{
+"tracking": 1150,
+"claim_date": "2025-02-14",
+"termination": "Eviction",
+"pm": "PURE",
+"treaty": "T00001",
+"monthly_rent": 1549.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-04-27",
+"lease_end": "2025-04-26",
+"move_out": "2025-01-22",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-14T10:09:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 1549.00, the maximum SD benefit cannot exceed 2000.00"
+},
+{
+"ts": "2025-02-14T10:11:00",
+"text": "@dkeys@yrig.com eviction, rent not paid for January 2025."
+},
+{
+"ts": "2025-02-27T12:20:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com #1150.00, additional 500.00 per Doug."
+}
+]
+},
+{
+"tracking": 1151,
+"claim_date": "2025-02-14",
+"termination": "Move-Out",
+"pm": "PURE",
+"treaty": "T00001",
+"monthly_rent": 1650.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-01-19",
+"lease_end": "2025-01-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-14T14:05:00",
+"text": "@dkeys@yrig.com DAMAGES, REPAIRS, CALLING TENANT TO DISCUSS"
+},
+{
+"ts": "2025-02-17T11:03:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-17T12:52:00",
+"text": "@dkeys@yrig.com spoke with tenant, disputing some of the charges, will be calling back once resolves with PM."
+},
+{
+"ts": "2025-02-24T08:01:00",
+"text": "@dkeys@yrig.com TENANT NOT COMMUNICATING, AND NO DISPUTE CORRESPONDENCE HAS BEEN SHARED"
+}
+]
+},
+{
+"tracking": 1152,
+"claim_date": "2025-02-17",
+"termination": "Eviction",
+"pm": "Hendricks Property Management LLC",
+"treaty": "T00002",
+"monthly_rent": 3200.0,
+"max_benefit": 5000.0,
+"lease_start": "2024-08-27",
+"lease_end": "2025-08-31",
+"move_out": "2024-12-03",
+"pm_explanation": "1st full month payment never made, all payments have bounced as per the ledger.",
+"comments": [
+{
+"ts": "2025-02-17T11:31:00",
+"text": "@dkeys@yrig.com APPEARS ALL PAYMENTS HAVE BOUNCED SINCE THE BEGINNING, WANT TO DISCUSS WITH DOUG."
+},
+{
+"ts": "2025-02-17T12:54:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 3200.00, the benefit cannot exceed 3500.00"
+}
+]
+},
+{
+"tracking": 1153,
+"claim_date": "2025-02-19",
+"termination": "Move-Out",
+"pm": "Hendricks Property Management LLC",
+"treaty": "T00002",
+"monthly_rent": 2150.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-04-26",
+"lease_end": "2025-04-30",
+"move_out": "2025-01-31",
+"pm_explanation": "Based on monthly rent of 2150.00, the maximum SD benefit cannot exceed 2500.00.",
+"comments": [
+{
+"ts": "2025-02-19T09:53:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR JANUARY 2025, PLUS LEASE BREAK, BASED ON MONTHLY RENT OF 2150.00, MAX BENEFIT CANNOT EXCEED 2500.00."
+}
+]
+},
+{
+"tracking": 1154,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1395.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-11-13",
+"lease_end": "2024-10-31",
+"move_out": "2025-01-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T07:32:00",
+"text": "@dkeys@yrig.com RENT FOR 21 DAYS NOT PAID, PLUS REPAIRS, CAPS OUT AT MAX BENEFIT"
+}
+]
+},
+{
+"tracking": 1155,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 960.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-10-04",
+"lease_end": "2025-09-30",
+"move_out": "2024-12-31",
+"pm_explanation": "No coverage for program fees and late fees.",
+"comments": [
+{
+"ts": "2025-02-20T07:38:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-02-20T07:38:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR DECEMBER, ABANDONED FURNITURE REMOVAL, LEASE BREAK"
+},
+{
+"ts": "2025-02-21T08:22:00",
+"text": "@dkeys@yrig.com left message for tenant"
+}
+]
+},
+{
+"tracking": 1156,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 705.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-06-28",
+"lease_end": "2025-05-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T07:45:00",
+"text": "@dkeys@yrig.com LEASE BREAK, RENT NOT FULLY PAID FOR DECEMBER 2024, ELIGIBLE CHARGES CAP OUT AT BENEFIT MAX, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-31T14:07:00",
+"text": "@dkeys@yrig.com TENANT HAS CALLED AND WANTS TO SETTLE IN FOUR PAYMENTS"
+}
+]
+},
+{
+"tracking": 1157,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 975.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-15",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T07:48:00",
+"text": "@dkeys@yrig.com MINOR REPAIRS AND CLEANING, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-21T08:24:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-24T08:10:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1158,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 780.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-06",
+"lease_end": "2024-11-30",
+"move_out": "2024-12-31",
+"pm_explanation": "No coverage for program fees, or overstayed rent for December, does not show month to month agreement or fees.",
+"comments": [
+{
+"ts": "2025-02-20T08:05:00",
+"text": "@dkeys@yrig.com overstayed by one month, unpaid, contacting tenant"
+},
+{
+"ts": "2025-02-20T08:07:00",
+"text": "@dkeys@yrig.com call declined twice in a row, willtry again later"
+},
+{
+"ts": "2025-02-21T08:19:00",
+"text": "@dkeys@yrig.com called tenant again, call was declined by tenant"
+},
+{
+"ts": "2025-02-21T10:08:00",
+"text": "@dkeys@yrig.com No coverage for program fees, or overstayed rent for December, does not show month to month agreement or fees"
+}
+]
+},
+{
+"tracking": 1159,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 790.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-13",
+"lease_end": "2025-04-30",
+"move_out": "2025-01-27",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T08:12:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-02-20T08:15:00",
+"text": "@dkeys@yrig.com INCOMPLETE ENT FOR NOV 2024, LATE FOR DECEMBER, AND NEVER PAID FOR JANUARY"
+}
+]
+},
+{
+"tracking": 1160,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1375.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-03-07",
+"lease_end": "2024-03-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T08:11:00",
+"text": "@dkeys@yrig.com CLEANING AND PAINTING, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-21T08:25:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-24T08:10:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1161,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 945.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-04-22",
+"lease_end": "2025-03-31",
+"move_out": "2025-01-06",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T09:08:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE NOVEMBER 2024, AND LATE PRIOR MONTHS"
+}
+]
+},
+{
+"tracking": 1162,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1065.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-01",
+"lease_end": "2025-07-31",
+"move_out": "2024-12-31",
+"pm_explanation": "Covering reletting fee only as tenant moved out on 12-31-24 and January has been paid for on 1-3-24, no coverage, for program, late, NSF, utility fees.",
+"comments": [
+{
+"ts": "2025-02-20T09:13:00",
+"text": "@dkeys@yrig.com LEASE BREAK, COVERING ONLY ONE MONTH RENT FOR LEASE BREAK"
+},
+{
+"ts": "2025-02-20T09:14:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-02-20T09:16:00",
+"text": "@dkeys@yrig.com correction, tenant moved out 12-31-24, paid for January, covering reletting fee only."
+}
+]
+},
+{
+"tracking": 1163,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1015.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-07-18",
+"lease_end": "2024-06-30",
+"move_out": "2025-01-15",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T09:25:00",
+"text": "@dkeys@yrig.com spoke with tenant, only willing to pay unpaid rent, advised max we can accept is 1500.00 for us not to send file to collections, as max benefit is 1500.00, payment scheduled with tenant."
+},
+{
+"ts": "2025-02-28T09:09:00",
+"text": "@dkeys@yrig.com tried calling tenant as payment is due, voicemail is full, will send email"
+}
+]
+},
+{
+"tracking": 1164,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 955.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-04-18",
+"lease_end": "2024-03-31",
+"move_out": "2024-12-31",
+"pm_explanation": "No proof of damages for flooring and carpeting presented, covering 1/3 of flooring replacement, plus cleaning/maint fees.",
+"comments": [
+{
+"ts": "2025-02-20T09:29:00",
+"text": "@dkeys@yrig.com contacting PM, need reason for entire flooring replacement"
+},
+{
+"ts": "2025-02-28T10:47:00",
+"text": "@dkeys@yrig.com per Melissa at PM, no photos, and no proof of damages apart from verbal, covering 1/3 of carpeting/flooring"
+},
+{
+"ts": "2025-02-28T10:50:00",
+"text": "@dkeys@yrig.com per PM email: Hi Dmitriy,\nUnfortunately, I have not been able to obtain any photos.  I was told there were rips/holes and stains in the carpet and flooring, but they did not have any photos of the damage.\n\nThank you!"
+}
+]
+},
+{
+"tracking": 1165,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1775.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-02-23",
+"lease_end": "2024-01-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T09:32:00",
+"text": "@dkeys@yrig.com carpet cleaning, contacting tenant"
+},
+{
+"ts": "2025-02-21T08:55:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-24T08:02:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1166,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 940.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-09-01",
+"lease_end": "2025-09-30",
+"move_out": "2025-01-03",
+"pm_explanation": "Covering one month rent plus 3 days prorated for January 2025, no coverage for, late, NSF, utility, garage rent fees.",
+"comments": [
+{
+"ts": "2025-02-20T09:37:00",
+"text": "@dkeys@yrig.com owes rent for Dec 2024 as payment has bounced and 3 days in Jan 2025"
+},
+{
+"ts": "2025-02-20T09:40:00",
+"text": "@dkeys@yrig.com Covering one month rent plus 3 days prorated for January 2025, no coverage for, late, NSF, utility, garage rent fees"
+}
+]
+},
+{
+"tracking": 1167,
+"claim_date": "2025-02-20",
+"termination": "Eviction",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1645.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-03-28",
+"lease_end": "2025-03-27",
+"move_out": "2025-01-06",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-20T12:17:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE AUGUST 2024, EVICTION"
+}
+]
+},
+{
+"tracking": 1168,
+"claim_date": "2025-02-20",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1295.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-09-08",
+"lease_end": "2025-09-30",
+"move_out": "2025-01-31",
+"pm_explanation": "Covering one month rent for lease break and repairs, no coverage for late fees or program fees.",
+"comments": [
+{
+"ts": "2025-02-20T14:15:00",
+"text": "@dkeys@yrig.com Covering one month rent for lease break and repairs, no coverage for late fees or program fees."
+},
+{
+"ts": "2025-02-21T11:24:00",
+"text": "@dkeys@yrig.com strange, but once the claim has been approved for the eligible amount, and not amount they were requesting, the email came to cancel the claim per Andrew until \"they finalize the accounting\"; see email below:    Please cancel this claim at this time, we'll resubmit once we've finalized the accounting per Andrew. Thanks, Angie"
+}
+]
+},
+{
+"tracking": 1169,
+"claim_date": "2025-02-21",
+"termination": "Eviction",
+"pm": "Forefront Property Management",
+"treaty": "T00002",
+"monthly_rent": 1875.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-01-24",
+"lease_end": "2024-12-31",
+"move_out": "2025-01-09",
+"pm_explanation": "Based on monthly rent of 1875.00 the benefit cannot exceed 2000.00.",
+"comments": [
+{
+"ts": "2025-02-21T11:34:00",
+"text": "@dkeys@yrig.com eviction, Based on monthly rent of 1875.00 the benefit cannot exceed 2000.00"
+},
+{
+"ts": "2025-02-21T11:36:00",
+"text": "@dkeys@yrig.com rent has been late since March 2024"
+}
+]
+},
+{
+"tracking": 1170,
+"claim_date": "2025-02-21",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1900.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-07-21",
+"lease_end": "2025-07-22",
+"move_out": "2024-12-30",
+"pm_explanation": "Based on monthly rent of 1900.00, the maximum SD benefir cannot exceed 2000.00.",
+"comments": [
+{
+"ts": "2025-02-21T13:01:00",
+"text": "@dkeys@yrig.com Based on monthly rent of 1900.00, the maximum SD benefir cannot exceed 2000.00"
+},
+{
+"ts": "2025-02-21T13:02:00",
+"text": "@dkeys@yrig.com lease break, rent not paid since Dec 2024"
+}
+]
+},
+{
+"tracking": 1171,
+"claim_date": "2025-02-21",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 2250.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-01-09",
+"lease_end": "2025-01-08",
+"move_out": "2025-01-08",
+"pm_explanation": "Claim is denied as the ledger shows the amount of 550.00 claimed paid by tenant with last payment date on 2-20-2025, showing ledger amount of zero (0).",
+"comments": [
+{
+"ts": "2025-02-21T12:58:00",
+"text": "@dkeys@yrig.com Claim is denied as the ledger shows the amount of 550.00 claimed paid by tenant with last payment date on 2-20-2025, showing ledger amount of zero (0)."
+}
+]
+},
+{
+"tracking": 1172,
+"claim_date": "2025-02-21",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2700.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-06-01",
+"lease_end": "2025-05-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-24T08:21:00",
+"text": "@dkeys@yrig.com CLEANING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-02-25T08:18:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-02-26T09:23:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1173,
+"claim_date": "2025-02-24",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 2000.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-11-01",
+"lease_end": "2025-02-11",
+"move_out": "2025-02-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-24T08:51:00",
+"text": "@dkeys@yrig.com LEASE ENDS ON FEB 11 2025, TENANT MOVED OUT ON FEB 11 2025, RENT FOR 11 DAYS FOR FEBRUARY NOT PAID, COVERING ONLY 11 DAYS WORTH OF RENT 744.48, PLUS REPAIRS, CONTACTING TENNAT TO DISCUSS"
+},
+{
+"ts": "2025-02-25T08:24:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-02-26T09:09:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1174,
+"claim_date": "2025-02-25",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 995.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-11-22",
+"lease_end": "2025-11-23",
+"move_out": "2025-02-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-25T08:23:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR FEB 2025, PLUS LEASE BREAK, BENEFIT CANNOT EXCEED 1K BASED ON MONTHLY RENT OF 995.00"
+}
+]
+},
+{
+"tracking": 1175,
+"claim_date": "2025-02-26",
+"termination": "Move-Out",
+"pm": "Reliant Property Management",
+"treaty": "T00005",
+"monthly_rent": 1625.0,
+"max_benefit": 2000.0,
+"lease_start": "2022-12-17",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-26T09:28:00",
+"text": "@dkeys@yrig.com PM REQUESTED AMOUNT IS 1625//CONTACTING TENANT TO DISCUSS"
+},
+{
+"ts": "2025-02-26T09:36:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, HAS NOTHING FROM PM, SENDING ALL THE DOCS TO TENANT FOR REVIEW."
+}
+]
+},
+{
+"tracking": 1176,
+"claim_date": "2025-02-26",
+"termination": "Move-Out",
+"pm": "Forefront Property Management",
+"treaty": "T00002",
+"monthly_rent": 2200.0,
+"max_benefit": 2000.0,
+"lease_start": "2023-06-20",
+"lease_end": "2024-12-31",
+"move_out": "2024-12-31",
+"pm_explanation": "No coverage for insurance service, dog damage, plumbing adjustments under SD policy.",
+"comments": [
+{
+"ts": "2025-02-26T15:56:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-02-26T15:56:00",
+"text": "@dkeys@yrig.com No coverage for insurance service, dog damage, plumbing adjustments under SD policy."
+},
+{
+"ts": "2025-02-27T09:17:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-02-28T08:14:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-02-28T11:34:00",
+"text": "@dkeys@yrig.com tenant called back, will settle next Friday"
+},
+{
+"ts": "2025-03-07T06:20:00",
+"text": "@dkeys@yrig.com left message as settlement is due"
+},
+{
+"ts": "2025-03-07T09:46:00",
+"text": "@dkeys@yrig.com SETTLED"
+}
+]
+},
+{
+"tracking": 1177,
+"claim_date": "2025-02-26",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 2500.0,
+"max_benefit": 4000.0,
+"lease_start": "2023-01-13",
+"lease_end": "2025-01-14",
+"move_out": "2025-01-14",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-26T16:02:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-02-28T12:05:00",
+"text": "@dkeys@yrig.com email from PM: Hello,\n\nThe second Statement of Accounting was sent as a revision due to an electrical issue in the home that the tenant was informed of on 1-27-25. An electrician was called out to fix electrical issues in the home after the tenant moved out. There were items removed from the electrical panel that belonged to the tenant's vehicle charging device which the tenant installed with permission however created electrical issues in the home upon removal.\n\nThank you,\n\nAmanda A"
+},
+{
+"ts": "2025-02-28T12:23:00",
+"text": "@dkeys@yrig.com at keys, attaching original email from tenant: 2/27/25\n To Whom It May Concern,\nUpon reviewing your email, I have concluded that Blue Fox Properties has failed to inform you that an official dispute was received by them at 10:35 am on February 13, 2025.\nBlue Fox Properties provided two separate itemized lists. The first outlining cleaning services, that were not identified during the move out inspection, was postmarked January 31, 2025; thirteen business days after the move out. The second outlining electrical work was postmarked February 5, 2025; sixteen days after the move out and outside of the time period in accordance with A.R.S. \u00a7 33-1321.\nUntil Blue Fox Properties contacts myself to further determine a final disposition, I will commence an action under the Fair Credit Reporting Act, the Fair and Accurate Credit Transactions Act (FACTA) of 2003 and the Fair Debt Collection Practices Act against the landlord, any collection agency or agent, for placing a negative record on your credit report without justification.\n \nSincerely,\n \nSamuel Bell"
+},
+{
+"ts": "2025-02-28T12:30:00",
+"text": "@dkeys@yrig.com Pending response from the PM regarding the legal timeframe tenant is invoking"
+}
+]
+},
+{
+"tracking": 1178,
+"claim_date": "2025-02-26",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1725.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-01-16",
+"lease_end": "2025-01-21",
+"move_out": "2025-01-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-02-26T16:07:00",
+"text": "@dkeys@yrig.com MINOR REPAIRS, LANDSCAPING, AND CLEANING, CONTACTING TENANT TO DISCUSS"
+},
+{
+"ts": "2025-02-27T09:15:00",
+"text": "@dkeys@yrig.com called tenant, voice mail box is full, cannot leave message"
+}
+]
+},
+{
+"tracking": 1179,
+"claim_date": "2025-03-03",
+"termination": "Move-Out",
+"pm": "PURE Property Management of MN",
+"treaty": "T00001",
+"monthly_rent": 2195.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-03-15",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-04T07:18:00",
+"text": "@dkeys@yrig.com CLEANING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-04T09:22:00",
+"text": "@dkeys@yrig.com called tenant, left a message, she called back, I missed, called her back, straight to vm"
+},
+{
+"ts": "2025-03-04T13:32:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+},
+{
+"ts": "2025-03-14T12:12:00",
+"text": "Tenant paid the rent due in full directly to the PM.  Payment of $1,380 has been voided.  No need for collections on claim 1179 @dkeys@yrig.com @dfinkler@yrig.com"
+},
+{
+"ts": "2025-03-14T12:14:00",
+"text": "@dkeys@yrig.com @kcarroll@yrig.com got it!"
+}
+]
+},
+{
+"tracking": 1180,
+"claim_date": "2025-03-04",
+"termination": "Eviction",
+"pm": "Pure Property Management North Carolina Charlotte Office",
+"treaty": "T00001",
+"monthly_rent": 2000.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-09-20",
+"lease_end": "2025-09-30",
+"move_out": "2025-02-19",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-04T06:22:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-03-04T07:09:00",
+"text": "@dkeys@yrig.com 1ST MONTH RENT PAID, OTHERWISE NO RENT PAID SINCE NOVEMBER 2024"
+}
+]
+},
+{
+"tracking": 1181,
+"claim_date": "2025-03-04",
+"termination": "Move-Out",
+"pm": "TEST PM",
+"treaty": null,
+"monthly_rent": 1000.0,
+"max_benefit": null,
+"lease_start": "2024-11-01",
+"lease_end": "2024-11-01",
+"move_out": "2025-03-01",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-04T13:31:00",
+"text": "@dkeys@yrig.com Greg's test claim"
+}
+]
+},
+{
+"tracking": 1182,
+"claim_date": "2025-03-07",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 750.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-27",
+"lease_end": "2024-12-31",
+"move_out": "2025-02-04",
+"pm_explanation": "No coverage for rent after lease expiration, maximum utilities coverage is 150.00.",
+"comments": [
+{
+"ts": "2025-03-07T08:53:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-03-07T08:53:00",
+"text": "@dkeys@yrig.com No coverage for rent after lease expiration, maximum utilities coverage is 150.00."
+},
+{
+"ts": "2025-03-10T08:06:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-10T10:42:00",
+"text": "@dkeys@yrig.com 1ST SETT PAYMENT ON 3-21-25 AT 12 PM CENTRAL"
+},
+{
+"ts": "2025-03-10T10:43:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, VERY HAPPY TO SETTLE"
+},
+{
+"ts": "2025-03-21T10:08:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT COLLECTED"
+}
+]
+},
+{
+"tracking": 1183,
+"claim_date": "2025-03-07",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Oregon",
+"treaty": "T00001",
+"monthly_rent": 2190.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-15",
+"lease_end": "2025-01-26",
+"move_out": "2025-01-26",
+"pm_explanation": "No coverage for utilities under SD policy.",
+"comments": [
+{
+"ts": "2025-03-07T09:10:00",
+"text": "@dkeys@yrig.com no coverage for utilities, contacting tenant"
+},
+{
+"ts": "2025-03-10T08:11:00",
+"text": "@dkeys@yrig.com spoke with tenant, disputing some of the charges, as lots of removed objects were actually in the house when he moved in, he will be contacting Pure and call us back, claim on hold."
+},
+{
+"ts": "2025-03-18T08:43:00",
+"text": "@dkeys@yrig.com emailed pm for status of dispute"
+},
+{
+"ts": "2025-03-20T09:35:00",
+"text": "@dkeys@yrig.com call from property manager, discussed what tenant was disputing, he checked the move in report and stated there was no furniture or any objects left at time of move in, will send me move in and out report, pending."
+}
+]
+},
+{
+"tracking": 1184,
+"claim_date": "2025-03-07",
+"termination": "Move-Out",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 600.0,
+"max_benefit": 1000.0,
+"lease_start": "2024-09-16",
+"lease_end": "2025-09-30",
+"move_out": "2025-02-03",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-07T10:19:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR PARTIAL FEBRUARY PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1185,
+"claim_date": "2025-03-07",
+"termination": "Eviction",
+"pm": "StarPointe Realty Management LLC",
+"treaty": "T00002",
+"monthly_rent": 1400.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-11-14",
+"lease_end": "2025-11-30",
+"move_out": "2025-02-10",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-07T11:17:00",
+"text": "@dkeys@yrig.com EVICTION, RENT NOT PAID FOR FEB AND JAN 2025"
+}
+]
+},
+{
+"tracking": 1186,
+"claim_date": "2025-03-07",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2600.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-02-01",
+"lease_end": "2025-01-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-07T11:20:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR DECEMBER 2024 AND JAN 2025"
+}
+]
+},
+{
+"tracking": 1187,
+"claim_date": "2025-03-07",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2750.0,
+"max_benefit": 4000.0,
+"lease_start": "2024-08-24",
+"lease_end": "2025-08-23",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-07T11:55:00",
+"text": "@dkeys@yrig.com LEASE BREAK"
+},
+{
+"ts": "2025-03-07T12:00:00",
+"text": "@dkeys@yrig.com AMOUNT REQUESTED BY PM IS 2750.00, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-11T09:02:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-12T08:28:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1188,
+"claim_date": "2025-03-10",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Austin",
+"treaty": "T00001",
+"monthly_rent": 1525.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-03-23",
+"lease_end": "2025-06-23",
+"move_out": "2024-11-16",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-10T10:01:00",
+"text": "@dkeys@yrig.com pm REQUESTING 1700.00 FOR HAULING OFF THE POOL AND RESOD, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-11T10:37:00",
+"text": "@dkeys@yrig.com left a detailed message for tenant"
+},
+{
+"ts": "2025-03-12T08:27:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1189,
+"claim_date": "2025-03-10",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1995.0,
+"max_benefit": 3000.0,
+"lease_start": "2022-12-29",
+"lease_end": "2025-01-28",
+"move_out": "2025-01-29",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-10T16:03:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT AND PM TO FIND OUT THE REASON FOR VANITY SINK REPLACEMENT"
+},
+{
+"ts": "2025-03-11T12:39:00",
+"text": "@dkeys@yrig.com per PM EMAIL, THE TENANT HAS CRACKED THE SINK AND DID A SELF REPAIR, DID NOT DISCLOSE TO PM, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-11T12:41:00",
+"text": "@dkeys@yrig.com LEFT A MESSAGE FOR TENANT TO CALL ME BACK"
+},
+{
+"ts": "2025-03-13T12:43:00",
+"text": "@dkeys@yrig.com TENANT CALLED BACK AND SETTLED"
+}
+]
+},
+{
+"tracking": 1190,
+"claim_date": "2025-03-10",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1450.0,
+"max_benefit": 2500.0,
+"lease_start": "2022-10-28",
+"lease_end": "2025-01-28",
+"move_out": "2025-01-31",
+"pm_explanation": "No coverage for missing rent for short term lease from 10-30-24 to 1-28-25, SD program does not cover short term leases. No coverage for leaking pipe and hose bib as this the landlord's responsibility and is not covered by SD program, subtracting 120.00 for plumbing labor and 50.00 for parts (est.).",
+"comments": [
+{
+"ts": "2025-03-10T15:50:00",
+"text": "@dkeys@yrig.com No coverage for missing rent for short term lease from 10-30-24 to 1-28-25. No coverage for leaking pipe and hose bib as this the landlord's responsibility and is not covered by SD program, subtracting 120.00 for plumbing labor and 50.00 for parts (est.)."
+}
+]
+},
+{
+"tracking": 1191,
+"claim_date": "2025-03-11",
+"termination": "Move-Out",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 895.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-28",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": "Based on monthly rent of 895.00, maximum benefit cannot exceed 1000.00.",
+"comments": [
+{
+"ts": "2025-03-11T10:28:00",
+"text": "@dkeys@yrig.com NEED REASON AND PROOF OF DAMAGE FOR ALL PAINTED WALLS, NEARLY ENTIRE HOUSE.....CONTACTING PM"
+},
+{
+"ts": "2025-03-11T11:01:00",
+"text": "@dkeys@yrig.com SD program not responsible for entire wall paint but specific spot/touch up paint, as no images provided show need for entire wall paint, not SD responsibility, cover 1/3 of total paint work."
+},
+{
+"ts": "2025-03-11T11:03:00",
+"text": "@dkeys@yrig.com No coverage for recommended pressure wash as back wall bio growth not considered excess wear and tear"
+},
+{
+"ts": "2025-03-11T11:05:00",
+"text": "@dkeys@yrig.com based on monthly rent of 895.00, benefit cannot exceed 1000.00."
+},
+{
+"ts": "2025-03-11T11:07:00",
+"text": "@dkeys@yrig.com left message for tenant"
+}
+]
+},
+{
+"tracking": 1192,
+"claim_date": "2025-03-13",
+"termination": "Move-Out",
+"pm": "Pure Property Management",
+"treaty": "T00001",
+"monthly_rent": 1710.0,
+"max_benefit": 3000.0,
+"lease_start": "2024-02-01",
+"lease_end": "2025-01-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-13T11:49:00",
+"text": "@dkeys@yrig.com spoke with tenant, disputing charges, claim on hold"
+},
+{
+"ts": "2025-03-18T08:43:00",
+"text": "@dkeys@yrig.com emailed PM for itemized move out report"
+}
+]
+},
+{
+"tracking": 1193,
+"claim_date": "2025-03-13",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1395.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-01-13",
+"lease_end": "2025-03-31",
+"move_out": "2025-02-24",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-13T15:26:00",
+"text": "@dkeys@yrig.com RENT BOUNCED FOR JANUARY, NOT PAID FOR FEBRUARY, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1194,
+"claim_date": "2025-03-14",
+"termination": "Eviction",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 2195.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-01-24",
+"lease_end": "2025-01-31",
+"move_out": "2025-02-14",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-14T09:41:00",
+"text": "@dkeys@yrig.com EVICTION"
+},
+{
+"ts": "2025-03-14T09:43:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR JAN 2025"
+}
+]
+},
+{
+"tracking": 1195,
+"claim_date": "2025-03-14",
+"termination": "Eviction",
+"pm": "PURE Property Management of Kansas",
+"treaty": "T00001",
+"monthly_rent": 1325.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-04-26",
+"lease_end": "2025-04-25",
+"move_out": "2024-12-20",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-17T06:37:00",
+"text": "@dkeys@yrig.com EVICTION, NOTHING PAID SINCE NOV 2024, LATE SINCE SEPT 2024"
+}
+]
+},
+{
+"tracking": 1196,
+"claim_date": "2025-03-17",
+"termination": "Move-Out",
+"pm": "Pure Property Management of FL",
+"treaty": "T00001",
+"monthly_rent": 2250.0,
+"max_benefit": 2500.0,
+"lease_start": "2025-02-01",
+"lease_end": "2026-01-31",
+"move_out": "2025-03-06",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-17T10:37:00",
+"text": "@dkeys@yrig.com EARLY TERMINATION, OWES MONEY FOR FULL 30 DAYS RENT PRORATED PLUS REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-18T08:15:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-18T08:36:00",
+"text": "@dkeys@yrig.com spoke with tenant, very nice lady, disputing some of the charges, never received anything from PM; looking at the shipping label provided by PM, the documents were mailed to tenant on 3-17-25, same date they filed a claim with us."
+},
+{
+"ts": "2025-03-24T12:16:00",
+"text": "@dkeys@yrig.com left message for Sara, need to discuss further"
+},
+{
+"ts": "2025-03-26T10:12:00",
+"text": "@dkeys@yrig.com tenant agreed to settle"
+},
+{
+"ts": "2025-04-01T07:45:00",
+"text": "@dkeys@yrig.com tenant never called back and no longer communicating"
+},
+{
+"ts": "2025-04-04T11:46:00",
+"text": "@dkeys@yrig.com finally called back and made 1st payment"
+}
+]
+},
+{
+"tracking": 1197,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1460.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-01",
+"lease_end": "2024-08-31",
+"move_out": "2025-02-06",
+"pm_explanation": "Missing tenant ledger",
+"comments": [
+{
+"ts": "2025-03-18T09:29:00",
+"text": "ledger has $1,097"
+},
+{
+"ts": "2025-03-18T10:09:00",
+"text": "@dkeys@yrig.com MONTH TO MONTH PERRY REID, PENDING LEDGER FROM PM"
+},
+{
+"ts": "2025-04-04T09:02:00",
+"text": "security deposit itemization has $3463 less $2500 for pet floor damages.  Leaves $963  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-04-04T09:06:00",
+"text": "@dkeys@yrig.com yes, this one is on hold as Melissa still have not provided a proper ledger"
+}
+]
+},
+{
+"tracking": 1198,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1025.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-01",
+"lease_end": "2025-07-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T10:11:00",
+"text": "@dkeys@yrig.com lease break, owes move in special discount back, contacting tenant"
+},
+{
+"ts": "2025-03-19T09:36:00",
+"text": "@dkeys@yrig.com let message for tenant"
+},
+{
+"ts": "2025-03-20T08:24:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1199,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 700.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-07-01",
+"lease_end": "2025-06-30",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T10:12:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-03-18T10:12:00",
+"text": "@dkeys@yrig.com lease break, cleaning and repairs"
+},
+{
+"ts": "2025-03-19T09:38:00",
+"text": "@dkeys@yrig.com voicemail is full, cannot leave message"
+}
+]
+},
+{
+"tracking": 1200,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1295.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-09-08",
+"lease_end": "2025-09-30",
+"move_out": "2025-03-10",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T09:54:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR FEBRUARY, PRORATED NOT PAID FOR MARCH 2025, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1201,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1230.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-07-11",
+"lease_end": "2025-08-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T10:15:00",
+"text": "@dkeys@yrig.com need reasons for carpet padding repl and ozone treatment, emailing pm"
+},
+{
+"ts": "2025-03-18T11:05:00",
+"text": "@dkeys@yrig.com reviewed photos, definitely a bug problem, cannot tell origin of carpet stains, will contact tenant and see if she had any pets"
+},
+{
+"ts": "2025-03-19T09:40:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-20T08:24:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1202,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1245.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-12-18",
+"lease_end": "2025-01-31",
+"move_out": "2025-02-17",
+"pm_explanation": "No coverage for rent past the lease expiration of 1-31-2025. No coverage for program fees under SD program. No coverage for late fees.",
+"comments": [
+{
+"ts": "2025-03-18T09:46:00",
+"text": "@dkeys@yrig.com rent not paid for JAN 2025, NO COVERAGE FOR RENT PAST LEASE EXPIRATION"
+}
+]
+},
+{
+"tracking": 1203,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1500.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-07-18",
+"lease_end": "2025-06-30",
+"move_out": "2025-02-13",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T10:17:00",
+"text": "@dkeys@yrig.com lease break, rent not paid for partial Feb 2025"
+},
+{
+"ts": "2025-03-20T08:45:00",
+"text": "kayla 3198933517"
+},
+{
+"ts": "2025-03-20T08:53:00",
+"text": "@dkeys@yrig.com tenant called back to settle, made 1st payment today."
+},
+{
+"ts": "2025-03-26T10:25:00",
+"text": "@dkeys@yrig.com 2ND PAYMENT MADE"
+},
+{
+"ts": "2025-04-02T12:06:00",
+"text": "@dkeys@yrig.com 3RD PAYMENT MADE"
+}
+]
+},
+{
+"tracking": 1204,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1440.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-11-01",
+"lease_end": "2025-10-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T11:23:00",
+"text": "@dkeys@yrig.com cleaning and damages, contacting tenant"
+},
+{
+"ts": "2025-03-19T09:42:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-20T08:13:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1205,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 935.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-01",
+"lease_end": "2024-11-30",
+"move_out": "2025-01-31",
+"pm_explanation": "No month to month agreement signed, no HAP subsidy after lease end on 11-30-2024.",
+"comments": [
+{
+"ts": "2025-03-18T11:20:00",
+"text": "@dkeys@yrig.com CLAIM IS DENIED, THE TENANT WAS RECEIVING 819.00 IN GOVERNMENT SUBSIDY FOR RENT THROUGH THE END OF THE LEASE 11-30-2024, AFTER THAT SUBSIDIES HAVE STOPPED AND NO RENT WAS PAID FOR TWO MONTHS AFTER LEASE END, HOWEVER, NO MONTH TO MONTH AGREEMENT HAS BEEN SIGNED......."
+}
+]
+},
+{
+"tracking": 1206,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 993.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-05-20",
+"lease_end": "2025-04-30",
+"move_out": "2025-02-06",
+"pm_explanation": "Covering 6 days prorated rent for February 2025, plus 1 full month rent for lease break, no coverage for utilities or program fees.",
+"comments": [
+{
+"ts": "2025-03-18T13:23:00",
+"text": "Covering 6 days prorated rent for February 2025, plus 1 full month rent for lease break, no coverage for utilities or program fees"
+},
+{
+"ts": "2025-03-28T12:31:00",
+"text": "@dkeys@yrig.com 2ND TENANT CALLED BACK AND SETTLED"
+}
+]
+},
+{
+"tracking": 1207,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 955.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-11-01",
+"lease_end": "2025-10-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T13:19:00",
+"text": "@dkeys@yrig.com CLEANING AND REPAIRS, COMTACTING TENANT"
+},
+{
+"ts": "2025-03-19T09:44:00",
+"text": "@dkeys@yrig.com left message for tenant"
+},
+{
+"ts": "2025-03-20T08:13:00",
+"text": "@dkeys@yrig.com left another message"
+}
+]
+},
+{
+"tracking": 1208,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 790.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-09-20",
+"lease_end": "2025-08-31",
+"move_out": "2025-02-03",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T13:16:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR JANUARY 2025 AND PARTIAL FEBRUARY 2025, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1209,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1860.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-10",
+"lease_end": "2025-01-31",
+"move_out": "2025-01-31",
+"pm_explanation": "No coverage for electrical or any utilities under SD program.",
+"comments": []
+},
+{
+"tracking": 1210,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 935.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-03-22",
+"lease_end": "2025-02-28",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T13:08:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR JAN 2025, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1211,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1036.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-04-11",
+"lease_end": "2025-03-31",
+"move_out": "2025-02-07",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T13:05:00",
+"text": "@dkeys@yrig.com RENT NOT PAID SINCE NOV 2024"
+}
+]
+},
+{
+"tracking": 1212,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1036.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-08-20",
+"lease_end": "2025-07-31",
+"move_out": "2025-02-15",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-18T13:03:00",
+"text": "@dkeys@yrig.com PARTIAL FEBRUARY RENT NOT PAID"
+}
+]
+},
+{
+"tracking": 1213,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 745.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-06-15",
+"lease_end": "2025-05-31",
+"move_out": "2025-01-31",
+"pm_explanation": "Eligible for one month rent under SD program, no reletting fee on top.",
+"comments": [
+{
+"ts": "2025-03-18T12:50:00",
+"text": "@dkeys@yrig.com ELIGIBLE FOR 1 MONTH RENT FOR LEASE BREAK, NOT ONE MONTH RENT PLUS RELETTING FEE"
+},
+{
+"ts": "2025-03-18T12:51:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-03-19T09:46:00",
+"text": "@dkeys@yrig.com phone just rings and rings, then hangs up, cannot leave message"
+}
+]
+},
+{
+"tracking": 1214,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1195.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-01-01",
+"lease_end": "2024-12-31",
+"move_out": "2025-02-14",
+"pm_explanation": "Covering prorated rent for 14 days in February 2025, cleaning, repairs, no coverage for late fees, program fees, or utilities.",
+"comments": [
+{
+"ts": "2025-03-18T12:56:00",
+"text": "@dkeys@yrig.com PERRY REID MONTH TO MONTH, PARTIAL NOT PAID FOR FEBRUARY, NOT PAYING FOR FUTURE MONTH AS THIS IS MONTH TO MONTH"
+},
+{
+"ts": "2025-03-18T12:59:00",
+"text": "@dkeys@yrig.com Covering prorated rent for 14 days in February 2025, cleaning, repairs, no coverage for late fees, program fees"
+}
+]
+},
+{
+"tracking": 1215,
+"claim_date": "2025-03-18",
+"termination": "Move-Out",
+"pm": "PURE Property Management of Florida",
+"treaty": "T00001",
+"monthly_rent": 1699.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-12-29",
+"lease_end": "2025-12-29",
+"move_out": "2025-02-26",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-19T09:10:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR FEBRUARY 2025 PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1216,
+"claim_date": "2025-03-19",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2095.0,
+"max_benefit": 2500.0,
+"lease_start": "2022-11-14",
+"lease_end": "2025-02-13",
+"move_out": "2025-02-13",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-19T09:32:00",
+"text": "@dkeys@yrig.com Same charge for door replacement twice on the ledger, listed even before lease end, no coverage for admin or late fees"
+},
+{
+"ts": "2025-03-19T09:34:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-03-19T14:05:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-03-19T14:43:00",
+"text": "@dkeys@yrig.com SPOKE WITH TENANT, FIRST SETTLEMENT PAYMENT THIS FRIDAY"
+},
+{
+"ts": "2025-03-20T08:20:00",
+"text": "@dkeys@yrig.com spoke with PM, apparently door was supposed to be paid off in 3 payments, tenant only paid one, already settling with tenant"
+},
+{
+"ts": "2025-03-21T14:51:00",
+"text": "@dkeys@yrig.com 1ST PAYMENT COLLECTED"
+},
+{
+"ts": "2025-03-24T07:49:00",
+"text": "@dfinkler@yrig.com for Claim#1216, can you confirm the amount to be disbursed is $1,346.65?"
+},
+{
+"ts": "2025-03-24T08:12:00",
+"text": "@boommen@reinsure.com Hi Bobby, yes, the correct amount is 1346.65."
+}
+]
+},
+{
+"tracking": 1217,
+"claim_date": "2025-03-19",
+"termination": "Move-Out",
+"pm": "Blue Fox Properties",
+"treaty": "T00002",
+"monthly_rent": 1545.0,
+"max_benefit": 2500.0,
+"lease_start": "2023-02-07",
+"lease_end": "2025-02-11",
+"move_out": "2025-02-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-19T13:51:00",
+"text": "@dkeys@yrig.com MOVE OUT CLEANING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-20T09:37:00",
+"text": "@dkeys@yrig.com called tenant, hung up on me twice"
+}
+]
+},
+{
+"tracking": 1218,
+"claim_date": "2025-03-21",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1090.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-15",
+"lease_end": "2025-01-31",
+"move_out": "2025-01-31",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-21T12:12:00",
+"text": "@dkeys@yrig.com contacting tenant"
+},
+{
+"ts": "2025-03-21T12:12:00",
+"text": "@dkeys@yrig.com cleaning and minor repairs"
+},
+{
+"ts": "2025-03-24T12:34:00",
+"text": "@dkeys@yrig.com voicemail is full, cannot leave message"
+}
+]
+},
+{
+"tracking": 1219,
+"claim_date": "2025-03-21",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1035.0,
+"max_benefit": 1500.0,
+"lease_start": "2023-12-15",
+"lease_end": "2024-11-30",
+"move_out": "2024-10-07",
+"pm_explanation": "Covering unpaid 7 days rent for October, plus Nov rent, no coverage for late fees, utilities, or program fees.",
+"comments": [
+{
+"ts": "2025-03-21T12:10:00",
+"text": "@dkeys@yrig.com LEASE BREAK, PARTIAL NOT PAID FOR OCTOBER"
+},
+{
+"ts": "2025-04-02T07:45:00",
+"text": "@dkeys@yrig.com TENANT CALLED, WANTS TO POSSIBLY SETTLE, WON'T COMMIT TO ANYTHING, STATED WILL CALL BACK ON FRIDAY AT 10 AM"
+}
+]
+},
+{
+"tracking": 1220,
+"claim_date": "2025-03-21",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 1095.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-10-01",
+"lease_end": "2025-10-31",
+"move_out": "2025-02-05",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-21T12:07:00",
+"text": "@dkeys@yrig.com APPEARS TO BE AN EVICTION, MULTIPLE BOUNCED PAYMENTS"
+}
+]
+},
+{
+"tracking": 1221,
+"claim_date": "2025-03-21",
+"termination": "Move-Out",
+"pm": "Perry Reid Properties",
+"treaty": "T00003",
+"monthly_rent": 900.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-09-01",
+"lease_end": "2025-08-31",
+"move_out": "2025-02-26",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-21T12:04:00",
+"text": "@dkeys@yrig.com RENT NOT PAID FOR FEBRUARY 2025 PLUS LEASE BREAK"
+},
+{
+"ts": "2025-03-24T12:14:00",
+"text": "@dkeys@yrig.com tried leaving a message for tenant"
+},
+{
+"ts": "2025-03-25T07:16:00",
+"text": "@dkeys@yrig.com TRIED TO LEAVE ANOTHER MESSAGE BUT VM IS NOW FULL"
+}
+]
+},
+{
+"tracking": 1222,
+"claim_date": "2025-03-21",
+"termination": "Move-Out",
+"pm": "x",
+"treaty": "T00003",
+"monthly_rent": 950.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-09-20",
+"lease_end": "2025-09-30",
+"move_out": "2025-02-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-21T12:03:00",
+"text": "@dkeys@yrig.com UNPAID RENT FOR FEBRUARY 2025, PLUS LEASE BREAK, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-24T12:12:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-03-25T07:06:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+}
+]
+},
+{
+"tracking": 1223,
+"claim_date": "2025-03-24",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2500.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-05-03",
+"lease_end": "2025-05-02",
+"move_out": "2025-02-21",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-24T12:38:00",
+"text": "@dkeys@yrig.com CLEAING AND REPAIRS, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-25T07:09:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+},
+{
+"ts": "2025-03-26T10:00:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+}
+]
+},
+{
+"tracking": 1224,
+"claim_date": "2025-03-24",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2100.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-23",
+"move_out": "2025-02-23",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-25T07:14:00",
+"text": "@dkeys@yrig.com REPAIRS, REKEY, AND HAULING, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-25T13:19:00",
+"text": "@dkeys@yrig.com primary or work phone numbers are no good"
+}
+]
+},
+{
+"tracking": 1225,
+"claim_date": "2025-03-25",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2200.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-25T13:23:00",
+"text": "@dkeys@yrig.com CONTACTING TENANT"
+},
+{
+"ts": "2025-03-25T13:23:00",
+"text": "@dkeys@yrig.com REPAIRS, MAINT, AND SC OFFICE TENANT COORDINATION FEE"
+},
+{
+"ts": "2025-03-26T10:03:00",
+"text": "@dkeys@yrig.com left a detailed message for tenant"
+},
+{
+"ts": "2025-03-27T08:44:00",
+"text": "@dkeys@yrig.com left another message for tenant"
+},
+{
+"ts": "2025-04-03T07:07:00",
+"text": "@dkeys@yrig.com spoke with spouce, never had any luck gettng a call back from pm, just wants to settle"
+},
+{
+"ts": "2025-04-03T07:23:00",
+"text": "@dkeys@yrig.com settled"
+}
+]
+},
+{
+"tracking": 1226,
+"claim_date": "2025-03-26",
+"termination": "Move-Out",
+"pm": "PURE",
+"treaty": "T00001",
+"monthly_rent": 1865.0,
+"max_benefit": 2000.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-27T08:50:00",
+"text": "@dkeys@yrig.com LAWN, CLEANING AND DAMAGES, CALLING TENANT TO DISCUSS"
+},
+{
+"ts": "2025-03-28T07:21:00",
+"text": "@dkeys@yrig.com left message for tenant"
+}
+]
+},
+{
+"tracking": 1227,
+"claim_date": "2025-03-27",
+"termination": "Move-Out",
+"pm": "PURE Property Management of KY",
+"treaty": "T00001",
+"monthly_rent": 695.0,
+"max_benefit": 1000.0,
+"lease_start": "2024-02-28",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-27T08:48:00",
+"text": "@dkeys@yrig.com OVEN CLEANING AND DRIP PANS, 85.00, CONTACTING TENANT"
+},
+{
+"ts": "2025-03-28T07:47:00",
+"text": "@dkeys@yrig.com left message for tenant"
+}
+]
+},
+{
+"tracking": 1228,
+"claim_date": "2025-03-27",
+"termination": "Eviction",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1650.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-01",
+"lease_end": "2025-01-31",
+"move_out": "2024-12-12",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-27T14:58:00",
+"text": "@dkeys@yrig.com EVICTION, RENT NOT PAID SINCE SEPT 2024"
+}
+]
+},
+{
+"tracking": 1229,
+"claim_date": "2025-03-28",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2350.0,
+"max_benefit": 3500.0,
+"lease_start": "2022-03-11",
+"lease_end": "2025-03-06",
+"move_out": "2024-12-31",
+"pm_explanation": "As the lease renewal is on a month to month basis, covering one month rent plus repairs, plus one SDRP fee, no coverage for other fees.",
+"comments": [
+{
+"ts": "2025-03-28T11:19:00",
+"text": "@dkeys@yrig.com RENT INSUFFICIENT OR LATE SINCE NOV 2024 PLUS LEASE BREAK"
+},
+{
+"ts": "2025-03-28T14:29:00",
+"text": "@dkeys@yrig.com As the lease renewal is on a month to month basis, covering one month rent plus repairs, plus one SDRP fee, no coverage for other fees."
+}
+]
+},
+{
+"tracking": 1230,
+"claim_date": "2025-03-28",
+"termination": "Move-Out",
+"pm": "RentWerx LLC",
+"treaty": "T00002",
+"monthly_rent": 1458.0,
+"max_benefit": 1500.0,
+"lease_start": "2024-02-01",
+"lease_end": "2025-01-31",
+"move_out": "2024-12-11",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-28T11:25:00",
+"text": "@dkeys@yrig.com OWES PARTIAL RENT FOR DEC 2024, PLUS LEASE BREAK"
+}
+]
+},
+{
+"tracking": 1231,
+"claim_date": "2025-03-28",
+"termination": "Move-Out",
+"pm": "Johnson Property Management",
+"treaty": "T00002",
+"monthly_rent": 1945.0,
+"max_benefit": 2500.0,
+"lease_start": "2024-11-14",
+"lease_end": "2026-01-31",
+"move_out": "2025-03-17",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-03-28T12:48:00",
+"text": "@dkeys@yrig.com OWES PRORATED RENT FOR MARCH PLUS LEASE BREAK, CONTACTING TENANT"
+}
+]
+},
+{
+"tracking": 1232,
+"claim_date": "2025-03-28",
+"termination": "Move-Out",
+"pm": "PURE",
+"treaty": "T00001",
+"monthly_rent": 3515.0,
+"max_benefit": 6000.0,
+"lease_start": "2024-03-01",
+"lease_end": "2025-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": "Water leak damage due to leaking plumbing must be submitted via TLL policy claim not security deposit.",
+"comments": [
+{
+"ts": "2025-03-30T07:58:00",
+"text": "@dkeys@yrig.com WILL EMAIL PM FOR PHOTOS OF WATER LEAK DAMAGE AND CAUSE OF WATER LEAK"
+},
+{
+"ts": "2025-03-31T13:48:00",
+"text": "@dkeys@yrig.com pending response from PM as to the cause of the leak"
+},
+{
+"ts": "2025-04-02T07:10:00",
+"text": "@dkeys@yrig.com LEFT ANOTHER MESSAGE"
+},
+{
+"ts": "2025-04-03T06:50:00",
+"text": "@dkeys@yrig.com all received from PM for the cause is that \"the toilet leaked\"."
+},
+{
+"ts": "2025-04-03T06:54:00",
+"text": "@dkeys@yrig.com left another message"
+},
+{
+"ts": "2025-04-03T07:17:00",
+"text": "@dkeys@yrig.com Water leak damage due to leaking plumbing must be submitted via TLL policy claim not security deposit."
+}
+]
+},
+{
+"tracking": 1233,
+"claim_date": "2025-03-31",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 1700.0,
+"max_benefit": 3500.0,
+"lease_start": "2022-12-12",
+"lease_end": "2026-02-28",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-04-01T07:00:00",
+"text": "@dkeys@yrig.com NOTHING PAID FOR THE NEW LEASE STARTING 3-1-2025, NOT ELIGIBLE, LAST MONTH RENT NOT PAID FOR FEB 2025, ATTN: PM IS REQUESTING 1700.00 PER CLAIM SUBMISSION VIA PORTAL"
+},
+{
+"ts": "2025-04-02T12:21:00",
+"text": "@dkeys@yrig.com LAST MONTH RENT FOR FEB NOT PAID, PLUS TRASH OUT, REPAIRS"
+}
+]
+},
+{
+"tracking": 1234,
+"claim_date": "2025-03-31",
+"termination": "Move-Out",
+"pm": "PURE Property Management",
+"treaty": "T00001",
+"monthly_rent": 2300.0,
+"max_benefit": 3500.0,
+"lease_start": "2024-05-05",
+"lease_end": "2025-05-04",
+"move_out": "2025-02-28",
+"pm_explanation": null,
+"comments": [
+{
+"ts": "2025-04-01T07:13:00",
+"text": "@dkeys@yrig.com LEASE BREAK, AMOUNT OF CLAIM REQUESTED BY PM IS 2300"
+},
+{
+"ts": "2025-04-01T08:12:00",
+"text": "I changed the amount requested to $1,180 to match the demand letter they sent to the tenant.  @dfinkler@yrig.com"
+},
+{
+"ts": "2025-04-01T09:05:00",
+"text": "@dkeys@yrig.com got it, contacting tenant"
+},
+{
+"ts": "2025-04-02T07:12:00",
+"text": "@dkeys@yrig.com LEFT MESSAGE FOR TENANT"
+}
+]
+},
+{
+"tracking": 1235,
+"claim_date": "2025-03-31",
+"termination": "Eviction",
+"pm": "1st Choice Property Management",
+"treaty": "T00002",
+"monthly_rent": 1829.0,
+"max_benefit": 3000.0,
+"lease_start": "2023-09-19",
+"lease_end": "2025-09-18",
+"move_out": "2025-02-03",
+"pm_explanation": "Based on monthly rent of 1829.00, the maximum benefit cannot exceed 2000.",
+"comments": [
+{
+"ts": "2025-04-01T07:07:00",
+"text": "@dkeys@yrig.com EMAILING PM FOR CURRENT LEASE COPY AS THE LEASE PROVIDED ENDED IN SEPT 2024"
+},
+{
+"ts": "2025-04-01T09:04:00",
+"text": "@dkeys@yrig.com lease break, checked on QL, SD premiums paid up until March 2025, Based on monthly rent of 1829.00, the maximum benefit cannot exceed 2000"
+}
+]
+}
+]

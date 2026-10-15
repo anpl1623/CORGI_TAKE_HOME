@@ -1,0 +1,237 @@
+{
+  "tracking": 178,
+  "documents": [
+    {
+      "file": "1390 Dreamy All Green Carpet Cleaning.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-07-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "1390 Dreamy DB Site Services.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-07-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pure Security Deposit Worksheet 1390 Dreamy.xlsx",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-08-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-08-02",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "peter-j-kane.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-01-04",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "tenant_ledger-peter_j_kane_vincent_s_grieco-20230829.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-29",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+  "pm_stated_amount_due": 924.33,
+  "lease": {
+    "base_monthly_rent": 2895.0,
+    "recurring_addons": [
+      {
+        "name": "RBP w/ Insurance",
+        "amount": 39.0
+      },
+      {
+        "name": "SDRP Fee",
+        "amount": 45.0
+      },
+      {
+        "name": "Admin Fee",
+        "amount": 5.0
+      }
+    ],
+    "lease_start": "2023-01-04",
+    "lease_end": "2023-06-30",
+    "current_term_start": "2023-01-04",
+    "current_term_end": "2023-06-30",
+    "initial_term_months": 6,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 3000.0,
+    "monthly_sd_premium": 45.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-07-19",
+    "termination": "holdover_then_vacated",
+    "holdover_days_after_lease_end": 19,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-29",
+    "balance_due": 924.33,
+    "first_full_month": "2023-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-07-12"
+  },
+  "line_items": [
+    {
+      "description": "City of Sac Water 05.16-06.14.23",
+      "category": "utilities",
+      "amount_open": 97.32,
+      "amount_charged": 97.32,
+      "date_posted": "2023-07-24",
+      "service_period_start": "2023-05-16",
+      "service_period_end": "2023-06-14",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "City of Sac Garbage 05.23-06.21.23",
+      "category": "utilities",
+      "amount_open": 69.78,
+      "amount_charged": 69.78,
+      "date_posted": "2023-07-24",
+      "service_period_start": "2023-05-23",
+      "service_period_end": "2023-06-21",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Co of Sac Sewer 06.08-08.07.23 (PRORATED)",
+      "category": "utilities",
+      "amount_open": 43.59,
+      "amount_charged": 43.59,
+      "date_posted": "2023-07-24",
+      "service_period_start": "2023-06-08",
+      "service_period_end": "2023-08-07",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repair blinds, light bulbs, unclogged sink",
+      "category": "repairs_damage",
+      "amount_open": 110.00,
+      "amount_charged": 110.00,
+      "date_posted": "2023-08-02",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Cleaning",
+      "category": "carpet_cleaning",
+      "amount_open": 425.00,
+      "amount_charged": 425.00,
+      "date_posted": "2023-08-02",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "City of Sac water 06.15-07.19.23",
+      "category": "utilities",
+      "amount_open": 113.40,
+      "amount_charged": 113.40,
+      "date_posted": "2023-08-02",
+      "service_period_start": "2023-06-15",
+      "service_period_end": "2023-07-19",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "City of Sac Garbage 06.22-07.19.23",
+      "category": "utilities",
+      "amount_open": 65.24,
+      "amount_charged": 65.24,
+      "date_posted": "2023-08-02",
+      "service_period_start": "2023-06-22",
+      "service_period_end": "2023-07-19",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "deposit_disposition_amount_due_peter_j_kane_080223.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 924.33 - 0.00 = 924.33 vs PM stated 924.33; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Pure / KTB Property Management deposit disposition statement and tenant ledger both state total balance due of $924.33, consisting of utility chargebacks ($389.33), repairs ($110.00), and carpet cleaning ($425.00)."
+}

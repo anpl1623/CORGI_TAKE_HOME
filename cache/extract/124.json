@@ -1,0 +1,185 @@
+{
+  "tracking": 124,
+  "documents": [
+    {
+      "file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-06-26",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Summer Breeze Tenant Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-29",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "tenant ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-28",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(09-16-2022_-_09-16-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-09-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-09-17",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+  "pm_stated_amount_due": 2865.74,
+  "lease": {
+    "base_monthly_rent": 2295.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Waiver",
+        "amount": 58.0
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 29.0
+      },
+      {
+        "name": "Monthly Pet Fee",
+        "amount": 25.0
+      }
+    ],
+    "lease_start": "2022-09-30",
+    "lease_end": "2023-09-19",
+    "current_term_start": "2022-09-30",
+    "current_term_end": "2023-09-19",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3442.5,
+    "monthly_sd_premium": 58.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "Tenant paid 2 months lease break fee ($4,590.00) and $1,000 re-renting fee on 2023-05-19"
+  },
+  "move_out": {
+    "move_out_date": "2023-06-06",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-06-29",
+    "balance_due": 2865.74,
+    "first_full_month": "2022-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-05-19"
+  },
+  "line_items": [
+    {
+      "description": "Move out cleaning",
+      "category": "cleaning",
+      "amount_open": 350.0,
+      "amount_charged": 350.0,
+      "date_posted": "2023-06-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Power Washing",
+      "category": "cleaning",
+      "amount_open": 75.0,
+      "amount_charged": 75.0,
+      "date_posted": "2023-06-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Repairs - patch and paint, doors, drawer, microwave, pop up drain, toilet lever",
+      "category": "repairs_damage",
+      "amount_open": 1709.0,
+      "amount_charged": 1709.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Carpet Replacement (prorated 20% of proposal)",
+      "category": "flooring",
+      "amount_open": 731.74,
+      "amount_charged": 731.74,
+      "date_posted": "2023-06-19",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": true,
+      "source_file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf",
+      "source_page": 8,
+      "confidence": 0.9
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 2865.74 - 0.00 = 2865.74 vs PM stated 2865.74; matches exactly.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": true,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [
+    {
+      "flag": "flooring_without_support",
+      "quote": "We hereby submit specifications and estimates for",
+      "file": "9225SSummerBreezeLane_062823_StatementofAccounting.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant early terminated after paying $4,590.00 lease break fee and $1,000.00 re-renting fee on 2023-05-19. Statement of Accounting totals $2,865.74, matching the ledger balance. Deductions include cleaning and power washing ($425 total via Tucker Cleaning invoice), handyman/patch/paint/plumbing repairs ($1,709 via Duke & Sons invoice #1398), and carpet replacement ($731.74 prorated from an unaccepted Desert Floors proposal/estimate)."
+}

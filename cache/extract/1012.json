@@ -1,0 +1,300 @@
+{
+ "tracking": 1012,
+ "winning_document": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf (12/10/24)",
+ "pm_stated_amount_due": 15629.07,
+ "reconciliation": "Open lines 15,629.07 less 0.00 credits = 15,629.07, equals PM stated due. Ledger of 12/11/24 carries the same open rows.",
+ "extraction_confidence": 0.8,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-12-10",
+   "note": "Winning statement, total 15,629.07",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "tenant_ledger-keymya_m_harlan-20241211.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-11",
+   "note": "Open rows tie to 15,629.07; rent and fee history",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary - 2024-11-22T111206.931_Keymya M. Harlan_FinalBill.pdf",
+   "doc_type": "other",
+   "doc_date": "2024-11-22",
+   "note": "Pioneer final utility bill, 575.93 total",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "Inspections_Move-out_Keymya M. Harlan.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-11-22",
+   "note": "Summary text only; photos not opened",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 5638 Keymya M. Harlan.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-12-10",
+   "note": "Same 15,629.07 total; no itemization",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1368.95,
+  "sd_program": "unknown",
+  "lease_start": "2024-03-01",
+  "lease_end": "2025-08-31"
+ },
+ "move_out": {
+  "move_out_date": "2024-11-18",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-12-11",
+  "balance_due": 15629.07,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-07"
+ },
+ "line_items": [
+  {
+   "description": "Nov 2024 rent, full month billed",
+   "category": "rent_in_term",
+   "amount_open": 1329,
+   "amount_charged": 1329,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Nov 2024 garbage and recycling",
+   "category": "utilities",
+   "amount_open": 20,
+   "amount_charged": 20,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Nov 2024 TLL20 liability charge",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19.95,
+   "amount_charged": 19.95,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late fee Nov 2024",
+   "category": "late_fee",
+   "amount_open": 200,
+   "amount_charged": 200,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Daily late fee 11/05-11/19/24",
+   "category": "late_fee",
+   "amount_open": 75,
+   "amount_charged": 75,
+   "date_posted": "2024-11-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Utility past-due reimbursement fee",
+   "category": "utilities",
+   "amount_open": 50,
+   "amount_charged": 50,
+   "date_posted": "2024-11-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Lease-break rent 12/01/24-08/31/25",
+   "category": "rent_after_move_out",
+   "amount_open": 11961,
+   "amount_charged": 11961,
+   "date_posted": "2024-12-06",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2025-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Final utility bill 11/16-11/20/24",
+   "category": "utilities",
+   "amount_open": 575.93,
+   "amount_charged": 575.93,
+   "date_posted": "2024-12-10",
+   "service_period_start": "2024-11-16",
+   "service_period_end": "2024-11-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "UT_RPT_Invoice_Template81_Summary - 2024-11-22T111206.931_Keymya M. Harlan_FinalBill.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Unit clean",
+   "category": "cleaning",
+   "amount_open": 199,
+   "amount_charged": 199,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Stove drip pans",
+   "category": "appliance",
+   "amount_open": 75,
+   "amount_charged": 75,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Trash removal",
+   "category": "trash_removal",
+   "amount_open": 250,
+   "amount_charged": 250,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Window screen/frame",
+   "category": "repairs_damage",
+   "amount_open": 99,
+   "amount_charged": 99,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Shower head replacement",
+   "category": "repairs_damage",
+   "amount_open": 95,
+   "amount_charged": 95,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Crisper drawer",
+   "category": "appliance",
+   "amount_open": 129,
+   "amount_charged": 129,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet replacement, no invoice",
+   "category": "flooring",
+   "amount_open": 551.19,
+   "amount_charged": 551.19,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_keymya_m_harlan_121024.pdf",
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "Inspections_Move-out_Keymya M. Harlan.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet Replacement- TBD"
+  },
+  {
+   "file": "tenant_ledger-keymya_m_harlan-20241211.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Maintenance charge - Carpet Replacement 551.19"
+  }
+ ],
+ "notes": "Winning doc is the 12/10/24 disposition letter; the 12/11 ledger ties to the same open rows. Sheet says Eviction, but the statement bills a lease break (9 x 1,329 remaining rent) with no court or eviction costs, so termination is recorded as early_termination. Sheet monthly rent 1,368.95 includes garbage 20.00 and TLL20 19.95 (ledger rent income 1,329.00); LITE base rent kept at sheet value. November rent is a full month although move-out was 11/18; the 11/19-11/30 portion is not split. The utility bill 575.93 includes a 527.58 prior past-due balance. The 50.00 utility past-due reimbursement is classed as utilities at 0.6 confidence (could be a late fee). The inspection summary has an internal note that 11,961 was added to the ledger and is 'not on file pre move out'. Inspection photos not opened.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a5c152eb1fbc45c34"
+ }
+}

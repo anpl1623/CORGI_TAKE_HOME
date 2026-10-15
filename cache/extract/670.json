@@ -1,0 +1,239 @@
+{
+  "tracking": 670,
+  "documents": [
+    {
+      "file": "0904 Goldsby Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-09-11",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0904 Goldsby Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-09-11",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0904 Goldsby Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-07-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "0904 Goldsby Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-06-21",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0904 Goldsby Move Out Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-06-21",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "0904 Goldsby SDI.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-06-21",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "STJ DD Authorization Form.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "0904 Goldsby SDI.pdf",
+  "pm_stated_amount_due": 818.0,
+  "lease": {
+    "base_monthly_rent": 900.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Waiver",
+        "amount": 33.0
+      },
+      {
+        "name": "Renters Insurance",
+        "amount": 19.0
+      },
+      {
+        "name": "Utility Fee",
+        "amount": 30.0
+      }
+    ],
+    "lease_start": "2023-09-11",
+    "lease_end": "2024-09-12",
+    "current_term_start": "2023-09-11",
+    "current_term_end": "2024-09-12",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1200.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Reletting charge of $250.00 (paragraph 11)"
+  },
+  "move_out": {
+    "move_out_date": "2024-06-10",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-07-09",
+    "balance_due": 818.0,
+    "first_full_month": "2023-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-06-03"
+  },
+  "line_items": [
+    {
+      "description": "Eviction Fees Inv#11330",
+      "category": "eviction_legal_court",
+      "amount_open": 661.0,
+      "amount_charged": 661.0,
+      "date_posted": "2024-05-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0904 Goldsby Ledger.pdf",
+      "source_page": 3,
+      "confidence": 1.0
+    },
+    {
+      "description": "Renters Insurance (06/2024) (prorated for 10 days)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 6.0,
+      "amount_charged": 19.0,
+      "date_posted": "2024-06-01",
+      "service_period_start": "2024-06-01",
+      "service_period_end": "2024-06-10",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0904 Goldsby Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Security Deposit Protection (06/2024) (prorated for 10 days)",
+      "category": "sdrp_premium",
+      "amount_open": 11.0,
+      "amount_charged": 33.0,
+      "date_posted": "2024-06-01",
+      "service_period_start": "2024-06-01",
+      "service_period_end": "2024-06-10",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0904 Goldsby Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Utility Revenue (06/2024) (prorated for 10 days)",
+      "category": "utilities",
+      "amount_open": 10.0,
+      "amount_charged": 30.0,
+      "date_posted": "2024-06-01",
+      "service_period_start": "2024-06-01",
+      "service_period_end": "2024-06-10",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0904 Goldsby Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2024-06-21",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0904 Goldsby SDI.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Renters Insurance (06/2024) Credit 20 days",
+      "amount": 13.0,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "0904 Goldsby Move Out Statement.pdf"
+    },
+    {
+      "description": "Security Deposit Protection (06/2024) Credit 20 days",
+      "amount": 22.0,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "0904 Goldsby Move Out Statement.pdf"
+    },
+    {
+      "description": "Utility Revenue (06/2024) Credit 20 days",
+      "amount": 20.0,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "0904 Goldsby Move Out Statement.pdf"
+    },
+    {
+      "description": "Credit for Screen Door",
+      "amount": 120.0,
+      "type": "other",
+      "already_netted_in_line_items": false,
+      "source_file": "0904 Goldsby SDI.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) (938.00) - credits not netted (120.00) = 818.00 vs PM stated 818.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant was on housing subsidy (HAP). Full rent was covered by subsidy. Open balance consists of legal/eviction fee ($661.00), prorated June SDRP fee ($11.00), prorated June insurance ($6.00), prorated June utilities ($10.00), and reletting fee ($250.00), offset by a $120.00 credit for screen door, totaling $818.00."
+}

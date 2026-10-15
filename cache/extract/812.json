@@ -1,0 +1,213 @@
+{
+ "tracking": 812,
+ "winning_document": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf (created 09/17/2024)",
+ "pm_stated_amount_due": 5203.02,
+ "reconciliation": "Open lines total 5203.02 (June 2580.84 plus July 2622.18); credits none (no payments after 05/06/24); equals ledger total 5203.02; difference 0.00.",
+ "extraction_confidence": 0.7,
+ "documents": [
+  {
+   "file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-17",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Only accounting document; open rows are June and July 2024"
+  },
+  {
+   "file": "3917 E Encinas Ave - SDRP - Lease Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-02-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Waiver 59/mo; digest text only, not used for amounts"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 2150,
+  "lease_start": "2024-02-16",
+  "lease_end": "2025-02-28",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 0
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-17",
+  "balance_due": 5203.02,
+  "last_payment_date": "2024-05-06",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "credits": [],
+ "line_items": [
+  {
+   "description": "June 2024 rent incl. city tax",
+   "category": "rent_in_term",
+   "amount_open": 2182.25,
+   "amount_charged": 2150,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "June RBP with insurance incl. tax",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39.59,
+   "amount_charged": 39,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "June SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 59,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "June late fee (06/05)",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-06-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "Late fee 10 per day 06/06-06/30",
+   "category": "late_fee",
+   "amount_open": 250,
+   "date_posted": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "July 2024 rent incl. city tax",
+   "category": "rent_in_term",
+   "amount_open": 2182.25,
+   "amount_charged": 2150,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "July RBP with insurance incl. tax",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39.59,
+   "amount_charged": 39,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "July SDRP fee incl. tax",
+   "category": "sdrp_premium",
+   "amount_open": 59.89,
+   "amount_charged": 59,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "July late fee (07/05)",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-07-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "05 Day Notice posting fee incl. tax",
+   "category": "eviction_legal_court",
+   "amount_open": 30.45,
+   "amount_charged": 30,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  },
+  {
+   "description": "Late fee 10 per day 07/06-07/31",
+   "category": "late_fee",
+   "amount_open": 260,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-wednesday_r_ragan_hernandez_celso_a_hernandez-20240917.pdf"
+  }
+ ],
+ "notes": "Only accounting document in folder is the tenant ledger (created 09/17/24, total 5203.02); no move-out statement or itemization. Ledger balance was zero after 05/06/24, so open amounts are all June and July 2024 charges (unpaid). Sales tax on each charge is folded into its line (amount_charged shows base). Move-out 07/31/24 is mid-term (lease 02/16/24 to 02/28/25); no August-onward rent, lease-break fee or holdover charge is on the ledger. Termination coded early_termination from dates; the 05 Day Notice (scanned, ledger shows posted 07/10/24) was not opened (lite mode), so any eviction status is unverified. SDRP waiver addendum text was in the digest only and is not used for amounts. Deposit paid 0.00 per ledger. Base rent is sheet Monthly Rent 2150.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a41b3ed03db7eafdc"
+ }
+}

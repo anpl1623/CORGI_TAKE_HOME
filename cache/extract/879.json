@@ -1,0 +1,181 @@
+{
+ "tracking": 879,
+ "documents": [
+  {
+   "file": "Hinerman 1 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; total 2153.00"
+  },
+  {
+   "file": "Hinerman 01 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Confirms 0.00 balance on 9/01"
+  },
+  {
+   "file": "Hinerman 1 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 2153.00 total"
+  },
+  {
+   "file": "Hinerman 1 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 2153.00; reletting fee 500.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1550,
+  "cash_deposit_amount": null,
+  "current_term_end": null,
+  "current_term_start": null,
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "lease_end": "2024-10-31",
+  "lease_start": "2023-11-20",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "SD protection",
+    "amount": 33
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 40
+   }
+  ],
+  "sd_program": "unknown",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-09-26",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Sep 2024 rent, billed in full",
+   "category": "rent_in_term",
+   "amount_charged": 1550,
+   "amount_open": 1550,
+   "confidence": 0.8,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-09-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hinerman 1 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 SD protection",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hinerman 1 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 utility revenue",
+   "category": "utilities",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hinerman 1 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.9,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hinerman 1 Move Out Statement.pdf"
+  },
+  {
+   "description": "Reletting fee 9/26/2024",
+   "category": "reletting_fee",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "confidence": 0.8,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hinerman 1 Move Out Statement.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 2153,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-06"
+ },
+ "pm_stated_amount_due": 2153,
+ "winning_document": "Hinerman 1 Move Out Statement.pdf",
+ "reconciliation": "Sum of open lines 2153.00 with no credits equals PM stated 2153.00; statement, letter, SDI and ledger agree.",
+ "extraction_confidence": 0.9,
+ "notes": "Balance was 0.00 on 9/01 after the 8/06 payment of 1623.00, so all open amounts are September charges. Move-out 9/26 is before lease end (early termination); the 500.00 reletting fee needs a check against the lease reletting clause, which was not opened (lite). Sep rent billed in full; 26 of 30 days in possession, so classified rent_in_term. Lease end conflict: sheet 2024-10-31 vs ledger and SDI 11/30/2024; sheet used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a83618aee02f97567"
+ }
+}

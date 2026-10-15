@@ -1,0 +1,363 @@
+{
+ "tracking": 575,
+ "winning_document": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+ "pm_stated_amount_due": 4151.9,
+ "documents": [
+  {
+   "file": "Carolina Carpet Cleaning 1997.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 31824, $219.00, matches ledger carpet chargeback. No pet wording (heavy soil, roto scrub, deodorizer)."
+  },
+  {
+   "file": "Demand Letter_536 Idlewood Park Dr._Middleton.JPG",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-04-22",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PM email to tenant: final statement balance $4,151.90 due; claim to SDRP if unpaid in 15 days. Confirms ledger total."
+  },
+  {
+   "file": "Lease_536 Idlewood Park Dr._Middleton_2022-2023.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-11-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original 2022-23 lease (17 scanned pages), not opened. Rent, current term, renewal and SD program were clear from the renewal addendum, SD addendum and ledger."
+  },
+  {
+   "file": "Paint Invoice_536 Idlewood Park.JPG",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-19",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten invoice 971264: roll walls and touch trim 300 + 3 gallons paint 90 = 390. Matches ledger."
+  },
+  {
+   "file": "Renewal Addendum_2023_536 Idlewood Park Dr.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-10-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Renewal 12/1/2023-12/1/2024, rent 1395, $99 rekey withheld at vacate, early move-out/acceleration language, $200 MTM fee."
+  },
+  {
+   "file": "SD Addendum_536 Idlewood Park Dr._Middleton.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-17",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, $50 per month in lieu of $2,093 deposit."
+  },
+  {
+   "file": "TJ Invoice 536 Idlewood Park Dr march.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-12",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten TJ Brown invoice 394345: trash out all items left in home $250. Ledger charged tenant $350."
+  },
+  {
+   "file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Newest-first Rentvine ledger. Last zero balance 02-07-2024; open rows from 03-01-2024 total $4,151.90."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1395,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-12-01",
+  "current_term_start": "2023-12-01",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "Renewal addendum (e): tenant may not move out before the term ends unless all rent for the term is paid; early move-out may result in reletting charges and acceleration of future rent. PURE does offer early termination. Rekey $99 withheld after vacate. Ledger status: Closed - Terminated - Lease Broken.",
+  "lease_end": "2024-12-01",
+  "lease_start": "2022-11-28",
+  "monthly_sd_premium": 50,
+  "recurring_addons": [
+   {
+    "name": "RBP No Insurance",
+    "amount": 35.95
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2093
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-03-25",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-05-20",
+  "balance_due": 4151.9,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-07"
+ },
+ "line_items": [
+  {
+   "description": "Rent - March 2024",
+   "category": "rent_in_term",
+   "amount_charged": 1395,
+   "amount_open": 1395,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "SDRP monthly fee - March 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP No Insurance - March 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 35.95,
+   "amount_open": 35.95,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Fee posted 03-06-2024",
+   "category": "late_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out rekey (portion of 'Move-out rekey. Replaced damaged door.' chargeback 206). Split at lease flat rekey fee of $99.",
+   "category": "rekey_locks",
+   "amount_charged": 99,
+   "amount_open": 99,
+   "date_posted": "2024-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Replaced damaged door (remainder of 206 chargeback after $99 rekey). No invoice in folder.",
+   "category": "repairs_damage",
+   "amount_charged": 107,
+   "amount_open": 107,
+   "date_posted": "2024-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Trash out all items left in home (TJ Brown invoice 394345, 3-12-24)",
+   "category": "trash_removal",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-03-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "TJ Invoice 536 Idlewood Park Dr march.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Unsupported excess on trash-out chargeback (ledger 350 vs vendor invoice 250), likely PM markup",
+   "category": "admin_itemization_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-03-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Paint touch ups (invoice 971264: walls/trim 300 + paint 90)",
+   "category": "painting",
+   "amount_charged": 390,
+   "amount_open": 390,
+   "date_posted": "2024-03-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Paint Invoice_536 Idlewood Park.JPG",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning (Carolina Carpet Cleaning invoice 31824, serviced 3/18/2024)",
+   "category": "carpet_cleaning",
+   "amount_charged": 219,
+   "amount_open": 219,
+   "date_posted": "2024-03-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Carolina Carpet Cleaning 1997.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent - April 1-23, 2024 (PM-prorated partial month; tenant had already vacated, lease runs to 12/1/2024)",
+   "category": "rent_after_move_out",
+   "amount_charged": 1070,
+   "amount_open": 1070,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "SDRP monthly fee - April 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP No Insurance - April 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 35.95,
+   "amount_open": 35.95,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Fee posted 04-06-2024",
+   "category": "late_fee",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-04-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "move_out_date_conflict",
+   "file": "Tenant-Ledger-2024_05_20_15_09_16.pdf",
+   "quote": "Move Out Date:4-5-2024 ... Lease Status:Closed - Terminated - Lease Broken"
+  },
+  {
+   "flag": "move_out_date_conflict",
+   "file": "TJ Invoice 536 Idlewood Park Dr march.pdf",
+   "quote": "Trash out all items left in home. 3-12-24"
+  }
+ ],
+ "extraction_confidence": 0.87,
+ "reconciliation": "Sum of 14 open lines 4151.90 - credits 0 = 4151.90 vs PM stated 4151.90 (ledger top balance and 4/22 email). Match; the 206 rekey/door and 350 trash-out chargebacks were split into sub-lines only.",
+ "notes": "Ledger is newest-first; last zero balance was 02-07-2024 so only rows from 03-01-2024 are open (older NSF/late/convenience fees were paid). Move-out date conflict: sheet 2024-03-25, ledger 2024-04-05, but rekey charged 3/6 and trash-out invoiced 3/12 and carpet/paint 3/18-19 suggest vacancy by early-to-mid March. Kept the sheet date. PM prorated April rent through 4/23 (1395*23/30=1069.50 ~ 1070). March rent charged in full though tenant left mid or late March; period given as full month. Rekey/door split uses the lease flat $99 rekey (inferred). Trash-out ledger 350 vs invoice 250, excess shown as admin markup. No pet evidence. Original lease not opened; initial term 12 months is inferred from renewal addendum (original start 11/28/2022, renewal start 12/1/2023).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "affb13147daba2b69"
+ }
+}

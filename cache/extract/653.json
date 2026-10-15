@@ -1,0 +1,237 @@
+{
+ "tracking": 653,
+ "winning_document": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+ "pm_stated_amount_due": 1818.75,
+ "documents": [
+  {
+   "file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-31",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc. Itemized charges total 1,818.75; the 25% markup applies to the repair and paint lines only."
+  },
+  {
+   "file": "tenant_ledger-hadley_e_taylor_josalyn_b_goodin-20240703.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest first. Open balance is the five 5/31/24 'Deposit Forfeit' and admin-fee lines, 1,818.75. All rent, SDRP fee and late fees were paid through 2/18/24."
+  },
+  {
+   "file": "INV9749.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-09",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Best One Cleaning 375.00: full clean 250 + glass 50 + carpet clean stairs 75. PM billed 250 and 75 only."
+  },
+  {
+   "file": "invoice_16_Apr_2024_22_44_21 (1).pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Willow tree services Meld TFR1PVJB total 2,835.00 (17 items). PM billed only a subset: paint 775 and carpet/blinds 420."
+  },
+  {
+   "file": "Screenshot of Email with confirmed receipt_3328 Wellenstein.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-06-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "PM reminder email to tenant: 1,818.75 due in full or the account goes to collections. No dispute or payment arrangement shown."
+  },
+  {
+   "file": "2023 PURE Lease - 3328 Wellenstein Way.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-03-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt: term 3/1/2023 to 2/29/2024, rent 2,200, pet addendum cleaning, early termination 150% of rent, holdover 115%."
+  },
+  {
+   "file": "MyWalkThru - 3328 Wellenstein Way.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-03-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Move-in condition report (not signed by the resident)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2200,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2200,
+  "monthly_sd_premium": 43,
+  "initial_term_months": 12,
+  "lease_start": "2023-03-01",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2023-03-01",
+  "current_term_end": "2024-02-29",
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination needs landlord written permission, 45 days notice and a fee of 150% of one month's rent (plus a 50% admin fee if under 9 months). Holdover is month-to-month at 115% of rent with a 200 admin fee.",
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance (Resident Benefit Package)",
+    "amount": 39
+   },
+   {
+    "name": "Pet Program (Wrangler, 3 paws)",
+    "amount": 60
+   },
+   {
+    "name": "Liability to Landlord Insurance",
+    "amount": 9.5
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-02-29",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-03",
+  "balance_due": 1818.75,
+  "first_full_month": "2023-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-18"
+ },
+ "line_items": [
+  {
+   "description": "Repair carpet on stairwell (invoice item 17: color match and recarpet damaged stair), part of the PM line 'repair carpet on stairwell, replace broken blinds in living room upstairs' of 420.00",
+   "category": "flooring",
+   "amount_charged": 170,
+   "amount_open": 170,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Replace broken blinds in living room upstairs (invoice item 11: 2 x 75 = 150.00) plus 100.00 of the PM's 420.00 line that the invoice does not itemize",
+   "category": "repairs_damage",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "Master bedroom painting, front den painting, upstairs bedroom 1, closet wall. Invoice items 200 + 200 + 250 + 100 + 25 = 775.00.",
+   "category": "painting",
+   "amount_charged": 775,
+   "amount_open": 775,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning per lease - pets (invoice 9749 full clean 250.00; glass 50.00 not billed). Lease pet addendum requires professional cleaning at move-out.",
+   "category": "cleaning",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet cleaning per lease - pets (invoice 9749 'carpet clean stairs' 75.00)",
+   "category": "carpet_cleaning",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "25% mark-up per lease terms (25% x (420 + 775) = 298.75, on the repair and paint lines only)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 298.75,
+   "amount_open": 298.75,
+   "date_posted": "2024-05-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Disposition Letter for Hadley E. Taylor, Josalyn B. Goodin.pdf",
+   "flag": "pet_related_line",
+   "quote": "cleaning per lease - pets $250.00; carpet cleaning per lease - pets $75.00"
+  },
+  {
+   "file": "tenant_ledger-hadley_e_taylor_josalyn_b_goodin-20240703.pdf",
+   "flag": "sd_program_sdrp",
+   "quote": "SDRP Fee - Move In Charge: Security Deposit Replacement Program 43.00"
+  },
+  {
+   "file": "Screenshot of Email with confirmed receipt_3328 Wellenstein.pdf",
+   "flag": "pm_demand",
+   "quote": "responsible for paying the FULL AMOUNT of those charges by the end of today, otherwise turned over to collections"
+  }
+ ],
+ "extraction_confidence": 0.9,
+ "reconciliation": "Sum of open lines 170 + 250 + 775 + 250 + 75 + 298.75 = 1,818.75, which equals PM stated 1,818.75. No credits or deposit (Deposit Paid 0.00).",
+ "notes": "The disposition letter line of 420.00 ('repair carpet on stairwell, replace broken blinds') is split using the Willow Tree invoice (carpet stair 170, blinds 150). The remaining 100.00 is not itemized in any document, so it is added to the blinds/repair line at lower confidence. The paint line matches five invoice items exactly. The two cleaning lines are labeled 'per lease - pets' (a lease-mandated pet cleaning, not described as pet damage), so they are cleaning and carpet_cleaning with pet_related=true. The ledger shows a 12/12/23 maintenance charge of 300.00 (freezer) that was credited back 1/10/24, and a 220 late fee waived 1/10/24, both net zero. All rent was paid through 2/2024, and the final payment on 2/18/24 included a 220 late fee. SDRP fee of 43 is paid monthly. Deposit of 2,200 per lease was never collected ('Deposit Paid 0.00'), so the waived amount is inferred.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aad1597ffcd560114"
+ }
+}

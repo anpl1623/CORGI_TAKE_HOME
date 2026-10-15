@@ -1,0 +1,234 @@
+{
+ "tracking": 645,
+ "documents": [
+  {
+   "file": "C013 Miersen Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-14",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES at 33/month. Renters insurance NO (tenant buys own)."
+  },
+  {
+   "file": "C013 Miersen Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "28 pages, no text layer. Not opened: rent and term are clear from the sheet and ledger, program from the addendum."
+  },
+  {
+   "file": "C013 Miersen Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-05-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 1,193.00."
+  },
+  {
+   "file": "C013 Miersen Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting document. Opening balance 0.00, ending 1,193.00."
+  },
+  {
+   "file": "C013 Miersen SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Undated. Ledger balance 943 plus reletting fee 250 = 1,193."
+  },
+  {
+   "file": "LOD DD-Authorization-Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened. Classified from the file name."
+  },
+  {
+   "file": "Miersen C013 Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid ledger, oldest-first. All charges before May 2024 were paid. Confirms the 05/2024 charges and reletting fee are unpaid."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 805,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-08-31",
+  "current_term_start": "2023-09-29",
+  "initial_term_months": 11,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Not reviewed (lease not opened). PM charged a 250 reletting fee on 05/24/2024.",
+  "lease_end": "2024-08-31",
+  "lease_start": "2023-09-29",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Pet fee (monthly pet rent)",
+    "amount": 50
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 25
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 805
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-05-31",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (05/2024), full month as charged",
+   "category": "rent_in_term",
+   "amount_charged": 805,
+   "amount_open": 805,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Pet Fee Income (05/2024), monthly pet rent",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection (05/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue (05/2024)",
+   "category": "utilities",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late Charge 05/06/2024",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-05-06",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-05-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "C013 Miersen Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-07-01",
+  "balance_due": 1193,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-12"
+ },
+ "pm_stated_amount_due": 1193,
+ "winning_document": "C013 Miersen Move Out Statement.pdf",
+ "reconciliation": "Open lines 805+50+33+25+30+250 = 1,193.00, no credits, vs PM stated 1,193.00 (statement, letter and SDI). Match.",
+ "extraction_confidence": 0.82,
+ "notes": "Move-out date conflict: the statement and SDI (05/24/24) say 05/17/24, while the ledger (07/01/24) and the sheet say 05/31/24. I used 05/31 (the later ledger and the sheet) and recorded the full May rent as one line rent_in_term, as the PM charged it. If 05/17 is correct, 14 days of that rent fall after move-out. Early termination: notice 04/17/24 and lease end 08/31/24. Nothing was paid in May. The non-refundable pet fee of 201 at move-in was paid and is not claimed. SD program is a Perry Reid Security Deposit Waiver addendum with a 33/month fee.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa5bd1a3e28a7c40e"
+ }
+}

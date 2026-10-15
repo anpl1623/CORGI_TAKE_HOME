@@ -1,0 +1,248 @@
+{
+ "tracking": 538,
+ "winning_document": "deposit_disposition_amount_due_marko_v_zhuravel_031924.pdf",
+ "pm_stated_amount_due": 1027.07,
+ "reconciliation": "sum(open lines) 56.45+1.26+0.97+0.16+3.23+250+330+385 = 1,027.07 - credits 0.00 = 1,027.07 vs pm_stated 1,027.07 (statement and ledger total) - match.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_marko_v_zhuravel_031924.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-03-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE security deposit statement, balance due 1,027.07: five prorated March 2024 items (1.26, 0.97, 0.16, 3.23, 56.45), Quick Repairs 250, Ticos Cleaning 330, Carpet Repair 385."
+  },
+  {
+   "file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first. Used to identify the five prorated March lines (RBP, SDRP, admin, utility, rent) and Deposit Forfeit lines posted 3/19/2024. Total 1,027.07."
+  },
+  {
+   "file": "317 U St #4 Quick Repairs.jpeg",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-15",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Quick Repairs invoice T4Y3103, 250: 6 new 60w bulbs, 1 twist-lock LED bulb, new 68 inch vertical blind assembly over slider. Amount due 250, paid 0."
+  },
+  {
+   "file": "invoice_15_Mar_2024_20_34_57.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ticos Cleaning invoice Meld #TWGQ9DJ, 330: complete move-out cleaning including blinds (meld title says clean oven/range)."
+  },
+  {
+   "file": "CamScanner 03-13-2024 16.49.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-03-13",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten All Green Carpet Care invoice 385 for service type carpet cleaning (living room, stairs, 2 BR, hallway) plus carpet repair living room; one total, no split."
+  },
+  {
+   "file": "marko-v-zhuravel.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "130pp PURE rental agreement read via text layer: 11/18/2022-10/31/2023, rent 1,695, Security Deposit Waiver addendum (2,000 waived, 35/mo), early termination addendum para 24. No renewal doc in folder."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1750,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 30,
+  "lease_start": "2022-11-18",
+  "lease_end": "2023-10-31",
+  "initial_term_months": 11.5,
+  "is_renewal": null,
+  "is_month_to_month": true,
+  "current_term_start": "2023-11-01",
+  "current_term_end": null,
+  "lease_break_terms": "Early Termination Addendum (para 24): tenant pays advertising, lease-up fee of 75% of one month's rent, rekey 25/lock, rent through end of term or until re-rented, repairs and cleaning; if tenant supplies a qualified replacement only rent for the vacant period; utilities stay on. Not triggered here.",
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Admin Fee / Tenant Administrative Fee",
+    "amount": 5
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-01",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent Income - March 2024 (Prorated), 1 day 3/1/2024 (1,750/31) in presumed month-to-month tenancy after fixed term ended 10/31/2023",
+   "category": "rent_after_lease_end",
+   "amount_charged": 56.45,
+   "amount_open": 56.45,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-01",
+   "days_after_lease_end": 122,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_marko_v_zhuravel_031924.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "RBP w/ Insurance - March 2024 (Prorated)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 1.26,
+   "amount_open": 1.26,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP Fee - March 2024 (Prorated)",
+   "category": "sdrp_premium",
+   "amount_charged": 0.97,
+   "amount_open": 0.97,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Tenant Administrative Fee - March 2024 (Prorated)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 0.16,
+   "amount_open": 0.16,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Chargeback - March 2024 (Prorated)",
+   "category": "utilities",
+   "amount_charged": 3.23,
+   "amount_open": 3.23,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Quick Repairs invoice T4Y3103: install 6 bulbs, 1 twist-lock LED bulb, new 68 inch vertical blind assembly over slider",
+   "category": "repairs_damage",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-03-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "317 U St #4 Quick Repairs.jpeg",
+   "source_page": null,
+   "confidence": 0.9
+  },
+  {
+   "description": "Ticos Cleaning: complete move-out cleaning including blinds (Meld #TWGQ9DJ)",
+   "category": "cleaning",
+   "amount_charged": 330,
+   "amount_open": 330,
+   "date_posted": "2024-03-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_15_Mar_2024_20_34_57.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Repair (statement label); invoice is one 385 total covering carpet cleaning of living room, stairs, 2 BR, hallway plus carpet repair in living room, no split",
+   "category": "flooring",
+   "amount_charged": 385,
+   "amount_open": 385,
+   "date_posted": "2024-03-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "CamScanner 03-13-2024 16.49.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-marko_v_zhuravel_taylor_c_miller-20240424.pdf",
+   "flag": "month_to_month_inferred",
+   "quote": "Lease Expiration: --"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-04-24",
+  "balance_due": 1027.07,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-01"
+ },
+ "extraction_confidence": 0.88,
+ "notes": "Tenant gone 3/1/2024 so only 1 day of March rent (56.45) plus prorated RBP/SDRP/admin/utility pennies are open; PM itemization matches ledger exactly. Fixed term ended 10/31/2023 and rent rose from 1,695 to 1,750 on 11/1/2023 with no renewal doc and ledger Lease Expiration blank, so tenancy is inferred month-to-month; the 56.45 is categorized rent_after_lease_end per taxonomy (MTM) but would be rent_in_term if the engine treats the sheet lease end (3/1/2024) as the term end. Carpet line mixes carpet cleaning and carpet repair with no split; categorized flooring because PM labels it Carpet Repair (confidence low); a handwritten invoice exists but no photos. Deposit waived (2,000) via PURE Security Deposit Waiver; addendum fee 35 = ledger SDRP 30 + admin 5. First-month rent paid before move-in; ledger's move-in charge covers the first full month (December 2022) and the 12/1 'prorated' line is the November 18-30 stub.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aba57a533e2fd2ef2"
+ }
+}

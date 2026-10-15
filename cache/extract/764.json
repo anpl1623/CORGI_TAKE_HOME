@@ -1,0 +1,252 @@
+{
+ "tracking": 764,
+ "documents": [
+  {
+   "file": "17W Wickham SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid Security Deposit Itemization - Move Out; total due $2,956.00; notice date '7/4/24(skip)'"
+  },
+  {
+   "file": "17W Wickham Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-12-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Term 12/2/2023-11/30/2024; rent $935 from 1/1/2024, prorated $904; deposit $0; reletting charge $250 (para 11)"
+  },
+  {
+   "file": "17W Wickham Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-12-06",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "YRIG addendum: renters insurance YES $19/mo; Security Deposit Waiver YES $33/mo (waives deposit equal to one month's rent); policy start 12/2/23"
+  },
+  {
+   "file": "SAL DD Authorization.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "ACH credit authorization with sample VOID check; template amounts 1,234.56 ignored"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 935,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-12-02",
+  "current_term_end": "2024-11-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2023-12-02",
+  "lease_end": "2024-11-30",
+  "lease_break_terms": "Para 11: reletting charge $250 if tenant moves out early/abandons; reletting charge does not release tenant from future rent; under K.S.A. 58-25,137 qualifying termination fee equals one month's rent instead of reletting fee",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver fee",
+    "amount": 33
+   },
+   {
+    "name": "Renters insurance (YRIG)",
+    "amount": 19
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 935
+ },
+ "move_out": {
+  "move_out_date": "2024-07-04",
+  "termination": "skip_abandon",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Current Ledger Balance - July (lumped; likely July rent $935 plus add-ons/fees, no ledger to split)",
+   "category": "rent_in_term",
+   "amount_charged": 1051,
+   "amount_open": 1051,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Reletting Fee - per lease",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Future Month's Rent - August Rent",
+   "category": "rent_after_move_out",
+   "amount_charged": 935,
+   "amount_open": 935,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Flooring Replacement - pet damage to carpet",
+   "category": "pet_damage_odor",
+   "amount_charged": 545,
+   "amount_open": 545,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Window Blinds - 3 window blinds @ $25 each",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Misc - bedroom light globe",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Misc - 9 bags of trash at $10 each",
+   "category": "trash_removal",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "date_posted": null,
+   "source_file": "17W Wickham SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": true,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "missing_ledger",
+   "quote": "Current Ledger Balance July $1,051",
+   "file": "17W Wickham SDI.pdf"
+  },
+  {
+   "flag": "flooring_without_support",
+   "quote": "Flooring Replacement pet damage to carpet $ 545.00",
+   "file": "17W Wickham SDI.pdf"
+  },
+  {
+   "flag": "skip_abandon",
+   "quote": "Notice Date: 7/4/24(skip)",
+   "file": "17W Wickham SDI.pdf"
+  },
+  {
+   "flag": "sd_program",
+   "quote": "Security Deposit Waiver YES $33 per month",
+   "file": "17W Wickham Addendum.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "pm_stated_amount_due": 2956,
+ "winning_document": "17W Wickham SDI.pdf",
+ "reconciliation": "1051+250+935+545+75+10+90 = 2956.00 - 0 credits = 2956.00 vs PM stated 2956.00 (SDI Refund/Due); no difference.",
+ "notes": "Tenant skipped 7/4/24 with lease running to 11/30/24. No ledger in folder, so the July $1,051 ledger balance cannot be split into rent vs add-ons/late fees ($1,051 - $935 = $116 unexplained; SD waiver $33 + renters insurance $19 likely included). Carpet replacement for pet damage billed with no invoice or photos. No pet addendum in folder. DD authorization VOID check amounts are template values and ignored.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_ba0a8fba-7d1",
+  "agent": "a9480d4bf22a7346a"
+ }
+}

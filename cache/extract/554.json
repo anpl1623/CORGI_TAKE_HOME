@@ -1,0 +1,205 @@
+{
+ "tracking": 554,
+ "winning_document": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 1430,
+ "reconciliation": "780.00 + 300.00 + 300.00 + 20.00 + 30.00 = 1430.00, no credits, equal to the PM itemization balance (1,430.00) and the RV ledger open balance 1430.00 (diff 0.00).",
+ "notes": "StarPointe, Texas, TXR-2216 itemization dated 3/26/2024; the deposit line reads 'Fee in Lieu' (69.00/month addendum signed 2/22/2023, no cash deposit). The RV ledger as of 4/30/24 shows the same four 3/25/24 charges: repairs 800 (780 damages + 20 light bulbs), cleaning 300, lawn 30, temp utilities 300. The PW ledger covers only 2/2023 to 12/2023, shows a 0.00 balance and has no move-out charges. Rent was 1100 all along; recurring add-ons are Asset Protection 15 and SecondNature resident benefit 40. Tenant moved out 3/4/24, 4 days after the 2/29/24 lease end, and no holdover rent was billed. The 27-page scanned lease was not opened; term and rent come from the sheet and ledger header. The 780.00 damages line lumps weatherstripping, spot painting, mildew removal, bathroom door replacement, screens and a wall dent with no sub-amounts.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-03-26",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "TXR-2216; winning accounting doc; deductions 1430.00"
+  },
+  {
+   "file": "1609 N 10th Apt B-Pierce-Kifle-RV Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-30",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Open balance 1430.00; confirms the itemization lines; payment history"
+  },
+  {
+   "file": "1609 N 10th Apt B-Pierce-Kifle-PW Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-30",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Older Propertyware ledger; entries through 12/2023, balance 0.00; history only"
+  },
+  {
+   "file": "1609 N 10th Apt B-Pierce-Kifle-Fee in Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-02-22",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Fee in Lieu of Security Deposit addendum, 69.00/month, non-refundable"
+  },
+  {
+   "file": "1609 N 10th Apt B-Pierce-Kifle-Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "27-page scan not opened; facts from sheet, ledger header and addendum"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1100,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 69,
+  "recurring_addons": [
+   {
+    "name": "SecondNature Resident Benefit",
+    "amount": 40
+   },
+   {
+    "name": "Asset Protection",
+    "amount": 15
+   },
+   {
+    "name": "Fee in lieu of security deposit",
+    "amount": 69
+   }
+  ],
+  "lease_start": "2023-02-22",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2023-02-22",
+  "current_term_end": "2024-02-29",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-03-04",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 4,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-04-30",
+  "balance_due": 1430,
+  "first_full_month": "2023-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-01-31"
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear: weatherstripping and door sweep, spot paint, living window screen, mildew above primary bath door, primary bath door replaced, secondary bedroom screen and wall dent",
+   "category": "repairs_damage",
+   "amount_charged": 780,
+   "amount_open": 780,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning costs (clean box checked)",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Unpaid utilities: temporary electric and water turned on for move-out evaluation, cleaning and repairs",
+   "category": "utilities",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Replace missing or burned-out light bulbs: exterior, vent hood, garage",
+   "category": "repairs_damage",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Other: mowed, trimmed and edged lawn",
+   "category": "landscaping_lawn",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1609 N 10th Apt B-Pierce-Kifle-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "abc4baacc45114d02"
+ }
+}

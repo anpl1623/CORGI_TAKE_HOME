@@ -1,0 +1,177 @@
+{
+ "tracking": 449,
+ "winning_document": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 1018,
+ "documents": [
+  {
+   "file": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2023-12-22",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2216 scanned; deductions 368 + 285 + 300 + 65, balance owed 1,018.00"
+  },
+  {
+   "file": "223 N Mary Jo Apt A - Preston - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open balance 1,018.00 (repairs 378, cleaning 275, temp utilities 300, lawn 65); pet fee forfeit 350 offset by SECDEP credit memo. Statement shifts 10 between repairs/cleaning; statement amounts used."
+  },
+  {
+   "file": "223 N Mary Jo Apt A - Preston - Fee In Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Fee in lieu addendum, monthly fee 42.00"
+  },
+  {
+   "file": "223 N Mary Jo Apt A - Preston - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt: term 2022-12-01 to 2023-11-30, rent 1,200, prorated 1,160, fee in lieu security deposit"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1200,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-12-01",
+  "current_term_end": "2023-11-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2023-11-30",
+  "lease_start": "2022-12-01",
+  "monthly_sd_premium": 42,
+  "recurring_addons": [
+   {
+    "name": "Pet rent",
+    "amount": 25
+   },
+   {
+    "name": "SecondNature Resident Benefits Package",
+    "amount": 40
+   },
+   {
+    "name": "Asset Protection",
+    "amount": 15
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2023-11-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear: spot painted; replaced missing dishwasher hardware; cleared dryer vent (ledger Move Out Repairs shows 378)",
+   "category": "repairs_damage",
+   "amount_charged": 368,
+   "amount_open": 368,
+   "date_posted": "2023-12-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Costs to clean the Property (ledger Move Out Cleaning shows 275)",
+   "category": "cleaning",
+   "amount_charged": 285,
+   "amount_open": 285,
+   "date_posted": "2023-12-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Unpaid utilities: electric and water turned on for move-out evaluation, cleaning and repairs",
+   "category": "utilities",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-12-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Mowed, trimmed and edged lawn",
+   "category": "landscaping_lawn",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2023-12-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "223 N Mary Jo Apt A - Preston - Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Pet fee forfeit: non-refundable 350 pet fee collected at move-in applied (SECDEP credit memo 12/22/2023) against 4002 Pet Fee Forfeit charge 350; nets to zero and is not part of the 1,018.00 open balance",
+   "amount": 350,
+   "type": "pet_deposit_applied",
+   "source_file": "223 N Mary Jo Apt A - Preston - Ledger.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-02-06",
+  "balance_due": 1018,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-10-27"
+ },
+ "extraction_confidence": 0.93,
+ "reconciliation": "sum(open lines)=368+285+300+65=1018.00, credits 0 net (pet fee forfeit already offset) => 1018.00 vs PM stated 1018.00 and ledger balance 1018.00; statement splits repairs/cleaning 368/285 vs ledger 378/275 (same 653 total).",
+ "notes": "Short, clean end-of-term claim. Tenant had one cat (350 non-refundable pet fee, 25/mo pet rent) but no charge is pet-related; pet fee forfeit is an internal ledger transfer netted by credit memo. Statement lump 'spot painted; dishwasher hardware; dryer vent' cannot be split (painting included in repairs). Tenant moved in 2022-11-02 (prorated Nov rent 1,160 paid); first full month Dec 2022 paid in full, no bounced payments.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a3fbe41df262c3103"
+ }
+}

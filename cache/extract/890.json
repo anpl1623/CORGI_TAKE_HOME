@@ -1,0 +1,155 @@
+{
+ "tracking": 890,
+ "winning_document": "Ward Ledger.pdf",
+ "pm_stated_amount_due": 0,
+ "reconciliation": "Open line 375.00 (10/1/2024 Damage Fees, unpaid on 10/22/2024 ledger) minus 375.00 PM removal/reversal (absent from 10/25/2024 ledger, Total Unpaid $0.00) = 0.00; equals PM stated balance 0.00 on the latest ledger (the 10/22 ledger stated 375.00).",
+ "extraction_confidence": 0.55,
+ "documents": [
+  {
+   "file": "4375 Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-22",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Propertyware, newest-first. Balance 375.00: one Unpaid Charge 10/01/2024 '4153 - Damage Fees' 375.00. Prior identical 9/6/2024 Damage Fees 375 was paid 9/9/2024."
+  },
+  {
+   "file": "Ward Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-25",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": true,
+   "note": "Later Propertyware ledger: Balance/Total Unpaid $0.00; the 10/01/2024 375.00 damage charge is gone with no payment row (charge removed or voided by PM). Latest accounting document."
+  },
+  {
+   "file": "4375_Park_Street_-_Lease_Package_-_Ward_Petr_(1) (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-08-30",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1 and 8-12 read: rent 2,000, term 8/31/2023-8/31/2024, SD $0.00; Security Deposit Addendum has waiver NO checked ($0.00); RBP Plan B 27/month; pet addendum (ferret); early termination and 25 percent MTM fee clauses."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-08-31",
+  "current_term_start": "2023-08-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Early termination: 60 days notice, pay 50 percent of rent that would have been owed through lease end plus $500 admin fee; month-to-month holdover carries 25 percent premium; 30-day notice to vacate required.",
+  "lease_end": "2024-08-31",
+  "lease_start": "2023-08-31",
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "SDRP Fee",
+    "amount": 48
+   },
+   {
+    "name": "RBP no Ins (Resident Benefits Package Plan B)",
+    "amount": 27
+   },
+   {
+    "name": "Pet Fee Monthly (from 6/11/2024)",
+    "amount": 30
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-08-31",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "4153 - Damage Fees, Unpaid Charge dated 10/01/2024 (no description, invoice or itemization); present on 10/22/2024 ledger, absent from 10/25/2024 ledger",
+   "category": "repairs_damage",
+   "amount_charged": 375,
+   "amount_open": 375,
+   "date_posted": "2024-10-01",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4375 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.45
+  }
+ ],
+ "credits": [
+  {
+   "description": "PM removed/voided the 10/01/2024 Damage Fees charge: 10/25/2024 ledger shows Total Unpaid $0.00 with no payment row",
+   "amount": 375,
+   "type": "concession_or_reversal",
+   "source_file": "Ward Ledger.pdf",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Tenant paid an earlier identical 9/6/2024 '4153 - Damage Fees' charge of 375.00 on 9/9/2024 (ePayment); that charge is closed and is not in the open line",
+   "amount": 375,
+   "type": "tenant_payment",
+   "source_file": "4375 Ledger.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": true,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Ward Ledger.pdf",
+   "flag": "pm_withdrew_or_void",
+   "quote": "Balance as of 10/25/2024 ... Total Unpaid $0.00 (no 10/01/2024 damage charge listed)"
+  },
+  {
+   "file": "4375 Ledger.pdf",
+   "flag": "pm_withdrew_or_void",
+   "quote": "Balance as of 10/22/2024 $375.00; Unpaid Charge 10/01/2024 4153 - Damage Fees $375.00"
+  },
+  {
+   "file": "4375_Park_Street_-_Lease_Package_-_Ward_Petr_(1) (1).pdf",
+   "flag": "sd_addendum_waiver_unchecked",
+   "quote": "Security Deposit Waiver: YES unchecked, NO checked ($0.00); yet ledger charges 4437 SDRP Fee $48 monthly"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-10-25",
+  "balance_due": 0,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-09"
+ },
+ "notes": "Folder has only two Propertyware ledgers and a lease package; no move-out statement, itemization, invoice or letter. The claim-date ledger (10/22/2024) shows a single 375.00 unpaid 'Damage Fees' charge dated 10/1/2024; the later ledger (10/25/2024) shows it gone with zero balance, so the PM appears to have withdrawn it (possibly a duplicate of the 9/6 damage charge the tenant paid 9/9). Move-out 8/31/2024 equals lease end. Lease start per lease document is 8/31/2023 (sheet says 8/21/2023). SD addendum has waiver unchecked and lease deposit $0.00, but the ledger charges a monthly SDRP fee, so program is recorded as sdrp. Pet is a ferret; no link to the damage charge. Rent fully paid through move-out; deposit held 0.00.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "aeee161bb03c1c2ef"
+ }
+}

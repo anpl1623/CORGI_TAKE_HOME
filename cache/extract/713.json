@@ -1,0 +1,218 @@
+{
+ "tracking": 713,
+ "winning_document": "25714 Presidio Alley - Itemization - Beavers Nieves.pdf",
+ "pm_stated_amount_due": 1436.35,
+ "documents": [
+  {
+   "file": "25714 Presidio Alley - Itemization - Beavers Nieves.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out itemization / formal demand total 1,436.35; (1) and (2) copies are byte-identical (same md5)"
+  },
+  {
+   "file": "25714 Presidio Alley - Itemization - Beavers Nieves(1).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical duplicate"
+  },
+  {
+   "file": "25714 Presidio Alley - Itemization - Beavers Nieves(2).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical duplicate"
+  },
+  {
+   "file": "25714 Presidio Alley - Tenant Ledger - Beavers Nieves.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Newest-first ledger as of 8/12/2024, balance 1,436.35; (1) and (2) copies identical; used for NSF date, itemization fee split and payment history"
+  },
+  {
+   "file": "25714 Presidio Alley - Tenant Ledger - Beavers Nieves(1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical duplicate"
+  },
+  {
+   "file": "25714 Presidio Alley - Tenant Ledger - Beavers Nieves(2).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical duplicate"
+  },
+  {
+   "file": "25714 Presidio Alley - Lease Jun 2023 to May 2024 - Beavers Nieves.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Form fields blank in text layer; Preferred Resident Program $33/mo in lieu of deposit; rent/term taken from sheet and ledger"
+  },
+  {
+   "file": "25714 Presidio Alley - Move Out Report - Beavers Nieves.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-06-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Comments only: wall holes/marks, mismatched paint, fence boards, A/C filter; Odor satisfactory, no pet odor/urine"
+  },
+  {
+   "file": "25714 Presidio Alley - Application - Brianna Nieves.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened"
+  },
+  {
+   "file": "25714 Presidio Alley - Application - Casey Beavers.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2250,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 33,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "initial_term_months": 12,
+  "lease_start": "2023-06-05",
+  "lease_end": "2024-05-31",
+  "current_term_start": "2023-06-05",
+  "current_term_end": "2024-05-31",
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package",
+    "amount": 59
+   },
+   {
+    "name": "Administrative Pet Fee",
+    "amount": 120
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready: A/C filter, maid service, carpet cleaning, touch-up paint, nail removal, hole fill (lump sum, no sub-amounts; ledger 'Make Ready Repairs')",
+   "category": "repairs_damage",
+   "amount_charged": 1256.35,
+   "amount_open": 1256.35,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "25714 Presidio Alley - Itemization - Beavers Nieves.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Move Out Itemization Fee (ledger shows 95.00 combined with maintenance handling)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "25714 Presidio Alley - Itemization - Beavers Nieves.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Handling Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "25714 Presidio Alley - Itemization - Beavers Nieves.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "NSF fee: returned/charged-back payment of 1,351.35 pulled by PM on 06/27/2024, returned 07/05/2024",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-07-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "25714 Presidio Alley - Tenant Ledger - Beavers Nieves.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "25714 Presidio Alley - Tenant Ledger - Beavers Nieves.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant chargeback on PTP funds pulled - in violation of lease agreement (Beavers $1351.35)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-12",
+  "balance_due": 1436.35,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-06"
+ },
+ "reconciliation": "sum(open lines) 1,436.35 - credits 0.00 = 1,436.35 vs PM stated 1,436.35 (itemization letter and 8/12/2024 ledger agree; ledger shows itemization 95.00 = letter 45.00 + 50.00).",
+ "notes": "Lease ran 6/5/2023-5/31/2024 and ended on schedule; all rent and fees through May 2024 paid, no open rent. On 06/27/2024 the PM pulled 1,351.35 from the tenant (make ready 1,256.35 + fee 95.00); the tenant charged it back on 07/05/2024, reversing the payment and triggering the 85.00 NSF fee, so net open is 1,436.35. The itemization letter is dated 27 June 2024 but already lists the 07/05 NSF fee. Make Ready is a lump sum with no vendor invoice in the folder (only an external link), so category is a best fit and cannot be split. Tenants paid a monthly Administrative Pet Fee (120) and had a pet processing fee, but nothing in the documents attributes any charge to pets (move-out report: Odor satisfactory). SD program is the RentWerx Preferred Resident Program ($33/mo = $28 insurance + $5 admin, in lieu of deposit); application mentions Obligo screening, not treated as another provider since the claim is under a Corgi policy. Ledger shows RBP billed at 41.00 from Feb 2024 (59.00 earlier).",
+ "extraction_confidence": 0.75,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a8f38e7d3cab571ba"
+ }
+}

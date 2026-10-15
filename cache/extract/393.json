@@ -1,0 +1,206 @@
+{
+ "tracking": 393,
+ "documents": [
+  {
+   "file": "5009 James Loop-Keller-Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-12-24",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Propertyware ledger (newest-first), balance as of 12/24/2023 $989.00, Deposit Held $0.00 after SECDEP credit memo $400 applied to cleaning."
+  },
+  {
+   "file": "5009 James Loop-Keller-Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-09-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "TXR-2001 lease, term 10/1/2022-9/30/2023, rent $1,400, prorated $1,120 due 9/7/2022, security deposit $400, holdover rent 3x monthly rent daily (para 22), Fee in Lieu addendum checked."
+  },
+  {
+   "file": "5009 James Loop-Keller-Fee In Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-09-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "StarPointe Fee In Lieu of Security Deposit Addendum, $51.00 monthly fee."
+  },
+  {
+   "file": "5009 James Loop-Keller-Surrender.pdf",
+   "doc_type": "other",
+   "doc_date": "2023-09-14",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Property surrender procedures; expected move-out 9/30/2023; $300 charge if utility shut-off dates not provided (basis for Temp Utilities charge)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1400,
+  "cash_deposit_amount": 400,
+  "current_term_start": "2022-10-01",
+  "current_term_end": "2023-09-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-10-01",
+  "lease_end": "2023-09-30",
+  "monthly_sd_premium": 51,
+  "recurring_addons": [
+   {
+    "name": "Fee in lieu of security deposit (Sec Dep Replacement Pr)",
+    "amount": 51
+   },
+   {
+    "name": "SecondNature Resident benefit package",
+    "amount": 40
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": null,
+  "lease_break_terms": "Para 28: no early termination except statutory rights (military, family violence, sex offenses/stalking); replacement tenant fee 25% of one month's rent. Para 27 default: accelerated rent, reletting costs. Para 22 holdover: rent at 3x monthly rent calculated daily. Auto-renews month-to-month unless 30 days notice."
+ },
+ "move_out": {
+  "move_out_date": "2023-10-03",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 3,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent: Holdover Rent - 3 Days",
+   "category": "rent_after_lease_end",
+   "amount_charged": 420,
+   "amount_open": 420,
+   "date_posted": "2023-10-01",
+   "service_period_start": "2023-10-01",
+   "service_period_end": "2023-10-03",
+   "days_after_lease_end": 3,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "5510 - Repairs : Move Out Repairs",
+   "category": "repairs_damage",
+   "amount_charged": 199,
+   "amount_open": 199,
+   "date_posted": "2023-11-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "5032 - Lawn Service : Lawn Service",
+   "category": "landscaping_lawn",
+   "amount_charged": 70,
+   "amount_open": 70,
+   "date_posted": "2023-11-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "5630 - Utility Expenses (Temp Utilities)",
+   "category": "utilities",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-11-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "5030 - Cleaning and Maintenance: Expense recovery for bill #46863 (paid via security deposit credit memo)",
+   "category": "cleaning",
+   "amount_charged": 400,
+   "amount_open": 0,
+   "date_posted": "2023-11-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit Memo: SECDEP of $400.00 applied to 11/01/23 acct 5030 (cleaning)",
+   "amount": 400,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": true,
+   "source_file": "5009 James Loop-Keller-Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "cash_deposit_collected",
+   "quote": "Tenant will pay a security deposit to Landlord in the amount of $400.00",
+   "file": "5009 James Loop-Keller-Lease.pdf"
+  },
+  {
+   "flag": "holdover",
+   "quote": "Rent for any holdover period will be three (3) times the monthly rent, calculated on a daily basis",
+   "file": "5009 James Loop-Keller-Lease.pdf"
+  },
+  {
+   "flag": "utility_charge_basis",
+   "quote": "the tenant will be charged $300 to connect the utilities by our office",
+   "file": "5009 James Loop-Keller-Surrender.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-12-24",
+  "balance_due": 989,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-08-31"
+ },
+ "pm_stated_amount_due": 989,
+ "winning_document": "5009 James Loop-Keller-Ledger.pdf",
+ "reconciliation": "Open lines 420+199+70+300 = 989.00; $400 deposit already applied to the $400 cleaning charge (open 0), so 989.00 - 0 = 989.00 = ledger Total Unpaid $989.00.",
+ "notes": "Only accounting doc is the Propertyware ledger (no separate itemization or vendor invoices for repairs/cleaning). Tenant took early occupancy 9/7/2022 with prorated rent $1,120; primary term 10/1/2022-9/30/2023. Both a $400 cash deposit and a $51/mo fee-in-lieu were charged. Tenant vacated 10/3/2023 (3 days holdover, charged at $140/day = 3x daily rent). Payments from Navy FCU account but no SCRA/military orders evidence.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_ba0a8fba-7d1",
+  "agent": "a8fa8410a7ef970b0"
+ }
+}

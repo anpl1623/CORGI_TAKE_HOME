@@ -1,0 +1,117 @@
+{
+  "tracking": 141,
+  "documents": [
+    {
+      "file": "6909 Circle S tenant closeout packet scan.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-07-21",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Transactions_6909.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "6909CI - DORSEY LEASE AGREEMENT.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-08",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "6909SD Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-08",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "6909 Circle S tenant closeout packet scan.pdf",
+  "pm_stated_amount_due": 125.0,
+  "lease": {
+    "base_monthly_rent": 1595.0,
+    "recurring_addons": [
+      {
+        "name": "Tenant Benefits Package A3",
+        "amount": 39.0
+      },
+      {
+        "name": "Renters Choice Program",
+        "amount": 51.0
+      }
+    ],
+    "lease_start": "2022-06-24",
+    "lease_end": "2023-06-22",
+    "current_term_start": "2022-06-24",
+    "current_term_end": "2023-06-22",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 2500.0,
+    "monthly_sd_premium": 51.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-22",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-07-19",
+    "balance_due": 125.0,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-06-03"
+  },
+  "line_items": [
+    {
+      "description": "Haul off",
+      "category": "trash_removal",
+      "amount_open": 125.0,
+      "amount_charged": 125.0,
+      "date_posted": "2023-07-19",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 27,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6909 Circle S tenant closeout packet scan.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 125.00 - 0.00 = 125.00 vs PM stated 125.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "PM itemized $125.00 for haul off on TXR-2216 itemization form, matching Make Ready Hauloff on the tenant ledger."
+}

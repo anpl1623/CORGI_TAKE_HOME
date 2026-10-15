@@ -1,0 +1,176 @@
+{
+ "tracking": 686,
+ "winning_document": "Transactions_20240718085947779.pdf (tenant ledger open rows, balance 630.00 as of 2024-07-18)",
+ "documents": [
+  {
+   "file": "Transactions_20240718085947779.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-18",
+   "used_for_amounts": true,
+   "note": "Winning: open 06/05 late fee and 07/02 charges, less pet deposit credit"
+  },
+  {
+   "file": "309CRE - Closeout packet.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-06-12",
+   "used_for_amounts": true,
+   "note": "EST 1470 tenant portion (1,020) splits the ledger maintenance line; owner items excluded"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2125,
+  "sd_program": "unknown",
+  "lease_start": "2022-07-13",
+  "lease_end": "2024-06-10",
+  "recurring_addons": [
+   {
+    "name": "Renters Choice Program",
+    "amount": 69
+   },
+   {
+    "name": "Tenant Benefits Package A3",
+    "amount": 39
+   },
+   {
+    "name": "Monthly Pet Fee",
+    "amount": 50
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-07-18",
+  "balance_due": 630,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-06-10",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Late fee charged 06/05/2024",
+   "category": "late_fee",
+   "amount_open": 10,
+   "amount_charged": 10,
+   "date_posted": "2024-06-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash removal at curb",
+   "category": "trash_removal",
+   "amount_open": 95,
+   "amount_charged": 95,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Repair wall holes and TV mount area",
+   "category": "repairs_damage",
+   "amount_open": 95,
+   "amount_charged": 95,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Back door painting, dog damage",
+   "category": "pet_damage_odor",
+   "amount_open": 125,
+   "amount_charged": 125,
+   "date_posted": "2024-07-02",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace 14x30x1 HVAC filter",
+   "category": "repairs_damage",
+   "amount_open": 45,
+   "amount_charged": 45,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace kitchen/dining blind, fix topper",
+   "category": "repairs_damage",
+   "amount_open": 135,
+   "amount_charged": 135,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Reinstall garage screen door",
+   "category": "repairs_damage",
+   "amount_open": 75,
+   "amount_charged": 75,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Full cleaning, very dirty blinds",
+   "category": "cleaning",
+   "amount_open": 450,
+   "amount_charged": 450,
+   "date_posted": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20240718085947779.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Pet deposit held applied to charges",
+   "amount": 400,
+   "type": "pet_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "Transactions_20240718085947779.pdf"
+  }
+ ],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 630,
+ "reconciliation": "Open lines 1030.00 (late fee 10 + maintenance 570 + cleaning 450) minus pet deposit credit 400.00 = 630.00, equal to ledger balance due. Owner make-ready items (1,025) excluded as not tenant-billed.",
+ "extraction_confidence": 0.8,
+ "notes": "Maintenance 570 split by estimate EST 1470 (amounts match exactly). June rent and fees paid 06/05. No rent billed after 06/10 move-out.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

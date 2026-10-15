@@ -1,0 +1,138 @@
+{
+ "tracking": 537,
+ "winning_document": "deposit_disposition_amount_due_jannette_b_calderon_110223.pdf",
+ "pm_stated_amount_due": 156.81,
+ "reconciliation": "sum(open lines) 58.20+63.27+35.34 = 156.81 - credits 0.00 = 156.81 vs pm_stated 156.81 (statement and ledger balance) - match.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_jannette_b_calderon_110223.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-11-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE security deposit statement: three utility charges total 156.81, balance due 156.81."
+  },
+  {
+   "file": "jannette-b-calderon.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-04-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "2pp Notice of Renewal of Rental Agreement Month-to-Month: rent 3,095 beginning 6/1/2023 month-to-month; RBP addendum; pet rent 50/pet only if pet owner. Original lease not in folder."
+  },
+  {
+   "file": "tenant_ledger-jannette_b_calderon_joseph_c_simonsen-20240424.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first. October 2023 prorated charges (1,808.79) were paid by 9/29/2023 prepayment; only open rows are the three 11/2/2023 utility chargebacks totaling 156.81."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3095,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 53,
+  "lease_start": "2022-06-17",
+  "lease_end": null,
+  "initial_term_months": null,
+  "is_renewal": true,
+  "is_month_to_month": true,
+  "current_term_start": "2023-06-01",
+  "current_term_end": null,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Admin Fee / Tenant Administrative Fee",
+    "amount": 5
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2023-10-17",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Utility Chargeback - Co of Sac sewer 09.08-10.17.23",
+   "category": "utilities",
+   "amount_charged": 58.2,
+   "amount_open": 58.2,
+   "date_posted": "2023-11-02",
+   "service_period_start": "2023-09-08",
+   "service_period_end": "2023-10-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jannette_b_calderon_110223.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Utility Chargeback - Elk Grove Water 09.01-09.30.23",
+   "category": "utilities",
+   "amount_charged": 63.27,
+   "amount_open": 63.27,
+   "date_posted": "2023-11-02",
+   "service_period_start": "2023-09-01",
+   "service_period_end": "2023-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jannette_b_calderon_110223.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Utility Chargeback - Elk Grove Water 10.01-10.17.23",
+   "category": "utilities",
+   "amount_charged": 35.34,
+   "amount_open": 35.34,
+   "date_posted": "2023-11-02",
+   "service_period_start": "2023-10-01",
+   "service_period_end": "2023-10-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jannette_b_calderon_110223.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "tenant_disputes_charges": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-04-24",
+  "balance_due": 156.81,
+  "first_full_month": "2022-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-09-29"
+ },
+ "extraction_confidence": 0.95,
+ "notes": "Utility-only claim: three unpaid County sewer and Elk Grove Water chargebacks posted 11/2/2023 after the 10/17/2023 move-out; no rent, damage or cleaning claimed. Only the MTM renewal (6/1/2023) is in the folder, so original term length and end are unknown; sheet start 6/22/2022 differs from ledger move-in 6/17/2022 (ledger used). SDRP fee 53/month on ledger with Deposit Paid 0.00 shows deposit-replacement program; no addendum in folder so waived deposit amount unknown. Final month rent was prorated to 10/17 (1,753.83) and paid. Tenant gave MTM notice; classified end_of_term.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aba57a533e2fd2ef2"
+ }
+}

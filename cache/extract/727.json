@@ -1,0 +1,217 @@
+{
+ "tracking": 727,
+ "documents": [
+  {
+   "file": "7310 Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-05-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Park Place invoice 663 total 2,702 paid in full by owner; only lines marked TENANT (220 trash, 270 paint, 75 shelving, 490 carpets = 1,055) are billed to tenant on ledger; rest owner items not claimed"
+  },
+  {
+   "file": "7310 Ledger 1.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Old tenant statement 4/3/2023-12/1/2023, balance 0; history only"
+  },
+  {
+   "file": "7310 Ledger 2.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest ledger, newest-first with running balance; balance 1,445.00"
+  },
+  {
+   "file": "7310 Letter.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-05-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover email for 45-day move-out letter; attachment '7310 SR 39 Move out letter.pdf' not in folder"
+  },
+  {
+   "file": "7310 St Rd 39 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Park Place form lease, fillable fields blank in text; facts from sheet and ledger headers; deposit waiver option 1; MTM +50% clause; early termination 3x rent"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1575,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-04-13",
+  "current_term_start": "2023-04-14",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease form: early termination fee 3x rent or as agreed in writing; tenant may terminate early on 60 days notice, forfeit deposits, 250 admin fee.",
+  "lease_end": "2024-04-13",
+  "lease_start": "2023-04-14",
+  "monthly_sd_premium": 137,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver Fee",
+    "amount": 137
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 46
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-04-13",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Mgmt - Early disconnection of both utilities (posted 04-03-2024, before 4/13/2024 move-out)",
+   "category": "utilities",
+   "amount_charged": 390,
+   "amount_open": 390,
+   "date_posted": "2024-04-03",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7310 Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "Remove trash left at property (invoice line marked TENANT $220)",
+   "category": "trash_removal",
+   "amount_charged": 220,
+   "amount_open": 220,
+   "date_posted": "2024-05-13",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7310 Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  },
+  {
+   "description": "Touch up paint, first floor bedroom closets (TENANT $270)",
+   "category": "painting",
+   "amount_charged": 270,
+   "amount_open": 270,
+   "date_posted": "2024-05-13",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7310 Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  },
+  {
+   "description": "Install missing closet shelving (TENANT $75)",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-05-13",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7310 Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Clean carpets (invoice line marked TENANT $490)",
+   "category": "carpet_cleaning",
+   "amount_charged": 490,
+   "amount_open": 490,
+   "date_posted": "2024-05-13",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7310 Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "7310 Ledger 2.pdf",
+   "flag": "move_out_date_from_ledger",
+   "quote": "Move In Date:4-14-2023 Move Out Date:4-13-2024 Lease End Date:4-13-2024"
+  },
+  {
+   "file": "7310 Invoice.pdf",
+   "flag": "tenant_items_on_invoice",
+   "quote": "Remove trash (TENANT $220.00)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-20",
+  "balance_due": 1445,
+  "first_full_month": "2023-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-03-18"
+ },
+ "pm_stated_amount_due": 1445,
+ "winning_document": "7310 Ledger 2.pdf",
+ "reconciliation": "Sum of 5 open lines (390 + 220 + 270 + 75 + 490) 1,445.00 - credits 0 = 1,445.00 equals ledger balance 1,445.00; PM move-out letter amount unavailable (attachment missing) so ledger balance used as PM amount.",
+ "notes": "Sheet shows lease start, end and move-out all 2023-04-14 (apparent sheet error); Ledger 2 header gives move-in 4-14-2023, move-out and lease end 4-13-2024 (12-month term), consistent with prorated April 2024 rent 682.50 (13 days) which was prepaid 3/18/2024 and is not open. NSF fee 50 and returned payment of Jan 2024 were later paid in full. Utilities line 390 'Mgmt - Early disconnection of both utilities' is ambiguous between utilities charge and management/penalty fee (other_fee); 390 = 2 x 195. Invoice owner-paid items (2,702 total less tenant 1,055) not claimed. Leases not opened visually.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a46cadb7cb11817af"
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "tracking": 735,
+ "winning_document": "Lawrence - PURE Security Deposit Worksheet - 2021 Hidden Forest Ln.pdf",
+ "documents": [
+  {
+   "file": "Lawrence - PURE Security Deposit Worksheet - 2021 Hidden Forest Ln.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Worksheet total due 3954.00; winning accounting document"
+  },
+  {
+   "file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open May and June rows, 07/22 fee and cleaning; ledger total 3954.00"
+  },
+  {
+   "file": "invoice-15127.pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Steamworks 400.00 invoice backs cleaning line; counted once"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1475,
+  "sd_program": "unknown",
+  "lease_start": "2023-09-16",
+  "lease_end": "2024-06-15"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-18",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 3
+ },
+ "line_items": [
+  {
+   "description": "May 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1475,
+   "amount_charged": 1475,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "May 2024 pet rent (2 dogs)",
+   "category": "pet_fee_rent",
+   "amount_open": 60,
+   "amount_charged": 60,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "May 2024 resident benefit package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "amount_charged": 39,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "May 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "amount_charged": 28,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "May 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 147.5,
+   "amount_charged": 147.5,
+   "date_posted": "2024-05-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "June 2024 rent (holdover 06-16 to 06-18)",
+   "category": "rent_in_term",
+   "amount_open": 1475,
+   "amount_charged": 1475,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "June 2024 pet rent (2 dogs)",
+   "category": "pet_fee_rent",
+   "amount_open": 60,
+   "amount_charged": 60,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "June 2024 resident benefit package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "amount_charged": 39,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "June 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "amount_charged": 28,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "June 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 147.5,
+   "amount_charged": 147.5,
+   "date_posted": "2024-06-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-brenda_j_lawrence-20240823.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Coordination fee (lease violation)",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 55,
+   "amount_charged": 55,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Lawrence - PURE Security Deposit Worksheet - 2021 Hidden Forest Ln.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "House and carpet cleaning",
+   "category": "cleaning",
+   "amount_open": 400,
+   "amount_charged": 400,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice-15127.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "ledger": {
+  "as_of_date": "2024-08-23",
+  "balance_due": 3954,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-04-29"
+ },
+ "pm_stated_amount_due": 3954,
+ "reconciliation": "Open lines 3954.00 (May 1749.50 + June 1749.50 + coordination 55 + cleaning 400) less credits 0 equals worksheet Total Due 3954.00 and ledger total.",
+ "notes": "Worksheet balance forward 3554.00 equals May+June open 3499.00 plus the 55 coordination fee. Unpaid SDRP and pet-rent charges are recorded as lines, not as premiums_unpaid. pet_related=true on pet rent lines marks them as pet fees, not pet damage. Sheet lease end 2024-06-15 and move-out 06-18 give 3 holdover days; the June rent is charged as a full month and is kept as charged. Ledger lease expiration 09/15/2024 confirms early termination.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0a25bda427e059b7"
+ }
+}

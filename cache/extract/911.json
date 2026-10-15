@@ -1,0 +1,208 @@
+{
+ "tracking": 911,
+ "winning_document": "Mrazek 24-6002 Move Out Statement.pdf (10/07/2024)",
+ "documents": [
+  {
+   "file": "Mrazek 24-6002 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest PM statement, balance 2,084.00"
+  },
+  {
+   "file": "Mrazek 24-6002 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Quotes same 2,084.00 balance"
+  },
+  {
+   "file": "Mrazek 24-6002 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Totals 2,084.00; notice date 08/01/24"
+  },
+  {
+   "file": "Mrazek 24-6002 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Sept charges and 500 ACH; carpet line posted 10/07/24"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1370,
+  "lease_start": "2023-09-18",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null,
+  "monthly_sd_premium": 33
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 2084,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-19"
+ },
+ "line_items": [
+  {
+   "description": "Sept 2024 rent after 500 ACH payment",
+   "category": "rent_in_term",
+   "amount_open": 870,
+   "amount_charged": 1370,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Garage rent Sept 2024",
+   "category": "other_fee",
+   "amount_open": 85,
+   "amount_charged": 85,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters insurance Sept 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "amount_charged": 19,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit protection Sept 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "amount_charged": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility revenue Sept 2024",
+   "category": "utilities",
+   "amount_open": 60,
+   "amount_charged": 60,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late charge posted 9/6/2024",
+   "category": "late_fee",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-06",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet replacement, 5-yr prorated, 10/7/24",
+   "category": "flooring",
+   "amount_open": 917,
+   "amount_charged": 917,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "source_file": "Mrazek 24-6002 Ledger.docx",
+   "confidence": 0.75
+  }
+ ],
+ "credits": [
+  {
+   "description": "9/19/2024 ACH payment",
+   "amount": 500,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "short_term_lease": false
+ },
+ "evidence": [
+  {
+   "file": "Mrazek 24-6002 Ledger.docx",
+   "flag": "flooring_without_support",
+   "quote": "Carpet Replacement - new at MI based on 5 yr prorate"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 2084,
+ "reconciliation": "Open lines 2,084.00 (rent 870 + fees 297 + carpet 917) already net of the 500 ACH; less 0 open credits = 2,084.00 vs PM 2,084.00: match.",
+ "notes": "No invoice or photos for the carpet line in the folder. The 500 ACH was applied oldest-first, so it reduced Sept rent. Lease not opened (LITE).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa257c12afa44520c"
+ }
+}

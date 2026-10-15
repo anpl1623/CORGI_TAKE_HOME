@@ -1,0 +1,123 @@
+{
+ "tracking": 693,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-29",
+   "note": "amended statement, latest version; winning amounts",
+   "opened_visually": false,
+   "revised": true,
+   "used_for_amounts": true
+  },
+  {
+   "file": "deposit_disposition_amount_due_allison_hartnett_072624.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-26",
+   "note": "superseded earlier version (166.66 due)",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "tenant_ledger-allison_hartnett-20240729.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-29",
+   "note": "confirms credit balance and deposit forfeit rows",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "flags": {},
+ "lease": {
+  "base_monthly_rent": 1272,
+  "sd_program": "unknown",
+  "lease_start": "2023-07-13",
+  "lease_end": "2024-07-13",
+  "cash_deposit_amount": null,
+  "recurring_addons": [],
+  "monthly_sd_premium": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "initial_term_months": null,
+  "lease_break_terms": null,
+  "waived_deposit_amount": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-29",
+  "balance_due": 471.66,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-04-05"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-13",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Touch-up painting",
+   "amount_open": 150,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning above and beyond",
+   "amount_open": 650,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Blinds",
+   "amount_open": 200,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Wall repairs",
+   "amount_open": 105,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "PM credit: prepaid balance, 2nd-half July billing reversed",
+   "amount": 633.34,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 471.66,
+ "reconciliation": "Open lines 1105.00 less credit 633.34 = 471.66, equal to PM stated amount due 471.66 (07/29 amended statement). The 07/26 version (166.66) is superseded.",
+ "winning_document": "deposit_disposition_amount_due_allison_hartnett_072924.pdf",
+ "notes": "Sheet move-out 07/13; ledger shows move-out 07/15 and lease expiry 07/12. July MTM rent 779.61 billed 07/13 then reversed 07/26 (nets zero). Ledger shows SDRP fee 15/mo and YRIG fee; sd_program left unknown per lite mode.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ad3209742e93e84a6"
+ }
+}

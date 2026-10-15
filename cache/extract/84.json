@@ -1,0 +1,204 @@
+{
+ "tracking": 84,
+ "documents": [
+  {
+   "file": "189 Weeping Cypress_Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-04-21",
+   "opened_visually": false,
+   "used_for_amounts": true,
+   "note": "Propertyware (newest-first). Unpaid: 4010 Maintenance Coordination 200 (4/21/23) and 5018 Move-out Repair : 347 1,097.50 (4/19/23); balance 1,297.50; all rent paid; deposit held 0."
+  },
+  {
+   "file": "189 Weeping Cypress Drive.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "opened_visually": false,
+   "used_for_amounts": true,
+   "note": "Tideland Property Services invoice #347 total 1,097.50 (= ledger Move-out Repair : 347); used only to split into sub-categories. 'Issued: Not sent yet'."
+  },
+  {
+   "file": "189 Weeping Cypress_ Collections - SDRP Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-04-21",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Total amount due $1,297.50 per attached ledger."
+  },
+  {
+   "file": "189_Weeping_Cypress_Drive_Move_Out_Evaluation_2023-03-28.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-03-28",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "zInspector report; comments only: master bath and oven need cleaning, small nail holes, smoke detector to reinstall, landscaping needs maintenance, one small carpet stain in master, carpets otherwise 'look great'; no pet odor/urine noted; no power."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(03-16-2022_-_03-16-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-18",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Security Deposit Waiver YES, $35 per month."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2021_(03-16-2022_-_03-16-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-16",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Term 03/28/2022-03/27/2023; rent 1,950/mo (total 23,400); deposit stated 2,925 (waived via addendum); $200 admin fee for administering vendors/repairs when deductions taken; holdover 2x daily rate."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1950,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-03-28",
+  "current_term_end": "2023-03-27",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-03-28",
+  "lease_end": "2023-03-27",
+  "lease_break_terms": "Either party may terminate at end of initial term with 30 days written notice; holdover without consent at 2x daily rate; no specific early-termination fee found in excerpt.",
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium (30 + 5 admin fee through Aug 2022, 35 from Sep 2022)",
+    "amount": 35
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   },
+   {
+    "name": "Animal Fee",
+    "amount": 50
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2925
+ },
+ "move_out": {
+  "move_out_date": "2023-03-27",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "4010 Maintenance Coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-04-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "189 Weeping Cypress_Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair #347: patch and repair hole in kitchen; reinstall smoke detector in guest bedroom",
+   "category": "repairs_damage",
+   "amount_charged": 215,
+   "amount_open": 215,
+   "date_posted": "2023-04-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "189 Weeping Cypress Drive.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair #347: interior clean",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-04-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "189 Weeping Cypress Drive.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out Repair #347: lawn maintenance",
+   "category": "landscaping_lawn",
+   "amount_charged": 115,
+   "amount_open": 115,
+   "date_posted": "2023-04-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "189 Weeping Cypress Drive.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out Repair #347: carpet clean with pet enzyme treatment (no split between cleaning and pet treatment)",
+   "category": "carpet_cleaning",
+   "amount_charged": 467.5,
+   "amount_open": 467.5,
+   "date_posted": "2023-04-19",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "189 Weeping Cypress Drive.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Labor & Materials (CGS) Carpet Clean with pet enzyme treatment 1 $467.50",
+   "file": "189 Weeping Cypress Drive.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-04-21",
+  "balance_due": 1297.5,
+  "first_full_month": "2022-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-03-03"
+ },
+ "pm_stated_amount_due": 1297.5,
+ "winning_document": "189 Weeping Cypress_Ledger.pdf",
+ "reconciliation": "200 + 215 + 300 + 115 + 467.50 = 1297.50 - 0 credits = 1297.50 = ledger balance and collection notice total; invoice #347 (1,097.50) counted once via ledger line.",
+ "notes": "No PM itemization/statement other than ledger + collection notice; amounts from ledger open rows, invoice #347 used for split. Tenant paid all rent through March 2023 and moved out at lease end 3/27/2023 (inspection 3/28). Tenant had an authorized animal (Animal Fee $50/mo). Inspection notes no pet odor/urine; carpets mostly 'look great', one fist-sized stain in master bedroom. First full month April 2022 rent charged 3/28/22 and prepaid 3/18/22.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a327062f87fa1109e"
+ }
+}

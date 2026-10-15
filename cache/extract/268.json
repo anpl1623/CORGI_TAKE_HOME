@@ -1,0 +1,163 @@
+{
+  "tracking": 268,
+  "documents": [
+    {
+      "file": "2541 Creekview Drive - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-09-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2541 Creekview Drive - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-10-20",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "2541 Creekview Drive - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-10-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2541 Creekview Drive - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-09-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2541 Creekview Drive - Tenant Contact Ashlyn.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2541 Creekview Drive - Tenant Contact Emmanuel.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Statement - 8.5x11_20231106022511436.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-11-06",
+      "revised": true,
+      "used_for_amounts": true
+    }
+  ],
+  "winning_document": "Statement - 8.5x11_20231106022511436.pdf",
+  "pm_stated_amount_due": 35.0,
+  "lease": {
+    "base_monthly_rent": 2150.0,
+    "recurring_addons": [
+      {
+        "name": "TBR Pet Rent",
+        "amount": 60.0
+      },
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 48.0
+      }
+    ],
+    "lease_start": "2022-09-21",
+    "lease_end": "2023-09-30",
+    "current_term_start": "2022-09-21",
+    "current_term_end": "2023-09-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2000.0,
+    "monthly_sd_premium": 48.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "60 days prior notice, liquidated damages of one month's rent, and $500 early lease termination administrative fee"
+  },
+  "move_out": {
+    "move_out_date": "2023-09-25",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-11-06",
+    "balance_due": 35.0,
+    "first_full_month": "2022-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-09-08"
+  },
+  "line_items": [
+    {
+      "description": "Nail holes present in living room need to be patched, textured, and painted.",
+      "category": "painting",
+      "amount_open": 35.0,
+      "amount_charged": 35.0,
+      "date_posted": "2023-09-25",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2541 Creekview Drive - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "description": "Damaged shelf needs to be reinstalled in the laundry room",
+      "category": "repairs_damage",
+      "amount_open": 0.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-09-25",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2541 Creekview Drive - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Per revised move out, reversing damage charge for shelf",
+      "amount": 50.0,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "Statement - 8.5x11_20231106022511436.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) = $35.00 vs PM stated $35.00 (shelf charge of $50.00 was reversed on revised statement 2023-11-06)",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Original move-out statement/ledger on 2023-10-20 showed $85.00 due ($50 laundry room shelf + $35 living room nail holes). On 2023-11-06 revised statement reversed the $50 shelf charge per revised move-out, leaving $35.00 balance due."
+}

@@ -1,0 +1,165 @@
+{
+  "tracking": 151,
+  "documents": [
+    {
+      "file": "503 Maple Run amended closeout packet scan EC.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-08-24",
+      "revised": true,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Transactions_20230824094611107.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-24",
+      "revised": true,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Transactions_20230728044048647.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-28",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "503MAP - Closeout.pdf",
+      "doc_type": "other",
+      "doc_date": "2023-07-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "503MAP - JOHNSON LEASE AGREEMENT.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-29",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "SD Waiver.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-29",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "503 Maple Run amended closeout packet scan EC.pdf",
+  "pm_stated_amount_due": 715.06,
+  "lease": {
+    "base_monthly_rent": 1995.0,
+    "recurring_addons": [
+      {
+        "name": "Tenant Benefits Package A3",
+        "amount": 39.0
+      },
+      {
+        "name": "Renters Choice Program",
+        "amount": 60.0
+      }
+    ],
+    "lease_start": "2022-06-29",
+    "lease_end": "2023-06-29",
+    "current_term_start": "2022-06-29",
+    "current_term_end": "2023-06-29",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3000.0,
+    "monthly_sd_premium": 60.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-29",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-24",
+    "balance_due": 715.06,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-05-27"
+  },
+  "line_items": [
+    {
+      "description": "Lawn maintenance and debris haul off (amended from $585.00 to $292.50)",
+      "category": "landscaping_lawn",
+      "amount_open": 292.5,
+      "amount_charged": 585.0,
+      "date_posted": "2023-08-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "503 Maple Run amended closeout packet scan EC.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Cleaning fee (amended from $450.00 to $225.00)",
+      "category": "cleaning",
+      "amount_open": 225.0,
+      "amount_charged": 450.0,
+      "date_posted": "2023-08-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "503 Maple Run amended closeout packet scan EC.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet cleaning fee",
+      "category": "carpet_cleaning",
+      "amount_open": 197.56,
+      "amount_charged": 197.56,
+      "date_posted": "2023-08-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "503 Maple Run amended closeout packet scan EC.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 715.06 - 0.00 = 715.06 vs PM stated 715.06; exact match.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenancy ended at lease end on 2023-06-29. PM filed amended TXR-2216 itemization on 2023-08-24 reducing lawn maintenance from $585.00 to $292.50 and cleaning from $450.00 to $225.00, plus carpet cleaning $197.56, for a revised total balance due of $715.06 (which matches the amended ledger dated 2023-08-24)."
+}

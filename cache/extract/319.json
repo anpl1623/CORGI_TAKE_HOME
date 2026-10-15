@@ -1,0 +1,295 @@
+{
+  "tracking": 319,
+  "documents": [
+    {
+      "file": "11218 Dallas Coach - Application 2.pdf",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "11218 Dallas Coach - Application.pdf",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "11218 Dallas Coach - Itemization 10-2023 (1).pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-11-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "11218 Dallas Coach - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-10-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "11218 Dallas Coach Inspection 10-2023.pdf",
+      "doc_type": "inspection_photo_report",
+      "doc_date": "2023-10-17",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "11218 Dallas Coach Rev Item.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-11-09",
+      "revised": true,
+      "used_for_amounts": true
+    },
+    {
+      "file": "11218 Dallas Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-10-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Irene Jimenez Enterprise NOC.PDF",
+      "doc_type": "other",
+      "doc_date": "2023-11-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Tenant-Ledger-2023 Jimenez.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-11-27",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Tenant-Ledger-2023_11_28_14_45_57.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-11-28",
+      "revised": true,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "11218 Dallas Coach Rev Item.pdf",
+  "pm_stated_amount_due": 4785.1,
+  "lease": {
+    "base_monthly_rent": 1785.0,
+    "recurring_addons": [
+      {
+        "name": "Preferred Tenant Monthly Fee",
+        "amount": 52.5
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 59.0
+      }
+    ],
+    "lease_start": "2022-10-01",
+    "lease_end": "2023-09-30",
+    "current_term_start": "2022-10-01",
+    "current_term_end": "2023-09-30",
+    "initial_term_months": 12,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "fee_in_lieu",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 52.5,
+    "cash_deposit_amount": null,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-10-13",
+    "termination": "holdover_then_vacated",
+    "holdover_days_after_lease_end": 13,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-11-28",
+    "balance_due": 4785.1,
+    "first_full_month": "2021-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-08-31"
+  },
+  "line_items": [
+    {
+      "description": "Preferred Tenant Monthly Fee (10-2023)",
+      "category": "sdrp_premium",
+      "amount_open": 52.5,
+      "amount_charged": 52.5,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-13",
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Resident Benefit Package () (10-2023)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 59.0,
+      "amount_charged": 59.0,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-13",
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Rent - Holdover rent 10/01/23 - 10/13/23.",
+      "category": "rent_after_lease_end",
+      "amount_open": 2320.5,
+      "amount_charged": 2320.5,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-13",
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Late Fee - Late Fee 12%",
+      "category": "late_fee",
+      "amount_open": 278.46,
+      "amount_charged": 278.46,
+      "date_posted": "2023-10-05",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Notice Delivery Fee - NTV October 2023",
+      "category": "eviction_legal_court",
+      "amount_open": 100.0,
+      "amount_charged": 100.0,
+      "date_posted": "2023-10-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Make Ready: Air Filter Replacement, Maid Service, Blind Replacement, Touch Up Paint & Drywall Repair, Lightbulb Replacement, Stairway Handle",
+      "category": "repairs_damage",
+      "amount_open": 1794.64,
+      "amount_charged": 1794.64,
+      "date_posted": "2023-11-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Move Out Itemization Fee",
+      "category": "admin_itemization_fee",
+      "amount_open": 45.0,
+      "amount_charged": 45.0,
+      "date_posted": "2023-11-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Maintenance Handling Fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-11-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "NSF Fee",
+      "category": "nsf_fee",
+      "amount_open": 85.0,
+      "amount_charged": 85.0,
+      "date_posted": "2023-11-27",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 13,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "11218 Dallas Coach Rev Item.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 4785.10 - credits 0.00 = 4785.10 vs PM stated 4785.10; matches exactly.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "RentWerx itemization demands ,785.10 consisting of ,794.64 make-ready, ,810.46 balance on ledger (October holdover rent 10/1-10/13, RBP, PTP fee, late fee, NTV fee),  itemization fee,  maintenance handling fee, and  NSF fee. An attempted ACH pull of ,785 on 11/09 was returned on 11/16 due to account closed and reversed on 11/27. The tenant participated in the Preferred Tenant Program (.50/mo fee in lieu of security deposit)."
+}

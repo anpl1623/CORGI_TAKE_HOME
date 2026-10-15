@@ -1,0 +1,156 @@
+{
+  "tracking": 186,
+  "documents": [
+    {
+      "file": "50 Hidden Ridge Drive - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-01-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "50 Hidden Ridge Drive - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-01",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "50 Hidden Ridge Drive - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-09-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "50 Hidden Ridge Drive - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-01-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "50 Hidden Ridge Drive - Tenant Contact Ahrielle.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "50 Hidden Ridge Drive - Tenant Contact Silken.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "50 Hidden Ridge Drive - Ledger.pdf",
+  "pm_stated_amount_due": 335.0,
+  "lease": {
+    "base_monthly_rent": 1595.0,
+    "recurring_addons": [
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 48.0
+      },
+      {
+        "name": "YRIG Prem",
+        "amount": 20.0
+      },
+      {
+        "name": "Latchel Concierge Service",
+        "amount": 14.99
+      },
+      {
+        "name": "Pet Rent",
+        "amount": 40.0
+      }
+    ],
+    "lease_start": "2023-01-27",
+    "lease_end": "2024-01-31",
+    "current_term_start": "2023-01-27",
+    "current_term_end": "2024-01-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2000.0,
+    "monthly_sd_premium": 48.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Early termination fee $1,595.00 plus $500.00 admin fee"
+  },
+  "move_out": {
+    "move_out_date": "2023-07-31",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-09-01",
+    "balance_due": 335.0,
+    "first_full_month": "2023-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-08-02"
+  },
+  "line_items": [
+    {
+      "description": "Lawnscaping not maintened (mow, edge, treat for weeds and shrubs)",
+      "category": "landscaping_lawn",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-08-27",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "50 Hidden Ridge Drive - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 1.0
+    },
+    {
+      "description": "Garage remote not returned",
+      "category": "keys_remotes",
+      "amount_open": 85.0,
+      "amount_charged": 85.0,
+      "date_posted": "2023-08-27",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "50 Hidden Ridge Drive - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 335.00 - credits 0.00 = 335.00 vs PM stated 335.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant terminated early on 2023-07-31, paying the early termination fee of $1,595 and admin fee of $500 in full on 2023-08-02. Only remaining unpaid charges on the move-out ledger are $250 for landscaping and $85 for missing garage remote."
+}

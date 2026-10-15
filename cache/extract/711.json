@@ -1,0 +1,265 @@
+{
+ "tracking": 711,
+ "documents": [
+  {
+   "file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rentvine ledger (newest-first), balance $2,891.34 as of 8/12/2024; Deposit Balance $0.00; payments unallocated."
+  },
+  {
+   "file": "Demand Letter_250 Curvewood Rd..png",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "PURE email: final statement attached (not in folder), account balance $2,891.34 due; will claim with SDRP if unpaid in 15 days."
+  },
+  {
+   "file": "Stemco_Carpet Cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Invoice 57249956 $604.45 = carpet cleaning 240 + area rotary 100 + stain removal 49.50 + kitchen threshold replace 50 + heavy pet treatment/deodorizer 110 + 10% FS 54.95; used only to split the ledger line."
+  },
+  {
+   "file": "Preferred_Carpet Rplcement.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Preferred Carpet One acknowledgment CG412391: 91.56 SY carpet + pad + labor + trip fee, total $1,297.89; backs ledger carpet replacement line."
+  },
+  {
+   "file": "TJ Invoice_250 Curvewood Rd.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-04",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Handwritten invoice 974367 TJ Brown: removed trash from driveway and bins $185.00; backs ledger line."
+  },
+  {
+   "file": "250 Curvewood Rd.Lease_Welch.Trapp.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-04-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Turner Properties lease 5/1/2023-5/1/2024, rent $1,625, deposit $0, no pets allowed, $99 rekey fee, early termination = 60 days notice + 2 months' rent fee, MTM auto-renew with $200/mo admin fee."
+  },
+  {
+   "file": "250 Curvewood Rd.SD_Welch.Trapp.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-04-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES: $43/month in lieu of $2,500 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1625,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-05-01",
+  "current_term_end": "2024-05-01",
+  "initial_term_months": 12,
+  "is_month_to_month": null,
+  "is_renewal": false,
+  "lease_start": "2023-05-01",
+  "lease_end": "2024-05-01",
+  "monthly_sd_premium": 43,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Replacement Program (SDRP)",
+    "amount": 43
+   },
+   {
+    "name": "RBP w/insurance",
+    "amount": 45.95
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2500,
+  "lease_break_terms": "Para 16: early termination on 60 days' written notice plus termination administrative fee equal to 2 months' rent; rent due for remaining 60 days. Para 11: early move-out may result in reletting charges and acceleration of future rent; auto-renews month-to-month unless 60 days notice (MTM admin fee $200/mo). Para 15 holdover: rent +50% plus $250 admin fee."
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 30,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant Chargeback - Move out rekey (open remainder after oldest-first payment allocation)",
+   "category": "rekey_locks",
+   "amount_charged": 99,
+   "amount_open": 89,
+   "date_posted": "2024-06-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Tenant Chargeback - Removed trash from the driveway and bins",
+   "category": "trash_removal",
+   "amount_charged": 185,
+   "amount_open": 185,
+   "date_posted": "2024-06-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Tenant Chargeback - paint touch ups",
+   "category": "painting",
+   "amount_charged": 715,
+   "amount_open": 715,
+   "date_posted": "2024-06-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant Chargeback - Carpet replacement for two BR's due to pet damage (Preferred Carpet One $1,297.89)",
+   "category": "pet_damage_odor",
+   "amount_charged": 1297.89,
+   "amount_open": 1297.89,
+   "date_posted": "2024-06-26",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Stemco: carpet cleaning (6 x $40), area rotary (4 x $25), stain removal $49.50, incl. 10% FS",
+   "category": "carpet_cleaning",
+   "amount_charged": 428.45,
+   "amount_open": 428.45,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Stemco_Carpet Cleaning.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Stemco: threshold replace kitchen $50 incl. 10% FS",
+   "category": "flooring",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Stemco_Carpet Cleaning.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Stemco: heavy pet treatment/deodorizer (2 x $55) incl. 10% FS - 'VERY STRONG PET SMELL'",
+   "category": "pet_damage_odor",
+   "amount_charged": 121,
+   "amount_open": 121,
+   "date_posted": "2024-06-27",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Stemco_Carpet Cleaning.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Money order payment 06/05/2024 (Ref 5400832417), absorbed $195 pre-move-out balance and $10 of rekey under oldest-first allocation",
+   "amount": 205,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "pet_damage",
+   "quote": "Carpet replacement for two BR's due to pet damage $1,297.89",
+   "file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+  },
+  {
+   "flag": "pet_damage",
+   "quote": "heavy pet treatment/deodorizer ... VERY STRONG PET SMELL- MAY RETURN",
+   "file": "Stemco_Carpet Cleaning.pdf"
+  },
+  {
+   "flag": "unauthorized_pet",
+   "quote": "No animals are allowed, even temporarily, anywhere on the Property unless Landlord has so authorized",
+   "file": "250 Curvewood Rd.Lease_Welch.Trapp.pdf"
+  },
+  {
+   "flag": "eviction",
+   "quote": "05-15-2024 Magistrate Filing Fee - Magistrate Filing Fee $200.00",
+   "file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+  },
+  {
+   "flag": "pm_stated_amount",
+   "quote": "Your account balance of $2,891.34 is due immediately.",
+   "file": "Demand Letter_250 Curvewood Rd..png"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-12",
+  "balance_due": 2891.34,
+  "first_full_month": "2023-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-05"
+ },
+ "pm_stated_amount_due": 2891.34,
+ "winning_document": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+ "reconciliation": "Open lines 89 + 185 + 715 + 1,297.89 + 428.45 + 55 + 121 = 2,891.34 = ledger balance = demand letter; payments of 1,728.95 (5/21) and 205 (6/5) already netted (May rent, filing fee and convenience fee fully paid under oldest-first allocation).",
+ "notes": "Final Statement PDF referenced in demand email is not in folder; ledger used. Lease end 5/1/2024; tenant remained through May (May rent charged and paid), magistrate filing fee 5/15/2024 indicates eviction filing; moved out 5/31/2024. May 2023 rent was posted as 'Rent - HOLDING FEE' and paid 4/26/2023. Two NSF returns (Nov and Dec 2023) later cured. No pet authorization in lease, yet carpet replacement and odor treatment attributed to pet damage. Paint touch-ups $715 and rekey have no vendor invoice (rekey $99 is a lease-stated fee). Stemco 10% FS allocated proportionally across split sub-lines. Lease auto-renews MTM absent 60-day notice; is_month_to_month left null because PM charged regular rent (no MTM fee) and pursued eviction.",
+ "extraction_confidence": 0.86,
+ "_meta": {
+  "run": "wf_ba0a8fba-7d1",
+  "agent": "a8fa8410a7ef970b0"
+ }
+}

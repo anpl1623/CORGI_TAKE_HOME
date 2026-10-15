@@ -1,0 +1,241 @@
+{
+  "tracking": 977,
+  "documents": [
+    {
+      "file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-10-01",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "3024 Wanda Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-11-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3024_Wanda_Cir_2024_Lease_Renewal_-_PURE_RBP_-_Atlanta_Office_(2).pdf",
+      "doc_type": "renewal_lease",
+      "doc_date": "2024-03-22",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "3024_Wanda-SDT-Finalized_(1).docx",
+  "pm_stated_amount_due": 585.10,
+  "lease": {
+    "base_monthly_rent": 1470.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Fee",
+        "amount": 43.0
+      },
+      {
+        "name": "Resident Benefit Package with Insurance",
+        "amount": 39.0
+      },
+      {
+        "name": "Pet Fee Monthly",
+        "amount": 30.0
+      }
+    ],
+    "lease_start": "2024-03-22",
+    "lease_end": "2024-09-21",
+    "current_term_start": "2024-03-22",
+    "current_term_end": "2024-09-21",
+    "initial_term_months": 6,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 43.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Provide Management no less than 60 days prior notice, pay as liquidated damages 50% of the total rent that otherwise would have been owed through the Lease End Date, and pay an Early Lease Termination Administrative Fee of $500.00"
+  },
+  "move_out": {
+    "move_out_date": "2024-09-23",
+    "termination": "holdover_then_vacated",
+    "holdover_days_after_lease_end": 2,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-11-25",
+    "balance_due": 585.10,
+    "first_full_month": "2024-04",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-09-10"
+  },
+  "line_items": [
+    {
+      "description": "broken closet door handle, Bed1",
+      "category": "repairs_damage",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "hole in door, Bed1",
+      "category": "repairs_damage",
+      "amount_open": 125.0,
+      "amount_charged": 125.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "sand wall for paint prep, Bed2",
+      "category": "painting",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "broken closet door handle, Bed2",
+      "category": "repairs_damage",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "missing ceiling fan globe, Bed3",
+      "category": "repairs_damage",
+      "amount_open": 65.0,
+      "amount_charged": 65.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "broken closet door handle, Bed3",
+      "category": "repairs_damage",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "bent garage door",
+      "category": "repairs_damage",
+      "amount_open": 175.0,
+      "amount_charged": 175.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    },
+    {
+      "description": "bulb missing in kitchen",
+      "category": "repairs_damage",
+      "amount_open": 25.0,
+      "amount_charged": 25.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx",
+      "source_page": null,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Unpaid rent credit / overpayment applied",
+      "amount": 4.90,
+      "type": "prepaid_credit_balance",
+      "already_netted_in_line_items": false,
+      "source_file": "3024_Wanda-SDT-Finalized_(1).docx"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 585.10 vs PM stated 585.10; exact match (590.00 repair deductions minus 4.90 unpaid rent overpayment credit). Matches Propertyware ledger ending balance of 585.10.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated 2 days after lease end date (2024-09-23 vs 2024-09-21). Winning document is the finalized Security Deposit Transmittal dated 2024-10-01."
+}

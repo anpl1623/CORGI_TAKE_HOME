@@ -1,0 +1,153 @@
+{
+ "tracking": 881,
+ "documents": [
+  {
+   "file": "Tormey 611 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; total 247.00"
+  },
+  {
+   "file": "Tormey 611 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Shows Aug 2024 charges prepaid; balance (3.00)"
+  },
+  {
+   "file": "Tormey 611 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 247.00 total"
+  },
+  {
+   "file": "Tormey 611 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 247.00; current ledger (3.00)"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 890,
+  "cash_deposit_amount": null,
+  "current_term_end": null,
+  "current_term_start": null,
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "lease_end": "2024-08-31",
+  "lease_start": "2023-08-07",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Monthly pet fee",
+    "amount": 50
+   },
+   {
+    "name": "Renters insurance",
+    "amount": 19
+   },
+   {
+    "name": "SD protection",
+    "amount": 33
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 30
+   }
+  ],
+  "sd_program": "unknown",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Cleaning charges 9/06/2024",
+   "category": "cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "confidence": 0.9,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tormey 611 Move Out Statement.pdf"
+  },
+  {
+   "description": "Trash clean up 9/06/2024",
+   "category": "trash_removal",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "confidence": 0.9,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tormey 611 Move Out Statement.pdf"
+  }
+ ],
+ "credits": [
+  {
+   "type": "prepaid_credit_balance",
+   "amount": 3,
+   "description": "Tenant prepayment left after Aug",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 247,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-30"
+ },
+ "pm_stated_amount_due": 247,
+ "winning_document": "Tormey 611 Move Out Statement.pdf",
+ "reconciliation": "Open lines 250.00 less unnetted prepaid credit 3.00 equals PM stated 247.00; the Aug 2024 charges were covered by the 7/30 prepayment.",
+ "extraction_confidence": 0.9,
+ "notes": "Ledger balance (1,025.00) before 8/01 means Aug rent, pet, renters insurance, SD protection and utility (1,022.00) were prepaid, so they are not open. Move-out 8/31 equals lease end (end of term). Statement, letter, SDI and ledger all show 247.00. Lease and addendum not opened (lite).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a83618aee02f97567"
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "tracking": 986,
+ "winning_document": "Fadelelmawla 21-6064 SDI.pdf",
+ "pm_stated_amount_due": 1680,
+ "documents": [
+  {
+   "file": "Fadelelmawla 21-6064 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-05",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Perry Reid Security Deposit Itemization - Move Out; total charges 1,680.00; winning accounting doc (text layer present)."
+  },
+  {
+   "file": "Fadelelmawla 21-6064 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-05",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same four lines and 1,680.00 balance as the SDI; used to confirm."
+  },
+  {
+   "file": "Fadelelmawla 21-6064 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover letter, balance due 1,680.00 within 10 days or referred to Hunter Warfield; matches SDI."
+  },
+  {
+   "file": "Fadelelmawla 21-6064 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first Resident Ledger; used for dates, rent history, payment history; ends at 1,680.00 with same four move-out lines."
+  },
+  {
+   "file": "Fadelelmawla 21-6064 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-03",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Lease Addendum IA: renters insurance 19/mo YES; Security Deposit Waiver 33/mo YES, waives 1,200 deposit; policy start 10/12/23."
+  },
+  {
+   "file": "Fadelelmawla 21-6064 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-10",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned NAA lease; opened pp1-3, 6-12. Rent 1,155; term 10/12/2023-10/31/2024; deposit 0.00; auto-renews month-to-month; 60-day notice special provision; early move-out para 11."
+  },
+  {
+   "file": "AJC DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit authorization form; classified from file name per efficiency rule; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1155,
+  "sd_program": "deposit_waiver",
+  "lease_start": "2023-10-12",
+  "lease_end": "2024-10-31",
+  "current_term_start": "2023-10-12",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12.6,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver/Protection (sd.pro)",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue / Eco fee",
+    "amount": 50
+   }
+  ],
+  "lease_break_terms": "Para 11 Early Move-Out: liable for all rent until apartment re-rented and for repayment of rent concessions if move out without paying full term/no notice. Para 44 plus special provision: 60-day written notice before first day of the month preceding last full month; same rule for month-to-month; lease auto-renews month-to-month. No fixed lease-break fee or reletting fee stated."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Carpet cleaning - visible stains/damage beyond normal wear and tear",
+   "category": "carpet_cleaning",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-11-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Fadelelmawla 21-6064 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "General cleaning - full clean and appliances",
+   "category": "cleaning",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-11-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Fadelelmawla 21-6064 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash out - items left on patio (grill, chair, misc)",
+   "category": "trash_removal",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-11-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Fadelelmawla 21-6064 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Future Months Rent (November - no notice given); SDI: responsible through 11/30, did not give notice",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1330,
+   "amount_open": 1330,
+   "date_posted": "2024-11-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "days_after_lease_end": 30,
+   "source_file": "Fadelelmawla 21-6064 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-12-03",
+  "balance_due": 1680,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-02"
+ },
+ "reconciliation": "125.00 + 175.00 + 50.00 + 1,330.00 = 1,680.00; credits 0 (deposit waived, none held) = 1,680.00; equals PM-stated 1,680.00 (SDI, Move Out Statement, letter dated 11/05/2024); ledger of 12/03/2024 shows same 1,680.00.",
+ "extraction_confidence": 0.9,
+ "notes": "Tenant gave notice 10/29/24 and moved out 10/31/24 = lease end. PM billed November as future rent for lack of 60-day notice. The 1,330 is 175 above contract rent 1,155 with no breakdown; kept as one line, categorized rent_after_lease_end because lease term ended 10/31 and lease then rolls month-to-month (ambiguity: could be treated as rent_after_move_out). Ledger history (not open): eviction filing/legal fees Feb-Mar 2024 plus late fees were cleared by a 4,241.00 'Pd by IMPACT' payment 3/22/24; 500/mo rent concessions Nov 2023-Jan 2024 were not clawed back in the claim. Paid first-month payments by check/ACH with no returns. Ledger charges all other months paid.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae01afaf049108914"
+ }
+}

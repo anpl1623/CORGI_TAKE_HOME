@@ -1,0 +1,158 @@
+{
+ "tracking": 985,
+ "winning_document": "deposit_disposition_amount_due_elsa_woldeyesus_112524_Elsa.pdf",
+ "pm_stated_amount_due": 81.99,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_elsa_woldeyesus_112524_Elsa.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Statement: only charge is Final Utility Bill 10/15/24-10/31/24 81.99; amount due 81.99. Winning doc."
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary - 2024-11-25T142448.413_Elsa Woldeyesus_final Bill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Pioneer Energy Management FINAL BILL, billing period 10/15/24-10/31/24, total 81.99 (electric+water/sewer+service); backs the utility line."
+  },
+  {
+   "file": "tenant_ledger-elsa_woldeyesus-20241203.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "AppFolio oldest-first; only open item is Utility Reimbursement Fee 81.99 posted 11/25/24; all rent paid through October 2024."
+  },
+  {
+   "file": "Gmail - Updated Demand Letter - Rocky Ridge 5724 RR Elsa Woldeyesus.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Email demand for 81.99 by 11/27/24; template placeholder text left in body; matches statement."
+  },
+  {
+   "file": "Inspections_Move-out_Elsa Woldeyesus_5724RR.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-11-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Move-out inspection 11/07/24: summary says no charges; carpet over 7 years old, unit left very clean. No pet/odor evidence in text."
+  },
+  {
+   "file": "elsa-woldeyesus_09-30-2023-lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text layer read via pdftotext: term 10/01/2023-09/30/2024; rent 1,195 + garbage 20 + TLL20 19.95 = 1,234.95; auto-renews on 2-month basis; addenda list includes Security Deposit Waiver (no signed waiver addendum in folder)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1195,
+  "sd_program": "deposit_waiver",
+  "lease_start": "2023-10-01",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2024-10-01",
+  "current_term_end": "2024-11-30",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1000,
+  "monthly_sd_premium": null,
+  "recurring_addons": [
+   {
+    "name": "Garbage and Recycling",
+    "amount": 20
+   },
+   {
+    "name": "TLL20 (tenant legal liability)",
+    "amount": 19.95
+   }
+  ],
+  "lease_break_terms": "Lease: tenant who vacates before end remains liable for rent until lease expires or unit re-occupied, plus re-letting expenses; prorated turn cost if lease terms not fulfilled; 60 days written notice required before vacating prior to expiration of lease or renewal term; auto-renews on 2-month cycles at a new rate. No fixed lease-break fee."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Final utility bill 10/15/24-10/31/24 (Pioneer Energy Management; utility reimbursement fee)",
+   "category": "utilities",
+   "amount_charged": 81.99,
+   "amount_open": 81.99,
+   "date_posted": "2024-11-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-10-15",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": null,
+   "source_file": "deposit_disposition_amount_due_elsa_woldeyesus_112524_Elsa.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-elsa_woldeyesus-20241203.pdf",
+   "flag": "sd_program_waiver_inferred",
+   "quote": "Mgmt Held Security Deposits - Security Deposit Waiver/ Credit -100.00"
+  },
+  {
+   "file": "deposit_disposition_amount_due_elsa_woldeyesus_112524_Elsa.pdf",
+   "flag": "only_charge_is_utility",
+   "quote": "Final Utility Bill 10/15/24 - 10/31/24 $81.99"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-12-03",
+  "balance_due": 81.99,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-02"
+ },
+ "reconciliation": "Sum of open lines 81.99; credits 0 (no deposit held; 100 deposit was credited to the account 10/01/2023); equals PM-stated 81.99 (disposition letter 11/25/24, demand letter, ledger total 81.99).",
+ "extraction_confidence": 0.85,
+ "notes": "Tenant lived there since 07/2017; current lease signed for 10/01/2023-09/30/2024 and rolled into 2-month auto-renewal at 'Rent Income SDW1000 ... 2x2 monthly rate' 1,449 for Oct 2024 (paid 10/02/24). Tenant moved out 10/31/24, one month before the inferred 11/30/24 end of the 2-month renewal; no November rent or other post-move-out charges billed. Termination typed holdover_then_vacated only because the sheet lease end is 09/30/24 and move-out is 10/31/24; the extra month was billed and paid at the 2x2 rate (not open). SD program is inferred from ledger labels (SDW1000 on rent lines, 'Security Deposit Waiver/Credit' -100.00 on 10/01/2023); no standalone waiver addendum or premium line is in the folder, so monthly_sd_premium is null and no_policy_evidence left false. Inspection summary: no move-out charges, unit very clean, carpet 7+ years old (no carpet charge). TLL20 19.95 shown on lease is credited on ledger 11/03/2023 and not recurring afterward.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae01afaf049108914"
+ }
+}

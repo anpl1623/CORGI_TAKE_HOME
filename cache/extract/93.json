@@ -1,0 +1,348 @@
+{
+ "tracking": 93,
+ "documents": [
+  {
+   "file": "1_041223_StatementofAccounting.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-04-12",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting: Cleaning-Firm Bid 400 + Repairs 996 = 1,396 due from resident. Includes Tony & Tonie's cleaning 'Firm Bid Estimate' #26 ($400), Duke & Sons invoice #1302 ($996), and mailing envelope 4/12/23."
+  },
+  {
+   "file": "1_051123_SDDResolution-1.pdf",
+   "doc_type": "other",
+   "doc_date": "2023-05-11",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Security Deposit Dispute Resolution Agreement: disposition credited $105, tenant's new balance $1,291, due by 05/16/2023. Signed by tenants 5/3/23 and agent 5/11/23."
+  },
+  {
+   "file": "Davis-Hall_tenantledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-22",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware (newest-first). Unpaid 5310 Sec Dep-Hndymn 996; Partially paid 5302 Sec Dep-General&Window 400 (reduced by 05/08/23 $105 dispute adjustment); balance 1,291. Lease break fee 2,300 and re-renting fee 1,000 charged and paid 02/24/23."
+  },
+  {
+   "file": "1_071522_securitydepositwiaveaddendum1.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-07-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver Addendum, $35/month in lieu of deposit, period 07/15/2022 through 07/18/2023."
+  },
+  {
+   "file": "Security_Deposit_Waiver_Addendum1_(07-12-2022_-_07-12-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-07-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Lease addendum: YES, $35/month waives security deposit of $1,725."
+  },
+  {
+   "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(07-12-2022_-_07-12-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-07-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rent $1,150/mo, total $13,948.39, prorated 7/15-7/31 $630.65; SD N/A (No Security Deposit Option $35/mo); RBP $29/mo."
+  },
+  {
+   "file": "1_071522_signedleasedocs_corrected.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-07-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Scanned signed lease (18 pages); not opened, lease facts clear from text lease + waiver addendum."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1150,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 35,
+  "waived_deposit_amount": 1725,
+  "cash_deposit_amount": 0,
+  "lease_start": "2022-07-15",
+  "lease_end": "2023-07-18",
+  "current_term_start": "2022-07-15",
+  "current_term_end": "2023-07-18",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "No Security Deposit Option / RIS monthly fee",
+    "amount": 35
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   }
+  ],
+  "lease_break_terms": "Lease-break clause not in excerpt; per ledger tenant was charged and paid a Lease Break fee to Owner $2,300 (2x rent) and Re-renting fee $1,000 on 02/24/2023. Authorized holdover = MTM at +20%."
+ },
+ "move_out": {
+  "move_out_date": "2023-03-27",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Cleaning - Firm Bid (Tony and Tonie's Cleaning estimate #26, move-out cleaning 800 sqft)",
+   "category": "cleaning",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": true,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Trip Fee, Move Out (admin, drive time, clean up and waste disposal)",
+   "category": "repairs_damage",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 3,
+   "confidence": 0.6
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Paint touch ups - fill/sand/paint holes, missing drywall texture",
+   "category": "painting",
+   "amount_charged": 355,
+   "amount_open": 355,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Stucco chips fill and touch up",
+   "category": "repairs_damage",
+   "amount_charged": 105,
+   "amount_open": 105,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Labor, paint custom color and sheen matching",
+   "category": "painting",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Bathroom sink cleaning - remove/clean P-trap (hair debris, odor)",
+   "category": "cleaning",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.6
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Doorstop install labor 8 + materials 5",
+   "category": "repairs_damage",
+   "amount_charged": 13,
+   "amount_open": 13,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Doorframe repair Bed3 and paint",
+   "category": "repairs_damage",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Switch plate replace labor 10 + materials 5",
+   "category": "repairs_damage",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Miniblinds install labor 25 + materials 38",
+   "category": "repairs_damage",
+   "amount_charged": 63,
+   "amount_open": 63,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): AC filter replace labor 10 + materials 15",
+   "category": "other_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.65
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Dishwasher kick plate install",
+   "category": "appliance",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.75
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Install cabinet shelf in kitchen",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs (Duke & Sons #1302): Remove ceiling staples living room, patch and paint",
+   "category": "repairs_damage",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "date_posted": "2023-04-12",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1_041223_StatementofAccounting.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security Deposit Dispute Resolution Agreement credit to original disposition (ledger 05/08/2023 adjustment)",
+   "amount": 105,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "1_051123_SDDResolution-1.pdf"
+  }
+ ],
+ "flags": {
+  "tenant_disputes_charges": true,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "tenant_disputes_charges",
+   "quote": "After the committee review of your security deposit dispute, the findings were as follows",
+   "file": "1_051123_SDDResolution-1.pdf"
+  },
+  {
+   "flag": "tenant_disputes_charges",
+   "quote": "The original security deposit disposition will be credited $105.00. TENANT'S new balance owed is $1,291.00",
+   "file": "1_051123_SDDResolution-1.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-05-22",
+  "balance_due": 1291,
+  "first_full_month": "2022-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-02-24"
+ },
+ "pm_stated_amount_due": 1291,
+ "winning_document": "1_041223_StatementofAccounting.pdf",
+ "reconciliation": "Open lines 400 (cleaning) + 996 (Duke & Sons repairs split) = 1,396 - 105 dispute-resolution credit = 1,291 = PM stated (SDD Resolution 5/11/23 and ledger 5/22/23); the 4/12/23 statement shows 1,396 before the credit.",
+ "notes": "Early termination: tenant paid lease break fee $2,300 + re-renting fee $1,000 (02/24/23) and March 2023 rent; no rent claimed. Statement lists move-out date '7/18/23 - Lease Break' (lease end date); inspected 3/27/2023, matching the sheet move-out date. Cleaning $400 is backed only by a vendor 'Firm Bid' estimate, not a completion invoice. $996 repairs are backed by completed Duke & Sons invoice #1302, split by sub-line ($0 caulking line omitted). The ledger applied the $105 credit to the cleaning charge (open remainder 295); here the line is kept at 400 and the credit listed separately to avoid netting twice. The settlement agreement fixed the balance at $1,291, which was still unpaid as of 5/22/23 (tenant_paid_or_settled not set). No pet charges.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "ac154fc17ddb611e7"
+ }
+}

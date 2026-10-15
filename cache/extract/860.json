@@ -1,0 +1,288 @@
+{
+ "tracking": 860,
+ "winning_document": "7917 Barrymore Ln.pdf",
+ "documents": [
+  {
+   "file": "7917 Barrymore Ln.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-10",
+   "note": "Propertyware balance statement; winning; open rows sum 5731.62"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "lease_start": "2024-06-11",
+  "lease_end": "2025-05-31",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly premium",
+    "amount": 48
+   },
+   {
+    "name": "RBP with ins",
+    "amount": 39
+   },
+   {
+    "name": "Acct 4181 recurring charge",
+    "amount": 55
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-10-04",
+  "termination": "eviction"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-10",
+  "balance_due": 5731.62,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-13"
+ },
+ "line_items": [
+  {
+   "description": "Carpet cleaning (move-out)",
+   "category": "carpet_cleaning",
+   "amount_open": 522.5,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Deep cleaning entire house and garage",
+   "category": "cleaning",
+   "amount_open": 695,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Trashout entire unit",
+   "category": "trash_removal",
+   "amount_open": 575,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Acct 4140 system-calculated charge",
+   "category": "late_fee",
+   "amount_open": 228.96,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.65
+  },
+  {
+   "description": "Light bulb replacements throughout unit",
+   "category": "other_damage",
+   "amount_open": 125,
+   "date_posted": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Toilet seat replacement and labor",
+   "category": "repairs_damage",
+   "amount_open": 100,
+   "date_posted": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Hole in wall repair",
+   "category": "repairs_damage",
+   "amount_open": 385,
+   "date_posted": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Front door trim damage",
+   "category": "repairs_damage",
+   "amount_open": 165,
+   "date_posted": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "October 2024 rent (moved out 10/04)",
+   "category": "rent_in_term",
+   "amount_open": 2000,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Acct 4181 monthly fee October",
+   "category": "other_fee",
+   "amount_open": 55,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.4
+  },
+  {
+   "description": "SDRP monthly premium October",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP with insurance October",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Association violation fee, trash cans",
+   "category": "hoa_violation",
+   "amount_open": 50,
+   "date_posted": "2024-09-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Eviction attorney fee",
+   "category": "eviction_legal_court",
+   "amount_open": 270,
+   "date_posted": "2024-09-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Eviction charge",
+   "category": "eviction_legal_court",
+   "amount_open": 402,
+   "date_posted": "2024-09-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Acct 4140 system-calculated remainder Sept",
+   "category": "late_fee",
+   "amount_open": 11.2,
+   "amount_charged": 54.16,
+   "date_posted": "2024-09-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.65
+  },
+  {
+   "description": "SDRP premium September remainder",
+   "category": "sdrp_premium",
+   "amount_open": 4.96,
+   "amount_charged": 48,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Acct 4181 monthly fee September",
+   "category": "other_fee",
+   "amount_open": 55,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7917 Barrymore Ln.pdf",
+   "confidence": 0.4
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 5731.62,
+ "reconciliation": "Open lines 5731.62 minus credits 0.00 equals PM balance 5731.62 as of 10/10/2024; no difference.",
+ "extraction_confidence": 0.75,
+ "notes": "Eviction, moved out 10/04. Full October rent billed, straddles move-out; kept as one line at PM amount. Acct 4140 title truncated; read as late fee from the Calculated-by-system pattern (also seen on McGinnis late fees). Acct 4181 title truncated; read as other fee, low confidence. Partial remainders 11.20 and 4.96 netted from 09/13 payment. Lease and violation letters not opened.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

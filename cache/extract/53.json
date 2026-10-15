@@ -1,0 +1,150 @@
+{
+ "tracking": 53,
+ "documents": [
+  {
+   "file": "preview_of_deposit_disposition_amount_due_wesley_son_030923.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-03-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Security Deposit Statement (deposit disposition) - Final Utility Bill 02/16/23-02/21/23 $198.56 + Unit cleaning $145.00 = $343.56 due. WINNING DOC."
+  },
+  {
+   "file": "tenant_ledger-wesley_son_jang_hoon_son-20230309.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-03-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Ledger Oct 2022-Feb 2023 (oldest-first); all rent/trash paid by ACH; open: utility 198.56 + cleaning 145 = 343.56. Move-in 07/22/2022, move-out/lease exp 02/21/2023, rent 1,505, deposit paid 0.00."
+  },
+  {
+   "file": "Signed Lease Sample.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Placeholder page containing only the text 'Sample 1, 2 ,3' - not a real lease."
+  },
+  {
+   "file": "Security Deposit Lease Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Placeholder page containing only the text 'Sample 1, 2 ,3' - not a real addendum."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1505,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": null,
+  "sd_program": "unknown",
+  "lease_start": "2022-07-22",
+  "lease_end": "2023-02-21",
+  "current_term_start": "2022-07-22",
+  "current_term_end": "2023-02-21",
+  "initial_term_months": 7,
+  "is_renewal": null,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "Trash Fee",
+    "amount": 20
+   }
+  ],
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2023-02-21",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Final Utility Bill 02/16/23 - 02/21/23 (Utility Reimbursement Fee)",
+   "category": "utilities",
+   "amount_charged": 198.56,
+   "amount_open": 198.56,
+   "date_posted": "2023-02-22",
+   "service_period_start": "2023-02-16",
+   "service_period_end": "2023-02-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "preview_of_deposit_disposition_amount_due_wesley_son_030923.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Unit cleaning",
+   "category": "cleaning",
+   "amount_charged": 145,
+   "amount_open": 145,
+   "date_posted": "2023-02-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "preview_of_deposit_disposition_amount_due_wesley_son_030923.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": true,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2023-03-09",
+  "balance_due": 343.56,
+  "first_full_month": "2022-08",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2023-02-01"
+ },
+ "evidence": [
+  {
+   "flag": "test_claim",
+   "quote": "Policy: Test Claim Submission; Max Benefit: 0",
+   "file": "cache/digest/53.md (sheet facts)"
+  },
+  {
+   "flag": "test_claim",
+   "quote": "Sample 1, 2 ,3",
+   "file": "Signed Lease Sample.pdf"
+  },
+  {
+   "flag": "test_claim",
+   "quote": "Sample 1, 2 ,3",
+   "file": "Security Deposit Lease Addendum.pdf"
+  }
+ ],
+ "pm_stated_amount_due": 343.56,
+ "winning_document": "preview_of_deposit_disposition_amount_due_wesley_son_030923.pdf",
+ "extraction_confidence": 0.88,
+ "reconciliation": "Open lines 343.56 (utilities 198.56 + cleaning 145.00) - credits 0 = 343.56 = PM statement amount due = ledger balance; no difference.",
+ "notes": "Sheet policy is 'Test Claim Submission' with Max Benefit 0; the lease and SD addendum files are placeholder pages reading 'Sample 1, 2 ,3', so no real lease/SD program evidence. Ledger only covers Oct 2022 onward (starting balance 0), so first full month (Aug 2022) payment history is unknown; all rent Oct 2022-Feb 2023 paid by ACH. Initial term 7 months inferred from move-in 07/22/2022 to lease expiration 02/21/2023. Tenant forwarding address shown as 910 16th St STE 420, Denver CO.",
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "aaf914b1d9d682f1d"
+ }
+}

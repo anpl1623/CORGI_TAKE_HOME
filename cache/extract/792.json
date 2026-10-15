@@ -1,0 +1,212 @@
+{
+ "tracking": 792,
+ "winning_document": "Disposition letter_Noah Zwilling.pdf",
+ "pm_stated_amount_due": 3325.93,
+ "reconciliation": "sum(open lines) 90.72+1574.21+90.00+395.00+1176.00 = 3325.93, credits 0.00, vs PM stated 3325.93 (disposition letter 08/26/2024, demand letter 08/27/2024 and AppFolio ledger 09/04/2024 all agree); no difference.",
+ "documents": [
+  {
+   "file": "Disposition letter_Noah Zwilling.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning PM accounting doc: four charges totaling 3,325.93."
+  },
+  {
+   "file": "tenant_ledger-noah_zwilling_james_schneider-20240904.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-04",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "AppFolio, oldest-first. Used for rent history, first-month payments and confirming the four open 08/26/2024 charges. All rent paid through the prorated August 2024 month."
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 5664 Zwilling, Noah.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for 3,325.93 by 09/03/2024; same total as the disposition letter. Its lease dates (08/07/2022-08/10/2024) show the tenancy began in 2022."
+  },
+  {
+   "file": "Inspections_Move-out_Noah Zwilling.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-08-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Text only, scanned for pet evidence: 'Pet urine stains in carpet', 'Carpet has pet damage'. PM review block lists the charges to apply. Key charges ($50 x2) were not charged because the keys were returned."
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary_Noah Zwilling_Final Bill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Pioneer Energy final utility bill 07/16-08/10/2024, 90.72. Backs the statement line, so counted once."
+  },
+  {
+   "file": "noah-zwilling_James Schneider_05-30-2023_lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-05-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 08/07/2023-08/06/2024, rent 1,565 plus garage 95, trash 20 and TLL 19.95. Auto-renews on a 2-month basis. Retroactive-pet-fee clause."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1565,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-08-06",
+  "current_term_start": "2023-08-07",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": null,
+  "lease_end": "2024-08-06",
+  "lease_start": "2023-08-07",
+  "monthly_sd_premium": null,
+  "recurring_addons": [
+   {
+    "name": "Garage #19",
+    "amount": 95
+   },
+   {
+    "name": "Trash fee",
+    "amount": 20
+   },
+   {
+    "name": "TLL20 (listed in lease; ledger charged it only once, prorated 16.09 in Aug 2023)",
+    "amount": 19.95
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1000
+ },
+ "move_out": {
+  "move_out_date": "2024-08-10",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 4,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Final utility bill 07/16/24-08/10/24 (Pioneer Energy Management), charged as Utility Reimbursement Fee",
+   "category": "utilities",
+   "amount_charged": 90.72,
+   "amount_open": 90.72,
+   "date_posted": "2024-08-26",
+   "service_period_start": "2024-07-16",
+   "service_period_end": "2024-08-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition letter_Noah Zwilling.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Carpet pro ration/unit sealing. PM review attributes it to pet evidence: urine stains in carpet, carpet pet damage. No vendor invoice or breakdown.",
+   "category": "pet_damage_odor",
+   "amount_charged": 1574.21,
+   "amount_open": 1574.21,
+   "date_posted": "2024-08-26",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition letter_Noah Zwilling.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Painting charges",
+   "category": "painting",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-08-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition letter_Noah Zwilling.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "One-time pet fee (395) from 'Pet fees - $1571 ($395 one-time pet fee and $49 per month for 24 months)'. Charged retroactively for an unauthorized pet.",
+   "category": "pet_fee_rent",
+   "amount_charged": 395,
+   "amount_open": 395,
+   "date_posted": "2024-08-26",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition letter_Noah Zwilling.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Retroactive pet rent 49/month x 24 months = 1,176 (from the 1,571 pet fee line). Months are not itemized.",
+   "category": "pet_fee_rent",
+   "amount_charged": 1176,
+   "amount_open": 1176,
+   "date_posted": "2024-08-26",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition letter_Noah Zwilling.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-noah_zwilling_james_schneider-20240904.pdf",
+   "flag": "policy_evidence_deposit_waiver",
+   "quote": "Mgmt Held Security Deposits - security deposit wavier special -1,000.00"
+  },
+  {
+   "file": "Inspections_Move-out_Noah Zwilling.pdf",
+   "flag": "pet_evidence",
+   "quote": "Found evidence of a pet after move out pre move out - none move in condition"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-09-04",
+  "balance_due": 3325.93,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-28"
+ },
+ "extraction_confidence": 0.88,
+ "notes": "Tenancy began 08/07/2022 (ledger); the 2023-24 lease is a continuation, so is_renewal is inferred. The 09/01/2023 ledger credit of -1,000 (deposit waiver special) was already applied to rent, so it is not a credit against this claim; no SDRP premium is separately charged on the ledger. No policy addendum is in the folder, but the ledger shows the waiver. Rent through 08/10/2024 (prorated 504.84 + trash 6.45 + garage 30.65) was paid by the 07/28 payment, so no rent is open. The carpet line has photos in the inspection report but no invoice, and it is not split between pet and non-pet work. Fee ledger earliest months (2022) show an NSF history and a 6-month deposit payment plan; none of it is open.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a415dbd5095ee129d"
+ }
+}

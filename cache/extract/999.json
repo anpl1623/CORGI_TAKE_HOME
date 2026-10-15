@@ -1,0 +1,166 @@
+{
+ "tracking": 999,
+ "winning_document": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+ "documents": [
+  {
+   "file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-13",
+   "note": "Finalized 11/13/2024 SDT; itemizes 1,110.50",
+   "opened_visually": false,
+   "revised": true,
+   "used_for_amounts": true
+  },
+  {
+   "file": "2105 MONHEGAN WAY_TENANT LEDGER.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-05",
+   "note": "Confirms open 4153 Damage 1,110.50 dated 11/13/2024",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  }
+ ],
+ "evidence": [
+  {
+   "file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "flag": "flooring_without_support",
+   "quote": "Hardwood flooring repair $ 544.00"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "lease": {
+  "base_monthly_rent": 3945,
+  "sd_program": "unknown",
+  "lease_start": "2023-01-17",
+  "lease_end": "2024-10-16",
+  "current_term_start": "2023-01-17",
+  "current_term_end": "2024-10-16"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-16",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-12-05",
+  "balance_due": 1110.5,
+  "last_payment_date": "2024-10-08",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "line_items": [
+  {
+   "description": "Prep walls for paint",
+   "category": "painting",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace broken blinds",
+   "category": "repairs_damage",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace light bulbs",
+   "category": "other_damage",
+   "amount_charged": 24,
+   "amount_open": 24,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Replace kitchen cabinet knobs",
+   "category": "repairs_damage",
+   "amount_charged": 22.5,
+   "amount_open": 22.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace amenity card",
+   "category": "other_fee",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Hardwood flooring repair",
+   "category": "flooring",
+   "amount_charged": 544,
+   "amount_open": 544,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaning",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2105_Monhegan_Way_-_SDT_-_Bowles&Hollis_FINALIZED (1).pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 1110.5,
+ "reconciliation": "Open lines sum 1,110.50 minus credits 0 equals finalized SDT 1,110.50 and ledger 4153 Damage 1,110.50.",
+ "notes": "Sheet move-out equals lease end. Ledger shows early-terminate fee 7,890 paid 9/16/2024 (not open, so termination set early_termination, low confidence). Keys fields garbled; no key charge claimed.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a1db7988a40180292"
+ }
+}

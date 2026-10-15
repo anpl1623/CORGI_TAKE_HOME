@@ -1,0 +1,188 @@
+{
+ "tracking": 41,
+ "documents": [
+  {
+   "file": "313 Flyway Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-01-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware (newest-first). Only unpaid rows: 4010 Maintenance Coordination $200 and 5018 Move-out Repair : TIQF3NL $965 (01/24/2023); total unpaid $1,165; deposit held $0; all rent/SDRP/RBP through Jan 2023 paid."
+  },
+  {
+   "file": "313_Flyway_-_Collection_Letter_.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-01-24",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Demand for $1,165.00 within 15 days, referring to attached ledger; confirms total."
+  },
+  {
+   "file": "invoice_23_Jan_2023_20_19_19.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-01-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "TnT Property Solutions Meld #TIQF3NL $965 = ledger Move-out Repair TIQF3NL; used only to split into cleaning/trash 540, carpet cleaning 200, repairs/paint 225."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(05-31-2022_-_05-31-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-05-31",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver YES: $50/month in lieu of $2,850 deposit."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2022_(05-31-2022_-_05-31-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-05-31",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 06/04/2022-06/03/2023, rent $1,900; para 8 $200 administrative fee for administering vendors/repairs when deductions taken; para 24 military clause; para 29 early termination (rent until re-rented plus reletting costs)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1900,
+  "lease_start": "2022-06-04",
+  "lease_end": "2023-06-03",
+  "current_term_start": "2022-06-04",
+  "current_term_end": "2023-06-03",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2850,
+  "monthly_sd_premium": 50,
+  "recurring_addons": [
+   {
+    "name": "4037 SDRP Monthly Premium (45 + 5 admin fee Jun-Aug; 50 from Sep)",
+    "amount": 50
+   },
+   {
+    "name": "4039 RBP",
+    "amount": 27
+   }
+  ],
+  "lease_break_terms": "Para 29 Early Termination With Notice: tenant pays all rent and late fees until unit re-rented plus advertising, leasing commissions, re-keying, administrative fee and management costs and cleaning. Para 24 Military Clause: PCS orders/90+ day deployment allow termination with orders, 30 days written notice and rent through notice expiration. Para 14: either party may terminate at end of initial term with 30 days notice."
+ },
+ "move_out": {
+  "move_out_date": "2023-01-01",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "4010 - Maintenance Coordination fee (lease para 8 $200 administrative fee for administering vendors/repairs)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-01-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "313 Flyway Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair TIQF3NL item 1: Full cleaning including all doors and trim; trash out all left over items including back yard (cleaning and trash-out combined, no split)",
+   "category": "cleaning",
+   "amount_charged": 540,
+   "amount_open": 540,
+   "date_posted": "2023-01-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_23_Jan_2023_20_19_19.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Move-out Repair TIQF3NL item 2: Complete carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-01-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_23_Jan_2023_20_19_19.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair TIQF3NL item 3: Replace back door blinds (broken piece), push laundry appliances back to wall, re-hang bedroom 1&2 window blind frames, paint master/front bedroom wall where brown stains are (repairs and paint combined, no split)",
+   "category": "repairs_damage",
+   "amount_charged": 225,
+   "amount_open": 225,
+   "date_posted": "2023-01-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_23_Jan_2023_20_19_19.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": true,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "military_scra",
+   "quote": "One Time ePayment received from Caleb Matthew Willis, Paid from Active Duty Checking account",
+   "file": "313 Flyway Ledger.pdf"
+  },
+  {
+   "flag": "pm_stated_amount",
+   "quote": "If the total amount due of $ $1,165.00 is not paid within 15 days of this letter",
+   "file": "313_Flyway_-_Collection_Letter_.pdf"
+  },
+  {
+   "flag": "sd_program_sdrp",
+   "quote": "$ 50 per month You waive payment of the security deposit in lieu",
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(05-31-2022_-_05-31-2022).pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-01-26",
+  "balance_due": 1165,
+  "first_full_month": "2022-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-12-27"
+ },
+ "pm_stated_amount_due": 1165,
+ "winning_document": "313 Flyway Ledger.pdf",
+ "reconciliation": "200+540+200+225 = 1165; credits 0; matches ledger total unpaid and collection letter $1,165.00 (invoice TIQF3NL $965 = ledger Move-out Repair line, counted once).",
+ "notes": "Three co-tenants (Willis, Skrief, Fritzinger). All rent, SDRP and RBP paid through January 2023 (Jan rent paid 12/27/2022); no rent, lease-break or reletting charges claimed despite move-out ~5 months before lease end 06/03/2023. Military flag inferred only from payer bank account name 'Active Duty Checking' plus lease military clause; no orders or SCRA notice in the folder. Move-out date per sheet (2023-01-01); vendor ticket completed 01/20/2023. July 2022 rent was 1,710 (adjusts June full-month charge for lease start 6/4) and was paid 6/26-6/30. Invoice items 1 and 3 combine cleaning+trash-out and repairs+painting respectively without sub-amounts.",
+ "extraction_confidence": 0.87,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "acd034974ea70578b"
+ }
+}

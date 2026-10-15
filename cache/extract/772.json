@@ -1,0 +1,177 @@
+{
+ "tracking": 772,
+ "winning_document": "304 Islas Move Out Statement.pdf",
+ "pm_stated_amount_due": 240,
+ "reconciliation": "sum(open lines) 90+100+50 = 240.00 - 0.00 credits = 240.00 vs PM stated 240.00 (statement, SDI and move-out letter all say 240.00): exact match.",
+ "extraction_confidence": 0.9,
+ "notes": "Perry Reid / The Allure at River's Edge, Webster City IA. End-of-term move-out 6/30/2024 (lease term ends 6/30/2024). Move-out statement 7/8/2024 shows June 2024 rent/SDP/utility fully covered by 6/1/2024 payments (700+263 vs 963), so only three turnover charges posted 7/8/2024 are open: carpet/floor cleaning 'per lease' 90 (ledger label 'Non-Refundable Fee Per Lease'; SDI places it under Carpet/Floor Cleaning), painting 100, broken living room/bedroom blinds 50. No rent, late fees, SDRP premium or utilities open. 5/3/2024 'Zego Partial Refund' 300 charge/payable/check nets to zero (refund of a 300 overpayment) and is not an open charge. Lease facts: current lease contract dated 8/31/2023, term 9/1/2023-6/30/2024 (10 months), rent 895; tenant actually moved in 6/14/2023 (ledger 'Lease From 06/14/2023', SD addendum signed 6/14/2023, SDP charged from 6/14/2023), so the current contract is treated as a renewal/new term of an existing tenancy; the sheet start date 2023-09-01 matches the current term. Lease form text lists a $350 security deposit 'unless modified by addenda' but the signed addendum waives the deposit ($1,200 stated) for $33/month and the ledger shows no deposit ever charged or paid. Renters insurance box marked NO on the addendum; the $35 monthly 'Utility Revenue' is a PM utility charge (lease: owner pays trash). Not opened: DD authorization form (classified from file name).",
+ "documents": [
+  {
+   "file": "304 Islas Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-14",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SD waiver YES $33/month (waives $1,200 deposit); renters insurance NO"
+  },
+  {
+   "file": "304 Islas Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-08-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "pages 1-2 opened: term 9/1/2023-6/30/2024, rent 895, lease SD line 350.00"
+  },
+  {
+   "file": "304 Islas Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "confirms nothing else open; first-month history"
+  },
+  {
+   "file": "304 Islas Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "balance due 240.00, collections warning"
+  },
+  {
+   "file": "304 Islas Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "winning accounting document"
+  },
+  {
+   "file": "304 Islas SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "used for category mapping of the three charges"
+  },
+  {
+   "file": "WEB DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ignored per efficiency rule"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 895,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-09-01",
+  "current_term_end": "2024-06-30",
+  "initial_term_months": 10,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "Cl.11 early move-out: liable for rent until re-rented and repayment of any rent concession; not applicable (end of term).",
+  "lease_end": "2024-06-30",
+  "lease_start": "2023-06-14",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Utility Revenue (monthly utility charge)",
+    "amount": 35
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 1200
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": 0,
+  "move_out_date": "2024-06-30",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Non-Refundable Fee Per Lease (SDI: Carpet/Floor Cleaning, Per Lease)",
+   "category": "carpet_cleaning",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-07-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "304 Islas Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Painting/Drywall Repairs",
+   "category": "painting",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-07-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "304 Islas Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Living Room & Bedroom Blinds (broken)",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-07-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "304 Islas Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 240,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-01"
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "adb32e8063f901701"
+ }
+}

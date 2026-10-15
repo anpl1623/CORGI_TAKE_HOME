@@ -1,0 +1,197 @@
+{
+ "tracking": 947,
+ "winning_document": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+ "pm_stated_amount_due": 1005,
+ "documents": [
+  {
+   "file": "INVOICE_1727_from_JDR Solutions, LLC.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "JDR Solutions invoice 1727: lawn service (overgrown) 375.00, service date 08/10/2024; backs the lawn statement line."
+  },
+  {
+   "file": "Work_Order_Billable_Item_invoice_1642-1-6.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Moore for Less invoice 1642-1-6: interior painting/house cleaning and appliances 575.00; equals house clean 300 + paint 375 less 100 cleaning credit."
+  },
+  {
+   "file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Charges 1,305 less credits 300 (house cleaning 100, maintenance 200) = amount due 1,005. Winning document."
+  },
+  {
+   "file": "satchell-c-burton.pdf Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "PURE Alabama lease 28 pp: term 7/27/2023-7/26/2024, rent 850, SDRP fee RIS_1000, SD waiver addendum ($20/mo, waives 850), RBP 39; parsed via text layer."
+  },
+  {
+   "file": "tenant_ledger-satchell_c_burton-20241118.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-18",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first; matches statement: coordination fee 7/31, deposit-forfeit rows 9/26, credits 11/14; balance 1,005.00."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 850,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 850,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 20,
+  "recurring_addons": [
+   {
+    "name": "SDRP Fee (RIS_1000)",
+    "amount": 20
+   },
+   {
+    "name": "RBP w/ Insurance - Resident Benefit Package",
+    "amount": 39
+   }
+  ],
+  "lease_start": "2023-07-27",
+  "lease_end": "2024-07-26",
+  "current_term_start": "2023-07-27",
+  "current_term_end": "2024-07-26",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 5.4: after 6 months tenant may terminate with 60-day written notice plus termination fee of two months' additional rent, $125 lease modification fee and $150 processing fee; holdover (para 6.1) liquidated damages of three times rent at lessor's option."
+ },
+ "move_out": {
+  "move_out_date": "2024-07-30",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 4,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-18",
+  "balance_due": 1005,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-02"
+ },
+ "line_items": [
+  {
+   "description": "Coordination fee (ledger: Lease Violation Fee - Coordination fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cut overgrown lawn and shrubs (JDR invoice 1727, service 08/10/2024)",
+   "category": "landscaping_lawn",
+   "amount_charged": 375,
+   "amount_open": 375,
+   "date_posted": "2024-09-26",
+   "service_period_start": "2024-08-10",
+   "service_period_end": "2024-08-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "House clean",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Remove trash and items from house",
+   "category": "trash_removal",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Patch and paint two walls, replace broken blind (mixed painting + blind repair, no split given)",
+   "category": "painting",
+   "amount_charged": 375,
+   "amount_open": 375,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit for House Cleaning (11/14/2024)",
+   "amount": 100,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf"
+  },
+  {
+   "description": "Credit for Maintenance (11/14/2024); line it offsets not stated (equals trash removal 200)",
+   "amount": 200,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf"
+  }
+ ],
+ "flags": {},
+ "evidence": [
+  {
+   "file": "tenant_ledger-satchell_c_burton-20241118.pdf",
+   "flag": "holdover_days",
+   "quote": "Move out date: 07/30/2024 ... Lease Expiration: 07/26/2024"
+  },
+  {
+   "file": "deposit_disposition_amount_due_satchell_c_burton_111424.pdf",
+   "flag": "credits",
+   "quote": "Credit for House Cleaning $100.00; Credit for Maintenance $200.00"
+  }
+ ],
+ "extraction_confidence": 0.88,
+ "reconciliation": "Open lines 55+375+300+200+375 = 1,305.00, less credits 100+200 = 300.00, net 1,005.00 = PM stated 1,005.00 and ledger balance 1,005.00.",
+ "notes": "Lease expiration 7/26/2024 per lease and ledger (sheet says 7/27); tenant vacated 7/30/2024, so 4 days (3 by sheet date) past lease end, but July rent was paid in full on 7/2 and PM billed no holdover rent. SD waiver (SDRP, 20/mo, waives 850) and no cash deposit. Painting line mixes wall patch/paint with a broken blind replacement; vendor invoice 575 equals house clean 300 + paint 375 less the 100 cleaning credit. Earlier trash chargebacks (80 each) were paid. No pet evidence, no payment arrangement.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae8aec7c8d4df42f9"
+ }
+}

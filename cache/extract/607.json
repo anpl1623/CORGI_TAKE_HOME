@@ -1,0 +1,158 @@
+{
+ "tracking": 607,
+ "winning_document": "Security Deposit-Collections Letter.pdf",
+ "pm_stated_amount_due": 1822.5,
+ "reconciliation": "sum(open lines) 1467.50+300.00+55.00 = 1822.50, minus credits 0.00 = 1822.50 vs PM stated 1,822.50 (5/2/2024 letter, and the 5/6/2024 ledger total); no difference.",
+ "documents": [
+  {
+   "file": "Security Deposit-Collections Letter.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-02",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PURE security deposit disposition letter 5/2/2024: deposits paid $0.00, deductions 1,822.50, due from resident 1,822.50. Winning doc."
+  },
+  {
+   "file": "Tenant Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first ledger created 5/6/2024. The three 5/6 'Deposit Forfeit' and coordination charges match the letter exactly. Used for rent and fee history and to label the 55 coordination fee."
+  },
+  {
+   "file": "Invoices.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-05-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Paint walls throughout invoice 2,935.00 (WO 1064-3) and cleaning invoice 378863 for 300.00 dated 5/1/2024. Statement lines used, not the invoices. The paint is billed at 50% (1,467.50)."
+  },
+  {
+   "file": "SDRP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-02-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver: $2,000 deposit waived in lieu of $35 monthly."
+  },
+  {
+   "file": "Lease Agreement.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-02-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt sufficient. Term 3/6/2023 to 3/5/2024, rent 2,000."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 35,
+  "lease_start": "2023-03-06",
+  "lease_end": "2024-03-05",
+  "current_term_start": "2023-03-06",
+  "current_term_end": "2024-03-05",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Tenant may terminate after 6 months with 60 days written notice, a termination fee of two months additional rent, a $125 modification fee and a $150 processing fee. Holdover is at double rent. Not triggered.",
+  "recurring_addons": [
+   {
+    "name": "SDRP fee (security deposit waiver)",
+    "amount": 35
+   },
+   {
+    "name": "RBP with insurance (Resident Benefit Package)",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-06",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Paint walls ($2935 prorated for 5 years lost life of 10)",
+   "category": "painting",
+   "amount_charged": 1467.5,
+   "amount_open": 1467.5,
+   "date_posted": "2024-05-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Security Deposit-Collections Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "House cleaning (invoice 378863, 5/1/2024)",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-05-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Security Deposit-Collections Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Coordination fee (ledger: Lease Violation Fee - Coordination fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-05-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Security Deposit-Collections Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-05-06",
+  "balance_due": 1822.5,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-02-22"
+ },
+ "notes": "End-of-term move-out: lease ended 3/5/2024, keys returned 3/6/2024. The PM prorated March rent to 3/5 (322.58) and it was paid, so there is no holdover charge. The ledger in the file starts 8/31/2023 with a 0.00 balance, so the true first full month (April 2023) is not visible. Sept 2023 to Feb 2024 were all paid on time by credit card at 2,074 per month (rent 2,000 + RBP 39 + SDRP 35). Open balance is only the three post-move-out deductions. The paint charge is depreciated to 50% of the 2,935 invoice. Ledger deposit paid is 0.00.",
+ "extraction_confidence": 0.93,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ade0feeee50958b09"
+ }
+}

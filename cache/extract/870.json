@@ -1,0 +1,172 @@
+{
+ "tracking": 870,
+ "winning_document": "Mason C008 SDI.pdf",
+ "pm_stated_amount_due": 230,
+ "reconciliation": "Sum of open lines 230.00 (carpet replacement, pet urine, net of pet fees deducted by PM) minus 0.00 credits = 230.00, equal to PM's stated 230.00 (statement, SDI, letter and ledger agree).",
+ "documents": [
+  {
+   "file": "Mason C008 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Perry Reid SDI: only line is Flooring Replacement 'Carpet Replacement Pet urine Deducted pet fees' 230.00; Outstanding Balance section blank; total 230.00 due."
+  },
+  {
+   "file": "Mason C008 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Aug charges fully offset by 8/1 payment (balance 0.00), then carpet replacement 230.00 on 9/6; notice 7/17/2024."
+  },
+  {
+   "file": "Mason C008 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM letter: balance due 230.00 to The Lodge Apartments Holdings, LLC, 10 days before collections."
+  },
+  {
+   "file": "Mason C008 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger; only open item is the 9/6/2024 carpet charge 230.00; all rent/fee rows paid; last payment 8/1/2024."
+  },
+  {
+   "file": "Mason C008 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-05",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Image-only 27-page NAA lease 9/5/2023-8/31/2024, rent 790, SD $0.00, reletting charge $250, auto MTM renewal; pages 1, 2, 9-12 viewed incl. Animal Addendum (conditional authorization, animal description blank, additional monthly rent $25, no animal deposit)."
+  },
+  {
+   "file": "Mason C008 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid addendum: Renters Insurance YES $17/mo; Security Deposit Waiver YES $33/mo."
+  },
+  {
+   "file": "LOD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit authorization form; ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 790,
+  "lease_start": "2023-09-05",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2023-09-05",
+  "current_term_end": "2024-08-31",
+  "initial_term_months": 11.9,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "waived_deposit_amount": 790,
+  "cash_deposit_amount": 0,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 17
+   },
+   {
+    "name": "Pet Fee Income (monthly pet rent per ledger; Animal Addendum says $25)",
+    "amount": 50
+   },
+   {
+    "name": "Utility Revenue / Eco Fee",
+    "amount": 25
+   }
+  ],
+  "lease_break_terms": "Para 11: $250 reletting charge for early move-out / no proper notice / unpaid rent for full term / eviction. 30-day written notice must be received before the first day of the month prior to the last full calendar month; same rule for month-to-month. Late fee $30 flat. Animal addendum: one-time $250 additional fee stated (ledger shows non-refundable pet fee 198 paid at move-in), no animal deposit."
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Carpet Replacement Due to Pet Urine (SDI Flooring Replacement 'Pet urine Deducted pet fees'): PM netted pet fees collected against the replacement cost; no invoice, photos or carpet age provided",
+   "category": "pet_damage_odor",
+   "amount_charged": 230,
+   "amount_open": 230,
+   "date_posted": "2024-09-06",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Mason C008 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 230,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Mason C008 SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet Replacement Pet urine Deducted pet fees $230.00"
+  },
+  {
+   "file": "Mason C008 Ledger.docx",
+   "flag": "pet_fees_collected",
+   "quote": "Non-refundable Pet Fee 198.00; Pet Fee Income 50.00 monthly"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "notes": "Sheet facts match (rent 790, lease 9/5/2023-8/31/2024, move-out 8/31/2024, Policy 19824R, Max Benefit 1500). Move-out coincides with lease end; notice 7/17/2024. Only claimed item is a 230 pet-urine carpet replacement; the PM's SDI says pet fees were deducted, but the gross replacement cost and amount of pet fees applied are not stated, so no separate credit is recorded (230 is the net claimed amount). Tenant had a pet (monthly pet fee 50 and 198 one-time pet fee on ledger) although the Animal Addendum's animal description is blank. No invoice, photos or carpet age in folder. Tenant paid all rent/fees in full through 8/1/2024.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a7a4728647c179527"
+ }
+}

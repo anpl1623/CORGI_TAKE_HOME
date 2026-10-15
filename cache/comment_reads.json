@@ -1,0 +1,2776 @@
+{
+ "1181": {
+  "tracking": 1181,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "\"Greg's test claim\": an internal test record, not a real claim",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.6,
+  "decline_reason": "test claim"
+ },
+ "1182": {
+  "tracking": 1182,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Rent after lease end is excluded and utilities are capped at 150; the tenant settled, but no figures are given",
+  "cap_stated": null,
+  "charge_types": [
+   "rent_holdover",
+   "utilities"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1183": {
+  "tracking": 1183,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Utilities excluded; tenant disputes the removal charges and PM rebutted; no amounts given",
+  "cap_stated": null,
+  "charge_types": [
+   "utilities",
+   "trash_out",
+   "repairs"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1184": {
+  "tracking": 1184,
+  "decision": "pay",
+  "amount_estimate": 664.29,
+  "amount_basis": "Prorated Feb 3/28*600=64.29 + lease break 600 = 664.29 (under 1000 max)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "prorated_rent",
+   "lease_break"
+  ],
+  "confidence": 0.3,
+  "decline_reason": null
+ },
+ "1185": {
+  "tracking": 1185,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Jan+Feb unpaid 2*1400=2800, capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1186": {
+  "tracking": 1186,
+  "decision": "pay",
+  "amount_estimate": 3000,
+  "amount_basis": "Dec+Jan unpaid 2*2600=5200, capped at max 3000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1187": {
+  "tracking": 1187,
+  "decision": "pay",
+  "amount_estimate": 2750,
+  "amount_basis": "Lease break; PM requested 2750.00 = one month rent (under 4000 max)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1188": {
+  "tracking": 1188,
+  "decision": "pay",
+  "amount_estimate": 1700,
+  "amount_basis": "PM requesting 1700.00 for pool haul-off and resod; the lawn portion may be capped at 500, but the split is unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "trash_out",
+   "lawn"
+  ],
+  "confidence": 0.3,
+  "decline_reason": null
+ },
+ "1189": {
+  "tracking": 1189,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Vanity sink replacement after tenant self-repair; tenant settled; no amount",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1190": {
+  "tracking": 1190,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Claim less short-term-lease rent less 170 (120 labor + 50 parts) for plumbing; the base amount is unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs",
+   "plumbing"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1191": {
+  "tracking": 1191,
+  "decision": "pay",
+  "amount_estimate": 1000,
+  "amount_basis": "1/3 of paint covered, no pressure wash; \"benefit cannot exceed 1000.00\", assumed to bind",
+  "cap_stated": 1000,
+  "charge_types": [
+   "painting",
+   "repairs",
+   "pressure_wash"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1192": {
+  "tracking": 1192,
+  "decision": "unknown",
+  "amount_estimate": null,
+  "amount_basis": "Tenant disputes the charges and the claim is on hold; no amounts given",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.25,
+  "decline_reason": null
+ },
+ "1193": {
+  "tracking": 1193,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Jan bounced + Feb unpaid + lease break = 3*1395=4185, capped at max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break",
+   "nsf"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1194": {
+  "tracking": 1194,
+  "decision": "pay",
+  "amount_estimate": 2195,
+  "amount_basis": "Jan 2025 rent unpaid = 2195 (lease ended 1/31; Feb holdover not covered)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1195": {
+  "tracking": 1195,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Nothing paid since Nov 2024, so Nov + prorated Dec >1325 exceeds the cap; capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1196": {
+  "tracking": 1196,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "30 days rent (2250) + prorated March + repairs exceeds 2500; capped at max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "prorated_rent",
+   "repairs"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1197": {
+  "tracking": 1197,
+  "decision": "pay",
+  "amount_estimate": 963,
+  "amount_basis": "SD itemization 3463 less 2500 pet floor damage = 963 (ledger shows 1097; on hold)",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "pet",
+   "rent_holdover"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1198": {
+  "tracking": 1198,
+  "decision": "pay",
+  "amount_estimate": 1025,
+  "amount_basis": "Lease break = one month rent 1025; move-in special repayment assumed not covered",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "concession"
+  ],
+  "confidence": 0.35,
+  "decline_reason": null
+ },
+ "1199": {
+  "tracking": 1199,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Lease break (700) + cleaning + repairs; the cleaning and repair amounts are unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1200": {
+  "tracking": 1200,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Feb 1295 + Mar prorated 10/31*1295=417.74 + lease break 1295 = 3007.74, capped at max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "prorated_rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1201": {
+  "tracking": 1201,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Carpet padding replacement + ozone treatment; bug problem and possible pets; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "pest",
+   "pet"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1202": {
+  "tracking": 1202,
+  "decision": "pay",
+  "amount_estimate": 1245,
+  "amount_basis": "Jan 2025 rent unpaid = 1245; no rent past 1/31 lease end; fees excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "rent_holdover",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1203": {
+  "tracking": 1203,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break 1500 + partial Feb exceeds the cap; capped at max 1500 (tenant payments are later collections)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "prorated_rent"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1204": {
+  "tracking": 1204,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and damages; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1205": {
+  "tracking": 1205,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "\"CLAIM IS DENIED\": unpaid rent after the 11-30-2024 lease end, with no month-to-month agreement",
+  "cap_stated": null,
+  "charge_types": [
+   "rent_holdover"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "rent after lease end with no month-to-month agreement; claim denied"
+ },
+ "1206": {
+  "tracking": 1206,
+  "decision": "pay",
+  "amount_estimate": 1205.79,
+  "amount_basis": "6/28*993=212.79 prorated Feb + 993 lease break = 1205.79",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent",
+   "lease_break",
+   "utilities",
+   "program_fees"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1207": {
+  "tracking": 1207,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and repairs; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1208": {
+  "tracking": 1208,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Jan 790 + partial Feb + lease break 790 >= 1580, capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "prorated_rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1209": {
+  "tracking": 1209,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Electrical and utilities excluded; the other charges and amounts are unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "utilities"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1210": {
+  "tracking": 1210,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Jan 935 + lease break 935 = 1870, capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1211": {
+  "tracking": 1211,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Unpaid since Nov 2024 (Nov-Jan + partial Feb, 1036/mo) exceeds the cap; capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1212": {
+  "tracking": 1212,
+  "decision": "pay",
+  "amount_estimate": 555,
+  "amount_basis": "Partial Feb unpaid: 15/28*1036 = 555.00 (move-out 2/15)",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent"
+  ],
+  "confidence": 0.25,
+  "decline_reason": null
+ },
+ "1213": {
+  "tracking": 1213,
+  "decision": "pay",
+  "amount_estimate": 745,
+  "amount_basis": "\"ELIGIBLE FOR 1 MONTH RENT FOR LEASE BREAK\" = 745; reletting fee excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "reletting_fee"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1214": {
+  "tracking": 1214,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Prorated 14 days Feb = 14/28*1195 = 597.50, plus cleaning and repairs of unknown amount",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent",
+   "cleaning",
+   "repairs",
+   "late_fees",
+   "program_fees",
+   "utilities"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1215": {
+  "tracking": 1215,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Feb 1699 + lease break 1699 = 3398, capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1216": {
+  "tracking": 1216,
+  "decision": "pay",
+  "amount_estimate": 1346.65,
+  "amount_basis": "Confirmed disbursement: \"the correct amount is 1346.65\"",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "admin_fees",
+   "late_fees"
+  ],
+  "confidence": 0.95,
+  "decline_reason": null
+ },
+ "1217": {
+  "tracking": 1217,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Move-out cleaning and repairs; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1218": {
+  "tracking": 1218,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and minor repairs; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1219": {
+  "tracking": 1219,
+  "decision": "pay",
+  "amount_estimate": 1268.71,
+  "amount_basis": "7/31*1035=233.71 Oct prorated + Nov rent 1035 = 1268.71",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent",
+   "rent",
+   "lease_break",
+   "late_fees",
+   "utilities",
+   "program_fees"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1220": {
+  "tracking": 1220,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Eviction with multiple bounced payments: at least 2*1095 = 2190, capped at max 1500 (assumed)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction",
+   "nsf"
+  ],
+  "confidence": 0.3,
+  "decline_reason": null
+ },
+ "1221": {
+  "tracking": 1221,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Feb 900 + lease break 900 = 1800, capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1222": {
+  "tracking": 1222,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Feb 950 + lease break 950 = 1900, capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1223": {
+  "tracking": 1223,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and repairs; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1224": {
+  "tracking": 1224,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs, rekey, hauling; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "rekey",
+   "trash_out"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1225": {
+  "tracking": 1225,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs and maintenance; the coordination fee is excluded; tenant settled; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "admin_fees"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1226": {
+  "tracking": 1226,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Lawn, cleaning and damages; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "lawn",
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15,
+  "decline_reason": null
+ },
+ "1227": {
+  "tracking": 1227,
+  "decision": "pay",
+  "amount_estimate": 85,
+  "amount_basis": "\"OVEN CLEANING AND DRIP PANS, 85.00\"",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning"
+  ],
+  "confidence": 0.7,
+  "decline_reason": null
+ },
+ "1228": {
+  "tracking": 1228,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Rent unpaid since Sept 2024 (>3 months at 1650), capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.65,
+  "decline_reason": null
+ },
+ "1229": {
+  "tracking": 1229,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "One month rent 2350 + repairs + one SDRP fee; the repair and fee amounts are unknown (cap 3500)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break",
+   "repairs",
+   "sdrp_fee"
+  ],
+  "confidence": 0.2,
+  "decline_reason": null
+ },
+ "1230": {
+  "tracking": 1230,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break 1458 + partial Dec exceeds the cap; capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent",
+   "lease_break"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1231": {
+  "tracking": 1231,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "17/31*1945=1066.61 Mar prorated + lease break 1945 = 3011.61, capped at max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "prorated_rent",
+   "lease_break"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1232": {
+  "tracking": 1232,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "Water leak damage from plumbing must go through a TLL policy claim, not the SD program",
+  "cap_stated": null,
+  "charge_types": [
+   "water_damage",
+   "repairs"
+  ],
+  "confidence": 0.5,
+  "decline_reason": "water leak damage not covered under the SD policy (redirected to TLL)"
+ },
+ "1233": {
+  "tracking": 1233,
+  "decision": "pay",
+  "amount_estimate": 1700,
+  "amount_basis": "PM requesting 1700.00; Feb rent 1700 + trash-out + repairs, limited to the request",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "trash_out",
+   "repairs"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1234": {
+  "tracking": 1234,
+  "decision": "pay",
+  "amount_estimate": 1180,
+  "amount_basis": "Amount requested changed to 1,180 to match the demand letter",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1235": {
+  "tracking": 1235,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Lease break 1829 + eviction rent; \"maximum benefit cannot exceed 2000\", assumed to bind",
+  "cap_stated": 2000,
+  "charge_types": [
+   "lease_break",
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1071": {
+  "tracking": 1071,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "partial Nov 2024 rent + lease break (<=1 month = 2100); amounts not given, likely >= max_benefit 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.3
+ },
+ "1072": {
+  "tracking": 1072,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'NO COVERAGE FOR LATE FEES UNDER SD PROGRAM' - only late fees claimed, no collection activity",
+  "cap_stated": null,
+  "charge_types": [
+   "late_fees"
+  ],
+  "confidence": 0.55,
+  "decline_reason": "late fees not covered"
+ },
+ "1073": {
+  "tracking": 1073,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "'almost 3K in repairs, cleaning and item removal' > max_benefit 1500 -> capped 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning",
+   "trash_out"
+  ],
+  "confidence": 0.6
+ },
+ "1074": {
+  "tracking": 1074,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "no charges or amounts mentioned; tenant contacted for collection (bankruptcy)",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.2
+ },
+ "1075": {
+  "tracking": 1075,
+  "decision": "pay",
+  "amount_estimate": 1110.2,
+  "amount_basis": "pm_explanation figure '1110.2' (repairs), under max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.6
+ },
+ "1076": {
+  "tracking": 1076,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "rent unpaid since Nov 2024 (2300 + Dec partial) > stated cap 2500 -> 2500",
+  "cap_stated": 2500,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6
+ },
+ "1077": {
+  "tracking": 1077,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "cleaning and trash out, tenant settled; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "trash_out"
+  ],
+  "confidence": 0.2
+ },
+ "1078": {
+  "tracking": 1078,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "repairs, maint; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "maintenance"
+  ],
+  "confidence": 0.2
+ },
+ "1079": {
+  "tracking": 1079,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "repairs/damages; tenant settled in payments; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "damages"
+  ],
+  "confidence": 0.2
+ },
+ "1080": {
+  "tracking": 1080,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "'EVICTION' only; no amounts; move-out after lease end (holdover rent not covered)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.2
+ },
+ "1081": {
+  "tracking": 1081,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "cap 2000 per explanation + 'per Doug, additional 500.00' = 2500 (= max_benefit)",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.45
+ },
+ "1082": {
+  "tracking": 1082,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Nov rent 1750 + partial Dec (~282) = ~2032 > stated cap 2000 -> 2000",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6
+ },
+ "1083": {
+  "tracking": 1083,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "lease break (1895) + repairs + rent owed; amounts not given, likely >= max_benefit 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "repairs",
+   "rent",
+   "fees"
+  ],
+  "confidence": 0.3
+ },
+ "1084": {
+  "tracking": 1084,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "rent owed since Oct 2024 (3 x 1205 > 1500) -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6
+ },
+ "1085": {
+  "tracking": 1085,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'First full month rent payment never made, not eligible'",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "first full month rent never paid"
+ },
+ "1086": {
+  "tracking": 1086,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'First full month rent never paid, not eligible'",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "first full month rent never paid"
+ },
+ "1087": {
+  "tracking": 1087,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "rent unpaid since Sept 2024 (Sep-Dec x 1129) > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.65
+ },
+ "1088": {
+  "tracking": 1088,
+  "decision": "pay",
+  "amount_estimate": 1120,
+  "amount_basis": "rent unpaid since Oct 2024, moved out Nov 15: Oct 560 + Nov 560 = 1120 (could be 840 if Nov prorated)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.35
+ },
+ "1089": {
+  "tracking": 1089,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Nov rent 810 + lease break 810 = 1620 > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break",
+   "nsf"
+  ],
+  "confidence": 0.55
+ },
+ "1090": {
+  "tracking": 1090,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "partial Nov rent (unknown) + lease break (<=813); range ~813-1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.2
+ },
+ "1091": {
+  "tracking": 1091,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "cleaning charges; no amount",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1092": {
+  "tracking": 1092,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'Claim cancelled per PM', cheque never went out",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "PM cancelled claim"
+ },
+ "1093": {
+  "tracking": 1093,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'NO RENT PAID FOR THE FIRST FULL MONTH, CLAIM DENIED'",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.95,
+  "decline_reason": "first full month rent never paid"
+ },
+ "1094": {
+  "tracking": 1094,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "lease break + Sept, Nov, partial Dec rent (>2 x 1043) > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.65
+ },
+ "1095": {
+  "tracking": 1095,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "'COVERING MAX BENEFIT FOR LOST RENT' (24883 - 20133.76 = 4749 owed) -> max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.75
+ },
+ "1096": {
+  "tracking": 1096,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'NO POLICY FOUND IN QL, PLUS FIRST FULL MONTH RENT NEVER PAID'",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "no policy found; first full month rent never paid"
+ },
+ "1097": {
+  "tracking": 1097,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "pm_explanation: 'First full month rent never collected... not eligible' (adjuster asked Doug, final explanation says not eligible)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "nsf"
+  ],
+  "confidence": 0.65,
+  "decline_reason": "first full month rent never paid"
+ },
+ "1098": {
+  "tracking": 1098,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "maint, cleaning, repairs; settled; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "maintenance",
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1099": {
+  "tracking": 1099,
+  "decision": "unknown",
+  "amount_estimate": null,
+  "amount_basis": "no explanation or comments",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.1
+ },
+ "1100": {
+  "tracking": 1100,
+  "decision": "pay",
+  "amount_estimate": 250,
+  "amount_basis": "PM refunding 200 for screens; 'collection will be for 250.00 only' -> net payout 250 (gross likely 450); pet cleaning excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "pet",
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.35
+ },
+ "1101": {
+  "tracking": 1101,
+  "decision": "pay",
+  "amount_estimate": 1000,
+  "amount_basis": "lease break, owes 11K > max_benefit 1000 -> 1000; note 'Pure will be issuing refund for 670.00' (net could be 330)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.3
+ },
+ "1102": {
+  "tracking": 1102,
+  "decision": "pay",
+  "amount_estimate": 3500,
+  "amount_basis": "lease break (<=3410) + landscaping (<=500) + partial Jan rent likely > max 3500 -> 3500; utilities excluded",
+  "cap_stated": 500,
+  "charge_types": [
+   "lease_break",
+   "lawn",
+   "rent",
+   "utilities"
+  ],
+  "confidence": 0.35
+ },
+ "1103": {
+  "tracking": 1103,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "covering maint, repairs, lawn, cleaning (holdover rent excluded); no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "maintenance",
+   "repairs",
+   "lawn",
+   "cleaning",
+   "holdover_rent"
+  ],
+  "confidence": 0.2
+ },
+ "1104": {
+  "tracking": 1104,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Dec partial + partial Jan rent + lease break (1077) + repairs likely > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break",
+   "repairs"
+  ],
+  "confidence": 0.5
+ },
+ "1105": {
+  "tracking": 1105,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "lease break fee (<=3045) + cleaning + make ready; no amounts; max 6000",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "cleaning",
+   "make_ready"
+  ],
+  "confidence": 0.2
+ },
+ "1106": {
+  "tracking": 1106,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "eviction, rent unpaid since Oct 2024 (>3 x 2295) but max_benefit unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.2
+ },
+ "1107": {
+  "tracking": 1107,
+  "decision": "pay",
+  "amount_estimate": 1472,
+  "amount_basis": "'claim has been reduced by PM to 1472.00' (repairs), under max 1500; later settled",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.65
+ },
+ "1108": {
+  "tracking": 1108,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "lease break + rent unpaid since Dec 2024 (>= 1477 + Jan) > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.65
+ },
+ "1109": {
+  "tracking": 1109,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "rent unpaid since Nov 2024 (Nov+Dec = 2496) > stated cap 1500 -> 1500",
+  "cap_stated": 1500,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.7
+ },
+ "1110": {
+  "tracking": 1110,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "no holdover rent/late fees; utilities capped at 150; other charges unstated",
+  "cap_stated": 150,
+  "charge_types": [
+   "holdover_rent",
+   "late_fees",
+   "utilities"
+  ],
+  "confidence": 0.15
+ },
+ "1111": {
+  "tracking": 1111,
+  "decision": "pay",
+  "amount_estimate": 895,
+  "amount_basis": "'RENT NOT PAID FOR THE LAST MONTH OF LEASE, JANUARY 2025' = 895 (fees excluded; could be prorated ~375)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.35
+ },
+ "1112": {
+  "tracking": 1112,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "utilities (excluded) and cleaning; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "utilities",
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1113": {
+  "tracking": 1113,
+  "decision": "decline",
+  "amount_estimate": 305,
+  "amount_basis": "'tenant paid them directly, PM owes a refund of 305.00' -> 305 paid then refunded; holdover rent excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "holdover_rent"
+  ],
+  "confidence": 0.45,
+  "decline_reason": "tenant paid PM directly; PM refunding payout"
+ },
+ "1114": {
+  "tracking": 1114,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "tenant agreed to settle in payments; no amounts",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.2
+ },
+ "1115": {
+  "tracking": 1115,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "eviction, rent unpaid since Oct 2024 (Oct + Nov > 1995) > max 2000 -> 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.65
+ },
+ "1116": {
+  "tracking": 1116,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "cleaning, maint, repairs; settled in two payments; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "maintenance",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1117": {
+  "tracking": 1117,
+  "decision": "pay",
+  "amount_estimate": 1550,
+  "amount_basis": "'Covering one month rent' = 1550 (+ 1 month SD fee, amount unknown/small)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent",
+   "sd_fee",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.5
+ },
+ "1118": {
+  "tracking": 1118,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "'PAYING REQUESTED AMOUNT BY PM' for cleaning/repairs; amount not given",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1119": {
+  "tracking": 1119,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "partial Nov rent + lease break (1750) likely >= max 2000 -> 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.35
+ },
+ "1120": {
+  "tracking": 1120,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Dec 2024 rent 1025 + lease break (<=1025) likely > max 1500 -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.45
+ },
+ "1121": {
+  "tracking": 1121,
+  "decision": "decline",
+  "amount_estimate": null,
+  "amount_basis": "'claim to be cancelled, apparently tenant paid them directly'",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning"
+  ],
+  "confidence": 0.85,
+  "decline_reason": "PM cancelled; tenant paid PM directly"
+ },
+ "1122": {
+  "tracking": 1122,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "non-pet carpet damages; tenant settled; no amount",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "damages"
+  ],
+  "confidence": 0.2
+ },
+ "1123": {
+  "tracking": 1123,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "cleaning and repairs; no amounts; max_benefit unknown",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1124": {
+  "tracking": 1124,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "late rent since Aug 2024 (late fees excluded), Sept rent incomplete; lease ended Sept 4 so only small prorated portion covered; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "late_fees",
+   "holdover_rent"
+  ],
+  "confidence": 0.15
+ },
+ "1125": {
+  "tracking": 1125,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "lease break (1850) + Dec 2024 rent (1850) = 3700 > stated cap 2000 -> 2000",
+  "cap_stated": 2000,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.7
+ },
+ "46": {
+  "tracking": 46,
+  "decision": "unknown",
+  "amount_estimate": null,
+  "amount_basis": "No PM explanation or comments; no signal",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.1,
+  "decline_reason": null
+ },
+ "85": {
+  "tracking": 85,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "'benefit should not have exceeded 1500.00' (past tense, implies a payout above 1500 was made); policy expired 2-9-23; amount paid not stated",
+  "cap_stated": 1500,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.35,
+  "decline_reason": null
+ },
+ "964": {
+  "tracking": 964,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Only 'contacting tenant' (subrogation implies payout); no charges or amounts named",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1018": {
+  "tracking": 1018,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "PM office rescinded claim: owner waiving $950.00 total due from tenant (cleaning + carpet cleaning)",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "carpet"
+  ],
+  "confidence": 0.75,
+  "decline_reason": "PM rescinded claim (owner waived $950 balance)"
+ },
+ "1019": {
+  "tracking": 1019,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs; tenant to settle; no amounts given",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1020": {
+  "tracking": 1020,
+  "decision": "pay",
+  "amount_estimate": 3990,
+  "amount_basis": "Goodwill payment authorized 'for the balance of the contracted security deposit of $3990.00' (above stated 2000 cap; within max 4000)",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent",
+   "eviction",
+   "goodwill"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1021": {
+  "tracking": 1021,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Utilities/NSF/pet/odor excluded; settled with tenant; no covered amounts stated",
+  "cap_stated": null,
+  "charge_types": [
+   "utilities",
+   "nsf",
+   "pet",
+   "damages"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1022": {
+  "tracking": 1022,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "PM explanation: 'Per PM tenant paid them directly'",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet"
+  ],
+  "confidence": 0.75,
+  "decline_reason": "Tenant paid PM directly"
+ },
+ "1023": {
+  "tracking": 1023,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Rent unpaid since 09-2024 (Sep+Oct+part Nov at 1995/mo > 2000) -> capped at max benefit 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1024": {
+  "tracking": 1024,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Only tenant-contact notes; no charges or amounts",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1025": {
+  "tracking": 1025,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "'Covering eligible damages only', no late fees; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "damages",
+   "late_fees"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1026": {
+  "tracking": 1026,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'No SD policy in the system for this property'; no SD fee in ledger",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "No SD policy"
+ },
+ "1027": {
+  "tracking": 1027,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs + item removal; tenant on settlement payment plan (collections, not payout); no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "trash_out"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1028": {
+  "tracking": 1028,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Rent not paid for at least two months (2 x 2150 = 4300) -> capped at max benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1029": {
+  "tracking": 1029,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Pet carpet damage excluded; PM reopened claim for remaining amount; tenant settled with insurer via payments; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "pet",
+   "carpet"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1030": {
+  "tracking": 1030,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Eviction, rent unpaid since Aug 2024 to 10/21 move-out (~2.7 x 1300 > 1500) -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1031": {
+  "tracking": 1031,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Nov 2024 rent 1451 + high repair bills > 1500 -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs",
+   "holdover"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1032": {
+  "tracking": 1032,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Itemization sent to tenant (damages); no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "damages"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1033": {
+  "tracking": 1033,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'No SD policy with YRIG, this SD is through RHINO'",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.9,
+  "decline_reason": "Not our policy (SD through Rhino)"
+ },
+ "1034": {
+  "tracking": 1034,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Nov 2024 rent 1900 + lease break (1 month 1900) = 3800 -> capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1035": {
+  "tracking": 1035,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Eviction, no rent since Aug 2024 to 10/22 move-out (~2.7 x 1870) -> capped at max 2000; first month was paid",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.5,
+  "decline_reason": null
+ },
+ "1036": {
+  "tracking": 1036,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Only tenant-contact notes; no charges or amounts",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1037": {
+  "tracking": 1037,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Settled with tenant; no amounts",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1038": {
+  "tracking": 1038,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Rent unpaid since Aug 2024 through 10/31 lease end (3 x 1000 = 3000) -> capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1039": {
+  "tracking": 1039,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Blinds and cleaning; tenant disputes; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1040": {
+  "tracking": 1040,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs, trash-out, cleaning; tenant settlement payments are collections; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "trash_out",
+   "cleaning"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1041": {
+  "tracking": 1041,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning, move-out repairs, lawn; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs",
+   "lawn"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1042": {
+  "tracking": 1042,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Partial Nov rent (~18/30 x 948 = 569) + lease break 948 = ~1517 -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.35,
+  "decline_reason": null
+ },
+ "1043": {
+  "tracking": 1043,
+  "decision": "pay",
+  "amount_estimate": 100,
+  "amount_basis": "Carpet cleaning; 'advised its only 100.00'",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet"
+  ],
+  "confidence": 0.8,
+  "decline_reason": null
+ },
+ "1044": {
+  "tracking": 1044,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "PM confirmed tenant paid them and will refund our payment (net 0); was covering cleaning and repairs only",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.7,
+  "decline_reason": "Tenant paid PM in full; PM refunding payout"
+ },
+ "1045": {
+  "tracking": 1045,
+  "decision": "pay",
+  "amount_estimate": 871,
+  "amount_basis": "Lease break only -> at most one month rent 871; settled",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1046": {
+  "tracking": 1046,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Nov 2024 rent 1150 + maintenance + cleaning (amounts unknown) likely reaches max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.35,
+  "decline_reason": null
+ },
+ "1047": {
+  "tracking": 1047,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Nov 2024 rent 1005 + lease break 1005 = 2010 -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1048": {
+  "tracking": 1048,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "'Please process an additional $1,190 for a total of $1,500'",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "cleaning",
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": null
+ },
+ "1049": {
+  "tracking": 1049,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Covering carpet and item removal only (no M2M rent); no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "trash_out",
+   "holdover_rent"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1050": {
+  "tracking": 1050,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "'rent not paid for November 2024 and other covered items basically add up to max benefit' -> 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "carpet"
+  ],
+  "confidence": 0.75,
+  "decline_reason": null
+ },
+ "1051": {
+  "tracking": 1051,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Damages + carpet cleaning; 'settled for full amount' but amount not stated",
+  "cap_stated": null,
+  "charge_types": [
+   "damages",
+   "carpet"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1052": {
+  "tracking": 1052,
+  "decision": "pay",
+  "amount_estimate": 633,
+  "amount_basis": "'paying 633.00 towards carpet repl.'; electric bill not covered",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "pet",
+   "utilities"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1053": {
+  "tracking": 1053,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'FIRST FULL MONTH RENT NEVER PAID, CLAIM DENIED'",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.9,
+  "decline_reason": "Tenant defaulted on first full month rent"
+ },
+ "1054": {
+  "tracking": 1054,
+  "decision": "pay",
+  "amount_estimate": 135,
+  "amount_basis": "Cleaning; tenant paying 'the $135' then SETTLED (appears to be full balance)",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning"
+  ],
+  "confidence": 0.55,
+  "decline_reason": null
+ },
+ "1055": {
+  "tracking": 1055,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break (1150) + unpaid Nov rent (1150) = 2300 -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1056": {
+  "tracking": 1056,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Vinyl flooring damage (not pet related); tenant on payment arrangement; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "flooring",
+   "repairs"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1057": {
+  "tracking": 1057,
+  "decision": "pay",
+  "amount_estimate": 950.5,
+  "amount_basis": "77.50 + 798 + 75.00 = 950.50 short rent in lease period; no M2M rent/late/program fees",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "holdover_rent",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.9,
+  "decline_reason": null
+ },
+ "1058": {
+  "tracking": 1058,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "No rent since Sep 2024 through 11/30 lease end (>= 2 x 910) -> capped at max 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1059": {
+  "tracking": 1059,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Eviction only; no amounts or periods given",
+  "cap_stated": null,
+  "charge_types": [
+   "eviction"
+  ],
+  "confidence": 0.3,
+  "decline_reason": null
+ },
+ "1060": {
+  "tracking": 1060,
+  "decision": "pay",
+  "amount_estimate": 3000,
+  "amount_basis": "'COVERED ITEMS MAX OUT THE BENEFIT' -> max benefit 3000; pest control excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "pest"
+  ],
+  "confidence": 0.75,
+  "decline_reason": null
+ },
+ "1061": {
+  "tracking": 1061,
+  "decision": "pay",
+  "amount_estimate": 1948.5,
+  "amount_basis": "Paint invoice 1948.50 covered (lower bound); other repairs unknown; pest control and blinds bite marks excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "paint",
+   "repairs",
+   "pest",
+   "pet"
+  ],
+  "confidence": 0.3,
+  "decline_reason": null
+ },
+ "1062": {
+  "tracking": 1062,
+  "decision": "pay",
+  "amount_estimate": 1695,
+  "amount_basis": "Eviction, Nov 2024 rent unpaid = 1 x 1695",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1063": {
+  "tracking": 1063,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Missing refrigerator, cleaning, trash-out; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning",
+   "trash_out"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1064": {
+  "tracking": 1064,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Make-ready/cleaning; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1065": {
+  "tracking": 1065,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Rent unpaid since Oct 2024 to 11/12 move-out (Oct 1795 + Nov) > 2000 -> capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1066": {
+  "tracking": 1066,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Eviction, rent not paid properly since Oct 2024 (multiple months x 1737) -> likely capped at max 2000; NSF excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction",
+   "nsf"
+  ],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1067": {
+  "tracking": 1067,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "'SD benefit cannot exceed 2500.00' (cap stated, claim likely exceeded it); documents missing",
+  "cap_stated": 2500,
+  "charge_types": [],
+  "confidence": 0.4,
+  "decline_reason": null
+ },
+ "1068": {
+  "tracking": 1068,
+  "decision": "pay",
+  "amount_estimate": 4000,
+  "amount_basis": "Full rent not paid since Oct 2024 to 11/27 move-out (rent 3750/mo, ~2 months) -> capped at max 4000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.45,
+  "decline_reason": null
+ },
+ "1069": {
+  "tracking": 1069,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Bounced Dec 2024 rent 1295 + lease break 1295 = 2590 -> capped at max 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "nsf",
+   "lease_break"
+  ],
+  "confidence": 0.35,
+  "decline_reason": null
+ },
+ "1070": {
+  "tracking": 1070,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Eviction, rent unpaid since Nov 2024 to 1/1/25 move-out (2 x 1672 = 3344) -> capped at max 2000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "eviction"
+  ],
+  "confidence": 0.6,
+  "decline_reason": null
+ },
+ "1126": {
+  "tracking": 1126,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Only charge types named (cleaning, maintenance); tenant disputing; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1127": {
+  "tracking": 1127,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs/maint named, tenant settled with insurer; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1128": {
+  "tracking": 1128,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Maint and repairs named, tenant settled; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1129": {
+  "tracking": 1129,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Rent unpaid Sep-Nov 18 2024 within lease ~1855*2+1113=4823; capped at program rent-based cap ceil(1855/500)*500=2000 (max_benefit 3000)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.4
+ },
+ "1130": {
+  "tracking": 1130,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'Received proof of payment for 775.00 from tenant' - tenant paid PM directly",
+  "cap_stated": null,
+  "decline_reason": "tenant paid the PM (775.00) before payout",
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.55
+ },
+ "1131": {
+  "tracking": 1131,
+  "decision": "pay",
+  "amount_estimate": 475,
+  "amount_basis": "PM email: repair charges $475 covered; $250 maintenance coordination fee (admin) excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "admin_fee"
+  ],
+  "confidence": 0.65
+ },
+ "1132": {
+  "tracking": 1132,
+  "decision": "pay",
+  "amount_estimate": 1650,
+  "amount_basis": "Rent not paid for November 2024 (last lease month) = 1 x 1650",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "late_fees"
+  ],
+  "confidence": 0.55
+ },
+ "1133": {
+  "tracking": 1133,
+  "decision": "pay",
+  "amount_estimate": 263.57,
+  "amount_basis": "'Rent only for 4 days in February': 1845*4/28=263.57; pet and program fees excluded",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "pet",
+   "program_fees"
+  ],
+  "confidence": 0.5
+ },
+ "1134": {
+  "tracking": 1134,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Dec rent bounced + Jan owed = 2200 > max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "nsf"
+  ],
+  "confidence": 0.65
+ },
+ "1135": {
+  "tracking": 1135,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Make ready and repairs named; tenant dispute lapsed; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1136": {
+  "tracking": 1136,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Rent unpaid since June 2024 (>3 months x 1600) capped at max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.75
+ },
+ "1137": {
+  "tracking": 1137,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Dec rent 2400 + >7K repairs capped at max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs"
+  ],
+  "confidence": 0.8
+ },
+ "1138": {
+  "tracking": 1138,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break 1120 + repairs/cleaning/hauling (unknown) likely exceed rent-based cap ceil(1120/500)*500=1500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "repairs",
+   "cleaning",
+   "trash_out"
+  ],
+  "confidence": 0.35
+ },
+ "1139": {
+  "tracking": 1139,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "'one month rent for lease break, 6 days rent for January, plus repairs, caps out at max benefit' = 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent",
+   "repairs"
+  ],
+  "confidence": 0.85
+ },
+ "1140": {
+  "tracking": 1140,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Two months rent + partial Feb (~4300+) capped at max_benefit 2500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.8
+ },
+ "1141": {
+  "tracking": 1141,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs, cleaning, maint named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1142": {
+  "tracking": 1142,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Repairs, maint, haul away, cleaning named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning",
+   "trash_out"
+  ],
+  "confidence": 0.2
+ },
+ "1143": {
+  "tracking": 1143,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Lease break 1700 + partial Jan rent + repairs exceed base cap 2000; 'adding additional 500.00, rent times 1.5' per Doug -> 2000+500=2500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent",
+   "repairs"
+  ],
+  "confidence": 0.55
+ },
+ "1144": {
+  "tracking": 1144,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Rent unpaid since Nov 2024 (>2 months x 1250) capped at stated 1500",
+  "cap_stated": 1500,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.85
+ },
+ "1145": {
+  "tracking": 1145,
+  "decision": "pay",
+  "amount_estimate": 1000,
+  "amount_basis": "Rent incomplete Sep 2024-Jan 2025 (amounts unknown) likely > rent-based cap ceil(950/500)*500=1000",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.3
+ },
+ "1146": {
+  "tracking": 1146,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and maint named; pet damage excluded; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs",
+   "pet"
+  ],
+  "confidence": 0.2
+ },
+ "1147": {
+  "tracking": 1147,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Large cleaning, trashout, repairs; 'OUR BENEFIT CAPS OUT AT 1500'; overstay rent excluded",
+  "cap_stated": 1500,
+  "charge_types": [
+   "cleaning",
+   "trash_out",
+   "repairs",
+   "holdover_rent"
+  ],
+  "confidence": 0.8
+ },
+ "1148": {
+  "tracking": 1148,
+  "decision": "pay",
+  "amount_estimate": 2490,
+  "amount_basis": "Lease break only = one month rent 2490 (< max 2500)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break"
+  ],
+  "confidence": 0.45
+ },
+ "1149": {
+  "tracking": 1149,
+  "decision": "pay",
+  "amount_estimate": 1350,
+  "amount_basis": "Eviction, rent not paid for December 2024 = 1 x 1350",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.55
+ },
+ "1150": {
+  "tracking": 1150,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Cap 2000 stated, then 'additional 500.00 per Doug' -> 2500 (= max_benefit)",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.65
+ },
+ "1151": {
+  "tracking": 1151,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Damages/repairs named, tenant disputing without documentation; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1152": {
+  "tracking": 1152,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'1st full month payment never made, all payments have bounced'",
+  "cap_stated": 3500,
+  "decline_reason": "tenant defaulted on first full month rent",
+  "charge_types": [
+   "rent",
+   "nsf"
+  ],
+  "confidence": 0.85
+ },
+ "1153": {
+  "tracking": 1153,
+  "decision": "pay",
+  "amount_estimate": 2500,
+  "amount_basis": "Jan rent 2150 + lease break 2150 = 4300, capped at stated 2500",
+  "cap_stated": 2500,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.85
+ },
+ "1154": {
+  "tracking": 1154,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "21 days rent + repairs 'caps out at max benefit' = 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs"
+  ],
+  "confidence": 0.75
+ },
+ "1155": {
+  "tracking": 1155,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Dec rent 960 + lease break 960 + furniture removal > 1920, capped at max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "lease_break",
+   "trash_out",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.5
+ },
+ "1156": {
+  "tracking": 1156,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break 705 + Dec rent shortfall; 'ELIGIBLE CHARGES CAP OUT AT BENEFIT MAX' = 1500 (could be 1000 if rent-based cap applied)",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent"
+  ],
+  "confidence": 0.45
+ },
+ "1157": {
+  "tracking": 1157,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Minor repairs and cleaning named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1158": {
+  "tracking": 1158,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "Only charges were December holdover rent and program fees, both stated not covered",
+  "cap_stated": null,
+  "decline_reason": "no covered charges: holdover rent after lease end and program fees excluded",
+  "charge_types": [
+   "holdover_rent",
+   "program_fees"
+  ],
+  "confidence": 0.55
+ },
+ "1159": {
+  "tracking": 1159,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Lease break 790 + Jan rent 790 + Nov shortfall > 1580, capped at max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "rent",
+   "late_fees"
+  ],
+  "confidence": 0.5
+ },
+ "1160": {
+  "tracking": 1160,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and painting named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1161": {
+  "tracking": 1161,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "Rent unpaid Nov 2024-Jan 2025 (~3 x 945) capped at max_benefit 1500",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "late_fees"
+  ],
+  "confidence": 0.55
+ },
+ "1162": {
+  "tracking": 1162,
+  "decision": "pay",
+  "amount_estimate": 1065,
+  "amount_basis": "'covering reletting fee only' = one month rent for lease break 1065",
+  "cap_stated": null,
+  "charge_types": [
+   "lease_break",
+   "program_fees",
+   "late_fees",
+   "nsf",
+   "utilities"
+  ],
+  "confidence": 0.6
+ },
+ "1163": {
+  "tracking": 1163,
+  "decision": "pay",
+  "amount_estimate": 1500,
+  "amount_basis": "'max we can accept is 1500.00 ... as max benefit is 1500.00' - payout at max",
+  "cap_stated": 1500,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6
+ },
+ "1164": {
+  "tracking": 1164,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Covering 1/3 of flooring replacement plus cleaning/maint; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet",
+   "repairs",
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1165": {
+  "tracking": 1165,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Carpet cleaning named; no amount",
+  "cap_stated": null,
+  "charge_types": [
+   "carpet"
+  ],
+  "confidence": 0.2
+ },
+ "1166": {
+  "tracking": 1166,
+  "decision": "pay",
+  "amount_estimate": 1030.97,
+  "amount_basis": "'one month rent plus 3 days prorated for January': 940 + 940*3/31 = 1030.97",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "late_fees",
+   "nsf",
+   "utilities"
+  ],
+  "confidence": 0.55
+ },
+ "1167": {
+  "tracking": 1167,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Rent unpaid since Aug 2024 (>4 x 1645) capped at rent-based cap ceil(1645/500)*500=2000 (max_benefit 2500)",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.45
+ },
+ "1168": {
+  "tracking": 1168,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "Approved one month rent + repairs, then PM email 'Please cancel this claim at this time'",
+  "cap_stated": null,
+  "decline_reason": "PM cancelled/withdrew the claim",
+  "charge_types": [
+   "lease_break",
+   "repairs",
+   "late_fees",
+   "program_fees"
+  ],
+  "confidence": 0.55
+ },
+ "1169": {
+  "tracking": 1169,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Eviction, unpaid rent exceeds stated cap 'cannot exceed 2000.00'",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.5
+ },
+ "1170": {
+  "tracking": 1170,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Dec rent 1900 + lease break 1900 = 3800, capped at stated 2000",
+  "cap_stated": 2000,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.8
+ },
+ "1171": {
+  "tracking": 1171,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'Claim is denied as the ledger shows the amount of 550.00 claimed paid by tenant'",
+  "cap_stated": null,
+  "decline_reason": "denied; tenant paid PM in full (ledger zero)",
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.95
+ },
+ "1172": {
+  "tracking": 1172,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and repairs named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1173": {
+  "tracking": 1173,
+  "decision": "pay",
+  "amount_estimate": 744.48,
+  "amount_basis": "'COVERING ONLY 11 DAYS WORTH OF RENT 744.48, PLUS REPAIRS' - repairs amount unknown, so lower bound",
+  "cap_stated": null,
+  "charge_types": [
+   "rent",
+   "repairs"
+  ],
+  "confidence": 0.3
+ },
+ "1174": {
+  "tracking": 1174,
+  "decision": "pay",
+  "amount_estimate": 1000,
+  "amount_basis": "Feb rent 995 + lease break 995 = 1990, capped at stated 1K",
+  "cap_stated": 1000,
+  "charge_types": [
+   "rent",
+   "lease_break"
+  ],
+  "confidence": 0.85
+ },
+ "1175": {
+  "tracking": 1175,
+  "decision": "pay",
+  "amount_estimate": 1625,
+  "amount_basis": "'PM REQUESTED AMOUNT IS 1625' (< max 2000)",
+  "cap_stated": null,
+  "charge_types": [],
+  "confidence": 0.45
+ },
+ "1176": {
+  "tracking": 1176,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Settled; insurance service, dog damage, plumbing excluded; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "pet",
+   "insurance_fee",
+   "repairs"
+  ],
+  "confidence": 0.2
+ },
+ "1177": {
+  "tracking": 1177,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Cleaning and electrical repair charges disputed by tenant, pending PM response; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.15
+ },
+ "1178": {
+  "tracking": 1178,
+  "decision": "pay",
+  "amount_estimate": null,
+  "amount_basis": "Minor repairs, landscaping, cleaning named; no amounts",
+  "cap_stated": null,
+  "charge_types": [
+   "repairs",
+   "lawn",
+   "cleaning"
+  ],
+  "confidence": 0.2
+ },
+ "1179": {
+  "tracking": 1179,
+  "decision": "decline",
+  "amount_estimate": 0,
+  "amount_basis": "'Tenant paid the rent due in full directly to the PM. Payment of $1,380 has been voided'",
+  "cap_stated": null,
+  "decline_reason": "tenant paid PM in full; payout voided",
+  "charge_types": [
+   "rent",
+   "cleaning",
+   "repairs"
+  ],
+  "confidence": 0.85
+ },
+ "1180": {
+  "tracking": 1180,
+  "decision": "pay",
+  "amount_estimate": 2000,
+  "amount_basis": "Eviction, no rent since Nov 2024 (Nov-Feb > 4 x 2000), capped at max_benefit 2000; first month was paid",
+  "cap_stated": null,
+  "charge_types": [
+   "rent"
+  ],
+  "confidence": 0.6
+ }
+}

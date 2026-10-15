@@ -1,0 +1,228 @@
+{
+ "tracking": 539,
+ "winning_document": "deposit_disposition_amount_due_brandon_a_ames_042224.pdf",
+ "pm_stated_amount_due": 2465,
+ "reconciliation": "sum(open lines) 350+225+125+275+485+425+580 = 2,465.00 - credits 0.00 = 2,465.00 vs pm_stated 2,465.00 (statement lines Quick Repairs 1,460 + Hauling 425 + Cleaning 580; ledger total 2,465.00) - match.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_brandon_a_ames_042224.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-22",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE security deposit statement: Quick Repairs 1,460, Hauling 425, Move Out House Cleaning 580 = 2,465."
+  },
+  {
+   "file": "3301 N Park Quick Repairs.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-04-12",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "4 estimates: 3301-2 bulbs/fixtures 350; 3301-3 smoke detectors + pressure wash garage 350; 3301-4 vertical blinds 275; 3301-5 two interior doors 485 (dated 4/16) = 1,460. Used only to split the statement's Quick Repairs line."
+  },
+  {
+   "file": "3301 N Park 2312 Quick Repairs.jpeg",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-04-10",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Estimate T4HQUFL total 875: hauling 425 + smoke detectors 225 + bulbs/filters 225. Only the 425 hauling is counted; the 225+225 items are superseded by the PDF estimates 3301-2/3301-3 (no double count)."
+  },
+  {
+   "file": "3301 N Park Ticos 2312.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-04-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Tico's Estimate #267 deep move-out cleaning 580; matches statement line."
+  },
+  {
+   "file": "brandon-a-ames.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "111pp PURE/KTB rental agreement, read via text layer: 9/1/2022-8/31/2023, rent 1,795, Security Deposit Waiver addendum (2,500 waived, 43/mo), early termination addendum."
+  },
+  {
+   "file": "tenant_ledger-brandon_a_ames_bianca_b_ames-20240424.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware-style oldest-first. All rent, fees, utilities paid through 3/30/2024; only open rows are the three 4/22/2024 Deposit Forfeit charges totaling 2,465."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2500,
+  "monthly_sd_premium": 38,
+  "lease_start": "2022-09-01",
+  "lease_end": "2023-08-31",
+  "initial_term_months": 12,
+  "is_renewal": null,
+  "is_month_to_month": true,
+  "current_term_start": "2023-09-01",
+  "current_term_end": null,
+  "lease_break_terms": "Early Termination Addendum (para 23): tenant pays advertising, lease-up fee of 75% of one month's rent, rekey, rent through end of term or until re-rented, repairs/cleaning; if tenant supplies a qualified replacement only rent for the vacant period; utilities stay on. Not triggered here.",
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Admin Fee",
+    "amount": 5
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Quick Repairs est. 3301-2: install 13 LED 60w bulbs, 6 PLC bulbs, 6 fan/light bulbs, microwave bulb, kitchen GFCI, 2 toilet paper rollers, 1 LED fan/light combo (part of statement line Quick Repairs 1,460)",
+   "category": "repairs_damage",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Quick Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Quick Repairs est. 3301-3 (350 for 'install 4 new hardwired smoke detectors and pressure wash garage'): smoke detector portion 225 per estimate T4HQUFL; existing detectors were not hardwired together, so may be landlord upgrade rather than tenant damage",
+   "category": "repairs_damage",
+   "amount_charged": 225,
+   "amount_open": 225,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Quick Repairs.pdf",
+   "source_page": 2,
+   "confidence": 0.55
+  },
+  {
+   "description": "Quick Repairs est. 3301-3 residual: pressure wash garage (350 minus 225 smoke detector price; split inferred, not itemized by vendor)",
+   "category": "cleaning",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Quick Repairs.pdf",
+   "source_page": 2,
+   "confidence": 0.5
+  },
+  {
+   "description": "Quick Repairs est. 3301-4: install 2 new sets of 78x84 vertical blinds on both sliding door areas, both broken and non-functioning",
+   "category": "repairs_damage",
+   "amount_charged": 275,
+   "amount_open": 275,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Quick Repairs.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Quick Repairs est. 3301-5: install new 36x80 arch door in upstairs laundry room and 28x80 arch door in downstairs hallway",
+   "category": "repairs_damage",
+   "amount_charged": 485,
+   "amount_open": 485,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Quick Repairs.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Hauling: haul away all items in garage and inside house left by tenants (Quick Repairs est. T4HQUFL)",
+   "category": "trash_removal",
+   "amount_charged": 425,
+   "amount_open": 425,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park 2312 Quick Repairs.jpeg",
+   "source_page": null,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move Out House Cleaning: Tico's deep move-out cleaning (Estimate #267)",
+   "category": "cleaning",
+   "amount_charged": 580,
+   "amount_open": 580,
+   "date_posted": "2024-04-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "3301 N Park Ticos 2312.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "3301 N Park Ticos 2312.pdf",
+   "flag": "is_estimate_only",
+   "quote": "ESTIMATE #267 ... TOTAL $580.00 DEEP MOVE OUT CLEANING"
+  },
+  {
+   "file": "3301 N Park Quick Repairs.pdf",
+   "flag": "is_estimate_only",
+   "quote": "Estimate Total (USD) $350.00 / $350.00 / $485.00 / $275.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-04-24",
+  "balance_due": 2465,
+  "first_full_month": "2022-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-03-30"
+ },
+ "extraction_confidence": 0.85,
+ "notes": "Every vendor document for this claim is an ESTIMATE (no final invoices or photos); the PM billed the tenant exactly the estimate amounts on 4/22/2024, so lines are flagged is_estimate_only. Quick Repairs 1,460 equals the four PDF estimates (350+350+275+485); the JPEG estimate (875) is an earlier version whose hauling 425 is the only part counted (smoke detector and bulb items superseded) - no double count. The 225/125 split of est. 3301-3 is inferred from the 225 smoke-detector price in the earlier estimate. Rent is current on the ledger through March 2024 so no rent claimed. Initial term ended 8/31/2023 and rent rose to 1,850 from 9/2023 with no renewal doc, so tenancy is presumed month-to-month (sheet lease end 3/31/2024 equals move-out date). Statement dated 22 days after move-out. Deposit waived via PURE Security Deposit Waiver addendum (fee 43 = SDRP 38 + admin 5).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aba57a533e2fd2ef2"
+ }
+}

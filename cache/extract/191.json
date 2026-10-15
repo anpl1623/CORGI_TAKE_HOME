@@ -1,0 +1,192 @@
+{
+  "tracking": 191,
+  "documents": [
+    {
+      "file": "Collections - SDRP Notice to Tenant (14).pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-08-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(07-18-2022_-_07-18-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-07-18",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_Lease_As_Is_Addendum_2022_(07-18-2022_-_07-18-2022).pdf",
+      "doc_type": "other",
+      "doc_date": "2022-07-18",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Ledger (11).pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-15",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "invoice_05_Aug_2023_15_16_15 (1).pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-08-05",
+      "revised": false,
+      "used_for_amounts": true
+    }
+  ],
+  "winning_document": "Ledger (11).pdf",
+  "pm_stated_amount_due": 975.0,
+  "lease": {
+    "base_monthly_rent": 2600.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 65.0
+      },
+      {
+        "name": "RBP with Ins",
+        "amount": 39.0
+      }
+    ],
+    "lease_start": "2022-07-22",
+    "lease_end": "2023-07-21",
+    "current_term_start": "2022-07-22",
+    "current_term_end": "2023-07-21",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 3900.0,
+    "monthly_sd_premium": 65.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-07-21",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 0,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-15",
+    "balance_due": 975.0,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-07-06"
+  },
+  "line_items": [
+    {
+      "description": "Move-out Repair Meld #TCMB77KB: Paint and repairs in bedrooms and kitchen",
+      "category": "painting",
+      "amount_open": 400.0,
+      "amount_charged": 400.0,
+      "date_posted": "2023-08-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_05_Aug_2023_15_16_15 (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Move-out Repair Meld #TCMB77KB: Remove leftover items in fridge",
+      "category": "trash_removal",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-08-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_05_Aug_2023_15_16_15 (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Move-out Repair Meld #TCMB77KB: Replace out light bulbs",
+      "category": "repairs_damage",
+      "amount_open": 25.0,
+      "amount_charged": 25.0,
+      "date_posted": "2023-08-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_05_Aug_2023_15_16_15 (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Move-out Repair Meld #TCMB77KB: Full Interior Clean",
+      "category": "cleaning",
+      "amount_open": 300.0,
+      "amount_charged": 300.0,
+      "date_posted": "2023-08-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_05_Aug_2023_15_16_15 (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4010 - Maintenance Coordination Fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-08-15",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Ledger (11).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 975.00 - credits 0.00 = 975.00 vs PM stated 975.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant moved out at end of term on 2023-07-21 having paid all rent and fees in full through move-out. Final balance of $975.00 on the 2023-08-15 ledger consists of move-out repairs/cleaning ($775.00 backed by invoice #TCMB77KB) and maintenance coordination fee ($200.00)."
+}

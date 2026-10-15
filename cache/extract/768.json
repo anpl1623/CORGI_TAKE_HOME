@@ -1,0 +1,101 @@
+{
+ "tracking": 768,
+ "winning_document": "08 Hall Move Out Letter.pdf",
+ "documents": [
+  {
+   "file": "08 Hall Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-09",
+   "used_for_amounts": true,
+   "note": "Letter states 900.00 due; lower than SDI, so letter wins"
+  },
+  {
+   "file": "08 Hall Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-09",
+   "used_for_amounts": true,
+   "note": "Open items 825 termination, 50 carpet, 25 drip pans; total 900"
+  },
+  {
+   "file": "08 Hall SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "note": "Totals 1,150; conflicts with letter and statement; not used"
+  },
+  {
+   "file": "08 Hall Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Final balance 900; 250 early-termination fee paid 07/03"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 825,
+  "cash_deposit_amount": null,
+  "current_term_start": "2024-03-22",
+  "current_term_end": "2025-02-28",
+  "lease_start": "2024-03-22",
+  "lease_end": "2025-02-28",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "early_termination",
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 900
+ },
+ "line_items": [
+  {
+   "description": "Termination fee (early move-out)",
+   "category": "lease_break_fee",
+   "amount_open": 825,
+   "amount_charged": 825,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "08 Hall Move Out Statement.pdf",
+   "confidence": 0.65
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 50,
+   "amount_charged": 50,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "08 Hall Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Stove drip pans",
+   "category": "appliance",
+   "amount_open": 25,
+   "amount_charged": 25,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "08 Hall Move Out Statement.pdf",
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 900,
+ "reconciliation": "Open items 825+50+25 = 900.00 minus credits 0.00 equals PM letter 900.00. SDI total 1,150 not used: it counts 250 already paid on 07/03 and 825 July rent that duplicates the termination fee.",
+ "extraction_confidence": 0.7,
+ "notes": "SDI labels the 825 as July future rent; if that label governs it would be rent_after_move_out, period 2024-07-01 to 2024-07-31. Not opened (lite mode): 08 Hall Lease.pdf, 08 Hall Addendum.pdf, IMG_8304.png and IMG_8305.png (unidentified images; may hold a further itemization or contact screenshots; unverified).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "abee3907adc8bc51d"
+ }
+}

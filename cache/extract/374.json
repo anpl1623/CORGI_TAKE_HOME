@@ -1,0 +1,250 @@
+{
+  "tracking": 374,
+  "documents": [
+    {
+      "file": "E. Flota Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-12-15",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "E. Flota final statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-11-14",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "E. Flota demand letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-11-14",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "E. Flota invoices.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-10-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "E. Flota lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2020-04-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "E. Flota Security Deposit Addendum.pdf",
+      "doc_type": "email_or_screenshot",
+      "doc_date": "2022-10-20",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "E. Flota Ledger.pdf",
+  "pm_stated_amount_due": 1769.7,
+  "lease": {
+    "base_monthly_rent": 945.0,
+    "recurring_addons": [
+      {
+        "name": "Amenity Service Package",
+        "amount": 50.0
+      },
+      {
+        "name": "Zero Deposit Program Charge",
+        "amount": 45.0
+      }
+    ],
+    "lease_start": "2022-10-25",
+    "lease_end": "2023-10-31",
+    "current_term_start": "2022-10-25",
+    "current_term_end": "2023-10-31",
+    "initial_term_months": 12,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "zero_deposit",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 45.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-10-22",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-12-15",
+    "balance_due": 1769.7,
+    "first_full_month": "2022-11",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-09-13"
+  },
+  "line_items": [
+    {
+      "description": "Amenity Service Package (Oct. rent pro-rated through 22nd. Tenant willingly vacated. Could not pay rent.)",
+      "category": "other_fee",
+      "amount_open": 35.48,
+      "amount_charged": 35.48,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-22",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Rent (Oct. rent pro-rated through 22nd. Tenant willingly vacated. Could not pay rent.)",
+      "category": "rent_in_term",
+      "amount_open": 670.65,
+      "amount_charged": 670.65,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-22",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Zero Deposit Program Charge",
+      "category": "sdrp_premium",
+      "amount_open": 45.0,
+      "amount_charged": 45.0,
+      "date_posted": "2023-10-01",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-22",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Late Charge",
+      "category": "late_fee",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-10-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Hauling charge - Hauling large furniture items - Maria Gutierrez",
+      "category": "trash_removal",
+      "amount_open": 390.0,
+      "amount_charged": 390.0,
+      "date_posted": "2023-10-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repair service - Tenant responsible repairs, Parts and labor",
+      "category": "repairs_damage",
+      "amount_open": 289.57,
+      "amount_charged": 289.57,
+      "date_posted": "2023-10-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Cleaning Service - Tenant responsible carpet cleaning",
+      "category": "carpet_cleaning",
+      "amount_open": 154.0,
+      "amount_charged": 154.0,
+      "date_posted": "2023-10-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Cleaning - Non-normal wear and tear cleaning",
+      "category": "cleaning",
+      "amount_open": 135.0,
+      "amount_charged": 135.0,
+      "date_posted": "2023-10-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "E. Flota Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 1769.70 - 0.00 = 1769.70 vs PM stated 1769.70; matches exactly. Hypothetical collection fee of $884.85 on statement is excluded per guidelines.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant willingly vacated on 10/22/2023 because could not pay rent. PM prorated October rent through 10/22 ($670.65). Hypothetical collection fee of $884.85 mentioned on final statement was excluded."
+}

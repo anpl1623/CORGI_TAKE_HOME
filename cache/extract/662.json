@@ -1,0 +1,171 @@
+{
+ "tracking": 662,
+ "winning_document": "11361 Sprinkle Cutoff Road - Security Paket - Truax.pdf",
+ "pm_stated_amount_due": 2868,
+ "documents": [
+  {
+   "file": "11361 Sprinkle Cutoff Road - Security Paket - Truax.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Winning doc. 5 pages: cover letter 6/21/24 and TXR-2216 itemization signed 6/28/24. Deposit tendered 200.00, deductions 3,068.00 (lump), amount owed 2,868.00."
+  },
+  {
+   "file": "Transactions_Truax.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "7/1/24 'Security Deposit Forfeit - Miscellaneous move out charges' 3,068.00 less pet deposit 200.00 gives balance 2,868.00. All earlier rent and fees were paid."
+  },
+  {
+   "file": "Statement - 8.5x11_2406281134.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Ledger 4/2022 to 6/28/24, balance 0.00. Confirms June prorated rent and the 10.00 late fee were paid 6/5/24."
+  },
+  {
+   "file": "11361 Sprinkle Cutoff - Maintenance.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "QSR estimate qsr13057: tenant charges 3,068.00 (lump) plus owner charge 115.00 (power wash, excluded). Billed amount equals the estimate; no final invoice."
+  },
+  {
+   "file": "11361+Sprinkle+Cutoff+Rd_Move+Out_2024-06-04.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-06-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "41-page photo report. Digest comments show only 'Bulb out' and 'Right side 1836'; no pet or odor comments."
+  },
+  {
+   "file": "11361S - TRUAX LEASE AGREEMENT (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-05-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Pages 1-2 viewed: term 5/7/2022 to 5/4/2023, auto-renews month-to-month, rent 1,995 (2,095 from 6/2023 renewal)."
+  },
+  {
+   "file": "Security Deposit Waiver - 11361 Sprinkle Cutoff Road - Truax.PNG",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-04-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver addendum: $60 per month in lieu of the $3,000 deposit. Signed by both tenants."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2095,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 200,
+  "waived_deposit_amount": 3000,
+  "monthly_sd_premium": 60,
+  "initial_term_months": 12,
+  "lease_start": "2022-05-07",
+  "lease_end": "2024-06-03",
+  "current_term_start": null,
+  "current_term_end": "2024-06-03",
+  "is_renewal": true,
+  "is_month_to_month": null,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Tenant Benefits Package A3",
+    "amount": 39
+   },
+   {
+    "name": "Monthly Pet Fee (pet rent)",
+    "amount": 20
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-06-03",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-10",
+  "balance_due": 2868,
+  "first_full_month": "2022-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-05"
+ },
+ "line_items": [
+  {
+   "description": "Miscellaneous move-out charges (TXR-2216 item 1, a single lump with no sub-amounts): haul off trash can and recycle contents, replace burnt-out bulbs, patch and paint throughout, repair back-door casing, wall and baseboard, replace and paint downstairs and bedroom 3 doors, replace towel rack, light globe, strike plate and bedroom 1 blind, clean carpet, make-ready cleaning. Excludes the owner-charge power wash (115.00).",
+   "category": "repairs_damage",
+   "amount_charged": 3068,
+   "amount_open": 3068,
+   "date_posted": "2024-07-01",
+   "is_estimate_only": true,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11361 Sprinkle Cutoff Road - Security Paket - Truax.pdf",
+   "source_page": 3,
+   "confidence": 0.5
+  }
+ ],
+ "credits": [
+  {
+   "description": "Pet deposit (refundable) of 200.00 held and applied against the move-out charges (ledger 7/1/24; itemization 'Total security deposit tendered 200.00')",
+   "amount": 200,
+   "type": "pet_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "Transactions_Truax.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Security Deposit Waiver - 11361 Sprinkle Cutoff Road - Truax.PNG",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "You waive payment of the security deposit $3000 in lieu of the indicated monthly payment ($60 per month)."
+  },
+  {
+   "file": "Transactions_Truax.pdf",
+   "flag": "credit_pet_deposit",
+   "quote": "Pet Deposit Refundable - Security deposits from holdings -200.00"
+  },
+  {
+   "file": "11361 Sprinkle Cutoff - Maintenance.pdf",
+   "flag": "estimate_only_support",
+   "quote": "Estimate ... Total tenant charges $3,068.00 ... owners Charges power wash 115.00"
+  }
+ ],
+ "extraction_confidence": 0.75,
+ "reconciliation": "Open line 3,068.00 less pet deposit credit 200.00 equals 2,868.00, which matches PM stated (TXR-2216 and ledger). No difference.",
+ "notes": "The TXR-2216 itemization lumps 11 work items into one 3,068.00 deduction with no sub-amounts, and the only vendor support is an estimate (qsr13057, 6/13/24) whose tenant total equals the billed amount. The line is categorized repairs_damage as the dominant work (patch/paint, doors, trim), but it also contains trash removal, bulbs, carpet cleaning and make-ready cleaning. The 115.00 owner power wash is excluded. All rent, late fees and the prorated June 1-3 charges were paid by 6/5/24. The lease is the original 5/7/22 to 5/4/23 term; renewals (rent up to 2,095 and 75 renewal fees on 6/1/23 and 5/1/24) are not in the folder, so month-to-month status at move-out is unknown. The sheet lease end equals the move-out date, 6/3/24. The 'collection charge of 35%' in the cover letter is hypothetical and not counted. The pet deposit 200 is the only cash deposit collected.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aad1597ffcd560114"
+ }
+}

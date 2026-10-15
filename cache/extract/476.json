@@ -1,0 +1,254 @@
+{
+  "tracking": 476,
+  "documents": [
+    {
+      "file": "Pruitt statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-03-04",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Pruitt collection letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-02-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt ZDP Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-05-03",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-05-05",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt bill carpet.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2024-02-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt bill cleaning.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2024-02-22",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt bill hauling.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt bill pet inspection.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2024-02-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Pruitt bill repair.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2024-02-12",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Pruitt statement.pdf",
+  "pm_stated_amount_due": 4193.32,
+  "lease": {
+    "base_monthly_rent": 1395.0,
+    "recurring_addons": [
+      {
+        "name": "Amenity package",
+        "amount": 50.0
+      },
+      {
+        "name": "Zero Deposit Program",
+        "amount": 45.0
+      }
+    ],
+    "lease_start": "2023-05-05",
+    "lease_end": "2024-05-31",
+    "current_term_start": "2023-05-05",
+    "current_term_end": "2024-05-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "zero_deposit",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 45.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Tenant agrees not to terminate prior to 12 months (5/31/2024) or in Nov/Dec; re-rent charge for improper/early lease termination of $1,000."
+  },
+  "move_out": {
+    "move_out_date": "2024-01-31",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-03-04",
+    "balance_due": 4193.32,
+    "first_full_month": "2023-06",
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": "2024-02-07"
+  },
+  "line_items": [
+    {
+      "description": "Repair service - Tenant responsible repairs, parts and labor (CF)",
+      "category": "repairs_damage",
+      "amount_open": 116.12,
+      "amount_charged": 116.12,
+      "date_posted": "2024-02-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Pet Flooring Inspection Service - Carpet inspection and partial/prorated cost of animal damaged carpet-SK",
+      "category": "pet_damage_odor",
+      "amount_open": 125.0,
+      "amount_charged": 125.0,
+      "date_posted": "2024-02-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Cleaning - Non-normal wear and tear cleaning",
+      "category": "cleaning",
+      "amount_open": 165.0,
+      "amount_charged": 165.0,
+      "date_posted": "2024-02-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Hauling charge - Charge for hauling left over items at time of vacancy-Pablo",
+      "category": "trash_removal",
+      "amount_open": 190.0,
+      "amount_charged": 190.0,
+      "date_posted": "2024-02-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Re-Rent Service - Re-rent charge for improper/early lease termination",
+      "category": "reletting_fee",
+      "amount_open": 1000.0,
+      "amount_charged": 1000.0,
+      "date_posted": "2024-02-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Unauthorized Pet",
+      "category": "pet_fee_rent",
+      "amount_open": 1000.0,
+      "amount_charged": 1000.0,
+      "date_posted": "2024-02-14",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Repairs - Tenant responsible carpet repairs/replacement",
+      "category": "flooring",
+      "amount_open": 1597.20,
+      "amount_charged": 1597.20,
+      "date_posted": "2024-02-14",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Pruitt statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 4193.32 - credits 0.00 = 4193.32 vs PM stated 4193.32; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "PM statement dated 03/04/24 itemizes 7 move-out charges totaling $4,193.32 with 0 credits and 0 prior balance, exactly matching the balance demanded in the collection letter. Flooring work is supported by vendor invoice #3-312698 ($4,198.43 total invoice, of which $1,597.20 was billed to tenant for pet damage)."
+}

@@ -1,0 +1,165 @@
+{
+  "tracking": 100,
+  "documents": [
+    {
+      "file": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-06-05",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(09-02-2022_-_09-02-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-09-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Security_Deposit_Waiver_Addendum1_(09-02-2022_-_09-02-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-09-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "tenant ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-05",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf",
+  "pm_stated_amount_due": 1010.0,
+  "lease": {
+    "base_monthly_rent": 2350.0,
+    "recurring_addons": [
+      {
+        "name": "Resident Benefit Package",
+        "amount": 29.0
+      },
+      {
+        "name": "Solar billback",
+        "amount": 154.68
+      },
+      {
+        "name": "Monthly Pet Fee",
+        "amount": 25.0
+      },
+      {
+        "name": "No Security Deposit Option Fee",
+        "amount": 65.0
+      }
+    ],
+    "lease_start": "2022-09-16",
+    "lease_end": "2023-09-19",
+    "current_term_start": "2022-09-16",
+    "current_term_end": "2023-09-19",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3525.0,
+    "monthly_sd_premium": 65.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "$1,000 lease break/re-renting fee plus two times monthly rent ($4,700), total $5,700"
+  },
+  "move_out": {
+    "move_out_date": "2023-05-15",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-06-05",
+    "balance_due": 1010.0,
+    "first_full_month": "2022-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-05-03"
+  },
+  "line_items": [
+    {
+      "description": "Cleaning (invoice #000001626: general cleaning $375, weed and dog feces clean up $150)",
+      "category": "cleaning",
+      "amount_open": 525.0,
+      "amount_charged": 525.0,
+      "date_posted": "2023-06-05",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repair (invoice May 23, 2023: blind rod $25, valance $25, microwave filter $25, 3 garage remotes $141)",
+      "category": "repairs_damage",
+      "amount_open": 216.0,
+      "amount_charged": 216.0,
+      "date_posted": "2023-06-05",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Cleaning (invoice May 26, 2023: 5 rooms, hall, stairs steam cleaned)",
+      "category": "carpet_cleaning",
+      "amount_open": 269.0,
+      "amount_charged": 269.0,
+      "date_posted": "2023-06-05",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = $1,010.00 - $0.00 = $1,010.00 vs PM stated $1,010.00; exactly matches",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Weed and dog feces clean up",
+      "file": "12090NGoldenviewLane_060523_StatementofAccounting_King.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant broke lease early on 2023-05-15, paid rent through 2023-05-14. PM did not charge lease break fees or unpaid rent. Deductions are cleaning ($525), repairs ($216), and carpet cleaning ($269), totaling $1,010.00."
+}

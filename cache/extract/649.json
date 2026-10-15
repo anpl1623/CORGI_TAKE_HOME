@@ -1,0 +1,94 @@
+{
+ "tracking": 649,
+ "documents": [
+  {
+   "file": "2710-108 Williams Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out statement; balance 139.00"
+  },
+  {
+   "file": "2710-108 Williams Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 139.00 balance; agrees"
+  },
+  {
+   "file": "2710-108 Williams SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Shows pro-rate back 36.00 and total 139.00; agrees"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1000,
+  "sd_program": "unknown",
+  "lease_start": "2024-04-01",
+  "lease_end": "2024-09-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-30",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-06-03",
+  "balance_due": 139,
+  "last_payment_date": "2024-05-01"
+ },
+ "line_items": [
+  {
+   "description": "Missing mail, FOB and key",
+   "category": "keys_remotes",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-03",
+   "source_file": "2710-108 Williams Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning - apartment not cleaned",
+   "category": "cleaning",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-03",
+   "source_file": "2710-108 Williams Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Pro-rate credit for 5/31 (adjustments)",
+   "amount": 36,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "ACH payment 05/01 applied to May charges",
+   "amount": 1063,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {},
+ "pm_stated_amount_due": 139,
+ "reconciliation": "Open lines 175.00 - credits 36.00 (5/31 pro-rate) = 139.00 vs PM 139.00; match.",
+ "notes": "May rent, SDRP and short-term lease fee paid by 05/01 ACH (1063); May adjustments of -36 leave a tenant credit. No post-move-out rent or break fee charged; move-out 5/30 vs lease end 9/30/2024. Ledger scan and lease not opened (lite mode).",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0d251c85bb700ab5"
+ }
+}

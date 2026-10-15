@@ -1,0 +1,244 @@
+{
+ "tracking": 561,
+ "winning_document": "S Wright final statement.pdf",
+ "pm_stated_amount_due": 1375.48,
+ "reconciliation": "Open lines 400.00 prior balance (split 355.00 Dec rent + 45.00 Dec ZDP) + 50.00 + 33.87 + 190.00 + 1200.00 = 1873.87, minus 498.39 Dec rent proration credit = 1375.48, equal to PM balance due 1375.48 (diff 0.00).",
+ "notes": "Johnson PM, Rent Manager statements. Final statement 4/22/24 and ledger 5/7/24 agree at 1375.48. The 5/2024 renters-insurance charge and credit (17.00) net to zero. Hypothetical collection fees (687.74) ignored. The statement shows a lump 400.00 previous balance. I split it by allocating payments oldest-charge-first across all charges, which leaves Dec rent 355.00 and Dec ZDP 45.00 open; that split is an inference. The Dec 21 rent credit (-498.39) is shown as a credit because the PM shows it as a credit; the property was uninhabitable after a suspected electrical fire on 12/21/23 and the PM charged no rent after that and no lease-break fee. Move-out is 12/22/23 per the sheet; the PM credited rent from 12/22. Both vendor invoices are handwritten with no date. The 1200.00 invoice reads 'trash and mow' with no split; the PM describes it as landfill removal of abandoned property.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "S Wright final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-22",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning accounting doc; balance 1375.48"
+  },
+  {
+   "file": "S Wright ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-07",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Used to split the 400.00 previous balance and for payment history; same 1375.48 balance"
+  },
+  {
+   "file": "S Wright collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-04-22",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "States 1375.48 due, matches the statement"
+  },
+  {
+   "file": "S Wright bill removal.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Handwritten invoice 741035, 190.00, move items into garage; backs the statement line"
+  },
+  {
+   "file": "S Wright bill haul.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Handwritten invoice 803091, 'trash and mow' 1200.00; backs the statement line"
+  },
+  {
+   "file": "S Wright ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-23",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program addendum, 45.00/month in lieu of deposit"
+  },
+  {
+   "file": "S Wright lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only; rent 1545, term 8/25/2023 to 8/31/2024, ZDP premium 45, amenity 50"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1545,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "zero_deposit",
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   }
+  ],
+  "lease_start": "2023-08-25",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2023-08-25",
+  "current_term_end": "2024-08-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No termination before 12 months (8/31/2024) or in Nov/Dec; re-rent cost 1000 plus 1000 liquidated damages for early termination; incentive time back-charged. None charged here."
+ },
+ "move_out": {
+  "move_out_date": "2023-12-22",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-05-07",
+  "balance_due": 1375.48,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-12-04"
+ },
+ "line_items": [
+  {
+   "description": "December 2023 rent, open remainder after oldest-first payment allocation (1545.00 charged; prorated by the separate -498.39 credit)",
+   "category": "rent_in_term",
+   "amount_charged": 1545,
+   "amount_open": 355,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Zero Deposit Program charge, December 2023 (open part of the previous balance)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Late charge 12/08/23",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-12-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Amenity Service Package, prorated 12/01-12/21/23 (posted with the fire/possession adjustment)",
+   "category": "other_fee",
+   "amount_charged": 33.87,
+   "amount_open": 33.87,
+   "date_posted": "2023-12-21",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-21",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Maria Gutierrez and crew moved all abandoned house items to the garage (invoice 741035)",
+   "category": "trash_removal",
+   "amount_charged": 190,
+   "amount_open": 190,
+   "date_posted": "2024-01-31",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright bill removal.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Removal of abandoned personal property to landfill (invoice 803091 reads 'trash and mow', no split)",
+   "category": "trash_removal",
+   "amount_charged": 1200,
+   "amount_open": 1200,
+   "date_posted": "2024-04-15",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "S Wright bill haul.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "December rent proration credit, possession transferred 12/21 after fire/uninhabitable (1545 x 10/31)",
+   "amount": 498.39,
+   "type": "concession_or_reversal",
+   "source_file": "S Wright final statement.pdf",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "abc4baacc45114d02"
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "tracking": 97,
+ "documents": [
+  {
+   "file": "7944 Stallion Drive - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Excalibur statement (oldest-first), billing 08/01/22-05/31/23, balance due 225. 05/03/23 cash payment 2,895 'Early Termination Fee'; 05/29/23 charges: ETF 2,395, early term admin fee 500, blinds chewed by dog 100, carpet damaged 125."
+  },
+  {
+   "file": "7944 Stallion Drive - No Refund Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-05-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Deposit disposition letter: deposit paid $0.00; balance due per attached ledger."
+  },
+  {
+   "file": "7944 Stallion Drive - SD Insurance Addendum.JPG",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-08-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Option 2 chosen: $59/month in lieu of $2,195 security deposit (Your Renters Insurance Group)."
+  },
+  {
+   "file": "7944 Stallion Drive - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-08-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 08/15/2022-08/31/2023, rent $2,395; early termination: 60 days notice + one month's rent + $500 admin fee."
+  },
+  {
+   "file": "7944 Stallion Drive - Tenant contact Melissa.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false
+  },
+  {
+   "file": "7944 Stallion Drive - Tenant contact Patrick.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2395,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 59,
+  "waived_deposit_amount": 2195,
+  "cash_deposit_amount": 0,
+  "lease_start": "2022-08-15",
+  "lease_end": "2023-08-31",
+  "current_term_start": "2022-08-15",
+  "current_term_end": "2023-08-31",
+  "initial_term_months": 12.5,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "Sec Dep Ins Charge to Tenant",
+    "amount": 59
+   },
+   {
+    "name": "YRIG Prem",
+    "amount": 20
+   },
+   {
+    "name": "Latchel Concierge Service",
+    "amount": 14.99
+   },
+   {
+    "name": "Pet Rent",
+    "amount": 40
+   },
+   {
+    "name": "EFT Service Fees",
+    "amount": 15
+   }
+  ],
+  "lease_break_terms": "Para 19: tenant may terminate early with at least 60 days notice, paying one month's rent as liquidated damages plus a $500 Early Lease Termination Administrative Fee. Holdover $300/day."
+ },
+ "move_out": {
+  "move_out_date": "2023-04-30",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "TBR Damages to Property: Two pairs of blinds in living room chewed up by dog",
+   "category": "pet_damage_odor",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-05-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "7944 Stallion Drive - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "TBR Damages to Property: Carpet in far left upstairs bedroom damaged",
+   "category": "flooring",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2023-05-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7944 Stallion Drive - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.75
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant cash payment 05/03/2023 'Early Termination Fee' (CCxx2375) fully offsetting ETF 2,395 + early-term admin fee 500 charged 05/29/2023",
+   "amount": 2895,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "7944 Stallion Drive - Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "TBR Damages to Property Charges Carpet in far left upstairs bedroom damaged 125.00",
+   "file": "7944 Stallion Drive - Ledger.pdf"
+  },
+  {
+   "flag": "pet_damage",
+   "quote": "Two pairs or blinds in living room chewed up by dog 100.00",
+   "file": "7944 Stallion Drive - Ledger.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-05-30",
+  "balance_due": 225,
+  "first_full_month": "2022-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-05-03"
+ },
+ "pm_stated_amount_due": 225,
+ "winning_document": "7944 Stallion Drive - Ledger.pdf",
+ "reconciliation": "Open lines 100 (dog-chewed blinds) + 125 (carpet) = 225 = ledger balance due. The ETF 2,395 + 500 admin fee (2,895) charged 5/29/23 were prepaid by the tenant's 5/3/23 payment of 2,895, so they are not open (credit already netted).",
+ "notes": "Early termination under lease para 19. The tenant paid the full early-termination fee and admin fee to the PM, and all rent through April 2023 was paid; no rent after move-out is charged. The only unpaid items are the two damage charges posted 5/29/23. Neither has an invoice, estimate or photos in the folder (carpet line flagged as flooring_without_support). Late charges in Feb and Mar 2023 were paid. Rent reservation fee 2,395 paid 8/8/22 was reversed and applied to move-in and September charges, so September 2022 was fully paid on 9/1/22. The SD program is the YRIG security deposit insurance ($59/mo, coverage $2,195), plus a separate 'YRIG Prem' of $20/mo.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "ac154fc17ddb611e7"
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "tracking": 780,
+ "extraction_confidence": 0.85,
+ "winning_document": "Yancy dep.pdf (TXR-2216 pages 1-3)",
+ "pm_stated_amount_due": 5315.3,
+ "reconciliation": "Open lines sum 5315.30; no deposit tendered and no credits; PM demanded excess 5315.30; match.",
+ "notes": "Make-ready 935.17 is split using invoice 8455 (page 4): writ crew 750 + blind 110.17 + carpentry 75. Re-key invoice 7806 (page 5) = 85. CertaPro 2284.06 paint proposal (page 6) is an estimate and is excluded. Ledger lease expiration 07/13/2024 conflicts with sheet lease end 07/16/2024; the sheet is used. Lease not opened; pages 7-12 inventory form not used for amounts.",
+ "documents": [
+  {
+   "file": "Yancy dep.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-08-15",
+   "used_for_amounts": true,
+   "note": "TXR-2216 winning statement (pp1-3) plus invoices 8455 and 7806 (pp4-5)",
+   "opened_visually": true
+  },
+  {
+   "file": "tenant_ledger-kendra_yancy-20240827.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Splits rent, fees; ties to 5315.30",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2495,
+  "lease_start": "2023-07-14",
+  "lease_end": "2024-07-16",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 5315.3,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-03"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-16",
+  "termination": "eviction"
+ },
+ "line_items": [
+  {
+   "description": "Rent Jun 2024",
+   "category": "rent_in_term",
+   "amount_open": 2495,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Jul 1-16 2024 (prorated)",
+   "category": "rent_in_term",
+   "amount_open": 1287.74,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Tenant benefits package Jun 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Tenant benefits package Jul 1-16",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 28.39,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit alternative Jun 2024",
+   "category": "sdrp_premium",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit alternative Jul 2024",
+   "category": "sdrp_premium",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Admin fee, 3-day notice June",
+   "category": "admin_itemization_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Eviction filing fee",
+   "category": "eviction_legal_court",
+   "amount_open": 129,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Writ of possession fee",
+   "category": "eviction_legal_court",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Re-key after writ (invoice 7806)",
+   "category": "rekey_locks",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Writ moving crew labor (invoice 8455)",
+   "category": "trash_removal",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace broken blind (invoice 8455)",
+   "category": "other_damage",
+   "amount_open": 110.17,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Door molding carpentry, paint (inv 8455)",
+   "category": "repairs_damage",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Yancy dep.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

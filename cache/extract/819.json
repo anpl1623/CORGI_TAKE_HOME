@@ -1,0 +1,344 @@
+{
+ "tracking": 819,
+ "winning_document": "06-6753 Chivas Move Out Statement.pdf (dated 08/28/2024)",
+ "pm_stated_amount_due": 5509,
+ "reconciliation": "Open lines total 5509.00; credits 0 extra (July tenant payments already netted in the balance-forward split); equals PM stated 5509.00; difference 0.00.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "06-6753 Chivas Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-28",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning accounting doc; total 5509.00"
+  },
+  {
+   "file": "06-6753 Chivas Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Used to split 557.00 balance forward into components"
+  },
+  {
+   "file": "06-6753 Chivas SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Corroborates 5509 total and maintenance items"
+  },
+  {
+   "file": "06-6753 Chivas Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Same 5509.00 balance"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 1205,
+  "lease_start": "2024-02-01",
+  "lease_end": "2025-01-31",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-08-26",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-23",
+  "balance_due": 5509,
+  "last_payment_date": "2024-07-13",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "credits": [
+  {
+   "description": "July tenant payments 20+500+500 netted in balance-forward split",
+   "amount": 1020,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "line_items": [
+  {
+   "description": "July rent balance after payments",
+   "category": "rent_in_term",
+   "amount_open": 280,
+   "amount_charged": 1280,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July renters insurance (balance forward)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July pet fee income (balance forward)",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July pet fee income, second charge",
+   "category": "pet_fee_rent",
+   "amount_open": 50,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July security deposit protection (balance forward)",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July utility revenue (balance forward)",
+   "category": "utilities",
+   "amount_open": 50,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "July 6 late fee (balance forward)",
+   "category": "late_fee",
+   "amount_open": 100,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "06-6753 Chivas Ledger.docx"
+  },
+  {
+   "description": "August 2024 rent (full month billed)",
+   "category": "rent_in_term",
+   "amount_open": 1280,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August pet fee income",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August pet fee income, second charge",
+   "category": "pet_fee_rent",
+   "amount_open": 50,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August utility revenue",
+   "category": "utilities",
+   "amount_open": 50,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "August 6 late fee",
+   "category": "late_fee",
+   "amount_open": 100,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "Carpet cleaning (turnover)",
+   "category": "carpet_cleaning",
+   "amount_open": 220,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "Cleaning charges (full unit clean)",
+   "category": "cleaning",
+   "amount_open": 200,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "Three sets of blinds",
+   "category": "other_damage",
+   "amount_open": 120,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "Bathtub repairs",
+   "category": "repairs_damage",
+   "amount_open": 75,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "September 2024 rent after broken lease",
+   "category": "rent_after_move_out",
+   "amount_open": 1280,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  },
+  {
+   "description": "Repayment of move-in special concession",
+   "category": "other_fee",
+   "amount_open": 1500,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "06-6753 Chivas Move Out Statement.pdf"
+  }
+ ],
+ "notes": "Move-out 08/26/24 vs lease end 01/31/25 (early termination; Sept is future rent). Statement, move-out letter and SDI all total 5509.00. Balance forward 557.00 as of 8/01 split by oldest-first allocation: payments 20 (07/01), 500 (07/06), 500 (07/13) applied to June leftover 20 then July rent, leaving July rent 280, other July charges 177 (ins 19, pet 25 and 50, SDRP 33, utility 50) and July late fee 100. August rent billed as full month (move-out 08/26), period coded 08/01-08/31. Ledger Feb move-in concession 1500 was credited then reversed; the 08/28 repayment charge is coded other_fee. Sheet base rent 1205 used per lite mode; ledger bills rent 1280. Lease, addendum and ACH form not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a41b3ed03db7eafdc"
+ }
+}

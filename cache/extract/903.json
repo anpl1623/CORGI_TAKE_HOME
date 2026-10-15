@@ -1,0 +1,212 @@
+{
+ "tracking": 903,
+ "winning_document": "Myers 2700-205 Move Out Statement.pdf",
+ "pm_stated_amount_due": 1739,
+ "reconciliation": "sum(open lines) 1415.00+45.00+134.00+40.00+105.00 = 1739.00; credits 0.00; net 1739.00 = PM stated 1739.00 (statement, SDI and 10/10/2024 letter agree; no deposit held because it was waived).",
+ "documents": [
+  {
+   "file": "Myers 2700-205 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; text layer complete."
+  },
+  {
+   "file": "Myers 2700-205 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Perry Reid SDI; same total 1739.00; lists Lease Expiration 10/31/24 and October 1,415.00 as 'Current Ledger Balance'."
+  },
+  {
+   "file": "Myers 2700-205 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 1739.00; threatens Hunter Warfield collections (no collection fee charged)."
+  },
+  {
+   "file": "Myers Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first AppFolio-style ledger; used for rent history, first full month and to confirm the 10/08-10/10/2024 move-out charges are the only open rows."
+  },
+  {
+   "file": "Myers 2700-205 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-11",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-2 read: rent 1225, term 9/11/2023-9/30/2024, cash deposit 0.00, 60 days notice needed else month-to-month renewal."
+  },
+  {
+   "file": "Myers 2700-205 Addendendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-11",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, $33/month, waives $1,200 deposit; renters insurance NO."
+  },
+  {
+   "file": "NOR DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Classified from file name; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1225,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-09-11",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2023-09-11",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12.67,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 11 Early Move-Out: tenant liable for all rent owed as it becomes due until re-rented plus repayment of any rent concession; para 3: 60 days written notice required else lease auto-renews month-to-month.",
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue (monthly utility charge)",
+    "amount": 40
+   },
+   {
+    "name": "Garage rent (from 02/2024)",
+    "amount": 85
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 1739,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-03"
+ },
+ "line_items": [
+  {
+   "description": "Improper Notice - October 2024 'Current Ledger Balance' (tenant gave notice 8/26/2024 vs 60 days required; PM treated lease as renewed month-to-month to 10/31/2024). Single PM line, not split; exceeds the 1,383 monthly bundle by 32 with no explanation.",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1415,
+   "amount_open": 1415,
+   "date_posted": "2024-10-08",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Myers 2700-205 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Replaced broken window blinds",
+   "category": "repairs_damage",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Myers 2700-205 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Flea treatment",
+   "category": "pet_damage_odor",
+   "amount_charged": 134,
+   "amount_open": 134,
+   "date_posted": "2024-10-10",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Myers 2700-205 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Removed paint on deck",
+   "category": "repairs_damage",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Myers 2700-205 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Painting/drywall repairs - additional paint for heavily marked up walls",
+   "category": "painting",
+   "amount_charged": 105,
+   "amount_open": 105,
+   "date_posted": "2024-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Myers 2700-205 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "no_policy_evidence": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "mixed_pet_nonpet_line": false,
+  "flooring_without_support": false
+ },
+ "evidence": [],
+ "notes": "Tenant (Perry Reid / The Allure at 57, Norwalk IA) paid all rent through September 2024 (9/3/2024 payment zeroed the balance). All open charges were posted 10/08-10/10/2024 after move-out on the lease end date. SDI lists lease expiration 10/31/24 while lease, ledger and sheet say 9/30/2024; the October charge is labeled Improper Notice, consistent with an auto month-to-month renewal. No collection fee, late fee or SDRP premium is open.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a79e46a43e2439838"
+ }
+}

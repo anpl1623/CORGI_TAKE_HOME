@@ -1,0 +1,151 @@
+{
+ "tracking": 757,
+ "winning_document": "221 Jackman Move Out Statement.pdf (08/07/2024), matched by scanned SDI (839.00)",
+ "documents": [
+  {
+   "file": "221 Jackman Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Itemized claim total 839.00"
+  },
+  {
+   "file": "221 Jackman SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scan total 839.00 (639 + 200)"
+  },
+  {
+   "file": "221 Jackman Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance 839.00 cross-check"
+  },
+  {
+   "file": "221 Jackman Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Open balance 839.00 cross-check"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 980,
+  "lease_start": "2024-03-01",
+  "lease_end": "2025-02-28",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null,
+  "initial_term_months": 12,
+  "is_month_to_month": null,
+  "is_renewal": null
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Future months rent 8/1-8/12 (PM-charged)",
+   "category": "rent_after_move_out",
+   "amount_charged": 389,
+   "amount_open": 389,
+   "date_posted": "2024-08-07",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-12",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "221 Jackman Move Out Statement.pdf"
+  },
+  {
+   "description": "Reletting fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.95,
+   "source_file": "221 Jackman Move Out Statement.pdf"
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 155,
+   "amount_open": 155,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.95,
+   "source_file": "221 Jackman Move Out Statement.pdf"
+  },
+  {
+   "description": "Lockwork per lease",
+   "category": "rekey_locks",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "221 Jackman Move Out Statement.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 839,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-03"
+ },
+ "pm_stated_amount_due": 839,
+ "reconciliation": "Open lines 389+250+155+45 = 839, no credits; equals PM stated 839 (statement, letter, SDI, ledger agree).",
+ "extraction_confidence": 0.9,
+ "evidence": [],
+ "notes": "Scanned SDI has an unlabeled 389 row placed under Pro-Rated Credits; it matches the statement future-rent line. Lite mode: no lease opened.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af0140f850d12dfe6"
+ }
+}

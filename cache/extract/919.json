@@ -1,0 +1,266 @@
+{
+ "tracking": 919,
+ "winning_document": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf",
+ "pm_stated_amount_due": 8689.3,
+ "reconciliation": "Open lines 8689.30 minus credits 0 = 8689.30; matches PM stated 8689.30 (collection letter and 10/31 unpaid report agree). Sept rent category depends on the move-out date conflict noted.",
+ "extraction_confidence": 0.7,
+ "notes": "Move-out date conflict: sheet 2024-09-30 vs ledger and unpaid report 08/12/2024; ledger date used, so Sept rent is rent until re-let (relet fee 09/24/2024). Ledger lease expiration 04/30/2025 conflicts with sheet lease end 2024-09-30; sheet used per lite. Eviction Service (08/06) and eviction filing fee present but no writ in folder; termination set to eviction. August rent straddles 8/12 move-out; PM amount kept with full-month period, categorized rent_in_term (confidence 0.5). No payments after 06/04/2024. Process gap: digest excerpt of lease extension and SD waiver addendum was incidentally visible before the lite-mode skip; not relied on.",
+ "documents": [
+  {
+   "file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-01",
+   "used_for_amounts": true,
+   "note": "All open rows; total 8689.30; no payments after 6/4/2024."
+  },
+  {
+   "file": "tenant_unpaid_charges_report_taelor_w_fincher_autum_a_fincher.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-31",
+   "used_for_amounts": false,
+   "note": "Same 8689.30 total; lists move-out 08/12/2024."
+  },
+  {
+   "file": "Fincher-SDA Reconcilation.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-01",
+   "used_for_amounts": false,
+   "note": "Collection notice; total 8689.30 matches ledger."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1895,
+  "lease_start": "2022-12-09",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-12",
+  "termination": "eviction",
+  "re_let_date": "2024-09-24"
+ },
+ "ledger": {
+  "as_of_date": "2024-11-01",
+  "balance_due": 8689.3,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-04"
+ },
+ "line_items": [
+  {
+   "description": "July 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1895,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "August 2024 rent (straddles 8/12 move-out)",
+   "category": "rent_in_term",
+   "amount_open": 1895,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.5,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "September 2024 rent until re-let",
+   "category": "rent_after_move_out",
+   "amount_open": 1895,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Pet fee July 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 100,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Pet fee August 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 100,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Pet fee September 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 100,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Tenant Benefits Package July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 55,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Tenant Benefits Package August 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 55,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Tenant Benefits Package September 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 55,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Security Deposit Alternative July 2024",
+   "category": "sdrp_premium",
+   "amount_open": 69,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Security Deposit Alternative August 2024",
+   "category": "sdrp_premium",
+   "amount_open": 69,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Security Deposit Alternative September 2024",
+   "category": "sdrp_premium",
+   "amount_open": 69,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Late fee on July rent, 7/11/2024",
+   "category": "late_fee",
+   "amount_open": 227.4,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Eviction service fee, 8/6/2024",
+   "category": "eviction_legal_court",
+   "amount_open": 209.9,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  },
+  {
+   "description": "Relet fee, 9/24/2024",
+   "category": "reletting_fee",
+   "amount_open": 1895,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "tenant_ledger-taelor_w_fincher_autum_a_fincher-20241101.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa73bfc5388dff3f2"
+ }
+}

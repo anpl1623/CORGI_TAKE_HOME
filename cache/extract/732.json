@@ -1,0 +1,109 @@
+{
+ "tracking": 732,
+ "documents": [
+  {
+   "file": "invoice.docx",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Contains only the word 'test'."
+  },
+  {
+   "file": "ledger.xlsx",
+   "doc_type": "tenant_ledger",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Empty Sheet1 (no cells)."
+  },
+  {
+   "file": "letter to tenant.docx",
+   "doc_type": "other",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Blank document."
+  },
+  {
+   "file": "move-out calculations.xlsx",
+   "doc_type": "move_out_statement",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Empty Sheet1 (no cells)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "sd_program": "unknown",
+  "cash_deposit_amount": null,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": null,
+  "recurring_addons": [],
+  "lease_start": "2024-05-01",
+  "lease_end": "2025-04-30",
+  "current_term_start": "2024-05-01",
+  "current_term_end": "2025-04-30",
+  "initial_term_months": 12,
+  "is_renewal": null,
+  "is_month_to_month": null,
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-08-22",
+  "termination": "unknown",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [],
+ "credits": [],
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "flags": {
+  "test_claim": true,
+  "missing_itemization": true,
+  "missing_ledger": true,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "tenant_disputes_charges": false,
+  "short_term_lease": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "invoice.docx",
+   "flag": "test_claim",
+   "quote": "test"
+  },
+  {
+   "file": "digest sheet facts",
+   "flag": "test_claim",
+   "quote": "Property Management Company: PMGRCORP; Group # 123; Treaty # 123; Policy 00000R"
+  }
+ ],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": null,
+ "reconciliation": "No line items and no amounts in any document (invoice.docx says only 'test'; ledger and move-out calculations spreadsheets are empty); nothing to reconcile.",
+ "winning_document": null,
+ "notes": "Placeholder claim: dummy PM and group/treaty numbers, one-word invoice, empty ledger and calculation spreadsheets, blank tenant letter. No lease or SD addendum in folder, so SD program is unknown. Lease dates, rent and move-out date come from sheet facts only.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a347f77b2d73a21d6"
+ }
+}

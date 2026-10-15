@@ -1,0 +1,212 @@
+{
+ "tracking": 894,
+ "winning_document": "Moore final statement.pdf (Johnson PM statement 10/16/2024); Moore ledger.pdf (10/24/2024) and collection letter (10/16/2024) agree at $523.00",
+ "documents": [
+  {
+   "file": "Moore final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 523.00: repair service 250.00, painting 15.00, cleaning 105.00, carpet cleaning 153.00. Collection fees 261.50 and 784.50 total-if-collections are hypothetical, not charges."
+  },
+  {
+   "file": "Moore ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager statement; open rows 10/02/24 repair 250, painting 15, cleaning 105, carpet 153; balance 523.00; last payment 09/01/24 1440.00"
+  },
+  {
+   "file": "Moore invoice repair.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Idaho First Property Maintenance inv 1043: subtotal 294.00, 20% labor discount 44.00, total 250.00 (sticky-mount removal, nail-hole patch, globe cover, 4 stove pans). Account balance 635 is not a charge"
+  },
+  {
+   "file": "Moore invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Vetos inv 240: cleaning 2.0h 60.00 + cleaning 3.5h 105.00 + painting 0.5h 15.00 = 180.00; statement bills only 105.00 cleaning and 15.00 painting; the 60.00 is not charged"
+  },
+  {
+   "file": "Moore invoice carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 116246A total 153.00 (1 room 95.00 + 2 additional rooms 29.00 each); note says permanent traffic wear/staining"
+  },
+  {
+   "file": "T Moore collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Confirms balance 523.00; threatens collection fees if unpaid in 7 days (hypothetical)"
+  },
+  {
+   "file": "Moore lease.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned content is the Zero Deposit Program Rental Agreement Addendum dated 9/7/2023 for 165 E. Aikens St: monthly fee 45.00 in lieu of security deposit, checked; no base residential lease in folder despite file name"
+  },
+  {
+   "file": "Moore zero deposit.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned Zero Deposit Program terms (account 25783); monthly fee does not accumulate; final account statement within 30 days; pay within 7 days or collection"
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.87,
+ "lease": {
+  "base_monthly_rent": 1295,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-09-16",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12,
+  "is_month_to_month": null,
+  "is_renewal": false,
+  "lease_start": "2023-09-16",
+  "lease_end": "2024-09-30",
+  "lease_break_terms": null,
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   },
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Pet Rent",
+    "amount": 50
+   }
+  ],
+  "sd_program": "zero_deposit",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null,
+  "notes": "Sheet lease start 09/12/2023; ledger first rent proration 09/16/2023 used for lease_start. Oct 2023 first full month charges 1440 paid 10/03/2023. No rent charged after 09/30/2024."
+ },
+ "line_items": [
+  {
+   "description": "Repair service: tenant responsible repairs, parts and labor (Idaho First inv 1043 total 250.00 after 20% labor discount; sticky-mount removal on shower walls, nail-hole patch, globe cover, 4 stove pans; no per-item split given)",
+   "category": "repairs_damage",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-02",
+   "source_file": "Moore final statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Painting: non-normal wear and tear spot paint (Vetos inv 240, 0.5h at 30.00)",
+   "category": "painting",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-02",
+   "source_file": "Moore final statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning: non-normal wear and tear cleaning (Vetos; statement bills 105.00 of the 180.00 invoice)",
+   "category": "cleaning",
+   "amount_charged": 105,
+   "amount_open": 105,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-02",
+   "source_file": "Moore final statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning service: tenant responsible carpet cleaning (invoice 116246A; note says permanent traffic wear/staining)",
+   "category": "carpet_cleaning",
+   "amount_charged": 153,
+   "amount_open": 153,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-02",
+   "source_file": "Moore final statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-10-24",
+  "balance_due": 523,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "pm_stated_amount_due": 523,
+ "reconciliation": "Open lines 250 + 15 + 105 + 153 = 523; credits 0. PM stated 523 (statement, ledger, letter). Difference 0. Collection fees 261.50 excluded as hypothetical. Vetos invoice 60.00 cleaning line not billed to tenant, so not counted.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a2e242b763d30fd5f"
+ }
+}

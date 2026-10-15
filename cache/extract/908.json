@@ -1,0 +1,222 @@
+{
+ "tracking": 908,
+ "winning_document": "Barford 09-6802 Move Out Statement.pdf (dated 10/08/2024). Matches Move Out Letter (10/08/2024, 1,743.00) and SDI (total 1,743.00).",
+ "documents": [
+  {
+   "file": "Barford 09-6802 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/08/2024; winning doc; total 1,743.00"
+  },
+  {
+   "file": "Barford 09-6802 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "10/08/2024; balance due 1,743.00"
+  },
+  {
+   "file": "Barford 09-6802 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Current ledger Oct rent and fees 1,453 (A) + maintenance 290 (B) = 1,743"
+  },
+  {
+   "file": "Barford 09-6802 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/28/2024; used for payment history and first full month"
+  },
+  {
+   "file": "Barford 09-6802 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "IA addendum: renters insurance NO; Security Deposit Waiver YES $33/mo (waives 1,200 deposit); signed 7/18/23 by co-resident"
+  },
+  {
+   "file": "Barford 09-6802 Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "29pp no text layer; not opened (rent and term from sheet and ledger)"
+  },
+  {
+   "file": "AJC DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "ignored"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1360,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-10-19",
+  "current_term_end": "2024-10-31",
+  "lease_start": "2023-10-19",
+  "lease_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease not read (29pp). Tenant moved out 10/02/2024, and PM charged full October rent.",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 60
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200
+ },
+ "move_out": {
+  "move_out_date": "2024-10-02",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 1743,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-04"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent 10/2024 - full month charged; tenant out 10/02 so period is mostly after move-out",
+   "category": "rent_after_move_out",
+   "amount_charged": 1360,
+   "amount_open": 1360,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Security Deposit Protection 10/2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue 10/2024",
+   "category": "utilities",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaning Charges (full clean) 10/08/2024",
+   "category": "cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Repair holes kitchen/kitchen pantry (PM classes as Painting/Drywall Repair)",
+   "category": "painting",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Reinstall blinds and closet door",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace toilet paper holder",
+   "category": "other_damage",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Barford 09-6802 Move Out Statement.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 1743,
+ "reconciliation": "Sum(open lines) = 1,360 + 33 + 60 + 150 + 100 + 25 + 15 = 1,743.00. Credits none. Equals PM letter and statement 1,743.00 (SDI split 1,453 (A) + 290 (B)).",
+ "notes": "Full October rent (1,360) charged although tenant moved out 10/02; no PM waiver here, unlike 907. Move-out 10/02 with lease to 10/31 treated as early_termination. First payment after move-in was 11/04/2023 (953), paid in full, so no bounce. Addendum confirms SD waiver, so no_policy_evidence is false.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "abf787c28a9ada6ce"
+ }
+}

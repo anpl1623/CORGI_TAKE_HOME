@@ -1,0 +1,322 @@
+{
+ "tracking": 856,
+ "winning_document": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "doc_date": "2024-08-28",
+   "note": "Winning doc; itemized total 6692.00"
+  },
+  {
+   "file": "tenant_ledger-ashley_n_servin_gregory_k_mcdonald-20241009.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-09",
+   "note": "Open balance 6692.00 matches; used for payment history and rent split"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1395,
+  "lease_start": "2024-02-23",
+  "lease_end": "2025-02-22",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "RBP with insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP premium",
+    "amount": 38
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-12",
+  "termination": "eviction"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-09",
+  "balance_due": 6692,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-04-23"
+ },
+ "line_items": [
+  {
+   "description": "April 2024 rent open balance",
+   "category": "rent_in_term",
+   "amount_open": 141,
+   "amount_charged": 1395,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "April 2024 RBP with insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "April 2024 SDRP premium",
+   "category": "sdrp_premium",
+   "amount_open": 38,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "April 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 139.5,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1395,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 RBP with insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 SDRP premium",
+   "category": "sdrp_premium",
+   "amount_open": 38,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 139.5,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1395,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 RBP with insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 SDRP premium",
+   "category": "sdrp_premium",
+   "amount_open": 38,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 139.5,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 rent (moved out 7/12)",
+   "category": "rent_in_term",
+   "amount_open": 1395,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "July 2024 RBP with insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 SDRP premium",
+   "category": "sdrp_premium",
+   "amount_open": 38,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 late fee",
+   "category": "late_fee",
+   "amount_open": 139.5,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Professional clean, deposit forfeit",
+   "category": "cleaning",
+   "amount_open": 300,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Overgrowth removal, debris, grass cutting",
+   "category": "landscaping_lawn",
+   "amount_open": 400,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Vinyl blinds replacement 36x64",
+   "category": "repairs_damage",
+   "amount_open": 50,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Touch-up painting walls, doors, trim",
+   "category": "painting",
+   "amount_open": 750,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ashley_n_servin_082824 (1).pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 6692,
+ "reconciliation": "Open lines 6692.00 minus credits 0.00 equals PM stated 6692.00 (08/28 statement and ledger); no difference.",
+ "extraction_confidence": 0.85,
+ "notes": "Status Evict; no court or writ document in folder. Rent and fee lines are open remainders after 04/01 and 04/23 payments. July rent charged in full though move-out was 07/12; kept as one line at PM amount. Lumped lines (clean, debris/grass) not split because no sub-amounts. Lease not opened; sheet dates used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

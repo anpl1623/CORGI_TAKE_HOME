@@ -1,0 +1,684 @@
+{
+ "tracking": 606,
+ "winning_document": "3382 Sable Chase - Ledger.pdf",
+ "pm_stated_amount_due": 51908.82,
+ "extraction_confidence": 0.8,
+ "documents": [
+  {
+   "file": "3382 Sable Chase - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Excalibur statement 9/8/22-6/13/24; only accounting doc (no itemization). Charges-only ledger, no tenant payments in period; balance due 51,908.82."
+  },
+  {
+   "file": "3382 Sable Chase - No refund letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States deposit paid 0.00 and remaining balance is per attached ledger; no separate amount."
+  },
+  {
+   "file": "3382 Sable Chase - Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Page 2 opened to confirm para 24 auto-renewal (12 months), early termination and holdover clauses."
+  },
+  {
+   "file": "3382 Sable Chase - SD Insurance Addendum.jpg",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened; SD insurance program already clear from lease para 6 and ledger SD Ins charges."
+  },
+  {
+   "file": "3382 Sable Chase - Tenant Contact.jpg",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3500,
+  "monthly_sd_premium": 81,
+  "lease_start": "2022-09-08",
+  "lease_end": "2023-09-30",
+  "current_term_start": "2023-10-01",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 13,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 20: 60 days notice + one month's rent liquidated damages + $500 early termination admin fee. Para 22 holdover $300/day. Para 24: auto-renews 12 months (up to 2 renewal terms).",
+  "recurring_addons": [
+   {
+    "name": "SD Ins Excalibur (SD insurance fee charged to tenant)",
+    "amount": 81
+   },
+   {
+    "name": "Latchel Concierge Service",
+    "amount": 14.99
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-05-16",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent Sep 2022 prorated 23 days (9/8-9/30/22)",
+   "category": "rent_in_term",
+   "amount_open": 1418.33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-09-08",
+   "service_period_start": "2022-09-08",
+   "service_period_end": "2022-09-30"
+  },
+  {
+   "description": "Rent Oct 2022",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31"
+  },
+  {
+   "description": "Rent Nov 2022",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30"
+  },
+  {
+   "description": "Rent Dec 2022",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-12-01",
+   "service_period_start": "2022-12-01",
+   "service_period_end": "2022-12-31"
+  },
+  {
+   "description": "Rent Jan 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2023-01-01",
+   "service_period_start": "2023-01-01",
+   "service_period_end": "2023-01-31"
+  },
+  {
+   "description": "Rent Feb 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2023-02-01",
+   "service_period_start": "2023-02-01",
+   "service_period_end": "2023-02-28"
+  },
+  {
+   "description": "Rent Mar 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31"
+  },
+  {
+   "description": "Rent Apr 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-04-01",
+   "service_period_start": "2023-04-01",
+   "service_period_end": "2023-04-30"
+  },
+  {
+   "description": "Rent May 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-05-01",
+   "service_period_start": "2023-05-01",
+   "service_period_end": "2023-05-31"
+  },
+  {
+   "description": "Rent Jun 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-06-01",
+   "service_period_start": "2023-06-01",
+   "service_period_end": "2023-06-30"
+  },
+  {
+   "description": "Rent Jul 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-07-01",
+   "service_period_start": "2023-07-01",
+   "service_period_end": "2023-07-31"
+  },
+  {
+   "description": "Rent Aug 2023",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2023-08-01",
+   "service_period_start": "2023-08-01",
+   "service_period_end": "2023-08-31"
+  },
+  {
+   "description": "Rent Sep 2023 (last month of initial term)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.9,
+   "date_posted": "2023-09-01",
+   "service_period_start": "2023-09-01",
+   "service_period_end": "2023-09-30"
+  },
+  {
+   "description": "Rent Oct 2023 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2023-10-01",
+   "service_period_start": "2023-10-01",
+   "service_period_end": "2023-10-31"
+  },
+  {
+   "description": "Rent Nov 2023 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30"
+  },
+  {
+   "description": "Rent Dec 2023 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31"
+  },
+  {
+   "description": "Rent Jan 2024 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2024-01-01",
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31"
+  },
+  {
+   "description": "Rent Feb 2024 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2024-02-01",
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29"
+  },
+  {
+   "description": "Rent Mar 2024 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2024-03-01",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-31"
+  },
+  {
+   "description": "Rent Apr 2024 (auto-renewal term, tenant in possession)",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.7,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30"
+  },
+  {
+   "description": "Rent May 2024 through move-out 5/16 (1,850 charged less 895.16 reversal of 5/17-5/31)",
+   "category": "rent_in_term",
+   "amount_open": 954.84,
+   "amount_charged": 1850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.8,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-16"
+  },
+  {
+   "description": "SD Ins Excalibur / Sec Dep Ins Charge to Tenant: 13 monthly charges of 81.00 (9/8/22 and 10/1/22-9/1/23)",
+   "category": "sdrp_premium",
+   "amount_open": 1053,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.85,
+   "date_posted": "2022-09-08",
+   "service_period_start": "2022-09-08",
+   "service_period_end": "2023-09-30"
+  },
+  {
+   "description": "Sec Dep Ins Charge to Tenant: 8 monthly charges of 81.00 (10/1/23-5/1/24)",
+   "category": "sdrp_premium",
+   "amount_open": 648,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.85,
+   "date_posted": "2023-10-01",
+   "service_period_start": "2023-10-01",
+   "service_period_end": "2024-05-31"
+  },
+  {
+   "description": "YRIG Prem - Owners: 8 charges of 20.00 (10/1/22-5/1/23) less 40.00 credit 6/27/23 (stopped YRIG, credited Apr/May to owner)",
+   "category": "sdrp_premium",
+   "amount_open": 120,
+   "amount_charged": 160,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2023-05-31"
+  },
+  {
+   "description": "Latchel Concierge Service: 12 monthly charges of 14.99 (10/1/22-9/1/23)",
+   "category": "other_fee",
+   "amount_open": 179.88,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.8,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2023-09-30"
+  },
+  {
+   "description": "Latchel Concierge Service: 8 monthly charges of 14.99 (10/1/23-5/1/24)",
+   "category": "other_fee",
+   "amount_open": 119.92,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.8,
+   "date_posted": "2023-10-01",
+   "service_period_start": "2023-10-01",
+   "service_period_end": "2024-05-31"
+  },
+  {
+   "description": "Late Fee to Owner: 12 charges of 185.00 (10/6/22-9/6/23)",
+   "category": "late_fee",
+   "amount_open": 2220,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-10-06"
+  },
+  {
+   "description": "Late Fee to Owner: 8 charges of 185.00 (10/6/23-5/6/24)",
+   "category": "late_fee",
+   "amount_open": 1480,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.9,
+   "date_posted": "2023-10-06"
+  },
+  {
+   "description": "Non-Refundable Admin Fee per lease",
+   "category": "admin_itemization_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-09-08"
+  },
+  {
+   "description": "Water bill 9/8-10/3/22",
+   "category": "utilities",
+   "amount_open": 145.85,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9,
+   "date_posted": "2022-10-10",
+   "service_period_start": "2022-09-08",
+   "service_period_end": "2022-10-03"
+  },
+  {
+   "description": "Misc fees due to Excalibur: violation inspection trip charge",
+   "category": "other_fee",
+   "amount_open": 80,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.85,
+   "date_posted": "2023-10-24"
+  },
+  {
+   "description": "Misc charges: chargeback for garage door diagnostic fee",
+   "category": "repairs_damage",
+   "amount_open": 89,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 3,
+   "confidence": 0.8,
+   "date_posted": "2024-01-24"
+  },
+  {
+   "description": "Tenant Damages: German roach infestation, at least 4 treatments at 125 each",
+   "category": "pest_remediation",
+   "amount_open": 500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: replace damaged garbage disposal",
+   "category": "appliance",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: deep clean, home extremely dirty",
+   "category": "cleaning",
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.9,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: carpet on stairs soiled, charge for replacement (no invoice or photos)",
+   "category": "flooring",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: replace damaged bathroom vanity and mirror",
+   "category": "repairs_damage",
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: replace damaged toilet",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: replace fridge, dishwasher and microwave (heavy roach infestation)",
+   "category": "appliance",
+   "amount_open": 2500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.8,
+   "date_posted": "2024-05-20"
+  },
+  {
+   "description": "Tenant Damages: extensive drywall damage throughout home",
+   "category": "repairs_damage",
+   "amount_open": 2000,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-21"
+  },
+  {
+   "description": "Tenant Damages: repair damaged fence",
+   "category": "repairs_damage",
+   "amount_open": 900,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-21"
+  },
+  {
+   "description": "Tenant Damages: replace damaged garage door",
+   "category": "repairs_damage",
+   "amount_open": 1000,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-21"
+  },
+  {
+   "description": "Tenant Damages: rekey fee",
+   "category": "rekey_locks",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.9,
+   "date_posted": "2024-05-21"
+  },
+  {
+   "description": "Tenant Damages: replace 4 damaged interior doors",
+   "category": "repairs_damage",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-21"
+  },
+  {
+   "description": "Tenant Damages: replace damaged kitchen and bathroom cabinets",
+   "category": "repairs_damage",
+   "amount_open": 1000,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf",
+   "source_page": 4,
+   "confidence": 0.85,
+   "date_posted": "2024-05-21"
+  }
+ ],
+ "credits": [
+  {
+   "description": "Previous balance credit before 9/8/22 (statement 'Previous Balance -2,050.00'; last payment 9/6/22 $200)",
+   "amount": 2050,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false,
+   "source_file": "3382 Sable Chase - Ledger.pdf"
+  },
+  {
+   "description": "6/13/24 reversal of rent 5/17-5/31/24 after move-out 5/16/24",
+   "amount": 895.16,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "3382 Sable Chase - Ledger.pdf"
+  },
+  {
+   "description": "6/13/24 reversal of Eviction Cancellation Fee to Halt Dispo (300 charged 10/27/22 and reversed; both omitted from lines)",
+   "amount": 300,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "3382 Sable Chase - Ledger.pdf"
+  },
+  {
+   "description": "6/27/23 YRIG premium credit for April and May to owner",
+   "amount": 40,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "3382 Sable Chase - Ledger.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-06-13",
+  "balance_due": 51908.82,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-09-06"
+ },
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "3382 Sable Chase - Ledger.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet on stairs soiled, charge for replacement 300.00 (no invoice or photos in folder)"
+  }
+ ],
+ "reconciliation": "sum(open lines) 53,958.82 - prior credit 2,050.00 = 51,908.82 = ledger balance due (reversals 1,235.16 already netted); PM no-refund letter defers to ledger, no difference.",
+ "notes": "No itemization form; ledger is sole accounting doc. Ledger shows no tenant payments in billing period (credits = reversals only), monthly late fees every month. Lease para 24 auto-renews 12 months so Oct 2023-May 16 2024 rent classified rent_in_term under renewal term (sheet lease end 9/30/2023 is the initial term end); reclassify to rent_after_lease_end if the engine treats the original end date as the term end. Recurring fees aggregated into in-term vs post-9/30/23 lines. Termination eviction per sheet and ledger account tag DISPONP; dispo fee reversed on move-out. YRIG note on 6/27/23 says YRIG stopped, but no document says SD coverage lapsed so premiums_unpaid not set. Rent after 5/16 reversed so no rent_after_move_out. Addendum jpg and tenant contact jpg not opened per efficiency rule.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa37b49fc61e54eed"
+ }
+}

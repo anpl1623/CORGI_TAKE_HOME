@@ -1,0 +1,119 @@
+{
+ "tracking": 773,
+ "winning_document": "48 Brinegar Move Out Letter.pdf",
+ "documents": [
+  {
+   "file": "48 Brinegar Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "note": "Open balance 335.00 after August reversal"
+  },
+  {
+   "file": "48 Brinegar Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "note": "Letter states 335.00 due"
+  },
+  {
+   "file": "48 Brinegar SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Carpet 150, cleaning 170, key card 10, car tag 5; total 335"
+  },
+  {
+   "file": "48 Brinegar Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-26",
+   "used_for_amounts": true,
+   "note": "Final balance 335.00; August charges reversed"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 890,
+  "cash_deposit_amount": null,
+  "current_term_start": "2023-12-01",
+  "current_term_end": "2024-11-30",
+  "lease_start": "2023-12-01",
+  "lease_end": "2024-11-30",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "early_termination",
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-26",
+  "balance_due": 335
+ },
+ "line_items": [
+  {
+   "description": "Carpet cleaning per move-out statement",
+   "category": "carpet_cleaning",
+   "amount_open": 150,
+   "amount_charged": 150,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "48 Brinegar Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "General cleaning charge",
+   "category": "cleaning",
+   "amount_open": 170,
+   "amount_charged": 170,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "48 Brinegar Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Key card replacement",
+   "category": "keys_remotes",
+   "amount_open": 10,
+   "amount_charged": 10,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "48 Brinegar Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Car tag",
+   "category": "other_fee",
+   "amount_open": 5,
+   "amount_charged": 5,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "48 Brinegar Move Out Statement.pdf",
+   "confidence": 0.75
+  }
+ ],
+ "credits": [
+  {
+   "description": "August 2024 rent and fees reversed (31 days)",
+   "amount": 995,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 335,
+ "reconciliation": "Open items 150+170+10+5 = 335.00 minus credits 0.00 (995 August reversal already netted) equals PM stated 335.00.",
+ "extraction_confidence": 0.9,
+ "notes": "Tenant left 07/31/2024, lease ran to 11/30/2024, so classed early termination. No post-move-out rent billed. Lease, addendum and ACH form not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "abee3907adc8bc51d"
+ }
+}

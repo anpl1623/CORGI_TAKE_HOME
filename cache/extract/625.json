@@ -1,0 +1,193 @@
+{
+  "tracking": 625,
+  "documents": [
+    {
+      "file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-06-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "tenant_ledger-cindya_e_carrozza_raymond_s_carrozza-20240625.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-06-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Gmail - Demand Letter for Payment - Rocky Ridge 6277 Cindya Carrozza Raymond Carrozza.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-06-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "cindya-e-carrozza_03-30-2023_lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-03-30",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+  "pm_stated_amount_due": 901.20,
+  "lease": {
+    "base_monthly_rent": 1239.0,
+    "recurring_addons": [
+      {
+        "name": "TLL20",
+        "amount": 19.95
+      },
+      {
+        "name": "Garbage and Recycling",
+        "amount": 20.0
+      },
+      {
+        "name": "Pet Charge",
+        "amount": 39.0
+      },
+      {
+        "name": "Pet Charge",
+        "amount": 39.0
+      }
+    ],
+    "lease_start": "2023-05-31",
+    "lease_end": "2024-05-30",
+    "current_term_start": "2023-05-31",
+    "current_term_end": "2024-05-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1000.0,
+    "monthly_sd_premium": null,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2024-05-31",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 1,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-06-25",
+    "balance_due": 901.20,
+    "first_full_month": "2023-06",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-04-30"
+  },
+  "line_items": [
+    {
+      "description": "Final Utility Bill 05/16/24 - 05/31/24",
+      "category": "utilities",
+      "amount_open": 551.20,
+      "amount_charged": 551.20,
+      "date_posted": "2024-06-18",
+      "service_period_start": "2024-05-16",
+      "service_period_end": "2024-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Kitchen sink aerator",
+      "category": "repairs_damage",
+      "amount_open": 10.0,
+      "amount_charged": 10.0,
+      "date_posted": "2024-06-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Unit Clean",
+      "category": "cleaning",
+      "amount_open": 195.0,
+      "amount_charged": 195.0,
+      "date_posted": "2024-06-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Clean",
+      "category": "carpet_cleaning",
+      "amount_open": 95.0,
+      "amount_charged": 95.0,
+      "date_posted": "2024-06-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Remove LED Strip and repair wall",
+      "category": "repairs_damage",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-06-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 901.20 - 0 = 901.20 vs PM stated 901.20; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Deposit waiver special SDW1000 waived the $1,000 deposit. Final balance of $901.20 consists of utilities ($551.20) and turnover cleaning/repairs ($350.00)."
+}

@@ -1,0 +1,103 @@
+{
+ "tracking": 681,
+ "winning_document": "Bush depo.pdf (TXR-2216 itemization dated 2024-06-21, balance 595.00)",
+ "documents": [
+  {
+   "file": "Bush depo.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-21",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning: itemization Make ready 595.00; split from accepted Estimate 1329 (page 11, handwritten 400 to 200 cleaning reduction)"
+  },
+  {
+   "file": "tenant_ledger-kameisha_f_bush-20240715.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-15",
+   "used_for_amounts": false,
+   "note": "Corroborates Make-Ready 595.00 as the only open row"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1595,
+  "sd_program": "unknown",
+  "lease_start": "2023-08-04",
+  "lease_end": "2024-08-03",
+  "recurring_addons": [
+   {
+    "name": "Tenant Benefits Package",
+    "amount": 55
+   },
+   {
+    "name": "Security Deposit Alternative",
+    "amount": 78
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-07-15",
+  "balance_due": 595,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Interior painting, touch-up walls and trim",
+   "category": "painting",
+   "amount_open": 350,
+   "amount_charged": 350,
+   "date_posted": "2024-06-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bush depo.pdf",
+   "source_page": 11,
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace drip pans",
+   "category": "appliance",
+   "amount_open": 45,
+   "amount_charged": 45,
+   "date_posted": "2024-06-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bush depo.pdf",
+   "source_page": 11,
+   "confidence": 0.8
+  },
+  {
+   "description": "Detailed interior cleaning, reduced to 200",
+   "category": "cleaning",
+   "amount_open": 200,
+   "amount_charged": 200,
+   "date_posted": "2024-06-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bush depo.pdf",
+   "source_page": 11,
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 595,
+ "reconciliation": "Open lines 595.00 minus credits 0.00 = 595.00, equal to itemization balance; ledger Make-Ready 595.00 agrees.",
+ "extraction_confidence": 0.85,
+ "notes": "Move-out 05/31/2024 came before the 08/03/2024 lease end after a 05/03/2024 non-renewal notice. No break fee or post-move-out rent was billed. No deposit tendered in cash. Lite mode: lease not opened.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

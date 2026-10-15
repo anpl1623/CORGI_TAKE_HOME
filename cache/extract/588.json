@@ -1,0 +1,259 @@
+{
+ "tracking": 588,
+ "documents": [
+  {
+   "file": "Invoices.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-05-08",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "p1 RB Renovations invoice 379 total 880.00 (dated 08/05/2024, likely 8 May 2024 in DD/MM); used only to split the 80 and 800 statement lines; p2 is a tenant-paid cleaning receipt 140 (not a charge)"
+  },
+  {
+   "file": "JOE LEVIO.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-05-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "PM/YRIG email thread; used only for tenant payment to PM facts; adjudication content not used"
+  },
+  {
+   "file": "LEVIO EMAIL.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Later PM email; mentions tenants paid PM 410 after insurer funds; adjudication content not used"
+  },
+  {
+   "file": "Lease Agreement.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-08-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "30 pages; rent 1295, term 8/1/2023-7/31/2024, termination clause clear from digest"
+  },
+  {
+   "file": "Security Deposit Waiver Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Waiver of 1295.00 deposit for 28.00/month; two lessees plus co-signer"
+  },
+  {
+   "file": "Security Deposit-Collections Letter.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-08",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Deposit itemization notice to each tenant (identical copies): 80 + 800 + 55 = 935.00 due; winning document"
+  },
+  {
+   "file": "Tenant Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "AppFolio-style oldest-first; only open items are the three 5/10/2024 charges totaling 935.00; all earlier rows paid"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-08-01",
+  "current_term_end": "2024-07-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Sec 5.4: after 6 months, 60 days notice plus termination fee of 2 months additional rent, 125 lease modification fee and 150 processing fee. Ledger shows 2,590 lease break fee and 275 modification fee charged 2/1/2024 and paid.",
+  "lease_start": "2023-08-01",
+  "lease_end": "2024-07-31",
+  "monthly_sd_premium": 28,
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 1295
+ },
+ "move_out": {
+  "move_out_date": "2024-03-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-05-10",
+  "balance_due": 935,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": true,
+  "last_payment_date": "2024-03-05"
+ },
+ "line_items": [
+  {
+   "description": "Install new doorbell (replace missing doorbell)",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace blown light bulb",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Smoke detectors - install battery and rehang",
+   "category": "repairs_damage",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Paint front bedroom wall with red marks",
+   "category": "painting",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Paint middle bedroom walls with filled holes",
+   "category": "painting",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Paint master bedroom left wall",
+   "category": "painting",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Paint living room front wall",
+   "category": "painting",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoices.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Lease Violation Fee - Coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Security Deposit-Collections Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payment received by PM on 5/28/2024 against the claim balance (PM states 465.00 remaining); not netted in line items",
+   "amount": 470,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false,
+   "source_file": "JOE LEVIO.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": true,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "JOE LEVIO.pdf",
+   "flag": "tenant_paid_or_settled_with_pm",
+   "quote": "We did receive $ 470.00 today. The past due balance that both tenants would owe is $ 465.00."
+  },
+  {
+   "file": "LEVIO EMAIL.pdf",
+   "flag": "tenant_paid_or_settled_with_pm",
+   "quote": "the tenants ended up bringing the $ 410.00 after we received the YRIG funds"
+  }
+ ],
+ "winning_document": "Security Deposit-Collections Letter.pdf",
+ "pm_stated_amount_due": 935,
+ "reconciliation": "sum(open lines) 935.00 - credits 0.00 netted (470.00 tenant payment to PM on 5/28 is a post-claim credit not netted) = 935.00 vs PM itemization/ledger 935.00 (match); PM email of 5/28 states 465.00 still owed after the 470 payment.",
+ "notes": "Two tenants (Tessa Nail, Maison Hyche) plus co-signer; PM holds both liable for full balance. Early termination: ledger shows lease-break (2,590) and modification (275) fees charged 2/1/2024 and paid, March rent/fees paid, so no rent after move-out and nothing else open. Lease says deposit RIS_1500 (plan/coverage tag) while addendum waives 1,295; ledger names the fee SDRP Fee. Ledger begins 9/1/2023 with 0.00 start balance, so first full month on ledger is Sept 2023; its first payment (ACH 9/2) was reversed by NSF and cured 9/8 (NSF and late fees later settled/waived). Tenant said she had a payment arrangement with PM; PM denied it, so payment_arrangement left false. Tenant-paid cleaning receipt 140 is not a PM charge. Invoice 379 (880.00) equals the 80 + 800 statement lines and is counted once. The emails also contain claims-adjudication notices; those were not used.",
+ "extraction_confidence": 0.88,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a76ad5dd1d275364a"
+ }
+}

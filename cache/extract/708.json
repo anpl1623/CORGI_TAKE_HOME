@@ -1,0 +1,172 @@
+{
+ "tracking": 708,
+ "winning_document": "deposit_disposition_amount_due_jacob_p_supanich_072524.pdf",
+ "pm_stated_amount_due": 653.64,
+ "extraction_confidence": 0.95,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_jacob_p_supanich_072524.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE security deposit statement: cleaning 362.50, carpet cleaning 200.00, City of Sacramento 6/13-7/3 91.14 = 653.64 due"
+  },
+  {
+   "file": "tenant_ledger-jacob_p_supanich-20240809.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware ledger newest at bottom; confirms same three open charges, balance 653.64; used for fees and first-month history"
+  },
+  {
+   "file": "1921 28th St #1 Ticos.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ticos Cleaning move out cleaning 362.50 backs statement line; counted once via statement"
+  },
+  {
+   "file": "1921 28th St #1 Carpet Bros.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "CarpetBros steam clean + stain removal + deodorizing 200.00 backs statement line; counted once via statement"
+  },
+  {
+   "file": "jacob-p-supanich_02-20-2023.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-02-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "130-page KTB/PURE CA lease via text layer: rent 1,595 + RBP 39; term 03/04/2023-02/29/2024 then MTM; Section 26 Security Deposit Waiver of 2,000 for 35/month"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1595,
+  "lease_start": "2023-03-04",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2024-03-01",
+  "current_term_end": null,
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 30,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Program with insurance (RBP)",
+    "amount": 39
+   },
+   {
+    "name": "Tenant administrative fee",
+    "amount": 5
+   }
+  ],
+  "lease_break_terms": "Section 24 early termination addendum: rent through end of term or until re-rented plus re-renting costs. Not triggered: tenancy was month-to-month at move-out."
+ },
+ "move_out": {
+  "move_out_date": "2024-07-10",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-09",
+  "balance_due": 653.64,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-02"
+ },
+ "line_items": [
+  {
+   "description": "Move out cleaning (Ticos Cleaning invoice, Meld TQWNJET)",
+   "category": "cleaning",
+   "amount_charged": 362.5,
+   "amount_open": 362.5,
+   "date_posted": "2024-07-25",
+   "service_period_start": "2024-07-21",
+   "service_period_end": "2024-07-21",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jacob_p_supanich_072524.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Carpet steam cleaning + stains removed + deodorizing (CarpetBros invoice 065)",
+   "category": "carpet_cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-07-25",
+   "service_period_start": "2024-07-16",
+   "service_period_end": "2024-07-16",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jacob_p_supanich_072524.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "City of Sacramento utility chargeback 6/13-7/3/2024",
+   "category": "utilities",
+   "amount_charged": 91.14,
+   "amount_open": 91.14,
+   "date_posted": "2024-07-25",
+   "service_period_start": "2024-06-13",
+   "service_period_end": "2024-07-03",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_jacob_p_supanich_072524.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "sum(open line items)=362.50+200.00+91.14=653.64; credits 0; matches PM-stated 653.64 and ledger balance 653.64 exactly.",
+ "notes": "All rent, SDRP fee, RBP and admin fee through July 2024 were paid (prorated July rent paid 07/02/2024). Open balance is only the three 07/25/2024 move-out charges, which the ledger labels Deposit Forfeit. Lease addendum states the SD waiver fee as 35/month; the ledger splits it as SDRP fee 30 + admin fee 5. Tenancy rolled to month-to-month after 02/29/2024; sheet lease end 2024-07-10 equals the move-out date. No pet evidence.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a7a3c870590d74bce"
+ }
+}

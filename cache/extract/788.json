@@ -1,0 +1,97 @@
+{
+ "tracking": 788,
+ "extraction_confidence": 0.85,
+ "winning_document": "Demand Letter_405 Harbison Blvd. 426.png",
+ "pm_stated_amount_due": 358.95,
+ "reconciliation": "Open lines sum 358.95 equal the ledger balance and the PM email balance; no credits; match.",
+ "notes": "Payments allocated oldest-first across all charges, as the running balance shows; this leaves the May late-fee remainder (174.95) and the 05/07 convenience fee open. The PM Final Statement PDF named in the email is not in the folder, so the email text and ledger were used. Paint Touch Ups PNG, lease and SDRP files were not opened (lite mode).",
+ "documents": [
+  {
+   "file": "Demand Letter_405 Harbison Blvd. 426.png",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-01",
+   "used_for_amounts": true,
+   "note": "PM email: balance 358.95 due",
+   "opened_visually": true
+  },
+  {
+   "file": "Tenant-Ledger-2024_09_01_15_52_27.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-01",
+   "used_for_amounts": true,
+   "note": "Open rows; ties to 358.95",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1195,
+  "lease_start": "2023-05-02",
+  "lease_end": "2024-06-01",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-09-01",
+  "balance_due": 358.95,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-07"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-01",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Late fee May 2024 (open part)",
+   "category": "late_fee",
+   "amount_charged": 175,
+   "amount_open": 174.95,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_01_15_52_27.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Convenience fee 05/07/2024",
+   "category": "admin_itemization_fee",
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_01_15_52_27.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Move-out rekey 06/04/2024",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_01_15_52_27.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Paint touch-up 06/17/2024",
+   "category": "painting",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_01_15_52_27.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "tracking": 74,
+ "documents": [
+  {
+   "file": "Move Out Form.jpeg",
+   "doc_type": "move_out_statement",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "New Heights Move Out Form, handwritten 'Break Lease'. Deductions: Move Out Repairs 2195.00, MCF 200.00, Rent 2695.00, SDRP 72.00, Late fees 504.25, RBP 39.00, Total 5705.25. 'Amount of Deposit in Escrow: $4500 (SDRP)'. Move-out date written as 8/31/23, which is the lease end date. The sheet and inspection give 3/13-3/14/2023."
+  },
+  {
+   "file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-04-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger (newest-first). Balance 5705.25, Deposit Held 0.00. Unpaid rows match the Move Out Form exactly."
+  },
+  {
+   "file": "invoice_27_Mar_2023_17_27_12 (2).pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-03-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "TnT Property Solutions Meld #TL6MJNT, 2195.00. Same charge as the ledger line 'Move-out Repair : TL6MJNT'. Used only to split it into cleaning 525, painting 1450 and carpet cleaning 220."
+  },
+  {
+   "file": "Collections - First Notice to Tenant (1).pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-04-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demands 5,705.25, matching the ledger."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(08-05-2022_-_08-05-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-08-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver: YES at $72/month in lieu of a $4,043 deposit."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2022_(08-05-2022_-_08-05-2022) (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-08-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 09/01/2022-08/31/2023, rent $2,695/mo (total 32,340). Para 29 early-termination clause."
+  },
+  {
+   "file": "321_Firewheel_Ct_Move_Out_Evaluation_2023-03-14 (3).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-03-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector photo report. Every condition and comment field reads None, with no pet or odor comments."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2695,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-09-01",
+  "current_term_end": "2023-08-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-09-01",
+  "lease_end": "2023-08-31",
+  "lease_break_terms": "Para 29 Early Termination: tenant pays all rent and late fees for the rest of the term until the unit is re-rented, plus reletting costs (advertising, leasing commissions, re-keying, admin fee, management costs, cleaning). Para 14: termination only at end of initial term with 30 days notice. Holdover at 2x daily rate. $200 admin fee if deductions are taken from the deposit.",
+  "monthly_sd_premium": 72,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium (4037)",
+    "amount": 72
+   },
+   {
+    "name": "RBP with Ins (4038)",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 4043
+ },
+ "move_out": {
+  "move_out_date": "2023-03-13",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2023-04-06",
+  "balance_due": 5705.25,
+  "first_full_month": "2022-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-02-03"
+ },
+ "line_items": [
+  {
+   "description": "4000 - Rent, March 2023",
+   "category": "rent_in_term",
+   "amount_charged": 2695,
+   "amount_open": 2695,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "4037 - SDRP Monthly Premium, March 2023",
+   "category": "sdrp_premium",
+   "amount_charged": 72,
+   "amount_open": 72,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4038 - RBP with Ins, March 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4340 - Late Fee (15%) calculated 03/06/2023",
+   "category": "late_fee",
+   "amount_charged": 404.25,
+   "amount_open": 404.25,
+   "date_posted": "2023-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4345 - Late Fee (manual $100, after 15th)",
+   "category": "late_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-03-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out Repair TL6MJNT: full deep cleaning per move-out instructions, plus removal of items left inside and outside (not split)",
+   "category": "cleaning",
+   "amount_charged": 525,
+   "amount_open": 525,
+   "date_posted": "2023-03-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_27_Mar_2023_17_27_12 (2).pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Move-out Repair TL6MJNT: paint all areas upstairs (pre-existing damaged master wall painted but not charged)",
+   "category": "painting",
+   "amount_charged": 1450,
+   "amount_open": 1450,
+   "date_posted": "2023-03-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_27_Mar_2023_17_27_12 (2).pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair TL6MJNT: carpet clean all carpets",
+   "category": "carpet_cleaning",
+   "amount_charged": 220,
+   "amount_open": 220,
+   "date_posted": "2023-03-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "invoice_27_Mar_2023_17_27_12 (2).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4010 - Maintenance Coordination fee (MCF)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-04-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "termination_early (context)",
+   "quote": "Break Lease",
+   "file": "Move Out Form.jpeg"
+  },
+  {
+   "flag": "sd_program (context)",
+   "quote": "$ 72 per month You waive payment of the security deposit in lieu",
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(08-05-2022_-_08-05-2022).pdf"
+  }
+ ],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 5705.25,
+ "winning_document": "Move Out Form.jpeg",
+ "reconciliation": "Open lines 5705.25 - credits 0 = 5705.25, equal to the PM-stated 5705.25 (Move Out Form total = ledger balance 04/06/2023 = collections letter). The 2195 move-out repair is counted once, split by its invoice.",
+ "notes": "Tenant broke the lease mid-term: vacated about 2023-03-13 (sheet), inspection 2023-03-14, lease ran to 2023-08-31. March rent (2695) was charged in full on 3/1 for 3/1-3/31; the tenant held possession through about 3/13, so the month straddles move-out. No future rent after March or reletting fee was charged. The first full month (Sept 2022) was prepaid by ePayment on 08/08/2022. Rent was paid late and in installments Oct 2022-Feb 2023 with late fees, all paid. The Move Out Form's '8/31/23' move-out date is the lease end, not the actual vacate date. The cleaning line combines deep clean and item removal without a split. The vendor did not complete downstairs painting ('prior to calling it off').",
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a216c6258c05c7786"
+ }
+}

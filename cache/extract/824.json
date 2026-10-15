@@ -1,0 +1,298 @@
+{
+ "tracking": 824,
+ "winning_document": "213 Rocroi Drive - Close Out Documents - Berry.pdf",
+ "pm_stated_amount_due": 2720,
+ "documents": [
+  {
+   "file": "213 Rocroi Drive - Close Out Documents - Berry.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-08-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scan, 6 pp: PURE cover letter 8/28/24 + Texas Realtors TXR-2216 itemization (damages 2,720; deposit tendered 0.00; excess demanded) + USPS certified mail label. Sole PM move-out accounting doc."
+  },
+  {
+   "file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM Rockets turn invoice: Tenant Expenses 2,720 (itemized sub-amounts) + Owner Expenses 2,850 (full interior paint, owner). Used only to split the itemization lump into categories."
+  },
+  {
+   "file": "213ROC - BERRY LEASE AGREEMENT.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-11-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original TXR lease 11/18/2022-11/16/2023, rent 2,070, deposit 2,320 (waived via addendum). Auto-renews MTM; holdover = 3x rent."
+  },
+  {
+   "file": "213ROC - BERRY LEASE RENEWAL 23-24.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-08-29",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2005 extension effective 11/17/2023, expires 11/14/2024, rent 2,200; 45-day move-out notice."
+  },
+  {
+   "file": "Security Deposit Amendment - Berry.PNG",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-16",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "GDAA/PURE Security Deposit Waiver addendum: YES, $69/month, waives $2,320 deposit; signed 11/16/2022."
+  },
+  {
+   "file": "Transactions_2409240817.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager ledger (oldest-first). Paid through July 2024; 8/1/24 charges zeroed 'Tenant moved out 7/31/2024'; 8/28/24 'Security Deposit Forfeit - Move Out Charges' 2,720 is the only open item."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2200,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2320,
+  "monthly_sd_premium": 69,
+  "lease_start": "2022-11-18",
+  "lease_end": "2024-11-14",
+  "current_term_start": "2023-11-17",
+  "current_term_end": "2024-11-14",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 28 early termination only by agreement/law (no tenant right for job transfer etc.); Para 27 default allows lost rent + reletting costs; holdover 3x rent. No lease-break fee amount stated; PM billed none.",
+  "recurring_addons": [
+   {
+    "name": "Renters Choice Program (SD waiver premium)",
+    "amount": 69
+   },
+   {
+    "name": "Tenant Benefits Package A3",
+    "amount": 39
+   },
+   {
+    "name": "Monthly Pet Fee",
+    "amount": 40
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-24",
+  "balance_due": 2720,
+  "first_full_month": "2022-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-26"
+ },
+ "line_items": [
+  {
+   "description": "Replace oven light bulb",
+   "category": "repairs_damage",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Repair dog scratches on back exterior door frame (wood putty + paint)",
+   "category": "pet_damage_odor",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-08-28",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash removal / haul away (backyard trap, garage workbench and items, items inside property)",
+   "category": "trash_removal",
+   "amount_charged": 450,
+   "amount_open": 450,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Remove gate at top/bottom of stairs, repair drywall, paint to match",
+   "category": "repairs_damage",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Remove hardware from walls and patch",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Remove wooden shelving and patch garage wall",
+   "category": "repairs_damage",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Painting services (allocated amount)",
+   "category": "painting",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Paint over pink splatter with white straight line",
+   "category": "painting",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Paint all sides of interior garage doors with white gloss",
+   "category": "painting",
+   "amount_charged": 280,
+   "amount_open": 280,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Handyman: replace door stoppers in bedroom 3",
+   "category": "repairs_damage",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Handyman: labor to replace 2-3 damaged fence pickets (pickets owner-provided)",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Professional carpet cleaning, all carpeted areas",
+   "category": "carpet_cleaning",
+   "amount_charged": 260,
+   "amount_open": 260,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out cleaning (walls, appliances, shelves, cabinets, grout stain, tile steam, garage sweep)",
+   "category": "cleaning",
+   "amount_charged": 495,
+   "amount_open": 495,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pressure wash front and back porch",
+   "category": "cleaning",
+   "amount_charged": 215,
+   "amount_open": 215,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "OWNER EXPENSE (not billed to tenant): full interior wall/trim painting of 2-story house",
+   "category": "painting",
+   "amount_charged": 2850,
+   "amount_open": 0,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": true,
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Invoice sub-items for Tenant Expenses sum to 2,810 but invoice line, TXR-2216 itemization and ledger all bill 2,720; 90 difference treated as implicit discount so lines reconcile to PM-billed amount",
+   "amount": 90,
+   "type": "concession_or_reversal",
+   "source_file": "213 Rocroi Drive - Invoice TLD0U0M.pdf",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "flooring_without_support": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.8,
+ "reconciliation": "Sum tenant lines 2,810.00 - credit 90.00 (invoice sub-items over-sum vs billed total) = 2,720.00 = PM stated 2,720.00 (TXR-2216, ledger 8/28/24 charge, invoice Tenant Expenses subtotal); owner painting 2,850 excluded (amount_open 0).",
+ "notes": "Early termination: tenant vacated 7/31/2024 vs renewal term end 11/14/2024; PM zeroed 8/1/24 rent and billed no future rent, lease-break or reletting fee. Rent paid through July 2024 (ledger). Deposit tendered 0.00 (waived 2,320, 69/mo premium on ledger as 'Renters Choice Program'). Dog scratch repair is the only pet-related line (monthly pet fee on lease shows pet was approved). Invoice is dated 9/6/24, after the 8/28/24 itemization, yet totals match. PURE cover letter threatens 35% collection charge if unpaid in 30 days (hypothetical, not a charge). Original lease in file is the 2022-23 term; current term facts come from the renewal extension.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a455ac7bb5bc1bc9a"
+ }
+}

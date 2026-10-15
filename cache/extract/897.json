@@ -1,0 +1,182 @@
+{
+  "tracking": 897,
+  "documents": [
+    {
+      "file": "Bradford 2730-23 Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-09-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Bradford 2730-23 Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Bradford 2730-23 Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-10-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Bradford 2730-23 Move Out Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-10-01",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Bradford 2730-23 SDI.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-10-01",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Bradford Ledger.docx",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-10-28",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "SID DD Authorization Form.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Bradford 2730-23 SDI.pdf",
+  "pm_stated_amount_due": 355.0,
+  "lease": {
+    "base_monthly_rent": 770.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Protection",
+        "amount": 33.0
+      },
+      {
+        "name": "Renters Insurance",
+        "amount": 17.0
+      },
+      {
+        "name": "Pet Fee Income",
+        "amount": 20.0
+      }
+    ],
+    "lease_start": "2023-10-01",
+    "lease_end": "2024-09-30",
+    "current_term_start": "2023-10-01",
+    "current_term_end": "2024-09-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 770.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "reletting charge of .00"
+  },
+  "move_out": {
+    "move_out_date": "2024-09-26",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-10-28",
+    "balance_due": 355.0,
+    "first_full_month": "2023-10",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-09-12"
+  },
+  "line_items": [
+    {
+      "description": "Late Charge Late Fee (09/06/2024, unpaid balance of September charges after  payment)",
+      "category": "late_fee",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2024-09-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Bradford 2730-23 SDI.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Patch/repair carpet in bedroom",
+      "category": "flooring",
+      "amount_open": 300.0,
+      "amount_charged": 300.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Bradford 2730-23 SDI.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Replace patio blinds",
+      "category": "repairs_damage",
+      "amount_open": 25.0,
+      "amount_charged": 25.0,
+      "date_posted": "2024-10-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Bradford 2730-23 SDI.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 355.0 vs PM stated 355.0; matches exactly (.00 unpaid September late fee + .00 carpet patch/repair + .00 patio blinds replacement = .00).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": true,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [
+    {
+      "flag": "flooring_without_support",
+      "quote": "Patch/repair carpet in bedroom ",
+      "file": "Bradford 2730-23 SDI.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Perry Reid SDI and Move Out Statement itemize .00 total due ( unpaid September late fee,  carpet patch/repair,  replacement patio blinds). Tenant vacated 4 days prior to lease expiration at end of term after giving 30-day notice on 08/26/2024."
+}

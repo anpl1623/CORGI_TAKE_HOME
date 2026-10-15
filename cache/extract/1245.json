@@ -1,0 +1,106 @@
+{
+ "tracking": 1245,
+ "winning_document": "143 Weaton Watch Final Statement.pdf (03/14/2025 security deposit statement)",
+ "documents": [
+  {
+   "file": "143 Weaton Watch Final Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning statement, total 549.00"
+  },
+  {
+   "file": "143 Weaton Watch Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Two deposit forfeit lines match statement"
+  },
+  {
+   "file": "TJ_Removed trash and debris from the front and backyard..pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Invoice 470-1-16, 450.00"
+  },
+  {
+   "file": "Invoice - Move Out 2_11_25.pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "PM invoice 1077, New Property Walk 99.00"
+  },
+  {
+   "file": "143 Weaton Watch rentvine Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Paid through Jan 2025, no open balance"
+  },
+  {
+   "file": "143 Weston Watch Rd_SD.Wood.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "SDWP addendum 43.00 per month, opened to classify"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1586,
+  "sd_program": "unknown",
+  "lease_start": "2023-04-03",
+  "lease_end": "2025-05-01"
+ },
+ "move_out": {
+  "move_out_date": "2025-01-31",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Trash removal, front and backyard (TJ Brown)",
+   "category": "trash_removal",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.95,
+   "source_file": "143 Weaton Watch Final Statement.pdf"
+  },
+  {
+   "description": "Move-out rekey per statement; invoice says walk",
+   "category": "other_fee",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.5,
+   "source_file": "143 Weaton Watch Final Statement.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "ledger": {
+  "as_of_date": "2025-04-04",
+  "balance_due": 549,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 549,
+ "reconciliation": "Open lines 450.00 + 99.00 = 549.00; credits 0; PM stated 549.00; difference 0.00.",
+ "notes": "Final statement 03/14/2025 matches ledger. Rentvine ledger shows rent paid through Jan 2025; no post-move-out rent or break fee charged. Move-out 1/31/25 precedes lease end 5/1/25 (early_termination). Invoice 1077 is titled New Property Walk but statement says Move out rekey; category set to other_fee at 0.5 confidence. Lease not opened (lite mode).",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

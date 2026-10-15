@@ -1,0 +1,229 @@
+{
+ "tracking": 858,
+ "winning_document": "deposit_disposition_amount_due_dain_adelmann_100424.pdf",
+ "pm_stated_amount_due": 1547.73,
+ "extraction_confidence": 0.85,
+ "reconciliation": "sum(open lines) 1,618.97 (letter shows tax 27.84, ledger tax lines sum 27.85) - credits 71.23 = 1,547.74 vs PM stated 1,547.73 (ledger total 1,547.74): 0.01 rounding.",
+ "notes": "PURE Property Management of Arizona statement 10/04/2024. Lease actually runs 5/5/2024-5/4/2025 (12 months, sheet shows lease end 8/31/2024 = move-out), so tenant left early; PM claims no post-move-out rent and no lease-break fee, only damage/cleaning lines. Cactus (1,346.64 incl 106.64 nursery tax) and household items (44.48) are backed only by shopping-cart screenshots, not receipts. Line labelled Carpet Cleaning 200 is backed by a handwritten West-State Carpet Care ESTIMATE for stain removal on 2 areas of saltillo TILE (range 125-200), not carpet. Sales-tax lines taken from the ledger and kept with their underlying category. Lease lists a 30/mo pet fee for a golden retriever but the ledger never billed it. NSF 8/1/2024 payment was re-paid 8/8 with 35 NSF fee paid, nothing open.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-04",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning statement: charges 1,618.96, credits 71.23, due 1,547.73"
+  },
+  {
+   "file": "tenant_ledger-dain_adelmann-20241009.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Splits tax lines, shows credits and NSF history"
+  },
+  {
+   "file": "Tile Cleaning CB #9.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-10-02",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten West-State Carpet Care ESTIMATE for tile stain removal, range 125-200, total 200"
+  },
+  {
+   "file": "Cart - Phoenix Desert Nursery.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Nursery cart screenshot, subtotal 1240 + tax 106.64 = 1346.64; not a purchase receipt"
+  },
+  {
+   "file": "Missing Items Casa Blanca #9.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-10-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Amazon checkout screenshot, order total 44.48; not a receipt"
+  },
+  {
+   "file": "Lease Agreement (4).pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-04-23",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned lease pp1-19 read: term 5/5/2024-5/4/2025, rent 3200, SDRP 81, RBP 39; Lease Addendum para 17 early termination"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3200,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 81,
+  "lease_start": "2024-05-05",
+  "lease_end": "2025-05-04",
+  "current_term_start": "2024-05-05",
+  "current_term_end": "2025-05-04",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Lease Addendum para 17: early termination does not release tenant; liable for rent through remainder or until re-let, plus vacancy utilities/maintenance, releasing fee of 1/2 month rent (min 700) and 500 lease break fee",
+  "recurring_addons": [
+   {
+    "name": "SDRP fee",
+    "amount": 81
+   },
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Replace Missing or Dead Cactii (nursery cart total incl 106.64 sales tax)",
+   "category": "landscaping_lawn",
+   "amount_charged": 1346.64,
+   "amount_open": 1346.64,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Tax charge from Deposit Forfeit on cactus line",
+   "category": "landscaping_lawn",
+   "amount_charged": 23.57,
+   "amount_open": 23.57,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "tenant_ledger-dain_adelmann-20241009.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace Missing Household Items (Amazon cart: whisk, corkscrew, tumblers, scissors, throw blanket)",
+   "category": "other_damage",
+   "amount_charged": 44.48,
+   "amount_open": 44.48,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Tax charge from Deposit Forfeit on household items line",
+   "category": "other_damage",
+   "amount_charged": 0.78,
+   "amount_open": 0.78,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "tenant_ledger-dain_adelmann-20241009.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet Cleaning as labelled by PM; backup is tile stain removal (2 areas, saltillo tile) ESTIMATE range 125-200",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Tax charge from Deposit Forfeit on cleaning line",
+   "category": "cleaning",
+   "amount_charged": 3.5,
+   "amount_open": 3.5,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "tenant_ledger-dain_adelmann-20241009.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit from Pure PM for overdraft fees paid to bank due to AppFolio payment issue July 2024",
+   "amount": 70,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf"
+  },
+  {
+   "description": "Tax credit from Tenant Administrative Fee",
+   "amount": 1.23,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_dain_adelmann_100424.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-09",
+  "balance_due": 1547.74,
+  "first_full_month": "2024-07-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-08"
+ },
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ae2d47feb0ee13b7f"
+ }
+}

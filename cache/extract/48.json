@@ -1,0 +1,187 @@
+{
+  "tracking": 48,
+  "documents": [
+    {
+      "file": "30dd9350644840059eed487c32d10b38.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-02-07",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "47bdd07f2745486e92b0da92566449e3.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-02-23",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3e087f88b9f043fba23c4b1ee3a48801.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2023-02-23",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "800427e11a5444cbb537b691412ef2ea.pdf",
+      "doc_type": "vendor_estimate",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "c4a109257d6441c6bfed880c27862340.pdf",
+      "doc_type": "vendor_estimate",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "60695824707c4c9b99a09cd9721a20c8.pdf",
+      "doc_type": "inspection_photo_report",
+      "doc_date": "2023-01-04",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "786cbb40ffcd40deae57cda9459b4c79.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2021-12-21",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "cd7b8ce8fde24f30a17c692868a768ac.pdf",
+      "doc_type": "lease",
+      "doc_date": "2021-12-23",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "30dd9350644840059eed487c32d10b38.pdf",
+  "pm_stated_amount_due": 3021.51,
+  "lease": {
+    "base_monthly_rent": 1800.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 35.0
+      },
+      {
+        "name": "Filter Program",
+        "amount": 10.0
+      }
+    ],
+    "lease_start": "2021-12-23",
+    "lease_end": "2022-12-22",
+    "current_term_start": "2021-12-23",
+    "current_term_end": "2022-12-22",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 1800.0,
+    "monthly_sd_premium": 35.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2022-12-31",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 9,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-02-23",
+    "balance_due": 2720.51,
+    "first_full_month": "2022-01",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-02-21"
+  },
+  "line_items": [
+    {
+      "description": "Mailbox key",
+      "category": "keys_remotes",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2023-02-07",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "30dd9350644840059eed487c32d10b38.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Misc repairs & Cleaning",
+      "category": "repairs_damage",
+      "amount_open": 2789.71,
+      "amount_charged": 2789.71,
+      "date_posted": "2023-01-20",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "30dd9350644840059eed487c32d10b38.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Maintenance Coordination fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-02-07",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "30dd9350644840059eed487c32d10b38.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Tenant payment via RentMoney on 2023-02-21",
+      "amount": 300.0,
+      "type": "tenant_payment",
+      "already_netted_in_line_items": false,
+      "source_file": "47bdd07f2745486e92b0da92566449e3.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) = 3019.71 vs PM stated 3021.51 on SDRP Move-Out Form (discrepancy of $1.80 due to PM addition including $0.80 prior filter balance). After the SDRP form was completed on 2023-02-07, tenant made a payment of $300.00 on 2023-02-21 ($299.20 applied to repairs, $0.80 to filter program), bringing the final ledger open balance to $2,720.51.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "PM itemized deductions on New Heights SDRP Move-Out Form totaling $3,021.51 ($30 mailbox key, $2,789.71 repairs/cleaning backed by Tideland Estimate #102, $200 maintenance coordination fee). Tenant subsequent payment of $300 on 2023-02-21 reduced open ledger balance to $2,720.51."
+}

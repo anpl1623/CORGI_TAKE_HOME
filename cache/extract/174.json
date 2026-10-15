@@ -1,0 +1,121 @@
+{
+  "tracking": 174,
+  "documents": [
+    {
+      "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(06-28-2022_-_06-28-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "5537NHopbushPl_073123_statementofaccounting_Palmer_Long_Nunez_Seo.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-07-31",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Security_Deposit_Waiver_Addendum1_(06-28-2022_-_06-28-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "tenant ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-21",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "5537NHopbushPl_073123_statementofaccounting_Palmer_Long_Nunez_Seo.pdf",
+  "pm_stated_amount_due": 58.54,
+  "lease": {
+    "base_monthly_rent": 1995.0,
+    "recurring_addons": [
+      {
+        "name": "No Security Deposit Option Monthly Fee",
+        "amount": 50.0
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 29.0
+      },
+      {
+        "name": "Monthly Pet Fee",
+        "amount": 25.0
+      }
+    ],
+    "lease_start": "2022-07-01",
+    "lease_end": "2023-07-11",
+    "current_term_start": "2022-07-01",
+    "current_term_end": "2023-07-11",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 2992.5,
+    "monthly_sd_premium": 50.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-07-11",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-21",
+    "balance_due": 58.54,
+    "first_full_month": "2022-07",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-07-01"
+  },
+  "line_items": [
+    {
+      "description": "TEP Utility Bill 7/5/23-7/11/23",
+      "category": "utilities",
+      "amount_open": 58.54,
+      "amount_charged": 58.54,
+      "date_posted": "2023-07-31",
+      "service_period_start": "2023-07-05",
+      "service_period_end": "2023-07-11",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "5537NHopbushPl_073123_statementofaccounting_Palmer_Long_Nunez_Seo.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 58.54 - 0.00 = 58.54 vs PM stated 58.54; exactly matches",
+  "flags": {
+    "flooring_without_support": false,
+    "military_scra": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "mixed_pet_nonpet_line": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "owner_waived_balance": false,
+    "payment_arrangement": false,
+    "pm_withdrew_or_void": false,
+    "premiums_unpaid": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "tenant_never_moved_in": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "tenant_still_in_possession": false,
+    "test_claim": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Lease ended on 2023-07-11. All rent and fees paid in full; only final electric utility bill $58.54 from Tucson Electric Power remains unpaid."
+}

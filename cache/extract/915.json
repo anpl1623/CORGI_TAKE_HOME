@@ -1,0 +1,160 @@
+{
+ "tracking": 915,
+ "winning_document": "Blue Fox Statement of Accounting (dated 10/17/24)",
+ "documents": [
+  {
+   "file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting, scanned; pp2-4 vendor invoices"
+  },
+  {
+   "file": "10461SStampedeRanchCourt_tenantledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Unpaid Sec Dep rows 5301-5310 total 1,225; corroborates statement"
+  },
+  {
+   "file": "10461_Security_Deposit_Waiver_Addendum1_(09-08-2022_-_09-08-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-09-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Digest excerpt only, not opened"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1720,
+  "lease_start": "2022-09-16",
+  "lease_end": "2024-09-24",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-09-24",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-10-29",
+  "balance_due": 1225,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-10"
+ },
+ "line_items": [
+  {
+   "description": "Move-out cleaning incl. travel, garage (Tucker)",
+   "category": "cleaning",
+   "amount_open": 400,
+   "amount_charged": 400,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-08",
+   "source_file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Maintenance items, parts and labor (Tucker)",
+   "category": "repairs_damage",
+   "amount_open": 200,
+   "amount_charged": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-08",
+   "source_file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "source_page": 4,
+   "confidence": 0.6
+  },
+  {
+   "description": "Carpet steam clean, 4 rooms plus pet treatment",
+   "category": "carpet_cleaning",
+   "amount_open": 225,
+   "amount_charged": 225,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-11",
+   "source_file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "source_page": 2,
+   "confidence": 0.7
+  },
+  {
+   "description": "Trim bushes, yard cleanup, debris haul",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "amount_charged": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-16",
+   "source_file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Water softener hard-water appliance repair",
+   "category": "appliance",
+   "amount_open": 150,
+   "amount_charged": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": null,
+   "source_file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": true,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "short_term_lease": false
+ },
+ "evidence": [
+  {
+   "file": "10461SStampedeRanchCourt_102124_StatementofAccounting_Marsh_Marsh_HaylockJR.pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Carpets steam cleaned in 4 rooms+ 2 rooms pet treatment"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 1225,
+ "reconciliation": "Open lines 1,225.00 (400+200+225+250+150) less 0 open credits = 1,225.00 vs PM 1,225.00: match. Tucker 600 split 400/200; yard cleanup 75 offset by -75 discount, net 0.",
+ "notes": "Softener line carries a handwritten 'Owner Reimbursement' note; meaning unclear, so owner_responsible left false (confidence 0.6). No invoice in the file for the 150 appliance line. Ledger Sec Dep rows dated 10/21/24 match the statement. Lease fields from sheet only (LITE); the digest lease excerpt shows a no-deposit option with a $50 monthly fee, not used for sd_program.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa257c12afa44520c"
+ }
+}

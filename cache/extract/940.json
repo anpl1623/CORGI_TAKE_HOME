@@ -1,0 +1,249 @@
+{
+ "tracking": 940,
+ "winning_document": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+ "pm_stated_amount_due": 2554,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE deposit disposition letter: Aug and Sep 2024 rent, RBP, RIS fee, late fee = 2,554.00 due"
+  },
+  {
+   "file": "lease_francesta-l-alexander_03-28-2023.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-03-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Read via full text layer; term 04/03/2023-04/02/2024, rent 1,100, SD waiver $28/mo, RBP 39; holdover/termination clauses"
+  },
+  {
+   "file": "tenant_ledger-francesta_l_alexander-20241114 (1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Old pre-merge ledger (Status Current, 4/2023-8/2023, balance 0.00 after 'Close Out Balance for Merge'); history only, no open items; first-month payment history confirmed"
+  },
+  {
+   "file": "tenant_ledger-francesta_l_alexander-20241114.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Current oldest-first ledger, Status Evict, move-out 09/06/2024, total 2,554.00; confirms statement lines and posting dates"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1100,
+  "lease_start": "2023-04-03",
+  "lease_end": "2024-04-02",
+  "current_term_start": "2023-04-03",
+  "current_term_end": "2024-04-02",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 28,
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP fee (RIS_$1,500)",
+    "amount": 28
+   }
+  ],
+  "lease_break_terms": "Sec 5.4: after 6 months, 60-day notice plus termination fee of 2 months' additional rent, $125 modification fee and $150 processing fee; holdover at double rent (Sec 5.4) / three times rent (Sec 6.1)"
+ },
+ "move_out": {
+  "move_out_date": "2024-09-06",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 157,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "August 2024 rent - tenant holding over after lease ended 04/02/2024 (no renewal doc; charged at regular 1,100)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1100,
+   "amount_open": 1100,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": 151,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "August 2024 RBP w/ insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "August 2024 SDRP/RIS_$1,500 fee",
+   "category": "sdrp_premium",
+   "amount_charged": 28,
+   "amount_open": 28,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee for Aug 2024 (10% of rent)",
+   "category": "late_fee",
+   "amount_charged": 110,
+   "amount_open": 110,
+   "date_posted": "2024-08-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "September 2024 rent charged for full month 9/1-9/30 (tenant evicted/moved out 09/06/2024; holdover after lease end)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1100,
+   "amount_open": 1100,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 181,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  },
+  {
+   "description": "September 2024 RBP w/ insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "September 2024 SDRP/RIS_$1,500 fee",
+   "category": "sdrp_premium",
+   "amount_charged": 28,
+   "amount_open": 28,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee for Sep 2024 (10% of rent)",
+   "category": "late_fee",
+   "amount_charged": 110,
+   "amount_open": 110,
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 2554,
+  "first_full_month": "2023-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-30"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-francesta_l_alexander-20241114.pdf",
+   "flag": "eviction",
+   "quote": "Status: Evict ... Move out date: 09/06/2024 ... Lease Expiration: 04/02/2024"
+  },
+  {
+   "file": "deposit_disposition_amount_due_francesta_l_alexander_110124 (1).pdf",
+   "flag": "statement_total",
+   "quote": "you have a balance due of $2,554.00"
+  }
+ ],
+ "reconciliation": "Open lines 1100+39+28+110 (Aug) + 1100+39+28+110 (Sep) = 2,554.00, no credits; equals PM letter 2,554.00 and current ledger total 2,554.00 (no difference).",
+ "extraction_confidence": 0.9,
+ "notes": "Lease expired 04/02/2024 with no renewal doc; ledger kept charging 1,100 so treated as month-to-month/holdover, both billed months are after lease end (days_after_lease_end measured from lease end to END of the billed period; period starts are 121 and 152 days after). Tenant was evicted (ledger Status Evict) and left 09/06/2024, 157 days after lease end; Sept rent billed for full month. No eviction/court costs on statement. Older ledger (1) is a pre-merge history with zero balance and was ignored for amounts. Ledger shows chronic late payment (late fee every month, a 06/06/2024 catch-up payment, partial payments) but all prior charges eventually paid; first full calendar month (June 2023) paid 6/12/2023 in full. 'Payment arrangements' sentence in letter is boilerplate.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a98d10d0d3097dae9"
+ }
+}

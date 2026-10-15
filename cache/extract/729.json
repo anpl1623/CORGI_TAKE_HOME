@@ -1,0 +1,109 @@
+{
+ "tracking": 729,
+ "winning_document": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+ "documents": [
+  {
+   "file": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Statement of Accounting 07/18/24 Amount Due 1314.00; pages 2-5 are the four backing invoices"
+  },
+  {
+   "file": "1112 W Montelupo Dr _ tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Unpaid 1314.00 (Sec Dep charges 5301-5310) matches statement; rent paid through July"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2250,
+  "sd_program": "unknown",
+  "lease_start": "2022-06-24",
+  "lease_end": "2024-07-02"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-27",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Landscaping: yard cleaning and debris",
+   "category": "landscaping_lawn",
+   "amount_open": 275,
+   "amount_charged": 275,
+   "date_posted": "2024-07-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Repairs: wall touch-up, child locks",
+   "category": "repairs_damage",
+   "amount_open": 580,
+   "amount_charged": 580,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet steam cleaning, 5 rooms",
+   "category": "carpet_cleaning",
+   "amount_open": 199,
+   "amount_charged": 199,
+   "date_posted": "2024-07-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  },
+  {
+   "description": "House light clean and garage wash",
+   "category": "cleaning",
+   "amount_open": 260,
+   "amount_charged": 260,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1112WMontelupoDr_071824_StatementofAccounting_Butler.pdf",
+   "source_page": 5,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "ledger": {
+  "as_of_date": "2024-08-21",
+  "balance_due": 1314,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-17"
+ },
+ "pm_stated_amount_due": 1314,
+ "reconciliation": "Four invoice-backed lines 1314.00 (275+580+199+260) less credits 0 equals statement Amount Due from Resident 1314.00 and ledger unpaid total 1314.00.",
+ "notes": "Statement page 1: credits 0, unpaid rent 0, lease break fee 0, deductions 1314.00. Pages 2-5 invoices back each line and are counted once. Ledger Sec Dep charges match the four lines. June rent and the July 1-2 prorated rent of 145.16 were paid 07/17 (history, not open). Repairs line bundles wall touch-up and child lock removal with no split.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0a25bda427e059b7"
+ }
+}

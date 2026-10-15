@@ -1,0 +1,306 @@
+{
+ "tracking": 1014,
+ "winning_document": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+ "pm_stated_amount_due": 3205.5,
+ "documents": [
+  {
+   "file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware ledger (newest first). Winning accounting doc: no move-out statement is in the folder. Open balance 3,205.50 as of 12/12/2024."
+  },
+  {
+   "file": "45 Sycamore #1323 - HEALEY - Turn Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Robby's Woodwork invoice 33-670, total 2,472.00. Used only to split the lumped 11/27 SD Forfeit ledger charge of 2,142.00 into sub-lines. Key fob 160 and cleaning 170 are separate ledger rows."
+  },
+  {
+   "file": "45 Sycamore #1323 - HEALEY - Lease.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-11-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Renewal rental agreement, term 11/01/2023-10/31/2024, rent 2,000."
+  },
+  {
+   "file": "45 Sycamore #1323 - HEALEY - SD Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Waiver: 50/month in lieu of a 2,850 deposit."
+  },
+  {
+   "file": "45 Sycamore #1323 - HEALEY - YRIG Demand Letter.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-11-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM email sending the move-out packet. It has no amounts. The attached SDRP Move Out Calculation and Move Out Evaluation PDFs are not in the folder."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "sd_program": "sdrp",
+  "lease_start": "2022-10-28",
+  "lease_end": "2024-10-31",
+  "current_term_start": "2023-11-01",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2850,
+  "monthly_sd_premium": 50,
+  "recurring_addons": [
+   {
+    "name": "Animal Fee",
+    "amount": 30
+   },
+   {
+    "name": "RBP (resident benefit package)",
+    "amount": 27
+   }
+  ],
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "October 2024 rent (4000 - Rent). Partially Paid Charge: 2,000.00 charged, 1,665.00 applied by the 10/10/2024 ePayment, remainder open.",
+   "category": "rent_in_term",
+   "amount_charged": 2000,
+   "amount_open": 335,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee calculated 10/11/2024 on the unpaid October rent (4340 - Late Fee)",
+   "category": "late_fee",
+   "amount_charged": 33.5,
+   "amount_open": 33.5,
+   "date_posted": "2024-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "5510 Repairs: Paint unit below. Posted 10/23/2024, during tenancy, after the 9/26 plumber/toilet overflow charge. Cause is not stated; water damage is inferred.",
+   "category": "painting",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": true,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "SD Forfeit sub-line: replace (4) broken doors, bathrooms and bedrooms (Turn Invoice 33-670)",
+   "category": "repairs_damage",
+   "amount_charged": 531,
+   "amount_open": 531,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit sub-line: replace missing upper kitchen cabinet (Turn Invoice 33-670)",
+   "category": "repairs_damage",
+   "amount_charged": 87,
+   "amount_open": 87,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit sub-line: repair/replace master closet light (Turn Invoice 33-670)",
+   "category": "repairs_damage",
+   "amount_charged": 62,
+   "amount_open": 62,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit sub-line: repair poorly done/unfinished drywall and holes in wall, guest and master bedrooms (Turn Invoice 33-670)",
+   "category": "repairs_damage",
+   "amount_charged": 398,
+   "amount_open": 398,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "SD Forfeit sub-line: prep and paint bedrooms with repaired drywall (Turn Invoice 33-670)",
+   "category": "painting",
+   "amount_charged": 1029,
+   "amount_open": 1029,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit sub-line: replace smoke detector. Fully credited by the 12/10/2024 Adjustment Credit (SD Dispute), so nothing is open.",
+   "category": "repairs_damage",
+   "amount_charged": 35,
+   "amount_open": 0,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "4780 SD Forfeit (MoveOut charge): Key FOB Replacement",
+   "category": "keys_remotes",
+   "amount_charged": 160,
+   "amount_open": 160,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4780 SD Forfeit (MoveOut charge): Cleaning (professionally cleaned unit)",
+   "category": "cleaning",
+   "amount_charged": 170,
+   "amount_open": 170,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4010 Maintenance Coordination Fee (move-out)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-11-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "4990 Adjustment Credit - SD Dispute 12/10 (smoke detector). Applied against the 2,142.00 SD Forfeit charge, so its open remainder is 2,107.00.",
+   "amount": 35,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "45 Sycamore #1323 - HEALEY - Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "45 Sycamore #1323 - HEALEY - Ledger.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Adjustment Credit - SD Dispute 12/10"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-12-12",
+  "balance_due": 3205.5,
+  "first_full_month": "2022-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-10"
+ },
+ "extraction_confidence": 0.88,
+ "reconciliation": "Open lines 3,205.50 (335.00 Oct rent + 33.50 late fee + 200.00 paint unit below + 2,107.00 repair/paint sub-lines + 160.00 fob + 170.00 cleaning + 200.00 coordination fee) minus 0.00 further credits equals ledger balance 3,205.50. The 35.00 smoke detector credit is already netted. No difference.",
+ "notes": "No move-out statement is in the folder, so the 12/12/2024 Propertyware ledger is the winning document. The PM's demand email (11/27) mentions an SDRP Move Out Calculation that was not provided. The ledger lumps repairs into one 2,142.00 SD Forfeit charge, split here using Turn Invoice 33-670 (2,472.00 total: 2,107 repairs/paint + 35 smoke detector + 160 fob + 170 cleaning). The 12/10 smoke detector credit is a partial tenant dispute that the PM honored. The 200.00 'Paint unit below' water-damage flag is inferred from the earlier toilet-overflow charge. The sheet shows lease start 2022-10-28. The lease in the folder is the renewal term 11/01/2023-10/31/2024 at 2,000. Ledger history shows the rent moved from 1,900 to 2,000 and a 100 renewal fee posted on 11/01/2023, so it is a renewal. The first-full-month entry is uncertain: the 2022-11 ledger rows are ambiguous, but every early month was paid in full with no bounced payment. Opened no files visually; the digest text was complete.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a1011b650d81f909c"
+ }
+}

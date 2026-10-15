@@ -1,0 +1,83 @@
+{
+ "tracking": 684,
+ "winning_document": "Small Canyon SD06272024_0001.pdf (move-out statement dated 2024-06-27, balance 1,325.00)",
+ "documents": [
+  {
+   "file": "Small Canyon SD06272024_0001.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-27",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning: move-out statement 875 repairs + 450 cleaning; cover letter and ledger agree; page 4 is a repair estimate, not used for amounts"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1300,
+  "sd_program": "unknown",
+  "lease_start": "2022-04-12",
+  "lease_end": "2024-05-31",
+  "recurring_addons": [
+   {
+    "name": "SDRP fee",
+    "amount": 35
+   },
+   {
+    "name": "RBP with Insurance",
+    "amount": 44.95
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-06-27",
+  "balance_due": 1325,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31
+ },
+ "line_items": [
+  {
+   "description": "General repairs per move-out statement",
+   "category": "repairs_damage",
+   "amount_open": 875,
+   "amount_charged": 875,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Small Canyon SD06272024_0001.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaning charge",
+   "category": "cleaning",
+   "amount_open": 450,
+   "amount_charged": 450,
+   "date_posted": "2024-06-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Small Canyon SD06272024_0001.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 1325,
+ "reconciliation": "Open lines 1325.00 minus credits 0.00 = 1325.00, equal to statement balance due and ledger balance.",
+ "extraction_confidence": 0.85,
+ "notes": "Statement lists lease expiration 04-30-2024 and move-out 05-31-2024 (31-day holdover); sheet lease end is 05-31-2024, so the two sources conflict. May rent 1,300 was charged and paid. No deposit held. Repair line has no breakdown in the folder.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

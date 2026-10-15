@@ -1,0 +1,195 @@
+{
+ "tracking": 510,
+ "winning_document": "417 Willow St - Itemization - Scanlan.pdf",
+ "pm_stated_amount_due": 448.54,
+ "documents": [
+  {
+   "file": "417 Willow St - Itemization - Scanlan.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-02-22",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "RentWerx Itemization of Move out Charges, total 2,548.54, less 2,100 pulled, 448.54 due. The link and access code in it were ignored."
+  },
+  {
+   "file": "417 Willow St - Ledger - Scanlan.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-03-25",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Shows Make Ready 2,453.54 and a lumped 95.00 itemization fee (45 + 50 on the statement), and the 2,100 pulled funds on 2/28/24."
+  },
+  {
+   "file": "417 Willow St - Lease 2023-2023 - Scanlan.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt used: preferred resident program $33, auto month-to-month renewal with +25% and $85 admin fee, RBP $59."
+  },
+  {
+   "file": "417 Willow St - Move Out Report - Scanlan.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-02-05",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Condition report. Odor marked satisfactory, no pet evidence."
+  },
+  {
+   "file": "417 Willow St - Application - Joshua Scanlan.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only: occupation Active Duty Military."
+  },
+  {
+   "file": "417 Willow St - Application - Felicia Scanlan.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only: student, no pets."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2100,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-01-06",
+  "lease_end": "2023-12-31",
+  "current_term_start": "2024-01-01",
+  "current_term_end": null,
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package (59.00, billed 41.00 in Dec 2023 and Jan 2024)",
+    "amount": 59
+   },
+   {
+    "name": "Month to Month Admin Fee (from Jan 2024; month-to-month rent was 2,625 = 2,100 + 25%)",
+    "amount": 85
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-01-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready Repairs: air filter, lightbulb replacement, maid service, carpet cleaning, blind replacement, touch-up paint, drywall repairs, door touch-up. No per-item amounts in the folder, so it cannot be split.",
+   "category": "repairs_damage",
+   "amount_charged": 2453.54,
+   "amount_open": 2453.54,
+   "date_posted": "2024-02-28",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "417 Willow St - Itemization - Scanlan.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-02-28",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "417 Willow St - Itemization - Scanlan.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Handling Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-02-28",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "417 Willow St - Itemization - Scanlan.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Funds pulled from tenant account per lease agreement (Scanlan $2100) on 2/28/24, applied to move-out charges",
+   "amount": 2100,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false,
+   "source_file": "417 Willow St - Ledger - Scanlan.pdf"
+  }
+ ],
+ "flags": {
+  "military_scra": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "417 Willow St - Application - Joshua Scanlan.pdf",
+   "flag": "military_scra",
+   "quote": "Active Duty Military $6,000.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-03-25",
+  "balance_due": 448.54,
+  "first_full_month": "2023-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-28"
+ },
+ "reconciliation": "Sum of open lines 2,548.54 - credit 2,100.00 = 448.54 equals PM stated remaining balance 448.54. The ledger shows the 45 and 50 fees as one 95.00 Itemization Fee, and the statement split is used.",
+ "notes": "The lease expired 12/31/2023 and converted to month-to-month. January 2024 rent (2,625 + 85 admin + 33 + 41 = 2,784) was paid in full on 12/31/23. No rent is open. The Make Ready line mixes cleaning, carpet cleaning, paint, drywall, blinds and consumables with no amounts. It is classified as repairs_damage at low confidence. SD program read from the lease as the $33 Preferred Resident Program, a fee in lieu of deposit; the application mentions Obligo only as generic screening text. military_scra is set only on the application showing active-duty status; no SCRA invocation appears in the folder. Deposit balance is 0.00.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ae79b4f0481946cd0"
+ }
+}

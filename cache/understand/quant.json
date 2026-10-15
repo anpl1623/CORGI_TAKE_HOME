@@ -1,0 +1,1392 @@
+{
+ "data_notes": {
+  "rows": 1244,
+  "tracking_range": [
+   1,
+   1246
+  ],
+  "claim_date_range": [
+   "2022-03-04",
+   "2025-04-04"
+  ],
+  "status_counts": {
+   "Posted": 1100,
+   "Declined": 124,
+   "Approved": 9,
+   "Test Claim": 4,
+   "Pending Docs from PM": 2,
+   "In Process": 2,
+   "HOLD": 1,
+   "Approved Revised": 1,
+   "New": 1
+  },
+  "green_columns_in_workbook": [
+   "Tracking Number",
+   "Amount of Claim",
+   "Max Benefit",
+   "Status",
+   "Approved Benefit Amount",
+   "PM Explanation"
+  ],
+  "amount_of_claim": "non-null values are perfectly monotonic ascending in tracking-number order (233 nulls) -> column was sorted independently; unusable",
+  "monthly_rent_missing": "missing for all 2022 claims (and 8% of 2023Q1); present thereafter",
+  "termination_type": "blank for every claim before 2023-10/11 (column introduced ~Nov 2023); Move-Out 789, Eviction 213, blank 242",
+  "max_benefit_values": "always a multiple of 500 (500..6000); NaN for 46 rows (30 Declined - mostly not-our-policy/duplicate, 12 Posted, 3 Test, 1 Pending)",
+  "paid_rows_used": 1097
+ },
+ "max_benefit_vs_rent": {
+  "overall_match_rates": {
+   "ceil(rent/500)*500": 0.341,
+   "round(rent/500)*500": 0.249,
+   "maxb>ceil500": 0.51,
+   "maxb<ceil500": 0.15,
+   "median_maxb_over_rent": 1.395
+  },
+  "formula_by_pm_family": {
+   "1stChoice": {
+    "1.5x_rent_ceil500": 1,
+    "1x_rent_ceil500": 3,
+    "2x_rent_ceil500": 3,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 11
+   },
+   "BlueFox": {
+    "1.5x_rent_ceil500": 60,
+    "1x_rent_ceil500": 1,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 2
+   },
+   "Excalibur": {
+    "1.5x_rent_ceil500": 2,
+    "1x_rent_ceil500": 96,
+    "2x_rent_ceil500": 28,
+    "below_rent": 38,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 6
+   },
+   "Forefront": {
+    "1.5x_rent_ceil500": 6,
+    "1x_rent_ceil500": 5,
+    "2x_rent_ceil500": 1,
+    "below_rent": 3,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 4
+   },
+   "GDAA": {
+    "1.5x_rent_ceil500": 4,
+    "1x_rent_ceil500": 1,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 1
+   },
+   "Hendricks": {
+    "1.5x_rent_ceil500": 3,
+    "1x_rent_ceil500": 2,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 2
+   },
+   "Johnson": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 0,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 51,
+    "other_above_rent": 1
+   },
+   "NewHeights": {
+    "1.5x_rent_ceil500": 9,
+    "1x_rent_ceil500": 10,
+    "2x_rent_ceil500": 4,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 2
+   },
+   "PMS_Columbus": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 1,
+    "2x_rent_ceil500": 1,
+    "below_rent": 26,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 0
+   },
+   "PURE": {
+    "1.5x_rent_ceil500": 90,
+    "1x_rent_ceil500": 165,
+    "2x_rent_ceil500": 31,
+    "below_rent": 18,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 68
+   },
+   "ParkPlace": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 0,
+    "2x_rent_ceil500": 3,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 8
+   },
+   "PerryReid": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 0,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 186,
+    "flat_2500": 0,
+    "other_above_rent": 0
+   },
+   "Reliant": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 8,
+    "2x_rent_ceil500": 0,
+    "below_rent": 7,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 2
+   },
+   "RentWerx": {
+    "1.5x_rent_ceil500": 0,
+    "1x_rent_ceil500": 0,
+    "2x_rent_ceil500": 0,
+    "below_rent": 1,
+    "flat_1500": 77,
+    "flat_2500": 0,
+    "other_above_rent": 0
+   },
+   "StarPointe": {
+    "1.5x_rent_ceil500": 69,
+    "1x_rent_ceil500": 6,
+    "2x_rent_ceil500": 1,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 6
+   },
+   "other": {
+    "1.5x_rent_ceil500": 6,
+    "1x_rent_ceil500": 11,
+    "2x_rent_ceil500": 1,
+    "below_rent": 1,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 4
+   }
+  },
+  "formula_by_year": {
+   "2022": {
+    "1.5x_rent_ceil500": 1,
+    "1x_rent_ceil500": 0,
+    "2x_rent_ceil500": 0,
+    "below_rent": 0,
+    "flat_1500": 0,
+    "flat_2500": 0,
+    "other_above_rent": 0
+   },
+   "2023": {
+    "1.5x_rent_ceil500": 98,
+    "1x_rent_ceil500": 121,
+    "2x_rent_ceil500": 39,
+    "below_rent": 42,
+    "flat_1500": 16,
+    "flat_2500": 6,
+    "other_above_rent": 29
+   },
+   "2024": {
+    "1.5x_rent_ceil500": 112,
+    "1x_rent_ceil500": 143,
+    "2x_rent_ceil500": 30,
+    "below_rent": 40,
+    "flat_1500": 180,
+    "flat_2500": 35,
+    "other_above_rent": 70
+   },
+   "2025": {
+    "1.5x_rent_ceil500": 39,
+    "1x_rent_ceil500": 45,
+    "2x_rent_ceil500": 4,
+    "below_rent": 12,
+    "flat_1500": 67,
+    "flat_2500": 10,
+    "other_above_rent": 18
+   }
+  },
+  "exact_multiple_of_500_rents (rent -> {maxb:count})": {
+   "500": {
+    "1000": 1
+   },
+   "1000": {
+    "2000": 2,
+    "1500": 2
+   },
+   "1500": {
+    "1500": 8,
+    "2500": 4,
+    "2000": 3,
+    "1000": 1
+   },
+   "2000": {
+    "2000": 8,
+    "3000": 7,
+    "1500": 2,
+    "4000": 1,
+    "3500": 1,
+    "5500": 1
+   },
+   "2500": {
+    "4000": 4,
+    "5000": 2,
+    "3000": 1,
+    "2500": 1
+   },
+   "3000": {
+    "6000": 1
+   },
+   "3500": {
+    "5500": 1
+   }
+  },
+  "treaty_to_pm": {
+   "123": {
+    "other": 1
+   },
+   "T00001": {
+    "PURE": 387,
+    "NewHeights": 40,
+    "GDAA": 21,
+    "other": 10
+   },
+   "T00002": {
+    "StarPointe": 84,
+    "RentWerx": 80,
+    "BlueFox": 64,
+    "Johnson": 54,
+    "PMS_Columbus": 29,
+    "Forefront": 21
+   },
+   "T00003": {
+    "PerryReid": 189,
+    "other": 3
+   },
+   "T00004": {
+    "Excalibur": 173,
+    "other": 1
+   },
+   "T00005": {
+    "Reliant": 17
+   },
+   "T00006": {
+    "other": 1
+   }
+  }
+ },
+ "approved_outcomes": {
+  "overall_paid": {
+   "all": {
+    "n": 1097,
+    "eq_max": 0.545,
+    "lt_max": 0.452,
+    "gt_max": 0.003,
+    "zero": 0.002,
+    "eq_rentcap": 0.267,
+    "gt_rentcap": 0.272,
+    "capped_below_max": 40,
+    "mean_appr_over_max": 0.763
+   }
+  },
+  "by_claim_quarter": {
+   "2022Q1": {
+    "n": 2,
+    "eq_max": 1.0,
+    "lt_max": 0.0,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.0,
+    "gt_rentcap": 1.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 1.0
+   },
+   "2022Q2": {
+    "n": 2,
+    "eq_max": 1.0,
+    "lt_max": 0.0,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": null,
+    "gt_rentcap": null,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 1.0
+   },
+   "2022Q3": {
+    "n": 15,
+    "eq_max": 1.0,
+    "lt_max": 0.0,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": null,
+    "gt_rentcap": null,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 1.0
+   },
+   "2022Q4": {
+    "n": 14,
+    "eq_max": 0.857,
+    "lt_max": 0.143,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": null,
+    "gt_rentcap": null,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.924
+   },
+   "2023Q1": {
+    "n": 29,
+    "eq_max": 0.655,
+    "lt_max": 0.31,
+    "gt_max": 0.034,
+    "zero": 0.0,
+    "eq_rentcap": 0.444,
+    "gt_rentcap": 0.296,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.829
+   },
+   "2023Q2": {
+    "n": 52,
+    "eq_max": 0.596,
+    "lt_max": 0.385,
+    "gt_max": 0.019,
+    "zero": 0.0,
+    "eq_rentcap": 0.25,
+    "gt_rentcap": 0.288,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.764
+   },
+   "2023Q3": {
+    "n": 87,
+    "eq_max": 0.621,
+    "lt_max": 0.379,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.207,
+    "gt_rentcap": 0.391,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.778
+   },
+   "2023Q4": {
+    "n": 158,
+    "eq_max": 0.652,
+    "lt_max": 0.348,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.285,
+    "gt_rentcap": 0.253,
+    "capped_below_max": 3,
+    "mean_appr_over_max": 0.775
+   },
+   "2024Q1": {
+    "n": 111,
+    "eq_max": 0.595,
+    "lt_max": 0.405,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.189,
+    "gt_rentcap": 0.333,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.787
+   },
+   "2024Q2": {
+    "n": 101,
+    "eq_max": 0.485,
+    "lt_max": 0.505,
+    "gt_max": 0.01,
+    "zero": 0.01,
+    "eq_rentcap": 0.168,
+    "gt_rentcap": 0.317,
+    "capped_below_max": 4,
+    "mean_appr_over_max": 0.792
+   },
+   "2024Q3": {
+    "n": 178,
+    "eq_max": 0.455,
+    "lt_max": 0.545,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.253,
+    "gt_rentcap": 0.264,
+    "capped_below_max": 10,
+    "mean_appr_over_max": 0.717
+   },
+   "2024Q4": {
+    "n": 169,
+    "eq_max": 0.479,
+    "lt_max": 0.521,
+    "gt_max": 0.0,
+    "zero": 0.006,
+    "eq_rentcap": 0.32,
+    "gt_rentcap": 0.201,
+    "capped_below_max": 6,
+    "mean_appr_over_max": 0.716
+   },
+   "2025Q1": {
+    "n": 176,
+    "eq_max": 0.466,
+    "lt_max": 0.534,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.324,
+    "gt_rentcap": 0.233,
+    "capped_below_max": 14,
+    "mean_appr_over_max": 0.756
+   },
+   "2025Q2": {
+    "n": 3,
+    "eq_max": 0.333,
+    "lt_max": 0.667,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.667,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.585
+   }
+  },
+  "by_termination_type": {
+   "Eviction": {
+    "n": 187,
+    "eq_max": 0.888,
+    "lt_max": 0.112,
+    "gt_max": 0.0,
+    "zero": 0.005,
+    "eq_rentcap": 0.487,
+    "gt_rentcap": 0.342,
+    "capped_below_max": 12,
+    "mean_appr_over_max": 0.954
+   },
+   "Move-Out": {
+    "n": 691,
+    "eq_max": 0.412,
+    "lt_max": 0.586,
+    "gt_max": 0.001,
+    "zero": 0.001,
+    "eq_rentcap": 0.21,
+    "gt_rentcap": 0.236,
+    "capped_below_max": 26,
+    "mean_appr_over_max": 0.695
+   },
+   "NA(pre-Nov2023 column)": {
+    "n": 219,
+    "eq_max": 0.671,
+    "lt_max": 0.32,
+    "gt_max": 0.009,
+    "zero": 0.0,
+    "eq_rentcap": 0.259,
+    "gt_rentcap": 0.335,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.812
+   }
+  },
+  "by_year_x_termination": {
+   "2022|NA(pre-Nov2023 column)": {
+    "n": 33,
+    "eq_max": 0.939,
+    "lt_max": 0.061,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.0,
+    "gt_rentcap": 1.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.968
+   },
+   "2023|Eviction": {
+    "n": 61,
+    "eq_max": 0.984,
+    "lt_max": 0.016,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.426,
+    "gt_rentcap": 0.361,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.987
+   },
+   "2023|Move-Out": {
+    "n": 79,
+    "eq_max": 0.392,
+    "lt_max": 0.608,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.177,
+    "gt_rentcap": 0.177,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.607
+   },
+   "2023|NA(pre-Nov2023 column)": {
+    "n": 186,
+    "eq_max": 0.624,
+    "lt_max": 0.366,
+    "gt_max": 0.011,
+    "zero": 0.0,
+    "eq_rentcap": 0.261,
+    "gt_rentcap": 0.332,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.784
+   },
+   "2024|Eviction": {
+    "n": 100,
+    "eq_max": 0.87,
+    "lt_max": 0.13,
+    "gt_max": 0.0,
+    "zero": 0.01,
+    "eq_rentcap": 0.47,
+    "gt_rentcap": 0.37,
+    "capped_below_max": 5,
+    "mean_appr_over_max": 0.941
+   },
+   "2024|Move-Out": {
+    "n": 459,
+    "eq_max": 0.414,
+    "lt_max": 0.584,
+    "gt_max": 0.002,
+    "zero": 0.002,
+    "eq_rentcap": 0.196,
+    "gt_rentcap": 0.246,
+    "capped_below_max": 16,
+    "mean_appr_over_max": 0.701
+   },
+   "2025|Eviction": {
+    "n": 26,
+    "eq_max": 0.731,
+    "lt_max": 0.269,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.692,
+    "gt_rentcap": 0.192,
+    "capped_below_max": 7,
+    "mean_appr_over_max": 0.929
+   },
+   "2025|Move-Out": {
+    "n": 153,
+    "eq_max": 0.418,
+    "lt_max": 0.582,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.268,
+    "gt_rentcap": 0.235,
+    "capped_below_max": 8,
+    "mean_appr_over_max": 0.723
+   }
+  },
+  "by_pm_family": {
+   "1stChoice": {
+    "n": 16,
+    "eq_max": 0.25,
+    "lt_max": 0.75,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.188,
+    "gt_rentcap": 0.25,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.576
+   },
+   "BlueFox": {
+    "n": 57,
+    "eq_max": 0.211,
+    "lt_max": 0.772,
+    "gt_max": 0.018,
+    "zero": 0.0,
+    "eq_rentcap": 0.018,
+    "gt_rentcap": 0.357,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.525
+   },
+   "Excalibur": {
+    "n": 160,
+    "eq_max": 0.781,
+    "lt_max": 0.219,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.438,
+    "gt_rentcap": 0.175,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.839
+   },
+   "Forefront": {
+    "n": 15,
+    "eq_max": 0.533,
+    "lt_max": 0.467,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.2,
+    "gt_rentcap": 0.333,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.776
+   },
+   "GDAA": {
+    "n": 21,
+    "eq_max": 0.81,
+    "lt_max": 0.19,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.167,
+    "gt_rentcap": 0.167,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.91
+   },
+   "Hendricks": {
+    "n": 6,
+    "eq_max": 0.333,
+    "lt_max": 0.667,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.167,
+    "gt_rentcap": 0.333,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.7
+   },
+   "Johnson": {
+    "n": 51,
+    "eq_max": 0.549,
+    "lt_max": 0.451,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.08,
+    "gt_rentcap": 0.74,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.795
+   },
+   "NewHeights": {
+    "n": 35,
+    "eq_max": 0.657,
+    "lt_max": 0.314,
+    "gt_max": 0.029,
+    "zero": 0.0,
+    "eq_rentcap": 0.227,
+    "gt_rentcap": 0.455,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.835
+   },
+   "PMS_Columbus": {
+    "n": 22,
+    "eq_max": 0.591,
+    "lt_max": 0.409,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.0,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.754
+   },
+   "PURE": {
+    "n": 346,
+    "eq_max": 0.462,
+    "lt_max": 0.538,
+    "gt_max": 0.0,
+    "zero": 0.006,
+    "eq_rentcap": 0.367,
+    "gt_rentcap": 0.197,
+    "capped_below_max": 29,
+    "mean_appr_over_max": 0.729
+   },
+   "ParkPlace": {
+    "n": 9,
+    "eq_max": 0.222,
+    "lt_max": 0.778,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.111,
+    "gt_rentcap": 0.556,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.606
+   },
+   "PerryReid": {
+    "n": 166,
+    "eq_max": 0.476,
+    "lt_max": 0.524,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.235,
+    "gt_rentcap": 0.307,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.7
+   },
+   "Reliant": {
+    "n": 16,
+    "eq_max": 0.562,
+    "lt_max": 0.438,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.188,
+    "gt_rentcap": 0.125,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.841
+   },
+   "RentWerx": {
+    "n": 76,
+    "eq_max": 0.789,
+    "lt_max": 0.197,
+    "gt_max": 0.013,
+    "zero": 0.0,
+    "eq_rentcap": 0.171,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.964
+   },
+   "StarPointe": {
+    "n": 81,
+    "eq_max": 0.543,
+    "lt_max": 0.457,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.101,
+    "gt_rentcap": 0.62,
+    "capped_below_max": 3,
+    "mean_appr_over_max": 0.792
+   },
+   "other": {
+    "n": 20,
+    "eq_max": 0.6,
+    "lt_max": 0.4,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.278,
+    "gt_rentcap": 0.389,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.84
+   }
+  },
+  "by_treaty": {
+   "T00001": {
+    "n": 411,
+    "eq_max": 0.504,
+    "lt_max": 0.494,
+    "gt_max": 0.002,
+    "zero": 0.005,
+    "eq_rentcap": 0.357,
+    "gt_rentcap": 0.213,
+    "capped_below_max": 29,
+    "mean_appr_over_max": 0.752
+   },
+   "T00002": {
+    "n": 340,
+    "eq_max": 0.521,
+    "lt_max": 0.474,
+    "gt_max": 0.006,
+    "zero": 0.0,
+    "eq_rentcap": 0.107,
+    "gt_rentcap": 0.375,
+    "capped_below_max": 9,
+    "mean_appr_over_max": 0.768
+   },
+   "T00003": {
+    "n": 169,
+    "eq_max": 0.473,
+    "lt_max": 0.527,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.231,
+    "gt_rentcap": 0.308,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.7
+   },
+   "T00004": {
+    "n": 160,
+    "eq_max": 0.781,
+    "lt_max": 0.219,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.438,
+    "gt_rentcap": 0.175,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.839
+   },
+   "T00005": {
+    "n": 16,
+    "eq_max": 0.562,
+    "lt_max": 0.438,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.188,
+    "gt_rentcap": 0.125,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.841
+   },
+   "T00006": {
+    "n": 1,
+    "eq_max": 0.0,
+    "lt_max": 1.0,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.0,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.333
+   }
+  },
+  "by_group_top20": {
+   "GR0001": {
+    "n": 115,
+    "eq_max": 0.47,
+    "lt_max": 0.522,
+    "gt_max": 0.009,
+    "zero": 0.0,
+    "eq_rentcap": 0.235,
+    "gt_rentcap": 0.343,
+    "capped_below_max": 8,
+    "mean_appr_over_max": 0.73
+   },
+   "GR0002": {
+    "n": 48,
+    "eq_max": 0.562,
+    "lt_max": 0.438,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.212,
+    "gt_rentcap": 0.242,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.732
+   },
+   "GR0003": {
+    "n": 57,
+    "eq_max": 0.211,
+    "lt_max": 0.772,
+    "gt_max": 0.018,
+    "zero": 0.0,
+    "eq_rentcap": 0.018,
+    "gt_rentcap": 0.357,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.525
+   },
+   "GR0006": {
+    "n": 51,
+    "eq_max": 0.549,
+    "lt_max": 0.451,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.08,
+    "gt_rentcap": 0.74,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.795
+   },
+   "GR0009": {
+    "n": 10,
+    "eq_max": 0.5,
+    "lt_max": 0.5,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.3,
+    "gt_rentcap": 0.6,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.76
+   },
+   "GR0011": {
+    "n": 26,
+    "eq_max": 0.654,
+    "lt_max": 0.346,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.44,
+    "gt_rentcap": 0.12,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.852
+   },
+   "GR0022": {
+    "n": 81,
+    "eq_max": 0.543,
+    "lt_max": 0.457,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.101,
+    "gt_rentcap": 0.62,
+    "capped_below_max": 3,
+    "mean_appr_over_max": 0.792
+   },
+   "GR0023": {
+    "n": 76,
+    "eq_max": 0.789,
+    "lt_max": 0.197,
+    "gt_max": 0.013,
+    "zero": 0.0,
+    "eq_rentcap": 0.171,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.964
+   },
+   "GR0025": {
+    "n": 16,
+    "eq_max": 0.562,
+    "lt_max": 0.438,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.188,
+    "gt_rentcap": 0.125,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.841
+   },
+   "GR0028": {
+    "n": 160,
+    "eq_max": 0.781,
+    "lt_max": 0.219,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.438,
+    "gt_rentcap": 0.175,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.839
+   },
+   "GR0029": {
+    "n": 15,
+    "eq_max": 0.533,
+    "lt_max": 0.467,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.2,
+    "gt_rentcap": 0.333,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.776
+   },
+   "GR0032": {
+    "n": 27,
+    "eq_max": 0.37,
+    "lt_max": 0.63,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.222,
+    "gt_rentcap": 0.259,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.64
+   },
+   "GR0041": {
+    "n": 47,
+    "eq_max": 0.426,
+    "lt_max": 0.574,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.298,
+    "gt_rentcap": 0.298,
+    "capped_below_max": 7,
+    "mean_appr_over_max": 0.695
+   },
+   "GR0050": {
+    "n": 16,
+    "eq_max": 0.25,
+    "lt_max": 0.75,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.188,
+    "gt_rentcap": 0.25,
+    "capped_below_max": 2,
+    "mean_appr_over_max": 0.576
+   },
+   "GR0051": {
+    "n": 23,
+    "eq_max": 0.522,
+    "lt_max": 0.478,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.217,
+    "gt_rentcap": 0.478,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.729
+   },
+   "GR0064": {
+    "n": 17,
+    "eq_max": 0.471,
+    "lt_max": 0.529,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.529,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 1,
+    "mean_appr_over_max": 0.743
+   },
+   "GR0065": {
+    "n": 22,
+    "eq_max": 0.591,
+    "lt_max": 0.409,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.0,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.754
+   },
+   "GR0068": {
+    "n": 22,
+    "eq_max": 0.636,
+    "lt_max": 0.364,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.773,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 4,
+    "mean_appr_over_max": 0.922
+   },
+   "GR0102": {
+    "n": 11,
+    "eq_max": 0.636,
+    "lt_max": 0.364,
+    "gt_max": 0.0,
+    "zero": 0.0,
+    "eq_rentcap": 0.636,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.87
+   },
+   "GR0133": {
+    "n": 21,
+    "eq_max": 0.476,
+    "lt_max": 0.524,
+    "gt_max": 0.0,
+    "zero": 0.048,
+    "eq_rentcap": 0.476,
+    "gt_rentcap": 0.0,
+    "capped_below_max": 0,
+    "mean_appr_over_max": 0.753
+   }
+  }
+ },
+ "rent_cap": {
+  "formula": "cap = ceil(Monthly Rent / 500) * 500 (exact multiples map to themselves: 2000->2000 in tn 687,1014; one outlier tn 614 rent 1500 -> 2000). payout = min(itemized eligible, Max Benefit, cap) when cap applies.",
+  "note_examples_all_consistent_with_ceil500": "940->1000, 895->1000, 1100->1500, 1248->1500, 1250->1500, 1395->1500, 1525->2000, 1570->2000, 1750->2000, 1829->2000, 1850->2000, 1875->2000, 1900->2000, 1925->2000, 1950->2000, 2000->2000, 2050->2500, 2145->2500, 2150->2500, 2200->2500, 2300->2500, 2490->2500, 2895->3000, 2995->3000, 3095->3500, 3195->3500, 3200->3500, 3295->3500; exception 1500->2000 (tn 614)",
+  "population": "paid claims where Max Benefit > cap and Approved >= cap (i.e. eligible charges reached the cap, so a cap would bind)",
+  "capped_by_claim_quarter_x_treaty": {
+   "2022Q1": {
+    "T00001": "0/1"
+   },
+   "2023Q1": {
+    "T00001": "0/5",
+    "T00002": "0/3",
+    "T00004": "1/1"
+   },
+   "2023Q2": {
+    "T00001": "0/5",
+    "T00002": "0/6",
+    "T00004": "0/3"
+   },
+   "2023Q3": {
+    "T00001": "0/17",
+    "T00002": "0/7",
+    "T00003": "0/1",
+    "T00004": "0/8",
+    "T00005": "0/1"
+   },
+   "2023Q4": {
+    "T00001": "2/15",
+    "T00002": "0/14",
+    "T00004": "1/14"
+   },
+   "2024Q1": {
+    "T00001": "0/21",
+    "T00002": "1/17"
+   },
+   "2024Q2": {
+    "T00001": "4/12",
+    "T00002": "0/19",
+    "T00003": "0/3",
+    "T00004": "0/1",
+    "T00005": "0/1"
+   },
+   "2024Q3": {
+    "T00001": "8/13",
+    "T00002": "2/23",
+    "T00003": "0/20",
+    "T00004": "0/1"
+   },
+   "2024Q4": {
+    "T00001": "5/6",
+    "T00002": "1/22",
+    "T00003": "0/10",
+    "T00004": "0/2"
+   },
+   "2025Q1": {
+    "T00001": "9/13",
+    "T00002": "5/24",
+    "T00003": "0/18"
+   },
+   "2025Q2": {
+    "T00001": "1/1"
+   }
+  },
+  "capped_by_pm_family_pre_post_2024-04-24": {
+   "1stChoice": {
+    "post": "2/6"
+   },
+   "BlueFox": {
+    "pre": "0/13",
+    "post": "0/7"
+   },
+   "Excalibur": {
+    "pre": "2/26",
+    "post": "0/4"
+   },
+   "Forefront": {
+    "pre": "0/3",
+    "post": "2/4"
+   },
+   "GDAA": {
+    "pre": "0/1"
+   },
+   "Hendricks": {
+    "post": "1/3"
+   },
+   "Johnson": {
+    "pre": "0/12",
+    "post": "0/25"
+   },
+   "NewHeights": {
+    "pre": "0/9"
+   },
+   "PURE": {
+    "pre": "2/54",
+    "post": "27/43"
+   },
+   "ParkPlace": {
+    "pre": "0/1",
+    "post": "1/5"
+   },
+   "PerryReid": {
+    "pre": "0/1",
+    "post": "0/50"
+   },
+   "Reliant": {
+    "pre": "0/1",
+    "post": "0/1"
+   },
+   "StarPointe": {
+    "pre": "1/19",
+    "post": "2/33"
+   },
+   "other": {
+    "pre": "0/4",
+    "post": "0/3"
+   }
+  },
+  "rule_T00001_effdate_ge_2023-07-01_and_claim_ge_2023-12-01": {
+   "definition": "eff = Lease Start Date, or (Lease End - 365d) when lease term > 400 days (i.e. renewed term)",
+   "T00001_pred_true": "26/36",
+   "T00001_pred_false": "3/73",
+   "T00002_effdate_rule_true": "8/82",
+   "T00003_PerryReid": "0/52",
+   "T00004_Excalibur": "2/30",
+   "T00001_exceptions_pred_true_not_capped": [
+    346,
+    391,
+    422,
+    584,
+    614,
+    725,
+    1081,
+    1150,
+    1229,
+    1233
+   ],
+   "T00001_exceptions_pred_false_capped": [
+    253,
+    372,
+    539
+   ]
+  },
+  "all_capped_below_max_tracking": [
+   61,
+   227,
+   253,
+   372,
+   442,
+   539,
+   573,
+   575,
+   616,
+   657,
+   687,
+   701,
+   703,
+   705,
+   714,
+   809,
+   824,
+   825,
+   834,
+   846,
+   868,
+   914,
+   926,
+   963,
+   1014,
+   1067,
+   1076,
+   1082,
+   1109,
+   1125,
+   1144,
+   1149,
+   1153,
+   1167,
+   1169,
+   1170,
+   1174,
+   1191,
+   1235,
+   1241
+  ],
+  "T00001_rule_sensitivity": {
+   "claim>=2023-12-01,eff>=2023-07-01": {
+    "pred_true": "26/36",
+    "pred_false": "3/73"
+   },
+   "claim>=2023-12-01,eff>=2023-07-15": {
+    "pred_true": "26/35",
+    "pred_false": "3/74"
+   },
+   "claim>=2024-01-01,eff>=2023-07-01": {
+    "pred_true": "26/34",
+    "pred_false": "3/75"
+   },
+   "claim>=2024-01-01,eff>=2023-07-15": {
+    "pred_true": "26/34",
+    "pred_false": "3/75"
+   },
+   "claim>=2024-04-24,eff>=2023-07-01": {
+    "pred_true": "26/33",
+    "pred_false": "3/76"
+   },
+   "claim>=2024-04-24,eff>=2023-07-15": {
+    "pred_true": "26/33",
+    "pred_false": "3/76"
+   }
+  },
+  "summary": "Rent cap is a PURE-network (Treaty T00001) rule for policies whose current lease term began on/after ~2023-07 (July 2023 rate-table guidelines), enforced on claims from Dec 2023 and consistently from ~Apr 2024. Elsewhere it is sporadic (T00002 ~10% of binding cases, always with an explicit PM Explanation note) and never for flat-benefit programs (Perry Reid/RentWerx 1500, Johnson 2500) or Excalibur after 2023."
+ },
+ "status_semantics": {
+  "Posted": "paid; Posted Date always set; median 6 days after Claim Date. 1 Posted has blank amount (tn 888), 2 Posted are 0 (tn 558, 945 - eligible ~0)",
+  "Approved": "9 claims, all claim dates 2025-03-26..2025-04-04: approved (Approval Date set) but not yet posted -> treat same as Posted for payout",
+  "Approved Revised": "1 claim tn 1233 (PURE, rent 1700, max 3500, appr 3500) - revised amount; treat as paid",
+  "Declined": {
+   "n": 124,
+   "appr_zero": 94,
+   "appr_nan": 24,
+   "appr_nonzero": [
+    440,
+    568,
+    803,
+    829,
+    1092,
+    1168
+   ],
+   "appr_text": 1,
+   "maxb_nan": 30,
+   "note": "ground truth for Declined = 0 regardless of the cell; nonzero cells are leftover amounts (tn 440 prior-carrier, 568, 803, 829, 1092, 1168). Missing Max Benefit is a strong decline signal (30/46 NaN-maxb rows are Declined: not our policy / duplicate / no SD policy). NaN approved concentrated 2024Q2-Q3."
+  },
+  "Declined_rate_by_year": {
+   "2022": 0.0,
+   "2023": 0.104,
+   "2024": 0.105,
+   "2025": 0.091
+  },
+  "non_final": {
+   "Test Claim": [
+    246,
+    247,
+    861,
+    862
+   ],
+   "Pending Docs from PM": [
+    1197,
+    1243
+   ],
+   "In Process": [
+    1242,
+    1245
+   ],
+   "HOLD": [
+    1192
+   ],
+   "New": [
+    1246
+   ]
+  }
+ },
+ "other_structure": {
+  "paid_appr_gt_max": [
+   44,
+   94,
+   540
+  ],
+  "below_max_share_multiple_of_500": 0.105,
+  "below_max_share_integer": 0.663,
+  "below_max_equal_one_month_rent": [
+   61,
+   361,
+   404,
+   687,
+   726,
+   752,
+   753,
+   808,
+   885,
+   979,
+   1000,
+   1014,
+   1175,
+   1187,
+   1213
+  ],
+  "below_max_appr_over_max_quartiles": [
+   0.207,
+   0.478,
+   0.714
+  ],
+  "eviction_pays_max": "Eviction claims pay exactly Max Benefit 89% (2023 98%, 2024 87%, 2025 73% - drop is the rent cap); Move-Out 41%",
+  "2022": "2022 claims (34): 94% exactly Max Benefit; rent not recorded",
+  "collected_full_amount": "Tenant Collection Status=Collected Full Amount paid claims hit max only 18% (small claims)"
+ },
+ "baseline_predictors_on_paid": {
+  "pay_max": {
+   "exact": 0.545,
+   "overpredict": 0.452,
+   "MAE": 612.0
+  },
+  "pay_min(max,cap)_T00001_rule": {
+   "exact": 0.563,
+   "overpredict": 0.425,
+   "MAE": 563.6
+  }
+ },
+ "comments_sheet": {
+  "n_comments": 4405,
+  "authors_top": {
+   "Dmitriy Finkler": 3726,
+   "james keys": 552,
+   "Kelly Carroll": 65,
+   "Gabe Galaviz": 39,
+   "Gabriel Galaviz": 4
+  },
+  "row_refs": "\"Row N\" does not map to current row order (tested asc/desc offsets) -> join by content only",
+  "exceed_comments_by_quarter": {
+   "2023Q1": 1,
+   "2023Q2": 19,
+   "2023Q3": 39,
+   "2023Q4": 6,
+   "2024Q1": 29,
+   "2024Q2": 6,
+   "2024Q3": 13,
+   "2024Q4": 8,
+   "2025Q1": 13,
+   "2025Q2": 2
+  },
+  "note": "adjuster flagged \"benefit should not have exceeded X\" from 2023Q2 (58 flags in 2023Q2-Q3) but sheet shows Max paid then -> flags were overridden before Dec 2023; e.g. tn 581 (Excalibur, flagged 2000, paid 3500), tn 406 (flagged 2000, paid 3000), tn 1150/1081 (PURE, flagged 2000, paid 2500). One comment: adjuster asks Doug whether to pay the proper cap or the itemized 1836 -> management override exists."
+ }
+}

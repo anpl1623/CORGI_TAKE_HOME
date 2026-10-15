@@ -1,0 +1,474 @@
+{
+ "tracking": 906,
+ "winning_document": "Cole 0318 Move Out Statement.pdf (dated 10/04/2024). Matches Move Out Letter (10/04/2024, 7,192.00) and SDI (total 7,192.00). Cole Ledger.docx used to split the 'Balance as of 9/01/2024' 1,774.00 into components.",
+ "documents": [
+  {
+   "file": "Cole 0318 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/04/2024; winning doc; total 7,192.00"
+  },
+  {
+   "file": "Cole 0318 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "10/04/2024; balance due 7,192.00"
+  },
+  {
+   "file": "Cole 0318 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Current ledger 'july, august, september rent' 3,142 + maintenance 4,050 = 7,192"
+  },
+  {
+   "file": "Cole Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/28/2024; open-balance split and first-month history"
+  },
+  {
+   "file": "Cole 0318 Addendum.jpg",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "KS addendum: Security Deposit Waiver YES $33/mo (one month's rent waived); Renters insurance YES $19/mo; signed 8.29.23"
+  },
+  {
+   "file": "Cole 0318 Lease.PDF",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "10pp no text layer; not opened (holdover clause not read)"
+  },
+  {
+   "file": "EMP DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "ignored"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1200,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-09-01",
+  "current_term_end": "2024-08-31",
+  "lease_start": "2023-09-01",
+  "lease_end": "2024-08-31",
+  "initial_term_months": 12,
+  "is_month_to_month": null,
+  "is_renewal": false,
+  "lease_break_terms": "Lease not read. Holdover 09/01-09/30/2024 charged flat 1,200 rent with no holdover premium.",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Pet rent",
+    "amount": 50
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 35
+   },
+   {
+    "name": "Renters insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 30,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 7192,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": true,
+  "last_payment_date": "2024-07-17"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent 07/2024 - open remainder (1,200 less 500 on 07/05 and 500 on 07/17, applied oldest-first)",
+   "category": "rent_in_term",
+   "amount_charged": 1200,
+   "amount_open": 200,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.8
+  },
+  {
+   "description": "Renters Insurance 07/2024 - open",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.8
+  },
+  {
+   "description": "Pet Fee Income 07/2024 - open",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.8
+  },
+  {
+   "description": "Security Deposit Protection 07/2024 - open",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.8
+  },
+  {
+   "description": "Utility Revenue 07/2024 - open",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.7
+  },
+  {
+   "description": "Late Charge July 07/06/2024 - open",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx (split of statement balance forward 1,774)",
+   "confidence": 0.8
+  },
+  {
+   "description": "Residential Rent 08/2024",
+   "category": "rent_in_term",
+   "amount_charged": 1200,
+   "amount_open": 1200,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf (within balance forward 1,774)",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters Insurance 08/2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pet Fee Income 08/2024",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection 08/2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue 08/2024",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late Charge August 08/06/2024",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Residential Rent 09/2024 - holdover after 08/31/2024 lease end (flat 1,200 charged; tenant out 09/30)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1200,
+   "amount_open": 1200,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Pet Fee Income 09/2024",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection 09/2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue 09/2024",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late Charge September 09/06/2024",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning Charges 10/04/2024",
+   "category": "cleaning",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting/Drywall Repairs 10/04/2024",
+   "category": "painting",
+   "amount_charged": 850,
+   "amount_open": 850,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance 10/04/2024 (unlabeled flat line; may be a maintenance coordination fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Window Blinds 10/04/2024",
+   "category": "other_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replacement of all Appliances 10/04/2024 (no invoice in folder)",
+   "category": "appliance",
+   "amount_charged": 2000,
+   "amount_open": 2000,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet/Vinyl Replacement 10/04/2024 (no invoice or photo in folder)",
+   "category": "flooring",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cole 0318 Move Out Statement.pdf",
+   "confidence": 0.7
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments 07/05/2024 (500) and 07/17/2024 (500) applied oldest-first to July 2024 rent; already netted in July open rows",
+   "amount": 1000,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "10/04/2024 Carpet/Vinyl Replacement 500.00",
+   "file": "Cole 0318 Move Out Statement.pdf"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 7192,
+ "reconciliation": "Sum(open lines) = 1,774.00 balance forward (Jul 387 + Aug 1,387, split from ledger) + Sep 1,368.00 + Oct 4 damages 4,050.00 = 7,192.00. Credits: 1,000 July tenant payments already netted in July open rows, so no further subtraction. Equals PM statement 7,192.00.",
+ "notes": "Sheet PM is Perry Reid Properties; statement and letter are issued by The Ridge of Emporia (operator). Sep 2024 is a holdover month; PM charged flat 1,200 rent. First payment (08/28/2023 ACH) was NSF'd, so first_payment_bounced is true; first full month Sep 2023 was paid in full by 09/01/2023. Maintenance 100 is an unlabeled flat line (low confidence). No carpet invoice or photo in folder.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "abf787c28a9ada6ce"
+ }
+}

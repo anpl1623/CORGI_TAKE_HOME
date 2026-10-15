@@ -1,0 +1,182 @@
+{
+ "tracking": 759,
+ "winning_document": "408 Nemechek Move Out Statement.pdf",
+ "pm_stated_amount_due": 126,
+ "reconciliation": "sum(open lines) 501.00 (repay move-in special) - 375.00 PM prorated July credits (rent 345 + utility 11 + renters ins 7 + SDP 12) = 126.00 vs PM stated 126.00 (statement, SDI, letter): exact match.",
+ "extraction_confidence": 0.9,
+ "notes": "Perry Reid / Colorado Derby Lofts, Wichita KS. Early termination: notice 7/5/2024, moved out 7/19/2024, lease runs to 12/31/2024. Tenant paid the full July 2024 balance of 1,552.00 on 7/19/2024 (rent 940, renters ins 19, SDP 33, utility 30, late fee 30, reletting fee 500), so those charges are paid history and not open. On 7/30/2024 the PM credited 12 post-move-out days of July (rent -345, utility -11, renters ins -7, SDP -12 = -375) and charged back the one-time move-in special 501.00 (12/15/2023 rent concession of 501 for the 16-day first partial month), leaving 126.00 due. No future rent is claimed after move-out and no damage or cleaning charges. Lease (text layer): rent 940, term 12/15/2023-12/31/2024, lease SD line 0.00, reletting charge 500, prorated first month 501. Addendum opened visually: renters insurance YES $19/mo, SD waiver YES $33/mo (waives deposit equal to one month's rent), signed 12/15/2023. Recurring add-ons seen on ledger: renters insurance 19, utility revenue 30. Re-let date not stated.",
+ "documents": [
+  {
+   "file": "408 Nemechek Addendum.PDF",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-12-15",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SD waiver YES $33/mo; renters insurance YES $19/mo"
+  },
+  {
+   "file": "408 Nemechek Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "facts taken from digest text excerpt: rent 940, term 12/15/2023-12/31/2024, SD 0.00, reletting 500"
+  },
+  {
+   "file": "408 Nemechek Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "payment history; July charges paid 7/19"
+  },
+  {
+   "file": "408 Nemechek Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "balance due 126.00"
+  },
+  {
+   "file": "408 Nemechek Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "winning accounting document"
+  },
+  {
+   "file": "408 Nemechek SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "pro-rated credits (375.00) + concession pay back 501.00 = 126.00"
+  },
+  {
+   "file": "WCD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ignored per efficiency rule"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 940,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-12-15",
+  "current_term_end": "2024-12-31",
+  "initial_term_months": 12.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Cl.11 early move-out/reletting: reletting charge $500 (not to exceed highest monthly rent); not a release from future rent liability; K.S.A. 58-25,137 termination fee equals one month's rent in lieu of reletting fee.",
+  "lease_end": "2024-12-31",
+  "lease_start": "2023-12-15",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue (monthly utility charge)",
+    "amount": 30
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 940
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-07-19",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Repay Move-in Special (concession pay back; 12/15/2023 one-time move-in special of 501.00)",
+   "category": "other_fee",
+   "amount_charged": 501,
+   "amount_open": 501,
+   "date_posted": "2024-07-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "408 Nemechek Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  }
+ ],
+ "credits": [
+  {
+   "description": "Residential Rent (07/2024) Credit 12 days (post move-out days 7/20-7/31)",
+   "amount": 345,
+   "type": "rent_refund_relet",
+   "already_netted_in_line_items": false,
+   "source_file": "408 Nemechek Move Out Statement.pdf"
+  },
+  {
+   "description": "Utility Revenue (07/2024) Credit 12 days",
+   "amount": 11,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "408 Nemechek Move Out Statement.pdf"
+  },
+  {
+   "description": "Renters Insurance (07/2024) Credit 12 days",
+   "amount": 7,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "408 Nemechek Move Out Statement.pdf"
+  },
+  {
+   "description": "Security Deposit Protection (07/2024) Credit 12 days",
+   "amount": 12,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "408 Nemechek Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 126,
+  "first_full_month": "2024-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-19"
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "adb32e8063f901701"
+ }
+}

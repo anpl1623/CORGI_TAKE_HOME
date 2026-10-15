@@ -1,0 +1,168 @@
+{
+  "tracking": 122,
+  "documents": [
+    {
+      "file": "Security Deposit disposition letter- Shamblin.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-06-23",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Ledger-5739 Cheshire Cove.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-26",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Residential_Lease_Agreement_-Shamblin.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Security_Deposit_Waiver-Shamblin.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-24",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Security Deposit disposition letter- Shamblin.pdf",
+  "pm_stated_amount_due": 1255.0,
+  "lease": {
+    "base_monthly_rent": 1750.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 95.0
+      },
+      {
+        "name": "RBP no Ins",
+        "amount": 27.0
+      }
+    ],
+    "lease_start": "2022-07-01",
+    "lease_end": "2023-06-30",
+    "current_term_start": "2022-07-01",
+    "current_term_end": "2023-04-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 95.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Tenant paid 2 months termination fee ($3,500), $125 lease prep fee, and $150 early term marketing fee on 2023-03-09 to terminate lease on 2023-04-30"
+  },
+  "move_out": {
+    "move_out_date": "2023-04-27",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-06-26",
+    "balance_due": 1255.0,
+    "first_full_month": "2022-07",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-04-04"
+  },
+  "line_items": [
+    {
+      "description": "Carpet cleaning",
+      "category": "carpet_cleaning",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Security Deposit disposition letter- Shamblin.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "House cleaning",
+      "category": "cleaning",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Security Deposit disposition letter- Shamblin.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Repair filled holes, clear out kitchen cabinets and drawers, paint ceiling in bedroom, replace smoke detector batteries, paint door frame in garage going to house",
+      "category": "repairs_damage",
+      "amount_open": 750.0,
+      "amount_charged": 750.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Security Deposit disposition letter- Shamblin.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "AHIP Coordination fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 55.0,
+      "amount_charged": 55.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Security Deposit disposition letter- Shamblin.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 1255.00 - 0.00 = 1255.00 vs PM stated 1255.00; matches exactly.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant early-terminated the lease with agreement, paying a 2-month termination fee ($3,500), lease prep fee ($125), and marketing fee ($150) on 2023-03-09, setting end of lease to 2023-04-30. Keys were returned 2023-04-27. The disposition letter and tenant ledger match exactly at $1,255.00 due, consisting of house cleaning ($250), carpet cleaning ($200), repairs/painting ($750), and AHIP coordination fee ($55)."
+}

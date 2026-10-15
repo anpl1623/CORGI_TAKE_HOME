@@ -1,0 +1,108 @@
+{
+ "tracking": 976,
+ "documents": [
+  {
+   "file": "7207 Dark Moon - Itemization - Tammi & Timothy Arnold.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "revised": false,
+   "note": "itemization letter total 2,708.53; winning document"
+  },
+  {
+   "file": "7207 Dark Moon - Ledger 2 - Tammi & Timothy Arnold.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-01",
+   "used_for_amounts": false,
+   "note": "cross-check: balance 2,708.53 after 11/01 NSF; lumps itemization fee at 95"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2400,
+  "cash_deposit_amount": 0,
+  "lease_start": "2023-10-01",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "Preferred Tenant Monthly Fee",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package (opt-out)",
+    "amount": 41
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-10-01",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 1
+ },
+ "ledger": {
+  "as_of_date": "2024-11-01",
+  "balance_due": 2708.53,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-27"
+ },
+ "line_items": [
+  {
+   "description": "Make-ready repairs and maid service",
+   "amount_open": 2528.53,
+   "category": "repairs_damage",
+   "date_posted": "2024-10-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7207 Dark Moon - Itemization - Tammi & Timothy Arnold.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Move-out itemization fee",
+   "amount_open": 45,
+   "category": "admin_itemization_fee",
+   "date_posted": "2024-10-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "7207 Dark Moon - Itemization - Tammi & Timothy Arnold.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance handling fee",
+   "amount_open": 50,
+   "category": "maintenance_coordination_fee",
+   "date_posted": "2024-10-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "7207 Dark Moon - Itemization - Tammi & Timothy Arnold.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "NSF fee on returned payment",
+   "amount_open": 85,
+   "category": "nsf_fee",
+   "date_posted": "2024-11-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "7207 Dark Moon - Itemization - Tammi & Timothy Arnold.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 2708.53,
+ "reconciliation": "Sum of 4 open lines = 2,708.53 equals letter total and PM stated 2,708.53; no credits. The 10/28 PTP pull of 2,400 was reversed 11/01 (net zero).",
+ "notes": "Winning doc is the 28 Oct 2024 itemization letter. Ledger 2 lumps 'Itemization Fee 95', which the letter splits as 45 itemization plus 50 maintenance handling. Make-ready 2,528.53 has no per-item amounts, so it is one line with confidence 0.6. PM billed no October rent; sheet move-out 10/01 is one day past the 9/30 lease end. Photo report and leases not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

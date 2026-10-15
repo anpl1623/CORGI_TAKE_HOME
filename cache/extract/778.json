@@ -1,0 +1,289 @@
+{
+ "tracking": 778,
+ "winning_document": "2235-310 Stueland Move Out Statement.pdf",
+ "pm_stated_amount_due": 1547,
+ "documents": [
+  {
+   "file": "2235-310 Stueland Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc: June 2024 open charges plus turnover charges, balance 1,547.00."
+  },
+  {
+   "file": "2235-310 Stueland SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Perry Reid SDI: ledger balance 1,082 + maintenance/cleaning 465 = 1,547; used to label the turnover lines (carpet 90, cleaning 125, paint 150, laundry door 100)."
+  },
+  {
+   "file": "2235-310 Stueland Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover letter states balance due 1,547.00; consistent with statement."
+  },
+  {
+   "file": "2235-310 Stueland Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Used to confirm open items (June 2024 charges unpaid, turnover charges 7/9/2024) and payment history; ends at 1,547.00."
+  },
+  {
+   "file": "2235-310 Stueland Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-28",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "No text layer; opened. Renters insurance YES 19/mo; Security Deposit Waiver YES 33/mo waiving 1,200 deposit; signed 6/28/23."
+  },
+  {
+   "file": "2235-310 Stueland Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Base rent 895.00; prorated first period 60.00; digest excerpt plus sheet/ledger facts sufficient for term."
+  },
+  {
+   "file": "WEB2 DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened; direct deposit authorization template, ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 895,
+  "lease_start": "2023-06-29",
+  "lease_end": "2024-06-30",
+  "current_term_start": "2023-06-29",
+  "current_term_end": "2024-06-30",
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "initial_term_months": 12,
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 35
+   },
+   {
+    "name": "Security Deposit Protection (deposit waiver fee)",
+    "amount": 33
+   }
+  ],
+  "lease_break_terms": "Iowa lease: tenant who vacates during term owes rent until lease expires or unit is re-rented; mitigation-of-damages clause. Not triggered (end-of-term move-out)."
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 1547,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-04"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (06/2024)",
+   "category": "rent_in_term",
+   "amount_charged": 895,
+   "amount_open": 895,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Renters Insurance (06/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Security Deposit Protection (06/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Utility Revenue (06/2024)",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Charge June Late Fee",
+   "category": "late_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Missing Laundry Door",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Painting/Drywall Repairs (patching repairs, painting)",
+   "category": "painting",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning Charges (excessive cleaning)",
+   "category": "cleaning",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Non-Refundable Fee Per Lease (SDI: Carpet/Floor Cleaning per lease)",
+   "category": "carpet_cleaning",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-310 Stueland SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "2235-310 Stueland Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "You waive payment of the security deposit of $1,200 in lieu of the indicated monthly payment. ($33 per month, YES checked)"
+  },
+  {
+   "file": "2235-310 Stueland Move Out Letter.pdf",
+   "flag": "pm_stated_amount_due",
+   "quote": "shows your balance due of $1,547.00"
+  }
+ ],
+ "reconciliation": "Open lines 895+19+33+35+100 (June 2024) +100+150+125+90 (turnover) = 1,547.00; credits 0 (deposit waived, no payments after 5/4/2024); matches PM stated 1,547.00 exactly.",
+ "extraction_confidence": 0.96,
+ "notes": "Deposit waiver (no cash deposit). End-of-term move-out 6/30/2024 = lease end. Open June 2024 rent/fees were never paid (last payment 5/4/2024). The 90.00 'Non-Refundable Fee Per Lease' is labeled carpet/floor cleaning per lease on the SDI. First month's rent offset by one-month concession (rent 895 charged, 895 concession), all prepaid by 6/28/2023 payment of 1,854.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a56a10499bfb3a86d"
+ }
+}

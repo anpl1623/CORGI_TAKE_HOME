@@ -1,0 +1,169 @@
+{
+  "tracking": 108,
+  "documents": [
+    {
+      "file": "2032 Rebecca Lane - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-01-13",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2032 Rebecca Lane - Ledger total due.JPG",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-06",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2032 Rebecca Lane - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-06",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "2032 Rebecca Lane - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-06-06",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2032 Rebecca Lane - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-01-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2032 Rebecca Lane - Tenant contact.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "2032 Rebecca Lane - Ledger.pdf",
+  "pm_stated_amount_due": 4308.39,
+  "lease": {
+    "base_monthly_rent": 1590.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Insurance",
+        "amount": 27.0
+      }
+    ],
+    "lease_start": "2023-01-13",
+    "lease_end": "2024-02-29",
+    "current_term_start": "2023-01-13",
+    "current_term_end": "2024-02-29",
+    "initial_term_months": 13,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1000.0,
+    "monthly_sd_premium": 27.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Early Termination per Paragraph 19 requires separate agreement"
+  },
+  "move_out": {
+    "move_out_date": "2023-02-10",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": "2023-05-23"
+  },
+  "ledger": {
+    "as_of_date": "2023-06-06",
+    "balance_due": 4308.39,
+    "first_full_month": "2023-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-02-04"
+  },
+  "line_items": [
+    {
+      "description": "Rent after move-out (March 2023)",
+      "category": "rent_after_move_out",
+      "amount_open": 1590.0,
+      "amount_charged": 1590.0,
+      "date_posted": "2023-06-06",
+      "service_period_start": "2023-03-01",
+      "service_period_end": "2023-03-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2032 Rebecca Lane - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Rent after move-out (April 2023)",
+      "category": "rent_after_move_out",
+      "amount_open": 1590.0,
+      "amount_charged": 1590.0,
+      "date_posted": "2023-06-06",
+      "service_period_start": "2023-04-01",
+      "service_period_end": "2023-04-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2032 Rebecca Lane - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Rent after move-out (May 1 - May 22, 2023 prorated to re-let date 2023-05-23)",
+      "category": "rent_after_move_out",
+      "amount_open": 1128.39,
+      "amount_charged": 1128.39,
+      "date_posted": "2023-06-06",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-22",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2032 Rebecca Lane - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Prepaid rent reservation fee credited to February 2023 rent",
+      "amount": 1590.0,
+      "type": "prepaid_credit_balance",
+      "already_netted_in_line_items": true,
+      "source_file": "2032 Rebecca Lane - Ledger.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 4308.39 - 0 = 4308.39 vs PM stated 4308.39; exact match (credits were already netted against February 2023 rent)",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Winning accounting document is 2032 Rebecca Lane - Ledger.pdf. Tenant moved out early on 2023-02-10. February rent was paid via tenant's $1,590 prepayment. Re-let occurred 2023-05-23. PM noted 'New collections total $4308.39 - all for rent', consisting of March rent ($1,590.00), April rent ($1,590.00), and May 1-22 rent ($1,128.39 = 22/31 * 1590)."
+}

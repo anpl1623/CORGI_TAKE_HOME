@@ -1,0 +1,326 @@
+{
+ "tracking": 751,
+ "winning_document": "B088 Morrow Move Out Statement.pdf",
+ "pm_stated_amount_due": 2820,
+ "reconciliation": "sum(open lines) June 575.00 (oldest-first split of the 575.00 balance forward) + July 1,055.00 + August future rent 940.00 + reletting fee 250.00 = 2,820.00 - 0.00 credits = 2,820.00 vs PM stated 2,820.00 (statement, SDI, letter): exact match.",
+ "extraction_confidence": 0.78,
+ "notes": "Perry Reid / The Lodge Apartments, Lincoln NE; three co-tenants (Morrow, Jody and Shelley Buchanan). Early termination: notice and move-out 7/10/2024, lease to 12/31/2024. PM move-out statement 7/19/2024 shows a 575.00 balance forward as of 7/1/2024 plus July charges (rent 940, renters ins 17, SDP 33, utility 35, late 30), then 'Future Months Rent' 940 (SDI: rent for August) and reletting fee 250 (lease Cl.11 reletting charge 250) = 2,820.00; SDI shows current ledger balance 1,630.00 + 250 + 940. The ledger has no explicit payment allocation, so the 575.00 balance forward was split by allocating all tenant payments oldest-charge-first across all charges (rent and fees): remaining open is June late fee 30, June utility 35, June SDP 33, June renters ins 17 and 460.00 of June rent (940 charged); older months (including the April NSF fee 20 and April/May late fees) are paid history. This split is an allocation estimate, so June lines carry lower confidence. CAUTION: the ledger descriptions for the 6/1/2024 rent, renters insurance, SDP and utility rows carry the annotation 'Write Off by Charge Ctrl# 3491623-3491626' but no write-off rows appear on the ledger and the running balance and the 7/19 statement/letter still include those charges, so the PM claim is taken as stated (2,820.00); this annotation is unresolved. July 2024 rent 940 is the PM's full-month charge for 7/1-7/31 and straddles the 7/10 move-out date (one line, categorized rent_in_term with its full period). August 'Future Months Rent' is after move-out within the lease term. Addendum opened visually: renters insurance YES $17/mo, SD waiver YES $33/mo (waives deposit equal to one month's rent = 940), signed 1/16/2024; lease SD line 0.00. Lease page 1: late fee flat 30 after the 5th, returned check 20. No pet, damage or cleaning charges.",
+ "documents": [
+  {
+   "file": "B088 Morrow Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-01-16",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SD waiver YES $33/mo; renters insurance YES $17/mo"
+  },
+  {
+   "file": "B088 Morrow Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-02-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "pages 1-2 opened: rent 940, term 1/17/2024-12/31/2024, SD 0.00, reletting charge 250"
+  },
+  {
+   "file": "B088 Morrow Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "used to split the 575.00 balance forward, payment history; write-off annotation on 6/1/2024 rows"
+  },
+  {
+   "file": "B088 Morrow Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "balance due 2,820.00"
+  },
+  {
+   "file": "B088 Morrow Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "winning accounting document"
+  },
+  {
+   "file": "B088 Morrow SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "current ledger balance 1,630 + reletting 250 + August rent 940"
+  },
+  {
+   "file": "LOD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ignored per efficiency rule"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 940,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2024-01-17",
+  "current_term_end": "2024-12-31",
+  "initial_term_months": 11.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Cl.11 early move-out: reletting charge $250 (not to exceed highest monthly rent) if move out without paying rent in full for the entire term; not a cancellation fee; continued liability for future rent, cleaning, repairs.",
+  "lease_end": "2024-12-31",
+  "lease_start": "2024-01-17",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance",
+    "amount": 17
+   },
+   {
+    "name": "Utility Revenue (monthly utility charge)",
+    "amount": 35
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 940
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-07-10",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (06/2024): open remainder of 940.00 after oldest-first payment allocation",
+   "category": "rent_in_term",
+   "amount_charged": 940,
+   "amount_open": 460,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Ledger.docx",
+   "confidence": 0.6
+  },
+  {
+   "description": "Renters Insurance (06/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 17,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Ledger.docx",
+   "confidence": 0.6
+  },
+  {
+   "description": "Security Deposit Protection (06/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Ledger.docx",
+   "confidence": 0.6
+  },
+  {
+   "description": "Utility Revenue (06/2024)",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Ledger.docx",
+   "confidence": 0.6
+  },
+  {
+   "description": "Late Charge (6/6/2024)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "Residential Rent (07/2024), full month as charged; move-out 7/10/2024 falls inside the period",
+   "category": "rent_in_term",
+   "amount_charged": 940,
+   "amount_open": 940,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Renters Insurance (07/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 17,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Security Deposit Protection (07/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility Revenue (07/2024)",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Late Charge (7/6/2024)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Future Months Rent (SDI: Rent for August)",
+   "category": "rent_after_move_out",
+   "amount_charged": 940,
+   "amount_open": 940,
+   "date_posted": "2024-07-19",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-07-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "B088 Morrow Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 2820,
+  "first_full_month": "2024-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-03"
+ },
+ "evidence": [
+  {
+   "file": "B088 Morrow Ledger.docx",
+   "flag": "write_off_annotation_unresolved",
+   "quote": "Residential Rent (06/2024) :Write Off by Charge Ctrl# 3491623"
+  }
+ ],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "adb32e8063f901701"
+ }
+}

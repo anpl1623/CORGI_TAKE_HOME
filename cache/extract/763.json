@@ -1,0 +1,211 @@
+{
+ "tracking": 763,
+ "documents": [
+  {
+   "file": "09L Pierce Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 4,774.00"
+  },
+  {
+   "file": "09L Pierce Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": true,
+   "note": "Total 4,774.00; source of line items"
+  },
+  {
+   "file": "09L Pierce SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Total 4,774.00; category split matches statement"
+  },
+  {
+   "file": "09L Pierce Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Confirms July postings; balance 0.00 at 07/01"
+  }
+ ],
+ "evidence": [
+  {
+   "file": "09L Pierce Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet/Vinyl Replacement - pet damage, new at MI"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 895,
+  "lease_start": "2023-09-28",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 4774,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-01"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-18",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent July 2024",
+   "category": "rent_in_term",
+   "amount_open": 895,
+   "amount_charged": 895,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection July 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pet fee July 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "date_posted": "2024-07-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility revenue July 2024",
+   "category": "utilities",
+   "amount_open": 26,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee July 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Unit transfer fee (reletting)",
+   "category": "reletting_fee",
+   "amount_open": 250,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce SDI.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent August 2024 (future month)",
+   "category": "rent_after_move_out",
+   "amount_open": 895,
+   "amount_charged": 895,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet/vinyl replacement, pet damage",
+   "category": "pet_damage_odor",
+   "amount_open": 2000,
+   "date_posted": "2024-07-29",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Stove drip pans (set of 4)",
+   "category": "appliance",
+   "amount_open": 11,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash loads (2)",
+   "category": "trash_removal",
+   "amount_open": 20,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Paint and drywall repair",
+   "category": "painting",
+   "amount_open": 300,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning (very bad)",
+   "category": "cleaning",
+   "amount_open": 250,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "09L Pierce Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "pm_stated_amount_due": 4774,
+ "reconciliation": "Open items 1048 (July) + 250 + 895 + 2000 + 581 = 4774; credits 0; letter, statement and SDI all state 4774.00; difference 0.",
+ "notes": "Move-out 07/18/2024 (sheet, statement, SDI). Full July rent charged although tenant left 07/18. Ledger note 'Write Off by Charge Ctrl# 3492798' on the 2000 carpet line has no matching reversal row, so it is counted as open, consistent with all PM documents. Ledger 'Unit Transfer Fees' is 'Reletting Fee per lease' on the SDI. No invoice or photos in folder for the 2000 flooring. Balance as of 07/01 was 0.00.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

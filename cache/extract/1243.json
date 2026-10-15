@@ -1,0 +1,258 @@
+{
+ "tracking": 1243,
+ "winning_document": "original (3).pdf (04/04/2025 security deposit statement, scanned)",
+ "documents": [
+  {
+   "file": "original (3).pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning statement, total 5,728.36, ties to ledger"
+  },
+  {
+   "file": "tenant_ledger-savannah_j_little_dalton_s_little-20250404.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Period detail, payment allocation, forfeit lines"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1475,
+  "sd_program": "unknown",
+  "lease_start": "2024-03-21",
+  "lease_end": "2025-03-23"
+ },
+ "move_out": {
+  "move_out_date": "2025-03-23",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Jan 2025 rent, open remainder",
+   "category": "rent_in_term",
+   "amount_open": 931.78,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-01-31",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Feb 2025 rent",
+   "category": "rent_in_term",
+   "amount_open": 1475,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-02-01",
+   "service_period_end": "2025-02-28",
+   "confidence": 0.95,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Mar 2025 rent, prorated 3/1 to 3/23",
+   "category": "rent_in_term",
+   "amount_open": 1094.35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-23",
+   "confidence": 0.95,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "RBP w/insurance, Jan-Mar 2025",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 106.94,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-03-23",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "SDWP/SDRP fee, Jan-Mar 2025",
+   "category": "sdrp_premium",
+   "amount_open": 104.19,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-03-23",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Late fees Jan-Mar 2025 incl. per-day",
+   "category": "late_fee",
+   "amount_open": 575,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-03-23",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "3-day notice posting fees, Jan-Mar",
+   "category": "eviction_legal_court",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-01-01",
+   "service_period_end": "2025-03-23",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Water utility chargebacks, Nov 2024-Feb 2025",
+   "category": "utilities",
+   "amount_open": 56.1,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-15",
+   "service_period_end": "2025-02-17",
+   "confidence": 0.9,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Remove misc items and trash, garage and yard",
+   "category": "trash_removal",
+   "amount_open": 95,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Move-out cleaning incl. dog hair",
+   "category": "cleaning",
+   "amount_open": 415,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Clean laundry closet doors; sweep garage",
+   "category": "cleaning",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Reassemble fridge shelving",
+   "category": "appliance",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Repair guest bath stopper; laundry bifold doors",
+   "category": "repairs_damage",
+   "amount_open": 135,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Paint hallway, front-left BR, master BR walls",
+   "category": "painting",
+   "amount_open": 540,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "original (3).pdf"
+  },
+  {
+   "description": "Lawn cut and weed eat",
+   "category": "landscaping_lawn",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "original (3).pdf"
+  }
+ ],
+ "credits": [
+  {
+   "description": "Overpayment credit applied to Jan 2025 rent",
+   "amount": 143.22,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "01/13/2025 payment applied to Jan 2025 rent",
+   "amount": 400,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "mixed_pet_nonpet_line": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "evidence": [
+  {
+   "file": "original (3).pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "floors (a lot of dog hair)... sweep dog food from front left bed closet"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2025-04-04",
+  "balance_due": 5728.36,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 5728.36,
+ "reconciliation": "Open lines sum 5,728.36; credits already netted in Jan rent (143.22 + 400.00); PM stated 5,728.36; difference 0.00.",
+ "notes": "Statement 04/04/2025 total ties to ledger. Duplicate file Security deposit disposition_ is byte-identical to original (3).pdf, counted once. Ledger move-out 03/27/2025 vs sheet 03/23/2025: PM charged rent only through 3/23, so no holdover charge; sheet date used. Statement pages 3-4 are USPS label and envelope, not charges. Cleaning line flagged mixed pet/non-pet.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

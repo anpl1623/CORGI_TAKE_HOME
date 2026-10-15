@@ -1,0 +1,124 @@
+{
+ "tracking": 736,
+ "winning_document": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Amount due 1055.12; winning accounting document"
+  },
+  {
+   "file": "tenant_ledger-noah_e_stephens_jaderis_m_victrum-20240823.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open rows match statement; August rent paid 08/05"
+  },
+  {
+   "file": "8155 W. Palo Verde Turn Bid (1).pdf",
+   "doc_type": "vendor_estimate",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Descriptions only; estimate 1066.38 not billed"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "sd_program": "unknown",
+  "lease_start": "2024-04-05",
+  "lease_end": "2025-04-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-08",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Property cleaning (deep clean)",
+   "category": "cleaning",
+   "amount_open": 592.8,
+   "amount_charged": 592.8,
+   "date_posted": "2024-08-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Hauling and trash removal",
+   "category": "trash_removal",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "date_posted": "2024-08-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Drywall repair and painting",
+   "category": "repairs_damage",
+   "amount_open": 275,
+   "amount_charged": 275,
+   "date_posted": "2024-08-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Light bulbs and outlet cover",
+   "category": "repairs_damage",
+   "amount_open": 68.66,
+   "amount_charged": 68.66,
+   "date_posted": "2024-08-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Sales tax on charges",
+   "category": "other_fee",
+   "amount_open": 18.66,
+   "amount_charged": 18.66,
+   "date_posted": "2024-08-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_noah_e_stephens_082224.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "ledger": {
+  "as_of_date": "2024-08-23",
+  "balance_due": 1055.12,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-05"
+ },
+ "pm_stated_amount_due": 1055.12,
+ "reconciliation": "Open lines 1055.12 (592.80+100+275+68.66+18.66) less credits 0 equals PM stated due 1055.12; ledger 08/22 forfeit rows identical; estimate 1066.38 unused.",
+ "notes": "Sales tax 18.66 is a separate statement line. Estimate splits drywall 240 and paint 35 inside the 275 line; not split since the statement shows one line. August rent and fees were charged 08/01, reversed by NSF 08/05, and repaid 08/05 with the 50 NSF fee; no open rent. Move-out 08/08 is before term end 04/30/2025; no lease break fee billed.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0a25bda427e059b7"
+ }
+}

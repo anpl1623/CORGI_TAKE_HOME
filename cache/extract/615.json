@@ -1,0 +1,246 @@
+{
+ "tracking": 615,
+ "winning_document": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 1909,
+ "reconciliation": "sum(open lines) 1030+14+375+150+245+42+38+15 = 1909.00, minus credits 0.00 = 1909.00 vs PM stated 1909.00 (TXR-2216 balance, and RentVine ledger balance as of 6/21/2024); no difference.",
+ "documents": [
+  {
+   "file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-06",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2216 signed 06/06/2024 by StarPointe. Deposit shown as Fee In Lieu. Winning accounting doc."
+  },
+  {
+   "file": "115-A Lost -Itemization Demand Letter -Briggs.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Cover email only, no amounts. Attaches the itemization."
+  },
+  {
+   "file": "115-A Lost Trl - Briggs Ledger RentVine.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Newest-first RentVine ledger. Used to split the lumped 'Unpaid Balance on Tenant Ledger; Trash removal' 340 line and the 1,289 Move Out Repairs line, and for payment history."
+  },
+  {
+   "file": "115-A Lost -PropertyWare ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Older PropertyWare ledger covering Sept-Dec 2023 only. History, superseded by the RentVine ledger."
+  },
+  {
+   "file": "115-A Lost Trl-Briggs Lease Packet.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "64 pages, digest excerpt sufficient. Rent 1275, expiration 9/30/2024, auto-renew MTM, deposit 'Fee In Lieu'."
+  },
+  {
+   "file": "115-A Lost - Fee In Lieu - Briggs.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Fee in lieu of security deposit addendum, $42 monthly."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1275,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 42,
+  "lease_start": "2023-09-20",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2023-09-20",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No fixed buyout in excerpt. On default (para 27) landlord may recover lost rent and reletting costs (leasing and advertising fees).",
+  "recurring_addons": [
+   {
+    "name": "Fee in lieu of security deposit (Sec Dep Replacement)",
+    "amount": 42
+   },
+   {
+    "name": "SecondNature Resident Benefit Package",
+    "amount": 40
+   },
+   {
+    "name": "Asset Protection",
+    "amount": 15
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-05-09",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear: spot painted, installed livingroom doorstop, replaced four stove drip pans, removed tv mount from primary bedroom, replaced doorstops in primary bedroom, replaced window screen and doorstop at front bedroom (one lump, no split given)",
+   "category": "repairs_damage",
+   "amount_charged": 1030,
+   "amount_open": 1030,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Missing or burned-out light bulbs (garage, kitchen)",
+   "category": "repairs_damage",
+   "amount_charged": 14,
+   "amount_open": 14,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.8
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_charged": 375,
+   "amount_open": 375,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Temporary electric and water turned on for move-out evaluation, cleaning and repairs",
+   "category": "utilities",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash removal (derived: ledger Move Out Repairs 1,289 less damages 1,030 less bulbs 14 = 245; itemization line 19 is 340 = 95 unpaid ledger balance + 245 trash removal)",
+   "category": "trash_removal",
+   "amount_charged": 245,
+   "amount_open": 245,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost-Briggs-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "Unpaid May 2024 Sec Dep Replacement (fee in lieu) charge, part of the 95.00 'Unpaid Balance on Tenant Ledger'",
+   "category": "sdrp_premium",
+   "amount_charged": 42,
+   "amount_open": 42,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost Trl - Briggs Ledger RentVine.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Unpaid remainder (38 of 40) May 2024 SecondNature Resident Benefit Package, part of the 95.00 unpaid ledger balance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 40,
+   "amount_open": 38,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost Trl - Briggs Ledger RentVine.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Unpaid May 2024 Asset Protection charge, part of the 95.00 unpaid ledger balance",
+   "category": "other_fee",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "115-A Lost Trl - Briggs Ledger RentVine.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-06-21",
+  "balance_due": 1909,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-03"
+ },
+ "notes": "Early termination: move-out 5/9/2024, lease ran to 9/30/2024, but the PM billed no future rent, reletting fee or lease-break fee. Repairs 1,289 on the ledger is damages 1,030 + bulbs 14 + trash removal 245. The 95.00 'unpaid balance' is the 5/3/2024 payments (1,367) applied oldest-first against 90 (Asset Protect Nov-Apr catch-up, posted 4/22) + May rent 1,275 + 2 toward the SecondNature charge. That leaves SecondNature 38, fee in lieu 42 and Asset Protection 15. The split of the 95 is an inference; the 95 total is exact. Lease commencement in the packet is 9/14/2023 but move-in and ledger start are 9/20/2023; prorated Sept rent was 468. Tenant gave no forwarding address.",
+ "extraction_confidence": 0.88,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ade0feeee50958b09"
+ }
+}

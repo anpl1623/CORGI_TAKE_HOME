@@ -1,0 +1,165 @@
+{
+ "tracking": 685,
+ "winning_document": "2121 NW 157th St - Smiley Security Disposition Letter.pdf (dated 2024-07-17, total 4,001.72)",
+ "documents": [
+  {
+   "file": "2121 NW 157th St - Smiley Security Disposition Letter.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-17",
+   "used_for_amounts": true,
+   "note": "Winning: PM deposit disposition letter, total due 4,001.72"
+  },
+  {
+   "file": "2121 NW 157th St - Smiley Security Disposition worksheet.pdf",
+   "doc_type": "other",
+   "doc_date": "2024-07-17",
+   "used_for_amounts": true,
+   "note": "Internal worksheet; splits letter charges into categories; same total"
+  },
+  {
+   "file": "2121 NW 157th St - Smiley Tenant Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-17",
+   "used_for_amounts": true,
+   "note": "Only open row is 06/30 early termination fee 3,025.81; June rent paid"
+  },
+  {
+   "file": "2121 NW 157th St - Smiley Move out inspection.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": false,
+   "note": "Text layer only; comments document flooring scratches and broken blinds with photos"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1675,
+  "sd_program": "unknown",
+  "lease_start": "2022-08-26",
+  "lease_end": "2024-08-25",
+  "recurring_addons": [
+   {
+    "name": "RBP with Insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP fee",
+    "amount": 28
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-07-17",
+  "balance_due": 3025.81,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Early termination (lease break) fee",
+   "category": "lease_break_fee",
+   "amount_open": 3025.81,
+   "amount_charged": 3025.81,
+   "date_posted": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Tenant Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace blinds, bulbs, patch hole, nails",
+   "category": "repairs_damage",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition worksheet.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Trim overgrown bushes, edge yard",
+   "category": "landscaping_lawn",
+   "amount_open": 75,
+   "amount_charged": 75,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition Letter.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Remove attic items and yard trash",
+   "category": "trash_removal",
+   "amount_open": 50,
+   "amount_charged": 50,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition Letter.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace damaged vinyl plank, 2 bedrooms",
+   "category": "flooring",
+   "amount_open": 450.91,
+   "amount_charged": 450.91,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition Letter.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Whole house cleaning",
+   "category": "cleaning",
+   "amount_open": 200,
+   "amount_charged": 200,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition worksheet.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Window cleaning",
+   "category": "cleaning",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "date_posted": "2024-07-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2121 NW 157th St - Smiley Security Disposition worksheet.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 4001.72,
+ "reconciliation": "Open lines 4001.72 (lease break 3025.81 plus 975.91 other charges) minus credits 0.00 = 4001.72, equal to letter total due.",
+ "extraction_confidence": 0.9,
+ "notes": "Letter and worksheet totals agree. Flooring line supported by inspection comments and photos, so not flagged. Deposit held 0.00.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

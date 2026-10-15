@@ -1,0 +1,233 @@
+{
+ "tracking": 818,
+ "winning_document": "Disposition letter_Trent Bourke.pdf",
+ "pm_stated_amount_due": 1496.02,
+ "documents": [
+  {
+   "file": "Disposition letter_Trent Bourke.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-10-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Statement: 9 charge lines, balance due 1,496.02."
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 6335 Trent Bourke.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Template-style demand email for 1,496.02 payable by 9/25/2024; same total as disposition letter. States lease duration 07/15/2023-09/24/2023."
+  },
+  {
+   "file": "Inspections_Move-out_Trent C. Bourke.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-09-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "AppFolio move-out inspection (text layer only read); summary lists charges incl. carpet repair 150 that PM notes is 'covered under warranty' and removed. No pet evidence."
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Trent Bourke_Final Bill (1).pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-09-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Pioneer Energy final utility bill 9/16-9/24/23: previous balance 383.19 + disconnect fee 75.00 + current billing 67.27 = 525.46."
+  },
+  {
+   "file": "tenant_ledger-trent_c_bourke-20240923.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "AppFolio ledger (oldest-first). Deposit 1,000 charged then offset by 'Deposit waiver special'. Total open 1,496.02; no payments after 8/11/2023."
+  },
+  {
+   "file": "trent-c-bourke_07-13-2023-lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Term 7/15/2023-8/14/2023, rent 704.50 + TLL20 19.95 + garbage 20.00 = 744.45; auto-renews on 2-month basis; deposit 1,000 (waived)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 704.5,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1000,
+  "monthly_sd_premium": null,
+  "lease_start": "2023-07-15",
+  "lease_end": "2023-08-14",
+  "current_term_start": null,
+  "current_term_end": null,
+  "initial_term_months": 1,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Tenant liable for rent until lease expires or unit is re-occupied, plus reletting expenses; no fixed lease-break fee. Lease auto-renews on a 2-month basis unless 60-day notice; landlord may reset rent to market plus MTM fee.",
+  "recurring_addons": [
+   {
+    "name": "TLL20 (tenant liability)",
+    "amount": 19.95
+   },
+   {
+    "name": "Garbage and Recycling",
+    "amount": 20
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2023-09-24",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 41,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-23",
+  "balance_due": 1496.02,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-08-11"
+ },
+ "line_items": [
+  {
+   "description": "Rent Income SDW1000 - September 2023 (prorated 9/1-9/24)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 563.6,
+   "amount_open": 563.6,
+   "date_posted": "2023-09-01",
+   "service_period_start": "2023-09-01",
+   "service_period_end": "2023-09-24",
+   "days_after_lease_end": 41,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "TLL20 - September 2023 (prorated)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 15.96,
+   "amount_open": 15.96,
+   "date_posted": "2023-09-01",
+   "service_period_start": "2023-09-01",
+   "service_period_end": "2023-09-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Garbage and Recycling - September 2023 (prorated)",
+   "category": "utilities",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2023-09-01",
+   "service_period_start": "2023-09-01",
+   "service_period_end": "2023-09-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Final utility bill 09/16/23-09/24/23 (Pioneer Energy; includes prior balance 383.19 and disconnect fee 75.00)",
+   "category": "utilities",
+   "amount_charged": 525.46,
+   "amount_open": 525.46,
+   "date_posted": "2023-10-11",
+   "service_period_start": "2023-09-16",
+   "service_period_end": "2023-09-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "UT_RPT_Invoice_Template81_Trent Bourke_Final Bill (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash removal",
+   "category": "trash_removal",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Removal of TV surround sound system",
+   "category": "trash_removal",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "6 oversized screw holes patched",
+   "category": "repairs_damage",
+   "amount_charged": 120,
+   "amount_open": 120,
+   "date_posted": "2023-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Light bulbs (3)",
+   "category": "repairs_damage",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2023-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rescreen sliding door screen",
+   "category": "repairs_damage",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2023-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Disposition letter_Trent Bourke.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "short_term_lease": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "evidence": [
+  {
+   "file": "trent-c-bourke_07-13-2023-lease.pdf",
+   "flag": "short_term_lease",
+   "quote": "original term commencing on, 07/15/2023 and ending 08/14/2023"
+  }
+ ],
+ "extraction_confidence": 0.8,
+ "reconciliation": "Sum of 9 open lines 1,496.02 - credits 0.00 = 1,496.02 = PM stated 1,496.02 (disposition letter 10/12/2023, ledger total, demand letter 9/18/2024).",
+ "notes": "Original 1-month term ended 8/14/2023; tenant stayed and vacated 9/24/2023 (41 days later; ledger and sheet show lease expiration 8/14/2023). Lease auto-renews on a 2-month basis, so September could arguably be a renewal term rather than holdover; I classed Sept rent/fees as after lease end following the ledger expiration date (same 704.50 rate, no MTM premium). August rent paid 8/11/2023. Deposit 1,000 offset by 'Deposit waiver special' (no separate SD premium line; likely embedded in rent code SDW1000). Final utility line contains only 67.27 of current-period charges; 458.19 is prior balance plus disconnect fee. Carpet repair 150 on inspection was removed (warranty) and not billed. Demand letter is template-like but total matches ledger; not a test claim.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a455ac7bb5bc1bc9a"
+ }
+}

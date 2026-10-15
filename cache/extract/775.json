@@ -1,0 +1,80 @@
+{
+ "tracking": 775,
+ "winning_document": "104-102 Harouff Move Out Letter.pdf",
+ "documents": [
+  {
+   "file": "104-102 Harouff Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-05",
+   "used_for_amounts": true,
+   "note": "Open balance 100.00 carpet cleaning"
+  },
+  {
+   "file": "104-102 Harouff Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-05",
+   "used_for_amounts": true,
+   "note": "Letter states 100.00 due, agrees with statement"
+  },
+  {
+   "file": "104-102 Harouff SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Carpet cleaning 100 per lease; agrees"
+  },
+  {
+   "file": "104-102 Harouff Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-26",
+   "used_for_amounts": true,
+   "note": "Final balance 100.00; June rent paid 06/04"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 870,
+  "cash_deposit_amount": null,
+  "current_term_start": "2023-07-18",
+  "current_term_end": "2024-06-30",
+  "lease_start": "2023-07-18",
+  "lease_end": "2024-06-30",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-26",
+  "balance_due": 100
+ },
+ "line_items": [
+  {
+   "description": "Carpet cleaning per lease",
+   "category": "carpet_cleaning",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "date_posted": "2024-07-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "104-102 Harouff Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 100,
+ "reconciliation": "Open items 100.00 minus credits 0.00 equals PM stated 100.00; statement, letter and SDI agree.",
+ "extraction_confidence": 0.93,
+ "notes": "Sheet lease start 07/18/2023; ledger shows 07/19/2023. Lease and addendum not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "abee3907adc8bc51d"
+ }
+}

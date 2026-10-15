@@ -1,0 +1,213 @@
+{
+ "tracking": 779,
+ "extraction_confidence": 0.9,
+ "winning_document": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+ "pm_stated_amount_due": 4820.57,
+ "reconciliation": "Open lines sum 4820.57 equal the statement and ledger totals; no credits; match.",
+ "notes": "Statement and ledger tie at 4820.57. July rent is prorated through the 07/09 key return with the lease ended 07/06, so it is kept as one PM-prorated line with 3 holdover days (07/07-07/09). Sheet lease dates used. Lease excerpts visible in digest not used for fields. 2023 ledger not used.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-15",
+   "used_for_amounts": true,
+   "note": "Winning PM statement, 4820.57 due",
+   "opened_visually": false
+  },
+  {
+   "file": "tenant_ledger-cameron_t_merchant_andre_gray-20240828.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-28",
+   "used_for_amounts": true,
+   "note": "Ties to statement; splits fees and rent",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "lease_start": "2023-07-07",
+  "lease_end": "2024-07-06",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-28",
+  "balance_due": 4820.57,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-04-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-09",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 3
+ },
+ "line_items": [
+  {
+   "description": "Late fee Apr 2024 (open part)",
+   "category": "late_fee",
+   "amount_open": 74.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Rent May 2024",
+   "category": "rent_in_term",
+   "amount_open": 1650,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP with insurance May 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP premium May 2024",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee May 2024",
+   "category": "late_fee",
+   "amount_open": 165,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Jun 2024",
+   "category": "rent_in_term",
+   "amount_open": 1650,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP with insurance Jun 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP premium Jun 2024",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee Jun 2024",
+   "category": "late_fee",
+   "amount_open": 165,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Jul 1-9 prorated (key returned)",
+   "category": "rent_in_term",
+   "amount_open": 479.07,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "RBP with insurance Jul 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP premium Jul 2024",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee Jul 2024",
+   "category": "late_fee",
+   "amount_open": 165,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rekey, one key not returned",
+   "category": "rekey_locks",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cameron_t_merchant_081524 (1).pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

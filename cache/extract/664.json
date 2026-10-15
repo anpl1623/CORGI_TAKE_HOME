@@ -1,0 +1,227 @@
+{
+ "tracking": 664,
+ "winning_document": "SDRP Move Out Calculation .pdf",
+ "pm_stated_amount_due": 1515,
+ "documents": [
+  {
+   "file": "SDRP Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-11",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Winning doc. Total Balance Due 1,515.00; the detail table is blank."
+  },
+  {
+   "file": "wishing well ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-11",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Propertyware ledger, newest first. Open 'Unpaid Charge' rows plus the open remainder of May rent total 1,515.00. Page 1 viewed; the rest is history back to 4/2022."
+  },
+  {
+   "file": "2013 Wishing Well SDRP.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Handwritten SDRP Move-Out Form: move-out 4/30/24, band 4000, HOA fees 125, misc maintenance 1,075, maintenance coordination fee 200, total 1,515. The three listed items sum to 1,400; the other 115 is May rent 100 and late fee 15 from the ledger."
+  },
+  {
+   "file": "wishing well email.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "PM email sending the move-out packet: 'you do not have a traditional security deposit, you have the replacement plan'."
+  },
+  {
+   "file": "wishing well sd addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-03-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver: $35 per month in lieu of the $2,588 deposit."
+  },
+  {
+   "file": "wishing well lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-04-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only: term 4/27/2023 to 4/27/2024, rent 1,775, SD 2,588, holdover at 2x daily rate."
+  },
+  {
+   "file": "C Fletcher ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "MISFILED. This is claim 665's Idaho/JPM ledger (Carolyn Fletcher, 815 14th Ave S, Nampa), unrelated to 2013 Wishing Well. Ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1775,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2588,
+  "monthly_sd_premium": 35,
+  "initial_term_months": 12,
+  "lease_start": "2023-04-27",
+  "lease_end": "2024-04-26",
+  "current_term_start": "2023-04-27",
+  "current_term_end": "2024-04-26",
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "No early-termination fee found in the excerpt. Either party may terminate at end of initial term with 30 days written notice. Holdover is charged at 2x the daily rate. A 200 admin fee applies on deposit deductions.",
+  "recurring_addons": [
+   {
+    "name": "RBP with Ins (resident benefit package)",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 4,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-11",
+  "balance_due": 1515,
+  "first_full_month": "2023-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-05"
+ },
+ "line_items": [
+  {
+   "description": "Rent charge 5/1/24 of 687.10, partially paid (587.10 paid 5/5/24); open remainder. 687.10 equals 6 days at 2x the May daily rate (or 12 days at 1x), so it is read as holdover rent after lease end.",
+   "category": "rent_after_lease_end",
+   "amount_charged": 687.1,
+   "amount_open": 100,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-06",
+   "days_after_lease_end": 10,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.4
+  },
+  {
+   "description": "HOA Coordination Fee (HOA violation processing, lease para: $25 coordination fee)",
+   "category": "hoa_violation",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-05-10",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "HOA Fees: fee to owner (HOA fine passed to tenant)",
+   "category": "hoa_violation",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-05-10",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee calculated by system 5/11/24 (15% of the 100.00 unpaid rent)",
+   "category": "late_fee",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-05-11",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out Repair ticket T1T0NCP, shown on the SDRP form as 'Misc. Maintenance'. No vendor invoice or estimate in the folder, so the work is unspecified.",
+   "category": "repairs_damage",
+   "amount_charged": 1075,
+   "amount_open": 1075,
+   "date_posted": "2024-05-30",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Maintenance Coordination fee (flat; SDRP form notes 'Section 8 Lease')",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-06-26",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "wishing well ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "C Fletcher ledger.pdf",
+   "flag": "misfiled_other_claim_document",
+   "quote": "Carolyn Fletcher, Charles Fletcher 815 14th Ave S Nampa, ID 83651 (JPM ledger in the 664 folder)"
+  },
+  {
+   "file": "wishing well email.pdf",
+   "flag": "sd_program_sdrp",
+   "quote": "you do not have a traditional security deposit, you have the replacement plan"
+  }
+ ],
+ "extraction_confidence": 0.7,
+ "reconciliation": "Sum of open lines 1,515.00 (100.00 + 25.00 + 100.00 + 15.00 + 1,075.00 + 200.00) equals PM stated 1,515.00. The SDRP form itemizes only 1,400.00 (HOA 125 + maintenance 1,075 + coordination 200); the extra 115.00 is May rent remainder 100 and late fee 15, both in the ledger and the 1,515.00 total.",
+ "notes": "The sheet and lease give a 4/26-4/27/2024 lease end and a 4/30/2024 move-out, but a rent charge of 687.10 posted 5/1/24, so the tenant may have been in possession into May. The service period (5/1 to 5/6) and the 10 days after lease end are inferred, with low confidence. The tenancy began 4/27/2022 (ledger shows application fee and first rent then), so the current 4/27/2023 lease is a renewal. First full month 5/2023 was paid 5/6/23. The 1,075.00 move-out repair has no backing document. The folder contains a misfiled claim 665 ledger, which was ignored. Add-ons: SDRP premium 35 and RBP with Ins 39 were paid through May 2024.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aad1597ffcd560114"
+ }
+}

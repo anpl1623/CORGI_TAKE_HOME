@@ -1,0 +1,929 @@
+{
+ "batch": 1,
+ "claims": [
+  {
+   "tracking": 23,
+   "status": "Posted",
+   "max_benefit": 2500,
+   "monthly_rent": 1575,
+   "approved": 225,
+   "total_claimed": 225,
+   "computed_amount": 225,
+   "docs": [
+    {
+     "file": "DOCUSIGN_-_Security_Deposit_Addendum__(10-04-2021_-_10-04-2021).pdf",
+     "kind": "addendum",
+     "needed_vision": false
+    },
+    {
+     "file": "Docusign_NHPM_Lease_v_2019_(10-04-2021_-_10-04-2021).pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "invoice_30_Oct_2022_16_10_37.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "TnT Property Solutions 'Tenant move out charges' (Meld T4KQIIB): remove left-over items, replace burner pans & bulbs, clean sills/fan/washer, change air filters, tighten cabinet",
+     "amount": 225.0,
+     "category": "cleaning",
+     "date": "2022-10-30",
+     "source_file": "invoice_30_Oct_2022_16_10_37.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "cleaning",
+    "trash_removal",
+    "repairs_damage"
+   ],
+   "excluded_categories": [],
+   "reproduced": "exact",
+   "derivation": "Only claim doc is one vendor make-ready/trash-out invoice of $225. Paid 225 in full (< Max Benefit 2500; rent 1575 -> rent cap 2000 not binding). 225 = 225.",
+   "data_issues": [
+    "No ledger or PM move-out statement; only a vendor invoice",
+    "Sheet Monthly Rent and Lease End Date blank (lease: rent $1,575, term 10/22/2021-10/21/2022)",
+    "Lease para 8 lists a $2,363 cash deposit but SD addendum waives it for $43/mo",
+    "Counter to '2022 claims pay Max Benefit': paid only the $225 claimed"
+   ]
+  },
+  {
+   "tracking": 80,
+   "status": "Posted",
+   "max_benefit": 4000,
+   "monthly_rent": 2500,
+   "approved": 450,
+   "total_claimed": 450,
+   "computed_amount": 450,
+   "docs": [
+    {
+     "file": "342WAjaxPeak_050223_StatementofAccounting_Meyer.pdf",
+     "kind": "move_out_statement",
+     "needed_vision": true
+    },
+    {
+     "file": "tenant ledger - Meyer.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Move Out Cleaning (Tucker Cleaning inv 1564); ledger 5302 Sec Dep-General&Window",
+     "amount": 300.0,
+     "category": "cleaning",
+     "date": "2023-04-30",
+     "source_file": "342WAjaxPeak_050223_StatementofAccounting_Meyer.pdf"
+    },
+    {
+     "description": "Repair - handyman, 20+ holes filled and painted (Elevate inv 1218); ledger 5310 Sec Dep-Hndymn",
+     "amount": 150.0,
+     "category": "repairs_damage",
+     "date": "2023-04-27",
+     "source_file": "342WAjaxPeak_050223_StatementofAccounting_Meyer.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "cleaning",
+    "repairs_damage"
+   ],
+   "excluded_categories": [],
+   "reproduced": "exact",
+   "derivation": "Statement of Accounting deductions: cleaning 300 + repair 150 = 450, credits 0, deposit held 0; ledger unpaid balance also 450. 450 < Max 4000 -> paid 450.",
+   "data_issues": [
+    "Statement of Accounting is a scanned PDF (no text layer); includes 2 vendor invoices + envelope",
+    "Sheet Lease Start 2022-09-22 vs ledger first prorated rent 09/09/2022",
+    "Sheet Lease End Date blank",
+    "Sheet 'Agreed Tenant Settlement' 225 (half of payout) - unrelated to payout"
+   ]
+  },
+  {
+   "tracking": 319,
+   "status": "Declined",
+   "max_benefit": null,
+   "monthly_rent": 1785,
+   "approved": 0,
+   "total_claimed": 4785.1,
+   "computed_amount": 0,
+   "docs": [
+    {
+     "file": "11218 Dallas Coach Rev Item.pdf",
+     "kind": "itemization",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Make Ready (air filter, maid service, blind replacement, touch-up paint & drywall, bulbs, stair handle)",
+     "amount": 1794.64,
+     "category": "repairs_damage",
+     "date": "2023-11-09",
+     "source_file": "11218 Dallas Coach Rev Item.pdf"
+    },
+    {
+     "description": "Balance on Ledger (un-itemized; lease ended 9/30/23, move-out 10/13/23 so likely includes holdover rent)",
+     "amount": 2810.46,
+     "category": "other",
+     "date": "2023-11-09",
+     "source_file": "11218 Dallas Coach Rev Item.pdf"
+    },
+    {
+     "description": "Move Out Itemization Fee",
+     "amount": 45.0,
+     "category": "admin_itemization_fee",
+     "date": "2023-11-09",
+     "source_file": "11218 Dallas Coach Rev Item.pdf"
+    },
+    {
+     "description": "Maintenance Handling Fee",
+     "amount": 50.0,
+     "category": "maintenance_coordination_fee",
+     "date": "2023-11-09",
+     "source_file": "11218 Dallas Coach Rev Item.pdf"
+    },
+    {
+     "description": "NSF Fee",
+     "amount": 85.0,
+     "category": "nsf_fee",
+     "date": "2023-11-09",
+     "source_file": "11218 Dallas Coach Rev Item.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [],
+   "excluded_categories": [
+    "all - claim declined"
+   ],
+   "reproduced": "exact",
+   "derivation": "Declined 'Not our policy.' Sheet row has no Policy #, no Treaty #, no Max Benefit -> no active SDRP policy -> 0. (Had it been covered: make-ready 1794.64 + in-term part of ledger balance; itemization/maint/NSF fees excluded.)",
+   "data_issues": [
+    "No policy number / Max Benefit on sheet (not a YRIG policy)",
+    "Ledger balance 2810.46 not itemized",
+    "Itemization references external tinyurl docs not included"
+   ]
+  },
+  {
+   "tracking": 445,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1350,
+   "approved": 449,
+   "total_claimed": 449,
+   "computed_amount": 449,
+   "docs": [
+    {
+     "file": "Demand Email_4922 Colonial Dr._Guillaume.JPG",
+     "kind": "correspondence",
+     "needed_vision": true
+    },
+    {
+     "file": "Final Statement_4922 Colonial Dr._Guillaume.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "Paint touch ups_4922 Colonial Dr._Guillaume.JPG",
+     "kind": "invoice",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Tenant Chargeback (Move out Rekey)",
+     "amount": 99.0,
+     "category": "rekey_locks",
+     "date": "2023-12-20",
+     "source_file": "Final Statement_4922 Colonial Dr._Guillaume.pdf"
+    },
+    {
+     "description": "Tenant Chargeback (Touch up paint) - handwritten invoice: rolled walls, touched up trim, painted front door 300 + 2 gal paint 50",
+     "amount": 350.0,
+     "category": "painting",
+     "date": "2023-12-21",
+     "source_file": "Final Statement_4922 Colonial Dr._Guillaume.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "rekey_locks",
+    "painting"
+   ],
+   "excluded_categories": [],
+   "reproduced": "exact",
+   "derivation": "Ledger trailing balance = rekey 99 + touch-up paint 350 = 449 (demand email also says $449). 449 < Max 2000 (rent cap 1500 not binding) -> 449.",
+   "data_issues": [
+    "Sheet Move-Out Date 2024-12-15 is wrong; ledger says 12-15-2023 (year typo)",
+    "Tenant left ~6.5 months before lease end (7-1-2024) but PM claimed no lease-break/rent; adjuster paid only what was claimed"
+   ]
+  },
+  {
+   "tracking": 506,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1295,
+   "approved": 279,
+   "total_claimed": 4180,
+   "computed_amount": 279,
+   "docs": [
+    {
+     "file": "Demand Letter_405 Harbison Blvd. Unit 411_Roundtree.JPG",
+     "kind": "correspondence",
+     "needed_vision": true
+    },
+    {
+     "file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Tenant Chargeback (Move-out rekey)",
+     "amount": 99.0,
+     "category": "rekey_locks",
+     "date": "2024-02-02",
+     "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf"
+    },
+    {
+     "description": "Tenant Chargeback (Removed appliance and headboard from dumpster area)",
+     "amount": 180.0,
+     "category": "trash_removal",
+     "date": "2024-02-08",
+     "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf"
+    },
+    {
+     "description": "Tenant Chargeback - Replace water damaged flooring from tenant's washing machine flood",
+     "amount": 3901.0,
+     "category": "flooring",
+     "date": "2024-02-13",
+     "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "rekey_locks",
+    "trash_removal"
+   ],
+   "excluded_categories": [
+    "flooring (water/flood damage from tenant appliance -> renters insurance claim)"
+   ],
+   "reproduced": "exact",
+   "derivation": "Claimed balance 4180 = 99 + 180 + 3901. Note: no coverage for washing-machine flood damage (renter's insurance). 99 + 180 = 279 -> paid 279.",
+   "data_issues": [
+    "Ledger also shows earlier in-tenancy chargebacks (leak detection 660, washer hose 265) that were paid during tenancy - not part of claim"
+   ]
+  },
+  {
+   "tracking": 522,
+   "status": "Posted",
+   "max_benefit": 2500,
+   "monthly_rent": 1145,
+   "approved": 1943.5,
+   "total_claimed": 2055.5,
+   "computed_amount": 1943.5,
+   "docs": [
+    {
+     "file": "E Castaneda collection letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "E Castaneda full ledger.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "E Castaneda updated final statement.pdf",
+     "kind": "move_out_statement",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Renters Insurance (Resident Insurance Program 02/2024)",
+     "amount": 17.0,
+     "category": "rbp_insurance_liability_fee",
+     "date": "2024-02-01",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Rent - Feb. rent prorate through new renter",
+     "amount": 751.0,
+     "category": "rent_prorated",
+     "date": "2024-02-01",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Zero Deposit Program Charge",
+     "amount": 45.0,
+     "category": "sdrp_premium",
+     "date": "2024-02-01",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Amenity Service Package",
+     "amount": 50.0,
+     "category": "other",
+     "date": "2024-02-01",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Carpet Cleaning Service (tenant responsible)",
+     "amount": 80.0,
+     "category": "carpet_cleaning",
+     "date": "2024-02-07",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Cleaning - non-normal wear and tear",
+     "amount": 112.5,
+     "category": "cleaning",
+     "date": "2024-02-07",
+     "source_file": "E Castaneda updated final statement.pdf"
+    },
+    {
+     "description": "Re-Rent Service - re-rent charge for early/improper lease termination",
+     "amount": 1000.0,
+     "category": "reletting_fee",
+     "date": "2024-02-07",
+     "source_file": "E Castaneda updated final statement.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "rent_prorated",
+    "carpet_cleaning",
+    "cleaning",
+    "reletting_fee"
+   ],
+   "excluded_categories": [
+    "rbp_insurance_liability_fee (renters insurance)",
+    "sdrp_premium (zero deposit program charge)",
+    "other: amenity service package"
+   ],
+   "reproduced": "exact",
+   "derivation": "Statement 2055.50 - renters insurance 17 - amenity package 50 - zero-deposit premium 45 = 1943.50 (= 751 + 80 + 112.50 + 1000). < Max 2500 -> 1943.50. Note confirms amenity & renters insurance exclusions; SDRP premium silently excluded too. Rent cap (1145 -> 1500) NOT applied.",
+   "data_issues": [
+    "Sheet Lease Start 2023-02-12 / Move-Out 2024-02-12 inconsistent with ledger (move-in prorate 01/05/24, Feb rent prorated through new renter)",
+    "Collection letter shows superseded balance 2105.50, hand-updated 3/14/24 to 2055.50 per dispute",
+    "Full ledger and updated final statement duplicate the same post-move-out charges"
+   ]
+  },
+  {
+   "tracking": 657,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1100,
+   "approved": 1500,
+   "total_claimed": 1790,
+   "computed_amount": 1500,
+   "docs": [
+    {
+     "file": "3317_Proctor_St_Unit_A_Move_Out_Evaluation_2024-05-23_(1).pdf",
+     "kind": "photos",
+     "needed_vision": false
+    },
+    {
+     "file": "Collections_-_SDRP_Notice_to_Tenant.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(07-31-2023_-_07-31-2023) (1).pdf",
+     "kind": "addendum",
+     "needed_vision": false
+    },
+    {
+     "file": "Propertyware - On Demand Real Estate Solution.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "SDRP_Move_Out_Calculation_.pdf",
+     "kind": "sdrp_calculation",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Move-out Repair: Move-out invoice - clean and misc. items",
+     "amount": 415.0,
+     "category": "cleaning",
+     "date": "2024-06-11",
+     "source_file": "SDRP_Move_Out_Calculation_.pdf"
+    },
+    {
+     "description": "Break Lease Fee",
+     "amount": 500.0,
+     "category": "lease_break_fee",
+     "date": "2024-06-19",
+     "source_file": "SDRP_Move_Out_Calculation_.pdf"
+    },
+    {
+     "description": "Break Lease Fee: 50% leasing fee due to break lease",
+     "amount": 550.0,
+     "category": "reletting_fee",
+     "date": "2024-06-19",
+     "source_file": "SDRP_Move_Out_Calculation_.pdf"
+    },
+    {
+     "description": "Re-inspection fee",
+     "amount": 125.0,
+     "category": "other",
+     "date": "2024-06-19",
+     "source_file": "SDRP_Move_Out_Calculation_.pdf"
+    },
+    {
+     "description": "Maintenance Coordination Fee",
+     "amount": 200.0,
+     "category": "maintenance_coordination_fee",
+     "date": "2024-06-19",
+     "source_file": "SDRP_Move_Out_Calculation_.pdf"
+    },
+    {
+     "description": "Rent 07/2024 (ledger only; within lease term ending 8/6/24)",
+     "amount": 1100.0,
+     "category": "rent_in_term",
+     "date": "2024-07-01",
+     "source_file": "Propertyware - On Demand Real Estate Solution.pdf"
+    },
+    {
+     "description": "SDRP Monthly Premium 07/2024 (ledger only)",
+     "amount": 42.0,
+     "category": "sdrp_premium",
+     "date": "2024-07-01",
+     "source_file": "Propertyware - On Demand Real Estate Solution.pdf"
+    },
+    {
+     "description": "RBP with Ins 07/2024 (ledger only)",
+     "amount": 39.0,
+     "category": "rbp_insurance_liability_fee",
+     "date": "2024-07-01",
+     "source_file": "Propertyware - On Demand Real Estate Solution.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "cleaning",
+    "lease_break_fee",
+    "reletting_fee",
+    "rent_in_term"
+   ],
+   "excluded_categories": [
+    "sdrp_premium",
+    "rbp_insurance_liability_fee"
+   ],
+   "reproduced": "exact",
+   "derivation": "SDRP calc 1790 (415+500+550+125+200); ledger balance 2971 adds July rent 1100 + SDRP 42 + RBP 39. Covered >= 415+500+550 = 1465, + fees/July rent -> well over 1500. Rent-based cap: rent 1100 -> ceil to next 500 = 1500 (note: 'Based on the rent of 1100.00 per month, the benefit should not have exceeded 1500.00') < Max 2000 -> 1500.",
+   "data_issues": [
+    "Hold reason: tenant disputes charges (says PM OK'd leaving 5/15/24, paid June rent, cleaned)",
+    "SDRP calc letterhead says New Heights PM while other docs say PURE PM (same office/address)",
+    "Move-out evaluation shows only light cleaning/items/holes; 415 invoice itself not provided",
+    "SD addendum signed Aug-01-2023 (after July 2023 program rules)"
+   ]
+  },
+  {
+   "tracking": 661,
+   "status": "Posted",
+   "max_benefit": 3500,
+   "monthly_rent": 1545,
+   "approved": 2131.74,
+   "total_claimed": 2131.74,
+   "computed_amount": 2131.74,
+   "docs": [
+    {
+     "file": "SD lease Addendum - Stadelmyer.pdf",
+     "kind": "addendum",
+     "needed_vision": false
+    },
+    {
+     "file": "Stadelmyer move out form.pdf",
+     "kind": "sdrp_calculation",
+     "needed_vision": true
+    },
+    {
+     "file": "expenditures_06_Feb_2024_21_28_32.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    },
+    {
+     "file": "invoice_01_Feb_2024_23_39_37.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Move out repairs (supported by invoices: item removal/disposal $100 Meld TN57B9DB + turnover cleaning $250 Silvia's; $100 unsupported)",
+     "amount": 450.0,
+     "category": "repairs_damage",
+     "date": "2024-02-06",
+     "source_file": "Stadelmyer move out form.pdf"
+    },
+    {
+     "description": "Maintenance coordination",
+     "amount": 200.0,
+     "category": "maintenance_coordination_fee",
+     "date": null,
+     "source_file": "Stadelmyer move out form.pdf"
+    },
+    {
+     "description": "Unpaid rent & fees (un-itemized; tenant skipped/broke lease, lease ends 3/9/24)",
+     "amount": 1481.74,
+     "category": "rent_in_term",
+     "date": null,
+     "source_file": "Stadelmyer move out form.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "repairs_damage",
+    "maintenance_coordination_fee",
+    "rent_in_term"
+   ],
+   "excluded_categories": [],
+   "reproduced": "exact",
+   "derivation": "Handwritten PURE SDRP Move Out Form: 450 + 200 + 1481.74 = 2131.74; paid form total as-is. < Max/band 3500. Rent cap (1545 -> 2000) NOT applied; SD addendum signed Mar-07-2023 (before July 2023 program rules), $69/mo for $3,090 waived deposit.",
+   "data_issues": [
+    "Move-out form is a scanned handwritten form (needs vision); move-out date 'unknown', 'Skipped: Break Lease'",
+    "No ledger: 'unpaid rent & fees' 1481.74 cannot be verified and may include late fees",
+    "Vendor invoices total 350 vs 450 'move out repairs' on form"
+   ]
+  },
+  {
+   "tracking": 793,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1695,
+   "approved": 1500,
+   "total_claimed": 24468.98,
+   "computed_amount": 2000,
+   "docs": [
+    {
+     "file": "6255_Bham_bills_sent_to_HSV_in_mail_2.pdf",
+     "kind": "invoice",
+     "needed_vision": true
+    },
+    {
+     "file": "6255_Cathwick_Lewis_Allen_Lease_8.16.23.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "Est_2206_from_Marshall_Zwiebel_Painting_Inc._17984.pdf",
+     "kind": "estimate",
+     "needed_vision": false
+    },
+    {
+     "file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "PURE invoice 12823.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    },
+    {
+     "file": "SDRP_Addendum.pdf",
+     "kind": "addendum",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Rental income Sep 2023 prorated (first rent after move-in, never paid)",
+     "amount": 765.48,
+     "category": "rent_prorated",
+     "date": "2023-09-01",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Rental income Oct 2023 - Jul 2024, 10 x 1695 (all unpaid)",
+     "amount": 16950.0,
+     "category": "rent_in_term",
+     "date": "2023-10-01",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "SDRP Monthly Premium RIS_2000, 11 x 35 (Sep 2023 - Jul 2024)",
+     "amount": 385.0,
+     "category": "sdrp_premium",
+     "date": "2024-07-01",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "RBP with Ins, 11 x 39",
+     "amount": 429.0,
+     "category": "rbp_insurance_liability_fee",
+     "date": "2024-07-01",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Late fees: Sep 2023 246.05 less 169.50 adjustment + 10 x 169.50 (Oct 2023 - Jul 2024)",
+     "amount": 1771.55,
+     "category": "late_fee",
+     "date": "2024-07-07",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Utilities - water bills (35.47 + 39.65 + 98.28 + final 173.55)",
+     "amount": 346.95,
+     "category": "utilities",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Rekey house (PURE invoice 12823)",
+     "amount": 100.0,
+     "category": "rekey_locks",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - carpet cleaning",
+     "amount": 150.0,
+     "category": "carpet_cleaning",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - repair HVAC",
+     "amount": 150.0,
+     "category": "repairs_damage",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - landscaping",
+     "amount": 200.0,
+     "category": "landscaping_lawn",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - trash out",
+     "amount": 650.0,
+     "category": "trash_removal",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - cleaning",
+     "amount": 300.0,
+     "category": "cleaning",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    },
+    {
+     "description": "Move out - painting (estimate 3785, prorated 6 of 10 yr life lost -> 2271)",
+     "amount": 2271.0,
+     "category": "painting",
+     "date": "2024-09-04",
+     "source_file": "Ledger - 6255 Cathwick - Lewis & Allen.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "rent_in_term",
+    "rent_prorated",
+    "rekey_locks",
+    "carpet_cleaning",
+    "repairs_damage",
+    "landscaping_lawn",
+    "trash_removal",
+    "cleaning",
+    "painting"
+   ],
+   "excluded_categories": [
+    "late_fee",
+    "utilities",
+    "sdrp_premium",
+    "rbp_insurance_liability_fee"
+   ],
+   "reproduced": "no",
+   "derivation": "Ledger balance 24468.98 = rent 17715.48 + SDRP 385 + RBP 429 + late 1771.55 + utilities 346.95 + move-out 3821. Covered (rent + damages) = 21536.48 -> capped at Max 2000 under normal rules; or decline (tenant never paid first full month; first payment posted 8/24/23 after 8/18/23 move-in). Actual 1500 = goodwill per note ('incorrect rate used for 2000 benefit, 1st month payment not collected prior to move-in'). Not derivable from documents.",
+   "data_issues": [
+    "Eviction case: tenant paid nothing after move-in month; first payment deposited 6 days after move-in",
+    "SDRP premium $35 (RIS_2000) - note says wrong rate table used for 2000 band",
+    "Lease security deposit field literally 'RIS_2000'",
+    "Water bill PDF is a scan (needs vision)"
+   ]
+  },
+  {
+   "tracking": 881,
+   "status": "Posted",
+   "max_benefit": 1500,
+   "monthly_rent": 890,
+   "approved": 247,
+   "total_claimed": 247,
+   "computed_amount": 247,
+   "docs": [
+    {
+     "file": "Tormey 611 Addendum.PDF",
+     "kind": "addendum",
+     "needed_vision": true
+    },
+    {
+     "file": "Tormey 611 Lease.PDF",
+     "kind": "lease",
+     "needed_vision": true
+    },
+    {
+     "file": "Tormey 611 Move Out Letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "Tormey 611 Move Out Statement.pdf",
+     "kind": "move_out_statement",
+     "needed_vision": false
+    },
+    {
+     "file": "Tormey 611 SDI.pdf",
+     "kind": "itemization",
+     "needed_vision": false
+    },
+    {
+     "file": "WTF DD Authorization.pdf",
+     "kind": "other",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "General Cleaning / Cleaning Charges",
+     "amount": 150.0,
+     "category": "cleaning",
+     "date": "2024-09-06",
+     "source_file": "Tormey 611 SDI.pdf"
+    },
+    {
+     "description": "Trash Clean-up",
+     "amount": 100.0,
+     "category": "trash_removal",
+     "date": "2024-09-06",
+     "source_file": "Tormey 611 SDI.pdf"
+    }
+   ],
+   "credits": [
+    {
+     "description": "Current ledger balance credit (prepaid after Aug 2024 charges)",
+     "amount": 3.0
+    }
+   ],
+   "covered_categories": [
+    "cleaning",
+    "trash_removal"
+   ],
+   "excluded_categories": [],
+   "reproduced": "exact",
+   "derivation": "SDI: maintenance/cleaning 150 + 100 = 250, outstanding ledger balance (3.00) credit -> 247 due (letter also $247). < Max 1500 and rent cap 1000 -> 247. Credit was netted.",
+   "data_issues": [
+    "Unit mismatch: lease and sheet say #602, move-out statement/SDI say unit 611",
+    "Sheet zip '672020' typo",
+    "Addendum and lease are scans; addendum: SD waiver $33/mo for deposit = one month rent, renters insurance $19/mo",
+    "'WTF DD Authorization' is PM's ACH/bank form - irrelevant to payout, contains banking data"
+   ]
+  },
+  {
+   "tracking": 978,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1850,
+   "approved": 1965.88,
+   "total_claimed": null,
+   "computed_amount": null,
+   "docs": [
+    {
+     "file": "Docusign_Pure_Lease_v_2023_(01-10-2024_-_01-10-2024) (1).pdf",
+     "kind": "lease",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [],
+   "credits": [],
+   "covered_categories": [],
+   "excluded_categories": [
+    "rbp_insurance_liability_fee",
+    "late_fee"
+   ],
+   "reproduced": "no",
+   "derivation": "Only the lease is present (rent 1850, term 1/11/2024-1/10/2025, $0 deposit, $300 move-in special repayable on lease break, $250 deposit-admin fee). No ledger/itemization, so 1965.88 cannot be rebuilt. Note: no coverage for RBP and late fees. Consistent with rent cap ceil(1850/500)*500 = 2000 = Max Benefit (1965.88 < 2000).",
+   "data_issues": [
+    "Missing move-out statement/ledger/itemization (possible Google Drive bulk-download omission)",
+    "Tenant moved out 8/31/2024, ~4 months before lease end"
+   ]
+  }
+ ],
+ "rule_hypotheses": [
+  {
+   "rule": "Base payout = sum of covered move-out charges the PM actually claimed (damage/repairs, painting, flooring wear, cleaning, carpet cleaning, trash-out, rekey, unpaid in-term or prorated rent, lease-break/re-rent fee) minus credits, capped at Max Benefit. Adjusters never add charges the PM did not claim (e.g. early move-out with no lease-break charge).",
+   "evidence_trackings": [
+    23,
+    80,
+    445,
+    506,
+    522,
+    661,
+    881
+   ],
+   "counter_evidence_trackings": [
+    793
+   ]
+  },
+  {
+   "rule": "Exclude insurance/program add-ons billed on the ledger: renters insurance / RBP, SDRP or zero-deposit premiums, amenity service packages.",
+   "evidence_trackings": [
+    522,
+    978,
+    657,
+    793
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Exclude late fees and utilities (water bills).",
+   "evidence_trackings": [
+    978,
+    793
+   ],
+   "counter_evidence_trackings": [
+    661
+   ]
+  },
+  {
+   "rule": "Exclude flood/water damage caused by a tenant appliance such as a washing-machine flood; it belongs to renters insurance. Pay rekey and trash removal on the same claim.",
+   "evidence_trackings": [
+    506
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Net credits on the move-out statement (prepaid or ledger credit balance) against covered charges.",
+   "evidence_trackings": [
+    881
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Rent-based cap = rent rounded UP to the next $500 (1100 -> 1500). It applies only to policies written under the July 2023 program rules, i.e. SD addendum signed after about July 2023. Earlier policies are capped only by Max Benefit. 522 is ambiguous: ledger move-in is Jan 2024 but the sheet lease start is 2023-02-12.",
+   "evidence_trackings": [
+    657,
+    661,
+    978
+   ],
+   "counter_evidence_trackings": [
+    522,
+    793
+   ]
+  },
+  {
+   "rule": "When the PM submits a completed SDRP Move Out Form or calculation, the adjuster often pays the form total as-is, including maintenance coordination fees and un-itemized 'unpaid rent & fees', subject to caps.",
+   "evidence_trackings": [
+    661,
+    657
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Decline (0) when the sheet row has no Policy #, Treaty # or Max Benefit ('Not our policy').",
+   "evidence_trackings": [
+    319
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "If first month's rent was not collected before move-in, or the PM used the wrong premium rate table, the claim is normally declined or reduced. In 793 the adjuster instead paid a goodwill amount one band lower (1500 instead of the 2000 band). This exception cannot be computed from documents.",
+   "evidence_trackings": [
+    793
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Claims from 2022 do not automatically pay Max Benefit: 23 paid the $225 invoiced against a 2500 max.",
+   "evidence_trackings": [],
+   "counter_evidence_trackings": [
+    23
+   ]
+  }
+ ],
+ "extraction_lessons": [
+  "PURE Columbia 'Final Statement' is a full AppFolio-style tenant ledger in reverse chronological order with a running balance. The claim is the trailing balance, i.e. the 'Tenant Chargeback' rows posted after move-out (445, 506). Earlier chargebacks during the tenancy were already paid; ignore them. The JPG demand email repeats the balance.",
+  "Propertyware ledgers (Blue Fox 80, PURE Charleston 657, PURE AL 793) mark rows 'Unpaid Charge' vs 'Paid Charge'. Sum only the Unpaid rows. 'Partially Paid' late fees with later 'Charge Adjustment' rows must be netted (793). The Balance column is a running total, not a line amount.",
+  "The SDRP Move Out Calculation (657) can predate later ledger charges such as the next month's rent, premium and RBP. The ledger balance (2971) was higher than the calc (1790). Here the cap made the difference moot.",
+  "PURE's handwritten 'SDRP Move Out Form' (661) is scanned, so vision is needed. Its listed deductions and total are what the adjuster paid. Vendor invoices may not add up to the form lines.",
+  "Rent Manager statements (Johnson PM, 522) come as a 'full ledger' plus an 'updated final statement' that repeat the same post-move-out charges; use only one. The collection letter can carry a superseded total (2105.50, hand-updated to 2055.50 per dispute).",
+  "On Yardi-style Move Out Statements and SDI forms (Perry Reid, 881), the running balance starts negative (prepaid). The SDI nets the remaining credit (-3.00) into the amount due, and the adjuster paid the netted figure.",
+  "Blue Fox 'Statement of Accounting' (80) is an image-only PDF with vendor invoices and an envelope attached; read it with vision.",
+  "Some folders hold only a lease (978) or only a vendor invoice (23). Without an itemization, the approved amount cannot be rebuilt, so flag the claim as missing docs.",
+  "Sheet dates are unreliable. 445's move-out year is wrong (2024 vs 2023). 522's lease start and move-out don't match the ledger. 80's lease start differs from the ledger. Prefer document dates and keep sheet dates as fallbacks.",
+  "The workbook 'Comments' sheet keyed 'Row N' does NOT line up with tracking N-1. Comment dates fall before claim dates (Row 979 comments are from 08/2023 but claim 978 was filed 11/2024), and the content belongs to other claims (Row 882 approves $1,785, which equals 319's rent). Do not join it naively.",
+  "Ignore irrelevant docs: ACH/direct-deposit authorizations with bank data (881), long leases and SD addenda. Addenda are useful only for the waiver premium, the waived deposit amount and the signing date (relevant to the July-2023 rule era)."
+ ]
+}

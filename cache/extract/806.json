@@ -1,0 +1,113 @@
+{
+ "tracking": 806,
+ "winning_document": "SD DIsposition - 6609 Cotton Creek Rdf.pdf (dated 07/30/2024)",
+ "pm_stated_amount_due": 1250,
+ "reconciliation": "Open lines total 1250.00; credits none; equals PM stated 1250.00 and ledger balance 1250.00; difference 0.00.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "SD DIsposition - 6609 Cotton Creek Rdf.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-30",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning itemization; 450 clean plus 800 painting = 1250"
+  },
+  {
+   "file": "Ledger - 6609 Cotton Creek.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-12",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Two 07/29 unpaid charge rows match 1250"
+  },
+  {
+   "file": "Demand letter - 6609 Cotton Creek.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 1250 balance; not used for amounts"
+  },
+  {
+   "file": "SDRP_Waiver.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest text only; not used for amounts"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 1950,
+  "lease_start": "2021-07-01",
+  "lease_end": "2024-06-30",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 0
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-09-12",
+  "balance_due": 1250,
+  "last_payment_date": "2024-06-05",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "credits": [],
+ "line_items": [
+  {
+   "description": "Professional clean (move-out)",
+   "category": "cleaning",
+   "amount_open": 450,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "SD DIsposition - 6609 Cotton Creek Rdf.pdf"
+  },
+  {
+   "description": "Prorated painting by paint lifespan",
+   "category": "painting",
+   "amount_open": 800,
+   "date_posted": "2024-07-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "SD DIsposition - 6609 Cotton Creek Rdf.pdf"
+  }
+ ],
+ "notes": "Winning doc is the SD disposition letter dated 07/30/24: 450 professional clean plus 800 prorated painting equals 1250 due. Propertyware ledger has two 07/29/24 unpaid charge rows (450 and 800) and balance 1250 on 09/12/24, prepayments 0, deposit held 0. Demand email 09/12/24 also says 1250. No rent open: June paid 06/05/24, lease ended 06/30/24, no July charges. Historical SDRP premium 35 and RBP 39 per month were paid through June (not open). Other ledger history (HOA fine 30, lawn 90, water 125.83) is paid. The lease excerpt and SDRP_Waiver text in the digest reference Rhino (lease: Rhino# as security deposit; waiver: RHINO or 35 a month SDRP), but the ledger shows 35 SDRP premiums paid monthly, so other_provider is not set; a reviewer should confirm no Rhino coverage. 4th Tenant for 6609 Cotton Creek.docx was not opened (tenant roster/contact by name, no text in digest). Lease PDF not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a41b3ed03db7eafdc"
+ }
+}

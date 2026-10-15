@@ -1,0 +1,222 @@
+{
+ "tracking": 613,
+ "winning_document": "House tenant ledger.pdf",
+ "pm_stated_amount_due": 1744,
+ "reconciliation": "sum(open lines) 1000+89+105+481+24+45 = 1744.00, minus credits 0.00 = 1744.00 vs PM stated 1,744.00 on the 6/20/2024 statement. The earlier 6/12/2024 final statement and collection letter state 1,794.00 because they include a $50 late charge (6/8/2024), which is absent from the later statement.",
+ "documents": [
+  {
+   "file": "House tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-06-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Rent Manager statement dated 6/20/2024 (same date as claim), balance 1,744.00. Latest-dated accounting doc; drops the 50 late charge shown on the 6/12 statement. Winning doc."
+  },
+  {
+   "file": "House final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rent Manager final statement 6/12/2024, balance 1,794.00 (includes 50 late charge). Superseded by the 6/20 statement. The 'Collection fees 897.00 / 2,691.00' lines are hypothetical and ignored."
+  },
+  {
+   "file": "House collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States balance 1,794.00. Seven days to pay before collections."
+  },
+  {
+   "file": "House invoice carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice 3-324592, 105.00, matches the statement carpet cleaning line. Unit marked VACANT on 6/5/2024."
+  },
+  {
+   "file": "House invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rayo invoice 122.50 (3.5 h x 35) for 6/6/2024. The statement bills 89.00 for Rayo cleaning, so the statement amount is used."
+  },
+  {
+   "file": "House lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-12-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt sufficient. Rent 1145, commencement 12/20/2023, no termination before 7/31/2024."
+  },
+  {
+   "file": "House ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-12-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program addendum, $45 monthly in lieu of deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1145,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "lease_start": "2023-12-20",
+  "lease_end": "2024-07-31",
+  "current_term_start": "2023-12-20",
+  "current_term_end": "2024-07-31",
+  "initial_term_months": 7,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Tenant agrees not to terminate before 7/31/2024 (7 months from commencement). Re-rent cost is $1,000 on early or improper termination, plus advertising, liquidated damages and rent loss. Month-to-month after the fixed term.",
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   },
+   {
+    "name": "Amenity service package",
+    "amount": 50
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Re-Rent Service: lease not up till July 31st, tenant vacating May 31st (JPM re-renting unit for tenant who broke lease)",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Non-normal wear and tear cleaning (Rayo). Statement amount used; Rayo invoice is 122.50.",
+   "category": "cleaning",
+   "amount_charged": 89,
+   "amount_open": 89,
+   "date_posted": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant responsible carpet cleaning (invoice 3-324592, 3 rooms plus de-greaser)",
+   "category": "carpet_cleaning",
+   "amount_charged": 105,
+   "amount_open": 105,
+   "date_posted": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent: prorated June rent through re-rent. End of period (re-let date) is not stated; 481 is about 42% of a month.",
+   "category": "rent_after_move_out",
+   "amount_charged": 481,
+   "amount_open": 481,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Amenity service package, prorated through re-rent (June)",
+   "category": "other_fee",
+   "amount_charged": 24,
+   "amount_open": 24,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Zero Deposit Program charge (June, full 45)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "House tenant ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-06-20",
+  "balance_due": 1744,
+  "first_full_month": "2024-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-27"
+ },
+ "notes": "Winning-document choice is a judgment call. The 6/12 final statement and collection letter say 1,794.00 with a 50 late charge; the 6/20 Rent Manager statement (claim date) says 1,744.00, so the later one is used. If the earlier one is preferred, add a late_fee line of 50 (6/8/2024). Early termination: the tenant vacated about 5/31/2024 per the PM, and the unit was vacant by 6/5. The sheet's move-out date is 6/9/2024, which conflicts. Lease term is to 7/31/2024, so June rent after move-out is in-term (rent_after_move_out). Move-in was 1/4/2024 (January rent prorated from 1/4). All rent, amenity and ZDP charges through May 2024 were paid. The 897 'collection fees' on the 6/12 statement are hypothetical and ignored.",
+ "extraction_confidence": 0.82,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ade0feeee50958b09"
+ }
+}

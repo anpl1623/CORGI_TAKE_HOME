@@ -1,0 +1,113 @@
+{
+ "tracking": 765,
+ "documents": [
+  {
+   "file": "201 Henry Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-16",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 1,280.00"
+  },
+  {
+   "file": "201 Henry Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-16",
+   "used_for_amounts": true,
+   "note": "Total 1,280.00; source of line items"
+  },
+  {
+   "file": "201 Henry SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Page 1 totals 1,280.00; page 2 crossed out (300 draft)"
+  },
+  {
+   "file": "201 Henry Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Confirms charges, 07/04 reversal, 07/17 write-off"
+  }
+ ],
+ "evidence": [
+  {
+   "file": "201 Henry SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Reused carpet / Status didn't come out - missing carpet 2nd bedroom"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1230,
+  "lease_start": "2024-01-01",
+  "lease_end": "2024-06-30",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 0,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-05"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Flooring replacement, bedroom carpet",
+   "category": "flooring",
+   "amount_open": 1125,
+   "amount_charged": 1125,
+   "date_posted": "2024-07-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "201 Henry Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning, full clean",
+   "category": "cleaning",
+   "amount_open": 135,
+   "amount_charged": 135,
+   "date_posted": "2024-07-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "201 Henry Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Removed 2 mattresses",
+   "category": "trash_removal",
+   "amount_open": 20,
+   "amount_charged": 20,
+   "date_posted": "2024-07-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "201 Henry Move Out Statement.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "pm_stated_amount_due": 1280,
+ "reconciliation": "Open items 1125 + 135 + 20 = 1280; credits 0; letter, statement and SDI page 1 all state 1280.00; difference 0. The 300 trash-out charged 07/03 and reversed 07/04 nets to zero and is excluded.",
+ "notes": "Move-out 06/30/2024 (sheet, statement, SDI, ledger). June rent and fees 1322 paid 06/05, so no open rent. Ledger write-off on 07/17 (ctrl 3491255, 'Remove move out balance from ledger') zeroes the ledger, but the PM letter, statement and SDI still claim 1280; not flagged as withdrawn. SDI page 2 is crossed out and totals 300. Handwritten note on page 2 suggests reused carpet and stains not removed. No invoice or photos in folder.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "tracking": 885,
+ "winning_document": "Walker 04-6214 Move Out Statement.pdf",
+ "pm_stated_amount_due": 1282,
+ "reconciliation": "sum(open lines) 1080.00+19.00+33.00+50.00+100.00 = 1282.00; credits 0.00; equals PM stated 1,282.00 (statement, SDI and 9/30/2024 letter; ledger as of 10/17/2024 agrees).",
+ "documents": [
+  {
+   "file": "Walker 04-6214 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc; September 2024 charges only, balance 0.00 as of 9/1/2024."
+  },
+  {
+   "file": "Walker 04-6214 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Current Ledger Balance 'September rent and fees' 1,282.00; notice 8/1/24; move-out 9/25/24; lease expiration 9/30/24."
+  },
+  {
+   "file": "Walker 04-6214 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 1,282.00; Hunter Warfield collections threatened."
+  },
+  {
+   "file": "Walker 04-6214 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Confirms September rows unpaid (last payment 8/5/2024); first-month history; 500/mo concessions Oct-Dec 2023 with no repayment charge."
+  },
+  {
+   "file": "Walker 04-6214 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Image-only; not opened because rent, dates and SD program were clear from sheet, ledger and addendum."
+  },
+  {
+   "file": "Walker 04-6214 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Renters insurance YES $19/mo; Security Deposit Waiver YES $33/mo, waives $1,200 deposit."
+  },
+  {
+   "file": "AJC DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Classified from file name; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1080,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-09-27",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2023-09-27",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12.1,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Security Deposit Protection (waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue (monthly utility charge)",
+    "amount": 50
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-25",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 1282,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-05"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (09/2024) - charged in full for September; tenant moved out 9/25/2024, 5 days before the 9/30/2024 lease end",
+   "category": "rent_in_term",
+   "amount_charged": 1080,
+   "amount_open": 1080,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Walker 04-6214 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters Insurance (09/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Walker 04-6214 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Security Deposit Protection (09/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Walker 04-6214 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue (09/2024)",
+   "category": "utilities",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Walker 04-6214 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Late Charge Late Fee (09/06/2024)",
+   "category": "late_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Walker 04-6214 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "no_policy_evidence": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "mixed_pet_nonpet_line": false,
+  "flooring_without_support": false
+ },
+ "evidence": [],
+ "notes": "Entire claim is the unpaid September 2024 ledger (rent, renters insurance, SDP fee, utility, late fee); no damage or cleaning charges. Tenant stopped paying after the 8/5/2024 payment and moved out 9/25/2024 with notice given 8/1/2024; PM billed full September rent with no lease-break or reletting fee. The September rent straddles the move-out date and is kept as one PM line over 9/1-9/30. Ledger shows 500/month rent concessions Oct-Dec 2023 with no repayment charge. Lease PDF is image-only and was not opened (not needed for amounts).",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a79e46a43e2439838"
+ }
+}

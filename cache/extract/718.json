@@ -1,0 +1,118 @@
+{
+ "tracking": 718,
+ "documents": [
+  {
+   "file": "SDRP Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-05",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "PURE SDRP move-out calculation, total 2,400 (winning)"
+  },
+  {
+   "file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open rows 575, 1,625, 200 total 2,400; deposit held 0.00"
+  },
+  {
+   "file": "Collections - First Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Cross-check only; total 2,400 matches"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2150,
+  "lease_start": "2023-06-11",
+  "lease_end": "2024-06-10",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "SDRP",
+    "amount": 35
+   }
+  ],
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-14",
+  "balance_due": 2400,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-02"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-02",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Paint/patch repair per move-out eval",
+   "category": "painting",
+   "amount_open": 1625,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Move-out items, no breakdown",
+   "category": "repairs_damage",
+   "amount_open": 575,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.4
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.8,
+ "pm_stated_amount_due": 2400,
+ "reconciliation": "Open lines 2,400.00 minus credits 0.00 equals PM stated 2,400.00; calculation, ledger and letter agree.",
+ "winning_document": "SDRP Move Out Calculation .pdf (08/05/2024)",
+ "notes": "Ledger description for the 1,625 row reads Paint/Patch - Repair, which drives the painting category. The 575 row is only labeled Move-out Items, so its category is low confidence. June 2024 prorated rent 716.67 plus RBP and SDRP was paid 6/2, so nothing rent-related is open. Sheet move-out 6/2 precedes term end 6/10, coded early_termination. The 2022 deposit refund in the ledger history is ignored. Move-out evaluation text was used for context only, not for amounts.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab1b0b175bb67a7c2"
+ }
+}

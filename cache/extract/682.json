@@ -1,0 +1,128 @@
+{
+ "tracking": 682,
+ "winning_document": "102 River Ledger.pdf (Propertyware ledger, unpaid 5,698.00 as of 2024-07-16)",
+ "documents": [
+  {
+   "file": "102 River Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-16",
+   "used_for_amounts": true,
+   "note": "Winning: only accounting doc; open unpaid rows less 300 SECDEP credit"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 4950,
+  "sd_program": "unknown",
+  "lease_start": "2023-08-29",
+  "lease_end": "2024-08-31",
+  "recurring_addons": [
+   {
+    "name": "RBP with Insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP fee",
+    "amount": 80
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-07-16",
+  "balance_due": 5698,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-05-21",
+  "termination": "eviction"
+ },
+ "line_items": [
+  {
+   "description": "May 2024 rent (tenant out 05/21)",
+   "category": "rent_in_term",
+   "amount_open": 4950,
+   "amount_charged": 4950,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 River Ledger.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Late fee, 15% of rent",
+   "category": "late_fee",
+   "amount_open": 742.5,
+   "amount_charged": 742.5,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 River Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Court filing fee",
+   "category": "eviction_legal_court",
+   "amount_open": 186.5,
+   "amount_charged": 186.5,
+   "date_posted": "2024-05-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 River Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP fee May 2024",
+   "category": "sdrp_premium",
+   "amount_open": 80,
+   "amount_charged": 80,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 River Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP with insurance May 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "amount_charged": 39,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 River Ledger.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "SECDEP 300 applied 06/24/2024 (orig. pet deposit)",
+   "amount": 300,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "102 River Ledger.pdf"
+  }
+ ],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 5698,
+ "reconciliation": "Open lines 5998.00 minus SECDEP credit 300.00 = 5698.00, equal to ledger total unpaid 5,698.00.",
+ "extraction_confidence": 0.85,
+ "notes": "Only one accounting document, so the ledger is winning. Rent line covers the full month the PM charged; tenant left 05/21 and no post-move-out rent was billed. Lease digest only; lease not opened per lite mode.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

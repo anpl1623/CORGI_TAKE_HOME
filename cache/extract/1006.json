@@ -1,0 +1,90 @@
+{
+ "tracking": 1006,
+ "winning_document": "4800 Citrine Dr - Jackson - Itemization of Security Deposit.pdf (11/18/24)",
+ "pm_stated_amount_due": 238,
+ "reconciliation": "Open lines 224.00 + 14.00 = 238.00, less 0.00 credits = 238.00, equals PM stated balance (itemization and RV ledger 11/18/24 row).",
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "4800 Citrine Dr - Jackson - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-18",
+   "note": "Winning TXR-2216 itemization, balance (238.00)",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "4800 Citrine Dr - Jackson - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-07",
+   "note": "Open row 11-18-24 Repairs 238.00, balance 238.00",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "4800 Citrine Dr - Jackson - Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-17",
+   "note": "2023-early 2024 history, balance 0.00",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "sd_program": "unknown",
+  "lease_start": "2023-11-27",
+  "lease_end": "2024-10-31"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-28",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-12-07",
+  "balance_due": 238,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-01"
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear (5 items)",
+   "category": "repairs_damage",
+   "amount_open": 224,
+   "amount_charged": 224,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4800 Citrine Dr - Jackson - Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace porch light bulbs",
+   "category": "repairs_damage",
+   "amount_open": 14,
+   "amount_charged": 14,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4800 Citrine Dr - Jackson - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "notes": "Deposit tendered as Fee in Lieu (itemization); sd_program kept unknown per LITE. Oct 2024 charges of 2,113.00 were paid by eCheck on 10/01/24 per RV ledger, so nothing else is open. Sheet lease start 2024-11-27 postdates both the move-out and the sheet lease end; the RV ledger shows move-in 11-27-2023, which is used here. Sheet 'Termination: Move-Out' with move-out 3 days before lease end and no lease-break charge recorded as end_of_term. Lease not opened (LITE).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a5c152eb1fbc45c34"
+ }
+}

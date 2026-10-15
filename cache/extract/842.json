@@ -1,0 +1,164 @@
+{
+ "tracking": 842,
+ "documents": [
+  {
+   "file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-15",
+   "note": "PURE security deposit statement, amount due 4277.00; winning document",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "1538 Huddersfield - tenant_ledger-jennifer_l_castro_michael_kaldani-20241002 (1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-02",
+   "note": "Balance 4277.00 agrees; used for payment history and deposit paid 0.00",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3750,
+  "cash_deposit_amount": 0,
+  "lease_start": "2023-05-20",
+  "lease_end": "2024-05-19",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-02",
+  "balance_due": 4277,
+  "last_payment_date": "2024-03-02",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "line_items": [
+  {
+   "description": "April 2024 rent",
+   "category": "rent_in_term",
+   "amount_charged": 3750,
+   "amount_open": 3750,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "confidence": 0.95,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  },
+  {
+   "description": "April 2024 monthly pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  },
+  {
+   "description": "April 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  },
+  {
+   "description": "April 2024 tenant administrative fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "confidence": 0.8,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  },
+  {
+   "description": "April 2024 RBP without insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 27,
+   "amount_open": 27,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  },
+  {
+   "description": "Full interior cleaning incl windows and blinds",
+   "category": "cleaning",
+   "amount_charged": 410,
+   "amount_open": 410,
+   "date_posted": "2024-05-15",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 4277,
+ "winning_document": "1538 Huddersfield - deposit_disposition_amount_due_jennifer_l_castro_051524 (1).pdf",
+ "reconciliation": "Open lines 3750 + 25 + 60 + 5 + 27 + 410 = 4277.00 minus credits 0.00 equals PM amount due 4277.00 (letter 05/15/2024). Ledger dated 10/02/2024 agrees. Deposit paid 0.00, so no SD credit.",
+ "notes": "Final Notice (scanned demand) not opened under lite-mode visual rule; assumed to carry the same total. Ledger labels the 410 cleaning as Deposit Forfeit although no deposit was paid. Text-message history and lease not used (lite mode).",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa69d676c477787bc"
+ }
+}

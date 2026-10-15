@@ -1,0 +1,177 @@
+{
+ "tracking": 506,
+ "winning_document": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+ "pm_stated_amount_due": 4180,
+ "documents": [
+  {
+   "file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-03-04",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "PURE final statement in ledger format. Open balance 4,180.00 = flooring 3,901 + trash 180 + rekey 99. All earlier chargebacks were paid (balance 0.00 on 1/3/24)."
+  },
+  {
+   "file": "Demand Letter_405 Harbison Blvd. Unit 411_Roundtree.JPG",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-03-04",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "PM email to tenant: balance of $4,180.00 due immediately, otherwise claim to SDRP in 15 days. Matches the statement."
+  },
+  {
+   "file": "Invoice_405 Harbison Blvd. Unit 411_Flooring repairs.jfif",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-02-13",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Scott Carter INV02396 total 3,901.00: remove ~500 sq ft water-damaged vinyl, install vinyl plank, shoe moulding and base board, materials. Backs the statement line (counted once)."
+  },
+  {
+   "file": "TJ Invoice_405 Harbison Blvd. Unit 411_trash removal.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-02-07",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Handwritten TJ Brown invoice 394316, $180.00, removed appliances and headboard from dumpster area. Backs the statement line."
+  },
+  {
+   "file": "405 Harbison Blvd unit 411_SDRP_Roundtree.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-12-30",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver addendum: $35.00 per month in lieu of a $2,000.00 deposit, signed."
+  },
+  {
+   "file": "405 Harbison Blvd unit 411_Lease_Roundtree.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "17-page scan not opened. Rent, dates and program were clear from the sheet, ledger and addendum."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 35,
+  "lease_start": "2023-01-06",
+  "lease_end": "2024-02-01",
+  "current_term_start": "2023-01-06",
+  "current_term_end": "2024-02-01",
+  "initial_term_months": 13,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "RBP w/insurance",
+    "amount": 45.95
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-02-01",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant Chargeback - replace water damaged flooring from tenant's washing machine flood (Scott Carter invoice INV02396: vinyl plank ~500 sq ft, removal, shoe moulding, base board)",
+   "category": "flooring",
+   "amount_charged": 3901,
+   "amount_open": 3901,
+   "date_posted": "2024-02-13",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": true,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant Chargeback - removed appliance and headboard from dumpster area (TJ Brown invoice 394316)",
+   "category": "trash_removal",
+   "amount_charged": 180,
+   "amount_open": 180,
+   "date_posted": "2024-02-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Tenant Chargeback - move-out rekey",
+   "category": "rekey_locks",
+   "amount_charged": 99,
+   "amount_open": 99,
+   "date_posted": "2024-02-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "Final Statement_405 Harbison Blvd. Unit 411_Roundtree.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-03-04",
+  "balance_due": 4180,
+  "first_full_month": "2023-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-01-03"
+ },
+ "reconciliation": "Sum of open lines 4,180.00 - credits 0 = 4,180.00 equals PM stated 4,180.00 (final statement and the 3/4/24 demand email).",
+ "notes": "Newest-first Propertyware ledger. Open amounts are only the three Feb 2024 chargebacks. The earlier washer-hose chargeback (265), leak detection (660), the Nov 2023 NSF (50) and the late fee (115) were all cleared by later payments. The January 2023 first-month payments were money orders, with no bounce. Feb 2023 rent was paid in full on 2/2/23. The lease scan was not opened, so initial_term_months (13, inferred from 1/6/2023 to 2/1/2024) and lease-break terms are unverified. The flooring invoice is billed and itemized, but it gives no age or condition of the prior floor. Move-out date is from the ledger and sheet.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ae79b4f0481946cd0"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "tracking": 1003,
+ "winning_document": "151 Trailview - MORRONE - Updated Ledger.pdf (12/10/24)",
+ "pm_stated_amount_due": 590,
+ "reconciliation": "Open lines 465.00 + 250.00 = 715.00, less 125.00 drywall credit = 590.00, equals Updated Ledger balance and PM stated due. The 11/22 statement total of 715.00 is superseded.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "151 Trailview - MORRONE - Updated Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-10",
+   "note": "Winning: latest PM accounting, balance 590.00 after drywall credit",
+   "opened_visually": false,
+   "revised": true,
+   "used_for_amounts": true
+  },
+  {
+   "file": "151 Trailview - MORRONE - Move Out Calculations.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-22",
+   "note": "Earlier statement total 715.00, superseded",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "151 Trailview - MORRONE - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-22",
+   "note": "Earlier open rows 465.00 and 250.00",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "151 Trailview - Morrone - Turn Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-07",
+   "note": "Supports 465.00 turnover line",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "151 Trailview - MORRONE - Demand Letter.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-12-02",
+   "note": "PM email thread; drywall adjustment exchange",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "sd_program": "unknown",
+  "lease_start": "2023-09-21",
+  "lease_end": "2024-09-20"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-21",
+  "termination": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-12-10",
+  "balance_due": 590,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-04"
+ },
+ "line_items": [
+  {
+   "description": "Touch-up cleaning, drywall patches, item removal",
+   "category": "cleaning",
+   "amount_open": 465,
+   "amount_charged": 465,
+   "date_posted": "2024-11-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "151 Trailview - MORRONE - Updated Ledger.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Maintenance coordination fee 11/20/24",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 250,
+   "amount_charged": 250,
+   "date_posted": "2024-11-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "151 Trailview - MORRONE - Updated Ledger.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Drywall repair adjustment credit 12/10/24",
+   "amount": 125,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "tenant_disputes_charges": true
+ },
+ "evidence": [
+  {
+   "file": "151 Trailview - MORRONE - Demand Letter.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Good morning, do you have the evaluation from last tenant before me?"
+  }
+ ],
+ "notes": "Turn invoice (TnT, 465.00 total, ticket 11/01/24) has one total with four tasks (appliance touch-up cleaning, two drywall patches, item removal), so the line is a single cleaning category with no sub-split; the PM's 125.00 drywall credit is treated as a concession. October 2024 rent 1,354.84 (= 2,000 x 21/31 for 10/01-10/21) was paid 10/04 and is not open. Sheet move-out 10/21/24 is after sheet lease end 09/20/24, so termination left unknown. Digest lease excerpt shows a renewal term 09/21/24-09/20/25 at 2,060/mo that conflicts with sheet dates and rent; lease not opened (LITE).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a5c152eb1fbc45c34"
+ }
+}

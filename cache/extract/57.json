@@ -1,0 +1,217 @@
+{
+  "tracking": 57,
+  "documents": [
+    {
+      "file": "6328 Flat Rock Drive - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-11-21",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "6328 Flat Rock Drive - No Refund Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-03-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "6328 Flat Rock Drive - SD Inurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-11-21",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "6328 Flat Rock Drive - Statement.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-03-16",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "6328 Flat Rock Drive - Tenant Contact.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "6328 Flat Rock Drive - Statement.pdf",
+  "pm_stated_amount_due": 1629.0,
+  "lease": {
+    "base_monthly_rent": 2250.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Insurance fee",
+        "amount": 59.0
+      },
+      {
+        "name": "YRIG Prem",
+        "amount": 20.0
+      }
+    ],
+    "lease_start": "2022-11-22",
+    "lease_end": "2023-11-30",
+    "current_term_start": "2022-11-22",
+    "current_term_end": "2023-11-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 2500.0,
+    "monthly_sd_premium": 59.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "60 days prior notice, one month rent as liquidated damages, early lease termination administrative fee of $500.00"
+  },
+  "move_out": {
+    "move_out_date": "2023-02-07",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-03-16",
+    "balance_due": 1629.0,
+    "first_full_month": "2022-12",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-01-07"
+  },
+  "line_items": [
+    {
+      "description": "YRIG Prem",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 20.0,
+      "amount_charged": 20.0,
+      "date_posted": "2023-02-01",
+      "service_period_start": "2023-02-01",
+      "service_period_end": "2023-02-28",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Rent Charge (Feb 1 - Feb 7, 2023; net of reversal)",
+      "category": "rent_in_term",
+      "amount_open": 525.0,
+      "amount_charged": 2250.0,
+      "date_posted": "2023-02-01",
+      "service_period_start": "2023-02-01",
+      "service_period_end": "2023-02-07",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Sec Dep Ins Charge to Tenant",
+      "category": "sdrp_premium",
+      "amount_open": 59.0,
+      "amount_charged": 59.0,
+      "date_posted": "2023-02-01",
+      "service_period_start": "2023-02-01",
+      "service_period_end": "2023-02-28",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Late Charges",
+      "category": "late_fee",
+      "amount_open": 225.0,
+      "amount_charged": 225.0,
+      "date_posted": "2023-02-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Wall above fireplace is damaged from TV wall mounted support",
+      "category": "repairs_damage",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-03-14",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Removal of debris in garage and inside of home",
+      "category": "trash_removal",
+      "amount_open": 600.0,
+      "amount_charged": 600.0,
+      "date_posted": "2023-03-14",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Reversal of 2/8/23-2/28/23 rent upon tenant vacating 2/7/23",
+      "amount": 1725.0,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "6328 Flat Rock Drive - Statement.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) 1629.00 - credits 0.00 = 1629.00 vs PM stated 1629.00; exact match. Reversal of $1,725.00 for Feb 8-28 rent is netted into February rent ($2,250 - $1,725 = $525).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated 2023-02-07 during lease term. February rent of $2,250 was prorated via reversal of $1,725 to $525. Prior ledger balance was $0. Open items include net rent $525, late charge $225, TV wall repair $200, debris removal $600, SDRP premium $59, and YRIG insurance $20, totaling $1,629.00."
+}

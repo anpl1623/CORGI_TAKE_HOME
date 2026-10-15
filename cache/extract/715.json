@@ -1,0 +1,104 @@
+{
+ "tracking": 715,
+ "documents": [
+  {
+   "file": "Sheila A. Pederson-deposit_disposition_amount_due_sheila_a_pederson_081324.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "PM deposit disposition letter, balance 120.00 (winning)"
+  },
+  {
+   "file": "2829 Longview Rd#5339-1-sec deposit charge .pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Diamond Construction invoice 2232, 120.00 hauling; supports the line"
+  },
+  {
+   "file": "tenant_ledger-sheila_a_pederson-20240814.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Deposit forfeit 120.00 open; deposit paid 0.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2595,
+  "lease_start": "2023-02-08",
+  "lease_end": "2024-07-26",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 53,
+  "recurring_addons": [
+   {
+    "name": "RBP",
+    "amount": 39
+   },
+   {
+    "name": "SDRP",
+    "amount": 53
+   }
+  ],
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-14",
+  "balance_due": 120,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-17"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-26",
+  "termination": "unknown",
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Hauling kid's pool and garbage",
+   "category": "trash_removal",
+   "amount_open": 120,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Sheila A. Pederson-deposit_disposition_amount_due_sheila_a_pederson_081324.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 120,
+ "reconciliation": "Open line 120.00 minus credits 0.00 equals PM stated 120.00; letter, ledger and invoice agree.",
+ "winning_document": "Sheila A. Pederson-deposit_disposition_amount_due_sheila_a_pederson_081324.pdf (08/13/2024 PM letter)",
+ "notes": "The internal disposition worksheet shows a 2,595 deposit and 2,475 due to tenant. The ledger shows deposit paid 0.00 and no cash deposit was ever posted, so the worksheet is not used and no credit is applied. July 2024 rent was prorated (2,249) and paid 7/17, so no rent is open. The digest shows a month-to-month renewal from 3/1/2024 and a fee-in-lieu waiver addendum, but those lease documents were not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab1b0b175bb67a7c2"
+ }
+}

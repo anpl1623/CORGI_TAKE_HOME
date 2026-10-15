@@ -1,0 +1,111 @@
+{
+ "tracking": 67,
+ "documents": [
+  {
+   "file": "122 Marinella ledger .pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-02-22",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "New Heights PM ledger for a different property (122 Marinella Dr, Goose Creek; tenants Frazier-Jones); rent 1,700; cash deposit held 2,900; balance 4,583.29. Not related to claimed address."
+  },
+  {
+   "file": "165 Westhaven ledger this year .pdf",
+   "doc_type": "other",
+   "doc_date": "2023-12-31",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Owner statement (Robert Uss) for 2023, not a tenant ledger; no tenant charges."
+  },
+  {
+   "file": "206 Downing ledger .pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-03-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "New Heights PM ledger for a different property (206 Downing Dr, Summerville; tenants Sylvester); rent 2,400 with SDRP premium; balance 14,895.17. Not related to claimed address."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "cash_deposit_amount": null,
+  "waived_deposit_amount": null,
+  "sd_program": "unknown",
+  "monthly_sd_premium": null,
+  "recurring_addons": [],
+  "lease_start": null,
+  "lease_end": null,
+  "current_term_start": null,
+  "current_term_end": null,
+  "initial_term_months": null,
+  "is_renewal": null,
+  "is_month_to_month": null,
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2023-03-15",
+  "termination": "unknown",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [],
+ "credits": [],
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "flags": {
+  "test_claim": true,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "test_claim",
+   "quote": "Policy: Test Claim Submission; Max Benefit: 0",
+   "file": "cache/digest/67.md (sheet facts)"
+  },
+  {
+   "flag": "test_claim",
+   "quote": "Lease Street Address: 123 Main street",
+   "file": "cache/digest/67.md (sheet facts)"
+  },
+  {
+   "flag": "test_claim",
+   "quote": "Property Address: 206 Downing Dr Summerville,SC 29485-3461",
+   "file": "206 Downing ledger .pdf"
+  },
+  {
+   "flag": "test_claim",
+   "quote": "Property Address: 122 Marinella Dr Goose Creek,SC 29445-3668",
+   "file": "122 Marinella ledger .pdf"
+  }
+ ],
+ "winning_document": null,
+ "pm_stated_amount_due": null,
+ "reconciliation": "No line items extracted: 0 - 0 = 0 vs no PM-stated amount; folder contains only ledgers/owner statement for other properties (122 Marinella 4,583.29; 206 Downing 14,895.17), none for the claimed 123 Main street.",
+ "notes": "Test claim: sheet policy is 'Test Claim Submission', Max Benefit 0, placeholder address '123 Main street' with rent 1,500 matching no document. The three files are unrelated New Heights PM sample ledgers (two tenant ledgers for other addresses/tenants and an owner statement). No lease, SD addendum or move-out statement for the claimed property; no line items attributed to this claim.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "ada35707e5be0d362"
+ }
+}

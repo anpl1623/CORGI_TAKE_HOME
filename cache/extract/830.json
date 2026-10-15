@@ -1,0 +1,191 @@
+{
+ "tracking": 830,
+ "winning_document": "MOC SDRP.pdf",
+ "pm_stated_amount_due": 640,
+ "reconciliation": "sum(open lines) 80.00+110.00+10.00+185.00+5.00+250.00 = 640.00; credits 0; matches Move Out Calculation 640.00 and ledger 9/26/2024 Total Unpaid 640.00.",
+ "documents": [
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(07-13-2023_-_07-13-2023).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver YES at $60 per month."
+  },
+  {
+   "file": "Ledger Kiskadee.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware, newest-first; open balance 640.00, all rent paid; no returned payments."
+  },
+  {
+   "file": "MOC SDRP.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Move Out Calculation, remaining balance 640.00 (undated; ledger charges posted 8/29/2024); winning document."
+  },
+  {
+   "file": "OLD_Docusign_NHPM_Lease_v_2022_(07-13-2023_-_07-13-2023).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 7/21/2023 to 7/20/2024, rent 1650, security deposit 0.00."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 60,
+  "lease_start": "2023-07-21",
+  "lease_end": "2024-07-20",
+  "current_term_start": "2023-07-21",
+  "current_term_end": "2024-07-20",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No lease-break fee found in excerpt. Occupancy past move-out date billed at 2x daily rate. Late fee 15% of rent plus 100 after the 15th.",
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 60
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-21",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 1,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "SD Forfeit move-out charge: Service Call",
+   "category": "repairs_damage",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "SD Forfeit move-out charge: Closet door repairs",
+   "category": "repairs_damage",
+   "amount_charged": 110,
+   "amount_open": 110,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit move-out charge: Repair loose hinges",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit move-out charge: Repair damaged doors",
+   "category": "repairs_damage",
+   "amount_charged": 185,
+   "amount_open": 185,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit move-out charge: Repair cabinet door",
+   "category": "repairs_damage",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Coordination Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-08-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "MOC SDRP.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-09-26",
+  "balance_due": 640,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-08"
+ },
+ "extraction_confidence": 0.93,
+ "notes": "Only open items are door and cabinet repairs, a service call and a 250 maintenance coordination fee. July 2024 rent 1596.77 and all SDRP and RBP charges were paid. Move-out 7/21/2024 is one day after lease end 7/20/2024; no holdover rent was charged. No inspection report or vendor invoices in the folder, so repair lines rest on the PM calculation and ledger alone. First full month: ledger bills full 1650 on 7/21/2023 plus 11-day prorated charge on 8/1/2023; August 2023 treated as first full month (September 2023 also fully paid by 9/7/2023 after a 212.92 AC credit).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ad4c5da53d1910249"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "tracking": 813,
+ "winning_document": "deposit_disposition_amount_due_amanda_z_amundson_092024 (1).pdf",
+ "pm_stated_amount_due": 2000,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_amanda_z_amundson_092024 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security deposit statement: single line 'Damages - Paint Job' 2,000.00; balance due 2,000.00."
+  },
+  {
+   "file": "20240827_102500_split_5.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-25",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "J&K Painting & More invoice 2,650.00 (lump: some walls/closets/trim painted, spotlights, exterior door repair, ceiling tile replacement, gravel in backyard holes). PM billed only 2,000 as paint damage; used for context only."
+  },
+  {
+   "file": "Amundson - Selected Move Out Pictures - Walls.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Scanned wall photos, 9 pp, not opened per efficiency rule."
+  },
+  {
+   "file": "WRC_Long_Form_Lease_Agreement_7.6.23.docx.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent 2,100; term 7/9/2023-7/31/2024 (12 months + 23 days), annual auto-renewal; deposit receipt 0.00; early termination fee = 2 months rent."
+  },
+  {
+   "file": "tenant_ledger-amanda_z_amundson_dylan_j_amundson-20240920.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "AppFolio ledger (oldest-first). Paid through July 2024 (last payment 7/2/24); only open item is 9/20/24 'Security Deposit Forfeit - Damages' 2,000. Monthly 'Fee in Lieu of SD - B' 60 and TLP 14 paid."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2100,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 60,
+  "lease_start": "2023-07-09",
+  "lease_end": "2024-07-31",
+  "current_term_start": "2023-07-09",
+  "current_term_end": "2024-07-31",
+  "initial_term_months": 12.75,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination only after 1 year occupancy, with 30 days notice and fee equal to 2 months additional rent plus deposit retained; sublet/re-rent service charge 5% of remaining rent (min 100). Not applicable: tenant stayed to term end.",
+  "recurring_addons": [
+   {
+    "name": "Fee in Lieu of SD - B",
+    "amount": 60
+   },
+   {
+    "name": "Tenant Liability Protection - ACV",
+    "amount": 14
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-20",
+  "balance_due": 2000,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-02"
+ },
+ "line_items": [
+  {
+   "description": "Damages - paint job (new May 2023, 5,650); tenant caused about half the house to be repainted in one year; J&K Painting invoice 2,650 Aug 2024, PM charged 2,000",
+   "category": "painting",
+   "amount_charged": 2000,
+   "amount_open": 2000,
+   "date_posted": "2024-09-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_amanda_z_amundson_092024 (1).pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.88,
+ "reconciliation": "Sum of 1 open line 2,000.00 - credits 0.00 = 2,000.00 = PM stated 2,000.00 (disposition letter 9/20/2024 and ledger forfeit charge); vendor invoice 2,650 not used since PM billed a lower amount.",
+ "notes": "Tenant stayed the full 12-month-plus term (7/9/2023-7/31/2024), paid all rent and SD-fee through July 2024, so no rent lines. Only claim is painting damage; PM argues paint was fresh before move-in. Painting invoice is a lump that also covers spotlights, exterior door repair, ceiling tile and gravel, so the PM's 2,000 is a partial attribution to paint. Lease base rent is 2,100 but ledger charges 2,115 monthly (unexplained 15 difference, not recorded as an add-on). Wall photo report (no text layer) was not opened per efficiency rule; no pet evidence in documents.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a455ac7bb5bc1bc9a"
+ }
+}

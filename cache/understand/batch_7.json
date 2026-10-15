@@ -1,0 +1,1040 @@
+{
+ "batch": 7,
+ "claims": [
+  {
+   "tracking": 243,
+   "status": "Posted",
+   "max_benefit": 4500,
+   "monthly_rent": 2175.0,
+   "approved": 4500,
+   "total_claimed": null,
+   "docs": [
+    {
+     "file": "300 Birch Creek - SD Insurance Addendum.JPG",
+     "kind": "addendum",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [],
+   "credits": [],
+   "covered_categories": [],
+   "excluded_categories": [],
+   "computed_amount": 4500,
+   "reproduced": "not_applicable",
+   "derivation": "No ledger, itemization or move-out statement in file; only the Excalibur SD addendum (Option 2 $104/mo, waives $4500 deposit; Option 1 cash deposit would have been $4150). Approved 4500 = Max Benefit. Only reproducible by the 'Excalibur Homes 2023 -> pay Max Benefit' pattern, not from charges.",
+   "data_issues": [
+    "Only document is the SD insurance addendum (image); no charges documented",
+    "Sheet Lease End Date is blank (NaT)",
+    "Approved = Max Benefit without any itemization in file",
+    "Workbook 'Comments' sheet entries for this row (Row 244, dated 06/2023) predate the 10/2023 claim, so comments appear misaligned with rows"
+   ]
+  },
+  {
+   "tracking": 266,
+   "status": "Declined",
+   "max_benefit": null,
+   "monthly_rent": 1100.0,
+   "approved": 0,
+   "total_claimed": 2356.25,
+   "docs": [
+    {
+     "file": "2402 Market Ave Unit A - ISD - Alvarado.pdf",
+     "kind": "itemization",
+     "needed_vision": true
+    },
+    {
+     "file": "4 month Lease Market A Alvarado.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "Lease Market A Alvarado RIS ADDENDUM.pdf",
+     "kind": "addendum",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Unpaid rent October + November 2023 'due to insufficient notice' (2 x 1125)",
+     "amount": 2250.0,
+     "category": "rent_after_lease_end",
+     "date": "2023-10-09",
+     "source_file": "2402 Market Ave Unit A - ISD - Alvarado.pdf"
+    },
+    {
+     "description": "Late charge October",
+     "amount": 106.25,
+     "category": "late_fee",
+     "date": "2023-10-09",
+     "source_file": "2402 Market Ave Unit A - ISD - Alvarado.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [],
+   "excluded_categories": [
+    "rent_after_lease_end",
+    "late_fee"
+   ],
+   "computed_amount": 0,
+   "reproduced": "exact",
+   "derivation": "TX itemization (TXR-2216) claims 2250 (Oct+Nov rent for insufficient notice, after the 4-month lease ended 10/1/23) + 106.25 late fee = 2356.25, cash deposit 0 (RIS $2000 waiver). Both categories are excluded (rent after lease end, late fee) -> covered 0. Also the sheet has no Policy # and no Max Benefit, consistent with a no-policy/no-premium decline. Approved 0.",
+   "data_issues": [
+    "ISD PDF text layer garbled; read visually",
+    "Sheet has no Policy # and no Max Benefit",
+    "ISD states rent $1,125/mo vs sheet Monthly Rent 1100 (lease text shows both 1125 and 1100)",
+    "RIS addendum: $42/mo waiving a $2000 deposit",
+    "Workbook Comments for Row 267 (03/2023, 'declined due to no premium being collected') predate the 10/2023 claim date, so they may belong to a different claim"
+   ]
+  },
+  {
+   "tracking": 276,
+   "status": "Posted",
+   "max_benefit": 1500,
+   "monthly_rent": 700.0,
+   "approved": 1036.3,
+   "total_claimed": 1336.3,
+   "docs": [
+    {
+     "file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf",
+     "kind": "ledger",
+     "needed_vision": true
+    },
+    {
+     "file": "1602 Benttree Dr Apt A - Aguilar - Fee In Lieu.pdf",
+     "kind": "addendum",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "5630 Utility Expenses - Temp Utilities",
+     "amount": 300.0,
+     "category": "utilities",
+     "date": "2023-09-28",
+     "source_file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf"
+    },
+    {
+     "description": "5510 Repairs - HVAC Repairs",
+     "amount": 91.0,
+     "category": "repairs_damage",
+     "date": "2023-09-28",
+     "source_file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf"
+    },
+    {
+     "description": "5510 Repairs - Carpet Repair",
+     "amount": 400.0,
+     "category": "flooring",
+     "date": "2023-09-28",
+     "source_file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf"
+    },
+    {
+     "description": "5030 Cleaning and Maintenance - Move Out Cleaning",
+     "amount": 259.8,
+     "category": "cleaning",
+     "date": "2023-09-28",
+     "source_file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf"
+    },
+    {
+     "description": "5510 Repairs - Move Out Repairs",
+     "amount": 285.5,
+     "category": "repairs_damage",
+     "date": "2023-09-28",
+     "source_file": "1602 Benttree Dr Apt A - Aguilar - Ledger.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "repairs_damage",
+    "flooring",
+    "cleaning"
+   ],
+   "excluded_categories": [
+    "utilities"
+   ],
+   "computed_amount": 1036.3,
+   "reproduced": "exact",
+   "derivation": "Ledger unpaid charges 300 + 91 + 400 + 259.80 + 285.50 = 1336.30 (balance as of 11/3/23). Exclude temp utilities 300 -> 1036.30 <= Max Benefit 1500. Approved 1036.30. Rent-based cap (700 rounded up -> 1000) was NOT applied.",
+   "data_issues": [
+    "Both PDFs are scans (Propertyware print + Authentisign addendum); read visually",
+    "No move-out statement or lease; charges come from ledger 'Unpaid Charge' rows",
+    "Fee-in-lieu addendum is StarPointe's own $33/mo program (ledger '2003 - Sec Dep Replacement Pr'); no YRIG coverage amount stated",
+    "Agreed Tenant Settlement 963.30 recorded, did not change approved amount"
+   ]
+  },
+  {
+   "tracking": 303,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1795.0,
+   "approved": 2000,
+   "total_claimed": 6261.92,
+   "docs": [
+    {
+     "file": "2547 Pamela Drive - Lease.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "2547 Pamela Drive - Ledger.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "2547 Pamela Drive - No refund letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "2547 Pamela Drive - Tenant Contact Ava.JPG",
+     "kind": "other",
+     "needed_vision": true
+    },
+    {
+     "file": "2547 Pamela Drive - Tenant Contact Laticia.JPG",
+     "kind": "other",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "TBR Rent Charge prorated 1 day 2/28/23",
+     "amount": 64.11,
+     "category": "rent_prorated",
+     "date": "2023-02-28",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "TBR Rent Charge Mar-Oct 2023 (8 x 1795)",
+     "amount": 14360.0,
+     "category": "rent_in_term",
+     "date": "2023-03-01..2023-10-01",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Sec Dep Ins Charge to Tenant (9 x 48)",
+     "amount": 432.0,
+     "category": "sdrp_premium",
+     "date": "2023-02-28..2023-10-01",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Pinata Service Fee (8 x 4)",
+     "amount": 32.0,
+     "category": "other",
+     "date": "2023-03-01..2023-10-01",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "TBR Admin Fee to PM",
+     "amount": 200.0,
+     "category": "admin_itemization_fee",
+     "date": "2023-02-28",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "TBR EFT Service Fees (4 x 15)",
+     "amount": 60.0,
+     "category": "other",
+     "date": "2023-03..2023-07",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "TBR Late Charges (Jun, Aug, Sep, Oct x 179.50)",
+     "amount": 718.0,
+     "category": "late_fee",
+     "date": "2023-06..2023-10",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "TBR Eviction Cancellation Fee to Halt Dispo",
+     "amount": 300.0,
+     "category": "eviction_legal_court",
+     "date": "2023-08-14",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: missing fire extinguisher",
+     "amount": 80.0,
+     "category": "repairs_damage",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: broken blinds on french door",
+     "amount": 200.0,
+     "category": "repairs_damage",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: floor damage",
+     "amount": 200.0,
+     "category": "flooring",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: trash removal",
+     "amount": 500.0,
+     "category": "trash_removal",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: showerhead replacement",
+     "amount": 200.0,
+     "category": "repairs_damage",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    },
+    {
+     "description": "Damages: overgrown grass",
+     "amount": 150.0,
+     "category": "landscaping_lawn",
+     "date": "2023-11-05",
+     "source_file": "2547 Pamela Drive - Ledger.pdf"
+    }
+   ],
+   "credits": [
+    {
+     "description": "April free rent per lease (concession)",
+     "amount": 1795.0
+    },
+    {
+     "description": "Rent reversal 10/7-10/31/23 after tenant vacated 10/6",
+     "amount": 1447.58
+    },
+    {
+     "description": "Tenant payments 2/17-7/6/23 (1795+248+1815+415+1856.61+1862)",
+     "amount": 7991.61
+    }
+   ],
+   "covered_categories": [
+    "rent_prorated",
+    "rent_in_term",
+    "repairs_damage",
+    "flooring",
+    "trash_removal",
+    "landscaping_lawn"
+   ],
+   "excluded_categories": [
+    "sdrp_premium",
+    "other",
+    "admin_itemization_fee",
+    "late_fee",
+    "eviction_legal_court"
+   ],
+   "computed_amount": 2000,
+   "reproduced": "exact",
+   "derivation": "Ledger balance 6261.92 (charges 17496.11 net of reversed reservation fee - credits 11234.19). Excluded fees 432+32+200+60+718+300 = 1742 -> covered 4519.92 (unpaid in-term rent 3189.92 + damages 1330). Capped at Max Benefit 2000 (rent cap 1795->2000 gives same). Approved 2000.",
+   "data_issues": [
+    "Eviction; tenant vacated 10/6/23; PM reversed rent after vacate (no lease-break rent charged)",
+    "Lease: cash deposit $1795 or YRIG option waiving $2000 at $48/mo (matches Max Benefit)",
+    "Tenant-contact screenshots contain PII; not claim evidence",
+    "Rent reservation fee 1795 charged then reversed (nets to 0; ledger header totals include it)"
+   ]
+  },
+  {
+   "tracking": 309,
+   "status": "Posted",
+   "max_benefit": 2000,
+   "monthly_rent": 1900.0,
+   "approved": 2000,
+   "total_claimed": null,
+   "docs": [
+    {
+     "file": "396 Jamie Drive - No refund letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "396 Jamie Drive - SD Insurance Addendum.JPG",
+     "kind": "addendum",
+     "needed_vision": true
+    },
+    {
+     "file": "396 Jamie Drive - Tenant Contact.JPG",
+     "kind": "other",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [],
+   "credits": [],
+   "covered_categories": [],
+   "excluded_categories": [],
+   "computed_amount": 2000,
+   "reproduced": "not_applicable",
+   "derivation": "No ledger/itemization in file; Excalibur no-refund letter (11/9/23) only says balance exceeds the $0 deposit and refers to an attached ledger that is missing. Addendum: $48/mo waives $2000 deposit (Option 1 cash $1700). Approved 2000 = Max Benefit; reproducible only via 'Excalibur 2023 eviction -> Max Benefit' pattern.",
+   "data_issues": [
+    "Ledger referenced in no-refund letter is missing from the folder",
+    "No charges documented; payout equals Max Benefit",
+    "Eviction termination; move-out 10/9/23 before lease end 10/31/23"
+   ]
+  },
+  {
+   "tracking": 627,
+   "status": "Posted",
+   "max_benefit": 1000,
+   "monthly_rent": 1478.95,
+   "approved": 1000,
+   "total_claimed": 1117.61,
+   "docs": [
+    {
+     "file": "Gmail - Demand Letter for Payment - Powell Crossing A-137 Hayk Kirakosyan Ahmad H. Hussain.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "UT_RPT_Invoice_Template81_Summary_Hayk Kirakosyan_Final Bill.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    },
+    {
+     "file": "hayk-kirakosyan_07-05-2023_lease.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "tenant_ledger-hayk_kirakosyan-20240626.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Move-out inspection: door stop",
+     "amount": 10.0,
+     "category": "repairs_damage",
+     "date": "2024-06-19",
+     "source_file": "tenant_ledger-hayk_kirakosyan-20240626.pdf"
+    },
+    {
+     "description": "Move-out inspection: interior door",
+     "amount": 250.0,
+     "category": "repairs_damage",
+     "date": "2024-06-19",
+     "source_file": "tenant_ledger-hayk_kirakosyan-20240626.pdf"
+    },
+    {
+     "description": "Move-out inspection: stove top replacement",
+     "amount": 636.22,
+     "category": "appliance",
+     "date": "2024-06-19",
+     "source_file": "tenant_ledger-hayk_kirakosyan-20240626.pdf"
+    },
+    {
+     "description": "Move-out inspection: patch hole in door",
+     "amount": 50.0,
+     "category": "repairs_damage",
+     "date": "2024-06-19",
+     "source_file": "tenant_ledger-hayk_kirakosyan-20240626.pdf"
+    },
+    {
+     "description": "Utility Reimbursement Fee - final utility bill 04/18-05/13/24 (Pioneer)",
+     "amount": 171.39,
+     "category": "utilities",
+     "date": "2024-06-19",
+     "source_file": "tenant_ledger-hayk_kirakosyan-20240626.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "repairs_damage",
+    "appliance",
+    "utilities"
+   ],
+   "excluded_categories": [],
+   "computed_amount": 1000,
+   "reproduced": "exact",
+   "derivation": "Ledger/demand letter balance 1117.61 = 10 + 250 + 636.22 + 50 + utility 171.39. Capped at Max Benefit 1000 -> 1000. If the utility bill had been excluded, covered would be 946.22 (< 1000), so the adjuster evidently counted the final utility bill (or capped the gross balance).",
+   "data_issues": [
+    "Demand letter is an unfilled AppFolio template (placeholder charge list); only the total 1117.61 is real",
+    "Sheet Monthly Rent 1478.95 = base rent 1439 + 19.95 deposit-waiver fee (TLL20) + 20 garbage",
+    "Moved out 5/13/24 before lease end 7/6/24; PM charged no rent after move-out",
+    "Lease: deposit $1000 waived ('Deposit waiver special' / SDW1000) for $19.95/mo, matching Max Benefit 1000",
+    "Agreed tenant settlement 300 did not reduce approved amount"
+   ]
+  },
+  {
+   "tracking": 754,
+   "status": "Posted",
+   "max_benefit": 1500,
+   "monthly_rent": 1320.0,
+   "approved": 1500,
+   "total_claimed": 3551.0,
+   "docs": [
+    {
+     "file": "2700-108 De Young Addendum.pdf",
+     "kind": "addendum",
+     "needed_vision": true
+    },
+    {
+     "file": "2700-108 De Young Ledger.docx",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "2700-108 De Young Move Out Letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Turnover: Cleaning Charges",
+     "amount": 120.0,
+     "category": "cleaning",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Turnover: Painting/Drywall Repairs",
+     "amount": 500.0,
+     "category": "painting",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Turnover: 4 broken blinds",
+     "amount": 100.0,
+     "category": "repairs_damage",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Turnover: Flea Treatment",
+     "amount": 275.0,
+     "category": "pest_control",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Turnover: Remove Trash and Item Removal",
+     "amount": 200.0,
+     "category": "trash_removal",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Missing one mail key & 2 fobs",
+     "amount": 100.0,
+     "category": "keys_remotes",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Utilities 7/16/24 to 7/31/24",
+     "amount": 50.0,
+     "category": "utilities",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Notice: Prorated Rent 8/1-8/15/24 (after lease end 7/31/24)",
+     "amount": 821.0,
+     "category": "rent_after_lease_end",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Cabinet repair, door repair",
+     "amount": 125.0,
+     "category": "repairs_damage",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    },
+    {
+     "description": "Carpet/Vinyl Replacement",
+     "amount": 1300.0,
+     "category": "flooring",
+     "date": "2024-08-08",
+     "source_file": "2700-108 De Young Ledger.docx"
+    }
+   ],
+   "credits": [
+    {
+     "description": "Prior credit balance from 7/26/24 overpayment",
+     "amount": 40.0
+    }
+   ],
+   "covered_categories": [
+    "cleaning",
+    "painting",
+    "repairs_damage",
+    "trash_removal",
+    "keys_remotes",
+    "flooring"
+   ],
+   "excluded_categories": [
+    "pest_control",
+    "utilities",
+    "rent_after_lease_end"
+   ],
+   "computed_amount": 1500,
+   "reproduced": "exact",
+   "derivation": "Move-out charges total 3591 - 40 credit = 3551 (move-out letter). Covered (excl. flea 275, utilities 50, post-lease prorated rent 821) = 2445 - 40 = 2405. Capped at Max Benefit 1500 (rent cap 1320->1500 identical). Approved 1500. Cap binds, so exclusions untestable here.",
+   "data_issues": [
+    "Addendum says deposit waived is $1,200 ($33/mo) but sheet Max Benefit is 1500 and 1500 was paid",
+    "Docx ledger text has duplicated columns; read balance column carefully",
+    "Pre-move-out ledger shows eviction filing/serve fees and late charges in June-July 2024 but they were paid (balance -40 on 7/26/24)"
+   ]
+  },
+  {
+   "tracking": 952,
+   "status": "Posted",
+   "max_benefit": 1500,
+   "monthly_rent": 1225.0,
+   "approved": 1367,
+   "total_claimed": 1367.0,
+   "docs": [
+    {
+     "file": "Makuat Mangar 13-6706 Addendum.pdf",
+     "kind": "addendum",
+     "needed_vision": true
+    },
+    {
+     "file": "Makuat Mangar 13-6706 Lease.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "Makuat Mangar 13-6706 Move Out Letter.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "Makuat Mangar 13-6706 SDI.pdf",
+     "kind": "itemization",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Other charge: didn't vacate until 10/3, owes prorate (holdover after 9/30 lease end)",
+     "amount": 132.0,
+     "category": "rent_after_lease_end",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    },
+    {
+     "description": "General cleaning: full clean",
+     "amount": 150.0,
+     "category": "cleaning",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    },
+    {
+     "description": "Painting/drywall: repair 3 holes in doors, clean smoke damage, full paint",
+     "amount": 800.0,
+     "category": "painting",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    },
+    {
+     "description": "Window blinds: replace 7 sets",
+     "amount": 175.0,
+     "category": "repairs_damage",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    },
+    {
+     "description": "Misc: replace 2 outlet covers",
+     "amount": 20.0,
+     "category": "repairs_damage",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    },
+    {
+     "description": "Misc: replace 6 door knobs",
+     "amount": 90.0,
+     "category": "repairs_damage",
+     "date": "2024-10-14",
+     "source_file": "Makuat Mangar 13-6706 SDI.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "rent_after_lease_end",
+    "cleaning",
+    "painting",
+    "repairs_damage"
+   ],
+   "excluded_categories": [],
+   "computed_amount": 1367.0,
+   "reproduced": "exact",
+   "derivation": "SDI: (A) 132 holdover prorate + (B) 150 + 800 + 175 + 20 + 90 = 1235 -> 1367 total due, no deposit. All paid incl. the 3-day holdover rent after lease end. 1367 < Max Benefit 1500 (and < rent cap 1500). Approved 1367.",
+   "data_issues": [
+    "Addendum says deposit waived is $1,200 ($33/mo) but sheet Max Benefit 1500; approved 1367 exceeds 1200, so the sheet Max Benefit governed",
+    "Agreed tenant settlement 1000 did not reduce approved amount"
+   ]
+  },
+  {
+   "tracking": 985,
+   "status": "Posted",
+   "max_benefit": 1000,
+   "monthly_rent": 1234.95,
+   "approved": 81.99,
+   "total_claimed": 81.99,
+   "docs": [
+    {
+     "file": "Gmail - Updated Demand Letter - Rocky Ridge 5724 RR Elsa Woldeyesus.pdf",
+     "kind": "correspondence",
+     "needed_vision": false
+    },
+    {
+     "file": "Inspections_Move-out_Elsa Woldeyesus_5724RR.pdf",
+     "kind": "photos",
+     "needed_vision": false
+    },
+    {
+     "file": "UT_RPT_Invoice_Template81_Summary - 2024-11-25T142448.413_Elsa Woldeyesus_final Bill.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    },
+    {
+     "file": "elsa-woldeyesus_09-30-2023-lease.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Final utility bill 10/15-10/31/24 (electric, water/sewer, service, common area)",
+     "amount": 81.99,
+     "category": "utilities",
+     "date": "2024-11-25",
+     "source_file": "UT_RPT_Invoice_Template81_Summary - 2024-11-25T142448.413_Elsa Woldeyesus_final Bill.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "utilities"
+   ],
+   "excluded_categories": [],
+   "computed_amount": 81.99,
+   "reproduced": "exact",
+   "derivation": "Move-out inspection: 'No charges' (unit left very clean). Only outstanding item = final utility bill 81.99 (demand letter total 81.99). Paid in full: 81.99 < Max 1000. Utilities for the tenant's occupancy period were covered here.",
+   "data_issues": [
+    "Demand letter is an unfilled AppFolio template; only total is real",
+    "Sheet Monthly Rent 1234.95 = 1195 rent + 19.95 waiver fee + 20 garbage",
+    "Demand letter lease duration 07/13/2022-10/31/2024 vs sheet lease end 9/30/24 / move-out 10/31/24",
+    "PM Explanation column just repeats the amount '81.99'",
+    "Lease deposit clause shows $100 cash deposit; not subtracted from payout"
+   ]
+  },
+  {
+   "tracking": 1009,
+   "status": "Posted",
+   "max_benefit": 1000,
+   "monthly_rent": 550.0,
+   "approved": 485.35,
+   "total_claimed": 985.35,
+   "docs": [
+    {
+     "file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf",
+     "kind": "itemization",
+     "needed_vision": true
+    },
+    {
+     "file": "121 Wolfe Rd Apt 4 - Dilling - Lease.pdf",
+     "kind": "lease",
+     "needed_vision": true
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Damages: spot paint, doorknob dent repair, remove tiles/sign/mounted wood/sticker, replace drip pans, light globe, remove shower curtain/rod, remove carpet & faux tile at bath",
+     "amount": 390.0,
+     "category": "repairs_damage",
+     "date": "2024-11-27",
+     "source_file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf"
+    },
+    {
+     "description": "Cleaning",
+     "amount": 249.35,
+     "category": "cleaning",
+     "date": "2024-11-27",
+     "source_file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf"
+    },
+    {
+     "description": "Unpaid rent Nov 1-7, 2024",
+     "amount": 129.0,
+     "category": "rent_prorated",
+     "date": "2024-11-27",
+     "source_file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf"
+    },
+    {
+     "description": "Replace burned-out bulbs (exterior)",
+     "amount": 7.0,
+     "category": "repairs_damage",
+     "date": "2024-11-27",
+     "source_file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf"
+    },
+    {
+     "description": "Other: November Fee in Lieu + removal of misc items/trash (combined, split not given)",
+     "amount": 210.0,
+     "category": "other",
+     "date": "2024-11-27",
+     "source_file": "121 Wolfe Rd Apt 4 - Dilling - Itemization of Security Deposit.pdf"
+    }
+   ],
+   "credits": [
+    {
+     "description": "Cash security deposit tendered ($500 + fee in lieu)",
+     "amount": 500.0
+    }
+   ],
+   "covered_categories": [
+    "repairs_damage",
+    "cleaning",
+    "rent_prorated",
+    "other"
+   ],
+   "excluded_categories": [],
+   "computed_amount": 485.35,
+   "reproduced": "exact",
+   "derivation": "TXR-2216: 390 + 249.35 + 129 + 7 + 210 = 985.35 deductions - 500 cash deposit = 485.35 owed. Approved 485.35 = PM bottom line after deposit (< Max 1000). The 210 'other' line bundles the November fee-in-lieu with trash removal and was not carved out.",
+   "data_issues": [
+    "Both PDFs are scans (needed vision)",
+    "Lease security deposit field reads '500+Fee in Lieu': partial cash deposit plus fee-in-lieu; deposit subtracted",
+    "Tenant left ~2 months into a 12-month lease (8/30/24-8/31/25) but PM charged rent only through 11/7"
+   ]
+  },
+  {
+   "tracking": 1013,
+   "status": "Posted",
+   "max_benefit": 4500,
+   "monthly_rent": 2400.0,
+   "approved": 2522,
+   "total_claimed": 2788.08,
+   "docs": [
+    {
+     "file": "HistoryDocumentForPacket1312.pdf",
+     "kind": "lease",
+     "needed_vision": false
+    },
+    {
+     "file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne.jpg",
+     "kind": "invoice",
+     "needed_vision": true
+    },
+    {
+     "file": "5760 Biscayne Dr. Move Out Invoices/IMG_2040.jpg",
+     "kind": "other",
+     "needed_vision": true
+    },
+    {
+     "file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf",
+     "kind": "ledger",
+     "needed_vision": false
+    },
+    {
+     "file": "5760 Biscayne Dr. Move Out Invoices/invoice_27_Nov_2024_00_41_07.pdf",
+     "kind": "invoice",
+     "needed_vision": false
+    }
+   ],
+   "line_items": [
+    {
+     "description": "Damage fee: disposal jammed - Assured Plumbing bill",
+     "amount": 140.0,
+     "category": "repairs_damage",
+     "date": "2024-11-04",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "Tenant utility reimbursement: gas bill 11/04-11/12/2024 (after 11/2 move-out)",
+     "amount": 16.08,
+     "category": "utilities",
+     "date": "2024-12-06",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: deep cleaning (Ada Cleaning invoice $300)",
+     "amount": 300.0,
+     "category": "cleaning",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: painting and caulking",
+     "amount": 1287.0,
+     "category": "painting",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: replace 3 window screens 50%",
+     "amount": 145.0,
+     "category": "repairs_damage",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: replaced 8 mini blinds 50%",
+     "amount": 200.0,
+     "category": "repairs_damage",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: trash out",
+     "amount": 450.0,
+     "category": "trash_removal",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    },
+    {
+     "description": "SD deduction: ozone purifiers (pet odor)",
+     "amount": 250.0,
+     "category": "pet_damage_odor",
+     "date": "2024-12-09",
+     "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf"
+    }
+   ],
+   "credits": [],
+   "covered_categories": [
+    "repairs_damage",
+    "cleaning",
+    "painting",
+    "trash_removal"
+   ],
+   "excluded_categories": [
+    "utilities",
+    "pet_damage_odor"
+   ],
+   "computed_amount": 2522.0,
+   "reproduced": "exact",
+   "derivation": "Statement balance 2788.08 (all rent and monthly fees incl. Nov rent were paid). Exclude ozone purifiers 250 (pet odor) and gas utility 16.08 per PM Explanation -> 140 + 300 + 1287 + 145 + 200 + 450 = 2522 < Max 4500. Approved 2522. Rent cap (2400->2500) NOT applied (2522 > 2500).",
+   "data_issues": [
+    "Sheet Lease Start 2022-10-01 / End 2024-11-30 conflict with lease packet (10/1/2024-9/30/2025, signed 8/7/2024); tenant left 11/2/24 ~1 month into the lease",
+    "SD waiver addendum: $86/mo waives $4,400 deposit vs sheet Max Benefit 4500 (ledger shows 'Preffered Tenant Program' $85/mo)",
+    "Folder includes tenant-side evidence: Impressions Carpet invoice $251 paid by tenant (steam clean 156 + deflea/tick 95) and a water-utility portal screenshot showing a -30.70 credit; not PM charges",
+    "Agreed tenant settlement 1000 did not reduce approved amount"
+   ]
+  }
+ ],
+ "rule_hypotheses": [
+  {
+   "rule": "Payout = min(Max Benefit from sheet, covered outstanding balance after excluding non-covered categories and subtracting any cash deposit held).",
+   "evidence_trackings": [
+    276,
+    303,
+    627,
+    754,
+    952,
+    985,
+    1009,
+    1013
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Sheet 'Max Benefit' is the cap even when the lease addendum states a different waived-deposit amount (Perry Reid addenda say $1,200, paid up to/over that with Max 1500).",
+   "evidence_trackings": [
+    952,
+    754
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Rent-based cap (rent rounded up to next $500) is NOT generally applied in late-2023/2024 claims.",
+   "evidence_trackings": [
+    276,
+    1013
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Utilities: charges for utilities consumed after move-out / during vacancy-make-ready are excluded, while the tenant's final utility bill for the occupancy period is paid (PM Explanation on 1013 still says utilities not eligible generally).",
+   "evidence_trackings": [
+    985,
+    627,
+    276,
+    1013
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Pet odor treatments (ozone purifiers) are excluded.",
+   "evidence_trackings": [
+    1013
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "A cash security deposit actually collected is subtracted; payout equals PM's 'balance after deductions'.",
+   "evidence_trackings": [
+    1009
+   ],
+   "counter_evidence_trackings": [
+    985
+   ]
+  },
+  {
+   "rule": "Short holdover proration after lease end (a few days) is paid; claims consisting only of post-lease-end notice rent plus late fees get $0 (declined).",
+   "evidence_trackings": [
+    952,
+    266
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "When the PM's itemization contains only covered-looking categories, the adjuster pays the bottom line without carving out small embedded fees (e.g., a month of fee-in-lieu bundled with trash removal).",
+   "evidence_trackings": [
+    1009,
+    952
+   ],
+   "counter_evidence_trackings": [
+    1013
+   ]
+  },
+  {
+   "rule": "Excalibur Homes (GR0028) 2023 claims were paid at exactly Max Benefit, often with only an SD addendum and a no-refund letter on file (no itemization).",
+   "evidence_trackings": [
+    243,
+    303,
+    309
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Agreed/collected tenant settlement amounts do not reduce the approved benefit (they are subrogation recoveries).",
+   "evidence_trackings": [
+    276,
+    627,
+    952,
+    1013
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Late fees, admin fees, SD insurance/premium charges, credit-reporting/service fees and eviction-cancellation fees are excluded (when the cap does not bind they would be removed).",
+   "evidence_trackings": [
+    303,
+    266
+   ],
+   "counter_evidence_trackings": []
+  },
+  {
+   "rule": "Declined claims with no Policy # / no Max Benefit on the sheet indicate no active policy/premium.",
+   "evidence_trackings": [
+    266
+   ],
+   "counter_evidence_trackings": []
+  }
+ ],
+ "extraction_lessons": [
+  "Workbook 'Comments' sheet is keyed by 'Row N' but comment dates often predate the claim (Row 1014 comments 10/2023 vs claim 1013 dated 12/2024; Row 267 03/2023 vs claim 10/2023); treat comments as misaligned/unreliable.",
+  "Texas TXR-2216 'Itemization of Security Deposit' PDFs (Reedy Creek, StarPointe) often have garbled or empty text layers; render visually. 'Total amount of Security Deposit tendered' shows any cash deposit to subtract; 'Balance after deductions' (negative) is the PM's claim.",
+  "StarPointe Propertyware ledgers: rows marked 'Unpaid Charge' are the move-out claim; 'Paid Charge' rows are history. Balance column runs bottom-up.",
+  "Excalibur Homes statements: full-period running statement with 'Balance Due'; contains many excluded fees (Sec Dep Ins Charge, Pinata Service Fee, EFT service fees, TBR late charges, admin fee, eviction cancellation) plus a reversal of post-vacate rent. Compute covered = balance - excluded fees.",
+  "AppFolio (Property Mgmt Svs Columbus OH) Gmail demand letters are unfilled templates; use the stated total and the tenant ledger's post-move-out 'Move-out Inspection Charges' and 'Utility Reimbursement Fee' lines. Sheet Monthly Rent there includes the $19.95 waiver fee and $20 garbage.",
+  "Perry Reid: Move Out Letter states the balance; the docx ledger repeats columns (duplicated text) and turnover charges are dated the move-out letter date; also an SDI form ('Security Deposit Itemization - Move Out') with (A) outstanding + (B) maintenance totals.",
+  "Century 21 Accent Homes: statement where rent/fees are fully paid and move-out items appear as 'Security Deposit Deduction'; vendor invoices back individual items. Folder can include tenant-side evidence (tenant-paid carpet receipts, utility portal screenshots) that must not be added.",
+  "Lease addendum waived-deposit amounts can disagree with sheet Max Benefit (754, 952: $1,200 vs 1500; 1013: $4,400 vs 4500); the sheet value appears to be what adjusters capped at.",
+  "Sheet lease dates can be wrong (1013 shows 2022-10-01..2024-11-30 while the lease is 10/1/2024..9/30/2025); prefer document dates when judging rent-after-lease-end.",
+  "Tenant-contact screenshots (Excalibur) are PII-only and carry no claim data.",
+  "When Max Benefit binds (303, 754, 627), the exclusions cannot be validated; such claims are weak evidence for category rules."
+ ]
+}

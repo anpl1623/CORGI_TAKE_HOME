@@ -1,0 +1,250 @@
+{
+ "tracking": 888,
+ "winning_document": "Daley A207 Move Out Statement.pdf",
+ "pm_stated_amount_due": 1230,
+ "reconciliation": "sum(open lines) 100.00+17.00+33.00+30.00+900.00+25.00+125.00 = 1230.00; credits 0.00 additional (800.00 prior credit already netted into the August lines); equals PM stated 1230.00 (statement, SDI, 9/6/2024 letter).",
+ "documents": [
+  {
+   "file": "Daley A207 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc; shows balance as of 8/1/2024 of (800.00) credit then Aug charges plus Sept move-out charges = 1,230.00."
+  },
+  {
+   "file": "Daley A207 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Current ledger balance 180 + Future Month's Rent 900 + cleaning 125 + drip pans 25 = 1230; Notice Date written 'SKIP'."
+  },
+  {
+   "file": "Daley A207 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 1230.00; Hunter Warfield collections threatened."
+  },
+  {
+   "file": "Daley A207 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Used to split the 180.00 current balance (oldest-first allocation of the 800 credit) and for first-month history."
+  },
+  {
+   "file": "Daley A207 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Digest excerpt sufficient: rent 900, prorated 480, 30 day notice else month-to-month, reletting charge 250, no deposit amount filled."
+  },
+  {
+   "file": "Daley A207 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-30",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Renters insurance YES $17/mo; Security Deposit Waiver YES $33/mo, waives deposit equal to one month's rent."
+  },
+  {
+   "file": "NPL DD Authorization Fom.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Classified from file name; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 900,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-09-15",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2023-09-15",
+  "current_term_end": "2024-08-31",
+  "initial_term_months": 11.5,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 11 Early Move-Out: reletting charge 250.00 if notice not given or moves out before term/renewal ends; para 3: 30 days written notice else auto month-to-month.",
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 17
+   },
+   {
+    "name": "Security Deposit Protection (waiver fee)",
+    "amount": 33
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 1230,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-05"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (08/2024) - open remainder after the 800.00 prior credit is applied oldest-first to the 900.00 charge",
+   "category": "rent_in_term",
+   "amount_charged": 900,
+   "amount_open": 100,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Renters Insurance (08/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 17,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Security Deposit Protection (08/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Late Charge (08/06/2024)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Future Months Rent - September 2024 (after 8/31/2024 lease end; notice 8/27/2024 vs 30 days required; SDI Notice Date 'SKIP')",
+   "category": "rent_after_lease_end",
+   "amount_charged": 900,
+   "amount_open": 900,
+   "date_posted": "2024-09-06",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "4 stove drip pans",
+   "category": "appliance",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Cleaning - charge to tenant",
+   "category": "cleaning",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Daley A207 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit balance (800.00) carried into August 2024 per statement 'Balance as of 8/01/2024'; already netted in the August rent line (900 charged, 100 open)",
+   "amount": 800,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true,
+   "source_file": "Daley A207 Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "no_policy_evidence": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "mixed_pet_nonpet_line": false,
+  "flooring_without_support": false
+ },
+ "evidence": [],
+ "notes": "Ledger shows chronic arrears (balance 5,935.74 on 6/1/2024) cleared by a single 7,685.74 check on 6/5/2024, leaving a 1,750 credit; July charges consumed 950, leaving the 800 credit used above. The 180.00 'Current Ledger Balance' on the SDI was split oldest-first into Aug rent 100 + renters insurance 17 + SDP 33 + late fee 30. SDI Notice Date reads 'SKIP' while the statement shows notice 8/27/2024 and move-out equals lease end 8/31/2024, so termination is recorded as end_of_term. Co-signer Holly Williams on SDI. No collection fees.",
+ "extraction_confidence": 0.86,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a79e46a43e2439838"
+ }
+}

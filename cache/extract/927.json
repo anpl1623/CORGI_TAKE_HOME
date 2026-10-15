@@ -1,0 +1,167 @@
+{
+ "tracking": 927,
+ "winning_document": "7329E28thPlace_102824_StatementofAccounting_Mayahi.pdf",
+ "pm_stated_amount_due": 1431,
+ "extraction_confidence": 0.93,
+ "documents": [
+  {
+   "file": "7329 _3_Lease_Renewal_Addendum_-_rev_073021_(1)_(07-07-2023_-_07-07-2023).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-07-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Renewal 10/11/2023-10/11/2024 at 2200/month; lease-break fee 1000 plus two times monthly rent; MTM at 120% of rent."
+  },
+  {
+   "file": "7329 _3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(10-13-2022_-_10-13-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-10-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original lease 10/24/2022-10/10/2023; no security deposit option; RBP 29 and pet fee 25/month."
+  },
+  {
+   "file": "7329 _Security_Deposit_Waiver_Addendum1_(10-13-2022_-_10-13-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-13",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES: 58.00/month in lieu of 3,300.00 deposit."
+  },
+  {
+   "file": "7329 _tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first. Three Unpaid Charges posted 10/28/2024 = 1431.00; all other rows Paid Charge. Oct rent 780.65 paid."
+  },
+  {
+   "file": "7329E28thPlace_102824_StatementofAccounting_Mayahi.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Winning document. Blue Fox Statement of Accounting 10/28/24: Repair 393, Cleaning 608, Landscaping 430 = 1431 due from resident. Scan also contains the three vendor invoices and an envelope; invoices equal the statement lines (not additive)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2200,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3300,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 58,
+  "recurring_addons": [
+   {
+    "name": "No Security Deposit Option monthly fee (RIS)",
+    "amount": 58
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   },
+   {
+    "name": "Monthly pet fee",
+    "amount": 25
+   }
+  ],
+  "lease_start": "2022-10-24",
+  "lease_end": "2024-10-11",
+  "current_term_start": "2023-10-11",
+  "current_term_end": "2024-10-11",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Renewal addendum: tenant may terminate by paying 1,000 lease break/re-renting fee plus a fee equal to two times monthly rent. Unauthorized holdover/MTM at 120% of rent."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-10",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-12",
+  "balance_due": 1431,
+  "first_full_month": "2022-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-21"
+ },
+ "line_items": [
+  {
+   "description": "Repair: Duke & Sons invoice 1940 (light bulbs, door trim bedroom 4, kitchen light fixture, move-out trip fee 65); statement line 'Repair'",
+   "category": "repairs_damage",
+   "amount_charged": 393,
+   "amount_open": 393,
+   "date_posted": "2024-10-28",
+   "source_file": "7329E28thPlace_102824_StatementofAccounting_Mayahi.pdf",
+   "source_page": 1,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning: Tony and Tonie's move-out cleaning invoice 1281 (1520 sq ft x 0.40)",
+   "category": "cleaning",
+   "amount_charged": 608,
+   "amount_open": 608,
+   "date_posted": "2024-10-28",
+   "source_file": "7329E28thPlace_102824_StatementofAccounting_Mayahi.pdf",
+   "source_page": 1,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.92
+  },
+  {
+   "description": "Landscaping: Jay Landscaping invoice INV0379 (front/side clean-up 300 + weed spraying 130)",
+   "category": "landscaping_lawn",
+   "amount_charged": 430,
+   "amount_open": 430,
+   "date_posted": "2024-10-28",
+   "source_file": "7329E28thPlace_102824_StatementofAccounting_Mayahi.pdf",
+   "source_page": 1,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.92
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "sum(open lines)=393+608+430=1431.00; credits 0; equals PM stated 1431.00 and ledger balance 1431.00 (3 Unpaid Charges).",
+ "notes": "Move-out 10/10/2024, one day before renewal term end 10/11/2024, so end of term. October prorated rent 780.65 (10/01-10/11) is Paid Charge, not open. Tenant had a pet (25/month pet fee) but no charge is pet-related. Trip fee 65 is part of the Duke & Sons repair invoice and is kept inside the Repair line. Ledger charges post 10/28/2024, matching the statement; no deposit held, no credits.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a88bf4479d7fe1e81"
+ }
+}

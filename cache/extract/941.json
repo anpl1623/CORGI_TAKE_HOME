@@ -1,0 +1,260 @@
+{
+ "tracking": 941,
+ "winning_document": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf (TXR-2216, signed 11/01/24, balance 5,620.13)",
+ "documents": [
+  {
+   "file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Balance after deductions 5,620.13; move-out 10/04/24"
+  },
+  {
+   "file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Used to split itemization lines; balance 5,620.13 agrees"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1700,
+  "lease_start": "2022-08-31",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-04",
+  "termination": "eviction",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": 34
+ },
+ "line_items": [
+  {
+   "description": "Move-out repairs: doors, blinds, walls, cabinets",
+   "category": "repairs_damage",
+   "amount_charged": 1597,
+   "amount_open": 1597,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Repair broken backflow",
+   "category": "repairs_damage",
+   "amount_charged": 195,
+   "amount_open": 195,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Carpet stains",
+   "category": "carpet_cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_charged": 487.13,
+   "amount_open": 487.13,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace missing or burned-out light bulbs",
+   "category": "other_damage",
+   "amount_charged": 61,
+   "amount_open": 61,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Yard work, trash, wasp nests (unsplit)",
+   "category": "landscaping_lawn",
+   "amount_charged": 179,
+   "amount_open": 179,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Temporary electric and water, move-out",
+   "category": "utilities",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "September 2024 rent, after lease end",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1700,
+   "amount_open": 1700,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Month-to-month fee, September 2024",
+   "category": "rent_after_lease_end",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Late fee, September 2024",
+   "category": "late_fee",
+   "amount_charged": 216,
+   "amount_open": 216,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-04",
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Posting fee, unpaid September rent",
+   "category": "late_fee",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-04",
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Eviction preparation, filing and court fees",
+   "category": "eviction_legal_court",
+   "amount_charged": 454,
+   "amount_open": 454,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-10",
+   "source_file": "2101 Indian Camp - Perez - Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Fee in lieu of security deposit, September",
+   "category": "sdrp_premium",
+   "amount_charged": 51,
+   "amount_open": 51,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-01",
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "SecondNature resident benefit, September",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-01",
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "AssetProtect fee, September",
+   "category": "other_fee",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-01",
+   "source_file": "2101 Indian Camp - Perez - Ledger RV.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 5620.13,
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 5620.13,
+  "last_payment_date": "2024-08-05",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Sum of 15 open lines = 5,620.13; credits 0.00; PM itemization balance (5,620.13). Difference 0.00.",
+ "notes": "Winner is the TXR-2216 itemization signed 11/01/24 (move-out 10/04/24; ledger says 9/30/24). Itemization line 1 (1,992) is split using the ledger: general repairs 1,597, backflow 195, carpet stains 200. Line 19 (410) is ledger fees 231 plus 179 of unsplit yard, trash and wasp work. Ledger rent header shows 1,800 but 2024 charges are 1,700; sheet used. Balance was 0 after the 08/05/24 payment. Carpet-stain cause is not stated, so pet_related is false, though the ledger has unauthorized-animal fees in Jan and May 2024. Eviction judgment scan and lease not opened (lite mode).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

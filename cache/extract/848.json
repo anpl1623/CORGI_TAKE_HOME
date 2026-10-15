@@ -1,0 +1,127 @@
+{
+ "tracking": 848,
+ "documents": [
+  {
+   "file": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-09-27",
+   "note": "Itemization letter, formal demand 4666.85; winning document",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "1744 Emerald Edge - Ledger - Pacheco Garcia.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-07",
+   "note": "Balance 4666.85 agrees; shows 2050 PTP pull reversed 10-01",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2050,
+  "lease_start": "2023-08-29",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-09-03",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 3,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-07",
+  "balance_due": 4666.85,
+  "last_payment_date": "2024-07-30",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "line_items": [
+  {
+   "description": "Make-ready lump: maid, repairs, paint, microwave, carpet clean, item removal",
+   "category": "repairs_damage",
+   "amount_charged": 4486.85,
+   "amount_open": 4486.85,
+   "date_posted": "2024-09-27",
+   "confidence": 0.4,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf"
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-09-27",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf"
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-27",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf"
+  },
+  {
+   "description": "NSF fee on returned payment",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-10-01",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 4666.85,
+ "winning_document": "1744 Emerald Edge - Itemization - Pacheco Garcia.pdf",
+ "reconciliation": "Open lines 4666.85 (make-ready 4486.85 + itemization fee 45.00 + maintenance fee 50.00 + NSF 85.00) minus credits 0.00 equals PM demand 4666.85. Ledger 95.00 itemization fee equals 45 + 50. The 2050.00 PTP pull on 09-27 was reversed 10-01, so no credit.",
+ "notes": "Make-ready 4486.85 is one lump with mixed items and no sub-amounts; category is a low-confidence judgment. Holdover 09-01 to 09-03 billed no rent. Ledger PTP wording is a PM ACH pull, not a payment arrangement. Move-out photo report (21 pp) and applications not opened (lite mode).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa69d676c477787bc"
+ }
+}

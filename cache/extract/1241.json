@@ -1,0 +1,227 @@
+{
+ "tracking": 1241,
+ "documents": [
+  {
+   "file": "104_FISHERS_MILL_DR_-_SDT_-_BERRY_FINALIZED.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": true,
+   "doc_date": "2025-03-26",
+   "note": "PURE Security Deposit Transmittal dated 2025-03-12, FINALIZED 2025-03-26; winning accounting doc. Total deductions 12,291.00, balance due to owner. Lumps March-June charges (11,691.00) which I split from the ledger."
+  },
+  {
+   "file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "doc_date": "2025-03-26",
+   "note": "Propertyware ledger, newest-first, 8 pages, as of 03/26/2025 balance 12,291.00; used to split the SDT lump into rent / SDWP / RBP and Damage Fees 600."
+  },
+  {
+   "file": "104_Fishers_Mill_Dr_2024_Lease_Renewal_Berry (1).pdf",
+   "doc_type": "renewal_lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "doc_date": "2024-05-13",
+   "note": "Current term 2024-07-01 to 2025-06-30, rent 2,895.00, deposit 0.00, SD Waiver addendum $72/mo waiving 2,895.00, RBP Plan A $39/mo, early termination clause. Read via pdftotext."
+  },
+  {
+   "file": "104_Fishers_Mill_Drive__2023_Lease_Renewal_Be (1).pdf",
+   "doc_type": "renewal_lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "doc_date": "2023-07-01",
+   "note": "Prior term 2023-07-01 to 2024-06-30, rent 2,800.00; superseded by 2024 renewal."
+  },
+  {
+   "file": "104_Fishers_Mill_Drive__2023_Lease_Renewal_Be (1).zip",
+   "doc_type": "other",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "doc_date": null,
+   "note": "Zip containing byte-identical copies of the ledger, SDT and the two renewal leases (same file sizes); ignored as duplicate."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2895,
+  "sd_program": "sdrp",
+  "lease_start": "2024-07-01",
+  "lease_end": "2025-06-30",
+  "current_term_start": "2024-07-01",
+  "current_term_end": "2025-06-30",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2895,
+  "monthly_sd_premium": 72,
+  "lease_break_terms": "Early termination: 60 days notice; pay rent due plus liquidated damages of 50% of rent that would have been owed through lease end, plus $500 early termination admin fee, due within 30 days of notice.",
+  "recurring_addons": [
+   {
+    "name": "SDWP fee (Security Deposit Waiver, acct 4437)",
+    "amount": 72
+   },
+   {
+    "name": "RBP with Ins (Resident Benefit Package Plan A, acct 4438)",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2025-03-07",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "March 2025 rent (acct 4000, posted 03/01/2025); tenant returned keys 03/07/2025 but PM billed the full month",
+   "category": "rent_in_term",
+   "amount_charged": 2895,
+   "amount_open": 2895,
+   "date_posted": "2025-03-01",
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "April 2025 rent (acct 4000, posted 03/12/2025) - after move-out, within lease term",
+   "category": "rent_after_move_out",
+   "amount_charged": 2895,
+   "amount_open": 2895,
+   "date_posted": "2025-03-12",
+   "service_period_start": "2025-04-01",
+   "service_period_end": "2025-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "May 2025 rent (acct 4000, posted 03/12/2025) - after move-out, within lease term",
+   "category": "rent_after_move_out",
+   "amount_charged": 2895,
+   "amount_open": 2895,
+   "date_posted": "2025-03-12",
+   "service_period_start": "2025-05-01",
+   "service_period_end": "2025-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "June 2025 rent (acct 4000, posted 03/12/2025) - after move-out, final month of lease term",
+   "category": "rent_after_move_out",
+   "amount_charged": 2895,
+   "amount_open": 2895,
+   "date_posted": "2025-03-12",
+   "service_period_start": "2025-06-01",
+   "service_period_end": "2025-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "March 2025 SDWP fee (acct 4437) - security deposit waiver premium",
+   "category": "sdrp_premium",
+   "amount_charged": 72,
+   "amount_open": 72,
+   "date_posted": "2025-03-01",
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "March 2025 RBP with Ins (acct 4438) - resident benefit package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2025-03-01",
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104 FISHERS MILL_TENANT LEDGER.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Steam clean carpet (part of Damage Fees 600.00 posted 03/25/2025)",
+   "category": "carpet_cleaning",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "date_posted": "2025-03-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104_FISHERS_MILL_DR_-_SDT_-_BERRY_FINALIZED.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning (part of Damage Fees 600.00 posted 03/25/2025)",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2025-03-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "104_FISHERS_MILL_DR_-_SDT_-_BERRY_FINALIZED.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 12291,
+ "winning_document": "104_FISHERS_MILL_DR_-_SDT_-_BERRY_FINALIZED.pdf",
+ "reconciliation": "Sum of open lines 12,291.00 (4 x 2,895.00 rent + 72.00 SDWP + 39.00 RBP + 400.00 carpet + 200.00 cleaning) - 0.00 credits = 12,291.00; equals PM SDT balance due 12,291.00 and ledger balance 12,291.00 (SDT lump 11,691.00 split via ledger).",
+ "notes": "Long-time resident on successive renewals (ledger history from 04/2023); current term 07/01/2024-06/30/2025. Notice given 02/04/2025, keys returned 03/07/2025 (per SDT), rent paid through 02/28/2025; tenant left about 3.7 months early. PM billed all remaining rent (Mar-Jun) rather than the lease clause 50 percent liquidated damages plus $500 admin fee. SDT 'Move Out Date: June 30, 2025' is the lease end, not the actual vacate date; sheet move-out 2025-03-07 matches keys-returned date. No cash deposit (SDT: Security Deposit Replacement Program $0.00; addendum titled Security Deposit Waiver, $72/mo, ledger acct 'SDWP Fee'). SDWP billing starts on ledger 03/01/2024, so first_full_month for the policy is 2024-03 (paid in full 03/06/2024, no bounce); an unrelated NSF occurred 08/2023 before the policy. March rent kept as one PM-billed line covering 03/01-03/31 (tenant vacated 03/07). No payments, concessions or credits after 02/05/2025. No pets, no eviction, no late fees, no vendor invoices.",
+ "ledger": {
+  "as_of_date": "2025-03-26",
+  "balance_due": 12291,
+  "first_full_month": "2024-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2025-02-05"
+ },
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "aef5ae502d63a5ce5"
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "tracking": 807,
+ "winning_document": "Raymond Move out Letter.pdf",
+ "pm_stated_amount_due": 2091,
+ "extraction_confidence": 0.88,
+ "documents": [
+  {
+   "file": "Raymond Move out Letter.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Park Place Move Out Statement / 45-Day Letter: lawn 75 + cleaning 1,176 + trash out 840 = 2,091.00; credits 0; undated."
+  },
+  {
+   "file": "Raymond Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Newest-first; ledger starts 12-26-2023. Balance 0 after 07-02-2024 payment; open charges 840, 75, 1,176 plus a 50.00 storm door charge posted 08-01-2024 that is not in the statement; ledger balance 2,141.00."
+  },
+  {
+   "file": "Raymond Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-22",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Resolute Realty invoice 664 billed to owner Max Bolin, 2,560.00 PAID IN FULL: debris removal 840 (TENANT), new storm door 469, cleaning 1,176 (TENANT), lawn 75. Backs statement lines; not counted separately."
+  },
+  {
+   "file": "1622 E Raymond Lease 2023.2024.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Digest excerpt sufficient: term 06/29/2023-06/28/2024, rent 1,600, deposit 3,200 or Option 1 waiver fee 81/month, early termination fee 3x rent."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1600,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-06-28",
+  "current_term_start": "2023-06-29",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Early termination fee 3x monthly rent or as agreed in writing; tenant early-termination right requires 60 days notice, payment of all monies due, forfeiture of deposits and 250 admin fee. Not triggered.",
+  "lease_end": "2024-06-28",
+  "lease_start": "2023-06-29",
+  "monthly_sd_premium": 81,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver Fee",
+    "amount": 81
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 46
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 3200
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 2,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Trash out property after tenant move out (general debris removal, TENANT, invoice 664)",
+   "category": "trash_removal",
+   "amount_charged": 840,
+   "amount_open": 840,
+   "date_posted": "2024-07-17",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Raymond Move out Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Clean up overgrown lawn (invoice 664)",
+   "category": "landscaping_lawn",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-08-01",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Raymond Move out Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Full house clean including windows, blinds, appliances (TENANT, invoice 664)",
+   "category": "cleaning",
+   "amount_charged": 1176,
+   "amount_open": 1176,
+   "date_posted": "2024-08-01",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Raymond Move out Letter.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Ledger-only: partial charge for replacing damaged storm door, replace broken door handle (invoice 664 storm door 469 billed to owner). NOT in the move-out statement; excluded from open amount per letter-wins rule",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 0,
+   "date_posted": "2024-08-01",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Raymond Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.4
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-09-12",
+  "balance_due": 2141,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-02"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "sum(open lines) 840+75+1,176 = 2,091.00 - credits 0 = 2,091.00 vs PM stated 2,091.00 (statement): match; ledger balance 2,141.00 is 50.00 higher because of the ledger-only storm door charge (included at amount_open 0).",
+ "notes": "Statement is the winning document; it totals 2,091.00 and omits the 50.00 storm door charge that the ledger posted on 08-01-2024, so the lower statement wins and the 50 is carried at amount_open 0 for visibility. Invoice 664 is billed to the owner and shows PAID IN FULL; its 469.00 new storm door is not tenant-charged beyond the 50 partial. Statement and ledger give move-out 06-30-2024 (sheet says 06-28-2024); lease ended 06-28-2024, notice given 05-16-2024, and a 1-day prorated July rent charge of 51.63 was posted and paid on 07-02-2024 (no open rent). Ledger begins 12-26-2023, so first-month history is unavailable. Lease lists pets allowed with 50/month pet fee but none appears on the ledger; no pet-related charges. SD waiver Option 1 (81/month) selected per ledger fee, so no cash deposit credit.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a494229859b1afb21"
+ }
+}

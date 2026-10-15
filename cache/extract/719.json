@@ -1,0 +1,341 @@
+{
+ "tracking": 719,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "PM disposition letter, balance 11,515.00 (winning)"
+  },
+  {
+   "file": "tenant_ledger-anthony_k_hall-20240815.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Confirms total 11,515; used for rent/fee split and reversal netting"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1550,
+  "lease_start": "2023-09-14",
+  "lease_end": "2024-09-13",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "RBP",
+    "amount": 39
+   },
+   {
+    "name": "SDRP",
+    "amount": 35
+   }
+  ],
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-15",
+  "balance_due": 11515,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "move_out": {
+  "move_out_date": "2024-06-24",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "January 2024 rent (open after payments)",
+   "category": "rent_in_term",
+   "amount_open": 1368,
+   "amount_charged": 1550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "January 2024 RBP fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "January 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee January 2024",
+   "category": "late_fee",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "February 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "February 2024 RBP fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "February 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee February 2024",
+   "category": "late_fee",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "March 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "April 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "April 2024 RBP fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "April 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee April 2024",
+   "category": "late_fee",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 RBP fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "May 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee May 2024",
+   "category": "late_fee",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Eviction costs charged to resident",
+   "category": "eviction_legal_court",
+   "amount_open": 1275,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 rent (moved out 6/24)",
+   "category": "rent_in_term",
+   "amount_open": 1550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "June 2024 RBP fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 SDRP fee",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee June 2024",
+   "category": "late_fee",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Debris removal",
+   "category": "trash_removal",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting",
+   "category": "painting",
+   "amount_open": 800,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Professional clean",
+   "category": "cleaning",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace damaged blinds",
+   "category": "repairs_damage",
+   "amount_open": 42,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 11515,
+ "reconciliation": "Open lines 11,515.00 minus credits 0.00 equals PM stated 11,515.00; statement amounts already net of allocated payments and NSF reversals (January rent open 1,368 vs 1,550 charged).",
+ "winning_document": "deposit_disposition_amount_due_anthony_k_hall_081424.pdf (08/14/2024 PM disposition letter)",
+ "notes": "Statement lines are the claim; ledger confirms total 11,515 and gives the rent/fee split. No March rent is open, only the March SDRP fee of 35. Eviction costs 1,275 posted 5/29/2024. Lease not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab1b0b175bb67a7c2"
+ }
+}

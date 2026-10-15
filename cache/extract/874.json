@@ -1,0 +1,240 @@
+{
+ "tracking": 874,
+ "winning_document": "Davis 12 SDI.pdf",
+ "pm_stated_amount_due": 1165,
+ "reconciliation": "Sum of open lines 1165.00 (785 + 17 + 33 + 30 + 250 + 50) minus 0.00 credits = 1165.00, equal to the PM's stated 1,165.00 (statement 9/26, revised SDI, letter all agree).",
+ "documents": [
+  {
+   "file": "Davis 12 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Marked 'Revised' Perry Reid SDI: Current Ledger Balance 1,115.00 + carpet cleaning 50.00 = 1,165.00 due; Reletting Fee and Future Month's Rent lines blank (the 250 is inside the ledger balance)."
+  },
+  {
+   "file": "Davis 12 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Line detail from 9/01/2024 balance 0.00 to 1,165.00."
+  },
+  {
+   "file": "Davis 12 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM letter: balance due 1,165.00, 10 days before Hunter Warfield collections."
+  },
+  {
+   "file": "Davis 12 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger; zero balance at 9/1/2024; open charges are the Sept rows, early termination fee and carpet cleaning; balance 1,165.00."
+  },
+  {
+   "file": "Davis 12 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-11-22",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "38-page NAA lease 12/22/2023-11/30/2024, SD $0.00, late fee $30, reletting $250; special provisions text read: $50 carpet cleaning retained, 30-day notice rule, $250 re-letting charge for not completing lease. Read via text layer, not opened visually (facts already clear)."
+  },
+  {
+   "file": "Davis 12 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-11-22",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid addendum: Renters Insurance YES $17/mo; Security Deposit Waiver YES $33/mo."
+  },
+  {
+   "file": "MCK DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit authorization form; ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 785,
+  "lease_start": "2023-12-22",
+  "lease_end": "2024-11-30",
+  "current_term_start": "2023-12-22",
+  "current_term_end": "2024-11-30",
+  "initial_term_months": 11.3,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "waived_deposit_amount": 785,
+  "cash_deposit_amount": 0,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 17
+   }
+  ],
+  "lease_break_terms": "Para 11 and special provisions: $250 re-letting charge for not completing the lease (early move-out without proper notice / unpaid rent for full term / eviction); not a release from rent. $50 flat carpet cleaning retained from deposit per special provisions. 30-day written notice must be received by last day of the month prior to final full calendar month. Late fee $30 flat; returned payment $20."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-17",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (09/2024): PM charged full month; tenant moved out 9/17/2024 so 9/18-9/30 (13 days) falls after move-out within the lease term",
+   "category": "rent_in_term",
+   "amount_charged": 785,
+   "amount_open": 785,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters Insurance (09/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 17,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Security Deposit Protection (09/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Charge Sept Late fees (posted 9/6/2024)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Early Termination Fee (posted 9/12/2024, ledger code 'relet'; lease special provisions call this the $250 re-letting charge for not completing the lease)",
+   "category": "lease_break_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-09-12",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Carpet Cleaning (flat $50 stipulated in lease special provisions; SDI 'Carpet/Floor Cleaning')",
+   "category": "carpet_cleaning",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Davis 12 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 1165,
+  "first_full_month": "2024-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Davis 12 Lease.pdf",
+   "flag": "reletting_basis",
+   "quote": "There is a re-letting charge of $250 for not completing your Lease. See paragraph 11."
+  },
+  {
+   "file": "Davis 12 SDI.pdf",
+   "flag": "revised_doc",
+   "quote": "Revised Security Deposit Itemization - Move Out"
+  }
+ ],
+ "extraction_confidence": 0.9,
+ "notes": "Sheet facts match the documents (rent 785, lease 12/22/2023-11/30/2024, Policy 27236R, Max Benefit 1500). Tenant gave notice 9/12/2024 and moved out 9/17/2024, 74 days before lease end; PM billed only September rent (full month, straddles move-out), fees, a 250 early termination fee and 50 carpet cleaning, and no Oct/Nov rent. Early Termination Fee classified lease_break_fee from the PM's label; its basis is the lease's $250 re-letting charge (ledger code 'relet'), so reletting_fee is the alternative. Garage rent was charged and reversed in Jan 2024 (net zero, not recurring). Tenant paid every month in full through 8/1/2024 by credit card.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a7a4728647c179527"
+ }
+}

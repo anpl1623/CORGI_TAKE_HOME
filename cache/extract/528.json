@@ -1,0 +1,206 @@
+{
+ "tracking": 528,
+ "winning_document": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+ "pm_stated_amount_due": 1195,
+ "documents": [
+  {
+   "file": "5995 S Hoptree Place_tenantledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware newest-first ledger; 3 unpaid 04/02/2024 move-out charges (490, 630, 75) = 1,195 balance; history otherwise paid"
+  },
+  {
+   "file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-03",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting (prepared 3/28/2024, mailed 4/3/2024), 6 pages: statement + landscaping invoice 75, repair invoice 630, cleaning vendor message and Tucker invoice 690 (owner 200 / tenant 490), envelope"
+  },
+  {
+   "file": "5995_3_Lease_Renewal_Addendum_-_rev_073021_(1)_(08-28-2023_-_08-28-2023)-1.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-08-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "renewal term 09/13/2023-03/12/2024 at 2,695; lease-break terms; MTM at 120%"
+  },
+  {
+   "file": "5995_3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(08-29-2022_-_08-29-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-08-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "original lease from 09/09/2022; no security deposit option; RBP 29; pet fee 25/month"
+  },
+  {
+   "file": "5995_Security_Deposit_Waiver_Addendum1_(08-29-2022_-_08-29-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-08-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES: 72.00 per month, waived deposit 4,042.50"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2695,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 72,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 4042.5,
+  "lease_start": "2022-09-09",
+  "lease_end": "2024-03-12",
+  "current_term_start": "2023-09-13",
+  "current_term_end": "2024-03-12",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Tenant may terminate by paying 1,000 lease break/re-renting fee plus two times monthly rent, computed after possession is relinquished; MTM after expiry at 120% of rent",
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver / No Security Deposit Option monthly fee",
+    "amount": 72
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   },
+   {
+    "name": "Monthly pet fee",
+    "amount": 25
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-13",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 1,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Cleaning - tenant portion of Tucker Cleaning move-out cleaning invoice 690 (owner share 200 excluded); includes patio, haul away, garage",
+   "category": "cleaning",
+   "amount_charged": 490,
+   "amount_open": 490,
+   "date_posted": "2024-04-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Repairs - light bulbs (Red Valley Construction invoice line 1)",
+   "category": "repairs_damage",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2024-04-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs - secure rod and door stops (invoice line 2)",
+   "category": "repairs_damage",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-04-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repairs - touch up and repair screws (invoice line 3, likely paint touch-up and screw hole repair)",
+   "category": "painting",
+   "amount_charged": 550,
+   "amount_open": 550,
+   "date_posted": "2024-04-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "source_page": 3,
+   "confidence": 0.55
+  },
+  {
+   "description": "Landscaping - removed dead tree stump from front yard and hauled debris (Trophy Landscaping invoice)",
+   "category": "landscaping_lawn",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-04-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5995SHoptreePl_040324_StatementofAccounting_Snyder.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": false,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-04-15",
+  "balance_due": 1195,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-29"
+ },
+ "reconciliation": "sum(open lines)=490.00+65.00+15.00+550.00+75.00=1195.00; credits 0 (statement credits N/A, deposit held 0, prepayments 0); matches PM Statement of Accounting 1,195.00 and ledger balance 1,195.00",
+ "extraction_confidence": 0.9,
+ "notes": "Blue Fox claim, no-deposit waiver (72/month, 4,042.50 waived). Lease renewed to 03/12/2024; move-out 3/13/2024 is one day after lease end, March rent was prorated 12 days (1,043.23) and paid, no holdover charged. Statement unpaid rent, lease break and advertising fee are all 0. Repair invoice 630 split by invoice lines; the 550 'touch up and repair screws' line is categorized painting with moderate confidence. Cleaning invoice 690 was split by PM into owner 200 and tenant 490 with no line breakdown (vendor message lists 50 travel, 50 power wash, 65 haul away, 525 cleaning). Pet fee is charged monthly but no charge is pet related. The 5 and 6 page statement PDF embeds vendor invoices and a mailing envelope (4/3/2024).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a72e50c982a28a302"
+ }
+}

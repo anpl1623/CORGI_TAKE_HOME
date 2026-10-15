@@ -1,0 +1,262 @@
+{
+ "tracking": 873,
+ "winning_document": "Hunt C079 SDI.pdf",
+ "pm_stated_amount_due": 1138,
+ "reconciliation": "Sum of open lines 1138.00 (33 rent + 2 MTM premium + 1 insurance + 1 SDP + 1 utility + 1,100 carpet) minus 0.00 additional credits (the 1,105.00 proration credit is already netted into the Sept line amounts) = 1138.00, equal to PM's stated 1,138.00 (SDI: ledger balance 1,143 - 1,105 credits = 38 + 1,100).",
+ "documents": [
+  {
+   "file": "Hunt C079 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Perry Reid SDI: Current Ledger Balance 1,143.00, Pro-Rated Credits (1,105.00) = 38.00; Flooring Replacement 'Carpet replacement due to pet urine' 1,100.00; total 1,138.00 due; Security Deposit '-'."
+  },
+  {
+   "file": "Hunt C079 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "September charges, 29-day credits per line, and carpet line; total 1,138.00; notice 8/1/2024."
+  },
+  {
+   "file": "Hunt C079 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM letter: balance due 1,138.00 to The Lodge Apartments Holdings, LLC, 10 days before collections."
+  },
+  {
+   "file": "Hunt C079 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger; used for MTM rent history (1,008 + 50 MTM from May 2024), first full month and the per-line 9/9 proration credits; balance 1,138.00."
+  },
+  {
+   "file": "Hunt C079 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-05-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Image-only 9-page NAA lease: 5/12/2023-4/30/2024, rent 980, SD $0.00, reletting charge $250, auto month-to-month renewal; special provisions: eco fee for water/sewer/refuse/storm water; no animal addendum in the lease."
+  },
+  {
+   "file": "Hunt C079 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-05-09",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Perry Reid addendum: Renters Insurance YES $17/mo; Security Deposit Waiver YES $33/mo."
+  },
+  {
+   "file": "LOD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit authorization form; ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 980,
+  "lease_start": "2023-05-12",
+  "lease_end": "2024-04-30",
+  "current_term_start": "2024-05-01",
+  "current_term_end": null,
+  "initial_term_months": 11.6,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "waived_deposit_amount": 980,
+  "cash_deposit_amount": 0,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Renters Insurance (YRIG)",
+    "amount": 17
+   },
+   {
+    "name": "Utility Revenue / Eco Fee (water, sewer, refuse, storm water)",
+    "amount": 35
+   },
+   {
+    "name": "Month to Month premium (from May 2024)",
+    "amount": 50
+   }
+  ],
+  "lease_break_terms": "Para 11: $250 reletting charge for early move-out / no proper notice / unpaid rent for full term / eviction. 30-day written notice must be received before the first day of the month prior to the last full calendar month; same rule for month-to-month. Late fee $30 flat."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-01",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 124,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (09/2024): 1,008.00 charged less 975.00 credit (29 days) = 33.00 for 9/1 only (month-to-month tenancy after lease end 4/30/2024)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1008,
+   "amount_open": 33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-01",
+   "days_after_lease_end": 124,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Month to Month Rent premium (09/2024): 50.00 less 48.00 credit = 2.00 for 9/1",
+   "category": "rent_after_lease_end",
+   "amount_charged": 50,
+   "amount_open": 2,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-01",
+   "days_after_lease_end": 124,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters Insurance (09/2024): 17.00 less 16.00 credit = 1.00",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 1,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection (09/2024): 33.00 less 32.00 credit = 1.00",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 1,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue (09/2024) eco fee: 35.00 less 34.00 credit = 1.00",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 1,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet Replacement Due to Pet Urine (SDI Flooring Replacement); no invoice, photos or carpet age provided",
+   "category": "pet_damage_odor",
+   "amount_charged": 1100,
+   "amount_open": 1100,
+   "date_posted": "2024-09-09",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Hunt C079 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "PM pro-rated credits 9/9/2024 for 29 days after 9/1 move-out (rent 975, MTM 48, insurance 16, SDP 32, utility 34), already netted in the Sept line amounts above",
+   "amount": 1105,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "Hunt C079 SDI.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 1138,
+  "first_full_month": "2023-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-05"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Hunt C079 SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet replacement due to pet urine $1,100.00"
+  },
+  {
+   "file": "Hunt C079 Ledger.docx",
+   "flag": "no_pet_fee_on_ledger",
+   "quote": "no pet fee or pet rent rows; only Carpet Replacement Due to Pet Urine 1,100.00"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "notes": "Sheet facts match (rent 980, lease 5/12/2023-4/30/2024, move-out 9/1/2024, Policy 35160R, Max Benefit 1500). Lease expired 4/30/2024 and tenancy ran month-to-month at 1,008 rent + 50 MTM premium (ledger header Rent 1,058); base_monthly_rent reports the signed-lease 980. Tenant gave notice 8/1/2024 and moved out 9/1, so PM credited 29 of 30 days of Sept charges; the leftover one-day stub is 38.00 and is classed as month-to-month rent (124 days after lease end). The 1,100 carpet replacement is pet-caused (category could alternatively be flooring), has no invoice, photos, carpet age or inspection report in the folder, and the ledger shows no pet fee/pet rent and the lease has no animal addendum (possible unauthorized pet). Tenant paid every month through 8/5/2024; no payments after move-out.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a7a4728647c179527"
+ }
+}

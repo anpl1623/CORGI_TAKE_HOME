@@ -1,0 +1,405 @@
+{
+ "tracking": 973,
+ "winning_document": "Disposition Letter for Zilphia A. Peoples.pdf (09/27/2024), itemized 8,990.00; ledger 11/22/2024 adds three eviction legal chargebacks (760.00) posted 11/14/2024",
+ "documents": [
+  {
+   "file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-09-27",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning PM accounting doc; 17 itemized lines total 8,990.00 = amount due on letter"
+  },
+  {
+   "file": "tenant_ledger-zilphia_a_peoples-20241122.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-22",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Same 17 charges plus legal chargebacks 180/80/500 dated 11/14/2024; balance 9,750.00; 30.00 mailbox-key concession netted in July rent"
+  },
+  {
+   "file": "2024-09-10 15_05_08.865427+00_00-INVOICE 2848 - 625 Hadley Village Blvd Old Hickory, TN 37138.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "JDW Services general contractor per scope 1,400.00 for this property; no matching line on statement or ledger, so not added"
+  },
+  {
+   "file": "Perfect TENN -TB2FZMW.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice is for 2521 River Trail Drive, Hermitage TN (different property); excluded"
+  },
+  {
+   "file": "zilphia-a-peoples_05-16-2024.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-05-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Keyword excerpts: term 05/21/2024-05/20/2025, rent 1,795, holdover month-to-month at 115%, early termination 150% of one month rent"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1795,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package (RBP w/ Insurance)",
+    "amount": 39
+   },
+   {
+    "name": "Security Deposit Replacement Program (SDRP)",
+    "amount": 48
+   }
+  ],
+  "lease_start": "2024-05-21",
+  "lease_end": "2025-05-20",
+  "current_term_start": "2024-05-21",
+  "current_term_end": "2025-05-20",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease 2.1(f): early termination needs written permission, 45-day notice, fee 150% of one month rent plus 50% admin fee if within 9 months. 2.1(b): holdover becomes month-to-month at 115% of rent. Eviction admin fee 150 per addendum."
+ },
+ "move_out": {
+  "move_out_date": "2024-08-22",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-22",
+  "balance_due": 9750,
+  "first_full_month": "2024-07",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-05"
+ },
+ "line_items": [
+  {
+   "description": "July 2024 base rent, letter shows 1,765.00 (1,795.00 less 30.00 mailbox-key concession)",
+   "category": "rent_in_term",
+   "amount_charged": 1795,
+   "amount_open": 1765,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 Resident Benefit Package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 Security Deposit Replacement Program fee",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee for July 2024 (10% of 1,765)",
+   "category": "late_fee",
+   "amount_charged": 176.5,
+   "amount_open": 176.5,
+   "date_posted": "2024-07-06",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Eviction filing fee (administrative)",
+   "category": "eviction_legal_court",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "August 2024 base rent charged as full month; tenant vacated 08/22/2024, so 08/23-08/31 falls after move-out but inside lease term; PM did not prorate",
+   "category": "rent_in_term",
+   "amount_charged": 1795,
+   "amount_open": 1795,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "August 2024 Resident Benefit Package (full month charged)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "August 2024 Security Deposit Replacement Program fee (full month charged)",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee for August 2024 (10% of 1,795)",
+   "category": "late_fee",
+   "amount_charged": 179.5,
+   "amount_open": 179.5,
+   "date_posted": "2024-08-06",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance repairs (lump sum, no invoice in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Hauling (trash-out), lump sum, no invoice in folder",
+   "category": "trash_removal",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Painting, lump sum, no invoice for this property in folder",
+   "category": "painting",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Cleaning, lump sum, no invoice in folder",
+   "category": "cleaning",
+   "amount_charged": 450,
+   "amount_open": 450,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Carpet cleaning, lump sum, no invoice in folder",
+   "category": "carpet_cleaning",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Carpet/flooring replacement, no invoice, photos or scope in folder",
+   "category": "flooring",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Keys/remotes, lump sum",
+   "category": "keys_remotes",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "25% markup per lease terms (25% of the 3,800 of items above)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 950,
+   "amount_open": 950,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Zilphia A. Peoples.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Ledger-only tenant chargeback, legal invoice 3372155 (posted 11/14/2024, after letter, before claim date 11/21/2024)",
+   "category": "eviction_legal_court",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-11-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-zilphia_a_peoples-20241122.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Ledger-only tenant chargeback, legal invoice 3404628 (posted 11/14/2024)",
+   "category": "eviction_legal_court",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-11-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-zilphia_a_peoples-20241122.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Ledger-only tenant chargeback, legal invoice 3423819 (posted 11/14/2024)",
+   "category": "eviction_legal_court",
+   "amount_charged": 180,
+   "amount_open": 180,
+   "date_posted": "2024-11-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-zilphia_a_peoples-20241122.pdf",
+   "confidence": 0.6
+  }
+ ],
+ "credits": [
+  {
+   "description": "Mailbox key concession 06/10/2024 (-30.00), netted in July 2024 base rent line",
+   "amount": 30,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-zilphia_a_peoples-20241122.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Deposit Forfeit - carpet/flooring replacement 300.00 (09/27/2024)"
+  }
+ ],
+ "extraction_confidence": 0.65,
+ "pm_stated_amount_due": 8990,
+ "reconciliation": "Open line sum 9750.00 less credits 0.00 (30.00 concession already netted in July rent) vs PM stated 8990.00: difference 760.00 = three eviction legal chargebacks on ledger only, posted 11/14/2024 after the letter and before the 11/21/2024 claim date; included per rule 2. Excluding them ties to 8990.00 exactly.",
+ "notes": "Statement is the PM claim; the ledger's post-letter legal chargebacks are a judgment call (included as eviction_legal_court). Eviction filing 07/22/2024, move-out 08/22/2024; August rent charged as full month though tenant left 08/22. Sheet lease end 2025-05-22 conflicts with lease 05/20/2025 (used lease). Perfect TENN invoice TB2FZMW (3,465.82) is for 2521 River Trail Drive and was excluded; JDW 1,400 invoice not reflected on statement and not added. Max Benefit on sheet 2,000; not used.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a67b4a6fb7a3cfbba"
+ }
+}

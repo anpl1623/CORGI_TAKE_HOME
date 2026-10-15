@@ -1,0 +1,237 @@
+{
+ "tracking": 536,
+ "winning_document": "2414 Double Oak Dr - Itemization - Gomez Pena.pdf",
+ "pm_stated_amount_due": 1557.67,
+ "documents": [
+  {
+   "file": "2414 Double Oak Dr - Application - Angela Gomez.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name per efficiency rule"
+  },
+  {
+   "file": "2414 Double Oak Dr - Application - Christopher Gomez.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name"
+  },
+  {
+   "file": "2414 Double Oak Dr - Application - Yolanda Pena.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name"
+  },
+  {
+   "file": "2414 Double Oak Dr - Itemization - Gomez Pena.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-04-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentWerx 'Itemization of Move out Charges' with formal demand; total 1,557.67; balance-on-ledger 558.17 split using ledger"
+  },
+  {
+   "file": "2414 Double Oak Dr - Lease Mar2023-Feb2024 - Gomez Pena.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "page 1 viewed: move-in 10-Mar-2023, anniversary 29-Feb-2024, risk mitigation fee 2,500 non-refundable; auto month-to-month at rent +25%"
+  },
+  {
+   "file": "2414 Double Oak Dr - Ledger - Gomez Pena.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "newest-first RentWerx ledger; used to split balance-on-ledger into holdover rent and late fee"
+  },
+  {
+   "file": "2414 Double Oak Dr - Move Out Report - Gomez Pena.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-03-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "comments scanned only: mostly light cleaning, weeds, touch-up paint, missing doorstop; no pet/odor mention"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1700,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 33,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "lease_start": "2023-03-10",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2023-03-10",
+  "current_term_end": "2024-02-29",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Preferred Resident Program monthly fee (fee in lieu of deposit)",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 41
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-06",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 6,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready (lawn service, maid service, touch ups) - lumped, no sub-amounts given",
+   "category": "cleaning",
+   "amount_charged": 819.5,
+   "amount_open": 819.5,
+   "date_posted": "2024-04-03",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Itemization - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.45
+  },
+  {
+   "description": "Holdover rent 3/1/2024 - 3/5/2024 (month-to-month rate 125% = 2,125 prorated 5/30 days)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 354.17,
+   "amount_open": 354.17,
+   "date_posted": "2024-03-07",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-05",
+   "days_after_lease_end": 5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Ledger - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee on holdover rent",
+   "category": "late_fee",
+   "amount_charged": 204,
+   "amount_open": 204,
+   "date_posted": "2024-03-11",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Ledger - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-04-03",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Itemization - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Handling Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-04-03",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Itemization - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "NSF fee - returned payment (tenant chargeback on funds pulled by PM)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-04-10",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2414 Double Oak Dr - Ledger - Gomez Pena.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "2414 Double Oak Dr - Ledger - Gomez Pena.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant chargeback on PTP funds pulled (Gomez $1472.67) in violation of lease agreement"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-04-23",
+  "balance_due": 1557.67,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-04"
+ },
+ "reconciliation": "sum(open lines)=819.50+354.17+204.00+45.00+50.00+85.00=1557.67; credits 0 (PM pulled 1,472.67 on 04-03-2024 but tenant charged it back 04-10-2024, net zero); matches PM demand 1,557.67 and ledger balance 1,557.67",
+ "extraction_confidence": 0.85,
+ "notes": "RentWerx claim. Holdover: lease ended 2/29/2024, tenant left 3/6/2024; PM billed holdover rent 3/1-3/5 at month-to-month rate (rent +25% per lease clause) and a 204 late fee (12% of rent). Letter's 'Balance on Ledger 558.17' = holdover 354.17 + late fee 204.00. Make Ready 819.50 lumps lawn service, maid service and touch-up paint with no sub-amounts and no vendor invoices in folder; categorized as cleaning (dominant per move-out report) with low confidence. Ledger itemization fee 95 = letter's 45 itemization + 50 maintenance handling. Lease shows a 2,500 non-refundable Risk Mitigation Fee paid at move-in (retained by PM, not a refundable deposit); deposit balance 0. Earlier owner credits (150 fans/curtains, 100 blinds) were applied in 2023 and are not part of the move-out claim. Unclear whether the Preferred Resident Program is Corgi SDRP vs another provider (applications mention Obligo) - not flagged as other_provider because the sheet carries a policy number.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a72e50c982a28a302"
+ }
+}

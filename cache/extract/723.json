@@ -1,0 +1,297 @@
+{
+ "tracking": 723,
+ "winning_document": "Cervantes final statement.pdf",
+ "pm_stated_amount_due": 1470.46,
+ "documents": [
+  {
+   "file": "Cervantes final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Final account statement $1,470.46; winning doc"
+  },
+  {
+   "file": "Cervantes collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for $1,470.46; same total as statement"
+  },
+  {
+   "file": "Cervantes ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager oldest-first; July 2024 charges identical to final statement; used for payment history"
+  },
+  {
+   "file": "Cervantes ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program, $45 monthly in lieu of deposit"
+  },
+  {
+   "file": "Cervantes lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-23",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rent 1,145; 12-month fixed term to 6/30/2024 then month-to-month; $0 deposit"
+  },
+  {
+   "file": "Cervantes invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-16",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Mach1 invoice 6306 total $366.00 headed 'Work Order #16074 OWNER' (caulk tub, remove bifold doors, screen repair, gate latch, garbage disposal 225); pages 3-4 duplicate pages 1-2; does not match statement repair line 626.25"
+  },
+  {
+   "file": "Cervantes invoice painting.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-22",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Tona invoice 1312 $105 (walls touch-up 45; baseboard trim after new flooring 60); PM billed 73.50"
+  },
+  {
+   "file": "Cervantes invoice gas utility.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-11",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Intermountain Gas 7/2-7/10/24: 3.15 usage + 14.00 account initiation = 17.15; matches statement"
+  },
+  {
+   "file": "Cervantes invoice carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "$95 (1 room 70 + de-greaser 25); matches statement"
+  },
+  {
+   "file": "Cervantex invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Second To None move-out clean 6 hrs x $40 = $240; PM billed 200.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1145,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "zero_deposit",
+  "monthly_sd_premium": 45,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "initial_term_months": 12,
+  "lease_start": "2023-06-23",
+  "lease_end": "2024-06-30",
+  "current_term_start": "2023-06-23",
+  "current_term_end": "2024-06-30",
+  "lease_break_terms": "Tenant agrees not to terminate before 12 months (6/30/2024) or in Nov/Dec; $1,000 re-rent/liquidated damages for early termination; after fixed term month-to-month with 30-day notice effective end of calendar month.",
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Zero Deposit Program Charge",
+    "amount": 45
+   },
+   {
+    "name": "Renters Insurance",
+    "amount": 11.95
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-10",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 10,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent prorated for 10 days until unit vacated (07/01-07/10/2024), month-to-month after fixed term ended 6/30/2024",
+   "category": "rent_after_lease_end",
+   "amount_charged": 385.48,
+   "amount_open": 385.48,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-10",
+   "days_after_lease_end": 10,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Amenity Service Package (prorated July 2024)",
+   "category": "other_fee",
+   "amount_charged": 16.13,
+   "amount_open": 16.13,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Zero Deposit Program Charge (July 2024, full month)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance (July 2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 11.95,
+   "amount_open": 11.95,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Repair service: tenant responsible repairs, parts and labor. Only invoice in folder (Mach1 #6306, 366.00, headed 'Work Order #16074 OWNER': tub caulk, bifold door removal, screen repair, gate latch, garbage disposal replacement 225) does not match 626.25",
+   "category": "repairs_damage",
+   "amount_charged": 626.25,
+   "amount_open": 626.25,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "Non-normal wear and tear cleaning (Second To None; invoice shows 240.00)",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear painting (Tona; patched drywall touch-up; invoice shows 105.00)",
+   "category": "painting",
+   "amount_charged": 73.5,
+   "amount_open": 73.5,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Tenant responsible carpet cleaning (PG invoice 3-325083)",
+   "category": "carpet_cleaning",
+   "amount_charged": 95,
+   "amount_open": 95,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Gas utility 7/2-7/10/24 (Intermountain Gas, incl. 14.00 account initiation charge)",
+   "category": "utilities",
+   "amount_charged": 17.15,
+   "amount_open": 17.15,
+   "date_posted": "2024-07-15",
+   "service_period_start": "2024-07-02",
+   "service_period_end": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Cervantes final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-08-15",
+  "balance_due": 1470.46,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-01"
+ },
+ "reconciliation": "sum(open lines) 1,470.46 - credits 0.00 = 1,470.46 vs PM stated 1,470.46 (final statement, collection letter and 8/15 ledger all agree).",
+ "notes": "Fixed 12-month term ended 6/30/2024, converting to month-to-month; tenant vacated 7/10/2024, so 10 days prorated rent is after lease end. Prior months all paid (two NSF items in Oct 2023 were later covered). Hypothetical collection fees (735.23) and 'total if assigned to collections' (2,205.69) on the statement are not charges and were excluded. Vendor invoices: repair line 626.25 exceeds the only repair invoice (366.00, labeled OWNER), so that line is weakly supported; cleaning billed at 200 vs 240 invoice; painting billed at 73.50 vs 105 invoice (invoice includes owner-flooring baseboard touch-up). Waived deposit amount not stated in lease (deposit $0.00).",
+ "extraction_confidence": 0.82,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a8f38e7d3cab571ba"
+ }
+}

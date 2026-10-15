@@ -1,0 +1,270 @@
+{
+ "tracking": 432,
+ "documents": [
+  {
+   "file": "K Cooper final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-01-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning PM final statement: charges 2,146.07, credits 300.00, balance due 1,846.07"
+  },
+  {
+   "file": "K Cooper account ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-01-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager ledger 11/01/23-01/25/24, oldest-first. Previous balance 0.00 and Nov fully paid. Same 1,846.07 balance. Used for payment allocation."
+  },
+  {
+   "file": "K Cooper demand letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-01-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for 1,846.07 within 7 days. Hypothetical collection fees 923.03 are not charges."
+  },
+  {
+   "file": "K Cooper Repair bill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-01-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice #0201 total 150.57; equals the statement repair line, counted once"
+  },
+  {
+   "file": "K Cooper carpet bill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-01-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice 3-322947 carpet cleaning 185.00; equals the statement line, counted once"
+  },
+  {
+   "file": "K Cooper cleaning bill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-01-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice #123 total 412.50 (cleaning 382.50 + spot painting 30.00); PM charged 345.50 on the statement, statement amount used"
+  },
+  {
+   "file": "K Cooper application.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application, not used"
+  },
+  {
+   "file": "K Cooper lease1.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Lease facts from digest excerpt: rent 1,295, term 7/13/2023-7/31/2024, amenity 50, zero deposit program"
+  },
+  {
+   "file": "K Cooper zero deposit addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program, 45 per month in lieu of deposit"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-07-31",
+  "current_term_start": "2023-07-13",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Tenant agrees not to terminate before 12 months (7/31/2024) or in Nov/Dec. Early termination or improper termination: re-rent fee 1,000 plus advertising, 1,000 liquidated damages and loss of rent.",
+  "lease_end": "2024-07-31",
+  "lease_start": "2023-07-13",
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Zero Deposit Program Charge",
+    "amount": 45
+   }
+  ],
+  "sd_program": "zero_deposit",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-01-02",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent 12/2023, open remainder after 300 of payments",
+   "category": "rent_in_term",
+   "amount_charged": 1295,
+   "amount_open": 1045,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Zero Deposit Program Charge 12/2023",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late Charge 12/08/2023",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-12-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Three day notice service (mailed and posted), 12/18/2023",
+   "category": "eviction_legal_court",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2023-12-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet cleaning (tenant responsible) - PG invoice 3-322947",
+   "category": "carpet_cleaning",
+   "amount_charged": 185,
+   "amount_open": 185,
+   "date_posted": "2024-01-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Repair service: remove shower curtain, reattach sink pop-up drain, replace window blind (invoice #0201: service 25 + parts 45.57 + labor 80)",
+   "category": "repairs_damage",
+   "amount_charged": 150.57,
+   "amount_open": 150.57,
+   "date_posted": "2024-01-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Non-normal wear and tear cleaning - Vetos (invoice #123 totals 412.50 but PM charged 345.50)",
+   "category": "cleaning",
+   "amount_charged": 345.5,
+   "amount_open": 345.5,
+   "date_posted": "2024-01-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "K Cooper final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant web payments 12/01/2023 (100.00) and 12/11/2023 (200.00), allocated oldest-first: Amenity package 50 and rent 250. Statement credits total 300.00.",
+   "amount": 300,
+   "type": "tenant_payment",
+   "source_file": "K Cooper final statement.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "K Cooper zero deposit addendum.pdf",
+   "flag": "sd_program",
+   "quote": "I/We agree to pay $45.00 monthly in lieu of making an up-front security deposit"
+  },
+  {
+   "file": "K Cooper final statement.pdf",
+   "flag": "early_termination",
+   "quote": "Charged unpaid rent and account charges balance."
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-01-25",
+  "balance_due": 1846.07,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2023-12-11"
+ },
+ "pm_stated_amount_due": 1846.07,
+ "winning_document": "K Cooper final statement.pdf",
+ "reconciliation": "Open lines 1,045.00 + 45.00 + 50.00 + 25.00 + 185.00 + 150.57 + 345.50 = 1,846.07; the 300.00 of payments is already netted in the rent line, which was charged at 1,295. Gross charges 2,146.07 minus 300.00 equals PM stated 1,846.07; matches the ledger and the demand letter.",
+ "extraction_confidence": 0.9,
+ "notes": "Tenant moved out 1/2/2024, about 7 months before the 7/31/2024 lease end. The PM billed no post-move-out rent, lease-break or re-rent fee. Payments of 300 are unallocated on the ledger, so they were applied oldest-first to the 12/01 charges (amenity 50, then rent 250). The lease says late and notice fees are paid first, which would shift the split between rent and fees but not the 1,846.07 total. November charges were fully paid by 11/11/2023. Pre-November history is not provided, but the previous balance was 0.00 on 11/01/2023, so first-month payment history is unknown. Collection fees of 923.03 are hypothetical and excluded. The cleaning invoice totals 412.50 including 30 of spot painting, while the PM charged 345.50 as cleaning.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "afa9b5a0c251cd1da"
+ }
+}

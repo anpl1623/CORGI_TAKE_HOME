@@ -1,0 +1,381 @@
+{
+ "tracking": 887,
+ "documents": [
+  {
+   "file": "Smith A203 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; total 3616.00"
+  },
+  {
+   "file": "Smith A203 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Splits 2931.00 balance forward; 9/03 payment"
+  },
+  {
+   "file": "Smith A203 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 3616.00 total"
+  },
+  {
+   "file": "Smith A203 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 3616.00; ledger 3982.00 less 366.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1050,
+  "cash_deposit_amount": null,
+  "current_term_end": null,
+  "current_term_start": null,
+  "initial_term_months": null,
+  "is_month_to_month": true,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "lease_end": "2024-07-31",
+  "lease_start": "2023-01-01",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Utility revenue",
+    "amount": 35
+   },
+   {
+    "name": "Monthly pet fee",
+    "amount": 25
+   },
+   {
+    "name": "SD protection",
+    "amount": 33
+   }
+  ],
+  "sd_program": "unknown",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-09-21",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 52,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Jul 2024 rent, open after 9/03 payment",
+   "category": "rent_in_term",
+   "amount_charged": 1050,
+   "amount_open": 866,
+   "confidence": 0.7,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Jul 2024 pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "confidence": 0.7,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Jul 2024 SD protection",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "confidence": 0.7,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Jul 2024 utility revenue",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "confidence": 0.7,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Jul 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.7,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 14 2024 eviction fees",
+   "category": "eviction_legal_court",
+   "amount_charged": 491,
+   "amount_open": 491,
+   "confidence": 0.75,
+   "date_posted": "2024-08-14",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 holdover rent",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1078,
+   "amount_open": 1078,
+   "confidence": 0.8,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 month-to-month premium",
+   "category": "rent_after_lease_end",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "confidence": 0.8,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "confidence": 0.8,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 SD protection",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "confidence": 0.8,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 utility revenue",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "confidence": 0.8,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Aug 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.8,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Ledger.docx"
+  },
+  {
+   "description": "Sep 2024 holdover rent, 9/1-9/21",
+   "category": "rent_after_lease_end",
+   "amount_charged": 1078,
+   "amount_open": 754,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-21",
+   "days_after_lease_end": 21,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 month-to-month premium",
+   "category": "rent_after_lease_end",
+   "amount_charged": 50,
+   "amount_open": 35,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-21",
+   "days_after_lease_end": 21,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 18,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-21",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 SD protection",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 23,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 utility revenue",
+   "category": "utilities",
+   "amount_charged": 35,
+   "amount_open": 25,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.9,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Smith A203 Move Out Statement.pdf"
+  }
+ ],
+ "credits": [
+  {
+   "type": "tenant_payment",
+   "amount": 200,
+   "description": "9/03 payment applied oldest-first",
+   "already_netted_in_line_items": true
+  },
+  {
+   "type": "rent_refund_relet",
+   "amount": 366,
+   "description": "Move-out proration 9/22-9/30",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 3616,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-03"
+ },
+ "pm_stated_amount_due": 3616,
+ "winning_document": "Smith A203 Move Out Statement.pdf",
+ "reconciliation": "Sum of open lines 3616.00 less unnetted credits 0.00 equals PM stated 3616.00; the 200.00 payment and 366.00 proration are already netted in lines.",
+ "extraction_confidence": 0.8,
+ "notes": "Balance forward 2931.00 at 9/01 split by oldest-first allocation of all payments; the 6/06 late fee was 16.00 open before the 9/03 payment, which cleared it and 184.00 of July rent. Aug and Sep charges are holdover after the 7/31 lease end (52 days). Sheet lease start 2023-01-01 conflicts with ledger and statement 08/01/2023; sheet used per lite mode. Lease, addendum and DD form not opened (lite).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a83618aee02f97567"
+ }
+}

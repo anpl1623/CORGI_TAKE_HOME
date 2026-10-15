@@ -1,0 +1,279 @@
+{
+ "tracking": 560,
+ "winning_document": "R Frazer final statement.pdf",
+ "pm_stated_amount_due": 2506.56,
+ "reconciliation": "1000.00 + 106.56 + 145.00 + 105.00 + 50.00 + 995.00 + 45.00 + 60.00 = 2506.56, no credits, equal to PM balance due 2506.56 (diff 0.00).",
+ "notes": "Johnson PM, Rent Manager. Final statement 4/29/24, collection letter 4/29/24 and ledger 5/7/24 all show 2506.56. Hypothetical collection fees (1253.28) ignored. Tenant moved out 3/31/24, 7 months before the lease end of 10/31/24. The PM charged re-rent service 1000 and April rent, amenity and ZDP as the final month owing because the unit was re-rented at month end; I set the re-let date to about 4/30/24 from that wording. The PM billed less than the vendor invoices for two lines: repairs 106.56 against invoice 0289 at 191.23 (invoice headed 'Owner'), and cleaning 145.00 against Second To None invoice 63 at 187.50. I used the statement amounts. Carpet cleaning 105.00 matches invoice 3-323865. Fridge cleanout 60.00 matches invoice 0288. March rent was paid; no late fees or NSF fees on the ledger.",
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "R Frazer final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-29",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning accounting doc; 2506.56"
+  },
+  {
+   "file": "R Frazer ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-07",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Same open balance; used for payment history and first month"
+  },
+  {
+   "file": "R Frazer collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-04-29",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "States 2506.56"
+  },
+  {
+   "file": "R Frazer bill carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-09",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Invoice 3-323865, 105.00; backs statement line"
+  },
+  {
+   "file": "R Frazer bill clean out refrig.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-02",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Invoice 0288, 60.00, headed Tenant; backs statement line"
+  },
+  {
+   "file": "R Frazer bill cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-19",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Invoice 63, 187.50; PM charged 145.00"
+  },
+  {
+   "file": "R Frazer bill repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-04-02",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Invoice 0289, 191.23 headed Owner; PM charged 106.56"
+  },
+  {
+   "file": "R Frazer lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only; rent 995, term 10/5/2023 to 10/31/2024, ZDP premium and amenity package, re-rent 1000 clause"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 995,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "zero_deposit",
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   }
+  ],
+  "lease_start": "2023-10-05",
+  "lease_end": "2024-10-31",
+  "current_term_start": "2023-10-05",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No termination before 12 months (10/31/2024) or in Nov/Dec; re-rent cost 1000 for improper or early termination, plus advertising, 1000 liquidated damages and rent loss."
+ },
+ "move_out": {
+  "move_out_date": "2024-03-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": "2024-04-30"
+ },
+ "ledger": {
+  "as_of_date": "2024-05-07",
+  "balance_due": 2506.56,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-27"
+ },
+ "line_items": [
+  {
+   "description": "Re-Rent Service: tenant not completing rental agreement term",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-03-06",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant responsible repairs, parts and labor (CF); toilet seat, window blind, bent screen. Vendor invoice 0289 is 191.23, PM billed 106.56",
+   "category": "repairs_damage",
+   "amount_charged": 106.56,
+   "amount_open": 106.56,
+   "date_posted": "2024-03-29",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Non-normal wear and tear cleaning, Second To None (invoice 63 is 187.50, PM billed 145.00)",
+   "category": "cleaning",
+   "amount_charged": 145,
+   "amount_open": 145,
+   "date_posted": "2024-03-29",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Tenant responsible carpet cleaning (invoice 3-323865, 3 rooms plus de-greaser)",
+   "category": "carpet_cleaning",
+   "amount_charged": 105,
+   "amount_open": 105,
+   "date_posted": "2024-03-29",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Amenity Service Package, April 2024 (after move-out)",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent April 2024, charged as final month owing after move-out (unit re-rented at month end)",
+   "category": "rent_after_move_out",
+   "amount_charged": 995,
+   "amount_open": 995,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Zero Deposit Program charge, April 2024 (after move-out)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-04-01",
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Removal of items left in refrigerator (T J, invoice 0288)",
+   "category": "cleaning",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-04-04",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "R Frazer bill clean out refrig.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "abc4baacc45114d02"
+ }
+}

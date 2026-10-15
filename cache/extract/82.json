@@ -1,0 +1,307 @@
+{
+ "tracking": 82,
+ "documents": [
+  {
+   "file": "30 Huckleberry Court - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-04",
+   "opened_visually": false,
+   "used_for_amounts": true,
+   "note": "Excalibur statement (oldest-first), billing 09/01/22-05/31/23, balance due 4,658.50. Payments allocated oldest-first exactly cover all charges through Feb 2023; March 2023 onward plus 5/3/23 move-out charges are open."
+  },
+  {
+   "file": "30 Huckleberry Court - No Refund Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-05-04",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Deposit disposition letter: deposit paid $0.00, remaining balance due per attached ledger."
+  },
+  {
+   "file": "30 Huckleberry Court - SD Insurance Addendum.JPG",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-07",
+   "opened_visually": true,
+   "used_for_amounts": false,
+   "note": "Option 2 selected: $48/month SD insurance (Your Renters Insurance Group) in lieu of deposit; coverage $2000; Option 1 deposit was 1695."
+  },
+  {
+   "file": "30 Huckleberry Court - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Lease 9/30/2022-9/30/2023, rent 1695; early termination = 60 days notice + 1 month rent liquidated damages + $500 admin fee; $300 fee to halt dispossessory; holdover $300/day; 7-day concession $382.74 repayable on early termination; YRIG property damage liability $20/mo."
+  },
+  {
+   "file": "30 Huckleberry Court - Tenant Contact Alexus.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "opened_visually": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "30 Huckleberry Court - Tenant Contact Brandon.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "opened_visually": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1695,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-09-30",
+  "current_term_end": "2023-09-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-09-30",
+  "lease_end": "2023-09-30",
+  "lease_break_terms": "Tenant may terminate early with 60 days notice + one month's rent as liquidated damages + $500 early termination admin fee; $382.74 move-in concession repayable if tenant terminates early; holdover $300/day.",
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "Sec Dep Ins Charge to Tenant (SD insurance premium)",
+    "amount": 48
+   },
+   {
+    "name": "YRIG Prem (property damage liability program)",
+    "amount": 20
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2000
+ },
+ "move_out": {
+  "move_out_date": "2023-04-04",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "March 2023 rent (TBR Rent Charge)",
+   "category": "rent_in_term",
+   "amount_charged": 1695,
+   "amount_open": 1695,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "March 2023 Sec Dep Ins Charge to Tenant",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "March 2023 YRIG Prem (property damage liability program)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.8
+  },
+  {
+   "description": "TBR Late Charge (10% of rent) for March 2023",
+   "category": "late_fee",
+   "amount_charged": 169.5,
+   "amount_open": 169.5,
+   "date_posted": "2023-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Eviction Cancellation Fee to Halt Dispo",
+   "category": "eviction_legal_court",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-03-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent for 4/1/23-4/4/23 (prorated)",
+   "category": "rent_in_term",
+   "amount_charged": 226,
+   "amount_open": 226,
+   "date_posted": "2023-05-03",
+   "service_period_start": "2023-04-01",
+   "service_period_end": "2023-04-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Damages: damaged lower right side screen",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Damages: trash out",
+   "category": "trash_removal",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Damages: drywall damage throughout home",
+   "category": "repairs_damage",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Damages: cracked outlet cover in living room",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Damages: two damaged doors and door frames upstairs",
+   "category": "repairs_damage",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Damages: replace fridge due to mold in freezer (power was off)",
+   "category": "appliance",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2023-05-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "30 Huckleberry Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "termination_eviction",
+   "quote": "03/23/23 TBR Eviction Cancellation Fee to Halt Dispo 300.00",
+   "file": "30 Huckleberry Court - Ledger.pdf"
+  },
+  {
+   "flag": "sd_program",
+   "quote": "Option 2 $$48.00 per month ... Tenant waives payment of the security deposit of $$2000",
+   "file": "30 Huckleberry Court - SD Insurance Addendum.JPG"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-05-04",
+  "balance_due": 4658.5,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-02-05"
+ },
+ "pm_stated_amount_due": 4658.5,
+ "winning_document": "30 Huckleberry Court - Ledger.pdf",
+ "reconciliation": "Open items 1695+48+20+169.50+300+226+50+200+400+50+500+1000 = 4658.50 - 0 credits = 4658.50 = ledger balance due / disposition letter; no difference.",
+ "notes": "No separate itemization; damages itemized on ledger dated 5/3/23 with no invoices/photos. Payments (9/23 1695 reallocated from rent reservation fee, 9/27 200, 11/3 1514.76, 12/5, 1/4, 2/5 1773 each) plus 7-day concession credit -382.74 (applied to Oct 2022) exactly cover all charges through Feb 2023, so all March 2023 forward is open. No payment after 2/5/23. Dispossessory filed in March (fee to halt dispo 3/23); tenant vacated 4/4/2023 mid-term (lease to 9/30/2023); no future rent, lease-break fee or concession repayment charged. Termination classed as eviction with moderate confidence (could be early vacate during eviction). No cash deposit.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a327062f87fa1109e"
+ }
+}

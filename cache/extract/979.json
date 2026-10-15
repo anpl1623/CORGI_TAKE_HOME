@@ -1,0 +1,151 @@
+{
+ "tracking": 979,
+ "documents": [
+  {
+   "file": "3654 Sheridan Ave N Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": true,
+   "revised": false,
+   "note": "Propertyware ledger; balance 2,953.00 at 12/03/2024; winning document"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "cash_deposit_amount": 0,
+  "lease_start": "2023-12-18",
+  "lease_end": "2024-12-31",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDWP monthly premium",
+    "amount": 48
+   },
+   {
+    "name": "RBP with insurance",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-11-25",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-12-03",
+  "balance_due": 2953,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-11-05"
+ },
+ "line_items": [
+  {
+   "description": "Dec 2024 rent after move-out",
+   "amount_charged": 1995,
+   "amount_open": 1995,
+   "category": "rent_after_move_out",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "date_posted": "2024-12-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Dec 2024 SDRP monthly premium (4037)",
+   "amount_open": 48,
+   "category": "sdrp_premium",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "date_posted": "2024-12-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Dec 2024 RBP with insurance (4038)",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "date_posted": "2024-12-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Smoking in unit fee",
+   "amount_open": 200,
+   "category": "other_fee",
+   "date_posted": "2024-12-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Repair holes in wall, scratched floor",
+   "amount_open": 203.5,
+   "category": "repairs_damage",
+   "date_posted": "2024-12-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Install new smoke and CO2 detectors",
+   "amount_open": 71.5,
+   "category": "repairs_damage",
+   "date_posted": "2024-12-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Removal of trash",
+   "amount_open": 181.5,
+   "category": "trash_removal",
+   "date_posted": "2024-12-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Clean kitchen and bathrooms",
+   "amount_open": 214.5,
+   "category": "cleaning",
+   "date_posted": "2024-12-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "3654 Sheridan Ave N Ledger.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 2953,
+ "reconciliation": "Sum of 8 open lines = 2,953.00 equals ledger balance at 12/03/2024 and PM stated 2,953.00; no credits, prepayments 0.",
+ "notes": "Only PM accounting document in the folder is the Propertyware ledger; no itemization or cover letter. Nov 2024 rent, RBP and SDRP were paid 11/05. Dec 2024 charges are post-move-out within the lease term (ends 12/31/2024). No lease-break fee was billed. Smoking fee coded other_fee. Lease not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

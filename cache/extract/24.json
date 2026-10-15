@@ -1,0 +1,140 @@
+{
+  "tracking": 24,
+  "documents": [
+    {
+      "file": "Collections - SDRP Notice to Tenant (2).pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2022-11-04",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "2022-10-07_20_12_15.902767+00_00-7721_Suzane_dr_Glass.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-10-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "invoice_24_Oct_2022_11_01_30.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-10-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Invoice_28682065.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-06-22",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "7721_Suzanne_Dr_Move_Out_Evaluation_2022-10-05.pdf",
+      "doc_type": "inspection_photo_report",
+      "doc_date": "2022-10-06",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(06-02-2022_-_06-02-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-06-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_NHPM_Lease_v_2022_(06-02-2022_-_06-02-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-06-02",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Collections - SDRP Notice to Tenant (2).pdf",
+  "pm_stated_amount_due": 7491.67,
+  "lease": {
+    "base_monthly_rent": 1250.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Waiver fee",
+        "amount": 65.0
+      }
+    ],
+    "lease_start": "2022-06-04",
+    "lease_end": "2023-06-03",
+    "current_term_start": "2022-06-04",
+    "current_term_end": "2023-06-03",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3700.0,
+    "monthly_sd_premium": 65.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "All rent and late fees until re-rented, plus costs of securing new tenant (advertising, leasing commissions, re-keying, admin fee, turnover costs)"
+  },
+  "move_out": {
+    "move_out_date": "2022-10-01",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": null,
+    "balance_due": null,
+    "first_full_month": "2022-07",
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": null
+  },
+  "line_items": [
+    {
+      "description": "Total outstanding charges and damages per move-out demand letter",
+      "category": "other_damage",
+      "amount_open": 7491.67,
+      "amount_charged": 7491.67,
+      "date_posted": "2022-11-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Collections - SDRP Notice to Tenant (2).pdf",
+      "source_page": 1,
+      "confidence": 0.85
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 7491.67 vs PM stated 7491.67; exact match to demand letter total",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": true,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [
+    {
+      "flag": "missing_ledger",
+      "quote": "Please review the attached tenant ledger for details regarding these final charges.",
+      "file": "Collections - SDRP Notice to Tenant (2).pdf"
+    }
+  ],
+  "extraction_confidence": 0.85,
+  "notes": "PM submitted demand letter totaling $7,491.67 referencing an attached ledger that was omitted. Three vendor invoices ($1,400.00, $1,375.00, $175.00) also in file."
+}

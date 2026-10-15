@@ -1,0 +1,172 @@
+{
+ "tracking": 921,
+ "winning_document": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf",
+ "pm_stated_amount_due": 4860,
+ "reconciliation": "Open lines 4860.00 minus credits 0 = 4860.00; matches PM stated 4860.00 (letter, ledger and ESB invoice agree).",
+ "extraction_confidence": 0.9,
+ "notes": "Itemized deposit letter total 4860 = ESB repairs 4490 + interior cleaning 275 + carpet 95. Ledger balance was 0.00 before the 10/25 postings, so no open rent or prior balance. Move-out report not opened (lite skip). Lease docs not opened.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-25",
+   "used_for_amounts": true,
+   "note": "Itemized deposit letter; total 4860.00."
+  },
+  {
+   "file": "tenant_ledger-sharon_m_layden 6710 Country Swan.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-04",
+   "used_for_amounts": true,
+   "note": "Confirms 10/25 postings total 4860.00 open."
+  },
+  {
+   "file": "Invoice_9560_from_ESB_Inc - makeready repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-04",
+   "used_for_amounts": true,
+   "note": "Backs repair and paint lines, total 4490.00."
+  },
+  {
+   "file": "Billable_Item_invoice_24164-1-Cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-31",
+   "used_for_amounts": true,
+   "note": "Backs interior cleaning 275.00."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "lease_start": "2023-09-28",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-11-04",
+  "balance_due": 4860,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-22"
+ },
+ "line_items": [
+  {
+   "description": "Replace family room light fixture",
+   "category": "repairs_damage",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Replace broken master bedroom light fixture",
+   "category": "repairs_damage",
+   "amount_open": 130,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Reinstall two master bath faucets",
+   "category": "repairs_damage",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Replace 11 mini blinds",
+   "category": "repairs_damage",
+   "amount_open": 410,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Reinstall secondary bedroom closet doors",
+   "category": "repairs_damage",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Repaint walls, doors, woodwork, bath cabinets",
+   "category": "painting",
+   "amount_open": 3625,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  },
+  {
+   "description": "Interior cleaning as needed",
+   "category": "cleaning",
+   "amount_open": 275,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Billable_Item_invoice_24164-1-Cleaning.pdf"
+  },
+  {
+   "description": "Clean small carpet section top of stairs",
+   "category": "carpet_cleaning",
+   "amount_open": 95,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_sharon_m_layden_102524.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa73bfc5388dff3f2"
+ }
+}

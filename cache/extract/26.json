@@ -1,0 +1,169 @@
+{
+ "tracking": 26,
+ "documents": [
+  {
+   "file": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2022-11-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager transactions ledger (oldest-first), printed 11/21/22; final balance 850.00 = disposal 325 + TP holder 25 + early termination admin fee 500; November recurring charges reversed because tenant vacated 10/31/22."
+  },
+  {
+   "file": "51025b94b8a342e6817fc09d87d37150 (1).rmd",
+   "doc_type": "move_out_statement",
+   "doc_date": "2022-11-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RTF Georgia deposit-disposition letter from Excalibur Homes: deposit paid $0.00, remaining balance due 'as shown on the attached ledger'; no amounts itself; boilerplate about future rent (none actually charged)."
+  },
+  {
+   "file": "5e69f06c4e4c4af58f3e4088c0767ff6 (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-09-08",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "26-page GA lease incl. Security Deposit Lease Addendum (YRIG deposit insurance $48/mo, waives $2000 deposit; cash option $1795), Property Damage Liability Addendum (YRIG $20/mo), Latchel concierge addendum ($14.99/mo), ESA pet exhibit. Page 26 is blank landlord signature page."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2000,
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "Sec Dep Ins Charge to Tenant (YRIG security deposit insurance)",
+    "amount": 48
+   },
+   {
+    "name": "YRIG Prem (property damage liability / renters coverage)",
+    "amount": 20
+   },
+   {
+    "name": "Latchel Concierge Service",
+    "amount": 14.99
+   }
+  ],
+  "lease_start": "2022-09-09",
+  "lease_end": "2023-09-30",
+  "current_term_start": "2022-09-09",
+  "current_term_end": "2023-09-30",
+  "initial_term_months": 12.7,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "A.20: Tenant may terminate early with 60 days notice, paying one month's rent as liquidated damages plus a $500 Early Lease Termination Administrative Fee (termination as of last day of a month). Holdover $300/day. Re-key $50/lock."
+ },
+ "move_out": {
+  "move_out_date": "2022-10-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant Damages to Property - Garbage disposal broken",
+   "category": "appliance",
+   "amount_charged": 325,
+   "amount_open": 325,
+   "date_posted": "2022-11-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Tenant Damages to Property - Broken toilet paper holder",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2022-11-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-Refundable Admin Fee - Early Termination Admin Fee",
+   "category": "lease_break_fee",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2022-11-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "move_out_date (info)",
+   "quote": "Tenant vacated on 10.31.22. Reversing November Rent",
+   "file": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf"
+  },
+  {
+   "flag": "sd_program (info)",
+   "quote": "Tenant waives payment of the security deposit of $$2000 ... Option 2 $$48.00 per month",
+   "file": "5e69f06c4e4c4af58f3e4088c0767ff6 (1).pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2022-11-21",
+  "balance_due": 850,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-10-03"
+ },
+ "pm_stated_amount_due": 850,
+ "winning_document": "abee6fffd8554fe18395d2c4c9d8fbc9 (1).pdf",
+ "reconciliation": "325 + 25 + 500 = 850.00 open - 0 credits = 850.00 vs PM ledger balance 850.00 (disposition letter defers to attached ledger); matches. November rent/YRIG/SD-ins/Latchel/late fee were charged then reversed (net zero).",
+ "notes": "Excalibur Homes (Rent Manager). Sheet move-out date 2022-10-03 conflicts with ledger 'Tenant vacated on 10.31.22' and Active End 10/31/2022; ledger used. Sheet address says '8th St NW', documents say '413 8th St NE Unit B'. October rent fully paid 10/03/22 (payment 1,600.10 plus prior credit). PM charged only the $500 early-termination admin fee; did not charge the one-month-rent liquidated damages or any rent after move-out. Damage lines have no vendor invoices/photos in folder. Deposit paid $0; SD insurance via Your Renters Insurance Group (YRIG). Lease deposit option shows $1795 cash vs $2000 waived in addendum; Max Benefit blank on sheet. ESA animals (2 dogs, 1 cat) authorized; no pet-related charges.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "ac4ea9d9ddd5ecdc8"
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "tracking": 956,
+ "winning_document": "Buford 120 Move Out Statement.pdf",
+ "pm_stated_amount_due": 275.5,
+ "documents": [
+  {
+   "file": "Buford 120 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES $33/mo; liability protection NO (third-party renters insurance); policy start 5/22/24."
+  },
+  {
+   "file": "Buford 120 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-05-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "7 pages read: rent 2,550, term 6/1/2024-8/31/2024, auto MTM, SD 0.00, 60-day notice."
+  },
+  {
+   "file": "Buford 120 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-04",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 275.50."
+  },
+  {
+   "file": "Buford 120 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-04",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc; Sept charges shown paid 9/5; only 3 move-out lines open."
+  },
+  {
+   "file": "Buford 120 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Agrees: 90 + 25 + 160.50 = 275.50; ledger balance 0; Lease Expiration 8/31/24 (MTM)."
+  },
+  {
+   "file": "Buford Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first; zero balance before 10/04 turnover charges."
+  },
+  {
+   "file": "SRS DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2550,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection",
+    "amount": 33
+   },
+   {
+    "name": "Monthly Pet Fee",
+    "amount": 35
+   }
+  ],
+  "lease_start": "2024-06-01",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2024-09-01",
+  "current_term_end": null,
+  "initial_term_months": 3,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Para 11 early move-out: liable for rent as it comes due until re-rented; para 44 requires 60-day written move-out notice. No fixed reletting or break fee stated."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 30,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Carpet Cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Buford 120 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Replaced Five Vertical Slats (window blinds)",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Buford 120 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cort Furniture Charges (listed as misc charges/supplies; no invoice, likely furniture rental/charge)",
+   "category": "other_fee",
+   "amount_charged": 160.5,
+   "amount_open": 160.5,
+   "date_posted": "2024-10-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Buford 120 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": true,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Buford 120 Lease.pdf",
+   "flag": "short_term_lease",
+   "quote": "initial term begins 1st June 2024 and ends 31st August 2024"
+  },
+  {
+   "file": "Buford 120 SDI.pdf",
+   "flag": "holdover_mtm",
+   "quote": "Lease Expiration: 8/31/24 (MTM)"
+  },
+  {
+   "file": "Buford 120 Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "Security Deposit Waiver YES $33 per month"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 275.5,
+  "first_full_month": "2024-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-05"
+ },
+ "reconciliation": "sum(open lines)=90.00+25.00+160.50=275.50 - credits 0 = 275.50 vs PM stated 275.50; exact match (statement, letter, SDI, ledger).",
+ "notes": "3-month initial term (6/1-8/31/2024); tenant stayed MTM through 9/30/2024 after notice dated 8/21/2024. September rent 2,550 + pet fee 35 + SD protection 33 charged and PAID in full 9/5/2024, so not open. Pet fee/monthly pet fee paid; no pet-damage evidence, so pet_related=false. Cort furniture charge category uncertain (other_fee vs other_damage); no supporting invoice. Waived SD amount not stated in addendum (lease SD 0.00; clause cap 2 months rent).",
+ "extraction_confidence": 0.88,
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a0f1937c02b1d1965"
+ }
+}

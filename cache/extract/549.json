@@ -1,0 +1,202 @@
+{
+ "tracking": 549,
+ "winning_document": "12615 Gardenia Pass - Itemization - Faulkner.pdf",
+ "pm_stated_amount_due": 1420.28,
+ "reconciliation": "1230.78 + 45.00 + 50.00 + 9.50 + 85.00 = 1420.28, no credits, equal to PM demand 1420.28 and ledger balance 1420.28 as of 4/29/24 (diff 0.00).",
+ "notes": "RentWerx, Texas. The itemization letter is dated 25 March 2024 but includes the 85.00 NSF fee that posted 4/19/24, so it was evidently updated after its date. The ledger (4/29/24) shows make-ready 1230.78, itemization fee 95.00 (letter splits it into 45.00 itemization and 50.00 handling), utilities 9.50 (CPS 3/1-3/7/24), and the 3/25 funds pull of 1335.28. That pull was returned on 4/19 as a tenant chargeback described as 'in violation of lease agreement', which added the NSF fee. So 1335.28 + 85.00 is open and the returned payment is not a credit. The tenant bank chargeback could be read as a dispute; no other dispute evidence exists, so I did not flag it. The make-ready 1230.78 is a lump covering lawn service, item removal, fan repair, maid service, touch-up/patching and carpet clean with no sub-amounts; I recorded it as one repairs_damage line with low confidence. The documentation link in the letter was not available. The lease is a renewal; the ledger shows the original move-in on 2/28/2022 and a renewal fee on 3/2/2023, and rent went from 1550 to 1650 in March 2023. The Preferred Resident Program (33.00/month: 28 insurance + 5 admin) replaces the deposit. The application mentions Obligo approving the program, but this is on a Corgi policy and no document shows another provider's coverage, so other_provider is false.",
+ "extraction_confidence": 0.8,
+ "documents": [
+  {
+   "file": "12615 Gardenia Pass - Itemization - Faulkner.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-03-25",
+   "used_for_amounts": true,
+   "revised": true,
+   "opened_visually": false,
+   "note": "Itemization/demand letter 1420.28; includes an NSF fee posted 4/19 despite the 3/25 date"
+  },
+  {
+   "file": "12615 Gardenia Pass - Ledger - Faulkner.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-29",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Propertyware-style, newest first; used for dates, NSF and chargeback, payment history"
+  },
+  {
+   "file": "12615 Gardenia Pass - Lease Mar2023-Feb2024 - Faulkner.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-03-01",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Current term 3/1/2023 to 2/29/2024, rent 1650, RBP, Preferred Resident Program 33.00"
+  },
+  {
+   "file": "12615 Gardenia Pass - Move Out Report - Faulkner.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-03-04",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Inspection comments only; Odor satisfactory, no pet evidence"
+  },
+  {
+   "file": "12615 Gardenia Pass - Application - Bryce Faulkner.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Rental application, not used"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Preferred Tenant Monthly Fee (SD program)",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 41
+   }
+  ],
+  "lease_start": "2023-03-01",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2023-03-01",
+  "current_term_end": "2024-02-29",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-02-28",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-04-29",
+  "balance_due": 1420.28,
+  "first_full_month": "2022-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-02-02"
+ },
+ "line_items": [
+  {
+   "description": "Make Ready: lawn service, item removal, fan repair, maid service, touch up/patching, carpet clean (no sub-amounts)",
+   "category": "repairs_damage",
+   "amount_charged": 1230.78,
+   "amount_open": 1230.78,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12615 Gardenia Pass - Itemization - Faulkner.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12615 Gardenia Pass - Itemization - Faulkner.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Handling Fee (ledger shows itemization fee 95.00 = 45 + 50)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-03-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12615 Gardenia Pass - Itemization - Faulkner.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Ledger balance: CPS utilities 3/1-3/7/2024",
+   "category": "utilities",
+   "amount_charged": 9.5,
+   "amount_open": 9.5,
+   "date_posted": "2024-03-22",
+   "service_period_start": "2024-03-01",
+   "service_period_end": "2024-03-07",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12615 Gardenia Pass - Ledger - Faulkner.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "NSF fee: tenant chargeback of 3/25 funds pull (1335.28) returned 4/19/24",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-04-19",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12615 Gardenia Pass - Ledger - Faulkner.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "test_claim": false,
+  "tenant_disputes_charges": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "abc4baacc45114d02"
+ }
+}

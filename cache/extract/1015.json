@@ -1,0 +1,78 @@
+{
+ "tracking": 1015,
+ "winning_document": "105 Twin Ledger.pdf (Propertyware balance as of 12/12/2024)",
+ "documents": [
+  {
+   "file": "105 Twin Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Two unpaid charges total 445.00; no separate PM statement in folder"
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(10-04-2023_-_10-04-2023).pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "SDRP waiver addendum 35 per month; policy evidence"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1700,
+  "sd_program": "unknown",
+  "lease_start": "2023-11-01",
+  "lease_end": "2024-10-31"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "105 Twin Ledger.pdf"
+  },
+  {
+   "description": "Move-out trash-out (SD forfeit)",
+   "category": "trash_removal",
+   "amount_open": 195,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "105 Twin Ledger.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "ledger": {
+  "as_of_date": "2024-12-12",
+  "balance_due": 445,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 445,
+ "reconciliation": "Open lines 250.00 + 195.00 = 445.00; credits 0; PM stated 445.00; difference 0.00.",
+ "notes": "No separate PM statement in folder; Propertyware ledger balance as of 12/12/2024 is winning doc. Rent, RBP and SDRP monthly premium paid through 10/01/2024. Deposit held 0.00. SDRP waiver addendum on file, so no_policy_evidence false. Lease renewal (rent 1,700, term 11/01/2023-10/31/2024) matches sheet; lease not opened (lite mode).",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "tracking": 1005,
+ "winning_document": "4102 Primrose Apt B - Santiago - Itemization of Security Deposit.pdf (TXR-2216, signed 11/18/24)",
+ "pm_stated_amount_due": 1552.12,
+ "reconciliation": "Open lines 1,752.12 less 200.00 deposit credit = 1,552.12, equals PM stated balance 1,552.12 (itemization and RV ledger 11/18 row).",
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "4102 Primrose Apt B - Santiago - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-18",
+   "note": "Winning TXR-2216 itemization, balance (1,552.12)",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "4102 Primrose Apt B - Santiago - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-07",
+   "note": "Splits cleaning 605.12 into 172.12 and 433.00; deposit credit 200",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "4102 Primrose Apt B - Santiago - Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-18",
+   "note": "2023 history, balance 0.00",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1200,
+  "sd_program": "unknown",
+  "lease_start": "2023-10-13",
+  "lease_end": "2024-10-31"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-28",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-12-07",
+  "balance_due": 1552.12,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-11-18"
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear (8 items)",
+   "category": "repairs_damage",
+   "amount_open": 1014,
+   "amount_charged": 1014,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4102 Primrose Apt B - Santiago - Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 172.12,
+   "amount_charged": 172.12,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4102 Primrose Apt B - Santiago - Ledger RV.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 433,
+   "amount_charged": 433,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4102 Primrose Apt B - Santiago - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace burned-out bulbs, 9 rooms",
+   "category": "repairs_damage",
+   "amount_open": 103,
+   "amount_charged": 103,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4102 Primrose Apt B - Santiago - Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Mow, trim and edge lawn",
+   "category": "landscaping_lawn",
+   "amount_open": 30,
+   "amount_charged": 30,
+   "date_posted": "2024-11-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4102 Primrose Apt B - Santiago - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit applied, move-out release",
+   "amount": 200,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {},
+ "evidence": [],
+ "notes": "Itemization total 1,752.12 matches RV ledger move-out charges (Lawn 30.00, Carpet 172.12, Move-out cleaning 433.00, Repairs 1,117.00 = itemization 1,014.00 + bulbs 103.00). The 1,300.00 eCheck on 11/18/24 paid October 2024 rent and fees, not part of the claim. Fee-in-lieu evidence (itemization header; ledger Sec Dep Replacement premiums) but sd_program kept unknown per LITE. Damages line mixes spackle/paint, filters, blinds and fixtures with no sub-amounts. Sheet lease end 10/31/24 after move-out 10/28/24 with no lease-break charge. Lease and fee-in-lieu addendum not opened (LITE).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a5c152eb1fbc45c34"
+ }
+}

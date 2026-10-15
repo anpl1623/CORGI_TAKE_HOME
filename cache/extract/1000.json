@@ -1,0 +1,277 @@
+{
+ "tracking": 1000,
+ "winning_document": "Disposition Letter for Paul A. Strickland, sara J. strickland.pdf",
+ "pm_stated_amount_due": 4856,
+ "reconciliation": "sum(open lines)=4,856.00 (2 x [2,225+60+75+68] = 2 x 2,428) - credits 0.00 = 4,856.00 = PM disposition letter balance due 4,856.00 = ledger total 12/05/2024; no variance.",
+ "documents": [
+  {
+   "file": "Disposition Letter for Paul A. Strickland, sara J. strickland.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-12-05",
+   "used_for_amounts": true,
+   "note": "Prime Properties security deposit statement: November and December 2024 rent 2,225 + 60 + 75 + 68 each month = 4,856.00. Winning document.",
+   "opened_visually": false,
+   "revised": false
+  },
+  {
+   "file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-05",
+   "used_for_amounts": true,
+   "note": "AppFolio ledger (oldest-first), status 'Current', no move-out date, deposit paid 0.00; only open charges are the Nov and Dec 2024 recurring charges (4,856.00). Used to confirm lines and payment history.",
+   "opened_visually": false
+  },
+  {
+   "file": "Re Paul Strickland 10205 Maydelle Street.msg",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-12-09",
+   "used_for_amounts": false,
+   "note": "PM emails with YRIG claims/tenant advocate: tenant says PM allowed lease break without recourse due to dangerous neighbor; PM says tenant produced only a doctor's note and not the lease-required documentation.",
+   "opened_visually": false
+  },
+  {
+   "file": "Prime Properties Mail - Fwd_ Eviction Filing.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": false,
+   "note": "Email chain: PM says it is filing eviction (11/18); tenant replies he is filing chapter 7 and asks for the list.",
+   "opened_visually": false
+  },
+  {
+   "file": "Prime Properties Mail - Re_ Stalking Evidence.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-11-07",
+   "used_for_amounts": false,
+   "note": "PM lists documentation needed to break lease for abuse/assault victims; tenant agrees to get psychiatrist note. 11/07 PM says 'I hope the move went smoothly' (tenant already moved).",
+   "opened_visually": false
+  },
+  {
+   "file": "MD LIVE Consultation (1).pdf",
+   "doc_type": "other",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "note": "Tenant-supplied doctor consultation note in support of lease-break request; no dollar amounts.",
+   "opened_visually": false
+  },
+  {
+   "file": "paul-a-strickland_08-23-2024 (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": false,
+   "note": "55-page Prime Properties lease, term 09/01/2024-08/31/2025, signed 8/23/2024; animal agreement (dog, 60/mo pet fee); RBP 75/mo; Security Deposit Waiver Addendum with 68/mo Preferred Tenant Package and one-time 1,800 risk mitigation fee; Para 22 early move-out cost clause. Text layer used, not opened visually.",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2225,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3337.5,
+  "monthly_sd_premium": 68,
+  "recurring_addons": [
+   {
+    "name": "Pet Fee - Non Refundable (monthly)",
+    "amount": 60
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 75
+   }
+  ],
+  "lease_start": "2024-09-01",
+  "lease_end": "2025-08-31",
+  "current_term_start": "2024-09-01",
+  "current_term_end": "2025-08-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 22: if tenant moves out before the termination date, all costs incurred by owner to secure a next tenant are tenant's responsibility. No fixed lease-break fee stated."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-15",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-12-05",
+  "balance_due": 4856,
+  "first_full_month": "2024-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-01"
+ },
+ "line_items": [
+  {
+   "description": "November 2024 rent",
+   "category": "rent_after_move_out",
+   "amount_charged": 2225,
+   "amount_open": 2225,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Paul A. Strickland, sara J. strickland.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "November 2024 Pet Fee - Non Refundable",
+   "category": "pet_fee_rent",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "November 2024 Resident Benefit Package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "November 2024 Preferred Tenant Package (monthly security deposit waiver fee)",
+   "category": "sdrp_premium",
+   "amount_charged": 68,
+   "amount_open": 68,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "December 2024 rent",
+   "category": "rent_after_move_out",
+   "amount_charged": 2225,
+   "amount_open": 2225,
+   "date_posted": "2024-12-01",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Paul A. Strickland, sara J. strickland.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "December 2024 Pet Fee - Non Refundable",
+   "category": "pet_fee_rent",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-12-01",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "December 2024 Resident Benefit Package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-12-01",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "December 2024 Preferred Tenant Package (monthly security deposit waiver fee)",
+   "category": "sdrp_premium",
+   "amount_charged": 68,
+   "amount_open": 68,
+   "date_posted": "2024-12-01",
+   "service_period_start": "2024-12-01",
+   "service_period_end": "2024-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-paul_a_strickland_sara_j_strickland-20241205.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Re Paul Strickland 10205 Maydelle Street.msg",
+   "flag": "tenant_disputes_charges",
+   "quote": "allowed them to move out of the property/break the lease without recourse or paying the remaining rent due"
+  },
+  {
+   "file": "Prime Properties Mail - Fwd_ Eviction Filing.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "I'm filing chapter 7 now so it doesn't matter."
+  },
+  {
+   "file": "Re Paul Strickland 10205 Maydelle Street.msg",
+   "flag": "tenant_disputes_charges",
+   "quote": "they were not able to give me any documentation that the lease specifically stated was required"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "notes": "Move-out date 2024-10-15 comes from the policy sheet; documents only show the tenant had moved by 11/07/2024 (ledger still says Status Current, no move-out date). October rent and charges were paid 10/01; all open charges are post-move-out Nov and Dec 2024 recurring charges. Tenant claims harassment/stalking by a neighbor as grounds to break the lease; PM says required documentation was not supplied and notified eviction filing (11/18); tenant states he is filing chapter 7. YRIG tenant advocate questioned whether a claim is valid if the lease break was allowed. No deposit held (waiver with 68/mo package and one-time 1,800 risk mitigation fee paid at move-in). No eviction/court charges billed.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a65aa65996b07eafd"
+ }
+}

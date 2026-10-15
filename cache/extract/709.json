@@ -1,0 +1,144 @@
+{
+ "tracking": 709,
+ "winning_document": "Invoice-4999.pdf + CBM 2187 Hastings .pdf (no PM statement/ledger; vendor invoices are the only billed amounts)",
+ "pm_stated_amount_due": null,
+ "extraction_confidence": 0.78,
+ "documents": [
+  {
+   "file": "CBM 2187 Hastings .pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "California Building Maintenance LLC, Meld TR3N5ZM, turnover cleaning no carpet, 295.00, completed 2024-06-27"
+  },
+  {
+   "file": "Invoice-4999.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Good Turn Maintenance W.O. TZEHAED: window screen, light switch, furnace filter; materials 92.00 + labor 185.00 = 277.00"
+  },
+  {
+   "file": "jane-wanjiku.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-03-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "51-page PURE CA lease; text layer used. Term 03/11/2023-02/29/2024 then month-to-month; rent 3,800; Section 9 Security Deposit Waiver 95.00/month YES; early-termination clause 4.3"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3800,
+  "lease_start": "2023-03-11",
+  "lease_end": "2024-02-29",
+  "current_term_start": "2024-03-01",
+  "current_term_end": null,
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 95,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver monthly fee",
+    "amount": 95
+   }
+  ],
+  "lease_break_terms": "4.3 Early termination: tenant liable for lost rent, rental commissions, advertising and re-rental prep costs. Not triggered: tenancy was month-to-month after 02/29/2024."
+ },
+ "move_out": {
+  "move_out_date": "2024-05-19",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "line_items": [
+  {
+   "description": "Turn over cleaning - full detail cleaning counters, floors, bathroom mildew (CBM invoice, Meld TR3N5ZM)",
+   "category": "cleaning",
+   "amount_charged": 295,
+   "amount_open": 295,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-06-27",
+   "service_period_end": "2024-06-27",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "CBM 2187 Hastings .pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Install living room window screen, light switch and furnace filter (Good Turn invoice 4999; materials 92 + labor 185, not split)",
+   "category": "repairs_damage",
+   "amount_charged": 277,
+   "amount_open": 277,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-01",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Invoice-4999.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": true,
+  "missing_ledger": true,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "folder 709",
+   "flag": "missing_itemization",
+   "quote": "Folder holds only two vendor invoices and the lease; no PM statement or itemization"
+  },
+  {
+   "file": "folder 709",
+   "flag": "missing_ledger",
+   "quote": "No tenant ledger file in folder"
+  }
+ ],
+ "reconciliation": "sum(open line items)=295.00+277.00=572.00; credits 0; no PM-stated amount (no statement/ledger) so 572.00 is the vendor-invoice total only.",
+ "notes": "Only vendor invoices exist as billed amounts, so rule 1(4) applied. Invoice 4999 lumps a window screen, light switch and furnace filter (furnace filter may be routine maintenance but it is not split out). SD waiver addendum shows waived deposit 0.00 and 95/month fee; PURE addendum named Security Deposit Waiver. Initial term ended 2024-02-29 and tenancy rolled to month-to-month; the sheet lease end 2024-05-19 equals the move-out date. No rent or fees were claimed.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a7a3c870590d74bce"
+ }
+}

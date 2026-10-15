@@ -1,0 +1,256 @@
+{
+ "tracking": 692,
+ "documents": [
+  {
+   "file": "1319 Roma Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-25",
+   "note": "13 open SD forfeit rows total 3637.21; winning amounts",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "Tidelands_Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-28",
+   "note": "Invoice 989 total 3637.21; backs all 13 ledger lines",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Collections_-_First_Notice_to_Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-08",
+   "note": "states 3637.21 due; matches ledger",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Resident Correspondence 1.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-07-22",
+   "note": "tenant disputes charges by email",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "evidence": [
+  {
+   "file": "Resident Correspondence 1.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "There are charges on this ledger we need to dispute."
+  },
+  {
+   "file": "Resident Correspondence 1.pdf",
+   "flag": "flooring_without_support",
+   "quote": "there was no carpet when we were shown and rented the property"
+  },
+  {
+   "file": "Tidelands_Invoice.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Downstairs LR Closet; Replace floor covering."
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "flags": {
+  "tenant_disputes_charges": true,
+  "flooring_without_support": true
+ },
+ "lease": {
+  "base_monthly_rent": 2200,
+  "sd_program": "unknown",
+  "lease_start": "2023-06-02",
+  "lease_end": "2024-06-01",
+  "cash_deposit_amount": null,
+  "recurring_addons": [],
+  "monthly_sd_premium": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "initial_term_months": null,
+  "lease_break_terms": null,
+  "waived_deposit_amount": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-25",
+  "balance_due": 3637.21,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-05"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-01",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Stairwell touch-up paint",
+   "amount_open": 215,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Laundry room door handle",
+   "amount_open": 64.22,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Back porch rescreen",
+   "amount_open": 685,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Downstairs closet floor covering and paint",
+   "amount_open": 612.55,
+   "category": "flooring",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Frog den outlet cover, decor, touch-up",
+   "amount_open": 235,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Bedroom 2 touch-up paint",
+   "amount_open": 185,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Bedroom 1 outlet cover and touch-up",
+   "amount_open": 217.5,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Master bath shower head and cabinet doors",
+   "amount_open": 127.94,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Light bulb replacements",
+   "amount_open": 77.5,
+   "category": "other_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Air filter replacement (3)",
+   "amount_open": 67.5,
+   "category": "other_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Haul off washer/dryer and loose items",
+   "amount_open": 285,
+   "category": "trash_removal",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out landscaping",
+   "amount_open": 215,
+   "category": "landscaping_lawn",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out deep clean",
+   "amount_open": 650,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-08",
+   "source_file": "1319 Roma Ledger.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 3637.21,
+ "reconciliation": "Open lines 3637.21 less credits 0.00 = 3637.21, equal to PM stated amount due 3637.21 (ledger, collection letter and Tidelands invoice agree).",
+ "winning_document": "1319 Roma Ledger.pdf",
+ "notes": "Photo report not opened visually; its bedroom comment notes pet urine odor but no pet charge billed. Lease and SD addendum not opened (lite mode). Tenant emails dispute about 2242.99 in total. Max Benefit 4500 not used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ad3209742e93e84a6"
+ }
+}

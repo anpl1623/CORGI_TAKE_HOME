@@ -1,0 +1,189 @@
+{
+  "tracking": 771,
+  "documents": [
+    {
+      "file": "0908 Mcgeehan Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-07-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0908 Mcgeehan Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-10-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0908 Mcgeehan Ledger.docx",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-08-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0908 Mcgeehan Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-07-10",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "0908 Mcgeehan Move Out Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-07-10",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "0908 Mcgeehan SDI.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-07-10",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "BLU DD Authorization Form.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "0908 Mcgeehan SDI.pdf",
+  "pm_stated_amount_due": 1050.0,
+  "lease": {
+    "base_monthly_rent": 975.0,
+    "recurring_addons": [
+      {
+        "name": "Renters Insurance",
+        "amount": 19.0
+      },
+      {
+        "name": "Security Deposit Protection",
+        "amount": 33.0
+      }
+    ],
+    "lease_start": "2023-10-02",
+    "lease_end": "2024-09-30",
+    "current_term_start": "2023-10-02",
+    "current_term_end": "2024-09-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1200.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "Reletting charge of $250.00 per paragraph 11"
+  },
+  "move_out": {
+    "move_out_date": "2024-06-30",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-08-26",
+    "balance_due": 1050.0,
+    "first_full_month": "2023-11",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-07-08"
+  },
+  "line_items": [
+    {
+      "description": "Residential Rent (07/2024) - open remainder after unallocated payments applied oldest-first",
+      "category": "rent_after_move_out",
+      "amount_open": 748.0,
+      "amount_charged": 975.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0908 Mcgeehan Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Renters Insurance (07/2024)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 19.0,
+      "amount_charged": 19.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0908 Mcgeehan Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Security Deposit Protection (07/2024)",
+      "category": "sdrp_premium",
+      "amount_open": 33.0,
+      "amount_charged": 33.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0908 Mcgeehan Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2024-07-10",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "0908 Mcgeehan SDI.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 1050.00 - 0 = 1050.00 vs PM stated 1050.00; matches exactly. Perry Reid SDI itemizes Current Ledger Balance of $800.00 plus Reletting Fee of $250.00. Per Rule 3, unallocated payments applied oldest-first across all charges fully satisfy charges through June, leaving $748.00 open on July rent, $19.00 on July renters insurance, $33.00 on July SDP fee, and $250.00 reletting fee.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant moved out 2024-06-30 prior to lease end 2024-09-30. Perry Reid SDI lists Current Ledger Balance ($800.00) and Reletting Fee ($250.00), totaling $1,050.00."
+}

@@ -1,0 +1,14 @@
+# Raw source data (4.6 GB of tenant documents) and Drive zips: not versioned
+Security Deposit Itemization Documents/
+*.zip
+*.xlsx
+_staging/
+# Large derived caches, rebuilt by payout_engine/extract_text.py + digest.py
+cache/text/
+cache/digest/
+cache/drive_inventory/
+cache/touched.txt
+# misc
+__pycache__/
+.DS_Store
+validate_extract.py

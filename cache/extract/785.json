@@ -1,0 +1,231 @@
+{
+ "tracking": 785,
+ "winning_document": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+ "pm_stated_amount_due": 2036.1,
+ "reconciliation": "sum(open lines) 248.00+3.00+561.00+736.10+300.00+23.00+165.00 = 2036.10, credits 0.00, vs PM stated 2036.10 (TXR-2216 dated 08/19/2024; RV ledger balance 2,036.10); no difference. The previous-balance split (248 late fee + 3 convenience fee) and the 165 residual of the 416 'Other' line are derived.",
+ "documents": [
+  {
+   "file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-08-19",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Winning doc: TXR-2216 itemization signed by CJ Rogers 08/19/2024, balance (2,036.10) owed, with the tenant's red-text objections added. The digest text layer held only the tenant's objections."
+  },
+  {
+   "file": "2122 Modoc Dr - Taylor - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-29",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Tenant ledger printed 08/29/2024, newest-first, 2024 only. Used to split the 416 'Other' line: 251 previous balance and 165 trash, sticker and hose work. 08/19/2024 charges: repairs 749.00, move-out cleaning 736.10, utilities 300.00."
+  },
+  {
+   "file": "2122 Modoc Dr - Taylor - Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Propertyware print as of 02/18/2024 covering 07/2023-12/2023. Used for first-month history only. Balance 0."
+  },
+  {
+   "file": "2122 Modoc Dr - Taylor - Fee In Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-27",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Fee in Lieu of Security Deposit Addendum, monthly fee 69.00, signed 07/27/2023."
+  },
+  {
+   "file": "2122 Modoc Dr - Taylor - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "27-page scan not opened. Rent, term and SD program were already clear from the ledger header and the fee-in-lieu addendum."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2100,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-07-31",
+  "current_term_start": "2023-07-27",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2024-07-31",
+  "lease_start": "2023-07-27",
+  "monthly_sd_premium": 69,
+  "recurring_addons": [
+   {
+    "name": "Fee in lieu of security deposit (Sec Dep Replacement Pr)",
+    "amount": 69
+   },
+   {
+    "name": "SecondNature resident benefit package (RBP)",
+    "amount": 40
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-08-01",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Previous balance on tenant ledger: remainder of the 07/04/2024 late fee (252.00 charged, 4.00 absorbed by the 07/04 payment on oldest-first allocation). Part of the 416.00 'Other' line (19).",
+   "category": "late_fee",
+   "amount_charged": 252,
+   "amount_open": 248,
+   "date_posted": "2024-07-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2122 Modoc Dr - Taylor - Ledger RV.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Previous balance on tenant ledger: 07/04/2024 convenience fee. Part of the 416.00 'Other' line (19).",
+   "category": "admin_itemization_fee",
+   "amount_charged": 3,
+   "amount_open": 3,
+   "date_posted": "2024-07-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2122 Modoc Dr - Taylor - Ledger RV.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Item (1) damages: replace HVAC filter; spot paint; remove paper blind at formal dining room window; repair hole at stairwell wall and damaged corners; repair scratched and discolored window sill at back right bedroom. Lumped, with no sub-amounts and no invoice.",
+   "category": "repairs_damage",
+   "amount_charged": 561,
+   "amount_open": 561,
+   "date_posted": "2024-08-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Item (2) move-out cleaning",
+   "category": "cleaning",
+   "amount_charged": 736.1,
+   "amount_open": 736.1,
+   "date_posted": "2024-08-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Item (6) unpaid utilities: temporary electric and water turned on for move-out evaluation, cleaning and repairs. Tenant objects that she was not allowed to leave utilities on.",
+   "category": "utilities",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-08-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Item (11) replace missing or burned-out light bulbs: garage, primary bathroom",
+   "category": "repairs_damage",
+   "amount_charged": 23,
+   "amount_open": 23,
+   "date_posted": "2024-08-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Item (19) 'Other' 416.00 less the 251.00 previous balance = 165.00 for removing trash from curb, yard and patio, removing stickers from the entry closet, and removing a hose from the water hook-up. Ledger repairs 749.00 = 561 + 23 + 165.",
+   "category": "trash_removal",
+   "amount_charged": 165,
+   "amount_open": 165,
+   "date_posted": "2024-08-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "source_page": 2,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "I object to the amount of the charge."
+  },
+  {
+   "file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Please provide pictures of damaged window sill. I object to this charge."
+  },
+  {
+   "file": "50bed39c8333401dbe4a9e1f97faf311.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "I was NOT allowed to leave utilities on."
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-29",
+  "balance_due": 2036.1,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-04"
+ },
+ "extraction_confidence": 0.82,
+ "notes": "StarPointe, Texas, Propertyware ledger and a Rent Manager style ledger of the same tenancy. Deposit balance is 0 (fee in lieu). The itemization form says move-out 08/01/2024 while the ledger header says 07/31/2024; no August rent was charged, so I recorded 08/01 as the move-out date and left holdover unset. July 2024 rent, SDRP and RBP were paid by the 07/04 payment (2,213 vs 2,209). There were NSF returns in 02/2024 and 06/2024 that were resolved before July. The tenant's red annotations contest the filter, window sill, paper blind, amount of cleaning, utilities, stickers and curb items. No cleaning, utility or repair invoices are in the folder.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a415dbd5095ee129d"
+ }
+}

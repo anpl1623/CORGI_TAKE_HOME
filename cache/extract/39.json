@@ -1,0 +1,234 @@
+{
+ "tracking": 39,
+ "documents": [
+  {
+   "file": "Vasser-SD packet.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2022-12-29",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Envelope + AHI deposit disposition letter 12/29/2022 ($1,412.35 'Previous account balance- Early Termination Fee'; deposits paid $0; typo 'Due To Resident') + tenant ledger (all charges unpaid, total 1,412.35) used to split."
+  },
+  {
+   "file": "250943rd_Vasser_Lease_Termination_Addendum_11.3.22.signed.pdf",
+   "doc_type": "other",
+   "doc_date": "2022-11-03",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Lease termination addendum: lease terminated as of 11/4/2022; tenant did not take possession; tenant responsible for lawn care 10/20-11/4 (no amount); SD = SDRP RIS-1000 covering up to $1000."
+  },
+  {
+   "file": "2509 43rd Ave Vasser Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-10-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Pages 1 and 7 opened: term 10/20/22-10/19/23, rent $900, AHI Section 17 termination clause (2 months rent + $125 + $150)."
+  },
+  {
+   "file": "2509 43rd Vasse SDRP.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-13",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES: $15/month in lieu of deposit '$RIS 000'."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "lease_start": "2022-10-20",
+  "lease_end": "2023-10-19",
+  "current_term_start": "2022-10-20",
+  "current_term_end": "2023-10-19",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1000,
+  "monthly_sd_premium": 15,
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance - Resident Benefit Package",
+    "amount": 39
+   },
+   {
+    "name": "SDRP Fee (ledger charges $20; addendum states $15)",
+    "amount": 20
+   }
+  ],
+  "lease_break_terms": "Section 17: may terminate after 6 months with 60-day notice, paying rent through termination plus termination fee of two months' rent, $125 lease modification fee and $150 processing fee. Separate termination addendum (11/3/22) terminated lease as of 11/4/2022; if its terms are not adhered to, lease early termination clause applies."
+ },
+ "move_out": {
+  "move_out_date": "2022-11-03",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "SDRP Fee - Security Deposit Replacement RIS (move-in, October 2022)",
+   "category": "sdrp_premium",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2022-10-19",
+   "service_period_start": "2022-10-20",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP w/ Insurance - Resident Benefit Package with Insurance (move-in, October 2022)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2022-10-19",
+   "service_period_start": "2022-10-20",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant Administrative Fee - One time move in Administrative Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2022-10-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent Income - Pro Rate for Move In 10/20/22 (10/20-10/31; tenant held lease/keys but never physically moved in)",
+   "category": "rent_in_term",
+   "amount_charged": 319.35,
+   "amount_open": 319.35,
+   "date_posted": "2022-10-19",
+   "service_period_start": "2022-10-20",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.65
+  },
+  {
+   "description": "SDRP Fee - November 2022 - Security Deposit Replacement PURE",
+   "category": "sdrp_premium",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP w/ Insurance - November 2022 - Resident Benefit Package with Insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Income - 11/01/2022 (full November; keys returned 11/03, lease terminated 11/04; PM letter labels balance 'Early Termination Fee')",
+   "category": "rent_after_move_out",
+   "amount_charged": 900,
+   "amount_open": 900,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Vasser-SD packet.pdf",
+   "source_page": 3,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": true,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "tenant_never_moved_in",
+   "quote": "The Lessee(s) did not take possession of the property but will be responsible for the lawn care",
+   "file": "250943rd_Vasser_Lease_Termination_Addendum_11.3.22.signed.pdf"
+  },
+  {
+   "flag": "termination_type_early_termination",
+   "quote": "will be terminated as of November 4,2022",
+   "file": "250943rd_Vasser_Lease_Termination_Addendum_11.3.22.signed.pdf"
+  },
+  {
+   "flag": "pm_stated_amount",
+   "quote": "$1,412.35 - Previous account balance- Early Termination Fee",
+   "file": "Vasser-SD packet.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2022-12-29",
+  "balance_due": 1412.35,
+  "first_full_month": "2022-11",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "pm_stated_amount_due": 1412.35,
+ "winning_document": "Vasser-SD packet.pdf",
+ "reconciliation": "20+39+75+319.35+20+39+900 = 1412.35; credits 0; matches PM disposition letter total 1412.35 (letter lumps it as 'Previous account balance- Early Termination Fee'; ledger used to split).",
+ "notes": "Tenant signed lease 10/12/2022 (term 10/20/22-10/19/23) but never took possession; termination addendum signed 11/3/22 ends lease 11/4/22. Ledger shows no payments at all (move-in charges never paid). Key return/walkthrough 11/03/2022 (sheet move-out 2022-11-01). No damage, cleaning or lawn charges billed despite addendum mentioning lawn care. SD addendum shows $15/mo and deposit '$RIS 000'; ledger charges $20/mo SDRP; termination addendum says SDRP RIS-1000 covers up to $1000 (sheet Max Benefit 1000). PM letter erroneously says 'Due To Resident: $1,412.35'.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "acd034974ea70578b"
+ }
+}

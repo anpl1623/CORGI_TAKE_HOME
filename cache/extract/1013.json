@@ -1,0 +1,277 @@
+{
+ "tracking": 1013,
+ "winning_document": "5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+ "pm_stated_amount_due": 2788.08,
+ "documents": [
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-12-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PM security deposit distribution/itemization. Deposit held 0. Total deductions and balance owed 2,788.08."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager statement. Balance due 2,788.08 after 7,941.00 of payments. It confirms line items, dates and the 11/2 rent cutoff."
+  },
+  {
+   "file": "HistoryDocumentForPacket1312.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "47-page packet titled 'Renewal VRTL Lead + Pets': lease 10/1/2024-9/30/2025 at 2,400, pet addendum, and Security Deposit Waiver addendum (page 27: YES, 86/month in lieu of 4,400). Page 27 was opened visually."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/Invoice 5760 Biscayne Dr 12.2.24.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-12-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "WJ Contractors make-ready invoice, 8,598.00 total. The PM charged the tenant 33% of the 3,900 painting (1,287), 50% of the 290 screens (145) and 50% of the 400 blinds (200), and 100% of trash-out (450) and ozone (250). Verification only."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/invoice_27_Nov_2024_00_41_07.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-12-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ada Cleaning deep clean, 300.00. Matches the itemization."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/2024-10-02 11_53_19.219288+00_00-1043.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Assured Plumbing invoice 10084, garbage disposal unjammed, 140.00. Matches the itemization."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. Move Out Inspection.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-11-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentCheck 60-page report. Only the digest text was scanned, for pet odor evidence ('very strong Oder of pets'). The inspector recommended carpet replacement but none was charged."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne.jpg",
+   "doc_type": "other",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Image with no text layer. Treated as a photo by file name and not opened, per the efficiency rule."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices/IMG_2040.jpg",
+   "doc_type": "other",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Phone photo by file name; not opened, per the efficiency rule."
+  },
+  {
+   "file": "5760 Biscayne Dr. Move Out Invoices-20241211T215512Z-001.zip",
+   "doc_type": "other",
+   "doc_date": "2024-12-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Zip of the same invoice folder; duplicate, not used."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2400,
+  "sd_program": "deposit_waiver",
+  "lease_start": "2022-10-01",
+  "lease_end": "2025-09-30",
+  "current_term_start": "2024-10-01",
+  "current_term_end": "2025-09-30",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 4400,
+  "monthly_sd_premium": 86,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefits Package",
+    "amount": 39
+   },
+   {
+    "name": "Renters Insurance",
+    "amount": 15
+   },
+   {
+    "name": "Monthly Animal (pet) Fee",
+    "amount": 90
+   }
+  ],
+  "lease_break_terms": "Lease s.4: if tenant vacates early, tenant remains liable for rent for the balance of the lease term plus damages unless landlord releases in writing. No flat break fee."
+ },
+ "move_out": {
+  "move_out_date": "2024-11-02",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Interior cleaning: deep cleaning 100% (Ada Cleaning). Posted as an SD deduction on 12/09/2024.",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Painting and caulking: patch nail holes/pops, cracks; paint walls, ceilings, doors at 33% (33% of WJ Contractors 3,900)",
+   "category": "painting",
+   "amount_charged": 1287,
+   "amount_open": 1287,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Window screens: replace 3 window screens at 50% (of 290)",
+   "category": "repairs_damage",
+   "amount_charged": 145,
+   "amount_open": 145,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Blinds: replace 8 mini blinds at 50% (of 400)",
+   "category": "repairs_damage",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash out: remove all trash out of basement, shed and yard 100%",
+   "category": "trash_removal",
+   "amount_charged": 450,
+   "amount_open": 450,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "Ozone purifiers: run ozone purifiers for pet odor 100%",
+   "category": "pet_damage_odor",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-12-09",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.95
+  },
+  {
+   "description": "General repairs: repair jammed garbage disposal 100% (Assured Plumbing 10084, dated 10/02/2024). Statement entry is a Damage Fee posted 11/04/2024.",
+   "category": "repairs_damage",
+   "amount_charged": 140,
+   "amount_open": 140,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/5760 Biscayne Dr. - Security Deposit Distribution_.xlsx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility bills: gas for 11/4-11/12 (tenant utility reimbursement, IV# 786)",
+   "category": "utilities",
+   "amount_charged": 16.08,
+   "amount_open": 16.08,
+   "date_posted": "2024-12-06",
+   "service_period_start": "2024-11-04",
+   "service_period_end": "2024-11-12",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "5760 Biscayne Dr. Move Out Invoices/Statement - 8.5x11.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-12-11",
+  "balance_due": 2788.08,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-11-10"
+ },
+ "extraction_confidence": 0.9,
+ "reconciliation": "Open lines: 300 + 1,287 + 145 + 200 + 450 + 250 + 140 + 16.08 = 2,788.08. Credits are 0. This matches the PM's stated balance owed of 2,788.08 and the statement balance due of 2,788.08.",
+ "notes": "The itemization and the 12/11 statement agree. All rent and fees through 11/30 were already paid by the tenants, since the 7,941.00 of payments cleared every charge before the 12/09 deductions. The 11/01 rent charge is 'Rent through 11/2/2024' (160), followed by a 2,240 rent charge on 11/05 for the rest of November. This supports a 11/02 vacate date; the xlsx lists 11/30. The sheet shows lease end 2024-11-30, while the lease document runs to 9/30/2025. Ledger history starts 08/11/24 with a 2,354 September rent. The packet title 'Renewal VRTL Lead + Pets', the zero amounts due at signing and the sheet's 2022 start all indicate a renewal, but this is inferred. The monthly SD-waiver fee is 86.00 on the signed addendum and 85.00 as billed ('Preferred Tenant Program'). Two dogs are listed on the pet addendum, and the only pet-related charge is the 250 ozone line. No flooring was charged, though the inspector recommended carpet replacement. Two jpgs and the duplicate zip were not opened.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a1011b650d81f909c"
+ }
+}

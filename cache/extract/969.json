@@ -1,0 +1,320 @@
+{
+ "tracking": 969,
+ "winning_document": "Ursenbach final statement.pdf",
+ "pm_stated_amount_due": 2296.16,
+ "documents": [
+  {
+   "file": "Ursenbach final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager final statement with PM comments, balance 2,296.16. Hypothetical collection fees of 1,148.08 and 3,444.24 are not charges."
+  },
+  {
+   "file": "Ursenbach ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger, same 2,296.16 balance. Used to confirm rent, payment history and the 10/22 rent proration. Prior history is paid."
+  },
+  {
+   "file": "Ursenbach collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States 2,296.16 due within 7 days. Equals the statement."
+  },
+  {
+   "file": "Ursenbach invoice carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 3-326602, 345.00. The PM charged 340.00. Verification only."
+  },
+  {
+   "file": "Ursenbach invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-23",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Vetos invoice 246, 307.50. Matches the statement."
+  },
+  {
+   "file": "Ursenbach invoice painting.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Paynter's invoice 1075 is 375.00. The PM charged 225.00, so the statement amount is used."
+  },
+  {
+   "file": "Ursenbach invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "McIntyre Remodel invoice 150, 247.66 (labor 146.25 + material 101.41). Matches the statement."
+  },
+  {
+   "file": "Ursenbach ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-07-12",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Zero Deposit Program addendum, 45/month in lieu of a deposit."
+  },
+  {
+   "file": "Ursenbach renewal.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-05-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "12-month renewal 8/1/2024-7/31/2025 at 1,395, signed 6/2/2024. Includes the amenity package (50/month) and YRIG liability (16/month) addenda."
+  },
+  {
+   "file": "Ursenbach lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-07-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original lease from 7/15/2022 with a fixed term to 7/31/2023, then month to month. Digest excerpt only."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1395,
+  "sd_program": "zero_deposit",
+  "lease_start": "2022-07-15",
+  "lease_end": "2025-07-31",
+  "current_term_start": "2024-08-01",
+  "current_term_end": "2025-07-31",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Renters insurance - YRIG policy",
+    "amount": 16
+   }
+  ],
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-10-22",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Amenity Service Package, October 2024",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Zero Deposit Program Charge, October 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent: 22-day pro-rate due, 'Tenant willingly vacated to save eviction' (1,395 x 22/31 = 990)",
+   "category": "rent_in_term",
+   "amount_charged": 990,
+   "amount_open": 990,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance - YRIG policy, October 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Charge 10/08/2024",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Three day notice service: 3-day notice mailed and served per Idaho law",
+   "category": "eviction_legal_court",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-10-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Repair service: tenant-responsible repairs, parts and labor (McIntyre Remodel invoice 150: filling holes, doorstop, bulbs, sink basket, crisper drawer, blinds)",
+   "category": "repairs_damage",
+   "amount_charged": 247.66,
+   "amount_open": 247.66,
+   "date_posted": "2024-10-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning Service: 'Heavy carpet clean/animal urine enzymes' (vendor invoice 3-326602 is 345.00 and also lists carpet patch, re-stretch and stain removal; PM charged 340.00). No split between routine cleaning and urine treatment.",
+   "category": "pet_damage_odor",
+   "amount_charged": 340,
+   "amount_open": 340,
+   "date_posted": "2024-10-22",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Cleaning: non-normal wear and tear cleaning, Vetos invoice 246 (10.25 hours at 30/hour)",
+   "category": "cleaning",
+   "amount_charged": 307.5,
+   "amount_open": 307.5,
+   "date_posted": "2024-10-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Painting: non-normal wear and tear painting on patched/repaired drywall, Paynter invoice 1075 (invoice 375.00; PM charged 225.00)",
+   "category": "painting",
+   "amount_charged": 225,
+   "amount_open": 225,
+   "date_posted": "2024-10-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ursenbach final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "Ursenbach final statement.pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Heavy carpet clean/animal urine enzymes"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-21",
+  "balance_due": 2296.16,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-04"
+ },
+ "extraction_confidence": 0.88,
+ "reconciliation": "Open lines: 50 + 45 + 990 + 16 + 50 + 25 + 247.66 + 340 + 307.50 + 225 = 2,296.16. Credits are 0. This matches the PM's stated amount due of 2,296.16 on the statement, collection letter and ledger.",
+ "notes": "Everything before 10/01/2024 is paid, with the last payment of 1,506.00 on 9/4/2024. The whole October charge set is open. The tenant vacated after a 3-day notice (10/16) 'to save eviction', but no writ or court action appears, so termination is early_termination rather than eviction. The 12-month renewal ran from 8/1/2024 to 7/31/2025 (signed 6/2/2024), so the tenant left in the first three months of the renewal. The sheet's lease start of 2023-08-01 is the start of the earlier month-to-month period. The original lease started 7/15/2022 with rent of 1,345. The carpet cleaning line is the only pet line, and it mixes routine carpet cleaning with urine enzyme treatment. The ledger starts 08/01/23, so the first full month is not visible. Opened no files visually.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a1011b650d81f909c"
+ }
+}

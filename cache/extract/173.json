@@ -1,0 +1,134 @@
+{
+  "tracking": 173,
+  "documents": [
+    {
+      "file": "2749NGeronimoAve_080123_statementofaccounting_VanVorce_Ewald.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-07-31",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "3_Lease_Renewal_Addendum_-_rev_073021_(1)_(03-13-2023_-_03-13-2023).pdf",
+      "doc_type": "renewal_lease",
+      "doc_date": "2023-03-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(07-08-2022_-_07-08-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-07-08",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "tenant ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-21",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "2749NGeronimoAve_080123_statementofaccounting_VanVorce_Ewald.pdf",
+  "pm_stated_amount_due": 585.0,
+  "lease": {
+    "base_monthly_rent": 1245.0,
+    "recurring_addons": [
+      {
+        "name": "No Security Deposit Option Monthly Fee",
+        "amount": 35.0
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 29.0
+      }
+    ],
+    "lease_start": "2022-07-15",
+    "lease_end": "2024-06-04",
+    "current_term_start": "2023-06-01",
+    "current_term_end": "2024-06-04",
+    "initial_term_months": 11,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 35.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "$1,000 lease break/re-renting fee plus two times monthly rental rate"
+  },
+  "move_out": {
+    "move_out_date": "2023-07-11",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-21",
+    "balance_due": 585.0,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-06-30"
+  },
+  "line_items": [
+    {
+      "description": "Cleaning - Moveout cleaning",
+      "category": "cleaning",
+      "amount_open": 480.0,
+      "amount_charged": 480.0,
+      "date_posted": "2023-07-31",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2749NGeronimoAve_080123_statementofaccounting_VanVorce_Ewald.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repair - Handyman (Replaced 2 AC filters 20x20, 5 light bulbs)",
+      "category": "repairs_damage",
+      "amount_open": 105.0,
+      "amount_charged": 105.0,
+      "date_posted": "2023-07-31",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2749NGeronimoAve_080123_statementofaccounting_VanVorce_Ewald.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 585.00 - 0.00 = 585.00 vs PM stated 585.00; exactly matches",
+  "flags": {
+    "flooring_without_support": false,
+    "military_scra": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "mixed_pet_nonpet_line": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "owner_waived_balance": false,
+    "payment_arrangement": false,
+    "pm_withdrew_or_void": false,
+    "premiums_unpaid": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "tenant_never_moved_in": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "tenant_still_in_possession": false,
+    "test_claim": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant broke lease early on 2023-07-11, paying the lease break fee ($2,490.00), re-renting fee ($1,000.00), and prorated July rent ($441.77) in full on 2023-06-30. Only move-out cleaning ($480.00) and minor handyman repairs ($105.00) remain unpaid."
+}

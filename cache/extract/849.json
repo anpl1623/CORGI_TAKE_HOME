@@ -1,0 +1,263 @@
+{
+ "tracking": 849,
+ "winning_document": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 2050.72,
+ "extraction_confidence": 0.88,
+ "reconciliation": "sum(open lines) 2,425.72 - credits 375.00 (cash deposit applied) = 2,050.72 vs PM stated 2,050.72 and ledger balance 10/07/2024 2,050.72: match.",
+ "notes": "StarPointe TXR-2216 itemization signed 09/18/2024 (Killeen TX). Tenant paid a 375 cash deposit PLUS a 33/mo fee in lieu (lease 10.A: '375.00 + Fee in Lieu'); PM applied the 375 against the claim. Statement item 2 (475.22) split by the RV ledger into move-out cleaning 324.75 and carpet cleaning 150.47. Statement item 19 (130.00) split using the ledger: trash removal left at curb 100.00 plus 30.00 debris/personal items removal (inferred, ledger Move Out Repairs 163.00 = 123 + 10 + 30). Sept and Oct 2024 rent charged in full as accelerated rent after the 8/28/2024 move-out; reletting fee is 25% of one month's rent. Re-let date not stated. The older Propertyware ledger (as of 2/17/2024) is history only.",
+ "documents": [
+  {
+   "file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-09-18",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Winning TXR-2216 itemization, deductions 2,425.72 less deposit 375 = 2,050.72 owed"
+  },
+  {
+   "file": "3602 Malibu Apt A-Lee-Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Rent Manager ledger as of 10/07/2024 (newest first); used to split lumped lines and confirm credits"
+  },
+  {
+   "file": "3602 Malibu Apt A-Lee-Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-17",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Older Propertyware history: 375 security deposit held, fee in lieu 33/mo"
+  },
+  {
+   "file": "3602 Malibu Apt A-Lee-Fee In Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Fee in Lieu of Security Deposit addendum, 33 monthly non-refundable"
+  },
+  {
+   "file": "3602 Malibu Apt A-Lee-Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Texas Realtors lease pp1-4,13-14 read: rent 750, term 10/26/2023-10/31/2024, deposit 375 + fee in lieu"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 750,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 375,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-10-26",
+  "lease_end": "2024-10-31",
+  "current_term_start": "2023-10-26",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 27: default accelerates unpaid rent for remainder of lease; tenant liable for lost rent, reletting costs and repairs; landlord to mitigate. Para 28B replacement tenant fee 25% of one month's rent. No flat lease-break fee.",
+  "recurring_addons": [
+   {
+    "name": "Fee in lieu / Sec Dep Replacement Pr",
+    "amount": 33
+   },
+   {
+    "name": "SecondNature resident benefit",
+    "amount": 40
+   },
+   {
+    "name": "Asset protection",
+    "amount": 15
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-28",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages: remove command hooks above windows in living room and bedrooms; replace living room blind; replace four stove drip pans (no sub-amounts given)",
+   "category": "repairs_damage",
+   "amount_charged": 123,
+   "amount_open": 123,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move Out Cleaning (part of statement item 2 cleaning 475.22)",
+   "category": "cleaning",
+   "amount_charged": 324.75,
+   "amount_open": 324.75,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602 Malibu Apt A-Lee-Ledger RV.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning (part of statement item 2 cleaning 475.22)",
+   "category": "carpet_cleaning",
+   "amount_charged": 150.47,
+   "amount_open": 150.47,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602 Malibu Apt A-Lee-Ledger RV.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unpaid/accelerated rent September 2024 (after 8/28/2024 move-out, within lease term)",
+   "category": "rent_after_move_out",
+   "amount_charged": 750,
+   "amount_open": 750,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Unpaid/accelerated rent October 2024 (after move-out, within lease term ending 10/31/2024)",
+   "category": "rent_after_move_out",
+   "amount_charged": 750,
+   "amount_open": 750,
+   "date_posted": "2024-09-18",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Tenant Reletting Expense 25% of one month's rent",
+   "category": "reletting_fee",
+   "amount_charged": 187.5,
+   "amount_open": 187.5,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Replace burned-out light bulbs, front porch",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "Removal of debris left on living room floor and personal items left in front bedroom (30.00 split inferred from ledger)",
+   "category": "trash_removal",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.8
+  },
+  {
+   "description": "Bulk trash left at curb",
+   "category": "trash_removal",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3602 Malibu Apt A-Lee-Ledger RV.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant's cash security deposit applied by PM (Open Credit - Move Out Deposit Release)",
+   "amount": 375,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "3602-A Malibu-Lee-Itemization of Security Deposit.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-07",
+  "balance_due": 2050.72,
+  "first_full_month": "2023-11-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-01"
+ },
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ae2d47feb0ee13b7f"
+ }
+}

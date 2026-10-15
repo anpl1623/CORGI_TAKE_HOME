@@ -1,0 +1,288 @@
+{
+ "tracking": 574,
+ "winning_document": "Palmer 222 SDI.pdf",
+ "pm_stated_amount_due": 2338,
+ "documents": [
+  {
+   "file": "ASH DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ACH/DD form, ignored per handling rules."
+  },
+  {
+   "file": "Ledger.PDF",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same ledger as Palmer 222 Ledger.pdf but all move-out charges were written off 05/10/2024 ('Remove moveout balance from ledger'), ending balance 0.00. Not counted twice."
+  },
+  {
+   "file": "Palmer 222 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TN lease addendum: renters insurance NO (tenant has own); Security Deposit Waiver YES $33 per month in lieu of $1,200 deposit."
+  },
+  {
+   "file": "Palmer 222 Lease part 2.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 5-8: default, acceleration, move-out notice, $45 eco fee special provision."
+  },
+  {
+   "file": "Palmer 222 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-26",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-4: rent 900, term 7/26/2023-6/30/2024, deposit $0.00, para 11 early move-out reletting charge $250."
+  },
+  {
+   "file": "Palmer 222 Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Used to split the SDI 'May rent $993' lump into rent 900, pet 15, SD protection 33, utility 45 and for first-month history."
+  },
+  {
+   "file": "Palmer 222 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-05-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due $2,338.00; collections (Hunter Warfield) if unpaid in 10 days."
+  },
+  {
+   "file": "Palmer 222 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance 2,338.00; same eight lines as SDI."
+  },
+  {
+   "file": "Palmer 222 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Itemization - Move Out, total 2,338.00 (A 2,143 + B 195). Deposit blank."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-06-30",
+  "current_term_start": "2023-07-26",
+  "initial_term_months": 11,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Para 11 early move-out: reletting charge $250 (not over 100% of highest monthly rent) if tenant fails to give written 45-day move-out notice, moves out without paying rent for the full term, or is evicted. Para 33/45/46: move-out does not release rent liability, acceleration of future rent. PM also billed a $900 'Termination Fee' not found in the lease text.",
+  "lease_end": "2024-06-30",
+  "lease_start": "2023-07-26",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Pet fee (monthly)",
+    "amount": 15
+   },
+   {
+    "name": "Utility revenue / eco fee (water, sewer, refuse)",
+    "amount": 45
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-05-01",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-05-20",
+  "balance_due": 2338,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-01"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (05/2024), part of SDI 'Current Ledger Balance - May rent 993'. Tenant gave notice and moved out 5/1.",
+   "category": "rent_after_move_out",
+   "amount_charged": 900,
+   "amount_open": 900,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Pet Fee Income (05/2024), part of SDI May rent 993",
+   "category": "pet_fee_rent",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection (05/2024), part of SDI May rent 993",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue (05/2024), monthly eco/utility fee, part of SDI May rent 993",
+   "category": "utilities",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-05-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Termination Fee (early termination, lease ran to 6/30/2024)",
+   "category": "lease_break_fee",
+   "amount_charged": 900,
+   "amount_open": 900,
+   "date_posted": "2024-05-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "One blind replacement",
+   "category": "repairs_damage",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-05-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Clean out / cleaning charges",
+   "category": "cleaning",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-05-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Palmer 222 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "ledger_writeoff_note",
+   "file": "Ledger.PDF",
+   "quote": "Write Off Charge ... Remove moveout balance from ledger"
+  },
+  {
+   "flag": "pm_still_claiming",
+   "file": "Palmer 222 Move Out Letter.pdf",
+   "quote": "your move out statement that shows your balance due of $2338.00"
+  }
+ ],
+ "extraction_confidence": 0.88,
+ "reconciliation": "Sum of 8 open lines 2338.00 - credits 0 = 2338.00 vs PM stated 2338.00 (SDI total, move-out statement, 5/9 letter). Match; SDI's lumped 'May rent 993' was split via ledger into 900+15+33+45.",
+ "notes": "Ledger.PDF (dated 5/20/2024) shows the eight move-out charges written off on 05/10/2024 with a zero balance, while Palmer 222 Ledger.pdf and the 5/20 Move Out Statement still show 2,338 due and the 5/9 letter threatens collections. Treated as a routine ledger write-off, not a waiver or withdrawal, but it is surfaced for review. Tenant gave notice and moved out on 5/1/2024, so May rent (period 5/1-5/31) is classified rent_after_move_out although move-out falls on the first day of that period. The 900 termination fee is not in the lease text (lease has 250 reletting charge and acceleration clause). Deposit 0.00; waiver addendum $33/month in lieu of $1,200. Pet fee 15/month is a pet charge with a clean split. No invoices or photos for blind or cleaning.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "affb13147daba2b69"
+ }
+}

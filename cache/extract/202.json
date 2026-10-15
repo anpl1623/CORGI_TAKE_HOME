@@ -1,0 +1,155 @@
+{
+  "tracking": 202,
+  "documents": [
+    {
+      "file": "PGF 209 Booker Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-12",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "PGF 209 Booker Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-09-11",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "PGF 209 Booker YRIG Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-01-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "PGF 209 Booker lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-01-07",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "PGF 209 Booker Ledger.pdf",
+  "pm_stated_amount_due": 1965.0,
+  "lease": {
+    "base_monthly_rent": 1625.0,
+    "recurring_addons": [
+      {
+        "name": "Utility Revenue",
+        "amount": 40.0
+      },
+      {
+        "name": "Security Deposit Protection",
+        "amount": 33.0
+      },
+      {
+        "name": "Pet Fee Income",
+        "amount": 35.0
+      }
+    ],
+    "lease_start": "2023-01-07",
+    "lease_end": "2023-12-31",
+    "current_term_start": "2023-01-07",
+    "current_term_end": "2023-12-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1625.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "reletting charge of $250.00"
+  },
+  "move_out": {
+    "move_out_date": "2023-08-31",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-09-12",
+    "balance_due": 1965.0,
+    "first_full_month": "2023-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-08-01"
+  },
+  "line_items": [
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-09-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "PGF 209 Booker Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "September Rent (notice)",
+      "category": "rent_after_move_out",
+      "amount_open": 1625.0,
+      "amount_charged": 1625.0,
+      "date_posted": "2023-09-11",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "PGF 209 Booker Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet Cleaning",
+      "category": "carpet_cleaning",
+      "amount_open": 90.0,
+      "amount_charged": 90.0,
+      "date_posted": "2023-09-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "PGF 209 Booker Ledger.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 1965.00 vs PM stated 1965.00; exact match. Reletting fee ($250.00), September post-move-out rent ($1,625.00), and carpet cleaning ($90.00) total $1,965.00.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "PGF 209 Booker Ledger.pdf dated 2023-09-12 is the winning accounting document. Tenant had zero balance through August 2023. Billed post-move-out reletting fee ($250.00), September accelerated/notice rent ($1,625.00), and carpet cleaning ($90.00), totaling $1,965.00."
+}

@@ -1,0 +1,255 @@
+{
+ "tracking": 953,
+ "winning_document": "Santana 16 SDI.pdf",
+ "pm_stated_amount_due": 2929,
+ "documents": [
+  {
+   "file": "CEN DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Classified from file name per efficiency rule; ignored."
+  },
+  {
+   "file": "Santana 16 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-09-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "YRIG Lease Addendum + Explanation of Protections: Liability Option 1 ($16/mo) checked; Security Deposit Waiver ($33/mo) YES/NO boxes both appear unchecked, but ledger bills SD Protection 33/mo. Policy start 09/11/2024."
+  },
+  {
+   "file": "Santana 16 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-09-11",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "NAA Iowa lease: rent 800, deposit 0.00, term 9/11/2024-9/30/2025, special provisions: 30-day notice before first of month, Eco Fee $80 three-bedroom."
+  },
+  {
+   "file": "Santana 16 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "States balance due $2,929.00; 10 days before Hunter Warfield collections. Matches statement/SDI total."
+  },
+  {
+   "file": "Santana 16 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "8 charge lines totaling 2,929.00; used to split the SDI 49.00 insurance/waiver line into 16 + 33."
+  },
+  {
+   "file": "Santana 16 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Security Deposit Itemization - Move Out (scanned form): move out 10/25/2024 SKIP, notice 10/24/24, total due 2,929.00, no security deposit. Winning accounting document (undated; same totals as 10/29 statement)."
+  },
+  {
+   "file": "Santana Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first ledger; all October charges unpaid, no payments after 09/12/2024; balance 2,929.00. Used to confirm lines and posting dates."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 800,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Liability Protection Option 1",
+    "amount": 16
+   },
+   {
+    "name": "Utility / Eco Fee (water, sewer, refuse, gas, storm water - 3 bedroom)",
+    "amount": 80
+   }
+  ],
+  "lease_start": "2024-09-11",
+  "lease_end": "2025-09-30",
+  "current_term_start": "2024-09-11",
+  "current_term_end": "2025-09-30",
+  "initial_term_months": 12.6,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 11 early move-out: liable for all rent as it becomes due until re-rented, plus repayment of rent concessions; para 44: if move-out notice does not meet 30-day requirement tenant owes an additional month's rent; para 33/mitigation: landlord credits rent actually received from re-letting; para 31: no re-renting charge if approved replacement, admin fee applies; special provisions: 30-day written notice prior to first day of month before last full month."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-25",
+  "termination": "skip_abandon",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 2929,
+  "first_full_month": "2024-10",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-12"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (10/2024) - SDI 'Current Ledger Balance'",
+   "category": "rent_in_term",
+   "amount_charged": 800,
+   "amount_open": 800,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Charge October Late Fee",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "Future Months Rent (skip) - rent after move-out within lease term (month not stated; Nov 2024 inferred)",
+   "category": "rent_after_move_out",
+   "amount_charged": 800,
+   "amount_open": 800,
+   "date_posted": "2024-10-29",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Liability Protection Option 1 (10/2024) - part of SDI 'ins renters and Security waiver' 49.00",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Security Deposit Protection (10/2024) - part of SDI 'ins renters and Security waiver' 49.00",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Utility Revenue (10/2024) - Eco Fee",
+   "category": "utilities",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "General cleaning - 3 bdrm clean (Cleaning Charges)",
+   "category": "cleaning",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-10-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Improper Notice Fee - 'failure to give 30 day notice' (equals one month rent; lease para 44 additional month's rent). Alternative reading: lease_break_fee.",
+   "category": "other_fee",
+   "amount_charged": 800,
+   "amount_open": 800,
+   "date_posted": "2024-10-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Santana 16 SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [
+  {
+   "file": "Santana 16 SDI.pdf",
+   "flag": "termination_skip",
+   "quote": "Move Out Date: 10/25/2024 SKIP"
+  },
+  {
+   "file": "Santana 16 Move Out Statement.pdf",
+   "flag": "termination_skip",
+   "quote": "Future Months Rent (skip) 800.00"
+  },
+  {
+   "file": "Santana 16 Move Out Statement.pdf",
+   "flag": "sd_program_billed",
+   "quote": "Security Deposit Protection (10/2024) 33.00"
+  }
+ ],
+ "extraction_confidence": 0.9,
+ "reconciliation": "Sum of 8 open lines 800+50+800+16+33+80+350+800 = 2,929.00, credits 0.00, net 2,929.00 = PM stated 2,929.00 (SDI, 10/29 statement, letter and 11/19 ledger all agree).",
+ "notes": "No cash deposit (lease deposit 0.00); SD waiver fee 33/mo billed on ledger although SD waiver YES/NO boxes on the addendum look unchecked. Move-out date discrepancy: SDI and statement say 10/25/2024 (SKIP), notice dated 10/24/2024; sheet and ledger header say 10/31/2024. Tenant gave notice one day before leaving. Lease initial term 9/11/2024-9/30/2025 (about 12.6 months). Improper Notice Fee (800) is arguably duplicative of Future Months Rent (800): PM bills both a notice-penalty month and a future month. Tenant made no payment toward October charges. No pet evidence. DD authorization form not opened.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae8aec7c8d4df42f9"
+ }
+}

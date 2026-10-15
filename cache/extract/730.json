@@ -1,0 +1,340 @@
+{
+ "tracking": 730,
+ "documents": [
+  {
+   "file": "11764 W Hackney Dr_3_Lease_Renewal_Addendum_-_rev_073021_(1)_(03-03-2023_-_03-03-2023).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-03-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "First renewal 5/24/2023-5/28/2024 at 1895/mo; superseded by 2nd renewal"
+  },
+  {
+   "file": "11764 W Hackney Dr_3_Lease_Renewal_Addendum_-_rev_082123_(12-07-2023_-_12-07-2023).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-01-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "CURRENT term 5/29/2024-5/27/2025 at 1950/mo; lease break fee 1000 + 2x rent; used for lease facts"
+  },
+  {
+   "file": "11764 W Hackney Dr_3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(05-09-2022_-_05-09-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-05-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original lease from 5/18/2022; no security deposit option; RBP 29; pet fee 25/pet/mo"
+  },
+  {
+   "file": "11764 W Hackney Dr_Security_Deposit_Waiver_Addendum_1_(05-09-2022_-_05-09-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-05-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "SD waiver 50/month in lieu of 2,842.50 deposit"
+  },
+  {
+   "file": "11764 W Hackney Dr_tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first; open rows are four 08/09/2024 Sec Dep- charges totaling 2030.25; corroborates statement; history all paid"
+  },
+  {
+   "file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "6 pages: Statement of Accounting (p1, prepared 8/7/24, total 2030.25 due from resident) plus vendor invoices p2-5 (rekey, cleaning/haul, repairs, landscaping) and mailing envelope p6; invoices used only to split lines"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1950,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2025-05-27",
+  "current_term_start": "2024-05-29",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "Renewal addendum: tenant may terminate by paying 1,000 lease break/re-renting fee plus 2x monthly rent (computed after possession relinquished). Ledger shows 1,000 lease break fee journaled and paid by owner on 06/26/2024; statement shows lease break fee 0.",
+  "lease_end": "2025-05-27",
+  "lease_start": "2022-05-18",
+  "monthly_sd_premium": 50,
+  "recurring_addons": [
+   {
+    "name": "SD waiver monthly fee (RIS - Monthly fee to te..., acct 4030)",
+    "amount": 50
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   },
+   {
+    "name": "Monthly pet fee (2 pets x 25)",
+    "amount": 50
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 2842.5
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-07-18",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rekey (Red Valley Construction invoice, Meld T200M45, 7/22/2024)",
+   "category": "rekey_locks",
+   "amount_charged": 220,
+   "amount_open": 220,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 2,
+   "confidence": 0.97
+  },
+  {
+   "description": "Move out cleaning (Tucker Cleaning invoice 000002662, part of Cleaning/Haul Out 597.25)",
+   "category": "cleaning",
+   "amount_charged": 447.25,
+   "amount_open": 447.25,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 3,
+   "confidence": 0.97
+  },
+  {
+   "description": "Trash haul away incl. emptying garbage bins, two trips to dump (Tucker Cleaning, part of Cleaning/Haul Out 597.25)",
+   "category": "trash_removal",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 3,
+   "confidence": 0.97
+  },
+  {
+   "description": "Repair holes in stucco by front door (Jack'll Fix It, 7/29/2024)",
+   "category": "repairs_damage",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace all missing/burnt out light bulbs (Jack'll Fix It)",
+   "category": "repairs_damage",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.88
+  },
+  {
+   "description": "Remove all tacks/nails from wall (Jack'll Fix It)",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.88
+  },
+  {
+   "description": "Remove all locks from cabinets (Jack'll Fix It)",
+   "category": "repairs_damage",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Reinstalled ice maker (Jack'll Fix It)",
+   "category": "appliance",
+   "amount_charged": 95,
+   "amount_open": 95,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace crisper bins for refrigerator (Jack'll Fix It)",
+   "category": "appliance",
+   "amount_charged": 295,
+   "amount_open": 295,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace filters for microwave (Jack'll Fix It); AC filter change listed N/C",
+   "category": "appliance",
+   "amount_charged": 68,
+   "amount_open": 68,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-29",
+   "service_period_end": "2024-07-29",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Property cleanup: trim bushes, remove weeds, empty trash containers, blow debris (onsite LLC invoice 1507, 8/7/2024)",
+   "category": "landscaping_lawn",
+   "amount_charged": 550,
+   "amount_open": 550,
+   "date_posted": "2024-08-09",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "source_page": 5,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Journal entry 06/26/2024 'Owner paying lease break fees' 1,000 charge offset by 1,000 owner payment; net zero, lease break fee not claimed (statement lease break fee 0)",
+   "amount": 1000,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "11764 W Hackney Dr_tenant ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "11764 W Hackney Dr_tenant ledger.pdf",
+   "flag": "lease_break_fee_paid_by_owner",
+   "quote": "Owner paying lease break fees"
+  },
+  {
+   "file": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+   "flag": "statement_total",
+   "quote": "AMOUNT DUE FROM RESIDENT: $2030.25 (Unpaid Rent 0, Lease Break Fee 0)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-21",
+  "balance_due": 2030.25,
+  "first_full_month": "2022-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-01"
+ },
+ "pm_stated_amount_due": 2030.25,
+ "winning_document": "11764WHackneyDr_080924_StatementofAccounting_Przbylo.pdf",
+ "reconciliation": "Sum of 11 open lines 2030.25 - credits 0 = 2030.25 equals PM statement of accounting 2030.25 and ledger balance 2030.25 (rekey 220 + cleaning/haul 597.25 + repairs 663 + landscaping 550).",
+ "notes": "Early termination (lease break) with move-out 7/18/24 vs lease end 5/27/25. Statement shows Unpaid Rent 0, Lease Break Fee 0, Advertising Fee 0; July rent was prorated 440.32 (7/1-7/7) and paid; owner covered 1,000 lease break fee via journal. Cleaning/Haul Out split 447.25 cleaning + 150 trash haul from Tucker invoice; Repairs 663 split into 7 invoice lines (sum 663). Ledger four 08/09/2024 'Sec Dep-' charges match statement exactly. No pet-related damage evidenced although tenant paid pet fee. Opened statement PDF visually (all 6 pages); did not open leases (renewals clear).",
+ "extraction_confidence": 0.93,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a46cadb7cb11817af"
+ }
+}

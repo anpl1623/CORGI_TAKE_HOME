@@ -1,0 +1,241 @@
+{
+ "tracking": 811,
+ "winning_document": "Tenant-Ledger-2024_09_16_12_58_00.pdf",
+ "pm_stated_amount_due": 1178,
+ "extraction_confidence": 0.93,
+ "documents": [
+  {
+   "file": "Tenant-Ledger-2024_09_16_12_58_00.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first; five open post-move-out chargebacks total 1,178.00; prior balance 0 after 07-01-2024 payment."
+  },
+  {
+   "file": "Demand Letter_816 Gristina.png",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-01",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PM email states balance 1,178.00 due; the attached Final Statement PDF is not in the folder."
+  },
+  {
+   "file": "Carpet Cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Carolina Carpet Cleaning invoice 81324, 209.00; includes deodorizer as standard step, no pet notation."
+  },
+  {
+   "file": "Paint Touch Up.jpg",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-09",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten invoice 071232: roll/patch walls and trim 350 + 4 gal paint 125 = 475."
+  },
+  {
+   "file": "TJ _Removed Items.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-06",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "3 handwritten invoices; only 084121 (816 Gristina, 300.00 removal of items and curb trash) belongs to this claim. 084122 (1 Hillcrest Ave, 400) and 084124 (410 Finch Ln, 150) are other addresses and were ignored."
+  },
+  {
+   "file": "Lease_816 Gristina_Bibbs.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-15",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-2 read: term 06/29/2023-07/01/2024, rent 2,095, deposit 0.00."
+  },
+  {
+   "file": "Lease_816 Gristina_Bibbs_Woodruff.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Month-to-month extension: rent 2,360 total (2,260 base + 100 MTM admin fee), 99 rekey clause."
+  },
+  {
+   "file": "SDRP Addendum_816 Gristina_Bibbs_Mitchell.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-15",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, 50.00/month in lieu of 3,000.00 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2260,
+  "cash_deposit_amount": 0,
+  "current_term_end": null,
+  "current_term_start": "2024-07-01",
+  "initial_term_months": 12,
+  "is_month_to_month": true,
+  "is_renewal": false,
+  "lease_break_terms": "PURE MTM addendum: early move-out may result in reletting charges and acceleration of future rent; 60 days notice required; 99 rekey fee withheld at vacate. Not triggered.",
+  "lease_end": "2024-07-01",
+  "lease_start": "2023-06-29",
+  "monthly_sd_premium": 50,
+  "recurring_addons": [
+   {
+    "name": "Month-to-month admin fee",
+    "amount": 100
+   },
+   {
+    "name": "SDRP monthly fee",
+    "amount": 50
+   },
+   {
+    "name": "RBP w/insurance",
+    "amount": 45.95
+   },
+   {
+    "name": "Pet admin fee monthly",
+    "amount": 30
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 3000
+ },
+ "move_out": {
+  "move_out_date": "2024-08-01",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out rekey chargeback",
+   "category": "rekey_locks",
+   "amount_charged": 99,
+   "amount_open": 99,
+   "date_posted": "2024-08-02",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_16_12_58_00.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Removed all items from inside house and garage, removed trash from curb (TJ Brown invoice 084121)",
+   "category": "trash_removal",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-08-07",
+   "service_period_start": "2024-08-06",
+   "service_period_end": "2024-08-06",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "TJ _Removed Items.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Replaced towel bar and toilet tissue holder (no invoice in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 95,
+   "amount_open": 95,
+   "date_posted": "2024-08-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_09_16_12_58_00.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Paint touch up: rolled and patched walls, touched up trim 350 + 4 gallons paint 125",
+   "category": "painting",
+   "amount_charged": 475,
+   "amount_open": 475,
+   "date_posted": "2024-08-09",
+   "service_period_start": "2024-08-09",
+   "service_period_end": "2024-08-09",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Paint Touch Up.jpg",
+   "source_page": null,
+   "confidence": 0.93
+  },
+  {
+   "description": "Carpet cleaning, 3 bedrooms, closets, hall, stairs (Carolina Carpet Cleaning inv 81324)",
+   "category": "carpet_cleaning",
+   "amount_charged": 209,
+   "amount_open": 209,
+   "date_posted": "2024-08-14",
+   "service_period_start": "2024-08-13",
+   "service_period_end": "2024-08-13",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Carpet Cleaning.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-09-16",
+  "balance_due": 1178,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "sum(open lines) 99+300+95+475+209 = 1,178.00 - credits 0 = 1,178.00 vs PM stated 1,178.00 (demand email and ledger balance): match.",
+ "notes": "No PM move-out statement in folder (the email's Final Statement attachment is missing), so the ledger open rows are the winning document and the email total confirms them. Ledger shows balance 0.00 before move-out; all rent, MTM, SDRP, RBP and pet fees through 07-2024 were paid. Move-out 08-01-2024 was one month into the signed month-to-month extension, so no rent after lease end is open. Ledger header rent 2,260 plus 100 MTM fee equals the sheet's 2,360. Two of the three TJ Brown invoices belong to other properties and were excluded.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a494229859b1afb21"
+ }
+}

@@ -1,0 +1,339 @@
+{
+ "tracking": 983,
+ "winning_document": "Vanscoter final statement.pdf",
+ "pm_stated_amount_due": 2080.23,
+ "documents": [
+  {
+   "file": "Vanscoter final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Rent Manager final statement 11/20/24: 4 lines totaling 2,080.23; unapplied credits 0.00; collection fees 1,040.11 are hypothetical (3,120.34 if assigned to collections). Winning doc."
+  },
+  {
+   "file": "Vanscoter final statement.txt",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy of the final statement; duplicate."
+  },
+  {
+   "file": "Vanscoter collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "JPM letter: balance 2,080.23, 7 days to pay or collections; matches statement."
+  },
+  {
+   "file": "Vanscoter collection letter.txt",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager oldest-first ledger 08/2022-12/2024; ends with same four move-out lines, balance 2,080.23; used for rent/payment history and rent/add-on amounts."
+  },
+  {
+   "file": "Vanscoter ledger.txt",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Mach1 Maintenance invoice 6813, order 17550 TENANT: parts 233.50 + labor 7.25h x 65 = 471.25 = 704.75; backs repair line exactly."
+  },
+  {
+   "file": "Vanscoter invoice repairs.txt",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rayo cleaning, 4h x 35 = 140.00, service 11/07/24; backs cleaning line."
+  },
+  {
+   "file": "Vanscoter invoice cleaning.txt",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter invoice paint.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Mach1 invoice 6812 interior paint 625.00; PM charged 312.50 (half)."
+  },
+  {
+   "file": "Vanscoter invoice paint.txt",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter invoice carpet repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Invoice 3-314690 total 4,204.61 (carpet on stairs/upstairs bedroom incl. pet seal ~1,201 for carpet items, LVP downstairs/bath, base, prep, misc); PM charged only 922.98 'partial/prorated'. Backs but does not equal the line."
+  },
+  {
+   "file": "Vanscoter invoice carpet repairs.txt",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-08-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Zero Deposit Program addendum: 45.00/month in lieu of deposit; tenant pays non-normal wear move-out costs; carpets professionally cleaned at tenant cost."
+  },
+  {
+   "file": "Vanscoter ZDP Addendum.txt",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-08-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter lease renewal.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-07-28",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Signed 8/2023 12-month renewal 9/1/2023-8/31/2024 at 1,295 (+50 amenity), plus amenity and insurance addenda. Renewal for 9/2024-8/2025 (rent 1,325) is not in the folder."
+  },
+  {
+   "file": "Vanscoter lease renewal.txt",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-07-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  },
+  {
+   "file": "Vanscoter lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-08-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Digest excerpt: term from 8/10/2022, 12-month initial then month-to-month; rent 1,295 initially; deposit 0.00; SDRP premium 27 prorated; no pets without consent."
+  },
+  {
+   "file": "Vanscoter lease.txt",
+   "doc_type": "lease",
+   "doc_date": "2022-08-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text copy; duplicate."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1325,
+  "sd_program": "zero_deposit",
+  "lease_start": "2022-08-10",
+  "lease_end": "2025-08-31",
+  "current_term_start": "2024-09-01",
+  "current_term_end": "2025-08-31",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   },
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Renters Insurance (YRIG policy)",
+    "amount": 16
+   }
+  ],
+  "lease_break_terms": "Lease: tenant agrees not to terminate before 12 months from commencement (8/31/2023) or in December; 30 days certified-mail notice effective end of a calendar month; on default owner may recover unpaid rent for balance of term less mitigation; re-rent services chargeable. No fixed lease-break fee."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant responsible repairs, parts and labor (Mach1 invoice 6813: patch/texture, bulbs, blinds, screens, etc.)",
+   "category": "repairs_damage",
+   "amount_charged": 704.75,
+   "amount_open": 704.75,
+   "date_posted": "2024-11-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Vanscoter final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear cleaning (Rayo, 4 hrs x 35)",
+   "category": "cleaning",
+   "amount_charged": 140,
+   "amount_open": 140,
+   "date_posted": "2024-11-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Vanscoter final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Non-normal wear and tear painting (Mach1) - PM charged half of 625.00 invoice",
+   "category": "painting",
+   "amount_charged": 312.5,
+   "amount_open": 312.5,
+   "date_posted": "2024-11-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Vanscoter final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Replacement carpet for pet urine ruined carpet and pad (partial/prorated share of invoice 3-314690)",
+   "category": "pet_damage_odor",
+   "amount_charged": 922.98,
+   "amount_open": 922.98,
+   "date_posted": "2024-11-12",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "Vanscoter final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Vanscoter final statement.pdf",
+   "flag": "pet_related_line",
+   "quote": "Replacement carpet for pet urine ruined carpet and pad"
+  },
+  {
+   "file": "Vanscoter final statement.pdf",
+   "flag": "collection_fees_not_charge",
+   "quote": "Collection fees: $1,040.11"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-12-03",
+  "balance_due": 2080.23,
+  "first_full_month": "2022-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": true,
+  "last_payment_date": "2024-10-11"
+ },
+ "reconciliation": "704.75 + 140.00 + 312.50 + 922.98 = 2,080.23; credits 0 (no deposit, unapplied credits 0.00); equals PM-stated 2,080.23 (final statement and collection letter 11/20/24, ledger 12/03/24). Hypothetical collection fees 1,040.11 (total 3,120.34) excluded.",
+ "extraction_confidence": 0.92,
+ "notes": "Ledger is a Rent Manager account with no open balance before the move-out lines (all Oct 2024 charges paid 10/11/24). Move-out 10/31/24 vs sheet lease end 8/31/2025 (renewal 9/2024-8/2025 at 1,325 not in folder), so early termination, but PM billed no rent after move-out. Carpet line: statement text truncated '... pad - 4.5' (likely carpet age); PM charged only a prorated 922.98 of a 4,204.61 invoice that also covers LVP, base, prep and misc, so line is pet-only with a supporting vendor invoice (flooring_without_support left false). Paint line is half of the 625.00 invoice. first_payment_bounced: the move-in money order (8/4/22) cleared, but the first full-month (Sept 2022) payment of 1,370 on 9/5/22 returned NSF 9/9/22 and was cured by a Visa payment 9/9/22 (1,375 incl. 5.00 NSF fee); the account has many later NSF returns, all cured. Lease says security deposit replacement program premium while addendum and ledger call it Zero Deposit Program, so sd_program zero_deposit.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae01afaf049108914"
+ }
+}

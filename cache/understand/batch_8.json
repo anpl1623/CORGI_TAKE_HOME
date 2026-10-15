@@ -1,0 +1,1027 @@
+{
+  "batch": 8,
+  "claims": [
+    {
+      "tracking": 7,
+      "status": "Posted",
+      "max_benefit": 4000,
+      "approved": 4000,
+      "monthly_rent": 2500.0,
+      "total_claimed": 30226.94,
+      "computed_amount": 4000,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+          "kind": "itemization",
+          "needed_vision": true
+        },
+        {
+          "file": "Francois, Raymondneisha 2946 Todd - Lease.pdf",
+          "kind": "lease",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Damages line(1): maintenance (remove decals 75, cracked switch 10, flooring transitions 175)",
+          "amount": 260.0,
+          "category": "repairs_damage",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Damages line(1): lawn maintenance (V2 Lawn Care)",
+          "amount": 75.0,
+          "category": "landscaping_lawn",
+          "date": "2022-06-17",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Damages line(1): haul off for writ of possession (Classic Cleaning inv 286)",
+          "amount": 500.0,
+          "category": "trash_removal",
+          "date": "2022-06-21",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(2) cleaning",
+          "amount": 450.0,
+          "category": "cleaning",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(3) unpaid rent May 2022 and June 2022",
+          "amount": 5000.0,
+          "category": "rent_in_term",
+          "date": "2022-06-01",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(3) accelerated rent 07/01/22-03/02/23 (future rent within lease term)",
+          "amount": 20166.67,
+          "category": "rent_in_term",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(4) late charges May & June 2022",
+          "amount": 375.0,
+          "category": "late_fee",
+          "date": "2022-06-01",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(5) reletting costs",
+          "amount": 2500.0,
+          "category": "reletting_fee",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(6) unpaid water 03/04/22-04/04/22",
+          "amount": 103.79,
+          "category": "utilities",
+          "date": "2022-04-04",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(14) eviction and writ of possession attorney/court costs",
+          "amount": 533.48,
+          "category": "eviction_legal_court",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(15) mailing cost 3-day notice to vacate",
+          "amount": 35.0,
+          "category": "eviction_legal_court",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(19) tenant benefit package",
+          "amount": 72.0,
+          "category": "rbp_insurance_liability_fee",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        },
+        {
+          "description": "Line(19) renters choice program fee (SD alternative premium)",
+          "amount": 156.0,
+          "category": "sdrp_premium",
+          "date": "2022-07-15",
+          "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "rent_in_term",
+        "repairs_damage",
+        "landscaping_lawn",
+        "trash_removal",
+        "cleaning"
+      ],
+      "excluded_categories": [
+        "late_fee",
+        "utilities",
+        "eviction_legal_court",
+        "rbp_insurance_liability_fee",
+        "sdrp_premium",
+        "reletting_fee"
+      ],
+      "derivation": "2022 GDAA claim (Renters Choice SDRP, no cash deposit). TXR-2216 itemization (scanned pp.3-5 of closeout PDF) totals 30,226.94. Covered items alone: unpaid in-term rent May+June 5000 (+ accelerated rent 20,166.67) + maintenance 260 + lawn 75 + haul-off 500 + cleaning 450 >> Max Benefit -> approved = Max Benefit 4000. Rent-based cap (rent 2500 -> 2500) was NOT applied (paid 4000).",
+      "data_issues": [
+        "Closeout PDF is a composite: pp1-2 cover letter, pp3-5 scanned TXR-2216 itemization (no text layer), pp6-7 make-ready checklist, p8 scanned lawn receipt, p9 estimate (EST 787 $1,460 incl. $750 owner-paid paint not charged to tenant), p10 invoice, pp11-40 zInspector photos",
+        "Sheet Lease End Date blank; lease shows 03/04/2022-03/02/2023",
+        "Lease is a scanned PDF (no text layer); itemization signed by 'PURE OPERATING LLC' firm name though PM is GDAA"
+      ]
+    },
+    {
+      "tracking": 10,
+      "status": "Posted",
+      "max_benefit": 3500,
+      "approved": 3500,
+      "monthly_rent": 2095.0,
+      "total_claimed": null,
+      "computed_amount": 3500,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "Bell, Liliana 153 Pine Island - Addendum.pdf",
+          "kind": "addendum",
+          "needed_vision": false
+        },
+        {
+          "file": "Bell, Liliana 153 Pine Island Lease.pdf",
+          "kind": "lease",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [],
+      "credits": [],
+      "covered_categories": [],
+      "excluded_categories": [],
+      "derivation": "No move-out statement/itemization/ledger in folder - only TXR lease (rent 2095, term 03/11/2022-05/11/2023, SD 3500) and SD waiver addendum ($3,500 deposit waived for $69/mo). 2022 GDAA claim -> paid Max Benefit 3500 (= waived deposit amount). Reproduced only via the '2022 claims pay Max Benefit' rule; rent-based cap (2095 -> 2500) NOT applied.",
+      "data_issues": [
+        "No itemization, ledger or move-out statement provided; payout cannot be verified from documents",
+        "Sheet Monthly Rent and Lease End Date blank (lease shows 2095/mo, expiration 05/11/2023)"
+      ]
+    },
+    {
+      "tracking": 13,
+      "status": "Posted",
+      "max_benefit": 3500,
+      "approved": 3500,
+      "monthly_rent": null,
+      "total_claimed": null,
+      "computed_amount": 3500,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "1624.pdf",
+          "kind": "addendum",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [],
+      "credits": [],
+      "covered_categories": [],
+      "excluded_categories": [],
+      "derivation": "Only document is GDAA 'Resident Policies and Procedures' packet (16 pp, signed 02/16/2022) incl. SD waiver addendum ($3,500 waived for $69/mo), tenant benefit package (Plan A $36/mo) and GDAA tenant-charge fee schedule. No move-out charges at all. 2022 GDAA claim -> paid Max Benefit 3500 (= waived deposit).",
+      "data_issues": [
+        "No lease, itemization, ledger or move-out statement; payout not verifiable",
+        "PDF text layer is garbled (cid font codes) - had to render pages visually",
+        "Monthly rent unknown (not on sheet or docs)"
+      ]
+    },
+    {
+      "tracking": 96,
+      "status": "Posted",
+      "max_benefit": 2500,
+      "approved": 2500,
+      "monthly_rent": 2200.0,
+      "total_claimed": 6413.0,
+      "computed_amount": 2500,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "231+Xavier+Street_Move+Out_2023-03-20 (1).pdf",
+          "kind": "photos",
+          "needed_vision": false
+        },
+        {
+          "file": "Collections - SDRP Notice to Tenant (2).pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "DOC (6) (1).pdf",
+          "kind": "invoice",
+          "needed_vision": true
+        },
+        {
+          "file": "DOC (61).pdf",
+          "kind": "sdrp_calculation",
+          "needed_vision": true
+        },
+        {
+          "file": "Docusign_NHPM_Lease_v_2022_(04-01-2022_-_04-01-2022) (1).pdf",
+          "kind": "lease",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Mailbox keys (2)",
+          "amount": 60.0,
+          "category": "keys_remotes",
+          "date": "2023-03-07",
+          "source_file": "DOC (61).pdf"
+        },
+        {
+          "description": "Unpaid rent + late fees (lump sum, not split)",
+          "amount": 3653.0,
+          "category": "rent_in_term",
+          "date": "2023-03-07",
+          "source_file": "DOC (61).pdf"
+        },
+        {
+          "description": "Maintenance coordination fee",
+          "amount": 200.0,
+          "category": "maintenance_coordination_fee",
+          "date": "2023-03-07",
+          "source_file": "DOC (61).pdf"
+        },
+        {
+          "description": "Maintenance needed after move-out (Lizard Foot Builders invoice: carpet cleaning, yard, fence, cleaning, caulk, screens, filters, walls/paint, blinds)",
+          "amount": 2500.0,
+          "category": "repairs_damage",
+          "date": "2023-04-25",
+          "source_file": "DOC (6) (1).pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "repairs_damage",
+        "rent_in_term",
+        "keys_remotes"
+      ],
+      "excluded_categories": [
+        "late_fee",
+        "maintenance_coordination_fee"
+      ],
+      "derivation": "New Heights SDRP Move-Out Form: keys 60 + unpaid rent & late fees 3653 + maint coordination 200 + post-move-out maintenance 2500 = 6413; 'SDRP Band Level' 2500, 'amount that exceeds band' 3913. Covered repairs 2500 alone (+ rent) >= cap -> approved = Max Benefit 2500. Rent cap (2200 -> 2500) gives the same number.",
+      "data_issues": [
+        "Lease states a $3,300 cash security deposit but tenant was on SDRP with band 2500; no ledger to confirm whether any deposit was held",
+        "Move-out date inconsistent: form says 3/7/23 (break lease, lease end 4/9/23), inspection & sheet 3/20/23",
+        "Sheet Lease End Date blank (lease 04/10/2022-04/09/2023)",
+        "Rent+late fees given as one lump 3653 - cannot split"
+      ]
+    },
+    {
+      "tracking": 507,
+      "status": "Posted",
+      "max_benefit": 2000,
+      "approved": 181.56,
+      "monthly_rent": 1495.0,
+      "total_claimed": 181.56,
+      "computed_amount": 181.56,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "Avery Lease.pdf",
+          "kind": "lease",
+          "needed_vision": true
+        },
+        {
+          "file": "Avery SDI.pdf",
+          "kind": "addendum",
+          "needed_vision": true
+        },
+        {
+          "file": "tenant_ledger-daniella_a_avery_james_a_avery-20240322.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Make-Ready",
+          "amount": 625.0,
+          "category": "repairs_damage",
+          "date": "2024-03-05",
+          "source_file": "tenant_ledger-daniella_a_avery_james_a_avery-20240322.pdf"
+        },
+        {
+          "description": "Flooring New",
+          "amount": 136.91,
+          "category": "flooring",
+          "date": "2024-03-05",
+          "source_file": "tenant_ledger-daniella_a_avery_james_a_avery-20240322.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Prepaid Rent to Owner (unused Feb rent after 2/18 move-out)",
+          "amount": 580.35
+        }
+      ],
+      "covered_categories": [
+        "repairs_damage",
+        "flooring"
+      ],
+      "excluded_categories": [],
+      "derivation": "Ledger final balance: make-ready 625 + flooring 136.91 - prepaid rent credit 580.35 = 181.56 = approved (exact). All rent, TBP (35/mo) and SD-alternative (42/mo) charges were paid; PM charged no lease-break fee or future rent despite move-out 5 months before 07/14/2024 lease end. Below Max Benefit 2000.",
+      "data_issues": [
+        "'Avery SDI.pdf' is the SD waiver addendum ($1,695 deposit waived for $42/mo), not an itemization; Max Benefit on sheet is 2000 (not 1695)",
+        "Lease PDF is a 21MB scan (not opened; ledger gives rent/term/deposit 0)"
+      ]
+    },
+    {
+      "tracking": 637,
+      "status": "Posted",
+      "max_benefit": 1500,
+      "approved": 1375,
+      "monthly_rent": 705.0,
+      "total_claimed": 1582.0,
+      "computed_amount": 1375,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "Chappell A06 Addendum.pdf",
+          "kind": "addendum",
+          "needed_vision": true
+        },
+        {
+          "file": "Chappell A06 Lease.pdf",
+          "kind": "lease",
+          "needed_vision": true
+        },
+        {
+          "file": "Chappell A06 Move Out Statement.pdf",
+          "kind": "move_out_statement",
+          "needed_vision": false
+        },
+        {
+          "file": "Chappell A06 SDI.pdf",
+          "kind": "itemization",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Residential Rent (05/2024)",
+          "amount": 705.0,
+          "category": "rent_in_term",
+          "date": "2024-05-01",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Garage Rent (05/2024)",
+          "amount": 55.0,
+          "category": "other",
+          "date": "2024-05-01",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Renters Insurance (05/2024)",
+          "amount": 19.0,
+          "category": "rbp_insurance_liability_fee",
+          "date": "2024-05-01",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Pet Fee Income (05/2024) +20 / -20 (nets to 0)",
+          "amount": 0.0,
+          "category": "pet_fee_rent",
+          "date": "2024-05-01",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Security Deposit Protection (05/2024)",
+          "amount": 33.0,
+          "category": "sdrp_premium",
+          "date": "2024-05-01",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Clean up public hallways and stairs",
+          "amount": 25.0,
+          "category": "cleaning",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Remove and haul away washer and dryer",
+          "amount": 100.0,
+          "category": "trash_removal",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Haul away trash left behind",
+          "amount": 160.0,
+          "category": "trash_removal",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "All blinds replaced",
+          "amount": 95.0,
+          "category": "repairs_damage",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Painting/drywall repairs where brackets had hung",
+          "amount": 50.0,
+          "category": "painting",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Cleaning charges - nothing cleaned",
+          "amount": 240.0,
+          "category": "cleaning",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        },
+        {
+          "description": "Carpet cleaning / extra cleaning due to pets",
+          "amount": 100.0,
+          "category": "pet_damage_odor",
+          "date": "2024-05-14",
+          "source_file": "Chappell A06 Move Out Statement.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "rent_in_term",
+        "cleaning",
+        "trash_removal",
+        "repairs_damage",
+        "painting"
+      ],
+      "excluded_categories": [
+        "other",
+        "rbp_insurance_liability_fee",
+        "sdrp_premium",
+        "pet_damage_odor",
+        "pet_fee_rent"
+      ],
+      "derivation": "Move-out statement / SDI total 1582. Adjuster note excludes garage rent 55, pet carpet/extra cleaning 100, renters insurance 19, SD protection fee 33: 1582 - 207 = 1375 = approved (exact). Covered: May rent 705 + cleaning 240 + hallway 25 + trash 160 + washer/dryer haul 100 + blinds 95 + paint 50 = 1375. Under Max 1500. Rent-based cap (705 -> 1000) NOT applied. No lease-break fee / future rent charged by PM (move-out 5/1/24, lease to 7/31/24).",
+      "data_issues": [
+        "Addendum shows SD waiver of $1,200 ($33/mo) but sheet Max Benefit is 1500; approved 1375 exceeds the $1,200 waived deposit",
+        "Move-out statement notice date 04/15/2024 vs SDI notice date 04/08/24",
+        "Lease is a scanned PDF (not opened)"
+      ]
+    },
+    {
+      "tracking": 643,
+      "status": "Posted",
+      "max_benefit": 1500,
+      "approved": 190,
+      "monthly_rent": 1420.0,
+      "total_claimed": 190.0,
+      "computed_amount": 190,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "157 Rapp Ledger.pdf",
+          "kind": "ledger",
+          "needed_vision": true
+        },
+        {
+          "file": "157 Rapp Move Out Letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Carpet Cleaning (turnover)",
+          "amount": 90.0,
+          "category": "carpet_cleaning",
+          "date": "2024-06-07",
+          "source_file": "157 Rapp Ledger.pdf"
+        },
+        {
+          "description": "Cleaning Charges (turnover)",
+          "amount": 100.0,
+          "category": "cleaning",
+          "date": "2024-06-07",
+          "source_file": "157 Rapp Ledger.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "carpet_cleaning",
+        "cleaning"
+      ],
+      "excluded_categories": [],
+      "derivation": "Ledger (scanned) ends with only turnover charges: carpet cleaning 90 + cleaning 100 = 190 = move-out letter balance = approved (exact). All rent incl. month-to-month period (lease ended 3/31/24, moved out 5/31/24; MTM premium 100/mo) was paid.",
+      "data_issues": [
+        "Ledger is a scanned PDF (no text layer)",
+        "Sheet Collection Status 'Missing SS# DOB' yet Tenant Collection Status 'Collected Full Amount' (190)"
+      ]
+    },
+    {
+      "tracking": 699,
+      "status": "Posted",
+      "max_benefit": 2000,
+      "approved": 2000,
+      "monthly_rent": 1825.0,
+      "total_claimed": 9987.3,
+      "computed_amount": 2000,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "Demand letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "KA-order.pdf",
+          "kind": "other",
+          "needed_vision": false
+        },
+        {
+          "file": "ledger - 8322 Stillwater.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Rent 01/2024 (payment returned R16 account frozen)",
+          "amount": 1825.0,
+          "category": "rent_in_term",
+          "date": "2024-01-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Rent 02/2024",
+          "amount": 1825.0,
+          "category": "rent_in_term",
+          "date": "2024-02-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Rent 03/2024",
+          "amount": 1825.0,
+          "category": "rent_in_term",
+          "date": "2024-03-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Rent 04/2024",
+          "amount": 1825.0,
+          "category": "rent_in_term",
+          "date": "2024-04-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Rent 05/2024 net of 8/1/24 move-out adjustment (1825 charged; 2930 adjustment = June 1825 + 1105 of May)",
+          "amount": 720.0,
+          "category": "rent_prorated",
+          "date": "2024-05-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "NSF fee",
+          "amount": 35.0,
+          "category": "nsf_fee",
+          "date": "2024-01-09",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Late fees 1/9 182.50 + 2/29, 3/4, 4/4, 5/4 at 191.20 (6/4 late fee reversed)",
+          "amount": 947.3,
+          "category": "late_fee",
+          "date": "2024-05-04",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Eviction filing fee (court/legal)",
+          "amount": 200.0,
+          "category": "eviction_legal_court",
+          "date": "2024-01-15",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Administrative fee - eviction filing",
+          "amount": 50.0,
+          "category": "eviction_legal_court",
+          "date": "2024-01-15",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Legal fees",
+          "amount": 100.0,
+          "category": "eviction_legal_court",
+          "date": "2024-01-29",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "Court appearance fee",
+          "amount": 200.0,
+          "category": "eviction_legal_court",
+          "date": "2024-04-02",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "RBP with Ins 39 x 5 months (Jan-May; June reversed)",
+          "amount": 195.0,
+          "category": "rbp_insurance_liability_fee",
+          "date": "2024-05-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        },
+        {
+          "description": "SDRP monthly premium 48 x 5 months (Jan-May; June reversed)",
+          "amount": 240.0,
+          "category": "sdrp_premium",
+          "date": "2024-05-01",
+          "source_file": "ledger - 8322 Stillwater.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "rent_in_term",
+        "rent_prorated"
+      ],
+      "excluded_categories": [
+        "late_fee",
+        "nsf_fee",
+        "eviction_legal_court",
+        "rbp_insurance_liability_fee",
+        "sdrp_premium"
+      ],
+      "derivation": "Eviction. Ledger balance 9987.30 = in-term rent 8020 (4 x 1825 + May net 720) + late 947.30 + NSF 35 + eviction/legal 550 + RBP 195 + SDRP premiums 240. Covered in-term unpaid rent 8020 alone > Max Benefit 2000 -> approved 2000 (exact). Rent cap (1825 -> 2000) equals Max, so cannot distinguish.",
+      "data_issues": [
+        "Ledger is reverse-chronological running balance; final 8/1/24 'Charge Adjustment' rows (shown in Payments column) reverse June rent/fees and part of May rent",
+        "KA-order.pdf is the court order of possession (3/4/2024), monetary issues continued",
+        "Policy started 12/1/2023 lease; tenant defaulted on Jan 2024 (2nd month) rent - first full month (Dec) was paid, so 'defaulted on first full month' decline did not apply"
+      ]
+    },
+    {
+      "tracking": 776,
+      "status": "Posted",
+      "max_benefit": 1500,
+      "approved": 225,
+      "monthly_rent": 895.0,
+      "total_claimed": 465.0,
+      "computed_amount": 225,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "2235-306 Addendum.pdf",
+          "kind": "addendum",
+          "needed_vision": false
+        },
+        {
+          "file": "2235-306 Morton Move Out Letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "2235-306 Morton SDI.pdf",
+          "kind": "itemization",
+          "needed_vision": false
+        },
+        {
+          "file": "WEB2 DD Authorization Form.pdf",
+          "kind": "other",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Carpet/Floor cleaning 'Per Lease' (flat non-refundable fee)",
+          "amount": 90.0,
+          "category": "carpet_cleaning",
+          "date": "2024-06-30",
+          "source_file": "2235-306 Morton SDI.pdf"
+        },
+        {
+          "description": "General cleaning bathroom and kitchen",
+          "amount": 100.0,
+          "category": "cleaning",
+          "date": "2024-06-30",
+          "source_file": "2235-306 Morton SDI.pdf"
+        },
+        {
+          "description": "Paint and primer around bar",
+          "amount": 100.0,
+          "category": "painting",
+          "date": "2024-06-30",
+          "source_file": "2235-306 Morton SDI.pdf"
+        },
+        {
+          "description": "Haul out items left in fridge/cabinets",
+          "amount": 100.0,
+          "category": "trash_removal",
+          "date": "2024-06-30",
+          "source_file": "2235-306 Morton SDI.pdf"
+        },
+        {
+          "description": "Keys and fob not returned",
+          "amount": 75.0,
+          "category": "keys_remotes",
+          "date": "2024-06-30",
+          "source_file": "2235-306 Morton SDI.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Unexplained reduction: SDI total 465 vs move-out letter balance due 315 (ledger not provided)",
+          "amount": 150.0
+        }
+      ],
+      "covered_categories": [
+        "cleaning",
+        "painting",
+        "trash_removal",
+        "keys_remotes"
+      ],
+      "excluded_categories": [
+        "carpet_cleaning"
+      ],
+      "derivation": "SDI maintenance total 465; move-out letter states balance due 315 (150 lower, source not in docs). Adjuster note: 'No coverage for unspecified 90.00 non refundable fee' -> 315 - 90 = 225 = approved (= agreed tenant settlement 225). Under Max 1500.",
+      "data_issues": [
+        "150 gap between SDI (465) and move-out letter (315) unexplained - ledger missing",
+        "WEB2 DD Authorization Form is the PM's ACH payout authorization + voided sample check (irrelevant; contains bank details)",
+        "Same PM (Perry Reid) paid a 90 carpet-cleaning charge in claim 643 but excluded the 'per lease' 90 here"
+      ]
+    },
+    {
+      "tracking": 783,
+      "status": "Posted",
+      "max_benefit": 2000,
+      "approved": 1492.84,
+      "monthly_rent": 1500.0,
+      "total_claimed": 1492.84,
+      "computed_amount": 1492.84,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "4203 Rifle Dr-Fletcher-Lease.pdf",
+          "kind": "lease",
+          "needed_vision": true
+        },
+        {
+          "file": "4203 Rifle Dr-Fletcher-Ledger PW.pdf",
+          "kind": "ledger",
+          "needed_vision": true
+        },
+        {
+          "file": "4203 Rifle Dr-Fletcher-Ledger RV.pdf",
+          "kind": "ledger",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Repairs - Move Out Repairs",
+          "amount": 1147.0,
+          "category": "repairs_damage",
+          "date": "2024-07-17",
+          "source_file": "4203 Rifle Dr-Fletcher-Ledger RV.pdf"
+        },
+        {
+          "description": "Cleaning and Maintenance - Move Out Cleaning",
+          "amount": 433.0,
+          "category": "cleaning",
+          "date": "2024-07-17",
+          "source_file": "4203 Rifle Dr-Fletcher-Ledger RV.pdf"
+        },
+        {
+          "description": "Cleaning and Maintenance - Pest Control Treatment - Roaches",
+          "amount": 102.84,
+          "category": "pest_control",
+          "date": "2024-07-17",
+          "source_file": "4203 Rifle Dr-Fletcher-Ledger RV.pdf"
+        },
+        {
+          "description": "Repairs - Keys",
+          "amount": 10.0,
+          "category": "keys_remotes",
+          "date": "2024-07-17",
+          "source_file": "4203 Rifle Dr-Fletcher-Ledger RV.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Carpet Cleaning Fee credit - tenant turned in carpet cleaning receipt",
+          "amount": 200.0
+        }
+      ],
+      "covered_categories": [
+        "repairs_damage",
+        "cleaning",
+        "pest_control",
+        "keys_remotes"
+      ],
+      "excluded_categories": [],
+      "derivation": "RV ledger (new system from 12/22/2023): June rent prepaid so balance 0.00 at 6/1; 7/17 charges repairs 1147 + cleaning 433 + roach pest control 102.84 + keys 10 - carpet-cleaning credit 200 = 1492.84 = approved (exact). Pest control paid. Below Max 2000 and below rent cap 1500.",
+      "data_issues": [
+        "Both ledgers are scans (RV ledger is rotated landscape); PW ledger is the prior-system history ending 2/16/2024 at -0.20 (only first 4 of 12 pp. reviewed; fully paid)",
+        "Collected Amount 1000 / settlement 1000 differs from approved 1492.84 (collections field independent of payout)"
+      ]
+    },
+    {
+      "tracking": 843,
+      "status": "Posted",
+      "max_benefit": 3000,
+      "approved": 2740.9,
+      "monthly_rent": 1720.0,
+      "total_claimed": 2740.9,
+      "computed_amount": 2740.9,
+      "reproduced": "exact",
+      "docs": [
+        {
+          "file": "3183 W Treece Way_tenantledger.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        },
+        {
+          "file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf",
+          "kind": "move_out_statement",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Pest treatment - bedbug intensive service (Southwest Pest Solutions)",
+          "amount": 1000.0,
+          "category": "pest_control",
+          "date": "2024-09-11",
+          "source_file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf"
+        },
+        {
+          "description": "Move-out cleaning (Tony and Tonie's, 1,634 sqft x 0.35)",
+          "amount": 571.9,
+          "category": "cleaning",
+          "date": "2024-09-10",
+          "source_file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf"
+        },
+        {
+          "description": "Carpet cleaning (4 rooms and stairs)",
+          "amount": 209.0,
+          "category": "carpet_cleaning",
+          "date": "2024-09-05",
+          "source_file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf"
+        },
+        {
+          "description": "Landscaping clean-up (limbs, items, dog feces)",
+          "amount": 220.0,
+          "category": "landscaping_lawn",
+          "date": "2024-08-27",
+          "source_file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf"
+        },
+        {
+          "description": "Repairs (12 items incl. 500 paint touch-ups)",
+          "amount": 740.0,
+          "category": "repairs_damage",
+          "date": "2024-08-27",
+          "source_file": "3183WTreeceWay_091824_StatementofAccounting_Hutton.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "pest_control",
+        "cleaning",
+        "carpet_cleaning",
+        "landscaping_lawn",
+        "repairs_damage"
+      ],
+      "excluded_categories": [],
+      "derivation": "Statement of Accounting: pest 1000 + cleaning 571.90 + carpet 209 + landscaping 220 + repairs 740 = 2740.90 = ledger balance = approved (exact). No credits/deposit held. Under Max 3000. Rent-based cap (1720 -> 2000) NOT applied; bedbug pest control paid in full.",
+      "data_issues": [
+        "Statement of accounting PDF is scanned (10 pp: statement, pest agreement, work order, invoices, envelope)",
+        "Tenant held over 8 days past lease end (8/20 -> 8/28) with only prorated Aug rent through 8/20 charged; no holdover rent claimed",
+        "Collected Amount 2000 differs from approved 2740.90"
+      ]
+    }
+  ],
+  "rule_hypotheses": [
+    {
+      "rule": "2022-era (GDAA, treaty T00001) claims were paid exactly the Max Benefit regardless of documentation; Max Benefit equals the waived deposit amount on the SD-waiver addendum. Claims 10 and 13 had no itemization at all and were still paid in full.",
+      "evidence_trackings": [
+        7,
+        10,
+        13
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Approved Benefit = PM's final outstanding balance (ledger ending balance / move-out statement total, net of credits) minus excluded categories, capped at Max Benefit.",
+      "evidence_trackings": [
+        507,
+        637,
+        643,
+        699,
+        776,
+        783,
+        843,
+        96
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Credits on the ledger (prepaid rent returned to owner, carpet-cleaning receipt credit) are subtracted before payout - adjuster pays net balance, not gross charges.",
+      "evidence_trackings": [
+        507,
+        783
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Excluded: garage rent, renters insurance / RBP, SD protection / SDRP premiums, pet-related carpet/extra cleaning, unspecified non-refundable flat fees ('per lease' carpet fee).",
+      "evidence_trackings": [
+        637,
+        776
+      ],
+      "counter_evidence_trackings": [
+        643
+      ]
+    },
+    {
+      "rule": "Pest control (roaches, bedbugs) WAS paid in 2024 claims when it is remediation of a tenant-caused infestation at move-out; the 'pest control excluded' note may apply only to routine/pet flea treatments.",
+      "evidence_trackings": [
+        783,
+        843
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Rent-based cap (monthly rent rounded up to next $500) is NOT consistently applied: approved exceeded it in 2024 claims 637 (rent 705 -> 1000 cap, paid 1375) and 843 (1720 -> 2000, paid 2740.90), and in 2022 claims 7/10. Where it coincides with Max Benefit (96, 699) it cannot be distinguished.",
+      "evidence_trackings": [
+        96,
+        699,
+        783
+      ],
+      "counter_evidence_trackings": [
+        637,
+        843,
+        7,
+        10
+      ]
+    },
+    {
+      "rule": "When covered unpaid in-term rent alone exceeds Max Benefit, payout = Max Benefit (exclusions of late/NSF/legal/premium fees become irrelevant).",
+      "evidence_trackings": [
+        699,
+        96,
+        7
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Adjusters do not add charges the PM did not bill: early move-outs with no lease-break fee/future rent on the statement (507, 637) are paid only on billed damages/rent; holdover days not billed (843) are not added.",
+      "evidence_trackings": [
+        507,
+        637,
+        843
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Collections fields (Agreed Tenant Settlement, Collected Amount) are independent of Approved Benefit (they are recovery from tenant after payout).",
+      "evidence_trackings": [
+        783,
+        843,
+        643
+      ],
+      "counter_evidence_trackings": [
+        776
+      ]
+    },
+    {
+      "rule": "Covered damage categories seen paid: cleaning, carpet cleaning (non-pet), trash/haul-off, blinds, painting/drywall, repairs, flooring, make-ready, landscaping, keys/fobs, in-term rent (incl. current month rent at move-out).",
+      "evidence_trackings": [
+        507,
+        637,
+        643,
+        783,
+        843,
+        776
+      ],
+      "counter_evidence_trackings": []
+    }
+  ],
+  "extraction_lessons": [
+    "Many key docs are scans with no text layer (TXR-2216 itemization inside a 40-page closeout PDF, SDRP move-out forms, Perry Reid ledgers, StarPointe ledgers, Blue Fox statement of accounting) - always check per-page text length and render pages with 0 chars.",
+    "Composite PDFs: one 'closeout' file may contain cover letter + itemization + make-ready checklist + vendor estimate/invoices + 30 pages of zInspector photos; zInspector photo reports contain no dollar amounts and can be skipped.",
+    "Some PDFs have garbled cid-font text layers (claim 13) - text cache looks non-empty but is useless; detect '(cid:' and render visually.",
+    "Propertyware ledgers are reverse-chronological running balances; end-of-tenancy 'Charge Adjustment' rows appear in the Payments column and reverse future rent/late fees - use the 'Balance as of' header / top balance as final.",
+    "Perry Reid (IA/NE) packets: 'Move Out Statement' (ledger extract) + 'SDI' form with 'Current Ledger Balance' (A) + maintenance charges (B); the SDI total = statement total. Move-out letter balance may differ from SDI (claim 776: 315 vs 465) - adjuster used the letter/ledger balance.",
+    "Files named 'SDI' are sometimes the SD-waiver addendum (claim 507), not an itemization.",
+    "New Heights 'SDRP Move-Out Form' lists deductions, total, SDRP band level and amount exceeding band - band level = Max Benefit.",
+    "Waived-deposit amount on the addendum does not always equal sheet Max Benefit (507: 1695 vs 2000; 637/776: 1200 vs 1500); trust the sheet Max Benefit.",
+    "StarPointe tenant has two ledgers (PW old system, RV new system from 12/2023); the RV ledger carries the final move-out charges and credits.",
+    "Vendor estimates may include owner-responsibility items (claim 7 estimate had $750 owner paint) that are not charged to tenant; use the itemization/statement figures, not raw vendor totals.",
+    "Folders may contain irrelevant documents (PM ACH direct-deposit authorization with voided check, court order of possession, generic resident policies)."
+  ]
+}

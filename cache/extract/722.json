@@ -1,0 +1,144 @@
+{
+ "tracking": 722,
+ "winning_document": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Amount due 1190.00; winning accounting document"
+  },
+  {
+   "file": "tenant_ledger-cladious_a_curtis_brigette_kinglock-20240815.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Forfeit rows match letter; 07/01 lease break charge paid"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1145,
+  "sd_program": "unknown",
+  "lease_start": "2024-01-01",
+  "lease_end": "2025-12-31"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0
+ },
+ "line_items": [
+  {
+   "description": "Prorated painting (5-year lifespan)",
+   "category": "painting",
+   "amount_open": 480,
+   "amount_charged": 480,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Prorated tub refinishing",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "amount_charged": 150,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Professional cleaning",
+   "category": "cleaning",
+   "amount_open": 250,
+   "amount_charged": 250,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Prorated door repair",
+   "category": "repairs_damage",
+   "amount_open": 160,
+   "amount_charged": 160,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace outlet and switch covers",
+   "category": "repairs_damage",
+   "amount_open": 20,
+   "amount_charged": 20,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Repair closet racks",
+   "category": "repairs_damage",
+   "amount_open": 50,
+   "amount_charged": 50,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace damaged blinds",
+   "category": "repairs_damage",
+   "amount_open": 80,
+   "amount_charged": 80,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_cladious_a_curtis_081524.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.92,
+ "ledger": {
+  "as_of_date": "2024-08-15",
+  "balance_due": 1190,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-01"
+ },
+ "pm_stated_amount_due": 1190,
+ "reconciliation": "Seven open lines 1190.00 less credits 0 equals PM stated due 1190.00 and ledger forfeit rows.",
+ "notes": "Ledger 07/01/2024 lease break charge 5180.00 was paid the same day; it is a separate charge and not a credit against this claim. Keys returned 07/01/2024. Rent through June paid 06/02. Prorated amounts are kept as the PM charged them.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0a25bda427e059b7"
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "tracking": 810,
+ "winning_document": "2625 22nd Street SD.pdf",
+ "pm_stated_amount_due": 1750.66,
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "2625 22nd Street SD.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-30",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "6 pages: cover letter (balance 1,750.66), Move Out Statement itemization, partial tenant ledger (pages 1-2 of 8), Mighty Green landscape invoice 99460, GO4TH cleaning receipt 480156."
+  },
+  {
+   "file": "22nd Carpet Cleaning.jfif",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-29",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Aladdin Carpet Cleaning work order 121108: carpet cleaning 185 + pet treatment 85 + tax 22.11; operator notes heavy pet odor and stains. Used only to split the statement's 291.60 line."
+  },
+  {
+   "file": "Lease 2625 E. 22nd St marilena-l-gleason_07-16-2021.pdf",
+   "doc_type": "lease",
+   "doc_date": "2021-07-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original 2021 HomeVault lease (07/21/2021-07/20/2022, rent 945, deposit blank, section 5.2 Security Deposit Waiver). Current-term renewal not in folder."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1100,
+  "cash_deposit_amount": null,
+  "current_term_end": "2024-07-31",
+  "current_term_start": "2023-07-20",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "Original lease: break before expiration costs a backfill fee of one month's rent plus 375 admin fee; 100 coordination fee if home not rent-ready. Not triggered (term ended).",
+  "lease_end": "2024-07-31",
+  "lease_start": "2021-07-21",
+  "monthly_sd_premium": 38,
+  "recurring_addons": [
+   {
+    "name": "SDRP / Security Deposit Waiver fee (plus 3.11 sales tax)",
+    "amount": 38
+   },
+   {
+    "name": "PURE-RBP resident benefits package (plus 3.68 sales tax)",
+    "amount": 44.95
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant caused repairs to property (ledger: General Repairs; no invoice or breakdown in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 482.86,
+   "amount_open": 482.86,
+   "date_posted": "2024-08-30",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2625 22nd Street SD.pdf",
+   "source_page": 2,
+   "confidence": 0.7
+  },
+  {
+   "description": "Removed weeds and personal belongings from property incl. disposal 45 and tax 26.20 (Mighty Green inv 99460, 275 + 45 + 26.20)",
+   "category": "landscaping_lawn",
+   "amount_charged": 346.2,
+   "amount_open": 346.2,
+   "date_posted": "2024-08-30",
+   "service_period_start": "2024-08-22",
+   "service_period_end": "2024-08-22",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2625 22nd Street SD.pdf",
+   "source_page": 5,
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaned house, 9 hrs at 70 (GO4TH Cleaning receipt 480156)",
+   "category": "cleaning",
+   "amount_charged": 630,
+   "amount_open": 630,
+   "date_posted": "2024-08-30",
+   "service_period_start": "2024-08-25",
+   "service_period_end": "2024-08-25",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2625 22nd Street SD.pdf",
+   "source_page": 6,
+   "confidence": 0.92
+  },
+  {
+   "description": "Carpet steam cleaning portion of 291.60 statement line (185.00 + 8% tax share 14.80)",
+   "category": "carpet_cleaning",
+   "amount_charged": 199.8,
+   "amount_open": 199.8,
+   "date_posted": "2024-08-30",
+   "service_period_start": "2024-08-29",
+   "service_period_end": "2024-08-29",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "22nd Carpet Cleaning.jfif",
+   "source_page": null,
+   "confidence": 0.85
+  },
+  {
+   "description": "Pet treatment portion of 291.60 statement line (85.00 + tax share 6.80); operator notes heavy pet odor and stains",
+   "category": "pet_damage_odor",
+   "amount_charged": 91.8,
+   "amount_open": 91.8,
+   "date_posted": "2024-08-30",
+   "service_period_start": "2024-08-29",
+   "service_period_end": "2024-08-29",
+   "days_after_lease_end": null,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "22nd Carpet Cleaning.jfif",
+   "source_page": null,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-08-30",
+  "balance_due": 1750.66,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-03"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "22nd Carpet Cleaning.jfif",
+   "flag": "pet_related",
+   "quote": "Carpet is heavy stained and has heavy pet odor/stain; apply pet treatment"
+  }
+ ],
+ "reconciliation": "sum(open lines) 482.86+346.20+630.00+199.80+91.80 = 1,750.66 - credits 0 = 1,750.66 vs PM stated 1,750.66: match.",
+ "notes": "Statement lumps pet treatment into 'Carpet Cleaning' 291.60; the Aladdin work order splits 185 carpet and 85 pet treatment, so the line was split with tax (8%) allocated proportionally; PM total 291.60 differs by 0.51 from the invoice total 292.11. Move-out statement lists move-in 07-21-2021, notice 06-28-2024, expiration and move-out 07-31-2024. Ledger (only pages 1-2 of 8 supplied) shows 0.00 balance before the 08-30 charges; the 07-01 eCheck bounced (NSF 50, late fee 110) and was cured by the 07-03 payment, so those fees are not open. No pet rent or pet fee appears on the visible ledger rows, so the pet treatment may relate to an unauthorized pet. Repairs line 482.86 has no invoice or breakdown. Lease in folder is the 2021 original; the sheet's 2023-07-20 term start and 1,100 rent come from the sheet and ledger, renewal not in folder. Waived deposit amount not documented.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a494229859b1afb21"
+ }
+}

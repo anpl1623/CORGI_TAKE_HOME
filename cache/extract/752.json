@@ -1,0 +1,158 @@
+{
+ "tracking": 752,
+ "winning_document": "1123E Thompson Move Out Statement.pdf",
+ "pm_stated_amount_due": 925,
+ "reconciliation": "sum(open lines) 250.00 (reletting fee) + 675.00 (repay move-in special) = 925.00 - 0.00 credits = 925.00 vs PM stated 925.00 (statement, SDI, letter): exact match.",
+ "extraction_confidence": 0.88,
+ "notes": "Perry Reid / Bulldog Apartments, Marysville KS. Tenant gave notice 4/30/2024 and moved out 6/30/2024; lease and ledger run to 9/30/2024 so this is an early termination (the SDI form's 'Lease Expiration 06/30/24' conflicts with the lease page 1, ledger and statement, which all say 9/30/2024; lease and statement used). PM claims only two charges posted 7/3/2024: reletting fee 250 (lease Cl.11 reletting charge 250) and repayment of the move-in special 675 (11/2023 rent concession of 675). June 2024 rent/SDP fully paid by the 6/1/2024 payment (708). No future rent, damage, cleaning, late fee or utility charges are claimed. Addendum (4 pages, opened visually): renters insurance NO (tenant bought State Farm renters policy 16-CG-S612-8, 10/16/2023-10/16/2024, with Bulldog Apartments and Perry Reid as additional interests), SD waiver YES $33/mo waiving one month's rent (675), signed 9/20/2023. Lease SD line 0.00. First rent month for 10/16/2023 partial; first full month 11/2023 was free via a 675 concession (net rent 0), SDP 33 paid.",
+ "documents": [
+  {
+   "file": "1123E Thompson Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SD waiver YES $33/mo; renters insurance NO; pages 2-4 are tenant State Farm renters policy proof"
+  },
+  {
+   "file": "1123E Thompson Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-16",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "pages 1-2 opened: rent 675, term 10/16/2023-9/30/2024, SD 0.00, reletting charge 250"
+  },
+  {
+   "file": "1123E Thompson Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "confirms reletting 250 and concession repay 675 are the only open items"
+  },
+  {
+   "file": "1123E Thompson Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "balance due 925.00"
+  },
+  {
+   "file": "1123E Thompson Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "winning accounting document"
+  },
+  {
+   "file": "1123E Thompson SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "reletting fee 250 + repay concession 675 = 925"
+  },
+  {
+   "file": "MAR DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ignored per efficiency rule"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 675,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-10-16",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 11.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Cl.11 early move-out; reletting charge $250 (not to exceed 100% of highest monthly rent) if no timely notice or move out without paying rent for entire term; not a release from future rent liability; K.S.A. 58-25,137 termination fee equals one month's rent in lieu of reletting fee.",
+  "lease_end": "2024-09-30",
+  "lease_start": "2023-10-16",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 675
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-06-30",
+  "re_let_date": null,
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Reletting Fee",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-07-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1123E Thompson Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Repay Move-in Special (concession pay back; 11/2023 rent concession of 675)",
+   "category": "other_fee",
+   "amount_charged": 675,
+   "amount_open": 675,
+   "date_posted": "2024-07-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1123E Thompson Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 925,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-01"
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "adb32e8063f901701"
+ }
+}

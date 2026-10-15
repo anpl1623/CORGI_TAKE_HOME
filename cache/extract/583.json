@@ -1,0 +1,277 @@
+{
+  "tracking": 583,
+  "documents": [
+    {
+      "file": "115 Boone - Collections - SDRP Notice to Tenant.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-05-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "115 Boone - Move Out Calculation.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "115 Boone - repairs invoice.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2024-04-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "Billeck .pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-05-21",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum_2022_(12-22-2022_-_12-22-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-12-29",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Docusign_NHPM_Lease_RENEWAL_v_2021_(12-22-2022_-_12-22-2022).pdf",
+      "doc_type": "renewal_lease",
+      "doc_date": "2022-12-29",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "115 Boone - Move Out Calculation.pdf",
+  "pm_stated_amount_due": 2449.5,
+  "lease": {
+    "base_monthly_rent": 2145.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 65.0
+      },
+      {
+        "name": "RBP",
+        "amount": 27.0
+      },
+      {
+        "name": "Animal Fee",
+        "amount": 40.0
+      }
+    ],
+    "lease_start": "2022-01-01",
+    "lease_end": "2024-01-31",
+    "current_term_start": "2023-02-01",
+    "current_term_end": "2024-01-31",
+    "initial_term_months": 12,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 3990.0,
+    "monthly_sd_premium": 65.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2024-01-31",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-05-21",
+    "balance_due": 2629.5,
+    "first_full_month": "2022-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-01-05"
+  },
+  "line_items": [
+    {
+      "description": "Rent (January 2024 remaining unpaid balance)",
+      "category": "rent_in_term",
+      "amount_open": 950.0,
+      "amount_charged": 2145.0,
+      "date_posted": "2024-01-01",
+      "service_period_start": "2024-01-01",
+      "service_period_end": "2024-01-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "RBP (January 2024)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 27.0,
+      "amount_charged": 27.0,
+      "date_posted": "2024-01-01",
+      "service_period_start": "2024-01-01",
+      "service_period_end": "2024-01-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Late Fee - Calculated on 01/06/2024 5:05 AM by system",
+      "category": "late_fee",
+      "amount_open": 142.5,
+      "amount_charged": 142.5,
+      "date_posted": "2024-01-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Late Fee (Manual)",
+      "category": "late_fee",
+      "amount_open": 100.0,
+      "amount_charged": 100.0,
+      "date_posted": "2024-01-16",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Maintenance Coordination Fee - Section 8 of your lease",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2024-04-26",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Move-out Repair - carpet cleaning",
+      "category": "carpet_cleaning",
+      "amount_open": 180.0,
+      "amount_charged": 180.0,
+      "date_posted": "2024-04-26",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - Move Out Calculation.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Remove items left in home - recliner chairs/curtains (Meld #TQM9WPCB)",
+      "category": "trash_removal",
+      "amount_open": 350.0,
+      "amount_charged": 350.0,
+      "date_posted": "2024-04-26",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - repairs invoice.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Clean out all cabinets and drawers (Meld #TQM9WPCB)",
+      "category": "cleaning",
+      "amount_open": 150.0,
+      "amount_charged": 150.0,
+      "date_posted": "2024-04-26",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - repairs invoice.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Pet damage to stair railing post--sand and stain Hole/dent in bathroom-patch and paint (Meld #TQM9WPCB)",
+      "category": "repairs_damage",
+      "amount_open": 350.0,
+      "amount_charged": 350.0,
+      "date_posted": "2024-04-26",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "115 Boone - repairs invoice.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 2449.50 - credits 0.00 = 2449.50 vs PM stated 2449.50; exact match. The $850 move-out repair line for Meld #TQM9WPCB was itemized using the vendor invoice into trash removal ($350), cabinet cleaning ($150), and railing/drywall repair ($350). The tenant ledger balance of $2,629.50 includes an additional $180 charge added on 2024-05-14 after the Move Out Calculation was issued.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Pet damage to stair railing post--sand and stain Hole/dent in bathroom-patch and paint",
+      "file": "115 Boone - repairs invoice.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant moved out at end of term on 2024-01-31. Outstanding balance on the PURE Move Out Calculation is $2,449.50, consisting of partial January rent ($950 open), RBP ($27), late fees ($242.50 total), maintenance coordination fee ($200), carpet cleaning ($180), and Meld #TQM9WPCB repairs ($850). The invoice for Meld #TQM9WPCB combines pet railing repair with non-pet bathroom patching."
+}

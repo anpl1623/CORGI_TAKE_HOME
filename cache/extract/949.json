@@ -1,0 +1,126 @@
+{
+ "tracking": 949,
+ "winning_document": "2001 Ethan Lane_Move Out_2024-10-24 (1).pdf (move-out form, estimated total 4,600)",
+ "documents": [
+  {
+   "file": "2001 Ethan Lane_Move Out_2024-10-24 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE move-out form; Final Comments estimated total 4,600"
+  },
+  {
+   "file": "INV1909.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Best One Cleaning full clean 300, ties to cleaning line"
+  },
+  {
+   "file": "tenant_ledger-deonte_z_parham-20240820 (1).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Pre-move-out ledger; used for cash deposit and history only"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "lease_start": "2022-10-22",
+  "lease_end": "2024-10-22",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 400
+ },
+ "move_out": {
+  "move_out_date": "2024-10-22",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": 0
+ },
+ "line_items": [
+  {
+   "description": "Maintenance per move-out form",
+   "category": "repairs_damage",
+   "amount_charged": 1250,
+   "amount_open": 1250,
+   "is_estimate_only": true,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2001 Ethan Lane_Move Out_2024-10-24 (1).pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Full property paint per move-out form",
+   "category": "painting",
+   "amount_charged": 2800,
+   "amount_open": 2800,
+   "is_estimate_only": true,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2001 Ethan Lane_Move Out_2024-10-24 (1).pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Junk removal per move-out form",
+   "category": "trash_removal",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "is_estimate_only": true,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "2001 Ethan Lane_Move Out_2024-10-24 (1).pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Full clean, billed by invoice 1909",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-25",
+   "source_file": "INV1909.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 4600,
+ "ledger": {
+  "as_of_date": "2024-08-20",
+  "balance_due": 2438.5,
+  "last_payment_date": "2024-07-15",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Sum of 4 open lines = 4,600.00 (three estimates plus one billed cleaning); credits 0.00; move-out form estimated total 4,600.00. Difference 0.00. The 08/20/24 ledger balance 2,438.50 is not on the move-out form and is excluded.",
+ "notes": "Winner is the PURE move-out form (10/24/24), estimated total 4,600. Maintenance, paint and junk have no invoices in the folder, so they are marked estimate-only. Cleaning 300 is billed by INV1909 and counted once. Carpet replacement is TBD and excluded. Ledger (08/20/24) shows 2,438.50 open before move-out (Aug rent 1,995, RBP 39, admin 20, SDRP 35, late fee 199.50, eviction filing 150); it is not on the move-out form, so it is excluded under the statement-first rule. Sep-Oct 2024 rent and fees are not in the folder. Ledger shows cash deposit 400 paid 10/02/22 with no application on this claim. Lease not opened (lite mode).",
+ "extraction_confidence": 0.5,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

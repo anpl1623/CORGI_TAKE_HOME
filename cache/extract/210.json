@@ -1,0 +1,258 @@
+{
+  "tracking": 210,
+  "documents": [
+    {
+      "file": "4115 Bent Oaks - Balance Due.JPG",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "4115 Bent Oaks - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-03-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "4115 Bent Oaks - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "4115 Bent Oaks - No refund letter.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-06-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "4115 Bent Oaks - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-03-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "4115 Bent Oaks - Tenant Contact.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "4115 Bent Oaks - Ledger.pdf",
+  "pm_stated_amount_due": 5850.09,
+  "lease": {
+    "base_monthly_rent": 2150.0,
+    "recurring_addons": [
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 104.0
+      },
+      {
+        "name": "TBR Pet Rent",
+        "amount": 40.0
+      },
+      {
+        "name": "Latchel Concierge Service",
+        "amount": 14.99
+      },
+      {
+        "name": "Pinata Service Fee",
+        "amount": 4.0
+      }
+    ],
+    "lease_start": "2023-03-09",
+    "lease_end": "2024-03-31",
+    "current_term_start": "2023-03-09",
+    "current_term_end": "2024-03-31",
+    "initial_term_months": 13,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 4500.0,
+    "monthly_sd_premium": 104.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-01",
+    "termination": "skip_abandon",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": "2023-08-21"
+  },
+  "ledger": {
+    "as_of_date": "2023-09-18",
+    "balance_due": 0.0,
+    "first_full_month": "2023-04",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-05-04"
+  },
+  "line_items": [
+    {
+      "description": "TBR Rent Charge - Rent June 1, 2023 (possession date)",
+      "category": "rent_in_term",
+      "amount_open": 71.67,
+      "amount_charged": 71.67,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-01",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Rent Penalty - Rent June 2-30, 2023 (after tenant vacated 6/1/23)",
+      "category": "rent_after_move_out",
+      "amount_open": 2078.33,
+      "amount_charged": 2078.33,
+      "date_posted": "2023-06-25",
+      "service_period_start": "2023-06-02",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Rent Penalty - Rent July 2023",
+      "category": "rent_after_move_out",
+      "amount_open": 2150.0,
+      "amount_charged": 2150.0,
+      "date_posted": "2023-06-25",
+      "service_period_start": "2023-07-01",
+      "service_period_end": "2023-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Rent Penalty - Rent August 1-20, 2023 (prorated to 8/21/23 re-let date)",
+      "category": "rent_after_move_out",
+      "amount_open": 1387.1,
+      "amount_charged": 1387.1,
+      "date_posted": "2023-06-25",
+      "service_period_start": "2023-08-01",
+      "service_period_end": "2023-08-20",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Pet Rent - June 2023",
+      "category": "pet_fee_rent",
+      "amount_open": 40.0,
+      "amount_charged": 40.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Pinata Service Fee - June 2023",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 4.0,
+      "amount_charged": 4.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Latchel Concierge Service - June 2023",
+      "category": "other_fee",
+      "amount_open": 14.99,
+      "amount_charged": 14.99,
+      "date_posted": "2023-06-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Sec Dep Ins Charge to Tenant - June 2023",
+      "category": "sdrp_premium",
+      "amount_open": 104.0,
+      "amount_charged": 104.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "4115 Bent Oaks - Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 5850.09 - 0.00 = 5850.09 vs PM stated 5850.09. Matches exactly. Open balance includes June 1 rent (71.67), June 2-30 rent (2078.33), July rent (2150.00), August 1-20 rent (1387.10), June pet rent (40.00), Pinata fee (4.00), Latchel concierge (14.99), and security deposit insurance charge (104.00).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant skipped on 2023-06-01. Property re-let on 2023-08-21. Rent charged through 2023-08-20 plus June fees total $5,850.09 ($5,687.10 rent + $162.99 non-rent fees), matching the updated collections balance noted on the ledger."
+}

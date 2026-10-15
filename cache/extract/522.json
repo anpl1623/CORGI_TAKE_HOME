@@ -1,0 +1,264 @@
+{
+ "tracking": 522,
+ "winning_document": "E Castaneda updated final statement.pdf",
+ "pm_stated_amount_due": 2055.5,
+ "documents": [
+  {
+   "file": "E Castaneda updated final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-04-05",
+   "used_for_amounts": true,
+   "revised": true,
+   "opened_visually": false,
+   "note": "Rent Manager final statement, balance due 2,055.50. Winning accounting doc."
+  },
+  {
+   "file": "E Castaneda full ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-05",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Repeats the same Feb charges as the final statement (not double counted). Also shows 1,179.00 prior credits that paid move-in charges (not claim credits). Collection-fee line is hypothetical."
+  },
+  {
+   "file": "E Castaneda collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-02-20",
+   "used_for_amounts": false,
+   "revised": true,
+   "opened_visually": false,
+   "note": "Original balance 2,105.50; annotated '3/14/24 Updated per dispute $2055.50 AR'."
+  },
+  {
+   "file": "E Castaneda bill carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-02-09",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Invoice 3-323277, $80.00; backs the statement carpet cleaning line (counted once)."
+  },
+  {
+   "file": "E Cataneda bill cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-02-15",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Second To None Cleaning invoice 39: 225 less 112.50 discount = 112.50; backs the statement cleaning line (counted once)."
+  },
+  {
+   "file": "E Castaneda lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Digest excerpt was sufficient for rent, term, SD program and re-rent clause."
+  },
+  {
+   "file": "E Castaneda zdp addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-12-20",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program addendum, $45.00 monthly in lieu of deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1145,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "lease_start": "2023-12-22",
+  "lease_end": "2025-01-31",
+  "current_term_start": "2023-12-22",
+  "current_term_end": "2025-01-31",
+  "initial_term_months": 14,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Tenant agrees not to terminate before 14 months from commencement (1/31/2025) or in Nov/Dec. Early or improper termination: $1,000 re-rent charge as liquidated damages, plus advertising costs, rent loss and back-charge of any move-in incentive.",
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Renters Insurance (Resident Insurance Program)",
+    "amount": 17
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-02-12",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": "2024-02-20"
+ },
+ "line_items": [
+  {
+   "description": "Renters Insurance - Resident Insurance Program (02/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 17,
+   "amount_open": 17,
+   "date_posted": "2024-02-01",
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent - Feb. rent prorate through new renter (PM charged 751.00; period inferred Feb 1-19, Feb 20-29 not charged; straddles move-out date)",
+   "category": "rent_after_move_out",
+   "amount_charged": 751,
+   "amount_open": 751,
+   "date_posted": "2024-02-01",
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Zero Deposit Program Charge (02/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-02-01",
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Amenity Service Package (02/2024)",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-02-01",
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning Service - tenant responsible carpet cleaning (invoice 3-323277, 3 rooms)",
+   "category": "carpet_cleaning",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-02-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Cleaning - non-normal wear and tear move-out clean (Second To None invoice 39, 900 sq ft, half-off discount)",
+   "category": "cleaning",
+   "amount_charged": 112.5,
+   "amount_open": 112.5,
+   "date_posted": "2024-02-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Re-Rent Service - re-rent charge for early/improper lease termination ($1,000 liquidated damages per lease)",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-02-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "E Castaneda updated final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "E Castaneda collection letter.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "3/14/24 Updated per dispute $2055.50 AR"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-04-05",
+  "balance_due": 2055.5,
+  "first_full_month": "2024-02",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-12-30"
+ },
+ "reconciliation": "Sum of open lines 2,055.50 - credits 0 = 2,055.50 equals PM stated 2,055.50 (updated final statement; collection letter originally 2,105.50 before the 3/14/24 dispute update). Hypothetical collection fees 1,027.75 excluded. Prior payments (100 + 1,079) only paid move-in charges and are not claim credits.",
+ "notes": "Sheet lease start 2023-02-12 conflicts with lease commencement 12/22/2023 and ledger move-in prorate from 1/5/2024; lease start reported from the lease. Sheet move-out 2/12/2024 used, but charges posted 2/7 and cleaning/carpet work dated 2/8 suggest the unit was vacated earlier. Feb rent 751 = 1,145 less 10 unrented days (Feb 20-29 at ~39.40/day), so re-let about 2/20/2024 (inferred). The rent line straddles the move-out date and is kept as one line with the PM amount. Pet rent line is 0.00 (no charge). The tenant was only in possession about 5 weeks of a 14-month term.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ae79b4f0481946cd0"
+ }
+}

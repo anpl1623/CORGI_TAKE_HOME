@@ -1,0 +1,129 @@
+{
+ "tracking": 690,
+ "documents": [
+  {
+   "file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-02",
+   "note": "Blue Fox statement 1366; pp2-5 vendor invoices; p6 envelope",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "2748 E Calle Joya De Ventura_tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-22",
+   "note": "open security deposit charges total 1366; ties to statement",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.92,
+ "flags": {},
+ "lease": {
+  "base_monthly_rent": 1995,
+  "sd_program": "unknown",
+  "lease_start": "2022-07-07",
+  "lease_end": "2024-07-12",
+  "cash_deposit_amount": null,
+  "recurring_addons": [],
+  "monthly_sd_premium": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "initial_term_months": null,
+  "lease_break_terms": null,
+  "waived_deposit_amount": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-22",
+  "balance_due": 1366,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-12",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Carpet cleaning, 5 rooms and closet",
+   "amount_open": 220,
+   "category": "carpet_cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out cleaning and power washing",
+   "amount_open": 600,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Wall patch and paint (2 items)",
+   "amount_open": 70,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace air filters",
+   "amount_open": 10,
+   "category": "other_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Misc repairs incl. back door",
+   "amount_open": 176,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Move-out landscaping",
+   "amount_open": 290,
+   "category": "landscaping_lawn",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 1366,
+ "reconciliation": "Open lines 1366.00 less credits 0.00 = 1366.00, equal to statement amount due 1366.00 and ledger balance 1366.00.",
+ "winning_document": "2748ECalleJoyaDeVentura_070324_StatementofAccounting_Landers.pdf",
+ "notes": "Repairs 256 split by invoice items (paint 70, air filters 10, misc 176). Statement shows lease break fee 0 and unpaid rent 0. Lease not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ad3209742e93e84a6"
+ }
+}

@@ -1,0 +1,252 @@
+{
+  "tracking": 209,
+  "documents": [
+    {
+      "file": "169 Villa Rosa Way - Balance Due.JPG",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "169 Villa Rosa Way - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "169 Villa Rosa Way - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "169 Villa Rosa Way - No refund letter.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-05-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "169 Villa Rosa Way - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-08-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "169 Villa Rosa Way - Tenant Contact Angelica.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "169 Villa Rosa Way - Tenant Contact Tyrese.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "169 Villa Rosa Way - Ledger.pdf",
+  "pm_stated_amount_due": 6302.74,
+  "lease": {
+    "base_monthly_rent": 1715.0,
+    "recurring_addons": [
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 48.0
+      },
+      {
+        "name": "YRIG Prem",
+        "amount": 20.0
+      },
+      {
+        "name": "Latchel Concierge Service",
+        "amount": 14.99
+      }
+    ],
+    "lease_start": "2022-08-31",
+    "lease_end": "2023-08-31",
+    "current_term_start": "2022-08-31",
+    "current_term_end": "2023-08-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2000.0,
+    "monthly_sd_premium": 48.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "60 days notice, 1 month rent liquidated damages ($1,715.00), $500 early termination fee"
+  },
+  "move_out": {
+    "move_out_date": "2023-04-28",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": "2023-08-25"
+  },
+  "ledger": {
+    "as_of_date": "2023-09-18",
+    "balance_due": 0.0,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-04-13"
+  },
+  "line_items": [
+    {
+      "description": "Rent - May 2023 (TBR Rent Penalty: tenant did not pay early term fees)",
+      "category": "rent_after_move_out",
+      "amount_open": 1215.0,
+      "amount_charged": 1715.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Rent - June 2023 (TBR Rent Penalty: charging to end of lease)",
+      "category": "rent_after_move_out",
+      "amount_open": 1715.0,
+      "amount_charged": 1715.0,
+      "date_posted": "2023-05-24",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Rent - July 2023 (TBR Rent Penalty: charging to end of lease)",
+      "category": "rent_after_move_out",
+      "amount_open": 1715.0,
+      "amount_charged": 1715.0,
+      "date_posted": "2023-05-24",
+      "service_period_start": "2023-07-01",
+      "service_period_end": "2023-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Rent - August 1-24, 2023 (TBR Rent Penalty: prorated to 8/24/23 re-let date)",
+      "category": "rent_after_move_out",
+      "amount_open": 1327.74,
+      "amount_charged": 1327.74,
+      "date_posted": "2023-05-24",
+      "service_period_start": "2023-08-01",
+      "service_period_end": "2023-08-24",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - Yard overgrown",
+      "category": "landscaping_lawn",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-05-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - Air filter is dirty",
+      "category": "repairs_damage",
+      "amount_open": 35.0,
+      "amount_charged": 35.0,
+      "date_posted": "2023-05-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - Oven is dirty",
+      "category": "cleaning",
+      "amount_open": 45.0,
+      "amount_charged": 45.0,
+      "date_posted": "2023-05-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Unallocated tenant payment on 2023-04-13 applied to May 2023 rent",
+      "amount": 500.0,
+      "type": "tenant_payment",
+      "already_netted_in_line_items": true,
+      "source_file": "169 Villa Rosa Way - Ledger.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) = 6302.74 matches PM stated amount due of 6302.74. (Open lines include rent for May [1215.00 after applying $500 unallocated payment], June [1715.00], July [1715.00], August 1-24 [1327.74], yard overgrown [250.00], air filter [35.00], and oven cleaning [45.00]).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant broke lease early on 2023-04-28. Excalibur charged rent through re-let date 2023-08-25, less $500 payment from 2023-04-13. Collections write-off of -6360 rent and -330 non-rent zeroed the ledger balance for collection transfer, with final note detailing new collections total of $6,302.74 ($5,972.74 rent + $330.00 non-rent)."
+}

@@ -1,0 +1,196 @@
+{
+ "tracking": 56,
+ "documents": [
+  {
+   "file": "Transactions_20230315092149525.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-03-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager ledger, oldest-first. Only open items: 03/02/23 Make Ready Maintenance 3,065.00 + window glass replacement 360.31 less 10.05 overpayment = 3,415.26. All rent/fees through Jan 2023 paid."
+  },
+  {
+   "file": "3627 Bass Loop - Maintenance.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-02-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Heritage Home Services invoice #1048. Tenant charges total $3,065 (lump; only floor scratch repair priced at 350). Owner charges $850 (paint touch-up, chandelier, toilet seat) are excluded. 10% discount gives a balance due of 3,523 on the whole invoice, but the PM charged the tenant the undiscounted 3,065. Used only to split the ledger line."
+  },
+  {
+   "file": "3627 Bass Loop - Make-Ready.pdf",
+   "doc_type": "other",
+   "doc_date": "2023-02-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Make-ready checklist splitting tenant and owner items; lists 'Replace cracked window in dining room' as a tenant item; 'Security Deposit: Renters choice'."
+  },
+  {
+   "file": "3627 Bass Loop - Picture Report.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-02-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector move-out photos; comments 'Smells of pet' (garage) and 'scratches on floor' (bedrooms 2,3)."
+  },
+  {
+   "file": "3627BA - THOMAS LEASE AGREEMENT01282212424958380.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-01-28",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "TXR-2001 lease (pages 1-4, 13-14 viewed): term 02/01/2022-01/31/2023, rent $1,999, SD $3,000 with 'Lease Addendum for Security Deposit Waiver' checked; no pet agreement; auto-renews month-to-month unless 45 days' notice."
+  },
+  {
+   "file": "3627BA - THOMAS NEW TENANT ADDENDUMS.pdf",
+   "doc_type": "marketing_or_policy",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "GDAA resident policies and procedures (pages 1-3 viewed); no amounts."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1999,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3000,
+  "monthly_sd_premium": 60,
+  "recurring_addons": [
+   {
+    "name": "Renters Choice Program (SD waiver monthly fee)",
+    "amount": 60
+   },
+   {
+    "name": "Tenant Benefits A2 (resident benefit package)",
+    "amount": 36
+   }
+  ],
+  "lease_start": "2022-02-01",
+  "lease_end": "2023-01-31",
+  "current_term_start": "2022-02-01",
+  "current_term_end": "2023-01-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No buy-out clause. Para 28B: replacement tenant/assignment fee is 100% of one month's rent. Auto-renews month-to-month unless 45 days' written notice."
+ },
+ "move_out": {
+  "move_out_date": "2023-01-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready - Maintenance (Heritage inv 1048 tenant charges): cleaning (pet urine smell), garage paint for pet smell, garage power-wash for pet urine/feces, dog-damaged grate/sheetrock/weather strip, holes in door/wall/ceiling, light bulbs, curtains, towel holder, screen, A/C wire removal; floor-scratch portion split out separately",
+   "category": "pet_damage_odor",
+   "amount_charged": 2715,
+   "amount_open": 2715,
+   "date_posted": "2023-03-02",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20230315092149525.pdf",
+   "source_page": 2,
+   "confidence": 0.6
+  },
+  {
+   "description": "Make Ready - Maintenance portion: fill and stain scratches in wood floor, 2 bedrooms (priced 350 on Heritage inv 1048)",
+   "category": "flooring",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2023-03-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3627 Bass Loop - Maintenance.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Make Ready - window glass replacement (cracked dining room window; no invoice in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 360.31,
+   "amount_open": 360.31,
+   "date_posted": "2023-03-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Transactions_20230315092149525.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Advance rent / tenant overpayment applied (Security deposits from holdings)",
+   "amount": 10.05,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false,
+   "source_file": "Transactions_20230315092149525.pdf"
+  }
+ ],
+ "flags": {
+  "mixed_pet_nonpet_line": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Clean home. Home is very dirty and smells of pet urine ... Total Tenant Charges - $3,065",
+   "file": "3627 Bass Loop - Maintenance.pdf"
+  },
+  {
+   "flag": "pet_damage",
+   "quote": "Powerwash clean and scrub garage duew to horrendous pet urine and feces smell",
+   "file": "3627 Bass Loop - Maintenance.pdf"
+  },
+  {
+   "flag": "owner_items_excluded",
+   "quote": "Total Owner charges - 850 / GDAA PREFERRED CUSTOMER DISCOUNT -10%",
+   "file": "3627 Bass Loop - Maintenance.pdf"
+  },
+  {
+   "flag": "sd_waiver",
+   "quote": "Lease Addendum for Security Deposit Waiver (checked)",
+   "file": "3627BA - THOMAS LEASE AGREEMENT01282212424958380.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-03-15",
+  "balance_due": 3415.26,
+  "first_full_month": "2022-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-01-03"
+ },
+ "pm_stated_amount_due": 3415.26,
+ "winning_document": "Transactions_20230315092149525.pdf",
+ "reconciliation": "2715 + 350 + 360.31 = 3425.31, minus 10.05 overpayment credit = 3415.26, which matches the ledger balance of 3415.26.",
+ "notes": "The folder has no PM move-out statement, so the ledger is the PM's accounting. The ledger's 3,065 Make Ready equals Heritage inv 1048's 'Total Tenant Charges', the pre-discount amount; the invoice's 10% discount would make the tenant share about 2,758.50. Only the floor scratch repair is priced (350); the other 2,715 mixes pet-caused and non-pet work, and no per-item split is given. The lease bars pets (no pet agreement), but the docs show dog damage and urine odor. The window glass (360.31) has no invoice; the make-ready list names a cracked dining room window as a tenant item. Move-out per sheet and ledger was 1/31/2023 at lease end; the inspection was on 2/2/2023. A July 2022 NSF and late fees were all paid. No rent is open.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a8fa24adb31b23ac7"
+ }
+}

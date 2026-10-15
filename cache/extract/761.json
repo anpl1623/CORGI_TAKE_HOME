@@ -1,0 +1,344 @@
+{
+ "tracking": 761,
+ "documents": [
+  {
+   "file": "8107 Spike Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-31",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 6,691.00"
+  },
+  {
+   "file": "8107 Spike Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-31",
+   "used_for_amounts": true,
+   "note": "Total 6,691.00; source of July line items"
+  },
+  {
+   "file": "8107 Spike SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Total 6,691.00; current ledger 5,951.00 plus 740 maintenance"
+  },
+  {
+   "file": "8107 Spike Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Used to split 07/01 balance forward of 3,964.00 into May and June items"
+  }
+ ],
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 1680,
+  "lease_start": "2023-12-06",
+  "lease_end": "2024-11-30",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 6691,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-03-23"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-26",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent May 2024",
+   "category": "rent_in_term",
+   "amount_open": 1680,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters insurance May 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit protection May 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility revenue May 2024",
+   "category": "utilities",
+   "amount_open": 50,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee May 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-05-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Process served 3-day notice (05/10)",
+   "category": "eviction_legal_court",
+   "amount_open": 60,
+   "date_posted": "2024-05-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "NSF returned check fee",
+   "category": "nsf_fee",
+   "amount_open": 25,
+   "date_posted": "2024-05-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Process served 3-day (05/23)",
+   "category": "eviction_legal_court",
+   "amount_open": 60,
+   "date_posted": "2024-05-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent June 2024",
+   "category": "rent_in_term",
+   "amount_open": 1680,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters insurance June 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit protection June 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility revenue June 2024",
+   "category": "utilities",
+   "amount_open": 50,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee June 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Process served 3-day (06/12)",
+   "category": "eviction_legal_court",
+   "amount_open": 60,
+   "date_posted": "2024-06-12",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Court fees (06/18)",
+   "category": "eviction_legal_court",
+   "amount_open": 95,
+   "date_posted": "2024-06-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Ledger.docx",
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent July 2024",
+   "category": "rent_in_term",
+   "amount_open": 1680,
+   "amount_charged": 1680,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection July 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility revenue July 2024",
+   "category": "utilities",
+   "amount_open": 50,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee July 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Process served 3-day (07/08)",
+   "category": "eviction_legal_court",
+   "amount_open": 60,
+   "date_posted": "2024-07-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "FED court costs (07/15)",
+   "category": "eviction_legal_court",
+   "amount_open": 95,
+   "date_posted": "2024-07-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Keys not returned",
+   "category": "keys_remotes",
+   "amount_open": 160,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash removal from apartment",
+   "category": "trash_removal",
+   "amount_open": 200,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning charges",
+   "category": "cleaning",
+   "amount_open": 200,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replaced two bedroom window blinds",
+   "category": "repairs_damage",
+   "amount_open": 160,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replaced four vertical slats",
+   "category": "repairs_damage",
+   "amount_open": 20,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8107 Spike Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "pm_stated_amount_due": 6691,
+ "reconciliation": "Open items May 1977 + June 1987 (together the 07/01 balance forward 3964) + July 2727 = 6691; credits 0; letter and statement state 6691.00; difference 0. Early termination fee 250 posted and reversed 07/28 (net 0) is excluded.",
+ "notes": "Move-out 07/26/2024 per statement and SDI (sheet and ledger header say 07/31). Balance as of 07/01 (3964.00) split into May and June items: Jan-Apr charges were fully paid by payments 1790, 800, 1032, 2100 and 1465; the 05/19 ACH of 1892 was NSF-reversed. FED court costs and 3-day notices suggest eviction proceedings, but no writ or possession order is in the folder, so termination is early_termination. Full July rent charged.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

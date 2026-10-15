@@ -1,0 +1,249 @@
+{
+ "tracking": 1017,
+ "winning_document": "Security Deposit - Robinson.pdf (11/27/2024 statement, scanned, invoices embedded pp.3-12)",
+ "documents": [
+  {
+   "file": "Security Deposit - Robinson.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning statement 7,077.08 with vendor invoices pp.3-12"
+  },
+  {
+   "file": "tenant_ledger-kristal_c_robinson_fabian_m_curry-20241212.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Labels early termination fee, utilities chargeback, rent proration"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3295,
+  "sd_program": "unknown",
+  "lease_start": "2023-04-01",
+  "lease_end": "2025-03-23"
+ },
+ "move_out": {
+  "move_out_date": "2024-11-26",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Early termination / lease break fee",
+   "category": "lease_break_fee",
+   "amount_open": 495,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Nov 2024 RBP w/insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Nov 2024 SDWP fee (Policy 9773R)",
+   "category": "sdrp_premium",
+   "amount_open": 58,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Nov 2024 rent prorated, 11/1 to 11/26",
+   "category": "rent_in_term",
+   "amount_open": 2855.58,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-26",
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "HVAC filter replacement",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Towel bar and screen door repairs",
+   "category": "repairs_damage",
+   "amount_open": 80,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Dog-chewed patio posts, repaint",
+   "category": "pet_damage_odor",
+   "amount_open": 620,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Move and install washer",
+   "category": "other_damage",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Hauling and TV recycling",
+   "category": "trash_removal",
+   "amount_open": 579,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Paint baseboards and walls, 50% share",
+   "category": "painting",
+   "amount_open": 775,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Paint patio posts; patch holes, 100%",
+   "category": "painting",
+   "amount_open": 265,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Power wash patio floors, 50% share",
+   "category": "cleaning",
+   "amount_open": 187.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Vacancy and additional cleaning",
+   "category": "cleaning",
+   "amount_open": 475,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Window cleaning, 9 windows",
+   "category": "cleaning",
+   "amount_open": 108,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Carpet cleaning, 2 bedrooms",
+   "category": "carpet_cleaning",
+   "amount_open": 105,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.7,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Urine/blacklight inspection",
+   "category": "pet_damage_odor",
+   "amount_open": 105,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "Security Deposit - Robinson.pdf"
+  },
+  {
+   "description": "Rekey bundle",
+   "category": "rekey_locks",
+   "amount_open": 130,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "Security Deposit - Robinson.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "ledger": {
+  "as_of_date": "2024-12-12",
+  "balance_due": 7077.08,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 7077.08,
+ "reconciliation": "Open lines sum 7,077.08; credits 0; PM stated 7,077.08; difference 0.00.",
+ "notes": "Statement 11/27/2024 total ties to ledger. Invoice-to-line mapping: Home Repairs 1881 highlighted items sum to 900 (25+20+60+620+175); Pro Painting 241109 50% items 1,925 gives 962.50 and 100% items give 265; Star Flooring 003200 carpet cleaning 105 (stretching 70 not charged). Statement has two 105.00 lines: Carpet Cleaning (Star Flooring) and unlabeled line (ledger Utility Chargeback), mapped to Secured Carpet urine inspection 708448 by the Carpet Blacklight Test note; ambiguous at 0.6. Urine inspection invoice says previous tenants had a dog and reports no urine found. Work invoices dated 11/06-11/15/2024 predate 11/26 move-out. Folder also holds a 12/23/2024 lease for same unit to other tenants (not used).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

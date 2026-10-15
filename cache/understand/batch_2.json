@@ -1,0 +1,892 @@
+{
+  "batch": 2,
+  "claims": [
+    {
+      "tracking": 50,
+      "status": "Declined",
+      "approved": 0,
+      "max_benefit": 1500,
+      "monthly_rent": 1400.0,
+      "total_claimed": 3006.0,
+      "docs": [
+        {
+          "file": "a5ad51b757564878ac95e7abdef39b92 (1).pdf",
+          "kind": "invoice",
+          "needed_vision": false
+        },
+        {
+          "file": "eeb83ad76a4f417995d801eb9e9b29bd (1).pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "TnT Property Solutions invoice 3278: paint all walls on work order, patch walls",
+          "amount": 1500.0,
+          "category": "painting",
+          "date": "2023-02-12",
+          "source_file": "a5ad51b757564878ac95e7abdef39b92 (1).pdf"
+        },
+        {
+          "description": "Same invoice line 2: light cleaning, oven door, shower rod, towel bar, hose, fire ants (billed $0.00)",
+          "amount": 0.0,
+          "category": "repairs_damage",
+          "date": "2023-02-12",
+          "source_file": "a5ad51b757564878ac95e7abdef39b92 (1).pdf"
+        },
+        {
+          "description": "Unitemized remainder of the $3,006.00 'total amount due' in the PM final-account letter (ledger it references is not in the file)",
+          "amount": 1506.0,
+          "category": "other",
+          "date": "2023-02-14",
+          "source_file": "eeb83ad76a4f417995d801eb9e9b29bd (1).pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [],
+      "excluded_categories": [
+        "painting",
+        "other"
+      ],
+      "computed_amount": 1500.0,
+      "reproduced": "no",
+      "derivation": "The docs support at least 1500 in painting, and the PM letter says 3006 total due. Max Benefit is 1500 and the rent cap is ceil(1400/500)*500 = 1500, so the expected payout is 1500. The actual result is Declined, 0, with no PM Explanation. The decline reason is not in the docs or the sheet; it could be no active policy, unpaid premiums, a settlement, or something else. The claim is from 2023-03, before the 12/1/23 program start, an era when most claims were paid at Max Benefit, so this is a counterexample.",
+      "data_issues": [
+        "Lease End Date is blank in the sheet.",
+        "The PM letter references an 'attached tenant ledger' that was not provided; 1506 of the 3006 total is unitemized.",
+        "Status is Declined but the claim has a Posted Date (2023-03-06) and no Approval Date.",
+        "Comments sheet 'Row 51' entries talk about a Blue Fox tenant dispute in 10/2024. That does not match this claim (New Heights, 2023), so Comments row anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 249,
+      "status": "Posted",
+      "approved": 491,
+      "max_benefit": 2500,
+      "monthly_rent": 1450.0,
+      "total_claimed": 491.0,
+      "docs": [
+        {
+          "file": "3270STreasureCovePlace_tenanledger.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        },
+        {
+          "file": "3270_3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(08-18-2022_-_08-18-2022)-1.pdf",
+          "kind": "lease",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "5310 - Sec Dep - Handyman (unpaid charge)",
+          "amount": 240.0,
+          "category": "repairs_damage",
+          "date": "2023-09-20",
+          "source_file": "3270STreasureCovePlace_tenanledger.pdf"
+        },
+        {
+          "description": "5302 - Sec Dep - General & Window cleaning (unpaid charge)",
+          "amount": 251.0,
+          "category": "cleaning",
+          "date": "2023-09-20",
+          "source_file": "3270STreasureCovePlace_tenanledger.pdf"
+        }
+      ],
+      "credits": [],
+      "covered_categories": [
+        "repairs_damage",
+        "cleaning"
+      ],
+      "excluded_categories": [],
+      "computed_amount": 491.0,
+      "reproduced": "exact",
+      "derivation": "Handyman 240 + general and window cleaning 251 = 491. This matches the ledger's 'Total Unpaid' as of 10/18/2023. Rent, RBP and RIS charges are all paid, including the prorated 9/1-9/5 rent of 241.67. 491 is under Max Benefit 2500 and the rent cap of ceil(1450/500)*500 = 1500.",
+      "data_issues": [
+        "The lease shows a 'No Security Deposit Option' at 43/mo and an RBP at 29/mo, with no cash deposit.",
+        "Comments sheet 'Row 250' notes (6/2023: eviction, 'benefit should not have exceeded 2k', $4k benefit) do not match this claim (no eviction, 10/2023 claim), so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 300,
+      "status": "Posted",
+      "approved": 1475,
+      "max_benefit": 2500,
+      "monthly_rent": 2145.0,
+      "total_claimed": 1475.0,
+      "docs": [
+        {
+          "file": "1710 Amber Skyway Cove - Close out Packet.pdf (pp1-2 PM deposit-disposition letter, scanned)",
+          "kind": "correspondence",
+          "needed_vision": true
+        },
+        {
+          "file": "1710 Amber Skyway Cove - Close out Packet.pdf (pp3-5 TXR-2216 Itemization of Security Deposit, scanned)",
+          "kind": "itemization",
+          "needed_vision": true
+        },
+        {
+          "file": "1710 Amber Skyway Cove - Close out Packet.pdf (p6 TRPI vendor invoice, tenant vs owner charges)",
+          "kind": "invoice",
+          "needed_vision": false
+        },
+        {
+          "file": "1710 Amber Skyway Cove - Close out Packet.pdf (p7 V Square lawn/haul-off Meld invoice)",
+          "kind": "invoice",
+          "needed_vision": false
+        },
+        {
+          "file": "1710 Amber Skyway Cove - Close out Packet.pdf (pp8-46 zInspector move-out photos)",
+          "kind": "photos",
+          "needed_vision": false
+        },
+        {
+          "file": "1710AM - FOWLER LEASE AGREEMENT.pdf",
+          "kind": "lease",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Itemization line (1) maintenance: gate safety latches 60 + bulbs 80 + outlet cover 10 (TRPI)",
+          "amount": 150.0,
+          "category": "repairs_damage",
+          "date": "2023-11-09",
+          "source_file": "1710 Amber Skyway Cove - Close out Packet.pdf"
+        },
+        {
+          "description": "Itemization line (1) lawn and haul-off (V Square): haul off debris in cans and dog poop",
+          "amount": 210.0,
+          "category": "trash_removal",
+          "date": "2023-10-22",
+          "source_file": "1710 Amber Skyway Cove - Close out Packet.pdf"
+        },
+        {
+          "description": "Itemization line (1) lawn and haul-off (V Square): lawn maintenance in back",
+          "amount": 40.0,
+          "category": "landscaping_lawn",
+          "date": "2023-10-22",
+          "source_file": "1710 Amber Skyway Cove - Close out Packet.pdf"
+        },
+        {
+          "description": "Itemization line (2) clean all carpets",
+          "amount": 425.0,
+          "category": "carpet_cleaning",
+          "date": "2023-11-09",
+          "source_file": "1710 Amber Skyway Cove - Close out Packet.pdf"
+        },
+        {
+          "description": "Itemization line (2) full make-ready interior clean",
+          "amount": 650.0,
+          "category": "cleaning",
+          "date": "2023-11-09",
+          "source_file": "1710 Amber Skyway Cove - Close out Packet.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Security deposit tendered: blank/none on the itemization (lease has a Security Deposit Waiver Addendum)",
+          "amount": 0.0
+        },
+        {
+          "description": "Agreed tenant settlement collected 2023-11-15 (sheet). Not deducted from the approved amount",
+          "amount": 800.0
+        }
+      ],
+      "covered_categories": [
+        "repairs_damage",
+        "trash_removal",
+        "landscaping_lawn",
+        "carpet_cleaning",
+        "cleaning"
+      ],
+      "excluded_categories": [],
+      "computed_amount": 1475.0,
+      "reproduced": "exact",
+      "derivation": "From the TXR itemization: damages 400 (maintenance 150 + lawn/haul-off 250) + cleaning 1075 (carpet 425 + clean 650) = 1475. The form's balance is (1,475.00) with no deposit. 1475 is under Max Benefit 2500 and the rent cap of ceil(2145/500)*500 = 2500. The adjuster paid the PM's itemization total, not the vendor invoice totals (TRPI tenant 1550, +80 extra, handwritten 1225, grand total 2830). The 800 tenant settlement collected on 11/15 was not subtracted.",
+      "data_issues": [
+        "Pages 1-5 of the close-out packet are scanned images with no text layer. The decisive TXR itemization is only visible with vision; text extraction finds only the vendor invoices, which give wrong totals.",
+        "The TRPI invoice mixes tenant charges (1550 + 80 fridge panel) and owner charges (1200), and has a handwritten 'Total tenant charge $1,225'. The PM swapped TRPI's mow/poop/haul (325) for the V Square invoice (250) and dropped the fridge panel.",
+        "Lease para 10 lists a $2,395 security deposit, but the Security Deposit Waiver Addendum is checked and the itemization shows no deposit.",
+        "Another claim, #1139, exists for the same address (2025, rent 2095) for a later tenancy."
+      ]
+    },
+    {
+      "tracking": 364,
+      "status": "Posted",
+      "approved": 955,
+      "max_benefit": 2000,
+      "monthly_rent": 1795.0,
+      "total_claimed": null,
+      "docs": [
+        {
+          "file": "703 Bearden Road - No refund letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "703 Bearden Road - Tenant Contact DiMarcus.JPG",
+          "kind": "other",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [],
+      "credits": [
+        {
+          "description": "Security deposit paid per GA disposition letter",
+          "amount": 0.0
+        },
+        {
+          "description": "Agreed tenant settlement collected 2023-12-13, the same day as approval (sheet)",
+          "amount": 500.0
+        }
+      ],
+      "covered_categories": [],
+      "excluded_categories": [],
+      "computed_amount": null,
+      "reproduced": "no",
+      "derivation": "There are no charge amounts anywhere in the file. The disposition letter says the balance is 'shown on the attached ledger', but no ledger was provided, and the JPG is only a tenant contact screenshot. 955 cannot be derived. For reference, Max Benefit is 2000 and the rent cap is ceil(1795/500)*500 = 2000, and a 500 tenant settlement was collected the same day.",
+      "data_issues": [
+        "The ledger/itemization is missing; the only docs are a form no-refund letter and a PM-software tenant profile screenshot.",
+        "The letter gives the property zip as 30035; the sheet says 30134.",
+        "Comments sheet 'Row 365' notes (rent 1245, max 1500, '#420', pay 2500) clearly belong to another claim (rent here is 1795, max 2000), so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 543,
+      "status": "Declined",
+      "approved": 0,
+      "max_benefit": 2500,
+      "monthly_rent": 1895.0,
+      "total_claimed": 152.06,
+      "docs": [
+        {
+          "file": "tenant_ledger-kristy_l_aston_dustin_t_aston-20240429.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Repair - Flooring - Broken transition strip",
+          "amount": 152.06,
+          "category": "flooring",
+          "date": "2024-04-15",
+          "source_file": "tenant_ledger-kristy_l_aston_dustin_t_aston-20240429.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Deposit paid (ledger header)",
+          "amount": 0.0
+        }
+      ],
+      "covered_categories": [],
+      "excluded_categories": [
+        "flooring"
+      ],
+      "computed_amount": 0.0,
+      "reproduced": "exact",
+      "derivation": "Declined. The PM Explanation says the tenant just got the bill and intends to pay the PM directly, which falls under the 'tenant paying/settling with PM' decline. Without the decline, the payable amount would be 152.06 (flooring repair), under Max 2500 and the rent cap of 2000.",
+      "data_issues": [
+        "The tenant moved out 2024-03-31, before the lease end of 2024-04-27, but the PM charged no April rent or lease-break fee. The only open item is 152.06.",
+        "Comments sheet 'Row 544' says 'rent not paid since May 2024, legal fees, eviction', which does not match this ledger, so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 625,
+      "status": "Posted",
+      "approved": 901.2,
+      "max_benefit": 1000,
+      "monthly_rent": 1356.95,
+      "total_claimed": 901.2,
+      "docs": [
+        {
+          "file": "Gmail - Demand Letter for Payment - Rocky Ridge 6277 Cindya Carrozza Raymond Carrozza.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf",
+          "kind": "move_out_statement",
+          "needed_vision": false
+        },
+        {
+          "file": "tenant_ledger-cindya_e_carrozza_raymond_s_carrozza-20240625.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Utility Reimbursement - Final Utility Bill 05/16/24-05/31/24 (AEP electric + water/sewer; includes 450.52 past-due previous balance + 100.68 current)",
+          "amount": 551.2,
+          "category": "utilities",
+          "date": "2024-06-18",
+          "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf"
+        },
+        {
+          "description": "Maintenance charge - kitchen sink aerator",
+          "amount": 10.0,
+          "category": "repairs_damage",
+          "date": "2024-06-18",
+          "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf"
+        },
+        {
+          "description": "End of lease unit clean",
+          "amount": 195.0,
+          "category": "cleaning",
+          "date": "2024-06-18",
+          "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf"
+        },
+        {
+          "description": "End of lease carpet cleaning",
+          "amount": 95.0,
+          "category": "carpet_cleaning",
+          "date": "2024-06-18",
+          "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf"
+        },
+        {
+          "description": "Remove LED strip and repair wall",
+          "amount": 50.0,
+          "category": "repairs_damage",
+          "date": "2024-06-18",
+          "source_file": "move_out_inspection_report_and_charges_cindya_e_carrozza_061824.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Mgmt held security deposit 1000 reversed by 'Deposit waiver special' (SDW1000); no cash deposit held",
+          "amount": 0.0
+        }
+      ],
+      "covered_categories": [
+        "utilities",
+        "repairs_damage",
+        "cleaning",
+        "carpet_cleaning"
+      ],
+      "excluded_categories": [],
+      "computed_amount": 901.2,
+      "reproduced": "exact",
+      "derivation": "The full move-out balance was paid: utility 551.20 + aerator 10 + unit clean 195 + carpet clean 95 + LED strip/wall 50 = 901.20. This is under Max Benefit 1000 (which matches the 'SDW1000' deposit-waiver rent code). The rent cap of ceil(1356.95/500)*500 = 1500 is not binding. The final utility bill was NOT excluded here, which contradicts the utilities exclusion seen in #835 and #778. Review Claim Adjudication = Yes, so this may be an adjuster error. If utilities had been excluded, the payout would be 350.00.",
+      "data_issues": [
+        "The ledger header says 'Rent: 0.00'. The sheet's Monthly Rent of 1356.95 = base rent 1239 + TLL20 19.95 + garbage 20 + pet 39 + pet 39 (every recurring charge except the 149 garage).",
+        "The demand letter gives the lease as 05/31/2023-05/31/2024; the sheet's Lease End is 2024-05-30 and Move-Out is 2024-05-31.",
+        "Comments sheet 'Row 626' entries (12/2024 tenant 'Catherine Meyer', carpet replacement) do not match this claim, so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 711,
+      "status": "Posted",
+      "approved": 1483.45,
+      "max_benefit": 2500,
+      "monthly_rent": 1625.0,
+      "total_claimed": 2891.34,
+      "docs": [
+        {
+          "file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        },
+        {
+          "file": "Preferred_Carpet Rplcement.pdf",
+          "kind": "invoice",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Rent 05-2024 (after the 5-1-2024 lease end; holdover month during eviction). Paid by tenant",
+          "amount": 1625.0,
+          "category": "rent_after_lease_end",
+          "date": "2024-05-01",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "SDRP premium 05-2024 (paid)",
+          "amount": 43.0,
+          "category": "sdrp_premium",
+          "date": "2024-05-01",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "RBP w/insurance 05-2024 (paid)",
+          "amount": 45.95,
+          "category": "rbp_insurance_liability_fee",
+          "date": "2024-05-01",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Magistrate filing fee (eviction)",
+          "amount": 200.0,
+          "category": "eviction_legal_court",
+          "date": "2024-05-15",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Convenience fee - paid with cashier's check",
+          "amount": 10.0,
+          "category": "admin_itemization_fee",
+          "date": "2024-05-21",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Tenant chargeback - move-out rekey",
+          "amount": 99.0,
+          "category": "rekey_locks",
+          "date": "2024-06-04",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Tenant chargeback - removed trash from driveway and bins",
+          "amount": 185.0,
+          "category": "trash_removal",
+          "date": "2024-06-05",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Tenant chargeback - paint touch-ups",
+          "amount": 715.0,
+          "category": "painting",
+          "date": "2024-06-14",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Tenant chargeback - carpet replacement for two BRs due to pet damage (Preferred Carpet One invoice CG412391: 1251.30 + tax 46.59)",
+          "amount": 1297.89,
+          "category": "pet_damage_odor",
+          "date": "2024-06-26",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        },
+        {
+          "description": "Tenant chargeback - carpet cleaning, pet treatment and stain removal (mixed line; pet portion not itemized)",
+          "amount": 604.45,
+          "category": "carpet_cleaning",
+          "date": "2024-06-27",
+          "source_file": "Ledger_250 Curvewood Rd._Welch_Trapp.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Cashier's check payment 2024-05-21",
+          "amount": 1728.95
+        },
+        {
+          "description": "Money order payment 2024-06-05",
+          "amount": 205.0
+        },
+        {
+          "description": "Deposit balance (ledger header)",
+          "amount": 0.0
+        }
+      ],
+      "covered_categories": [
+        "rekey_locks",
+        "trash_removal",
+        "painting",
+        "carpet_cleaning"
+      ],
+      "excluded_categories": [
+        "pet_damage_odor",
+        "eviction_legal_court",
+        "admin_itemization_fee",
+        "rent_after_lease_end",
+        "sdrp_premium",
+        "rbp_insurance_liability_fee"
+      ],
+      "computed_amount": 1593.45,
+      "reproduced": "no",
+      "derivation": "The final ledger balance is 2891.34. Tenant payments (1728.95 + 205) absorbed May rent, SDRP, RBP, the 200 filing fee, the 10 convenience fee and 10 of the rekey. What remains is rekey 89 + trash 185 + paint 715 + carpet replacement 1297.89 + cleaning/pet 604.45 = 2891.34. Removing the pet carpet replacement (per the PM Explanation) leaves 2891.34 - 1297.89 = 1593.45, which is the deterministic doc-based result. The approved 1483.45 is 110 lower; that 110 must be the 'deodorizing due to pet' share of the mixed 604.45 line, which is never itemized. On a gross basis it works too: 99 + 185 + 715 + (604.45 - 120) = 1483.45. Either way, the coverage logic is fully explained (pet replacement and pet deodorizing excluded; rekey, trash, paint and carpet cleaning paid), but the exact figure needs the undocumented pet-treatment split. Max Benefit 2500 and the rent cap of ceil(1625/500)*500 = 2000 are not binding.",
+      "data_issues": [
+        "The 604.45 line combines covered carpet cleaning/stain removal with excluded pet treatment, and its vendor invoice is missing.",
+        "Lease End Date 2024-05-01 vs Move-Out 2024-05-31 (eviction): May rent is post-term holdover, but the tenant paid it, so this claim doesn't test the rule.",
+        "The ledger is newest-first with a running balance. The header says 'Deposit Balance $0.00'.",
+        "Comments sheet 'Row 712' says 'rent not paid for Dec 2024 and Jan 2025', which doesn't match, so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 731,
+      "status": "Declined",
+      "approved": 0,
+      "max_benefit": null,
+      "monthly_rent": 895.0,
+      "total_claimed": 93.5,
+      "docs": [
+        {
+          "file": "V Ollada ZDP addendum.pdf",
+          "kind": "addendum",
+          "needed_vision": false
+        },
+        {
+          "file": "V Ollada collection letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "V Ollada invoice cleaning.pdf",
+          "kind": "invoice",
+          "needed_vision": false
+        },
+        {
+          "file": "V Ollada invoice repairs.pdf",
+          "kind": "invoice",
+          "needed_vision": false
+        },
+        {
+          "file": "V Ollada lease.pdf",
+          "kind": "lease",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Cleaning (Denise Vetos invoice #190, 7.75 hrs @ $30)",
+          "amount": 232.5,
+          "category": "cleaning",
+          "date": "2024-07-11",
+          "source_file": "V Ollada invoice cleaning.pdf"
+        },
+        {
+          "description": "Mach1 Maintenance: light bulb, reattach drain, stove drip pans (parts 44.50 + labor 65)",
+          "amount": 109.5,
+          "category": "repairs_damage",
+          "date": "2024-07-09",
+          "source_file": "V Ollada invoice repairs.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Implied credit/payment: invoices 342.00 minus final balance 93.50 (source not in docs; likely a tenant payment or prepaid rent)",
+          "amount": 248.5
+        }
+      ],
+      "covered_categories": [],
+      "excluded_categories": [
+        "cleaning",
+        "repairs_damage"
+      ],
+      "computed_amount": 0.0,
+      "reproduced": "exact",
+      "derivation": "Declined as a duplicate. The PM Explanation says it was already filed on 8-6-24. That original is #702 (same address, same tenant, same collection letter), which was Posted at 93.50, exactly the final balance on the collection letter. Duplicate means 0.",
+      "data_issues": [
+        "Duplicate of #702. #702 has only the collection letter and cleaning invoice; #731 adds the lease, ZDP addendum and repairs invoice.",
+        "Max Benefit is blank on this row (#702 has 2500).",
+        "The final balance (93.50) is less than the two invoices (342.00); the offsetting credit is not documented."
+      ]
+    },
+    {
+      "tracking": 835,
+      "status": "Posted",
+      "approved": 175,
+      "max_benefit": 2500,
+      "monthly_rent": 1250.0,
+      "total_claimed": 391.33,
+      "docs": [
+        {
+          "file": "89 atlanata St unit 5 - MOI.docx.pdf",
+          "kind": "other",
+          "needed_vision": false
+        },
+        {
+          "file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf",
+          "kind": "move_out_statement",
+          "needed_vision": false
+        },
+        {
+          "file": "89 atlanta St Unit 5 - SDT - Alvarado.docx(1).pdf",
+          "kind": "move_out_statement",
+          "needed_vision": false
+        },
+        {
+          "file": "Ledger_-_Unit_5_-_Alvarado.pdf",
+          "kind": "ledger",
+          "needed_vision": false
+        },
+        {
+          "file": "Screenshot_20240930_120117_Gmail.jpg",
+          "kind": "photos",
+          "needed_vision": true
+        },
+        {
+          "file": "Screenshot_20240930_120120_Gmail.jpg",
+          "kind": "photos",
+          "needed_vision": true
+        },
+        {
+          "file": "Screenshot_20240930_120120_Gmail(1).jpg",
+          "kind": "photos",
+          "needed_vision": true
+        },
+        {
+          "file": "Screenshot_20240930_120124_Gmail.jpg",
+          "kind": "photos",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Unpaid rent: prorated rent for 5 days (9/1-9/5/2024, after the 8/31/2024 lease end)",
+          "amount": 208.33,
+          "category": "rent_after_lease_end",
+          "date": "2024-09-10",
+          "source_file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf"
+        },
+        {
+          "description": "Unpaid charges: prorated utilities",
+          "amount": 8.0,
+          "category": "utilities",
+          "date": "2024-09-10",
+          "source_file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf"
+        },
+        {
+          "description": "Cleaning: remove items left in unit and complete move-out clean incl. appliances",
+          "amount": 175.0,
+          "category": "cleaning",
+          "date": "2024-09-10",
+          "source_file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Security deposit held",
+          "amount": 0.0
+        }
+      ],
+      "covered_categories": [
+        "cleaning"
+      ],
+      "excluded_categories": [
+        "rent_after_lease_end",
+        "utilities"
+      ],
+      "computed_amount": 175.0,
+      "reproduced": "exact",
+      "derivation": "The Security Deposit Transmittal totals 391.33. Subtract 208.33 of prorated rent past the 8/31 lease end and 8.00 of prorated utilities (both cited in the PM Explanation) to get 175.00 (cleaning). Max 2500 and the rent cap of 1500 are not binding.",
+      "data_issues": [
+        "The ledger snapshot (9/11/2024) shows a balance of $0.00. The move-out deductions were never posted to it, so the transmittal is the only source of charges.",
+        "The SDT PDF and one screenshot are byte-identical duplicates ('(1)' suffix).",
+        "The Gmail screenshots are just room photos.",
+        "Comments sheet 'Row 836' notes are dated 12/2023, before this 2024 claim, so the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 861,
+      "status": "Test Claim",
+      "approved": null,
+      "max_benefit": null,
+      "monthly_rent": 1.0,
+      "total_claimed": null,
+      "docs": [
+        {
+          "file": "Products-Security Deposit Insurance.docx",
+          "kind": "other",
+          "needed_vision": false
+        }
+      ],
+      "line_items": [],
+      "credits": [],
+      "covered_categories": [],
+      "excluded_categories": [],
+      "computed_amount": 0.0,
+      "reproduced": "not_applicable",
+      "derivation": "Test claim: Status 'Test Claim', PM Explanation 'test claim', address '123 Main, Maintown', rent 1.00. The only doc is a YRIG Security Deposit Insurance marketing/FAQ page. Pays nothing; exclude it from accuracy metrics.",
+      "data_issues": [
+        "Synthetic row: rent 1.0, a fake address, a one-day lease, and Approved Benefit Amount blank.",
+        "The Comments sheet 'Row 862' talks about a real tenant settling for 700, which proves the anchors are misaligned."
+      ]
+    },
+    {
+      "tracking": 883,
+      "status": "Posted",
+      "approved": 150,
+      "max_benefit": 1500,
+      "monthly_rent": 945.0,
+      "total_claimed": 150.0,
+      "docs": [
+        {
+          "file": "Hein 205 Ledger.docx",
+          "kind": "ledger",
+          "needed_vision": false
+        },
+        {
+          "file": "Hein 205 Move Out Letter.pdf",
+          "kind": "correspondence",
+          "needed_vision": false
+        },
+        {
+          "file": "Hein 205 Move Out Statement.pdf",
+          "kind": "move_out_statement",
+          "needed_vision": false
+        },
+        {
+          "file": "Hien 205 Addendum.pdf",
+          "kind": "addendum",
+          "needed_vision": true
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Cleaning charges",
+          "amount": 75.0,
+          "category": "cleaning",
+          "date": "2024-09-09",
+          "source_file": "Hein 205 Move Out Statement.pdf"
+        },
+        {
+          "description": "Remove curtains and items under sink",
+          "amount": 50.0,
+          "category": "trash_removal",
+          "date": "2024-09-09",
+          "source_file": "Hein 205 Move Out Statement.pdf"
+        },
+        {
+          "description": "Bedroom blinds",
+          "amount": 25.0,
+          "category": "repairs_damage",
+          "date": "2024-09-09",
+          "source_file": "Hein 205 Move Out Statement.pdf"
+        }
+      ],
+      "credits": [
+        {
+          "description": "Security deposit waived ($1,200 deposit waived for $33/mo per IA addendum); no cash deposit",
+          "amount": 0.0
+        }
+      ],
+      "covered_categories": [
+        "cleaning",
+        "trash_removal",
+        "repairs_damage"
+      ],
+      "excluded_categories": [],
+      "computed_amount": 150.0,
+      "reproduced": "exact",
+      "derivation": "Cleaning 75 + remove curtains/items 50 + blinds 25 = 150, the move-out statement and letter balance. August rent and fees were paid on 8/3, and the July late fee was paid. 150 is under Max 1500 and the rent cap of ceil(945/500)*500 = 1000.",
+      "data_issues": [
+        "The addendum PDF is a scan with no text layer. It shows the waived deposit as $1,200, while the sheet's Max Benefit is 1500.",
+        "The docx ledger extracts with duplicated merged-cell columns.",
+        "The Comments sheet 'Row 884' references '#686 for 309 Creek Ledge', a different claim, so the anchors are misaligned. Comments that cite a '#NNN' tracking number in the text are the reliable linkage."
+      ]
+    }
+  ],
+  "rule_hypotheses": [
+    {
+      "rule": "The base for the payout is the PM's final move-out itemization or statement total (or the ledger's final unpaid balance), not vendor invoice totals. If no exclusions apply and the total is under the caps, Approved = that total.",
+      "evidence_trackings": [
+        249,
+        300,
+        625,
+        883,
+        702
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Rent for days or months after the lease end date (prorated holdover) is excluded.",
+      "evidence_trackings": [
+        835
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Utilities, including prorated utilities and final utility bills, are excluded. This is applied inconsistently: #625 paid a 551.20 final utility bill in full (2024-07).",
+      "evidence_trackings": [
+        835
+      ],
+      "counter_evidence_trackings": [
+        625
+      ]
+    },
+    {
+      "rule": "Pet damage is excluded: carpet replacement due to pets, and the pet deodorizing/treatment share of mixed cleaning lines. Ordinary carpet cleaning and stain removal on the same line are still paid.",
+      "evidence_trackings": [
+        711
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Damage, cleaning, carpet cleaning, painting, trash/haul-off, lawn, rekey and small repairs (bulbs, blinds, aerator, outlet covers) are covered.",
+      "evidence_trackings": [
+        249,
+        300,
+        625,
+        711,
+        835,
+        883
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Tenant settlements collected by YRIG are NOT netted against the approved benefit. Subrogation recoveries are tracked separately.",
+      "evidence_trackings": [
+        300
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Tenant payments shown on the ledger are applied oldest-first (rent, premiums, fees). The adjuster then works from the remaining unpaid balance and strips out the excluded items left in it.",
+      "evidence_trackings": [
+        711,
+        249
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Decline (0) when the tenant says they will pay, or has paid, the PM directly.",
+      "evidence_trackings": [
+        543
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Decline (0) duplicate claims. The original claim (same address and tenant, earlier claim date) carries the payout. Find it by matching on address.",
+      "evidence_trackings": [
+        731
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Test claims (Status 'Test Claim', rent 1, fake address) pay nothing and should be excluded from accuracy metrics.",
+      "evidence_trackings": [
+        861
+      ],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "The rent-based cap (rent rounded up to the next $500) was never binding in this batch: every approved amount is under both that cap and Max Benefit. So this batch neither confirms nor refutes it.",
+      "evidence_trackings": [],
+      "counter_evidence_trackings": []
+    },
+    {
+      "rule": "Max Benefit sometimes equals the waived deposit amount in the PM's program (#625 'SDW1000' gives Max 1000) but not always (#883's addendum waives $1,200 while Max is 1500).",
+      "evidence_trackings": [
+        625
+      ],
+      "counter_evidence_trackings": [
+        883
+      ]
+    },
+    {
+      "rule": "Pre-12/1/2023 claims were usually paid at Max Benefit, but #50 (2023-03) was declined with no stated reason, even though its documented painting charge alone (1500) equals Max Benefit.",
+      "evidence_trackings": [],
+      "counter_evidence_trackings": [
+        50
+      ]
+    }
+  ],
+  "extraction_lessons": [
+    "Scanned pages can hide the decisive document. #300's 46-page close-out packet has its first 5 pages (PM letter plus the TXR-2216 Itemization of Security Deposit) as images with no text. Text extraction only finds the vendor invoices, whose totals (1550, 1630, handwritten 1225, 2830) are all wrong. Check pages that have zero text.",
+    "Vendor invoices can mix tenant and owner charges (TRPI on #300) and include handwritten totals. Only tenant charges on the PM's own itemization count.",
+    "Propertyware ledgers (#249, #835) are newest-first. Use the header 'Total Unpaid' / 'Balance as of', and sum only rows labelled 'Unpaid Charge'; 'Paid Charge' rows are history. A ledger snapshot can predate the move-out charges (#835 shows a $0 balance), in which case the Security Deposit Transmittal or statement is the only source.",
+    "AppFolio-style 'Tenant Ledger' exports (#543, #625) are oldest-first with a running balance and a 'Total' at the end. #711's ledger is newest-first; reading the running balance in the wrong direction gives garbage. Always recompute the balance.",
+    "Ledger headers can be misleading. #625 shows 'Rent: 0.00' while rent is coded 'Rent Income SDW1000', and the sheet's Monthly Rent (1356.95) adds the recurring fees to the base rent (1239).",
+    "Mixed line items like 'Carpet cleaning, pet treatment and stain removal' (#711) need a covered/excluded split that the docs don't provide, so expect residual error on pet-related claims.",
+    "Duplicate files with a '(1)' suffix (#835) and duplicate claims (#731 vs #702) share documents. Dedupe by hash, and match claims by address to find the posted original.",
+    "Several claims ship only a form letter that references an 'attached ledger' that is missing (#50, #364). Those payouts can't be reproduced from the docs.",
+    "Comments sheet 'Row N' anchors do NOT line up with the current claim rows; the sheet was re-sorted after the comments were made. Examples: Row 51 talks about a Blue Fox 2024 dispute (claim #50 is New Heights 2023), Row 365 cites rent 1245 (claim #364 rent is 1795), and Row 884 references '#686 309 Creek Ledge'. Only trust comments that name a '#tracking' number in their text.",
+    "Docx ledgers (#883) extract with duplicated merged-cell columns. The PDF move-out statement is cleaner when both exist.",
+    "Photos, inspection reports (zInspector, MOI) and PM-software screenshots carry no dollar amounts. Classify them and skip them."
+  ]
+}

@@ -1,0 +1,224 @@
+{
+ "tracking": 978,
+ "winning_document": "1083 Ledger.pdf",
+ "pm_stated_amount_due": 2048.06,
+ "documents": [
+  {
+   "file": "1083 Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-26",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Propertyware ledger (newest-first), 5 pages; balance 2,048.06, prepayments 0.00, deposit held 0.00. Only accounting doc in folder; winning doc. Page 1 opened visually to read descriptions."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(01-10-2024_-_01-10-2024).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-01-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Waiver addendum: YES, 48/month in lieu of deposit (stated deposit 0.00); signed 1/10/2024."
+  },
+  {
+   "file": "Docusign_Pure_Lease_v_2023_(01-10-2024_-_01-10-2024) (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-01-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE lease read via pdftotext: term 01/11/2024-01/10/2025; rent 1,850; deposit 0.00; para 29 early termination; 250 admin fee; 300 move-in special repayable if lease broken."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "sd_program": "sdrp",
+  "lease_start": "2024-01-11",
+  "lease_end": "2025-01-10",
+  "current_term_start": "2024-01-11",
+  "current_term_end": "2025-01-10",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium (4037)",
+    "amount": 48
+   },
+   {
+    "name": "RBP resident benefit package (4039)",
+    "amount": 27
+   }
+  ],
+  "lease_break_terms": "Para 29 Early Termination With Notice: tenant pays all rent and late fees for the remainder of the term until re-rented or use changed, plus advertising, leasing commission, re-keying, admin and management costs, cleaning. 300 move-in special payable in full if lease broken. Para 8: 250 administrative fee for vendor/repair administration when deductions are taken."
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "4000 Rent 08/01/2024 - partially paid charge (1,850.00 charged; 1,482.12 applied from 7/16 and 7/27 payments; 367.88 open)",
+   "category": "rent_in_term",
+   "amount_charged": 1850,
+   "amount_open": 367.88,
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "4037 SDRP Monthly Premium 08/01/2024 (unpaid)",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "4039 RBP 08/01/2024 (unpaid)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 27,
+   "amount_open": 27,
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "4340 Late Fee calculated 08/06/2024 by system (unpaid)",
+   "category": "late_fee",
+   "amount_charged": 55.18,
+   "amount_open": 55.18,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "4780 SD Forfeit (MoveOut charges): TNT Misc Repairs (tenant misc repairs; no invoice in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 1300,
+   "amount_open": 1300,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "4010 Maintenance Coordination fee (unpaid, 09/26/2024)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "source_file": "1083 Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments 7/16/24 (82.12 of 150.00) and 7/27/24 (1,400.00) applied to 8/1/24 rent; already netted in the 367.88 open rent line",
+   "amount": 1482.12,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "1083 Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "1083 Ledger.pdf",
+   "flag": "repairs_unsupported_by_invoice",
+   "quote": "4780 - SD Forfeit (MoveOut charges : TNT Misc Repairs"
+  },
+  {
+   "file": "1083 Ledger.pdf",
+   "flag": "deposit_held_zero",
+   "quote": "Deposit Held $0.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-26",
+  "balance_due": 2048.06,
+  "first_full_month": "2024-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-27"
+ },
+ "reconciliation": "367.88 + 48.00 + 27.00 + 55.18 + 1,300.00 + 250.00 = 2,048.06; credits 0 beyond payments already netted into the open rent line; equals ledger balance 2,048.06 as of 11/26/2024 (no separate PM statement; pm_stated_amount_due taken from the ledger total).",
+ "extraction_confidence": 0.8,
+ "notes": "Folder has only the Propertyware ledger, SD waiver addendum and lease; no move-out statement, itemization or invoices. Move-out date 2024-08-31 comes from the sheet (not stated in any document); lease ends 1/10/2025 so this is an early termination, but the ledger has no rent after Aug 2024 and no reletting/lease-break/300 move-in special repayment. Ledger read newest-first; only the six Unpaid/Partially Paid rows are open and they sum exactly to the balance. The 1,300 'SD Forfeit' row is described as move-out tenant misc repairs with no support, so confidence is lower. Late fee 55.18 posted 8/6/24 is unpaid. First full month taken as Feb 2024 (Feb 1 rent 1,253.23 paid 2/2/24); Mar 2024 rent 1,850 also paid within the month (3/6-3/14). Move-in 1/11/24 payment of 1,925 deposited 1/22/24 with no returned payments on the ledger. SD program labeled sdrp because the ledger charge is 'SDRP Monthly Premium' and the lease lists a Security Deposit Replacement Addendum, although the signed form is titled Security Deposit Waiver.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae01afaf049108914"
+ }
+}

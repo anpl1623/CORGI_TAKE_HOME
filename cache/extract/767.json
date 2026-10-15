@@ -1,0 +1,135 @@
+{
+ "tracking": 767,
+ "winning_document": "313 Blackwell Move Out Letter.pdf",
+ "documents": [
+  {
+   "file": "313 Blackwell Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "note": "Letter states 1,635.00 due, agrees with statement"
+  },
+  {
+   "file": "313 Blackwell Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "note": "Open items 175, 85, 100, 1,275; total 1,635"
+  },
+  {
+   "file": "313 Blackwell SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Same four items; total 1,635 due"
+  },
+  {
+   "file": "313 Blackwell Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Final balance 1,635; June credit applied"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1275,
+  "cash_deposit_amount": null,
+  "current_term_start": "2023-11-22",
+  "current_term_end": "2025-01-31",
+  "lease_start": "2023-11-22",
+  "lease_end": "2025-01-31",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "early_termination",
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 1635
+ },
+ "line_items": [
+  {
+   "description": "Carpet repair (burn holes)",
+   "category": "flooring",
+   "amount_open": 175,
+   "amount_charged": 175,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "313 Blackwell Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Future rent 7/1-7/2/2024",
+   "category": "rent_after_move_out",
+   "amount_open": 85,
+   "amount_charged": 85,
+   "date_posted": "2024-07-10",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "313 Blackwell Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning charges",
+   "category": "cleaning",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "313 Blackwell Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Repay move-in special concession",
+   "category": "other_fee",
+   "amount_open": 1275,
+   "amount_charged": 1275,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "313 Blackwell Move Out Statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant credit balance applied to June 2024",
+   "amount": 680,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "06/13 payment covering reletting fee",
+   "amount": 500,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "313 Blackwell Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "07/10/2024 Carpet Repair-Burn Holes 175.00, no invoice in folder"
+  }
+ ],
+ "pm_stated_amount_due": 1635,
+ "reconciliation": "Open items 175+85+100+1,275 = 1,635.00 minus credits 0.00 (680 and 500 already netted) equals PM stated 1,635.00.",
+ "extraction_confidence": 0.85,
+ "notes": "SDI labels the 85 as 'Rent charge 7/1-7/2/23' (year typo; statement and ledger say 2024). Concession repay 1,275 is the Dec 2023 move-in special. Flooring flag set because the repair has no invoice or photo in the folder. Lease, addendum and ACH form not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "abee3907adc8bc51d"
+ }
+}

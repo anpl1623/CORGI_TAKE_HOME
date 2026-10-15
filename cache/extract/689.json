@@ -1,0 +1,112 @@
+{
+ "tracking": 689,
+ "documents": [
+  {
+   "file": "Tenant-Ledger-2024_07_26_13_25_21.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-26",
+   "note": "four open chargebacks total 911.56; winning amounts",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "Carpet Cleaning Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-26",
+   "note": "carpet cleaning 239; owner-paid bill billed to tenant",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.8,
+ "flags": {},
+ "lease": {
+  "base_monthly_rent": 2695,
+  "sd_program": "unknown",
+  "lease_start": "2022-12-07",
+  "lease_end": "2024-01-01",
+  "cash_deposit_amount": null,
+  "recurring_addons": [],
+  "monthly_sd_premium": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "initial_term_months": null,
+  "lease_break_terms": null,
+  "waived_deposit_amount": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-26",
+  "balance_due": 911.56,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-04"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 151
+ },
+ "line_items": [
+  {
+   "description": "Move-out rekey, bulbs, bifold doors",
+   "amount_open": 111,
+   "category": "rekey_locks",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-04",
+   "source_file": "Tenant-Ledger-2024_07_26_13_25_21.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Replaced Venetian blinds and paper holder",
+   "amount_open": 211.56,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-08",
+   "source_file": "Tenant-Ledger-2024_07_26_13_25_21.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Paint touch-up",
+   "amount_open": 350,
+   "category": "painting",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-12",
+   "source_file": "Tenant-Ledger-2024_07_26_13_25_21.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "amount_open": 239,
+   "category": "carpet_cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-26",
+   "source_file": "Carpet Cleaning Invoice.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 911.56,
+ "reconciliation": "Open lines 911.56 less credits 0.00 = 911.56, equal to ledger balance. Demand letter PNG not read (lite mode), so PM stated figure is ledger-derived.",
+ "winning_document": "Tenant-Ledger-2024_07_26_13_25_21.pdf",
+ "notes": "Demand letter PNG, lease, SD addendum and paint email screenshot not opened (lite mode). Ledger shows MTM rent 2695 from 2024-01-01; all rent paid through 05-2024, no open rent. holdover_days counts 2024-01-01 to 2024-05-31.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ad3209742e93e84a6"
+ }
+}

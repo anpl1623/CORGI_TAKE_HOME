@@ -1,0 +1,287 @@
+{
+ "tracking": 683,
+ "winning_document": "J Bueno final statement.pdf",
+ "pm_stated_amount_due": 2791.15,
+ "documents": [
+  {
+   "file": "J Bueno ZDP addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program addendum: 45/month in lieu of deposit; tenant pays non-normal-wear costs at move-out."
+  },
+  {
+   "file": "J Bueno collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for 2,791.15 within 7 days; same total as final statement."
+  },
+  {
+   "file": "J Bueno final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager final account statement, balance due 2,791.15. Winning doc. Collection fees 1,395.57 / 4,186.72 are hypothetical and excluded."
+  },
+  {
+   "file": "J Bueno invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rayo cleaning 4.5 h x 35 = 157.50, service date 6/25/2024; equals statement line; counted once."
+  },
+  {
+   "file": "J Bueno invoice repair.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-24",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "McIntyre Remodel invoice #13 labor 25.00 (removed child lock on fridge); equals statement line; counted once."
+  },
+  {
+   "file": "J Bueno lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Commences 10/6/2023, 12-month minimum term through 10/31/2024 then month-to-month; rent 945; deposit 0; 1,000 re-rent charge for early termination."
+  },
+  {
+   "file": "J Bueno ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager ledger (oldest-first) 10/2023-7/2024; repeats the statement charges, balance 2,791.15; used for payment history and first full month."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 945,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "lease_start": "2023-10-06",
+  "lease_end": "2024-10-31",
+  "current_term_start": "2023-10-06",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Re-rent costs charged at 1,000 for improper or early lease termination, plus advertising costs, liquidated damages and all rent loss; tenant may not terminate before 10/31/2024 or in November/December.",
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit Program charge",
+    "amount": 45
+   },
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   },
+   {
+    "name": "Renters insurance (YRIG policy)",
+    "amount": 16
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-06-25",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-12",
+  "balance_due": 2791.15,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-16"
+ },
+ "line_items": [
+  {
+   "description": "Amenity Service Package, June 2024",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 rent as charged (month straddles 6/25 move-out; not prorated by PM)",
+   "category": "rent_in_term",
+   "amount_charged": 945,
+   "amount_open": 945,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Zero Deposit Program charge, June 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters Insurance - YRIG policy, June 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late charge (6/8/2024)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-06-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Re-Rent Service: re-rent charge for early/improper lease termination",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Repair service: tenant responsible repairs, parts and labor (removed child lock on fridge, McIntyre invoice #13)",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning: non-normal wear and tear cleaning (Rayo, 4.5 h x 35, service 6/25/2024)",
+   "category": "cleaning",
+   "amount_charged": 157.5,
+   "amount_open": 157.5,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Electric utility: final utility balance through end of tenant obligation",
+   "category": "utilities",
+   "amount_charged": 38.65,
+   "amount_open": 38.65,
+   "date_posted": "2024-06-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Prorated July 2024 rent through new renter (property re-rented; PM prorated to start of new tenancy). End date approximate: 464/945 x 31 days is about 15 days",
+   "category": "rent_after_move_out",
+   "amount_charged": 464,
+   "amount_open": 464,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Bueno final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "Sum of 10 open lines 2,791.15 - credits 0.00 = 2,791.15 vs PM stated balance due 2,791.15 (match; statement, ledger and collection letter agree).",
+ "extraction_confidence": 0.9,
+ "notes": "Final statement 7/8/2024 and ledger 7/12/2024 carry identical charges; counted once. Last payment 5/16/2024 cleared all prior months, so only June plus July charges are open. Statement collection fees (1,395.57) and total-if-assigned (4,186.72) are hypothetical and excluded. Sheet lease start (2024-06-25) conflicts with the lease (commenced 10/6/2023, rent prorated from 10/9/2023, term to 10/31/2024), so the lease dates are used. Re-let date is not stated; the July 464 line is the PM's proration through the start of the new tenancy (about 7/15). Zero Deposit Program is the PM's own deposit-in-lieu program (45/month); deposit was 0.00 (100 non-refundable leasing fee paid at move-in, not open). June rent is billed in full though the tenant left 6/25 (period straddles move-out), kept as a single in-term line as charged.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a70f23ff1a16dbef0"
+ }
+}

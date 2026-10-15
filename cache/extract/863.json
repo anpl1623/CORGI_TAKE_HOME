@@ -1,0 +1,66 @@
+{
+ "tracking": 863,
+ "winning_document": "Tenant-Ledger-2024_10_11_10_00_02.pdf",
+ "documents": [
+  {
+   "file": "Tenant-Ledger-2024_10_11_10_00_02.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-11",
+   "note": "Winning doc; only open row is 09-05 rekey chargeback"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1450,
+  "lease_start": "2023-08-03",
+  "lease_end": "2024-09-01",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDRP premium",
+    "amount": 28
+   },
+   {
+    "name": "RBP w/ insurance",
+    "amount": 45.95
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-11",
+  "balance_due": 99,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-06"
+ },
+ "line_items": [
+  {
+   "description": "Move-out rekey tenant chargeback",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "date_posted": "2024-09-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_10_11_10_00_02.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": null,
+ "reconciliation": "Open line 99.00 minus credits 0.00 equals ledger balance 99.00; PM stated amount not extracted because Demand Letter.png was not opened under LITE rule.",
+ "extraction_confidence": 0.6,
+ "notes": "Ledger is newest-first. Aug rent, RBP, SDRP paid 08/06; 07/05 NSF fee cleared by 07/05 payment; 08/06 late fee zeroed by overpayment. Lease PDF, SDRP addendum and demand letter PNG not opened (LITE). Demand letter amount must be checked manually to fill pm_stated_amount_due.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

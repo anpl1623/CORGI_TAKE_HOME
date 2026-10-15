@@ -1,0 +1,232 @@
+{
+ "tracking": 814,
+ "winning_document": "S Goedert final statement.pdf",
+ "pm_stated_amount_due": 1713.5,
+ "documents": [
+  {
+   "file": "S Goedert ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-02-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Zero Deposit Program addendum: 45.00/month in lieu of deposit; tenant pays non-normal-wear costs and carpet cleaning at move-out."
+  },
+  {
+   "file": "S Goedert collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Demand for 1,713.50 within 7 days; same total as final statement."
+  },
+  {
+   "file": "S Goedert final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager final statement: 8 lines, balance due 1,713.50. Hypothetical collection fee 856.75 / total 2,570.25 if assigned - not a charge."
+  },
+  {
+   "file": "S Goedert invoice carpet cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "SystemKleen 153.00 (95 + 2x29); matches statement line."
+  },
+  {
+   "file": "S Goedert invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Denise Vetos invoice 292.50 (9.75 hrs x 30); PM billed 242.50 on statement."
+  },
+  {
+   "file": "S Goedert invoice repair.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "McIntyre Remodel 60.00 (labor 50 + material 10): toilet seat, re-silicone shower flange, clear slow p-trap; PM billed 53.00."
+  },
+  {
+   "file": "S Goedert lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-02-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "19 pp; digest excerpts sufficient. Rent 1,095, amenity 50, ZDP 45; start 2/21/2024, 12-month minimum to 2/28/2025 then MTM."
+  },
+  {
+   "file": "S Goedert ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent Manager statement 2/1/24-9/20/24 (oldest-first). Open items identical to final statement; last payment 7/12/24."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1095,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 45,
+  "lease_start": "2024-02-21",
+  "lease_end": "2025-02-28",
+  "current_term_start": "2024-02-21",
+  "current_term_end": "2025-02-28",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No termination before 2/28/2025 or in Nov/Dec; early termination triggers 1,000 re-rent cost plus advertising, 1,000 liquidated damages, rent loss, and back-charge of any incentive. PM billed none of these.",
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit Program Charge",
+    "amount": 45
+   },
+   {
+    "name": "Amenity Service Package",
+    "amount": 50
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-15",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-20",
+  "balance_due": 1713.5,
+  "first_full_month": "2024-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-12"
+ },
+ "line_items": [
+  {
+   "description": "Rent August 2024 (unpaid)",
+   "category": "rent_in_term",
+   "amount_charged": 1095,
+   "amount_open": 1095,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.97
+  },
+  {
+   "description": "Amenity Service Package August 2024",
+   "category": "other_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Zero Deposit Program Charge August 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.97
+  },
+  {
+   "description": "Late charge (8/8/24)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-08-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.97
+  },
+  {
+   "description": "3-day notice mailed and posted per Idaho law",
+   "category": "eviction_legal_court",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-08-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant responsible repairs, parts and labor (toilet seat, shower flange re-silicone, p-trap; invoice shows 60.00)",
+   "category": "repairs_damage",
+   "amount_charged": 53,
+   "amount_open": 53,
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear cleaning - Vetos (invoice shows 292.50)",
+   "category": "cleaning",
+   "amount_charged": 242.5,
+   "amount_open": 242.5,
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Tenant responsible carpet cleaning - SystemKleen (3 rooms, heavy traffic wear/staining)",
+   "category": "carpet_cleaning",
+   "amount_charged": 153,
+   "amount_open": 153,
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "S Goedert final statement.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.93,
+ "reconciliation": "Sum of 8 open lines 1,713.50 - credits 0.00 = 1,713.50 = PM stated 1,713.50 (final statement 9/13/24, collection letter, ledger 9/20/24).",
+ "notes": "Tenant defaulted on August (rent, amenity, ZDP, late fee, 3-day notice) and vacated 9/15/2024 inside the fixed term; no September rent, lease-break, or re-rent fee billed. Statement amounts used where invoices differ: cleaning 242.50 vs invoice 292.50, repair 53.00 vs invoice 60.00 (statement lines are the PM claim). Collection fee 856.75 and 2,570.25 total are hypothetical and excluded. Ledger shows tenant forwarding address in Anchorage AK. Earlier late fees (5/8, 7/8) were paid. No pet items.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a455ac7bb5bc1bc9a"
+ }
+}

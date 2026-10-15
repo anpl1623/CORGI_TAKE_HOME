@@ -1,0 +1,152 @@
+{
+ "tracking": 21,
+ "winning_document": "SDRP Move Out Calculation .pdf (10/14/2022)",
+ "pm_stated_amount_due": 1900,
+ "documents": [
+  {
+   "file": "SDRP Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2022-10-14",
+   "opened_visually": true,
+   "used_for_amounts": true,
+   "revised": false,
+   "note": "Current Unpaid Charges: 10/05/2022 Move-out Repair $1,700; 10/11/2022 Maintenance Coordination Fee $200; Total $1,900."
+  },
+  {
+   "file": "Collections - SDRP Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2022-10-14",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Demands $1,900 within 5 days; references an attached tenant ledger that is not in the folder."
+  },
+  {
+   "file": "628_Constant_Drive_Move_Out_Evaluation_2022-09-15.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2022-09-15",
+   "opened_visually": true,
+   "used_for_amounts": false,
+   "note": "zInspector move-out evaluation, photos 2022-09-12; every area rated S (Satisfactory), action None; last photo pages show peeled paint/drywall above living room window and debris at curb. No pet notes."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2021_(01-21-2022_-_01-21-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-01-21",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Term 02/04/2022-02/03/2023, rent $1,800/mo, para 8 security deposit $2,700 + $200 admin fee if deductions taken; para 29 early termination; no SD waiver addendum in folder."
+  },
+  {
+   "file": "Invoice_#26226506 (1).pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2022-04-05",
+   "opened_visually": false,
+   "used_for_amounts": false,
+   "note": "Rooter-Man $325 mainline clog (tampons) during tenancy 4/5/2022; not listed on move-out calculation, not counted."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1800,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": null,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": null,
+  "recurring_addons": [],
+  "lease_start": "2022-02-04",
+  "lease_end": "2023-02-03",
+  "current_term_start": "2022-02-04",
+  "current_term_end": "2023-02-03",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 29 Early Termination With Notice: tenant pays all rent and late fees for the remaining term until re-rented, plus costs of locating a new tenant (advertising, leasing commissions, re-keying, admin fee, management costs, cleaning). Para 3: holdover at 2x daily rate. Para 8: $200 administrative fee when deductions are taken from deposit."
+ },
+ "move_out": {
+  "move_out_date": "2022-10-01",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out Repair (no invoice or breakdown in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 1700,
+   "amount_open": 1700,
+   "date_posted": "2022-10-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "Maintenance Coordination Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2022-10-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": true,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "missing_ledger",
+   "quote": "Please review the attached tenant ledger for details regarding these final charges.",
+   "file": "Collections - SDRP Notice to Tenant.pdf"
+  },
+  {
+   "flag": "lease_cash_deposit_clause",
+   "quote": "Tenant agrees to deposit with Landlord a security deposit of $2,700.00",
+   "file": "Docusign_NHPM_Lease_v_2021_(01-21-2022_-_01-21-2022).pdf"
+  },
+  {
+   "flag": "inspection_all_satisfactory",
+   "quote": "Flooring/Baseboard -S-- None; Wall/Ceiling -S-- None",
+   "file": "628_Constant_Drive_Move_Out_Evaluation_2022-09-15.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2022-10-14",
+  "balance_due": 1900,
+  "first_full_month": "2022-03",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "extraction_confidence": 0.75,
+ "reconciliation": "Open lines 1,700 + 200 = 1,900 - credits 0 = 1,900 = Move Out Calculation Total Balance Due $1,900 (also collection letter $1,900); exact match.",
+ "notes": "PM docs are titled 'SDRP Move Out Calculation' / 'Collections - SDRP Notice' and no cash deposit is credited, so SDRP assumed; however no SD waiver/SDRP addendum is in the folder and lease para 8 states a $2,700 security deposit (Max Benefit 2,000). Move-out date 2022-10-01 from sheet; move-out evaluation photos dated 2022-09-12 (report 9/15), lease runs to 2/3/2023, so vacated ~7.5 months early, yet no rent, lease-break or reletting charges were claimed. The $1,700 'Move-out Repair' has no invoice/estimate or breakdown; the evaluation marks every area Satisfactory with no action, though photos show peeled paint/drywall above a window and curbside debris. Rooter-Man $325 invoice (4/5/2022, tampon clog) is a mid-tenancy charge not included in the claim. Lease lists 'Animal Rent' addendum checked but no pet charges claimed. No ledger, first-full-month payment unknown.",
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a4ff2993f8afe76de"
+ }
+}

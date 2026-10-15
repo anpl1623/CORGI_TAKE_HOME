@@ -1,0 +1,442 @@
+{
+ "tracking": 18,
+ "documents": [
+  {
+   "file": "151 trailview Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2022-09-12",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true,
+   "note": "Propertyware ledger (newest-first), balance 4,741.35 as of 09/12/2022, deposit held 0.00. Open rows: Unpaid Charges plus a 290.50 open remainder of the partially paid 06/06 late fee."
+  },
+  {
+   "file": "invoice_16_Aug_2022_16_18_42.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2022-08-16",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true,
+   "note": "TnT Property Solutions Meld #TELKQAU 1,050 = ledger 'Move-out Repair : TELKQAU'; used only to split into cleaning 300 / repairs 600 / carpet cleaning 150."
+  },
+  {
+   "file": "Collections_-_SDRP_Notice_to_Tenant_(08-30-2022_-_08-30-2022).pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2022-08-30",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "Demand for total amount due 4,741.35 within 5 days or account goes to a collection agency; cross-checks the ledger balance."
+  },
+  {
+   "file": "151_Trailview_Lane_Move_Out_Evaluation_2022-08-05-2.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2022-08-05",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "zInspector move-out evaluation; every item rated S (satisfactory) with action None and no comments; no pet odor/urine evidence."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(03-18-2022_-_03-18-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-18",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "Security Deposit Waiver YES checked, $65/month, plus Explanation of Protections."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2021_(03-18-2022_-_03-18-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-18",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "NHPM lease 03/18/2022-03/17/2023, rent 1,950, SD 3,900 stated, 15% late fee + $100 after the 15th, $200 admin fee when deductions taken, para 29 early termination."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1950,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-03-18",
+  "current_term_end": "2023-03-17",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-03-18",
+  "lease_end": "2023-03-17",
+  "lease_break_terms": "Para 29: on early termination, tenant pays all rent and late fees for the remaining term until re-rented, plus re-leasing costs (advertising, leasing commissions, re-keying, admin fee, management costs, cleaning). Para 30: landlord may also recover actual damages, attorney fees, collection costs and court costs. Holdover rent 2x daily rate.",
+  "monthly_sd_premium": 65,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 60
+   },
+   {
+    "name": "Administrative Fee (with SDRP; $60 + $5 = $65 waiver fee)",
+    "amount": 5
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 3900
+ },
+ "move_out": {
+  "move_out_date": "2022-08-04",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Late fee 06/06/2022 - open remainder of partially paid charge (292.50 - 2.00 paid)",
+   "category": "late_fee",
+   "amount_charged": 292.5,
+   "amount_open": 290.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-06-06",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent July 2022",
+   "category": "rent_in_term",
+   "amount_charged": 1950,
+   "amount_open": 1950,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-01",
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-07-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "4036 Administrative Fee July 2022",
+   "category": "admin_itemization_fee",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-01",
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-07-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.6
+  },
+  {
+   "description": "4037 SDRP Monthly Premium July 2022",
+   "category": "sdrp_premium",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-01",
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-07-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "4038 RBP with Ins July 2022",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-01",
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-07-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee calculated 07/06/2022 (15% of July rent)",
+   "category": "late_fee",
+   "amount_charged": 292.5,
+   "amount_open": 292.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-06",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee (manual) 07/18/2022 - $100 after the 15th",
+   "category": "late_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-18",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent August 2022 prorated 4 days (Aug 1-4)",
+   "category": "rent_in_term",
+   "amount_charged": 251.61,
+   "amount_open": 251.61,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-01",
+   "service_period_start": "2022-08-01",
+   "service_period_end": "2022-08-04",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "4036 Administrative Fee August 2022",
+   "category": "admin_itemization_fee",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-01",
+   "service_period_start": "2022-08-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "4037 SDRP Monthly Premium August 2022",
+   "category": "sdrp_premium",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-01",
+   "service_period_start": "2022-08-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4038 RBP with Ins August 2022",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-01",
+   "service_period_start": "2022-08-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee calculated 08/06/2022 (15% of prorated Aug rent)",
+   "category": "late_fee",
+   "amount_charged": 37.74,
+   "amount_open": 37.74,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-06",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee (manual) 08/16/2022",
+   "category": "late_fee",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-16",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4010 Maintenance Coordination fee (lease $200 admin fee for administering vendors/repairs)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-16",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair TELKQAU (TnT) - full deep cleaning of home",
+   "category": "cleaning",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-16",
+   "source_file": "invoice_16_Aug_2022_16_18_42.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair TELKQAU (TnT) - repair/paint entry walls, replace half bath door, replace bulbs, remove trash and left-over items, clean disposal, fix oven drawer, air filter, dryer lint, remove TV mount and patch/repaint, check shower vent growth",
+   "category": "repairs_damage",
+   "amount_charged": 600,
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-16",
+   "source_file": "invoice_16_Aug_2022_16_18_42.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Move-out Repair TELKQAU (TnT) - clean all carpets",
+   "category": "carpet_cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-16",
+   "source_file": "invoice_16_Aug_2022_16_18_42.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "5060 Legal and Professional: Eviction fees July 2022",
+   "category": "eviction_legal_court",
+   "amount_charged": 221,
+   "amount_open": 221,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-17",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "5060 Legal and Professional: Eviction fees July 2022",
+   "category": "eviction_legal_court",
+   "amount_charged": 40,
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-08-17",
+   "source_file": "151 trailview Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "termination_eviction",
+   "quote": "5060 - Legal and Professional : Eviction fees July 2022",
+   "file": "151 trailview Ledger.pdf"
+  },
+  {
+   "flag": "move_out_date",
+   "quote": "4000 - Rent : Prorated 4 days 08/01/2022 $251.61",
+   "file": "151 trailview Ledger.pdf"
+  },
+  {
+   "flag": "sd_program_sdrp",
+   "quote": "X $ 65 per month You waive payment of the security deposit",
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(03-18-2022_-_03-18-2022).pdf"
+  },
+  {
+   "flag": "pm_stated_amount",
+   "quote": "If the total amount due of $ $4,741.35 is not paid within 5 days",
+   "file": "Collections_-_SDRP_Notice_to_Tenant_(08-30-2022_-_08-30-2022).pdf"
+  },
+  {
+   "flag": "inspection_all_satisfactory",
+   "quote": "Flooring/Baseboard -S-- None ... Wall/Ceiling -S-- None",
+   "file": "151_Trailview_Lane_Move_Out_Evaluation_2022-08-05-2.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2022-09-12",
+  "balance_due": 4741.35,
+  "first_full_month": "2022-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-06-16"
+ },
+ "pm_stated_amount_due": 4741.35,
+ "winning_document": "151 trailview Ledger.pdf",
+ "reconciliation": "Sum open ledger lines 4,741.35 - credits 0.00 = 4,741.35 vs ledger balance and collection letter 4,741.35: exact match (TELKQAU 1,050 counted once and split by TnT invoice into 300/600/150).",
+ "extraction_confidence": 0.9,
+ "notes": "Propertyware ledger is newest-first. Payment history: the full 1,950 rent charged 03/18 was prepaid by the 03/14 payment of 1,963; the 880.65 (14/31 proration for March 18-31) was billed 04/01 and paid 04/14-04/19 with a 131.95 late fee. May was paid 05/15 (late) and June on 06/16 (late), leaving 290.50 of the June late fee open. No payments after 06/16/2022. July rent unpaid, and eviction fees for July were posted 08/17. Rent was prorated for Aug 1-4, so move-out is taken as 08/04/2022 (sheet says 08/01; move-out evaluation was 08/05). No accelerated or future rent and no lease-break fee claimed. The $5 monthly 'Administrative Fee' plus the $60 SDRP premium equals the $65 waiver fee in the addendum. The lease states a $3,900 deposit, but the waiver applies and the ledger shows deposit held 0.00. The move-out evaluation rates every item satisfactory with no comments, which is inconsistent with the TnT repair items (wall damage, half-bath door, TV mount). Sheet lease start is 2022-03-25, but the lease says 03/18/2022.",
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "a7fd79e1aef5941b9"
+ }
+}

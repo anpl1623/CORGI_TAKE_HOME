@@ -1,0 +1,110 @@
+{
+  "tracking": 221,
+  "documents": [
+    {
+      "file": "Lease (6).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-07-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "signed_55XFJpHbE3_1122121.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-07-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "SD Disposition - 30007 Creekwood - Garza - Johnson.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-09-22",
+      "revised": false,
+      "used_for_amounts": true
+    }
+  ],
+  "winning_document": "SD Disposition - 30007 Creekwood - Garza - Johnson.pdf",
+  "pm_stated_amount_due": 2231.15,
+  "lease": {
+    "base_monthly_rent": 1550.0,
+    "recurring_addons": [
+      {
+        "name": "Resident Benefit Package",
+        "amount": 27.0
+      },
+      {
+        "name": "RIS SD Program",
+        "amount": 35.0
+      }
+    ],
+    "lease_start": "2022-07-29",
+    "lease_end": "2023-07-28",
+    "current_term_start": "2022-07-29",
+    "current_term_end": "2023-07-28",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1550.0,
+    "monthly_sd_premium": 35.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-07-28",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 0,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-09-22",
+    "balance_due": 2231.15,
+    "first_full_month": "2022-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-06-30"
+  },
+  "line_items": [
+    {
+      "description": "Trashout, clean, R/R blinds, doors, attic door, light globe, light in kitchen, kitchen drawer, closet shelving, HVAC Filter, Mailbox, light bulbs, remove command strips throughout, painting, drywall repair.",
+      "category": "repairs_damage",
+      "amount_open": 2231.15,
+      "amount_charged": 2231.15,
+      "date_posted": "2023-09-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "SD Disposition - 30007 Creekwood - Garza - Johnson.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 2231.15 - credits 0.00 = 2231.15 vs PM stated 2231.15; exact match.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "PM disposition letter lists single lump sum charge of $2,231.15 corresponding to Clark Home Services LLC Estimate #1058 tenant-charge items ($2,120.00 subtotal) plus $111.15 sales tax, excluding $350 chimney work."
+}

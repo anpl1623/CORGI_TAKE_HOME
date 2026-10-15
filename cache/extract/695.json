@@ -1,0 +1,237 @@
+{
+ "tracking": 695,
+ "documents": [
+  {
+   "file": "SD & Collections Letter.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-12",
+   "note": "PM security deposit statement; winning amounts",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "Tenant Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-25",
+   "note": "ties to statement; confirms open rows and last payment",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Invoice 1.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-12",
+   "note": "Trinity 417 backs blinds and bulbs line",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Invoice 2.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-06-11",
+   "note": "Moore for Less 850 backs cleaning, carpet, lawn lines",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "flags": {},
+ "lease": {
+  "base_monthly_rent": 1150,
+  "sd_program": "unknown",
+  "lease_start": "2023-01-01",
+  "lease_end": "2024-12-31",
+  "cash_deposit_amount": null,
+  "recurring_addons": [],
+  "monthly_sd_premium": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "initial_term_months": null,
+  "lease_break_terms": null,
+  "waived_deposit_amount": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-25",
+  "balance_due": 3986,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-03-29"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-20",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent April 2024",
+   "amount_open": 1150,
+   "category": "rent_in_term",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "SDRP fee April 2024",
+   "amount_open": 28,
+   "category": "sdrp_premium",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP with insurance April 2024",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee April 2024",
+   "amount_open": 115,
+   "category": "late_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent May 2024, full month billed",
+   "amount_open": 1150,
+   "category": "rent_in_term",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "SDRP fee May 2024",
+   "amount_open": 28,
+   "category": "sdrp_premium",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP with insurance May 2024",
+   "amount_open": 39,
+   "category": "rbp_insurance_liability_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee May 2024",
+   "amount_open": 115,
+   "category": "late_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out coordination fee",
+   "amount_open": 55,
+   "category": "maintenance_coordination_fee",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-20",
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "House cleaning",
+   "amount_open": 300,
+   "category": "cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "amount_open": 200,
+   "category": "carpet_cleaning",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Lawn cut and trash removal",
+   "amount_open": 350,
+   "category": "landscaping_lawn",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Blinds and light bulbs",
+   "amount_open": 417,
+   "category": "repairs_damage",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SD & Collections Letter.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 3986,
+ "reconciliation": "Open lines 3986.00 less credits 0.00 = 3986.00, equal to PM stated amount due 3986.00 (no difference).",
+ "winning_document": "SD & Collections Letter.pdf",
+ "notes": "Lease fields from sheet only (lease not opened, lite mode). Move-out 05-20 but full May rent billed; period given as billed. Statement, ledger and invoices agree. Max Benefit 1500 not used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ad3209742e93e84a6"
+ }
+}

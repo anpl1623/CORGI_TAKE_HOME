@@ -1,0 +1,351 @@
+{
+ "tracking": 7,
+ "documents": [
+  {
+   "file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2022-07-15",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "40 pages. p1-2: GDAA deduction cover letter dated 7/11/22. p3-5: TXR-2216 Itemization of Security Deposit signed 7/15/22, total (30,226.94). p6-7: make-ready list. p8: V2 Lawn Care receipt $75. p9: Texas Superior ESTIMATE EST 787 (tenant items $710, owner paint $750). p10: Classic Cleaning invoice 286, writ haul-off $500. p11-40: zInspector move-out photos with no comments."
+  },
+  {
+   "file": "Francois, Raymondneisha 2946 Todd - Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "GDAA Security Deposit Waiver: YES, $78.00 per month in lieu of a $4000.00 deposit."
+  },
+  {
+   "file": "Francois, Raymondneisha 2946 Todd - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2001 lease. Term 03/04/2022-03/02/2023, rent $2,500/mo, prorated rent $2,250, deposit $4000 (waived by addendum). Pages 1-4, 10-13 and 15-16 viewed."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2500,
+  "lease_start": "2022-03-04",
+  "lease_end": "2023-03-02",
+  "current_term_start": "2022-03-04",
+  "current_term_end": "2023-03-02",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 4000,
+  "monthly_sd_premium": 78,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver fee (Renters Choice program)",
+    "amount": 78
+   }
+  ],
+  "lease_break_terms": "Para 27 default: rents for the rest of the lease may be accelerated, and the tenant is liable for lost rent, reletting costs (leasing and advertising fees) and eviction costs including attorney fees. Para 28B: the replacement-tenant fee is 100% of one month's rent. Para 22: holdover rent is 3x the monthly rent, prorated daily. Para 4A: the lease auto-renews month-to-month unless 45 days' written notice is given."
+ },
+ "move_out": {
+  "move_out_date": "2022-06-16",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Remove decals from walls in several rooms (itemization line 1 'maintenance $260'; amount from Texas Superior estimate)",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.7
+  },
+  {
+   "description": "Replace cracked switch cover in guest bedroom (part of maintenance $260)",
+   "category": "repairs_damage",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.75
+  },
+  {
+   "description": "Replace 3 missing flooring transitions in bedrooms (part of maintenance $260; the make-ready list says 2)",
+   "category": "flooring",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.65
+  },
+  {
+   "description": "Lawn maintenance (V2 Lawn Care receipt 6/17)",
+   "category": "landscaping_lawn",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Haul off for writ of possession (Classic Cleaning invoice 286)",
+   "category": "trash_removal",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning (full cleaning, sweep garage; amount from Texas Superior estimate)",
+   "category": "cleaning",
+   "amount_charged": 450,
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unpaid rent May 2022 (itemization line 3: May and June 2022 $5,000)",
+   "category": "rent_in_term",
+   "amount_charged": 2500,
+   "amount_open": 2500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "service_period_start": "2022-05-01",
+   "service_period_end": "2022-05-31",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unpaid rent June 2022 (due 6/1 while tenant in possession; writ executed and move-out 6/16)",
+   "category": "rent_in_term",
+   "amount_charged": 2500,
+   "amount_open": 2500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "service_period_start": "2022-06-01",
+   "service_period_end": "2022-06-30",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Accelerated rent 07-01-22 to 03-02-23 (doc typo reads 03-02-22): 8 months plus 2 days",
+   "category": "rent_after_move_out",
+   "amount_charged": 20166.67,
+   "amount_open": 20166.67,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2023-03-02",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unpaid late charges May 2022 and June 2022",
+   "category": "late_fee",
+   "amount_charged": 375,
+   "amount_open": 375,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Costs of reletting (Paragraph 27 of lease)",
+   "category": "reletting_fee",
+   "amount_charged": 2500,
+   "amount_open": 2500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Unpaid utilities: water 03-04-22 to 04-04-22",
+   "category": "utilities",
+   "amount_charged": 103.79,
+   "amount_open": 103.79,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "service_period_start": "2022-03-04",
+   "service_period_end": "2022-04-04",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Attorney's fees and court costs: eviction and writ of possession",
+   "category": "eviction_legal_court",
+   "amount_charged": 533.48,
+   "amount_open": 533.48,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 4,
+   "confidence": 0.95
+  },
+  {
+   "description": "Mailing costs: 3-day notice to vacate",
+   "category": "eviction_legal_court",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 4,
+   "confidence": 0.85
+  },
+  {
+   "description": "Tenant benefit package",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 72,
+   "amount_open": 72,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters Choice program fee (deposit-waiver fee, 2 x $78)",
+   "category": "sdrp_premium",
+   "amount_charged": 156,
+   "amount_open": 156,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2022-07-15",
+   "source_file": "2946TR - FRANCOIS CLOSEOUT.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": true,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": true,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": "2022-04",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "evidence": [
+  {
+   "flag": "premiums_unpaid",
+   "quote": "Other: tenant benefit package $72, renters choice program fee $156",
+   "file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+  },
+  {
+   "flag": "missing_ledger",
+   "quote": "Folder holds only the closeout packet, lease and SD waiver addendum; no tenant ledger."
+  },
+  {
+   "flag": "termination_eviction",
+   "quote": "Eviction and writ of possession ... $533.48",
+   "file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+  },
+  {
+   "flag": "owner_items_excluded",
+   "quote": "Make ready-Owner items $750.00 ... Paint walls as needed throughout home",
+   "file": "2946TR - FRANCOIS CLOSEOUT.pdf"
+  }
+ ],
+ "extraction_confidence": 0.86,
+ "pm_stated_amount_due": 30226.94,
+ "winning_document": "2946TR - FRANCOIS CLOSEOUT.pdf (TXR-2216 Itemization of Security Deposit, pages 3-5, signed 07/15/2022)",
+ "reconciliation": "Open lines sum to 30,226.94 and there are no credits, so the net is 30,226.94. This equals the TXR-2216 'Balance of Security Deposit after Deductions' of (30,226.94). Lines (1) $835 and (2) $450 were split using the attached estimate, receipt and invoice.",
+ "notes": "Eviction by writ of possession. Move-out was 06/16/2022 per the TXR-2216 and inspection (the make-ready sheet says 6/17). No deposit was tendered; the SD waiver was $78/mo in lieu of $4,000. The $260 maintenance and $450 cleaning are backed only by a vendor ESTIMATE (Texas Superior EST 787), not an invoice. The owner-responsible paint ($750) on that estimate was NOT charged and is excluded. The make-ready lists a guest-bath leak with water damage to the guest bed and hall closet floor, and a dishwasher full of water. Neither has a separate tenant charge. June 2022 rent is kept in term because it was due while the tenant was in possession; 6/17-6/30 fell after move-out. Accelerated rent runs to the lease end of 03/02/2023. The cover letter's 35% collection charge is hypothetical and not included. The 'Tenant benefit package' $72 is likely 2 months, but its monthly rate is not stated. The photo report has no comments and no pet evidence.",
+ "_meta": {
+  "run": "wf_ba0a8fba-7d1",
+  "agent": "a13ddfe87aab9fbf7"
+ }
+}

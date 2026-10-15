@@ -1,0 +1,205 @@
+{
+ "tracking": 840,
+ "winning_document": "Ledger - 063024.pdf",
+ "pm_stated_amount_due": 2220.9,
+ "documents": [
+  {
+   "file": "2024_SPG_MF_Lease_Agreement_2513_Shropshire_P.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-04-25",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Renewal lease 04/01/2024-03/31/2025, rent $1,925, signed 4/25/2024. Page 22 is a Security Deposit Waiver addendum at $67/month. Page 23 is an RBP addendum, Plan B at $27/month. Para 18 contains boilerplate saying tenant will sign on with Rhino, but the signed addendum and ledger show an SDRP premium, so other_provider was not set."
+  },
+  {
+   "file": "2513 Shropshire-Judgment-Aug 2024.jpeg",
+   "doc_type": "court_document",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Henry County Magistrate Court consent order and judgment (dispossessory). Consent payments are $4,500 by 8/21, $1,105.50 by 8/30 and $1,100 by 9/13, plus ongoing rent. Judgment is $6,705.50 minus consent payments. It is not an itemized PM claim and spans post-June months not on the ledger, so it was not used for amounts."
+  },
+  {
+   "file": "Communication - 2513 Shropshire.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-10-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PURE and Leo Prime email thread. Coverage is 1 month rent up to the next $500, i.e. $2,000. Balance at transfer was about $2,200. Tenant had not moved out as of 9/27 and was being evicted."
+  },
+  {
+   "file": "Demand letter .pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-07",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Propertyware screenshot of a 6/7/2024 'Notice to Pay rent or Quit' email. No amounts shown. Page 2 is blank."
+  },
+  {
+   "file": "Ledger - 063024.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware ledger, newest-first, printed 9/27/2024, 10 pages. Balance $2,220.90. Only four Unpaid Charge rows, all June 2024. Both June payments were returned NSF and reversed."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1925,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 67,
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly premium",
+    "amount": 67
+   },
+   {
+    "name": "RBP no insurance (Plan B)",
+    "amount": 27
+   }
+  ],
+  "lease_start": "2023-03-20",
+  "lease_end": "2025-03-31",
+  "current_term_start": "2024-04-01",
+  "current_term_end": "2025-03-31",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Par 12: tenant may end liability with 60 days notice, rent through the notice period, plus 4 months rent as liquidated damages. Par 27: on tenant default all rent through the end of the lease term becomes due. Par 29/30: holdover fee of 2x daily proration."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "eviction",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-27",
+  "balance_due": 2220.9,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-01"
+ },
+ "line_items": [
+  {
+   "description": "Rent June 2024 (unpaid; both June payments returned NSF)",
+   "category": "rent_in_term",
+   "amount_charged": 1925,
+   "amount_open": 1925,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger - 063024.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP Monthly Premium June 2024 (unpaid ledger charge)",
+   "category": "sdrp_premium",
+   "amount_charged": 67,
+   "amount_open": 67,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger - 063024.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "RBP no Ins June 2024 (resident benefit package, unpaid)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 27,
+   "amount_open": 27,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger - 063024.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee calculated 06/06/2024 (unpaid)",
+   "category": "late_fee",
+   "amount_charged": 201.9,
+   "amount_open": 201.9,
+   "date_posted": "2024-06-06",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger - 063024.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": true,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "payment_arrangement",
+   "file": "Communication - 2513 Shropshire.pdf",
+   "quote": "You are 2 months late and not paying according to the payment plan."
+  },
+  {
+   "flag": "payment_arrangement",
+   "file": "2513 Shropshire-Judgment-Aug 2024.jpeg",
+   "quote": "Consent Order and Judgment ... Consent Payments ... Writ of Possession shall be issued INSTANTER"
+  },
+  {
+   "flag": "termination_eviction_context (tenant_still_in_possession not set; sheet move-out 9/30)",
+   "file": "Communication - 2513 Shropshire.pdf",
+   "quote": "The tenant has not moved out yet. She's being evicted."
+  }
+ ],
+ "extraction_confidence": 0.75,
+ "reconciliation": "Open ledger rows 1925.00+67.00+27.00+201.90 = 2220.90, no credits, matches ledger balance 2220.90. PM email says a balance of about $2,200 at transfer, with coverage capped at $2,000 (Max Benefit 2000). Consent judgment $6,705.50 not counted (court judgment, includes post-June months, no itemization).",
+ "notes": "Ledger is a newest-first Propertyware ledger with no charges after 06/06/2024, so it reflects the balance at transfer to Leo Prime, not later rent. The 06/12 and 06/18 payments of $2,220.90 each were returned NSF (R01) and reversed, so no credits. No NSF fee row. The ledger shows no deposit held. The email shows PURE intends the claim against the $2,000 cap. The consent order was between the owner/Leo Prime and the tenant, not a settlement with the claiming PM, and its payment status is unknown. Renewal lease starts 4/1/2024 but the ledger charged $1,875 for April and $1,925 from May, with a $50 renewal fee on 5/1/2024. No PM move-out statement or itemization exists in the folder.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "adfab871fec764706"
+ }
+}

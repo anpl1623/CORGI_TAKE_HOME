@@ -1,0 +1,202 @@
+{
+ "tracking": 95,
+ "documents": [
+  {
+   "file": "Ledger (2).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware (newest-first). Unpaid: 04/24/23 4010 Maintenance Coordination 200; 05/03/23 5018 Move-out Repair T2HT7HJB 760. Balance 960, deposit held 0. All rent through 4/14/23 paid."
+  },
+  {
+   "file": "invoice_26_Apr_2023_23_10_29.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-04-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "TnT Property Solutions Meld #T2HT7HJB $760, the same charge as ledger Move-out Repair T2HT7HJB; used only to split it into sub-categories."
+  },
+  {
+   "file": "Collections - SDRP Notice to Tenant (1).pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-05-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for total amount due $960 per attached ledger."
+  },
+  {
+   "file": "204 Tuscany Ct_Move Out Evaluation_2023-04-19.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-04-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector move-out evaluation: cleaning needed, carpet stains bedrooms 2-3, gaps in flooring, water damage at door jamb; landscaping marked satisfactory. No pet odor/urine comments."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(03-29-2022_-_03-29-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver: YES, $35/month in lieu of deposit."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2021_(03-29-2022_-_03-29-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 04/15/2022-04/14/2023, rent $1,850/mo, security deposit $2,775 (waived via addendum), $200 admin fee if deductions taken."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 35,
+  "waived_deposit_amount": 2775,
+  "cash_deposit_amount": 0,
+  "lease_start": "2022-04-15",
+  "lease_end": "2023-04-14",
+  "current_term_start": "2022-04-15",
+  "current_term_end": "2023-04-14",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium (30 + 5 admin until Aug 2022, 35 from Sep 2022)",
+    "amount": 35
+   },
+   {
+    "name": "Animal Fee (pet rent)",
+    "amount": 50
+   },
+   {
+    "name": "RBP with Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Convenience fee per ePayment",
+    "amount": 3
+   }
+  ],
+  "lease_break_terms": "No early-termination fee clause in excerpt; either party may terminate at end of initial term with 30 days written notice; holdover or days past the move-out date at 2x daily rate; $200 administrative fee if deductions are taken from the deposit."
+ },
+ "move_out": {
+  "move_out_date": "2023-04-14",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "4010 - Maintenance Coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-04-24",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger (2).pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair T2HT7HJB (TnT): Remove plants on back patio; reattach cable cover to wall (glued due to ripped-out drywall)",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-05-03",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "invoice_26_Apr_2023_23_10_29.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Move-out Repair T2HT7HJB (TnT): Full cleaning (oven, drawers, dishwasher, sinks) - house not cleaned",
+   "category": "cleaning",
+   "amount_charged": 260,
+   "amount_open": 260,
+   "date_posted": "2023-05-03",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "invoice_26_Apr_2023_23_10_29.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair T2HT7HJB (TnT): Carpet clean",
+   "category": "carpet_cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2023-05-03",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "invoice_26_Apr_2023_23_10_29.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out Repair T2HT7HJB (TnT): Full landscape - cut, edge, weedeat, blow, trim bushes",
+   "category": "landscaping_lawn",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2023-05-03",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "invoice_26_Apr_2023_23_10_29.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2023-05-09",
+  "balance_due": 960,
+  "first_full_month": "2022-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-04-05"
+ },
+ "pm_stated_amount_due": 960,
+ "winning_document": "Ledger (2).pdf",
+ "reconciliation": "Open lines 200 + 100 + 260 + 150 + 250 = 960 - 0 credits = 960 = PM stated (collection letter 5/9/23 and ledger balance); the $760 vendor invoice equals the ledger Move-out Repair line and is counted once.",
+ "notes": "End of term: the lease ended 04/14/2023, and April rent was prorated (863.33) and paid. The only open items are the $200 maintenance coordination fee (lease para 8 $200 admin fee) and the TnT invoice. Line 1 mixes plant removal with a cable-cover/drywall repair and has no split. The move-out evaluation marks front and back landscaping 'Satisfactory', yet $250 for landscaping is billed. One NSF in Nov 2022 (returned payment 11/01/22, $45 fee paid). Pet household (animal fee $50/mo), but no pet damage is charged. Rent schedule: $1,850 charged 4/15/22, then May prorated 986.67, so the first full calendar month (May 2022) was paid 4/30/22.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "ac154fc17ddb611e7"
+ }
+}

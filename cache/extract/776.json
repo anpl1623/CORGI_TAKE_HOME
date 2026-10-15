@@ -1,0 +1,196 @@
+{
+ "tracking": 776,
+ "winning_document": "2235-306 Morton Move Out Statement.pdf",
+ "pm_stated_amount_due": 315,
+ "documents": [
+  {
+   "file": "2235-306 Morton Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc: June 2024 fully paid by 6/1 payment; turnover charges 75+150+90 = 315.00."
+  },
+  {
+   "file": "2235-306 Morton Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover letter states balance due 315.00, lower than the undated SDI total of 465.00, so the letter/statement wins."
+  },
+  {
+   "file": "2235-306 Morton SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Undated SDI totals 465.00 (carpet 90, cleaning 100, paint 100, haul-out 100, keys/fob 75); conflicts with 315.00 statement/letter/ledger; not used for amounts."
+  },
+  {
+   "file": "2235-306 Morton Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Confirms balance 315.00 (7/10/2024 turnover charges only); June paid 6/1/2024."
+  },
+  {
+   "file": "2235-306 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-06-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text layer shows x on YES for renters insurance (19/mo) and Security Deposit Waiver (33/mo, 1,200 waived); signed 6/16/2023."
+  },
+  {
+   "file": "2235-306 Morton Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Base rent 895.00; term 6/17/2023-6/30/2024."
+  },
+  {
+   "file": "WEB2 DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened; template, ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 895,
+  "lease_start": "2023-06-17",
+  "lease_end": "2024-06-30",
+  "current_term_start": "2023-06-17",
+  "current_term_end": "2024-06-30",
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "initial_term_months": 12,
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1200,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 35
+   },
+   {
+    "name": "Security Deposit Protection (deposit waiver fee)",
+    "amount": 33
+   }
+  ],
+  "lease_break_terms": "Iowa lease: tenant who vacates during term owes rent until lease expires or unit is re-rented; mitigation-of-damages clause. Not triggered (end-of-term move-out)."
+ },
+ "move_out": {
+  "move_out_date": "2024-06-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 315,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-01"
+ },
+ "line_items": [
+  {
+   "description": "Patio & Bedroom Window Blind",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-306 Morton Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Painting/Drywall Repairs (marker on walls)",
+   "category": "painting",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-306 Morton Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-Refundable Fee Per Lease (SDI: Carpet/Floor Cleaning per lease)",
+   "category": "carpet_cleaning",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-07-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2235-306 Morton SDI.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "2235-306 Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "Security Deposit Waiver YES (x), $33 per month, waive security deposit of $1,200"
+  },
+  {
+   "file": "2235-306 Morton Move Out Letter.pdf",
+   "flag": "letter_lower_than_sdi",
+   "quote": "shows your balance due of $315.00 (SDI form totals $465.00)"
+  }
+ ],
+ "reconciliation": "Open lines 75+150+90 = 315.00 (statement/ledger); credits 0 (June 2024 charges 982 fully paid 6/1/2024); matches PM letter/statement 315.00; the undated SDI totals 465.00 (different line labels/amounts) and was not used because the cover letter states the lower 315.00.",
+ "extraction_confidence": 0.85,
+ "notes": "Deposit waiver (no cash deposit); end-of-term move-out 6/30/2024. CONFLICT: SDI lists cleaning 100, paint 100, haul-out 100, keys/fob 75, carpet 90 = 465, while the 7/10/2024 statement, letter and ledger show window blinds 75, paint/marker on walls 150, non-refundable fee 90 = 315. Per rule, the lower cover-letter balance (315) wins. First month (July 2023) rent 895 offset by concession; the 87 of RI/SD/utility fees posted 7/1/2023 was paid 8/1/2023 with the August payment.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a56a10499bfb3a86d"
+ }
+}

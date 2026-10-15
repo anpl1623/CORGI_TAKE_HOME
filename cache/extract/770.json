@@ -1,0 +1,251 @@
+{
+ "tracking": 770,
+ "winning_document": "515 Gallaher Move Out Letter.pdf",
+ "documents": [
+  {
+   "file": "515 Gallaher Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "note": "Balance forward 1,317 plus July items and reletting; total 2,584"
+  },
+  {
+   "file": "515 Gallaher Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "note": "Letter states 2,584.00 due, agrees with statement"
+  },
+  {
+   "file": "515 Gallaher SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Scan: current ledger 2,334 plus reletting 250 equals 2,584 due"
+  },
+  {
+   "file": "515 Gallaher Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Used to split 1,317 balance forward and June charges"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "cash_deposit_amount": null,
+  "current_term_start": "2023-09-08",
+  "current_term_end": "2024-08-31",
+  "lease_start": "2023-09-08",
+  "lease_end": "2024-08-31",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-31",
+  "termination": "early_termination",
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 2584
+ },
+ "line_items": [
+  {
+   "description": "May 2024 rent unpaid remainder",
+   "category": "rent_in_term",
+   "amount_open": 183,
+   "amount_charged": 900,
+   "date_posted": "2024-05-01",
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "May 2024 renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "amount_charged": 19,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "May 2024 security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "amount_charged": 33,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "May 2024 utility revenue",
+   "category": "utilities",
+   "amount_open": 35,
+   "amount_charged": 35,
+   "date_posted": "2024-05-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "May 2024 late charge",
+   "category": "late_fee",
+   "amount_open": 30,
+   "amount_charged": 30,
+   "date_posted": "2024-05-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.65
+  },
+  {
+   "description": "June 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 900,
+   "amount_charged": 900,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "amount_charged": 19,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "amount_charged": 33,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 utility revenue",
+   "category": "utilities",
+   "amount_open": 35,
+   "amount_charged": 35,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 late charge",
+   "category": "late_fee",
+   "amount_open": 30,
+   "amount_charged": 30,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 900,
+   "amount_charged": 900,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "amount_charged": 19,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "amount_charged": 33,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 utility revenue",
+   "category": "utilities",
+   "amount_open": 35,
+   "amount_charged": 35,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "July 2024 late charge",
+   "category": "late_fee",
+   "amount_open": 30,
+   "amount_charged": 30,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting fee",
+   "category": "reletting_fee",
+   "amount_open": 250,
+   "amount_charged": 250,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "515 Gallaher Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 2584,
+ "reconciliation": "Open items sum 2,584.00 minus credits 0.00 equals PM stated 2,584.00; May remainder split assumes oldest-first allocation of the 717 payment.",
+ "extraction_confidence": 0.72,
+ "notes": "Balance forward 1,317 split per ledger: May remainder 300 (rent 183 plus fees 117) and June 1,017. May rows carry 'Write Off by Charge Ctrl#' annotations (08/07/2024), yet the balance still includes the May remainder. PM figure used; owner_waived_balance not set, needs review. Lease and addendum not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "abee3907adc8bc51d"
+ }
+}

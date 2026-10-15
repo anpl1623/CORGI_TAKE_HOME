@@ -1,0 +1,118 @@
+{
+ "tracking": 946,
+ "winning_document": "Settlemire ledger.pdf (statement dated 11/18/24, balance 201.25)",
+ "documents": [
+  {
+   "file": "Settlemire ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-18",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Updated statement: charges 402.50 less 201.25 payment"
+  },
+  {
+   "file": "Settlemire final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original final statement: repair 182.50, cleaning 190, paint 30"
+  },
+  {
+   "file": "Settlemire invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Mach1 invoice 182.50 ties to repair line, fully paid"
+  },
+  {
+   "file": "Settlemire invoice cleaning and paint.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Vetos cleaning 240 plus paint 30; statement cleaning claimed at 190"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1345,
+  "lease_start": "2023-07-13",
+  "lease_end": "2024-07-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 31
+ },
+ "line_items": [
+  {
+   "description": "Non-normal wear cleaning",
+   "category": "cleaning",
+   "amount_charged": 190,
+   "amount_open": 171.25,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-04",
+   "source_file": "Settlemire final statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Non-normal wear painting",
+   "category": "painting",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-09-16",
+   "source_file": "Settlemire final statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant web payment 09/22/24 applied to repair and cleaning",
+   "amount": 201.25,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 201.25,
+ "ledger": {
+  "as_of_date": "2024-11-18",
+  "balance_due": 201.25,
+  "last_payment_date": "2024-09-22",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Open lines 171.25 + 30.00 = 201.25. The 201.25 payment is already netted (oldest-first: repair 182.50 + cleaning 18.75). Net 201.25 equals PM balance 201.25. Difference 0.00. Gross billed before payment was 402.50; the 201.25 collection fee is hypothetical and excluded.",
+ "notes": "Winner is the 11/18/24 Rent Manager statement, which repeats the 09/16 charges and applies the 09/22 payment. Repair line 182.50 (Mach1 invoice 6563, ties) is fully paid, so it is not an open line. Cleaning billed 190 on the statement versus 240 on the Vetos invoice; statement amount used. August 2024 rent and fees were paid on 08/01 (1,440), so no rent is open. The 09/22 payment is partial, so the tenant_paid_or_settled flag is not set. Lease not opened (lite mode).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

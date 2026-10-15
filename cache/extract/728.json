@@ -1,0 +1,268 @@
+{
+ "tracking": 728,
+ "documents": [
+  {
+   "file": "Latrisha Invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-08-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RFI Property Maintenance 20AC99 total 1,039.10; identical to the seven 08-01-2024 ledger postings, counted once via ledger"
+  },
+  {
+   "file": "Latrisha Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Park Place form lease; fillable fields blank in text; facts taken from sheet and Ledger 2 header; 3x rent early termination fee clause"
+  },
+  {
+   "file": "Latrisha Ledger 1.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Old statement 7/7/2023-12/6/2023 (Buildium era); history only; used for first-month analysis"
+  },
+  {
+   "file": "Latrisha Ledger 2.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest ledger, newest-first with running balance; balance 1,134.10"
+  },
+  {
+   "file": "Latrisha Letter.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover email; says move-out letter and ledger attached but '1920 move out letter.pdf' is not in folder"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1275,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-07-06",
+  "current_term_start": "2023-07-07",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease form: early termination fee 3x rent or as agreed in writing; tenant right to terminate early on 60 days notice, forfeit deposits, 250 admin fee.",
+  "lease_end": "2024-07-06",
+  "lease_start": "2023-07-07",
+  "monthly_sd_premium": 126,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver Fee",
+    "amount": 126
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 10.95
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-07-06",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Toilet clogged - removed cup from toilet channel (ledger 06-30-2024, unpaid remainder after 07-02 payments)",
+   "category": "repairs_damage",
+   "amount_charged": 95,
+   "amount_open": 95,
+   "date_posted": "2024-06-30",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Removed and replaced master bedroom window - broken sealed window",
+   "category": "repairs_damage",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Removed and replaced front security door - metal mesh cut at doorknobs",
+   "category": "repairs_damage",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Ordered and installed bracket for refrigerator shelf that had been removed",
+   "category": "appliance",
+   "amount_charged": 19.1,
+   "amount_open": 19.1,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Removed and replaced composite decking melted by grill/other item",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Replaced porch/deck spindles (qty 7)",
+   "category": "repairs_damage",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Replaced 2 inch set of window blinds",
+   "category": "repairs_damage",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Replaced missing microwave plate",
+   "category": "appliance",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Latrisha Ledger 2.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Latrisha Ledger 2.pdf",
+   "flag": "move_out_end_of_term",
+   "quote": "Move Out Date:7-6-2024 Lease End Date:7-6-2024"
+  },
+  {
+   "file": "Latrisha Ledger 1.pdf",
+   "flag": "third_party_payer",
+   "quote": "Coburn Place Payment for 12 months of SDWF -1,512.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-20",
+  "balance_due": 1134.1,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-02"
+ },
+ "pm_stated_amount_due": 1134.1,
+ "winning_document": "Latrisha Ledger 2.pdf",
+ "reconciliation": "Sum of 8 open lines (95.00 toilet + 1,039.10 RFI invoice items) 1,134.10 - credits 0 = 1,134.10 equals ledger balance 1,134.10; PM move-out letter not in folder so ledger balance is the PM amount.",
+ "notes": "Ledger 2 is newest-first with running balance (verified bottom-up). Balance before the 08-01-2024 vendor postings was 95.00, which equals the unpaid 06-30-2024 toilet charge: 07-02 payments of 1,092.15 (balance through 6/6 late fee) and 246.77 (July prorated rent 7/1-7/6) exclude it. Alternative FIFO view would make 95.00 a remainder of July prorated rent; total unchanged. Invoice 1,039.10 matches seven ledger lines, counted once from ledger. Move-out letter attachment absent. Tenant paid by third party (Coburn Place); SDWF and RBP prepaid 12 months by that payer. First full month (Aug 2023): no payment posted in August other than earmarked SDWF/RBP prepayments; Aug rent covered by 9/1 payment and late fee 141.20 posted 8/6, so marked not paid in full by month end (ambiguous on net-balance view). Late fees recurred monthly (all paid). Leases not opened visually (form fields blank in text; term/rent from ledger header and sheet).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a46cadb7cb11817af"
+ }
+}

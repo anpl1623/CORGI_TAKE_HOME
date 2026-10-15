@@ -1,0 +1,166 @@
+{
+ "tracking": 651,
+ "documents": [
+  {
+   "file": "304-01 Howsden Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out statement; balance 1736.00"
+  },
+  {
+   "file": "304-01 Howsden Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 1736.00 balance; agrees"
+  },
+  {
+   "file": "304-01 Howsden SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Total 1736.00 (1336 ledger + 400 misc); agrees"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 600,
+  "sd_program": "unknown",
+  "lease_start": "2023-10-09",
+  "lease_end": "2024-09-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-06-07",
+  "balance_due": 1736
+ },
+ "line_items": [
+  {
+   "description": "May 2024 rent (NSF reversed)",
+   "category": "rent_in_term",
+   "amount_charged": 600,
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "date_posted": "2024-05-01",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "June 2024 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_charged": 600,
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Security deposit protection May 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-05-01",
+   "service_period_end": "2024-05-31",
+   "date_posted": "2024-05-01",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection June 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late charge 05/06/2024",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-06",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Returned check charge 05/25/2024",
+   "category": "nsf_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-25",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-07",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning charges",
+   "category": "cleaning",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-07",
+   "source_file": "304-01 Howsden Move Out Statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "pm_stated_amount_due": 1736,
+ "reconciliation": "Open lines 1736.00 - credits 0.00 = 1736.00 vs PM 1736.00; match.",
+ "notes": "May 2024 ACH 683 was NSF-reversed, so May charges are open again. June rent and June SDRP posted after 5/31 move-out, within lease term to 9/30/2024; no reletting or break fee on statement. Pet fee entries net to zero and are excluded. Ledger scan and lease not opened (lite mode).",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0d251c85bb700ab5"
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "tracking": 834,
+ "winning_document": "2513 Egret Crest Ln- SDRP Move Out Calculation .pdf",
+ "pm_stated_amount_due": 2529.12,
+ "reconciliation": "sum(open lines) 827.62+60.00+39.00+262.50+350.00+650.00+20.00+120.00+200.00 = 2529.12; credits already netted in lines (640.12 payment on July rent; 250.00 maintenance coordination reversal); matches 9/16/2024 SDRP Move Out Calculation 2529.12 and ledger 9/29/2024 Total Unpaid 2529.12. Older Move Out Calculation showed 2779.12 because it still included the 250.00 maintenance coordination fee reversed on 8/26/2024.",
+ "documents": [
+  {
+   "file": "2513 Egret Crest Ln- SDRP Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": true,
+   "note": "Latest PM statement, total balance due 2529.12; its detail table is blank so line items come from the ledger, which reconciles exactly."
+  },
+  {
+   "file": "2513 Egret Crest Ln.- Collections - First Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 2529.12 due in 15 days; same total, no new charges."
+  },
+  {
+   "file": "2513 Egret Crest Ln_Move Out Evaluation_2024-07-29.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector report; scanned for pet evidence only: pet feces, strong pet odor, pet-stained and damaged carpet, no approved pet on file."
+  },
+  {
+   "file": "2513 Egret Crest- OLD_Docusign_NHPM_Lease_v_2022_(07-26-2023_-_07-26-2023).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 7/27/2023 to 7/26/2024, rent 1750, security deposit 0.00, late fee 15%."
+  },
+  {
+   "file": "2513 Egret- Move Out Calculation.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Earlier undated version, remaining balance 2779.12 incl. both 250 and 200 maintenance coordination fees; superseded by the 9/16/2024 SDRP calculation."
+  },
+  {
+   "file": "2513 Egrewt Crest Ln-DOCUSIGN_-_Security_Deposit_Addendum_2023_(07-26-2023_-_07-26-2023).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver YES at $60 per month."
+  },
+  {
+   "file": "Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware, newest-first; used for line items, open rent remainder, payments, NSF history."
+  },
+  {
+   "file": "Message Sent.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-09-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "PM email sending move-out packet; says tenants have the replacement plan, not a traditional deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1750,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 60,
+  "lease_start": "2023-07-27",
+  "lease_end": "2024-07-26",
+  "current_term_start": "2023-07-27",
+  "current_term_end": "2024-07-26",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "No lease-break fee found in excerpt. Holdover or occupancy after move-out date billed at 2x daily rate. Late fee 15% of rent plus 100 after the 15th.",
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 60
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-26",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "July 2024 rent, 26 days prorated (7/1-7/26), original 1467.74 less 640.12 paid 8/2/2024 = 827.62 open",
+   "category": "rent_in_term",
+   "amount_charged": 1467.74,
+   "amount_open": 827.62,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  },
+  {
+   "description": "SDRP Monthly Premium, July 2024 (unpaid ledger charge)",
+   "category": "sdrp_premium",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP with Ins, July 2024 (unpaid ledger charge)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee on July 2024 rent, calculated 7/6/2024 (15% of 1750)",
+   "category": "late_fee",
+   "amount_charged": 262.5,
+   "amount_open": 262.5,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Unauthorized pet fee (no approved pet on file, no pet rent charged)",
+   "category": "pet_fee_rent",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-07-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "SD Forfeit move-out charge: Cleaning (Full)",
+   "category": "cleaning",
+   "amount_charged": 650,
+   "amount_open": 650,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "SD Forfeit move-out charge: Light bulb replacement",
+   "category": "repairs_damage",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SD Forfeit move-out charge: Trash out (personal items), damage of (feces) carpet - single lump, pet and non-pet work not split",
+   "category": "pet_damage_odor",
+   "amount_charged": 120,
+   "amount_open": 120,
+   "date_posted": "2024-08-23",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Maintenance Coordination Fee (8/23/2024)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "8/26/2024 charge adjustment reversing the 7/30/2024 Maintenance Coordination Fee of 250.00 (net zero, excluded from lines)",
+   "amount": 250,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "Ledger.pdf"
+  },
+  {
+   "description": "8/2/2024 tenant payment portion applied to 7/1/2024 rent (1467.74 charge reduced to 827.62 open)",
+   "amount": 640.12,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "Ledger.pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Trash out(personal items), damage of (feces) carpet 120.00"
+  },
+  {
+   "file": "2513 Egret Crest Ln_Move Out Evaluation_2024-07-29.pdf",
+   "flag": "pet_evidence",
+   "quote": "Pet feces and strong pet odor- No approved pet on file & no monthly pet rent charged"
+  },
+  {
+   "file": "2513 Egret Crest Ln_Move Out Evaluation_2024-07-29.pdf",
+   "flag": "cleaning_may_include_pet_work",
+   "quote": "Pet feces in Master closet on walls and base board."
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-09-29",
+  "balance_due": 2529.12,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-02"
+ },
+ "extraction_confidence": 0.88,
+ "notes": "Tenants vacated at end of term 7/26/2024 (sheet date; evaluation done 7/29). Statement table in the 9/16 SDRP Move Out Calculation is blank; lines taken from ledger and reconcile to its total. The 250 maintenance coordination fee dated 7/30 was reversed 8/26 (net zero); a separate 200 fee remains. Cleaning (Full) 650 is generic but inspection notes pet feces/odor cleaning, so cleaning may contain pet work with no split. First full month: ledger bills a full 1750 'First Months Rent' charge on 7/27/2023 plus a 5-day prorated charge on 8/1/2023; August 2023 treated as first full month (September 2023 also fully paid, by 9/20). Prior NSF returns in Feb and Apr 2024 are history, not open charges.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ad4c5da53d1910249"
+ }
+}

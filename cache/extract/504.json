@@ -1,0 +1,333 @@
+{
+ "tracking": 504,
+ "winning_document": "J Hansard UPDATED final statement.pdf",
+ "pm_stated_amount_due": 1301.93,
+ "extraction_confidence": 0.9,
+ "reconciliation": "sum(open line items)=1301.93 (gross statement charges 3701.93 less 2400.00 tenant payments already netted oldest-first); credits already netted so none re-deducted; equals PM stated balance due 1301.93, no difference.",
+ "documents": [
+  {
+   "file": "J Hansard UPDATED final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-03-20",
+   "revised": true,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning doc: UPDATED final statement 03/20/24, charges 3,701.93, credits 2,400.00, balance 1,301.93"
+  },
+  {
+   "file": "J Hansard full statement.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-03-20",
+   "revised": false,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager full ledger 06/2022-03/2024; used for payment history, first-month history and rent/addon amounts; repeats same move-out charges"
+  },
+  {
+   "file": "J Hansard final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-09-11",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Original 09/11/23 statement 3,701.93 before payments; superseded by UPDATED statement; includes hypothetical collection fees 1,850.96 (not a charge)"
+  },
+  {
+   "file": "J Hansard collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-09-11",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for 3,701.93 within 7 days; superseded by payments"
+  },
+  {
+   "file": "J Hansard ZDP Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-06-08",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Zero Deposit Program $45/mo in lieu of $2800 deposit"
+  },
+  {
+   "file": "J Hansard lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-06-08",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt sufficient: rent 1925, term from 6/10/2022, 12-month minimum to 6/30/2023 then month-to-month, $0 deposit"
+  },
+  {
+   "file": "J Hansard application.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application; not opened"
+  },
+  {
+   "file": "J Hansard bills.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": null,
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "4 pages, no text layer. P1: landscaping receipt 590.00 for 1418 El Camino (paid by PM 8/16/23) vs 425.00 billed on statement; P2-4 (Kelley Rooter 320, HOA dues 35, A/C cleanup 40) are for other addresses (132 Scoops Owl / Hayfield) and unrelated. Statement amounts used."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1925,
+  "cash_deposit_amount": 0,
+  "sd_program": "zero_deposit",
+  "monthly_sd_premium": 45,
+  "waived_deposit_amount": 2800,
+  "lease_start": "2022-06-10",
+  "lease_end": "2023-06-30",
+  "current_term_start": "2023-07-01",
+  "current_term_end": null,
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Tenant agrees not to terminate before 12 months from commencement (6/30/2023) or in December; after initial term continues month-to-month with 30 day written notice; no lease-break fee stated in excerpt",
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package (50.00 from 07/2023)",
+    "amount": 40
+   },
+   {
+    "name": "Pet Rent",
+    "amount": 50
+   },
+   {
+    "name": "Zero Deposit Program Charge",
+    "amount": 45
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2023-08-16",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 47,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-03-20",
+  "balance_due": 1301.93,
+  "first_full_month": "2022-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-11-29"
+ },
+ "line_items": [
+  {
+   "description": "Tenant responsible repairs, parts and labor - Mach 1 Maint (shower rod, toilet seat, bulbs, blind hardware, screen, burner pans, garage remotes); fully offset by tenant payments applied oldest-first",
+   "category": "repairs_damage",
+   "amount_charged": 397.5,
+   "amount_open": 0,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Non-normal wear and tear cleaning - supplies and labor - Denise Vetos; fully offset by tenant payments oldest-first",
+   "category": "cleaning",
+   "amount_charged": 550,
+   "amount_open": 0,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Non-normal wear and tear painting; fully offset by tenant payments oldest-first",
+   "category": "painting",
+   "amount_charged": 150,
+   "amount_open": 0,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Pet inspection cost for carpet/pad - System Kleen; fully offset by tenant payments oldest-first",
+   "category": "pet_damage_odor",
+   "amount_charged": 125,
+   "amount_open": 0,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Tenant portion of flooring replacement - urine damage (prorated, no invoice in folder). Charged 1843.55; 1177.50 offset by tenant payments oldest-first; 666.05 open",
+   "category": "pet_damage_odor",
+   "amount_charged": 1843.55,
+   "amount_open": 666.05,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Key copy/lock charge - no keys left at time of vacancy",
+   "category": "keys_remotes",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2023-08-16",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Water/sewer/trash 7/25-8/24",
+   "category": "utilities",
+   "amount_charged": 183.3,
+   "amount_open": 183.3,
+   "date_posted": "2023-09-05",
+   "service_period_start": "2023-07-25",
+   "service_period_end": "2023-08-24",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Gas service 8/1-8/25",
+   "category": "utilities",
+   "amount_charged": 12.58,
+   "amount_open": 12.58,
+   "date_posted": "2023-09-05",
+   "service_period_start": "2023-08-01",
+   "service_period_end": "2023-08-25",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Landscaping - trim overgrown shrubs and cleanup yard/weed removal (statement 425.00; vendor receipt in bills.pdf shows 590.00, statement amount used)",
+   "category": "landscaping_lawn",
+   "amount_charged": 425,
+   "amount_open": 425,
+   "date_posted": "2023-09-11",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "J Hansard UPDATED final statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant epay payment 09/16/23",
+   "amount": 1000,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "J Hansard UPDATED final statement.pdf"
+  },
+  {
+   "description": "Tenant web pay 10/16/23",
+   "amount": 1000,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "J Hansard UPDATED final statement.pdf"
+  },
+  {
+   "description": "Tenant web pay 11/29/23",
+   "amount": 400,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "J Hansard UPDATED final statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "J Hansard UPDATED final statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Tenant portion of flooring replacements -urine damage 1,843.55"
+  }
+ ],
+ "notes": "Rent Manager statements. All rent through August 2023 was paid (Aug rent paid 8/3/23), so no rent lines open; lease term ended 6/30/2023 and tenancy ran month-to-month, move-out 8/16/2023 = 47 days after lease end (rent July/Aug billed 1975 vs lease base 1925). Tenant made partial payments 1000/1000/400 after the 9/11/23 statement (credited on updated statement, not a settlement); allocated oldest-first so only 666.05 of the carpet line remains open. No flooring invoice/photos in folder (prorated portion). Hypothetical collection fees 1850.96 on the 9/11/23 statement ignored. bills.pdf pages 2-4 belong to other properties.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a56793ede948f0aed"
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "tracking": 833,
+ "winning_document": "1855 Overlook Knoll - Tenant Itemization - Garcia Stawser Matthews.pdf",
+ "pm_stated_amount_due": 1894.9,
+ "reconciliation": "sum(open lines) 26.40+544.50+176.00+495.00+88.00+385.00+45.00+50.00+85.00 = 1894.90; credits 0 (7/31/2024 payment of 1809.90 was charged back 8/5/2024, net zero); matches 7/31/2024 itemization 1894.90 and ledger balance 1894.90 (ledger posts 95.00 itemization fee = 45 + 50 split per letter).",
+ "documents": [
+  {
+   "file": "1855 Overlook Knoll - Application - Chance Matthews.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application, not opened."
+  },
+  {
+   "file": "1855 Overlook Knoll - Application - Juanita Garcia.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application, not opened."
+  },
+  {
+   "file": "1855 Overlook Knoll - Application - Tashmere Matthews.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application, not opened."
+  },
+  {
+   "file": "1855 Overlook Knoll - Application - Ti mon Matthews.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rental application, not opened."
+  },
+  {
+   "file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Make-ready sub-items totaling 1714.90 plus RentWerx fees 180.00 = 1894.90; used to split the make-ready lump."
+  },
+  {
+   "file": "1855 Overlook Knoll - Tenant Itemization - Garcia Stawser Matthews.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-31",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest PM itemization and formal demand, total 1894.90; winning document."
+  },
+  {
+   "file": "1855 Overlook Knoll - Tenant Lease May 2023 to May 2024 - Garcia Stawser Matthews.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Form fields blank in text layer; rent and term taken from sheet and ledger. Preferred Resident Program 33.00 per month in lieu of deposit; auto-renews month to month."
+  },
+  {
+   "file": "1855 Overlook Knoll - Tenant Ledger - Garcia Stawser Matthews.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Newest-first. Open balance 1894.90; shows 7/31 payment pulled then charged back 8/5 plus 85 NSF fee."
+  },
+  {
+   "file": "1855 Overlook Knoll - Tenant Move Out Report - Garcia Stawser Matthews.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector report, scanned for pet or odor text: none (Odor satisfactory); notes wall holes and marks, tall grass, water softener needs salt."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2400,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-05-19",
+  "lease_end": "2024-05-31",
+  "current_term_start": "2024-06-01",
+  "current_term_end": "2024-06-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Notice of termination effective last day of month following notice; no proration if surrendered early. Month-to-month renewal adds 25 percent of rent plus 85 admin fee per month.",
+  "recurring_addons": [
+   {
+    "name": "Preferred Tenant Monthly Fee",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 41
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-07-01",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make ready: bags of salt (water softener)",
+   "category": "other_damage",
+   "amount_charged": 26.4,
+   "amount_open": 26.4,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Make ready: paint",
+   "category": "painting",
+   "amount_charged": 544.5,
+   "amount_open": 544.5,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Make ready: lawn service",
+   "category": "landscaping_lawn",
+   "amount_charged": 176,
+   "amount_open": 176,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Make ready: carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 495,
+   "amount_open": 495,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Make ready: trash removal",
+   "category": "trash_removal",
+   "amount_charged": 88,
+   "amount_open": 88,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Make ready: maid service",
+   "category": "cleaning",
+   "amount_charged": 385,
+   "amount_open": 385,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Charges for Make Ready Repairs.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move Out Itemization Fee (ledger posts 95.00 itemization fee = 45 + 50)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Tenant Itemization - Garcia Stawser Matthews.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Handling Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Tenant Itemization - Garcia Stawser Matthews.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "NSF fee for returned payment (chargeback of 7/31 funds pull)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-08-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1855 Overlook Knoll - Tenant Ledger - Garcia Stawser Matthews.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "1855 Overlook Knoll - Tenant Ledger - Garcia Stawser Matthews.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant chargeback on PTP funds pulled - in violation of lease agreement (Garcia $1809.90)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-09-27",
+  "balance_due": 1894.9,
+  "first_full_month": "2023-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-04"
+ },
+ "extraction_confidence": 0.88,
+ "notes": "Lease ended 5/31/2024 and rolled to month to month; June 2024 rent 2400 plus 600 M2M increase plus 85 M2M admin fee were paid 6/4/2024; tenants vacated 7/1/2024. No rent open. SD program is the RentWerx Preferred Resident Program (33 per month fee in lieu of deposit); applications mention Obligo screening, but no evidence it is the coverage provider, so other_provider left false. The 7/31/2024 payment of 1809.90 pulled per lease was charged back 8/5/2024 and an 85 NSF fee added; treated as a tenant dispute/chargeback, medium confidence. The 3/28/2024 HVAC reimbursement 132 was paid. Pet fees appear only through 8/2023; no pet-related move-out charges.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ad4c5da53d1910249"
+ }
+}

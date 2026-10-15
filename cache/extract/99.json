@@ -1,0 +1,260 @@
+{
+  "tracking": 99,
+  "documents": [
+    {
+      "file": "639 Ladora Drive - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-01-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "639 Ladora Drive - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-06-01",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "639 Ladora Drive - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-06-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "639 Ladora Drive - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-01-26",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "639 Ladora Drive - Tenant contact info Courtney.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "639 Ladora Drive - Tenant contact info Willis.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "639 Ladora Drive - Ledger.pdf",
+  "pm_stated_amount_due": 447.97,
+  "lease": {
+    "base_monthly_rent": 1795.0,
+    "recurring_addons": [
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 48.0
+      },
+      {
+        "name": "TBR Pet Rent",
+        "amount": 80.0
+      },
+      {
+        "name": "YRIG Prem",
+        "amount": 20.0
+      },
+      {
+        "name": "Latchel Concierge Service",
+        "amount": 14.99
+      },
+      {
+        "name": "Pinata Service Fee",
+        "amount": 4.0
+      }
+    ],
+    "lease_start": "2023-01-26",
+    "lease_end": "2024-01-31",
+    "current_term_start": "2023-01-26",
+    "current_term_end": "2024-01-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2000.0,
+    "monthly_sd_premium": 48.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Tenant must contact Landlord in order to negotiate conditions per Agreement for Termination of Lease prior to Expiration"
+  },
+  "move_out": {
+    "move_out_date": "2023-05-03",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-06-01",
+    "balance_due": 447.97,
+    "first_full_month": "2023-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-04-12"
+  },
+  "line_items": [
+    {
+      "description": "Pinata Service Fee (May 2023)",
+      "category": "other_fee",
+      "amount_open": 4.0,
+      "amount_charged": 4.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Sec Dep Ins Charge to Tenant (May 2023)",
+      "category": "sdrp_premium",
+      "amount_open": 48.0,
+      "amount_charged": 48.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Latchel Concierge Service (May 2023)",
+      "category": "other_fee",
+      "amount_open": 14.99,
+      "amount_charged": 14.99,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Pet Rent - Prorated pet rent 5/1/23-5/3/23 (net of reversal)",
+      "category": "pet_fee_rent",
+      "amount_open": 7.77,
+      "amount_charged": 80.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-03",
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Rent Charge - Prorated rent 5/1/23-5/3/23 (net of reversal)",
+      "category": "rent_in_term",
+      "amount_open": 173.71,
+      "amount_charged": 1795.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-03",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "YRIG Prem (May 2023)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 20.0,
+      "amount_charged": 20.0,
+      "date_posted": "2023-05-01",
+      "service_period_start": "2023-05-01",
+      "service_period_end": "2023-05-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Late Charges (May 2023)",
+      "category": "late_fee",
+      "amount_open": 179.5,
+      "amount_charged": 179.5,
+      "date_posted": "2023-05-08",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "639 Ladora Drive - Ledger.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Tenant vacated on 5/3/23. Reversing 5/4/23-5/31/23 rent",
+      "amount": 1621.29,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "639 Ladora Drive - Ledger.pdf"
+    },
+    {
+      "description": "Tenant vacated on 5/3/23. Reversing 5/4/23-5/31/23 pet rent",
+      "amount": 72.23,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "639 Ladora Drive - Ledger.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) 447.97 - credits 0.00 = 447.97 vs PM stated 447.97. Exactly matches ledger balance due.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant moved in 2023-01-26 and vacated early on 2023-05-03. All charges through April 2023 were paid in full. The PM reversed rent and pet rent for May 4-31, leaving open prorated rent ($173.71), prorated pet rent ($7.77), May fees (Pinata, SDRP, Latchel, YRIG), and May late fee ($179.50) totaling $447.97."
+}

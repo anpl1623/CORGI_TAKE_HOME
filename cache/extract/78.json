@@ -1,0 +1,420 @@
+{
+ "tracking": 78,
+ "documents": [
+  {
+   "file": "21 Poole Bridge Court - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-01",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Excalibur Homes Statement (oldest-first), billing period 11/01/22-05/31/23. Charges 12,769.00, credits 5,140.63, balance due 7,628.37. Includes 04/30/23 itemized damages (800) and a 3/31 rent reversal (-61.13). Payments are not allocated per charge, so they were allocated oldest-first."
+  },
+  {
+   "file": "21 Poole Bridge Court - No Refund Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-05-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Deposit disposition letter: 'paid a deposit of $0.00'. Balance due per the attached ledger. Generic language that rent may be owed through the end of the lease, though no future rent is charged on the ledger."
+  },
+  {
+   "file": "21 Poole Bridge Court - SD Insurance Addendum.JPG",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-10",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Lease Addendum: tenants chose Option 2, $92/month security deposit insurance (Your Renters Insurance Group) in lieu of a $4,000 deposit (lease Option 1 cash deposit $3,790)."
+  },
+  {
+   "file": "21 Poole Bridge Court - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-11-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 11/16/2022-11/30/2023, rent $1,895, late 10%, $300 fee to halt dispossessory, $50/lock rekey, early termination = 60 days notice + 1 month rent + $500 fee, holdover $300/day."
+  },
+  {
+   "file": "21 Poole Bridge Court - Tenant Contact Dequan.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened (tenant contact screenshot)."
+  },
+  {
+   "file": "21 Poole Bridge Court - Tenant Contact Paige.JPG",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened (tenant contact screenshot)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1895,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-11-16",
+  "current_term_end": "2023-11-30",
+  "initial_term_months": 12.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-11-16",
+  "lease_end": "2023-11-30",
+  "lease_break_terms": "Para A.20 Early Termination by Tenant: 60 days prior notice, one month's rent as liquidated damages, plus a $500 Early Lease Termination Administrative Fee. Holdover $300/day. $300 fee to halt a dispossessory action. $50 per lock rekey at termination.",
+  "monthly_sd_premium": 92,
+  "recurring_addons": [
+   {
+    "name": "Sec Dep Ins Charge to Tenant",
+    "amount": 92
+   },
+   {
+    "name": "YRIG Prem",
+    "amount": 20
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 4000
+ },
+ "move_out": {
+  "move_out_date": "2023-03-30",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2023-05-01",
+  "balance_due": 7628.37,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-12-04"
+ },
+ "line_items": [
+  {
+   "description": "YRIG Prem, Jan 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-01-01",
+   "service_period_start": "2023-01-01",
+   "service_period_end": "2023-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "TBR Rent Charge, January 2023",
+   "category": "rent_in_term",
+   "amount_charged": 1895,
+   "amount_open": 1895,
+   "date_posted": "2023-01-01",
+   "service_period_start": "2023-01-01",
+   "service_period_end": "2023-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Sec Dep Ins Charge to Tenant, Jan 2023",
+   "category": "sdrp_premium",
+   "amount_charged": 92,
+   "amount_open": 92,
+   "date_posted": "2023-01-01",
+   "service_period_start": "2023-01-01",
+   "service_period_end": "2023-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Late Charge to Owner (10%), Jan 2023",
+   "category": "late_fee",
+   "amount_charged": 189.5,
+   "amount_open": 189.5,
+   "date_posted": "2023-01-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Eviction Cancellation Fee to Halt Dispo",
+   "category": "eviction_legal_court",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-01-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "YRIG Prem, Feb 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-02-01",
+   "service_period_start": "2023-02-01",
+   "service_period_end": "2023-02-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "TBR Rent Charge, February 2023",
+   "category": "rent_in_term",
+   "amount_charged": 1895,
+   "amount_open": 1895,
+   "date_posted": "2023-02-01",
+   "service_period_start": "2023-02-01",
+   "service_period_end": "2023-02-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Sec Dep Ins Charge to Tenant, Feb 2023",
+   "category": "sdrp_premium",
+   "amount_charged": 92,
+   "amount_open": 92,
+   "date_posted": "2023-02-01",
+   "service_period_start": "2023-02-01",
+   "service_period_end": "2023-02-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Late Charge to Owner (10%), Feb 2023",
+   "category": "late_fee",
+   "amount_charged": 189.5,
+   "amount_open": 189.5,
+   "date_posted": "2023-02-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "YRIG Prem, Mar 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "TBR Rent Charge, March 2023: 1895.00 less 61.13 reversed for 3/31 (tenant vacated 3/30/23)",
+   "category": "rent_in_term",
+   "amount_charged": 1895,
+   "amount_open": 1833.87,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Sec Dep Ins Charge to Tenant, Mar 2023",
+   "category": "sdrp_premium",
+   "amount_charged": 92,
+   "amount_open": 92,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Late Charges (10%), Mar 2023",
+   "category": "late_fee",
+   "amount_charged": 189.5,
+   "amount_open": 189.5,
+   "date_posted": "2023-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "TBR Damages: Drywall damage above fireplace",
+   "category": "repairs_damage",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2023-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "TBR Damages: Replace two kitchen cabinet knobs",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "TBR Damages: Stove, oven and microwave need to be cleaned",
+   "category": "cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2023-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "TBR Damages: Repair holes in bedroom door and room upstairs",
+   "category": "repairs_damage",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2023-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "TBR Damages: Reinstall bathroom shower head",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-04-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments (CashPay 1,895.00 on 11/09/22, originally a rent reservation fee that was reversed to apply to future rent; CashPay 220.00 on 11/12/22; Web Pay 1,069.50 on 12/04/22), allocated oldest-first to Nov-Dec 2022 charges",
+   "amount": 3184.5,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf"
+  },
+  {
+   "description": "Rent reversal for 3/31/23 (tenant vacated 3/30/23)",
+   "amount": 61.13,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true,
+   "source_file": "21 Poole Bridge Court - Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "move_out (context)",
+   "quote": "Tenant vacated on 3/30/23. Reversing 3/31/23",
+   "file": "21 Poole Bridge Court - Ledger.pdf"
+  },
+  {
+   "flag": "sd_program (context)",
+   "quote": "Option 2 $$92.00 per month ... waives payment of the security deposit of $$4000",
+   "file": "21 Poole Bridge Court - SD Insurance Addendum.JPG"
+  }
+ ],
+ "extraction_confidence": 0.88,
+ "pm_stated_amount_due": 7628.37,
+ "winning_document": "21 Poole Bridge Court - Ledger.pdf",
+ "reconciliation": "Open lines 7,628.37 (payments of 3,184.50 allocated oldest-first, which clears all Nov-Dec 2022 charges exactly; March rent net of the 61.13 reversal) - credits 0 not yet netted = 7,628.37, equal to the ledger Balance Due 7,628.37. The 1,895 rent reservation fee was charged and then reversed, netting to zero.",
+ "notes": "Tenant vacated 2023-03-30, about 8 months before the 2023-11-30 lease end. No future rent, liquidated damages or early-termination fee was charged; the ledger stops at the 3/30 prorated rent. Rent was paid only through Dec 2022 (last payment 12/04/22). A dispossessory was apparently started in Jan 2023: a $300 'Eviction Cancellation Fee to Halt Dispo' was charged 1/16/23. Damages (800) were itemized by the PM on the ledger with no vendor invoices or photos. 'YRIG Prem' $20/mo is read as an insurance/liability premium separate from the $92 'Sec Dep Ins Charge' (the SD program premium); this classification is uncertain. Prorated Nov 2022 rent was 947.50 (11/16-11/30). First full month Dec 2022 is covered once payments are allocated oldest-first.",
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a216c6258c05c7786"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "tracking": 855,
+ "winning_document": "deposit_disposition_amount_due_bryson_a_mcginnis_082824 (1).pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_bryson_a_mcginnis_082824 (1).pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "doc_date": "2024-08-28",
+   "note": "Winning doc; itemized total 875.00"
+  },
+  {
+   "file": "tenant_ledger-bryson_a_mc_ginnis_christina_s_mc_ginnis-20241009.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-09",
+   "note": "Rent Manager ledger; deposit forfeit rows match letter"
+  },
+  {
+   "file": "McGinnis Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": false,
+   "doc_date": "2024-10-09",
+   "note": "Propertyware ledger shows 0.00 balance; conflicts, not used for amounts"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1900,
+  "lease_start": "2023-08-14",
+  "lease_end": "2024-08-13",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly premium",
+    "amount": 43
+   },
+   {
+    "name": "RBP no insurance",
+    "amount": 27
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-14",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-09",
+  "balance_due": 875,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-01"
+ },
+ "line_items": [
+  {
+   "description": "Prorated touch-up paint",
+   "category": "painting",
+   "amount_open": 500,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_bryson_a_mcginnis_082824 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Professional clean / carpet cleaning",
+   "category": "cleaning",
+   "amount_open": 375,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_bryson_a_mcginnis_082824 (1).pdf",
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "pm_stated_amount_due": 875,
+ "reconciliation": "Open lines 875.00 minus credits 0.00 equals PM stated 875.00 (08/28 letter and Rent Manager ledger); no difference.",
+ "extraction_confidence": 0.85,
+ "notes": "Propertyware McGinnis ledger shows 0.00 balance and no Aug 2024 rows, conflicting with letter and Rent Manager ledger; letter used. Ledger rent 859 conflicts with sheet 1900; sheet used per LITE. Lumped clean and carpet line kept as one cleaning line. Lease not opened.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

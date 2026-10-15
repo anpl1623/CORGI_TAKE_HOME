@@ -1,0 +1,111 @@
+{
+ "tracking": 648,
+ "documents": [
+  {
+   "file": "2750-09 Cottier Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-05-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out statement; balance 808.00"
+  },
+  {
+   "file": "2750-09 Cottier Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-05-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 808.00 balance; agrees"
+  },
+  {
+   "file": "2750-09 Cottier SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "783.00 ledger plus 25.00 toilet seat; agrees"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 720,
+  "sd_program": "unknown",
+  "lease_start": "2023-05-01",
+  "lease_end": "2024-04-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-05-06",
+  "balance_due": 808
+ },
+ "line_items": [
+  {
+   "description": "Residential rent April 2024",
+   "category": "rent_in_term",
+   "amount_charged": 720,
+   "amount_open": 720,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "date_posted": "2024-04-01",
+   "source_file": "2750-09 Cottier Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Security deposit protection April 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-04-01",
+   "service_period_end": "2024-04-30",
+   "date_posted": "2024-04-01",
+   "source_file": "2750-09 Cottier Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late charge 04/06/2024",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-04-06",
+   "source_file": "2750-09 Cottier Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replaced toilet seat",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-06",
+   "source_file": "2750-09 Cottier Move Out Statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "pm_stated_amount_due": 808,
+ "reconciliation": "Open lines 808.00 - credits 0.00 = 808.00 vs PM 808.00; match.",
+ "notes": "No payments or credits on statement; balance was 0.00 on 4/01/2024. Move-out 4/30 equals lease end. Statement, letter and SDI agree at 808.00. Ledger scan and lease not opened (lite mode).",
+ "extraction_confidence": 0.95,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0d251c85bb700ab5"
+ }
+}

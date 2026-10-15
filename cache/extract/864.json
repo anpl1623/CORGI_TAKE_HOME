@@ -1,0 +1,133 @@
+{
+ "tracking": 864,
+ "winning_document": "tenant_ledger-donna_phillips-20241015.pdf",
+ "documents": [
+  {
+   "file": "tenant_ledger-donna_phillips-20241015.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-15",
+   "note": "Winning doc; open 10/08 move-out rows total 1004.67"
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge Donna Phillips 5661.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-08",
+   "note": "Stated total 1004.67 matches ledger"
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary_DonnaPhillips_FinalBill.pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": false,
+   "doc_date": "2024-09-16",
+   "note": "Verifies utility line 171.67"
+  },
+  {
+   "file": "Inspections_Move-out_Donna Phillips.pdf",
+   "doc_type": "inspection_photo_report",
+   "used_for_amounts": false,
+   "note": "Digest text only; supports cleaning, carpet, drip pan notes"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1315,
+  "lease_start": "2023-05-17",
+  "lease_end": "2024-09-14",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "Garage #1 monthly",
+    "amount": 95
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-15",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-15",
+  "balance_due": 1004.67,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-02"
+ },
+ "line_items": [
+  {
+   "description": "Final utility bill 08/16-09/15/24",
+   "category": "utilities",
+   "amount_open": 171.67,
+   "date_posted": "2024-10-08",
+   "service_period_start": "2024-08-16",
+   "service_period_end": "2024-09-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-donna_phillips-20241015.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "End of lease unit clean",
+   "category": "cleaning",
+   "amount_open": 199,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-donna_phillips-20241015.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet cleaning, heavy stain removal",
+   "category": "carpet_cleaning",
+   "amount_open": 559,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-donna_phillips-20241015.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Stove drip pans cleaning",
+   "category": "cleaning",
+   "amount_open": 75,
+   "date_posted": "2024-10-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-donna_phillips-20241015.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": true
+ },
+ "evidence": [
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge Donna Phillips 5661.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "I will contact my lawyer. I owe my electricity. YOU NEVER FIXED MOLD"
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge Donna Phillips 5661.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "NORMAL WARE FOR 4 YEARS"
+  }
+ ],
+ "pm_stated_amount_due": 1004.67,
+ "reconciliation": "Open lines 1004.67 minus credits 0.00 equals PM stated 1004.67 (demand letter and ledger); no difference.",
+ "extraction_confidence": 0.85,
+ "notes": "Sheet lease start 2023-05-17 used per LITE; demand letter says 05/15/2022. Sept 2024 prorated rent 647.50 and garage were paid 09/02. Carpet 559 has no vendor invoice in folder. Lease and photo report not opened; inspection text from digest. Moved out 1 day after sheet lease end, no holdover charge billed.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

@@ -1,0 +1,267 @@
+{
+ "tracking": 657,
+ "documents": [
+  {
+   "file": "SDRP_Move_Out_Calculation_.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Move Out Calculation (New Heights PM / PURE SC): 5 unpaid charges totaling $1,790.00."
+  },
+  {
+   "file": "3317_Proctor_A_SDRP_Move-out_Form.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Handwritten PURE SDRP Move-Out Form: same deductions total $1,790; note 'Rent Responsible through 8/6/24 or Re-rent'; SDRP band $42/mo; rent $1,100."
+  },
+  {
+   "file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger (newest-first) balance $2,971.00 as of 07/03/2024 incl. July 2024 rent/SDRP/RBP posted after the statement; Deposit Held $0.00."
+  },
+  {
+   "file": "Collections_-_SDRP_Notice_to_Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for $1,790.00 within 15 days or collections."
+  },
+  {
+   "file": "3317_Proctor_St_Unit_A_Move_Out_Evaluation_2024-05-23_(1).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-05-23",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "All items Satisfactory; light cleaning, misc items left, TV mount holes, shower curtain, blind reinstall. No pet evidence."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(07-31-2023_-_07-31-2023) (1).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver addendum, $42/month, YES checked."
+  },
+  {
+   "file": "Docusign_Notice_of_Early_Vacating_(05-22-2024_-_05-22-2024).pdf",
+   "doc_type": "other",
+   "doc_date": "2024-05-24",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Notice of early termination: vacate May 20, 2024; Sec. 29 rent until re-rented, leasing commission, rekey, $500 early termination fee."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1100,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-08-07",
+  "current_term_end": "2024-08-06",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2023-08-07",
+  "lease_end": "2024-08-06",
+  "monthly_sd_premium": 42,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 42
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": null,
+  "lease_break_terms": "Lease Sec. 29 (quoted in early termination notice): tenant pays all rent and late fees until landlord re-rents; tenant assumes re-leasing costs; tenant pays leasing commission, rekey, $500 early termination fee, and any rent shortfall if re-rented for less."
+ },
+ "move_out": {
+  "move_out_date": "2024-05-20",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Move-out Repair: Move-out Invoice - Clean and Misc. items (form: Misc. Repairs)",
+   "category": "cleaning",
+   "amount_charged": 415,
+   "amount_open": 415,
+   "date_posted": "2024-06-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP_Move_Out_Calculation_.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Break Lease Fee",
+   "category": "lease_break_fee",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP_Move_Out_Calculation_.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Break Lease Fee: 50% Leasing Fee Due to Break Lease",
+   "category": "reletting_fee",
+   "amount_charged": 550,
+   "amount_open": 550,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP_Move_Out_Calculation_.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Re-inspection fee (Break Lease)",
+   "category": "other_fee",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP_Move_Out_Calculation_.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance Coordination Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP_Move_Out_Calculation_.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "4000 - Rent July 2024 (future rent after early vacate; form notes rent responsible through 8/6/24 or re-rent)",
+   "category": "rent_after_move_out",
+   "amount_charged": 1100,
+   "amount_open": 1100,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "4037 - SDRP Monthly Premium July 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 42,
+   "amount_open": 42,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "4038 - RBP with Ins July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "early_termination",
+   "quote": "I intend to vacate the above mentioned property on the 20 day of may 2024",
+   "file": "Docusign_Notice_of_Early_Vacating_(05-22-2024_-_05-22-2024).pdf"
+  },
+  {
+   "flag": "future_rent_claimed",
+   "quote": "Rent Responsible through 8/6 or Re-rent",
+   "file": "3317_Proctor_A_SDRP_Move-out_Form.pdf"
+  },
+  {
+   "flag": "ledger_balance",
+   "quote": "Balance as of 07/03/2024 ... Total Unpaid $2,971.00 Deposit Held $0.00",
+   "file": "Propertyware - On Demand Real Estate Solution.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-07-03",
+  "balance_due": 2971,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-27"
+ },
+ "pm_stated_amount_due": 2971,
+ "winning_document": "SDRP_Move_Out_Calculation_.pdf",
+ "reconciliation": "Statement lines 415+500+550+125+200 = 1,790 (= move-out calc, SDRP form and collections notice) plus July 2024 rent 1,100 + SDRP 42 + RBP 39 posted 07/01 on the 07/03 ledger = 2,971 = ledger Total Unpaid; no credits. If July charges are excluded, claim = 1,790.",
+ "notes": "Tenant gave early termination notice (moving to Ohio to care for ill parent) and vacated 5/20/2024; lease ran to 8/6/2024. June 2024 rent was paid by autopay; July 2024 rent/SDRP/RBP open on ledger printed on claim date 7/3/2024; PM form states tenant responsible for rent through 8/6/24 or re-rent (no re-let date given). $415 move-out repair is a lump 'Clean and Misc. items' invoice (cleaning, trash-out of left items, patch TV-mount holes, blind reinstall) with no vendor invoice or split. Move-out evaluation rated all areas Satisfactory. All rent before move-out paid; no lease document itself in folder (lease facts from sheet, ledger, addendum and notice).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_ba0a8fba-7d1",
+  "agent": "a8fa8410a7ef970b0"
+ }
+}

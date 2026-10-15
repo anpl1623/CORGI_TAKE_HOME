@@ -1,0 +1,276 @@
+{
+ "tracking": 30,
+ "documents": [
+  {
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2022-12-13",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": true,
+   "note": "Page 2: Rent Manager Statement 12/13/22 handwritten 'Updated 12-13-22 Final': charges 3,391.00, credit 100.00 (11/28 payment), balance due 3,291.00. Winning document. Page 3: 11/28/22 statement (painting reduced by $150, balance 3,391). Page 4: original 11/17/22 statement (balance 3,541) with comments explaining charges."
+  },
+  {
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2022-11-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": true,
+   "note": "Page 1: JPM final-account letter originally $3,541.00, hand-amended '$3,391.00 per updated final stmt 12/13/22' and '$3,291.00 after partial payment'."
+  },
+  {
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2022-12-13",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Page 5: Tenant Profile with open receivables (remaining amounts) totaling 3,291.00; lease end 5/31/23, move-in 5/20/22, move-out 11/15/22; SD held $0.00; 'Zero Deposit Program'."
+  },
+  {
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-05-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 6-10: Rental Agreement & Deposit Receipt; term commences 5/20/2022, 12-month fixed term to 5/31/2023; rent $1,745; amenity package $40/mo; $0 deposit; re-rent charge $1,000 for early/improper termination."
+  },
+  {
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-05-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Page 11: Zero Deposit Program Rental Agreement Addendum - $45.00 monthly in lieu of $2,800 security deposit (X selected)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1745,
+  "sd_program": "zero_deposit",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2800,
+  "monthly_sd_premium": 45,
+  "recurring_addons": [
+   {
+    "name": "Amenity Service Package",
+    "amount": 40
+   },
+   {
+    "name": "Zero Deposit Program Charge",
+    "amount": 45
+   }
+  ],
+  "lease_start": "2022-05-20",
+  "lease_end": "2023-05-31",
+  "current_term_start": "2022-05-20",
+  "current_term_end": "2023-05-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Tenant agrees not to terminate prior to 12 months from commencement (5/31/2023). Re-rent costs charged at $1,000 for improper or early lease termination, plus advertising, liquidated damages, all rent loss; Early Departure: tenant responsible for rent and utilities until end of current term / proper vacancy notice, owner to make reasonable effort to re-rent."
+ },
+ "move_out": {
+  "move_out_date": "2022-11-15",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Re-Rent Service (re-rent charge per rental agreement for early/improper lease termination)",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2022-10-25",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent - November 2022 (unpaid; month of move-out 11/15/22)",
+   "category": "rent_in_term",
+   "amount_charged": 1745,
+   "amount_open": 1745,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.65
+  },
+  {
+   "description": "Amenity Service Package - November 2022 (paid by 11/28 payment)",
+   "category": "other_fee",
+   "amount_charged": 40,
+   "amount_open": 0,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 5,
+   "confidence": 0.85
+  },
+  {
+   "description": "Zero Deposit Program Charge - November 2022",
+   "category": "sdrp_premium",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2022-11-01",
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning Service - Vacant carpet cleaning - System Kleen (161.00 less 60.00 paid)",
+   "category": "carpet_cleaning",
+   "amount_charged": 161,
+   "amount_open": 101,
+   "date_posted": "2022-11-07",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 5,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late Charge (November rent)",
+   "category": "late_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2022-11-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Cleaning - Vacancy general cleaning (non-normal wear: stove, bathrooms, light fixtures, floors, blinds)",
+   "category": "cleaning",
+   "amount_charged": 275,
+   "amount_open": 275,
+   "date_posted": "2022-11-17",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Painting - Non-normal wear related paint work (den drywall holes, master bedroom); reduced from 225 to 75",
+   "category": "painting",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2022-11-17",
+   "service_period_start": null,
+   "service_period_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "days_after_lease_end": null,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Web Pay VISA payment received 11/28/22 (PM applied 40.00 to amenity package and 60.00 to carpet cleaning)",
+   "amount": 100,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "705 meadowbrook RIS claim-Scott Terry.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "sd_program (info)",
+   "quote": "I/We agree to pay $45.00 monthly in lieu of making an up-front security deposit of $2800.00.",
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf"
+  },
+  {
+   "flag": "winning_document (info)",
+   "quote": "Tenant made $100 payment. Updated final balance to $3,291.00",
+   "file": "705 meadowbrook RIS claim-Scott Terry.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2022-12-13",
+  "balance_due": 3291,
+  "first_full_month": "2022-06",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2022-11-28"
+ },
+ "pm_stated_amount_due": 3291,
+ "winning_document": "705 meadowbrook RIS claim-Scott Terry.pdf (page 2: Statement 12/13/22 'Updated 12-13-22 Final')",
+ "reconciliation": "Open: 1000 + 1745 + 0 + 45 + 101 + 50 + 275 + 75 = 3291.00; $100 tenant payment already netted (charges 3,391 - 100) = 3291.00 vs PM balance due 3,291.00; matches. Earlier versions: 3,541 (11/17 original) and 3,391 (11/28, painting reduced $150).",
+ "notes": "Johnson Property Management (Rent Manager), single 11-page scanned PDF. Tenant profile move-out 11/15/22, but 'Vacant carpet cleaning' posted 11/07/22 suggests unit vacant earlier; re-rent fee posted 10/25/22 and last full payment 10/24/22 ($1,880 = Oct rent+amenity+ZDP+late). Only November rent charged; no rent beyond November claimed. November rent straddles move-out (11/1-11/15 in possession, 11/16-11/30 after). Sheet Max Benefit 2500 vs addendum waived deposit $2,800. No payment history for first full month (June 2022) in folder. Painting charge reduced $150 by PM (no explicit tenant dispute document). $100 nonrefundable portion retained at move-in in lieu of application fee (not a deposit).",
+ "extraction_confidence": 0.86,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "ac4ea9d9ddd5ecdc8"
+ }
+}

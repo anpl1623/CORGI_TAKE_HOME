@@ -1,0 +1,182 @@
+{
+ "tracking": 853,
+ "winning_document": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "doc_date": "2024-09-27",
+   "note": "Winning doc; itemized total 5039.58"
+  },
+  {
+   "file": "tenant_ledger-brian_wright-20241008.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-10-08",
+   "note": "Open rows 09/27 total 5039.58; confirms amounts and dates"
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary_Brian Wright_FinalBill.pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": true,
+   "doc_date": "2024-09-02",
+   "note": "Final utility bill 92.59 verified"
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 6387 Brian Wright.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "doc_date": "2024-09-27",
+   "note": "Stated total 5039.58 matches"
+  },
+  {
+   "file": "Inspections_Move-out_Brian Wright.pdf",
+   "doc_type": "inspection_photo_report",
+   "used_for_amounts": false,
+   "note": "Digest text only; estimate wording for pest and vacancy"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1428.95,
+  "lease_start": "2022-09-01",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-08",
+  "balance_due": 5039.58,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-08-12"
+ },
+ "line_items": [
+  {
+   "description": "Final utility bill 08/16-08/31/24",
+   "category": "utilities",
+   "amount_open": 92.59,
+   "service_period_start": "2024-08-16",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Additional cleaning needed",
+   "category": "cleaning",
+   "amount_open": 99,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet replacement",
+   "category": "flooring",
+   "amount_open": 864.57,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Drip pans cleaning",
+   "category": "cleaning",
+   "amount_open": 75,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Pest control service (roaches)",
+   "category": "pest_remediation",
+   "amount_open": 1148.42,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Vacancy loss, September 2024 rent",
+   "category": "rent_after_lease_end",
+   "amount_open": 1350,
+   "date_posted": "2024-09-27",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 1,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Vacancy loss, October 2024 rent",
+   "category": "rent_after_lease_end",
+   "amount_open": 1350,
+   "date_posted": "2024-09-27",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Light globe installation",
+   "category": "other_damage",
+   "amount_open": 60,
+   "date_posted": "2024-09-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "deposit_disposition_amount_due_brian_wright_092724.pdf",
+   "flag": "flooring_without_support",
+   "quote": "carpet replacement  $864.57"
+  }
+ ],
+ "pm_stated_amount_due": 5039.58,
+ "reconciliation": "Open lines 5039.58 minus credits 0.00 equals PM stated 5039.58 (09/27 statement and demand letter); no difference.",
+ "extraction_confidence": 0.75,
+ "notes": "Vacancy loss 2700 is one PM lump; split 1350 per month for the 2-month renewal in the digest lease excerpt. Pest and vacancy lines are marked estimates in the inspection text but billed on the statement. Lease start 2022-09-01 from sheet conflicts with the 09/01/2023 term in the lease excerpt; sheet used. Sheet monthly rent 1428.95 equals rent 1350 plus pet 39, trash 20, TLL 19.95. Tenant email asks for an itemized bill; not flagged as a dispute. Briana Tindall UT invoice is another tenant and was not used.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab7c09a65cb43b5e4"
+ }
+}

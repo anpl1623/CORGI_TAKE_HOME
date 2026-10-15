@@ -1,0 +1,268 @@
+{
+ "tracking": 790,
+ "winning_document": "SDRP Demand Letter Move Out Calculation .pdf",
+ "pm_stated_amount_due": 2915,
+ "reconciliation": "sum(open lines) 75.00+585.00+1540.00+115.00+350.00+250.00 = 2915.00, credits 0.00, vs PM stated 2915.00 (PURE SDRP Move Out Calculation 08/23/2024 and Propertyware ledger agree); no difference. The 1,540 line has no description anywhere, so its category is inferred.",
+ "documents": [
+  {
+   "file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc: PURE SDRP Move Out Calculation, total balance due 2,915.00. Identical copy 'SDRP Move Out Calculation  10.41.18 PM.pdf' ignored."
+  },
+  {
+   "file": "SDRP Move Out Calculation  10.41.18 PM.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": false,
+   "note": "Duplicate of the winning statement (same size and text)."
+  },
+  {
+   "file": "Ledger 10.41.18 PM.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Propertyware, newest-first. Page 1 opened to read the 1,540 line, which has no description. Six open 08/23/2024 charges = 2,915.00. All rent, SDRP and RBP charges are paid history."
+  },
+  {
+   "file": "Demand Letter and Resident Response.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "PM/tenant email thread 08/23-08/27/2024. Tenant disputes the fridge/freezer, coordination fee, 1,540, carpet re-clean and paint. Duplicates: Resident Correspondence.pdf and Resident and PM Company Correspondence.pdf (same text, different print timestamps)."
+  },
+  {
+   "file": "Resident Correspondence.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "note": "Duplicate of Demand Letter and Resident Response.pdf."
+  },
+  {
+   "file": "Resident and PM Company Correspondence.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "note": "Duplicate of Demand Letter and Resident Response.pdf."
+  },
+  {
+   "file": "1457 Old Whitesville Rd_Move Out Evaluation_2024-07-02 10.41.18 PM.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-07-02",
+   "used_for_amounts": false,
+   "note": "Text only. Strong pet odor in flooring of 3 bedrooms, flea treatment needed, touch-up paint throughout, fridge/freezer clean, lawn overgrown. No amounts."
+  },
+  {
+   "file": "Invoice 22412.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-23",
+   "used_for_amounts": false,
+   "note": "HiredHelpr lawn service 75.00. Same as the ledger Landscaping Invoice line, so counted once."
+  },
+  {
+   "file": "Docusign_PURE_Lease_RENEWAL_v_2023_(03-08-2024_-_03-08-2024)_(1).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-03-12",
+   "used_for_amounts": false,
+   "note": "Renewal term 04/01/2024-04/30/2024, rent 1,800, deposit 0.00, 250 admin fee clause (paragraph 8). Duplicate '(1) 10.41.18 PM' copy ignored."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(03-08-2024_-_03-08-2024).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-03-12",
+   "used_for_amounts": false,
+   "note": "Deposit waiver addendum, 78 per month, signed 03/12-03/15/2024. Duplicate copy ignored."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(03-08-2024_-_03-08-2024) 10.41.18 PM.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-03-12",
+   "used_for_amounts": false,
+   "note": "Duplicate of the addendum above."
+  },
+  {
+   "file": "Docusign_PURE_Lease_RENEWAL_v_2023_(03-08-2024_-_03-08-2024) (1) 10.41.18 PM.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-03-12",
+   "used_for_amounts": false,
+   "note": "Duplicate of the renewal lease."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1800,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-04-30",
+  "current_term_start": "2024-04-01",
+  "initial_term_months": null,
+  "is_month_to_month": true,
+  "is_renewal": true,
+  "lease_break_terms": null,
+  "lease_end": "2024-04-30",
+  "lease_start": "2024-04-01",
+  "monthly_sd_premium": 78,
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly premium",
+    "amount": 78
+   },
+   {
+    "name": "RBP with insurance",
+    "amount": 39
+   },
+   {
+    "name": "Animal fee (pet rent)",
+    "amount": 50
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-06-29",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 60,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Landscaping invoice: overgrowth at time of move-out (HiredHelpr invoice 22412, 07/23/2024)",
+   "category": "landscaping_lawn",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Carpet cleaning, pet enzyme treatment required for odor",
+   "category": "pet_damage_odor",
+   "amount_charged": 585,
+   "amount_open": 585,
+   "date_posted": "2024-08-23",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "SD Forfeit (MoveOut charges) 1,540.00 with no description. Inferred to be touch-up painting throughout, since the tenant's reply disputes painting in answer to this charge and the evaluation lists touch-up paint in most rooms. Not confirmed by any document.",
+   "category": "painting",
+   "amount_charged": 1540,
+   "amount_open": 1540,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Fridge and freezer clean",
+   "category": "cleaning",
+   "amount_charged": 115,
+   "amount_open": 115,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Flea treatment (hatched eggs/fleas at property)",
+   "category": "pet_damage_odor",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-08-23",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Maintenance coordination fee (flat 250 per lease paragraph 8 admin fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Demand Letter Move Out Calculation .pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Demand Letter and Resident Response.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "How can you justify 115.00 for a fridge and freezer clean?"
+  },
+  {
+   "file": "Demand Letter and Resident Response.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "there is a charge for 1540.00 with no explanation attached"
+  },
+  {
+   "file": "Demand Letter and Resident Response.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "you have no right to charge us for additional carpet cleaning when we completed that step"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-23",
+  "balance_due": 2915,
+  "first_full_month": "2023-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-01"
+ },
+ "extraction_confidence": 0.78,
+ "notes": "Sheet lease term is the one-month renewal 04/01-04/30/2024. The tenant stayed through 06/29/2024 and paid May and June rent at 1,800 plus SDRP, RBP and animal fee, so occupancy was month-to-month. Holdover is 60 days after lease end with no open rent. The PM email calls the move-out date 06/30; the sheet says 06/29, which I used. Tenancy began 03/03/2023 (ledger first rent charge); March was a partial month, so the first full month is April 2023, with rent paid 04/13/2023 and the 240.77 late fee paid later. The main uncertainty is the undescribed 1,540 line. Move-out inspection was 07/02/2024 and the tenant says it was cancelled and she was not present. No deposit was held (SDRP).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a415dbd5095ee129d"
+ }
+}

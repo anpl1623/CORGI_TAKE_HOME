@@ -1,0 +1,264 @@
+{
+ "tracking": 835,
+ "winning_document": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf",
+ "pm_stated_amount_due": 391.33,
+ "reconciliation": "sum(open lines) 208.33+5.00+1.67+1.33+175.00 = 391.33; credits 0 (deposit 0.00, no prepayments); matches PM Security Deposit Transmittal 391.33 and 9/30/2024 ledger Total Unpaid 391.33 (SDT lumps 8.00 'prorated utilities' = ledger 5.00 utility + 1.67 garbage + 1.33 pest control).",
+ "documents": [
+  {
+   "file": "2023_MF_Lease_Agreement_89_Atlanta_Unit_5_Alv (1).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Rent 1250, term to 8/31/2024; Rhino clause is boilerplate and the Rhino Addendum box is unchecked; early termination = 4 months rent liquidated damages."
+  },
+  {
+   "file": "89 Atlanta St unit 5.pdf",
+   "doc_type": "inspection_photo_report",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "8 pages of unit photos only, no text or amounts."
+  },
+  {
+   "file": "89 atlanata St unit 5 - MOI.docx.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Move Out Inspection checklist, no pet or odor comments, no amounts."
+  },
+  {
+   "file": "89 atlanta St Unit 5 - SDT - Alvarado.docx(1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Identical duplicate of the SDT copy below (same size)."
+  },
+  {
+   "file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Transmittal, total deductions 391.33, deposit 0.00; winning accounting document."
+  },
+  {
+   "file": "Ledger_-_Unit_5_-_Alvarado.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Propertyware, newest-first. Balance 0.00 as of 9/11/2024; used for payment history and add-on amounts."
+  },
+  {
+   "file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open unpaid charges 391.33 as of 9/30/2024; used to split the lumped utilities line."
+  },
+  {
+   "file": "Screenshot_20240930_120110_Gmail.jpg",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule."
+  },
+  {
+   "file": "Screenshot_20240930_120117_Gmail.jpg",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule."
+  },
+  {
+   "file": "Screenshot_20240930_120120_Gmail(1).jpg",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Duplicate of Screenshot_20240930_120120_Gmail.jpg; not opened."
+  },
+  {
+   "file": "Screenshot_20240930_120120_Gmail.jpg",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule."
+  },
+  {
+   "file": "Screenshot_20240930_120124_Gmail.jpg",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Not opened per efficiency rule."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1250,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 43,
+  "lease_start": "2023-08-23",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2023-08-23",
+  "current_term_end": "2024-08-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination by tenant: pay rent through notice period plus 4 months rent as liquidated damages (Par. 12). Holding over: per-day holding-over fee (Par. 30).",
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 43
+   },
+   {
+    "name": "Utility Charge",
+    "amount": 30
+   },
+   {
+    "name": "Garbage and Recycling",
+    "amount": 10
+   },
+   {
+    "name": "Pest Control",
+    "amount": 8
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-06",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 6,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Prorated rent for 5 days in September 2024 (holdover after lease end 8/31/2024; keys returned 9/6)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 208.33,
+   "amount_open": 208.33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-05",
+   "days_after_lease_end": 5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility charge prorated for 5 days (part of SDT 'prorated utilities 8.00')",
+   "category": "utilities",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Garbage prorated for 5 days (part of SDT 'prorated utilities 8.00')",
+   "category": "utilities",
+   "amount_charged": 1.67,
+   "amount_open": 1.67,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Pest control prorated for 5 days (recurring monthly pest control; part of SDT 'prorated utilities 8.00')",
+   "category": "pest_routine",
+   "amount_charged": 1.33,
+   "amount_open": 1.33,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Propertyware - On Demand Real Estate Solution.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Remove items left in unit and complete move out clean to include appliances (single lump, no split between trash removal and cleaning)",
+   "category": "cleaning",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "89 atlanta St Unit 5 - SDT - Alvarado.docx.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Ledger_-_Unit_5_-_Alvarado.pdf",
+   "flag": "sdrp_program_not_other_provider",
+   "quote": "4037 - SDRP Monthly Premium $43.00 (charged monthly, all paid)"
+  },
+  {
+   "file": "2023_MF_Lease_Agreement_89_Atlanta_Unit_5_Alv (1).pdf",
+   "flag": "other_provider_ruled_out",
+   "quote": "Rhino Addendum (box not checked in the addenda list)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-09-30",
+  "balance_due": 391.33,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-05"
+ },
+ "extraction_confidence": 0.9,
+ "notes": "Lease ended 8/31/2024 (notice given 8/5/2024); keys returned 9/6/2024; PM charged 5 days prorated rent at 1250/30 as holdover. No SD addendum in folder; SDRP evidenced by monthly premium on ledger and sheet policy 18065R. Lease text mentions Rhino as a deposit alternative but the Rhino addendum box is unchecked and the PM ledger bills SDRP, so treated as SDRP. No pet fees or odor evidence. Photo PDF (8 pages) contained only pictures. Gmail screenshots not opened.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "ad4c5da53d1910249"
+ }
+}

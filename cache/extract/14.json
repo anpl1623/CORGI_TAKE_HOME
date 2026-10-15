@@ -1,0 +1,388 @@
+{
+ "tracking": 14,
+ "documents": [
+  {
+   "file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2022-09-07",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": true,
+   "note": "Scanned packet: GDAA move-out deposit letter (pp1-2) + TXR-2216 Itemization of Security Deposit (pp3-5), move-out 08/08/2022, balance owed (26,552.38). Vendor invoices referenced as 'sent in separate email' are NOT in folder."
+  },
+  {
+   "file": "128EAR - MCCRAY LEASE AGREEMENT (2).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-01",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "TXR lease 03/11/2022-03/09/2023, rent 2,095, SD 3,500 stated, para 27 default/acceleration and reletting costs, para 28 no early-termination right. Read via text layer."
+  },
+  {
+   "file": "128EAR - MCCRAY NEW TENANT ADDENDUMS.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-01",
+   "opened_visually": true,
+   "revised": false,
+   "used_for_amounts": false,
+   "note": "GDAA addenda incl. Security Deposit Waiver (YES checked, $69/month in lieu of $3,500), Tenant Benefit Package (Plan A $36 / Plan B $29), tenant charges schedule (posting fee $35 etc.)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2095,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-03-11",
+  "current_term_end": "2023-03-09",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2022-03-11",
+  "lease_end": "2023-03-09",
+  "lease_break_terms": "No tenant early-termination right (para 28). On default (para 27B): unpaid rents for remainder of lease accelerated; tenant liable for lost rent, reletting costs (leasing/advertising fees), repairs, eviction costs/attorney fees, collection costs. Holdover rent 3x daily rent.",
+  "monthly_sd_premium": 69,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver fee (Renters choice program)",
+    "amount": 69
+   },
+   {
+    "name": "Tenant Benefit Package (Plan A, incl. liability/renters coverage)",
+    "amount": 36
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 3500
+ },
+ "move_out": {
+  "move_out_date": "2022-08-08",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear - maintenance (per invoices sent by separate email, not in folder)",
+   "category": "repairs_damage",
+   "amount_charged": 4500,
+   "amount_open": 4500,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "date_posted": "2022-09-07",
+   "confidence": 0.6
+  },
+  {
+   "description": "Rekey (part of itemization line 1)",
+   "category": "rekey_locks",
+   "amount_charged": 171.04,
+   "amount_open": 171.04,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "date_posted": "2022-09-07",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet pad and vinyl repair (itemization line 2, costs to maintain the property)",
+   "category": "flooring",
+   "amount_charged": 1536.01,
+   "amount_open": 1536.01,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "date_posted": "2022-09-07",
+   "confidence": 0.85
+  },
+  {
+   "description": "Unpaid rent July 2022",
+   "category": "rent_in_term",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-07-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unpaid rent August 2022 (full month as charged; tenant moved out 08/08/2022)",
+   "category": "rent_in_term",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-08-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Accelerated rent September 2022",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-09-01",
+   "service_period_end": "2022-09-30",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent October 2022",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent November 2022",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-11-01",
+   "service_period_end": "2022-11-30",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent December 2022",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-12-01",
+   "service_period_end": "2022-12-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent January 2023",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2023-01-01",
+   "service_period_end": "2023-01-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent February 2023",
+   "category": "rent_after_move_out",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2023-02-01",
+   "service_period_end": "2023-02-28",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.85
+  },
+  {
+   "description": "Accelerated rent March 1-9, 2023 (to lease expiration; 9/30 of 2,095)",
+   "category": "rent_after_move_out",
+   "amount_charged": 628.5,
+   "amount_open": 628.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-09",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Unpaid late charges July and August 2022",
+   "category": "late_fee",
+   "amount_charged": 314.25,
+   "amount_open": 314.25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Costs of reletting (para 27, tenant in default)",
+   "category": "reletting_fee",
+   "amount_charged": 2095,
+   "amount_open": 2095,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Attorney's fees / court costs - eviction proceeding",
+   "category": "eviction_legal_court",
+   "amount_charged": 302.58,
+   "amount_open": 302.58,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  },
+  {
+   "description": "Mailing costs for notices - posting fee (certified late-rent notice per GDAA tenant charges)",
+   "category": "eviction_legal_court",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 4,
+   "confidence": 0.55
+  },
+  {
+   "description": "Tenant benefit program (2 x $36 Plan A, Jul-Aug 2022)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 72,
+   "amount_open": 72,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  },
+  {
+   "description": "Renters choice program (2 x $69 security deposit waiver fee, Jul-Aug 2022)",
+   "category": "sdrp_premium",
+   "amount_charged": 138,
+   "amount_open": 138,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2022-07-01",
+   "service_period_end": "2022-08-31",
+   "source_file": "128 Earl Keen tenant closeout packet scan.pdf",
+   "source_page": 4,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": true,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "See invoices sent in separate email ... Line (2) carpet pad and vinyl repair $1536.01",
+   "file": "128 Earl Keen tenant closeout packet scan.pdf"
+  },
+  {
+   "flag": "missing_ledger",
+   "quote": "No tenant ledger in folder; only closeout packet, lease and addendums",
+   "file": "128 Earl Keen tenant closeout packet scan.pdf"
+  },
+  {
+   "flag": "termination_eviction",
+   "quote": "Attorney's fees, costs of court ... (describe proceeding): Eviction $302.58",
+   "file": "128 Earl Keen tenant closeout packet scan.pdf"
+  },
+  {
+   "flag": "sd_program_deposit_waiver",
+   "quote": "YES $69.00 per month You waive payment of the security deposit $3,500.00",
+   "file": "128EAR - MCCRAY NEW TENANT ADDENDUMS.pdf"
+  },
+  {
+   "flag": "accelerated_rent",
+   "quote": "Unpaid or accelerated rent ... accelerated09-01-22 to 03-09-23; July and August 2022 $4190",
+   "file": "128 Earl Keen tenant closeout packet scan.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": null,
+  "balance_due": null,
+  "first_full_month": "2022-04",
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": null
+ },
+ "pm_stated_amount_due": 26552.38,
+ "winning_document": "128 Earl Keen tenant closeout packet scan.pdf",
+ "reconciliation": "Sum open lines 26,552.38 - credits 0.00 = 26,552.38 vs PM itemization balance (26,552.38): exact match (line 3 17,388.50 split into Jul/Aug rent 4,190 + accelerated Sep-22..Mar 9-23 13,198.50).",
+ "extraction_confidence": 0.85,
+ "notes": "TXR-2216 itemization signed 09/07/2022 (PURE Operating LLC for GDAA). No deposit tendered (blank). Line (1) 4,671.04 = maintenance 4,500 + rekey 171.04; line (2) 1,536.01 carpet pad/vinyl repair; no vendor invoices or photos in folder. Accelerated rent per lease para 27B(2) for 09/01/2022-03/09/2023 plus a full month reletting charge. Eviction implied by line 14. 'Renters choice program' $138 inferred = 2 months of $69 SD waiver fee; 'tenant benefit program' $72 = 2 x $36 Plan A. First full month April 2022; no ledger so payment history unknown. Lease file and addendum file are near-identical sizes (same envelope).",
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "a7fd79e1aef5941b9"
+ }
+}

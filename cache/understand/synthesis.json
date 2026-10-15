@@ -1,0 +1,542 @@
+{
+ "decision_procedure": [
+  "STEP 0 - NORMALIZE AND ROUTE. (a) Ground truth: a Status of Posted, Approved or Approved Revised is paid, and the paid amount is the cumulative Approved Benefit Amount (initial payment plus any supplements). Declined means $0 whatever the cell says (440, 568, 803, 829, 1092, 1168 hold amounts; 673 holds text). Test Claim, Pending Docs from PM, In Process, HOLD and New are not final, so do not score them. (b) Normalize the PM name to a family and use Treaty #: T00001 = PURE network + New Heights + GDAA + AHI; T00002 = StarPointe, RentWerx, Blue Fox, Johnson, PMS Columbus, Forefront, Park Place, 1st Choice, Hendricks, Reedy Creek, Century 21; T00003 = Perry Reid; T00004 = Excalibur; T00005 = Reliant. (c) Era by Claim Date: A <2023-01-01; B 2023-01-01..2023-10-31; C 2023-11-01..2024-04-23; D >=2024-04-24. (d) Max Benefit comes from the sheet and is never derived. The SD-waiver addendum amount is only a cross-check, and the sheet wins when they differ (754, 952, 507, 637: addendum 1200/1695, sheet 1500/2000, sheet used). Ignore 'Amount of Claim' (misaligned).",
+  "STEP 1 - HARD DECLINES -> payout 0 (check in this order; record the reason). 1a Test claim: fake address '123 Main', PM 'Best PM'/'TEST PM'/'YRIG Inc', rent 1.00, marketing docs (246, 247, 591, 861, 862). Pay 0 and exclude from metrics. 1b No policy: sheet Policy # blank (33 of 33 final non-test rows Declined, 0 of 1100 Posted), OR the docs show a traditional cash deposit with no SDRP addendum, coverage from another provider (RHINO), or premiums never collected/not in QL (301, 319, 418, 1033). A blank Max Benefit with a Policy # present is a FLAG, not a decline (12 Posted vs 5 Declined). 1c Duplicate: same address+tenant as an earlier claim -> 0 (731 dup of 702). 1d PM voided/withdrew the claim, the tenant never moved in, the tenant is still in possession, or an SCRA military letter exists -> 0 (742, 172, 564, 622). 1e The tenant paid or settled with the PM, a payment arrangement exists, the PM/owner waived the balance, or the ledger balance is <= 0 -> 0 (132, 252, 312, 543, 673). 1f First full month's rent not paid in full by its month (or the first payment bounced) -> 0, ONLY for claims dated >= 2023-11-27. Earlier (eras A/B) these were paid. Known exceptions were paid anyway (606, 633, 665; goodwill 793). 1g Short-term lease (initial term <= 3 months, from the lease doc, not the sheet dates) -> 0 (818, 956; claims from 2024-09). 1h Prior carrier, i.e. move-out before 2023-12-01 AND the policy was written by the previous administrator -> 0. This is rare (440, 836); do NOT apply it to every pre-12/1/23 move-out. 1i After STEP 3, eligible amount == 0 (pet-only, utilities-only, month-to-month-rent-only, fire/flood-only) -> 0 (590, 870, 873, 989, 537, 375, 968, 1205, 301).",
+  "STEP 2 - ERA A/B SHORTCUT (Claim Date < 2023-11-01): payout = min(PM net balance due on the latest PM accounting doc, Max Benefit). The balance includes ALL charges (late fees, premiums, eviction fees, holdover rent, utilities, pet damage, reletting, coordination fees). No exclusions apply and the rent cap does not apply. Evidence: 18 (paid 4000 only reachable with fees), 215 (late fee + premiums paid), 97 (pet), 163 (utilities), 135 (holdover), 107 (adjuster excluded commission + coordination fee, management paid them as a +777 top-up). If no itemization exists in the folder, predict Max Benefit (2022: 31/33 paid Max; 2023: ~62%). If the only doc is one vendor invoice, pay the invoice (23).",
+  "STEP 3 - ERA C/D ELIGIBLE LINE ITEMS. 3.1 Start from the OPEN (unpaid) PM charges on the single winning accounting document (see doc_handling). Use only what the PM billed the tenant. Never add charges the PM did not bill (445, 507, 637, 843 got no imputed lease-break/future rent) and never use vendor estimates over the billed amount (337, 300). 3.2 Map each line to a taxonomy category and apply category_coverage. Default COVERED: cleaning, carpet_cleaning (non-pet), repairs_damage, painting, flooring (non-pet, non-water), trash_removal, rekey_locks, keys_remotes, appliance, rent_in_term, rent_prorated. Default EXCLUDED: late_fee, nsf_fee, admin_itemization_fee (itemization, admin, paper/in-office/convenience payment fees, markup fees), eviction_legal_court (filing, court, writ, legal, posting/3-day notice), sdrp_premium, rbp_insurance_liability_fee, pet_damage_odor, pet_fee_rent, hoa_violation, collections_fee, and 'other' fees (amenity package, garage rent, unspecified non-refundable fees, move-in/out special repayment, asset-protection/risk-mitigation, lease-violation fee, re-inspection, missing household items, sales tax on excluded items). Also exclude repairs_damage/flooring caused by water, plumbing leaks, washer floods, fire or flood (other policy: renters/HO4/TLL; 506, 1232, 561).",
+  "STEP 3.3 - RENT AND TIME RULES (era C/D). (i) Rent for periods the tenant was IN POSSESSION within the lease term is covered at the open amount (the shortfall, not a full month: 410 paid 41 + 96; 349). This holds for evictions too (699: Jan-May rent). (ii) Partial months are prorated as monthly_rent x days / days_in_that_month (764: 935x4/31 = 120.65). (iii) Lease end = end of the CURRENT term (renewal lease/addendum if present). Rent or fees for days after lease end (holdover, month-to-month, 'future months') are EXCLUDED from claims dated >= 2023-11 (417, 835, 536, 552, 966). Exception: a holdover of <= 3 days up to the actual move-out is covered at the PM charge (393, 952, 935). 2025 PURE m2m renewal: one month rent (1229). (iv) EARLY TERMINATION: form one lease-break bucket = PM-charged lease-break/early-termination fee + reletting/leasing commission/re-rent fee + any rent charged for periods AFTER move-out within the term. Pay min(bucket, 1 x base monthly rent) (764, 752, 1000, 1213, 560, 574, 578, 1206, 1162 where reletting 250 alone was paid). Pay it on top of in-possession unpaid rent and prorated rent up to move-out. If the bucket is empty (PM charged nothing), pay nothing for it. Military/SCRA tenants: no lease-break charge (44). (v) Sublimits: landscaping_lawn total <= $500 (730, 858, 1102). maintenance_coordination_fee <= $200, and only for the PURE SC/Charleston and New Heights flat move-out coordination fee (311, 468, 661, 830). PURE Alabama 'lease violation/coordination fee' and other PMs' handling fees are 0. Utilities: PMS Columbus (Property Services of Columbus, OH) covered in full (625, 627, 985, 1242); StarPointe capped at $150 for claims >= 2024-04 (785, 1004, 1110, 1182); everyone else 0. Pest control: covered only for move-out infestation remediation (bed bugs, roaches: 783, 843), 0 for routine/preventive/flea work (455, 1061, 754, 790). (vi) Carpet/flooring replacement with no photos/invoices, or of worn carpet: adjusters paid a fraction (1/3 in 1164, partial in 898, 993, 1052). Compute the full amount but FLAG for review. (vii) Lines that mix pet and non-pet work: exclude the pet part when it is stated, otherwise flag (711 residual 110).",
+  "STEP 4 - CREDITS. eligible_net = sum(eligible open amounts) - PM-applied credits. Subtract: a cash security deposit or refundable pet deposit the PM APPLIED on the statement/ledger (163, 393, 1007, 1009), a prepaid rent or tenant credit balance (507, 693, 881), a receipt credit (783), a rent refund after re-let (258), and post-vacate rent reversals or concessions already netted by the PM (215, 63). Do NOT subtract: Agreed Tenant Settlement / Collected Amount (YRIG's later recovery from the tenant; 239 claims, never netted: 300, 488, 627, 952, 1013), a lease-listed deposit not shown as applied (985, 394), or hypothetical 'collection fee' lines. If the ledger shows unallocated tenant payments, allocate them as the PM did (oldest charge first, across all charges, including excluded ones) BEFORE choosing the open covered charges. Never apply payments only against covered items (711).",
+  "STEP 5 - CAPS. ceiling = Max Benefit. RENT CAP: if Treaty == T00001 AND Claim Date >= 2024-04-24 AND effective term start >= 2023-07-01 (effective start = lease start, or lease end - 365 days when the lease term is > 400 days, i.e. a renewal; prefer document lease dates), then ceiling = min(ceiling, ceil(base_monthly_rent / 500) x 500). An exact multiple maps to itself (2000->2000). Fit: 26/33 binding T00001 cases capped vs 3/76 otherwise; sample 657, 846, 868 capped; 661 not capped (term start 2023-03-10); 478 not capped (pre-2024-04-24). Use base rent from the lease, not sheet rent that bundles fee-in-lieu/garbage/amenity add-ons (625, 627, 946, 985). Do NOT apply the cap to T00002/T00003/T00004 unless an adjuster note explicitly says 'cannot exceed' (T00002 ~10%; Perry Reid never: 637, 764, 904; Blue Fox 843; Century 21 1013). Instead set flag cap_would_apply_under_guidelines. payout = max(0, min(eligible_net, ceiling)).",
+  "STEP 6 - ROUNDING AND OUTPUT. Report to the cent with no rounding. Two 2023 approvals truncated cents (107: 1442.50->1442; 215: 2260.92->2260), so score with a +/-$1.00 tolerance. Output payout, era, ceiling_used (max|rent_cap), decline_reason, per-line decisions, and flags (missing_itemization, cap_would_apply_under_guidelines, partial_flooring_allowance, mixed_pet_line, sheet_doc_mismatch).",
+  "STEP 7 - NO-DOCUMENT FALLBACK (folder empty, or no PM itemization/ledger/letter with amounts). Eras A/B: Max Benefit. Era C/D Eviction: the ceiling from STEP 5 (evictions hit the ceiling 73-89% of the time). Era C/D Move-Out: the ceiling, marked low confidence (only ~40% exact). Note: 228 sheet claims (trackings 1018+ and 46, 85, 247, 837, 964 ...; 204 of them from 2025) currently have NO local folder. Re-pull them from the Drive bulk folder before relying on this fallback.",
+  "STEP 8 - KNOWN NON-COMPUTABLE OVERRIDES (do not model; flag only): management goodwill payments, usually one month rent or Max (454, 691, 697, 793, 808, 1020); supplemental top-ups to Max in 2023 (44, 74, 105, 475); adjuster 'reasonable amount' settlements when the PM lacks invoices (807, 898, 1164); manual cap overrides (1081, 1150 paid Max despite the cap note)."
+ ],
+ "category_coverage": [
+  {
+   "category": "rent_in_term",
+   "treatment": "covered",
+   "condition": "Unpaid rent for periods the tenant was in possession within the CURRENT lease term, at the open shortfall amount. Includes eviction cases. Rent for periods AFTER move-out within the term goes into the lease-break bucket (max one month) in era C/D. Counts: support = 18 sample claims (5 decisive + 13 cap-bound consistent) + ~298 adjuster notes.",
+   "support": 316,
+   "contradict": 0,
+   "examples": [
+    410,
+    349,
+    764,
+    699,
+    812,
+    980,
+    49
+   ]
+  },
+  {
+   "category": "rent_prorated",
+   "treatment": "covered",
+   "condition": "Prorated rent up to the move-out date: monthly_rent x days / days_in_month (actual month length). Support = 4 sample + 37 notes.",
+   "support": 41,
+   "contradict": 0,
+   "examples": [
+    764,
+    522,
+    1009,
+    1206,
+    215
+   ]
+  },
+  {
+   "category": "rent_after_lease_end",
+   "treatment": "conditional",
+   "condition": "Era A/B: paid. Era C/D (claims >= 2023-11): EXCLUDED (holdover, month-to-month, future months past lease end). Exception: holdover of <= 3 days through actual move-out is covered (393, 952, 935). 2025 PURE m2m renewal paid one month rent (1229). Contradict = 633 (RentWerx eviction past the sheet lease end paid Max; likely an unrecorded renewal).",
+   "support": 47,
+   "contradict": 1,
+   "examples": [
+    417,
+    835,
+    536,
+    966,
+    393,
+    952,
+    135
+   ]
+  },
+  {
+   "category": "lease_break_fee",
+   "treatment": "conditional",
+   "condition": "Covered only when the PM charged it, as part of the lease-break bucket (lease-break fee + reletting fee + post-move-out rent within the term), capped at ONE month of base rent (era C/D). Era A/B: paid as charged. Never imputed. Not chargeable to SCRA/military tenants (44).",
+   "support": 198,
+   "contradict": 0,
+   "examples": [
+    764,
+    752,
+    1000,
+    1213,
+    1206,
+    578,
+    107
+   ]
+  },
+  {
+   "category": "reletting_fee",
+   "treatment": "conditional",
+   "condition": "Era A/B: covered on top of everything (107, 17). Era C/D: no reletting fee ON TOP of one month's rent. It is counted inside the lease-break bucket (min(bucket, 1 x rent)), so a reletting fee alone is paid when no lease-break rent is owed (1162: 250). Contradict = 522 (Johnson, 2024-04: re-rent 1000 + Feb prorated rent through the new renter 751 = 1751 > rent 1145, paid in full).",
+   "support": 14,
+   "contradict": 1,
+   "examples": [
+    764,
+    1162,
+    1213,
+    752,
+    560,
+    522
+   ]
+  },
+  {
+   "category": "cleaning",
+   "treatment": "covered",
+   "condition": "Move-out/make-ready cleaning beyond normal turnover. Pet-specific cleaning lines are excluded (1007). 2023 adjusters objected to 'regular cleaning' (84, 95) but that rarely changed the final amount.",
+   "support": 28,
+   "contradict": 2,
+   "examples": [
+    300,
+    410,
+    690,
+    843,
+    881,
+    883,
+    1013
+   ]
+  },
+  {
+   "category": "carpet_cleaning",
+   "treatment": "conditional",
+   "condition": "Covered when it is an actual service for soiling/stains. Excluded when pet-related (urine/odor/deodorizing: 637, 711, 859, 969) or when it is a flat lease-mandated 'per lease' non-refundable fee (776). Perry Reid paid a turnover carpet clean of 90 in 643 but excluded a 'per lease' 90 in 776.",
+   "support": 9,
+   "contradict": 1,
+   "examples": [
+    300,
+    522,
+    625,
+    643,
+    690,
+    843,
+    1007,
+    776
+   ]
+  },
+  {
+   "category": "repairs_damage",
+   "treatment": "covered",
+   "condition": "Damage beyond normal wear and tear (drywall, doors, blinds, screens, fixtures, bulbs, filters, HVAC filters, small items are paid without carve-out). Excluded when caused by water/plumbing leaks/appliance floods/fire/flood, which go to renters/HO4/TLL (506, 1232, 561, 714, 1176).",
+   "support": 27,
+   "contradict": 1,
+   "examples": [
+    276,
+    350,
+    507,
+    690,
+    783,
+    843,
+    1013,
+    95
+   ]
+  },
+  {
+   "category": "painting",
+   "treatment": "covered",
+   "condition": "Touch-up/repaint for tenant damage. Paid as the PM billed it (the PM may already charge only a pro-rated share, e.g. 868 '1/2 charged').",
+   "support": 9,
+   "contradict": 0,
+   "examples": [
+    445,
+    484,
+    693,
+    952,
+    1007,
+    1013,
+    311
+   ]
+  },
+  {
+   "category": "flooring",
+   "treatment": "conditional",
+   "condition": "Covered for tenant damage beyond wear and tear, when not pet-caused and not water damage. Replacing old carpet without photos/invoices was paid at a fraction (1/3 in 1164; partial in 898, 993, 1052): compute the full amount and flag. Contradict = 506 (water-damage flooring 3901 excluded under the water rule).",
+   "support": 9,
+   "contradict": 1,
+   "examples": [
+    276,
+    363,
+    507,
+    1007,
+    1164,
+    993,
+    506
+   ]
+  },
+  {
+   "category": "trash_removal",
+   "treatment": "covered",
+   "condition": "Trash-out, haul-off, item/furniture removal, writ put-out.",
+   "support": 13,
+   "contradict": 0,
+   "examples": [
+    300,
+    363,
+    506,
+    637,
+    764,
+    881,
+    1013
+   ]
+  },
+  {
+   "category": "landscaping_lawn",
+   "treatment": "conditional",
+   "condition": "Covered with a sublimit of $500 total per claim (notes from 2024-08: 730, 858, 1102; apply to all era C/D). Contradict = 283 (2023-11 'landscaping not approved', drainage dispute) and 95 (2023 comment).",
+   "support": 13,
+   "contradict": 2,
+   "examples": [
+    300,
+    337,
+    363,
+    393,
+    690,
+    843,
+    730,
+    1102
+   ]
+  },
+  {
+   "category": "pest_control",
+   "treatment": "conditional",
+   "condition": "Covered only as remediation of a tenant-caused infestation found at move-out (bed bugs 843: 1000; roaches 783: 102.84). Routine/preventive pest control and gutter cleaning are excluded (455, 1061). Flea/tick treatment is pet-related and excluded (754, 790, 903). Low confidence (2 vs 2).",
+   "support": 2,
+   "contradict": 2,
+   "examples": [
+    783,
+    843,
+    455,
+    1061
+   ]
+  },
+  {
+   "category": "rekey_locks",
+   "treatment": "covered",
+   "condition": "Rekey/lock change, including the PM's vendor markup.",
+   "support": 7,
+   "contradict": 0,
+   "examples": [
+    445,
+    506,
+    846,
+    980,
+    1017,
+    208
+   ]
+  },
+  {
+   "category": "keys_remotes",
+   "treatment": "covered",
+   "condition": "Missing keys, fobs, garage remotes, mailbox keys.",
+   "support": 4,
+   "contradict": 0,
+   "examples": [
+    363,
+    776,
+    783,
+    96
+   ]
+  },
+  {
+   "category": "appliance",
+   "treatment": "covered",
+   "condition": "Appliance repair/replacement/cleaning for tenant damage (fridge, stove top, drip pans). Mostly seen in cap-bound claims, so the evidence is weak.",
+   "support": 3,
+   "contradict": 0,
+   "examples": [
+    82,
+    627,
+    904
+   ]
+  },
+  {
+   "category": "pet_damage_odor",
+   "treatment": "excluded",
+   "condition": "Era C/D (from ~2023-11): excluded; it must go to the pet policy or pet deposit (ozone, deodorizing, pet-urine carpet, flea, chewed blinds). A claim with ONLY pet damage -> decline (7 claims). Era A/B: paid (97: dog-chewed blinds paid in 2023-05).",
+   "support": 59,
+   "contradict": 0,
+   "examples": [
+    468,
+    502,
+    637,
+    711,
+    764,
+    1007,
+    1013,
+    590
+   ]
+  },
+  {
+   "category": "pet_fee_rent",
+   "treatment": "excluded",
+   "condition": "Pet rent, pet fees and pet violation fees. A pet-fee forfeit that just offsets a refundable pet deposit nets to 0 (163, era B).",
+   "support": 7,
+   "contradict": 0,
+   "examples": [
+    637,
+    208,
+    422,
+    574,
+    578,
+    645
+   ]
+  },
+  {
+   "category": "utilities",
+   "treatment": "conditional",
+   "condition": "Default EXCLUDED (temp/vacancy utilities, utility chargebacks, final bills, gas/electric/water, garbage). PM-specific exceptions: PMS Columbus (OH) covered in full (625: 551.20; 627; 985: 81.99; 1242 note). StarPointe capped at $150 for claims >= 2024-04 per an April 2024 agreement (785, 1004, 1110, 1182). Before that, StarPointe was excluded (276, 393). Era A/B: paid (163). Contradict = 683 (Johnson 2024-07, utilities paid).",
+   "support": 63,
+   "contradict": 1,
+   "examples": [
+    276,
+    393,
+    835,
+    1013,
+    625,
+    985,
+    1004,
+    683
+   ]
+  },
+  {
+   "category": "late_fee",
+   "treatment": "excluded",
+   "condition": "Excluded in era C/D (the most frequent exclusion note). Paid in era A/B as part of the gross balance (215, 18).",
+   "support": 53,
+   "contradict": 0,
+   "examples": [
+    410,
+    417,
+    652,
+    978,
+    812
+   ]
+  },
+  {
+   "category": "nsf_fee",
+   "treatment": "excluded",
+   "condition": "NSF / returned payment / stop-pay / returned cheque fees.",
+   "support": 23,
+   "contradict": 0,
+   "examples": [
+    417,
+    533,
+    549,
+    798,
+    993
+   ]
+  },
+  {
+   "category": "admin_itemization_fee",
+   "treatment": "excluded",
+   "condition": "Itemization fees, admin fees, paper/in-office/convenience payment fees, 25% admin markups, tenant administration / rental verification fees.",
+   "support": 24,
+   "contradict": 0,
+   "examples": [
+    410,
+    417,
+    510,
+    653,
+    552,
+    935
+   ]
+  },
+  {
+   "category": "maintenance_coordination_fee",
+   "treatment": "conditional",
+   "condition": "Covered up to $200 only for the PURE South Carolina/Charleston and New Heights flat move-out 'Maintenance Coordination' fee (311, 468, 661 paid 200; 830 capped a 250 fee at 200). Excluded for PURE Alabama 'lease violation/coordination fee' (484, 570, 588, 607, 629, 947) and other PMs' handling fees (417 RentWerx 50). In 2023 New Heights adjusters flagged it as not covered (74, 84, 95, 105, 107), but management paid it via top-ups in 74/105/107. Contradict = 84, 95.",
+   "support": 11,
+   "contradict": 2,
+   "examples": [
+    311,
+    468,
+    661,
+    830,
+    484,
+    570,
+    107
+   ]
+  },
+  {
+   "category": "eviction_legal_court",
+   "treatment": "excluded",
+   "condition": "Eviction filing, court costs, writ, legal/attorney fees, eviction-cancellation fees, notice posting/3-day notice fees. Termination Type 'Eviction' itself is NOT excluded: in-possession unpaid rent is paid. Era A/B: inside the gross balance (18). Contradict = 799 (note implies payable if invoiced).",
+   "support": 11,
+   "contradict": 1,
+   "examples": [
+    405,
+    565,
+    798,
+    699,
+    812,
+    980
+   ]
+  },
+  {
+   "category": "sdrp_premium",
+   "treatment": "excluded",
+   "condition": "SDRP / SD fee / zero-deposit / fee-in-lieu / Sec Dep Ins / YRIG premium charges are excluded. Narrow exception from 2024-11 to 2025-03: one month of unpaid in-term SD fee was paid (945, 1117, 1229). Era A/B: paid inside the gross (215). Contradict = 349 (Dec 2023 proration paid) + the 3 exception claims.",
+   "support": 46,
+   "contradict": 4,
+   "examples": [
+    410,
+    522,
+    637,
+    463,
+    814,
+    1117
+   ]
+  },
+  {
+   "category": "rbp_insurance_liability_fee",
+   "treatment": "excluded",
+   "condition": "Resident benefit package, renters insurance, tenant legal liability (TLL20), insurance-service fees. Contradict = 349 (Dec 2023 in-term proration paid as billed).",
+   "support": 32,
+   "contradict": 1,
+   "examples": [
+    410,
+    522,
+    637,
+    764,
+    463
+   ]
+  },
+  {
+   "category": "hoa_violation",
+   "treatment": "excluded",
+   "condition": "HOA fees/violations ('misc. income'). Notes only.",
+   "support": 3,
+   "contradict": 0,
+   "examples": [
+    365,
+    594,
+    664
+   ]
+  },
+  {
+   "category": "collections_fee",
+   "treatment": "excluded",
+   "condition": "Never a charge. Rent Manager (Johnson) statements print a hypothetical 'Collection fees' (50%) and 'Total if assigned to collections'; drop them. Contradict = 946, where the approved amount equals the 201.25 collection-fee line (likely a keying error).",
+   "support": 1,
+   "contradict": 1,
+   "examples": [
+    946
+   ]
+  },
+  {
+   "category": "security_deposit_credit",
+   "treatment": "credit",
+   "condition": "Subtract a cash security deposit or refundable pet deposit ONLY when the PM applied it on the statement/ledger (SECDEP credit memo, 'deposit applied', TXR-2216 'deposit tendered'). Do not subtract a deposit listed in the lease but not shown as applied (985, 394), and never subtract the waived SDRP amount.",
+   "support": 4,
+   "contradict": 0,
+   "examples": [
+    163,
+    393,
+    1007,
+    1009
+   ]
+  },
+  {
+   "category": "tenant_payment_credit",
+   "treatment": "credit",
+   "condition": "Subtract payments/credits the PM allocated to the claimed balance: prepaid credit balance (693, 507, 881), a receipt credit (783), a rent refund after re-let (258). Use the PM's allocation (oldest-first) before picking covered open charges (711). Never subtract YRIG's Agreed Tenant Settlement / Collected Amount (recoveries; 239 claims).",
+   "support": 8,
+   "contradict": 0,
+   "examples": [
+    507,
+    693,
+    881,
+    258,
+    783,
+    349
+   ]
+  },
+  {
+   "category": "other",
+   "treatment": "conditional",
+   "condition": "Default excluded: amenity/amenity-service package (9 notes), garage rent (637, 1166), unspecified non-refundable fees (776, 772), move-in/move-out special or concession repayment (759, 803), lease-violation fee (484), asset-protection/risk-mitigation fee (449), re-inspection fee (657), missing household items (858), sales tax on excluded items (812). Two exceptions: (a) an unitemized 'balance forward / current ledger balance / unpaid rent & fees' line on a statement whose ledger is missing is treated as rent_in_term (904, 661); (b) small incidental fees bundled inside a covered line are not carved out (1009 fee-in-lieu + item removal; 350 vendor cancel fee). Contradict = 349 (amenity proration paid, Dec 2023).",
+   "support": 30,
+   "contradict": 1,
+   "examples": [
+    522,
+    637,
+    776,
+    904,
+    661,
+    1009,
+    350
+   ]
+  }
+ ],
+ "extraction_schema": "{\n \"tracking\": \"int\",\n \"documents\": [\n  {\n   \"file\": \"str\",\n   \"sha256\": \"str\",\n   \"duplicate_of\": \"file|null\",\n   \"doc_type\": \"enum: move_out_statement | itemization_form (TXR-2216, Perry Reid SDI, Blue Fox Statement of Accounting, PURE SDRP Move-Out Form/Calculation, deposit disposition letter, Security Deposit Transmittal) | tenant_ledger | demand_or_collection_letter | vendor_invoice | vendor_estimate | lease | renewal_lease | sd_addendum | inspection_photo_report | email_or_screenshot | court_document | ach_dd_authorization | tenant_contact_screenshot | rental_application | marketing_or_policy | other\",\n   \"pm_software\": \"enum: propertyware | appfolio | rent_manager | yardi | excalibur_statement | handwritten | unknown\",\n   \"ledger_order\": \"enum: newest_first | oldest_first | n/a\",\n   \"doc_date\": \"YYYY-MM-DD|null\",\n   \"is_amended_or_revised\": \"bool\",\n   \"supersedes\": \"file|null\",\n   \"pages\": \"int\",\n   \"pages_rendered_with_vision\": \"[int]\",\n   \"used_for_amounts\": \"bool\",\n   \"skip_reason\": \"str|null\"\n  }\n ],\n \"lease\": {\n  \"base_monthly_rent\": \"number (rent only; exclude add-ons)\",\n  \"recurring_addons\": [\n   {\n    \"name\": \"str\",\n    \"amount\": \"number\",\n    \"category\": \"taxonomy\"\n   }\n  ],\n  \"lease_start\": \"date\",\n  \"lease_end\": \"date\",\n  \"initial_term_months\": \"number\",\n  \"current_term_start\": \"date (renewal start if renewed)\",\n  \"current_term_end\": \"date\",\n  \"is_renewal\": \"bool\",\n  \"is_month_to_month\": \"bool\",\n  \"is_short_term\": \"bool (initial term <= 3 months)\",\n  \"sd_program\": {\n   \"type\": \"enum: sdrp | deposit_waiver | fee_in_lieu | zero_deposit | ris | none | other_provider\",\n   \"provider_name\": \"str|null\",\n   \"waived_deposit_amount\": \"number|null\",\n   \"monthly_premium\": \"number|null\",\n   \"addendum_signed_date\": \"date|null\"\n  },\n  \"cash_deposit_amount\": \"number|0\",\n  \"refundable_pet_deposit\": \"number|0\",\n  \"lease_break_terms\": \"str|null (e.g. 'one month rent', '$1000 re-rent fee')\",\n  \"source\": {\n   \"file\": \"str\",\n   \"page\": \"int\"\n  }\n },\n \"move_out\": {\n  \"move_out_date\": \"date\",\n  \"notice_date\": \"date|null\",\n  \"termination\": \"enum: end_of_term | early_termination | eviction | skip_abandon | holdover_then_vacated | unknown\",\n  \"holdover_days_after_lease_end\": \"int\",\n  \"re_let_date\": \"date|null\",\n  \"military_scra\": \"bool\",\n  \"tenant_still_in_possession\": \"bool\",\n  \"tenant_never_moved_in\": \"bool\",\n  \"source\": {\n   \"file\": \"str\",\n   \"page\": \"int\"\n  }\n },\n \"ledger_facts\": {\n  \"as_of_date\": \"date\",\n  \"pm_balance_due\": \"number\",\n  \"total_unpaid_header\": \"number|null\",\n  \"deposit_held\": \"number\",\n  \"last_tenant_payment\": {\n   \"date\": \"date\",\n   \"amount\": \"number\"\n  },\n  \"first_full_month\": {\n   \"month\": \"YYYY-MM\",\n   \"rent_charged\": \"number\",\n   \"paid_in_full_by_month_end\": \"bool\",\n   \"first_payment_bounced\": \"bool\"\n  },\n  \"unpaid_rent_months\": [\n   {\n    \"month\": \"YYYY-MM\",\n    \"open_amount\": \"number\",\n    \"in_possession\": \"bool\",\n    \"within_term\": \"bool\"\n   }\n  ],\n  \"balance_le_zero\": \"bool\"\n },\n \"line_items\": [\n  {\n   \"id\": \"str\",\n   \"description_raw\": \"str\",\n   \"category\": \"taxonomy enum\",\n   \"amount_charged\": \"number\",\n   \"amount_open\": \"number (unpaid after PM allocation)\",\n   \"date_posted\": \"date\",\n   \"service_period_start\": \"date|null\",\n   \"service_period_end\": \"date|null\",\n   \"relative_to_term\": \"enum: in_term_in_possession | in_term_after_move_out | after_lease_end | n/a\",\n   \"days_after_lease_end\": \"int|null\",\n   \"is_lease_break_component\": \"bool\",\n   \"pet_related\": \"bool\",\n   \"water_fire_flood_cause\": \"bool\",\n   \"is_estimate_not_performed\": \"bool\",\n   \"owner_responsible\": \"bool\",\n   \"vendor_invoice_ref\": \"str|null\",\n   \"reconciles_to\": \"line id|null (same charge on another doc)\",\n   \"source_file\": \"str\",\n   \"source_page\": \"int\",\n   \"confidence\": \"0-1\"\n  }\n ],\n \"credits\": [\n  {\n   \"description\": \"str\",\n   \"amount\": \"number (positive)\",\n   \"type\": \"enum: security_deposit_applied | pet_deposit_applied | prepaid_credit_balance | tenant_payment | receipt_credit | rent_refund_relet | concession_or_reversal | third_party_payment | yrig_tenant_settlement\",\n   \"applied_by_pm_in_balance\": \"bool\",\n   \"already_netted_in_line_items\": \"bool\",\n   \"source_file\": \"str\",\n   \"source_page\": \"int\"\n  }\n ],\n \"totals_check\": {\n  \"pm_stated_amount_due\": \"number\",\n  \"sum_open_line_items_minus_credits\": \"number\",\n  \"reconciles_within_1\": \"bool\",\n  \"winning_document\": \"file\"\n },\n \"flags\": {\n  \"test_claim\": \"bool\",\n  \"no_policy_evidence\": \"bool\",\n  \"other_provider\": \"bool\",\n  \"premiums_unpaid\": \"bool\",\n  \"duplicate_of_tracking\": \"int|null\",\n  \"pm_withdrew_or_void\": \"bool\",\n  \"tenant_paid_or_settled_with_pm\": \"bool\",\n  \"payment_arrangement\": \"bool\",\n  \"owner_waived_balance\": \"bool\",\n  \"first_full_month_default\": \"bool\",\n  \"short_term_lease\": \"bool\",\n  \"prior_carrier\": \"bool\",\n  \"tenant_disputes_charges\": \"bool\",\n  \"missing_itemization\": \"bool\",\n  \"missing_ledger\": \"bool\",\n  \"pm_released_without_penalty\": \"bool\",\n  \"sheet_doc_mismatch\": [\n   \"field names, e.g. 'Monthly Rent', 'Lease Start Date', 'Move-Out Date'\"\n  ],\n  \"evidence_quotes\": [\n   {\n    \"flag\": \"str\",\n    \"quote\": \"<=20 words\",\n    \"file\": \"str\",\n    \"page\": \"int\"\n   }\n  ]\n }\n}",
+ "doc_handling": [
+  "ONE WINNING ACCOUNTING DOCUMENT. Amount precedence: (1) the latest-dated PM move-out accounting doc, preferring an AMENDED/REVISED version (TXR-2216 itemization, Perry Reid SDI + move-out letter, Blue Fox Statement of Accounting, PURE SDRP Move-Out Form/Calculation, deposit disposition letter, Security Deposit Transmittal, final statement); (2) the latest tenant ledger's open/unpaid rows; (3) a demand/collection letter total; (4) vendor invoices; (5) vendor estimates, which are never used over a billed amount. Evidence: 337 (estimate 1365 vs billed 490 -> 490), 300 (TXR 1475 vs invoices 2830 -> 1475), 693 (ledger 7/26 shows 2 charges, disposition 7/29 shows 4 -> later wins), 258 (AMENDED TXR), 522 (hand-updated letter 2055.50).",
+  "WHEN LEDGER AND STATEMENT DISAGREE: take line items and amount due from the statement/itemization, which is the PM's claim. Use the ledger to (a) split lumped lines (rent vs fees), (b) check rent-in-term, holdover and first-month default, and (c) find PM-applied credits. Add a ledger charge dated AFTER the statement only if it is an eligible category within the term (most late additions are excluded anyway: 657 July rent/SDRP/RBP, 980 November post-term charges). If the PM's cover/move-out letter states a lower balance than its own SDI, the letter wins (776: 315 vs 465). If the ledger snapshot predates the move-out charges (835 shows $0; 1007 version -20241209), use the statement or the latest ledger version.",
+  "AVOID DOUBLE COUNTING: (a) ledger 'Move-out Repair : <Meld/ticket #>' lines equal the vendor invoice with the same id, so count the amount once (ledger) and use the invoice only to categorize sub-items (49, 106, 107); (b) Statement of Accounting / TXR lines are backed by the attached invoices, so count statement lines only (252, 300); (c) a 'full ledger' + 'updated final statement' (Rent Manager) repeat the same post-move-out charges, so use one (522); (d) dedupe files by hash ('(1)', '(2)' copies: 11, 835, 1007); (e) payment-allocation text blocks in Propertyware are not charges; (f) charged-then-reversed items (rent reservation fee, post-vacate rent reversal, 'Charge Adjustment') net to the reversed amount (63, 215, 303, 699); (g) 'Charge Forward' lines without descriptions are matched to ledger rows by amount (980); (h) a duplicate CLAIM (same address/tenant) is a decline, and its docs must not be re-paid (731/702).",
+  "LEDGER READING: detect the order first. Propertyware (StarPointe, New Heights, PURE SC/NC, Blue Fox) is newest-first; AppFolio, Rent Manager and Excalibur statements are oldest-first. Use the header 'Total Unpaid' / 'Balance Due' / 'Balance as of' as the reconciliation target. Count rows with status 'Unpaid Charge' or the open remainder of 'Partially Paid Charge'; 'Paid Charge' rows are history. Recompute the running balance; never trust a balance read in the wrong direction (711). A negative running balance is a tenant credit (693, 881).",
+  "EXCLUDE THESE NON-CHARGES: hypothetical 'Collection fees' / 'Total amount owed if assigned to collections' lines (946); owner-responsible items on vendor estimates/invoices (7: $750 owner paint; 300: TRPI owner items 1200; 135: tree limbs 500); tenant-side receipts in the folder (1013 tenant-paid carpet invoice); 'Deposit held 0.00' header values; YRIG premiums the PM remits.",
+  "VISION / OCR: render any page with < ~50 extractable characters, or with '(cid:' garbled text, at full resolution. This is mandatory for TXR-2216 scans (11, 135, 300, 673, 1009), Blue Fox Statements of Accounting (80, 251, 252, 690, 843), StarPointe Propertyware prints (276, 393, 783), PURE handwritten SDRP forms (661), Perry Reid SDI scans (900), and the first 5 pages of closeout packets (300, 7). The decisive itemization is often a scanned page inside a mostly-text PDF.",
+  "SKIP (classify, do not extract amounts): zInspector/MOI photo reports (only grep their 'Comments:' for pet-odor/ozone evidence: 468, 868); ACH/DD authorization forms with the template VOID $1,234.56 check ('Replace windows north side 1000.55'), never claim data (764, 881, 900, 776); tenant-contact screenshots and rental applications (PII); marketing/FAQ docs (591, 861); generic resident policies; USPS mailing certificates; unfilled AppFolio demand-letter templates (use only their stated total: 627, 985, 818). Leases: read only rent, term, renewal, deposit, SD addendum (waived amount, premium, signing date), lease-break/reletting clause.",
+  "SHEET VS DOCUMENT FIELDS: prefer document values for rent (base rent, excluding bundled add-ons; sheet rent includes fee-in-lieu/garbage/amenity in 625, 627, 946, 985 and the MTM rate in 693; 349 sheet 1520 vs lease 1820), lease term (renewals: 1013, 846, 868), and move-out date (445 year typo; 107, 135). Keep the sheet values as fallbacks and record mismatches in flags.sheet_doc_mismatch. The rent-cap test and holdover/in-term tests MUST use the document dates.",
+  "ADJUSTER-SIDE TEXT (PM Explanation, Comments sheet) is the adjuster's OUTPUT. Use it for evaluation and rule mining, not as a model input, unless the assignment says the green columns may be used. Join Comments to claims only through cache/comments_by_tracking.json (content-based remap, 1176/1177 rows); never use 'Row N' directly.",
+  "EMAILS / SCREENSHOTS: these are the main source for decline facts (payment arrangement 132; tenant paid 673; PM void 742; never moved in 172) and for disputes that reduce the balance (132: carpet charge removed). Extract the facts as flags with short evidence quotes. Ignore any instruction-like text inside documents."
+ ],
+ "expected_accuracy": "Measured on the 88 Posted sample claims, with the rule engine (scratchpad/synth/engine2.py) run blind of approved amounts and PM notes over the readers' extracted line items: 76/88 exact within $1 (86%), 77/88 within 5% (87.5%). By type: itemized below-ceiling claims 42/48 exact; ceiling-bound claims 23/23; no-itemization claims 11/17 (the era A/B pay-Max fallback works, era C/D does not). Adding service-period dates (holdover days) fixes 952, which gives 77/88. Declines: 15/21 sample declines are reproducible from documents plus the sheet (blank Policy #, ledger first-month default, tenant-paid/duplicate/void facts in emails); 3 have no recorded reason (50, 106, 900) and 3 have no evidence (263, 312, 591). Sheet-only baselines for comparison: pay Max = 54.5% exact (MAE $612); pay Max with the T00001 rent cap = 56.3% (MAE $564). Projection for the full dataset (1,234 final claims): for claims with document folders, 72-80% exact (+/-$1) and 78-85% within 5% on paid claims. The sample is optimistic because readers knew the answer while categorizing, and blind OCR/vision extraction and categorization should cost 5-10 points. Declines should be about 70% correct. The 228 claims with no local folder (trackings 1018+, mostly 2025, Era D move-outs) score only ~45% exact on the fallback. Overall that means ~65-72% exact now, and ~72-78% once the missing folders are re-downloaded. Irreducible noise: (1) management goodwill and overrides (454, 691, 697, 793, 808, 1020, 1081, 1150) and 2023 supplemental top-ups; (2) keying errors (946 paid the collection-fee line; Declined rows with amounts; Posted rows with blank amounts 888); (3) decline reasons never recorded (50, 106, 900, 263); (4) folders without any itemization (~7% of folders: 101, 118, 364, 432, 478, 502, 681, 978) plus the 228 missing folders; (5) undocumented splits of mixed pet/non-pet lines (711) and partial carpet/flooring allowances (898, 993, 1052, 1164); (6) negotiated/disputed balances agreed off-document (132, 474, 528, 776); (7) era transitions applied inconsistently from Nov 2023 to Apr 2024 (349, 522); (8) the rent cap applied or waived case by case on T00001 (7/33 binding cases not capped; 253, 372, 539 capped outside the rule); (9) sheet field errors (rent with add-ons, wrong lease and move-out dates, zip typos) that move the rent cap and the in-term tests; (10) PM-specific side agreements (utilities for StarPointe/PMS Columbus/Johnson, coordination fee for PURE SC).",
+ "open_questions": [
+  "Re-download the 228 claims with no local folder (all trackings >= 1018 plus 46, 85, 247, 837, 964 etc.) from the Drive bulk folder and verify file counts per tracking. Also find out what the scratchpad missing.txt list (292 ids, 64 of them with folders) represents. Then rerun the engine on all ~1,000 document claims.",
+  "Is PM Explanation (and the rest of the 'green columns') an allowed model input, or only ground-truth context? The answer changes decline detection and the 'cannot exceed' cap overrides a lot.",
+  "Rent cap on the full set using DOCUMENT lease/renewal dates: check that eff_start >= 2023-07-01 AND claim >= 2024-04-24 still separates capped from uncapped T00001 claims (7 uncapped binding cases: 614, 725, 1229, 584, 1081, 1150, 1233; capped outside the rule: 253, 372, 539). Test whether the trigger is the addendum signing date (July 2023 rates table) rather than the lease start.",
+  "Does the cap ever apply automatically for T00002 PMs (StarPointe, Blue Fox, Johnson) or for Excalibur in 2023 (2/30)? Fit per PM family on binding cases.",
+  "Lease-break bucket: confirm min(lease-break fee + reletting + post-move-out rent, 1 x rent) on all era C/D early terminations. Check cases where the PM's lease-break fee alone exceeds one month (does the adjuster pay the fee or cap it at one month?) and the 522-type exception (prorated rent until the new renter + re-rent fee).",
+  "Holdover threshold: test 4-10 day holdovers (835 excluded 5 days; 393/952/935 paid <= 3 days), and check whether the cutoff is days or 'until keys returned in the same month'.",
+  "Exact era boundary for exclusions: fit the switch date on Oct 2023 to Jan 2024 claims (276 on 2023-11-03 already excluded utilities; 300/311/337 in Nov 2023 had nothing to exclude). Also confirm that 2023 below-Max approvals equal the gross PM balance across all 2023 claims with documents.",
+  "First-full-month default: build the ledger test (first full month's charges vs payments received by month end, bounced first payment) and measure precision/recall against the 43 noted cases. Explain the paid exceptions (606, 633, 665).",
+  "Sublimits: confirm landscaping <= $500 and coordination fee <= $200 apply before 2024-08/09 and outside the PMs named. Confirm the utilities exceptions (PMS Columbus full; StarPointe $150 from 2024-04; Johnson 683) and look for other PM agreements.",
+  "Pest control: classify all pest lines (bed bug/roach remediation vs routine/flea) and settle whether remediation is covered (2 paid vs 2 excluded in the evidence).",
+  "Partial carpet/flooring allowances (1/3, 50% blinds in 1013, prorated paint in 793/846): look for a consistent depreciation formula, e.g. by carpet age or lease length.",
+  "SD-fee exception (one month unpaid SD fee paid 2024-11 to 2025-03: 945, 1117, 1229): is this a rule change for 2025 claims? Check once the missing 2025 folders are present.",
+  "No-docs fallback for era D move-outs: compare ceiling vs. median Approved/Max by PM family vs. 'decline' to see which minimizes error on the claims that do have docs.",
+  "Validate that Agreed Tenant Settlement / Collected Amount never reduce the payout across all 239 settlement claims, and that 'Approved Revised' totals equal the sum of the initial payment and the supplements in Comments."
+ ],
+ "era_table": {
+  "A_lt_2023-01-01": "min(gross PM balance, Max); no docs -> Max (31/33). No declines.",
+  "B_2023-01-01_to_2023-10-31": "min(gross PM balance incl. all fees, Max); adjusters flagged exclusions/caps in comments but management paid them (top-ups). First-month default not enforced. ~10% declines (no policy, tenant paid, test).",
+  "C_2023-11-01_to_2024-04-23": "Itemized exclusions (late, NSF, admin/itemization, premiums, RBP, utilities, pet, post-lease rent, eviction fees, amenity) + lease-break = 1 month. Rent cap only noted ('should not have exceeded'), rarely applied. First-month default declines from 2023-11-27.",
+  "D_ge_2024-04-24": "Era C rules + T00001 rent cap for post-2023-07-01 terms + sublimits (landscaping 500, coordination 200, StarPointe utilities 150) + short-term-lease decline (2024-09+)."
+ },
+ "rent_cap": {
+  "formula": "ceil(base_monthly_rent/500)*500 (multiples map to themselves)",
+  "applies_when": "Treaty T00001 AND claim_date >= 2024-04-24 AND effective_term_start >= 2023-07-01 (effective = lease_start, or lease_end-365d if term > 400 days)",
+  "fit": "26/33 binding T00001 cases capped vs 3/76 otherwise; 134/137 adjuster cap notes match the formula"
+ },
+ "sample_engine_check": {
+  "engine": "/private/tmp/claude-502/-Users-Andrewpleeter-Downloads-CORGI-TAKE-HOME/4e002791-2a35-4fbe-84c8-02028679d694/scratchpad/synth/engine2.py",
+  "posted_sample": 88,
+  "exact_within_1": 76,
+  "within_5pct": 77,
+  "misses": {
+   "946": "keying error (collection-fee line)",
+   "793": "goodwill",
+   "711": "payment allocation + pet split",
+   "349": "Dec-2023 transitional proration",
+   "952": "holdover days need service-period dates",
+   "776": "per-lease carpet fee excluded via note",
+   "364/101/118/502/681/978": "no itemization in folder"
+  }
+ },
+ "inputs": [
+  "cache/understand/quant.json",
+  "cache/understand/miner.json",
+  "cache/understand/batch_0..9.json",
+  "cache/comments_by_tracking.json",
+  "cache/sheet.json"
+ ]
+}

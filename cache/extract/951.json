@@ -1,0 +1,176 @@
+{
+ "tracking": 951,
+ "winning_document": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+ "pm_stated_amount_due": 267.5,
+ "documents": [
+  {
+   "file": "8007 Misty Bluff_Move Out_2024-09-30.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-09-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector move-out report; text scanned for pet/odor evidence: none found."
+  },
+  {
+   "file": "Billable_Item cleaning invoice.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice 24012-1-68, make-ready clean 325.00; backs the Interior cleaning statement line (counted once via statement)."
+  },
+  {
+   "file": "Invoice_9534_from_ESB_Inc.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "ESB invoice 518.00 (4 blinds 205, deadbolt 85, flush valve 88, bulb/drip pans/closet doors 110, microwave cover 30); PM billed tenant only 55 + 50 of this. Not used over statement."
+  },
+  {
+   "file": "Misty Bluff 8007-Lease Docs-Lee, Reyes.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-30",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "TXR-2001 lease (28 pp) with SD Waiver addendum ($48/mo, waives $1,650), RBP $38, liability insurance $12; parsed via text layer."
+  },
+  {
+   "file": "deposit_disposition_amount_due_paul_s_lee.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-23",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original disposition: charges 430.00, amount due 430.00. Superseded by 12/03/2024 revised letter."
+  },
+  {
+   "file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-12-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "Revised: charges 430.00 less cleaning credit 162.50 = amount due 267.50. Winning document."
+  },
+  {
+   "file": "tenant_ledger-paul_s_lee_brittany_s_reyes-20241120.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first; only open items are the three 10/23/2024 repair/cleaning charges totaling 430.00; all prior months paid."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1650,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Coverage Program (SD waiver fee)",
+    "amount": 48
+   },
+   {
+    "name": "Liability Insurance",
+    "amount": 12
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 38
+   }
+  ],
+  "lease_start": "2023-09-30",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2023-09-30",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 27 default: landlord may recover unpaid/accelerated rent and reletting costs (leasing fees, advertising); landlord mitigates by re-letting. Para 28B replacement tenant: tenant pays 50% of one month's rent to landlord when replacement approved. Lease auto-renews month-to-month unless 30 days notice before expiration."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-20",
+  "balance_due": 430,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-29"
+ },
+ "line_items": [
+  {
+   "description": "Replace one bulb in hall bathroom and replace drip pans on stove",
+   "category": "repairs_damage",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Interior cleaning (backed by vendor invoice 24012-1-68, 325.00)",
+   "category": "cleaning",
+   "amount_charged": 325,
+   "amount_open": 325,
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Replace one mini blind",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Credit - Cleaning (revised 12/03/2024 letter; half of the 325 cleaning charge)",
+   "amount": 162.5,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf"
+  }
+ ],
+ "flags": {},
+ "evidence": [
+  {
+   "file": "deposit_disposition_amount_due_paul_s_lee_120324.pdf",
+   "flag": "revised_statement",
+   "quote": "Credits Cleaning $162.50 ... Amount Due $267.50"
+  }
+ ],
+ "extraction_confidence": 0.93,
+ "reconciliation": "Open lines 55 + 325 + 50 = 430.00, less cleaning credit 162.50 = 267.50 = PM stated amount due in 12/03/2024 revised letter (original 10/23 letter and 11/20 ledger show 430.00 before the credit).",
+ "notes": "Lease ended 9/30/2024 and tenant vacated that day (end of term), no rent owed; all open amounts are move-out repair/cleaning. Deposit waived (SD Waiver YES checked, 48/mo, waives 1,650); no cash deposit. ESB invoice 518 and inspection report show more work than billed to tenant (PM billed only one blind and bulb/drip pans). No pet evidence in inspection report text. Revised letter's cleaning credit may reflect a tenant dispute but no document says so.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae8aec7c8d4df42f9"
+ }
+}

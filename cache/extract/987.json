@@ -1,0 +1,285 @@
+{
+ "tracking": 987,
+ "winning_document": "Marte 1008-04 SDI.pdf",
+ "pm_stated_amount_due": 465,
+ "documents": [
+  {
+   "file": "BE2 DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Classified from file name; not opened."
+  },
+  {
+   "file": "Marte 1008-04 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "doc_date": "2023-10-16",
+   "note": "Security Deposit Waiver YES ($33/mo, waives one month's rent deposit); the NO box is checked but scribbled out and initialed, so waiver stands. Renters Insurance YES $17."
+  },
+  {
+   "file": "Marte 1008-04 Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "doc_date": "2023-10-13",
+   "note": "Nebraska NAA lease, 9 pages read. Rent $725, term 10/16/2023-9/30/2024, then auto month-to-month; para 11 reletting charge $250; Section 8 voucher language."
+  },
+  {
+   "file": "Marte 1008-04 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-12-03",
+   "note": "Oldest-first ledger; used to split the 45.00 balance forward into components and for first-month history. Ends at 465.00."
+  },
+  {
+   "file": "Marte 1008-04 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-11-08",
+   "note": "States balance due 465.00 to Sunridge Apartments II."
+  },
+  {
+   "file": "Marte 1008-04 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-11-08",
+   "note": "Balance forward 45.00 + Oct charges + 11/08 move-out charges = 465.00."
+  },
+  {
+   "file": "Marte 1008-04 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "doc_date": null,
+   "revised": false,
+   "note": "Handwritten SDI: ledger balance 151.00 + extra carpet cleaning 106 + clean apartment 100 + 2 damaged screens 108 = 465 Due; Security Deposit 'NA'."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 725,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 725,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters Insurance (through 09/2024)",
+    "amount": 17
+   },
+   {
+    "name": "Liability Protection Option 1 (10/2024)",
+    "amount": 16
+   },
+   {
+    "name": "Utility Revenue (10/2024)",
+    "amount": 20
+   }
+  ],
+  "lease_start": "2023-10-16",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2024-10-01",
+  "current_term_end": "2024-10-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Para 11 Early Move-Out: reletting charge $250 if tenant moves out without paying rent for the entire term or fails move-out notice; special provisions: 30-day notice before last day of month prior to final full month. Not charged here (move-out after lease end)."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-12-03",
+  "balance_due": 465,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": true,
+  "last_payment_date": "2024-10-03"
+ },
+ "line_items": [
+  {
+   "description": "Balance forward (45.00 as of 10/01/2024): unpaid remainder of Sept 2024 Security Deposit Protection (33.00 charged, FIFO after net 25.00 tenant payment and 17.00 renters insurance)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 25,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Ledger.docx",
+   "confidence": 0.7
+  },
+  {
+   "description": "Balance forward: Returned check charge 9/3/2024 (ledger tagged 'Write Off by Charge Ctrl# 3597082' but still in PM balance)",
+   "category": "nsf_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-09-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Residential Rent (10/2024) tenant portion 7.00 (HAP paid 825.00 subsidy separately); month-to-month after lease end 9/30/2024",
+   "category": "rent_after_lease_end",
+   "amount_charged": 7,
+   "amount_open": 7,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "days_after_lease_end": 31,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Liability Protection Option 1 (10/2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 16,
+   "amount_open": 16,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Security Deposit Protection (10/2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Utility Revenue (10/2024)",
+   "category": "utilities",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "October Late Fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-10-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.97
+  },
+  {
+   "description": "Damaged Screens (SDI: 2 damaged screens)",
+   "category": "repairs_damage",
+   "amount_charged": 108,
+   "amount_open": 108,
+   "date_posted": "2024-11-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 SDI.pdf",
+   "confidence": 0.88
+  },
+  {
+   "description": "Cleaning Charges (SDI: clean apartment)",
+   "category": "cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-11-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.97
+  },
+  {
+   "description": "Carpet Cleaning (SDI: extra carpet cleaning)",
+   "category": "carpet_cleaning",
+   "amount_charged": 106,
+   "amount_open": 106,
+   "date_posted": "2024-11-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Marte 1008-04 Move Out Statement.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "HAP (housing authority) payment 10/03/2024 covering Oct rent subsidy 825.00; subsidy charge not in line items",
+   "amount": 825,
+   "type": "third_party_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "Marte 1008-04 Ledger.docx"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "Open lines 25+20+7+16+33+20+30+108+100+106 = 465.00; credits already netted (HAP 825, tenant payments) vs PM stated 465.00 (letter, statement; SDI 151.00+314.00): match.",
+ "notes": "Section 8/HAP tenant. Sheet lease end 9/30/2024 but tenancy continued month-to-month through Oct (rent 832 = 7 tenant + 825 HAP; SDI lists lease expiration 10/31/24), so Oct rent is coded rent_after_lease_end (31 days). The statement's 45.00 balance forward was split from the ledger: Sept charges (renters ins 17, SD protection 33, NSF fee 20 = 70) less net 25.00 tenant payment, allocated FIFO to tenant-owed charges; ledger tags the Sept SD protection and NSF rows 'Write Off by Charge' (ctrl 3597084/3597082) with no offsetting rows, and the PM still bills them. First payment bounced (10/16/2023 check 885 NSF, 20.00 fee); first full month Nov 2023 rent paid by 11/6 with a 56.00 non-rent residual cleared in Dec. SDI form 'Security Deposit: NA'. Early-move-out clause not triggered.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "adafe35db18521d94"
+ }
+}

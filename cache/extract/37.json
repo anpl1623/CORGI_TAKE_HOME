@@ -1,0 +1,235 @@
+{
+ "tracking": 37,
+ "documents": [
+  {
+   "file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-02-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest full ledger (oldest-first). Open balance 2,906.08 = Oct rent remainder 824.61 + Oct RBP/SDRP/late fee + ETF 1650 + lease modification 125 + processing 150. Used for line items and payment history."
+  },
+  {
+   "file": "tenant_ledger-michael_j_washington-20230103.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-01-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Earlier open-items-only view of same ledger; identical total 2,906.08; shows Oct rent open remainder as 824.61. Not counted separately."
+  },
+  {
+   "file": "Lease MW (1).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-06-24",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Pages 1-8 opened: term 07/08/2022-07/07/2023, rent $825, deposit 'RIS 000', Section 17 termination fee = 2 months rent + $125 lease modification + $150 processing; late fee 10% after the 3rd."
+  },
+  {
+   "file": "SDRP MW (1).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-06-24",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES: $35/month in lieu of $1,650 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 825,
+  "lease_start": "2022-07-08",
+  "lease_end": "2023-07-07",
+  "current_term_start": "2022-07-08",
+  "current_term_end": "2023-07-07",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1650,
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "RIS SD Program (SDRP) fee",
+    "amount": 35
+   }
+  ],
+  "lease_break_terms": "Section 17: tenant may terminate after lease in effect 6 months with 60-day written notice, must pay rent through termination date plus termination fee equal to two months' additional rent, $125 lease modification fee and $150 processing fee. Section 15 default allows re-entry/acceleration of rent for entire term."
+ },
+ "move_out": {
+  "move_out_date": "2022-10-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent Income - October 2022 (825.00 charged; 0.39 prior overpayment credit applied, 824.61 open)",
+   "category": "rent_in_term",
+   "amount_charged": 825,
+   "amount_open": 824.61,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.92
+  },
+  {
+   "description": "RBP with Insurance - October 2022",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "SDRP - October 2022 - RIS_SD_$2000",
+   "category": "sdrp_premium",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2022-10-01",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Fee - Late Fee for Oct 2022",
+   "category": "late_fee",
+   "amount_charged": 82.47,
+   "amount_open": 82.47,
+   "date_posted": "2022-10-04",
+   "service_period_start": "2022-10-01",
+   "service_period_end": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Early Termination Fee - Tenant vacated without notice - Lease does not expire until 07/2023 (= 2 x $825 rent)",
+   "category": "lease_break_fee",
+   "amount_charged": 1650,
+   "amount_open": 1650,
+   "date_posted": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Leasing Fee - Lease Modification Fee - Tenant vacated without notice (lease Section 17 termination package)",
+   "category": "lease_break_fee",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "date_posted": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Leasing Fee - Processing Fee - Tenant vacated without notice (lease Section 17 termination package)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2022-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant overpayment credit (balance -0.39 after 09/30/2022 payment) applied to October rent",
+   "amount": 0.39,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true,
+   "source_file": "tenant_ledger-michael_j_washington-20230202.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "termination_type_early_termination",
+   "quote": "Early Termination Fee - Tenant vacated without notice - Lease does not expire until 07/2023",
+   "file": "tenant_ledger-michael_j_washington-20230202.pdf"
+  },
+  {
+   "flag": "sd_program_sdrp",
+   "quote": "You waive payment of the security deposit of $1,650.00 in lieu of the indicated monthly payment",
+   "file": "SDRP MW (1).pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-02-02",
+  "balance_due": 2906.08,
+  "first_full_month": "2022-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2022-09-30"
+ },
+ "pm_stated_amount_due": 2906.08,
+ "winning_document": "tenant_ledger-michael_j_washington-20230202.pdf",
+ "reconciliation": "824.61+39+35+82.47+1650+125+150 = 2906.08; credits not already netted = 0; matches ledger total 2906.08 (0.39 overpayment already netted in Oct rent).",
+ "notes": "No PM move-out statement/itemization or damage charges; claim consists only of October rent/fees and Section 17 termination fees. Tenant vacated 10/31/2022 without notice, ~8 months before lease end 07/07/2023, and before the 6-month minimum in Section 17. No rent after move-out charged. August rent paid via 400 (8/8) + 500 (8/22) - late but covered in full by month end under oldest-first allocation; late fees charged Aug/Sep/Oct. Ledger SDRP label changes from RIS_SD_$1650 (move-in) to RIS_SD_$2000; sheet Max Benefit 2000 vs addendum waived deposit 1650.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "acd034974ea70578b"
+ }
+}

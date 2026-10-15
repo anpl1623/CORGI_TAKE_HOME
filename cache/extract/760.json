@@ -1,0 +1,182 @@
+{
+ "tracking": 760,
+ "documents": [
+  {
+   "file": "6204 Flores Anaya Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 2,299.00"
+  },
+  {
+   "file": "6204 Flores Anaya Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": true,
+   "note": "Total 2,299.00; source of line items"
+  },
+  {
+   "file": "6204 Flores Anaya SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Current ledger 1,507 plus maintenance 792 = 2,299"
+  },
+  {
+   "file": "6204 Flores Anaya Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Confirms balance 0.00 at 06/01 and June postings"
+  }
+ ],
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 1365,
+  "lease_start": "2023-07-11",
+  "lease_end": "2024-07-31",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 2299,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-05-15"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-12",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent June 2024",
+   "category": "rent_in_term",
+   "amount_open": 1365,
+   "amount_charged": 1365,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance June 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection June 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility revenue June 2024",
+   "category": "utilities",
+   "amount_open": 40,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee June 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "MidAmerican final utility bill 5/28-6/12",
+   "category": "utilities",
+   "amount_open": 32,
+   "service_period_start": "2024-05-28",
+   "service_period_end": "2024-06-12",
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replaced 8 ft baseboard",
+   "category": "repairs_damage",
+   "amount_open": 120,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replaced 2nd bedroom blinds/slats/headrail",
+   "category": "repairs_damage",
+   "amount_open": 165,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Dryer lint trap",
+   "category": "appliance",
+   "amount_open": 35,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Microwave door/vent",
+   "category": "appliance",
+   "amount_open": 350,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 90,
+   "date_posted": "2024-06-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6204 Flores Anaya Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "pm_stated_amount_due": 2299,
+ "reconciliation": "Open items 1365 + 19 + 33 + 40 + 50 + 32 + 120 + 165 + 35 + 350 + 90 = 2299; credits 0; letter and statement state 2299.00; SDI 1507 current ledger + 792 maintenance = 2299; difference 0.",
+ "notes": "Move-out 06/12/2024 per statement, SDI and final utility bill (5/28-6/12); sheet and ledger header say 06/30/2024. Full June rent charged. Balance as of 06/01 was 0.00 and earlier 2024 charges were fully paid. No pet charges on this ledger.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "tracking": 944,
+ "winning_document": "404 Erin Court - Ledger.pdf (Excalibur statement dated 11/07/24, balance due 200.00)",
+ "documents": [
+  {
+   "file": "404 Erin Court - Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Statement balance due 200.00 from three 10/31/24 damage lines"
+  },
+  {
+   "file": "404 Erin Court - No refund letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Deposit 0.00 (SD insurance); refers to attached ledger"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1445,
+  "lease_start": "2023-10-27",
+  "lease_end": "2024-10-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "line_items": [
+  {
+   "description": "Drywall repair, touch-up paint, bedroom",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-31",
+   "source_file": "404 Erin Court - Ledger.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Patch and touch-up paint, bedroom 2",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-31",
+   "source_file": "404 Erin Court - Ledger.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Screw removal, patch, paint, master bedroom",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-31",
+   "source_file": "404 Erin Court - Ledger.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 200,
+ "ledger": {
+  "as_of_date": "2024-11-07",
+  "balance_due": 200,
+  "last_payment_date": "2024-10-04",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Sum of 3 open lines = 200.00; credits 0.00; PM ledger balance due 200.00. Difference 0.00.",
+ "notes": "Winner is the Excalibur statement (11/07/24). Balance before the 10/31 damage lines was 0.00, so the prior -1,703 credit is already absorbed. Move-out and lease end both 10/31/24. Deposit was SD insurance with 0.00 deposit per the no-refund letter, so nothing is applied. SD insurance addendum, lease and tenant contact screenshots not opened (lite mode).",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

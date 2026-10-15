@@ -1,0 +1,197 @@
+{
+ "tracking": 798,
+ "winning_document": "1175 Ranch Falls - Itemization - Charles Peck.pdf",
+ "pm_stated_amount_due": 900.78,
+ "documents": [
+  {
+   "file": "1175 Ranch Falls - Application - Charles Peck.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rental application, classified from file name/excerpt; not used."
+  },
+  {
+   "file": "1175 Ranch Falls - Itemization - Charles Peck.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-05-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": true,
+   "note": "RentWerx 'Itemization of Move out Charges - End of Lease' dated 17 May 2024, total 900.78. It includes an NSF fee (ledger 06/12/2024) and legal letter (ledger 09/07/2024) that post-date the letter date, so the PDF was evidently regenerated. No sub-amounts for the 645.78 make-ready."
+  },
+  {
+   "file": "1175 Ranch Falls - Lease 2023 to 2024  - Charles Peck.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-05-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentWerx TX lease; form fields (rent/dates) blank in text layer, facts taken from ledger header and sheet (rent 1950, 5/4/2023-4/30/2024). Preferred Resident Program $33/mo (28 insurance + 5 admin) in lieu of deposit; RBP 59 (41 with insurance opt-out)."
+  },
+  {
+   "file": "1175 Ranch Falls - Ledger - Charles Peck.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware-style, newest-first; balance 900.78 as of 9-10-2024; 'Closed - Itemization Complete'. Used to split Itemization Fee 95 into 45 + 50 and for NSF/legal dates and payment reversal."
+  },
+  {
+   "file": "1175 Ranch Falls - Move Out Report - Charles Peck.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-05-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Inspection 2024-05-03: overgrown grass/landscaping, broken fence board, touch-up paint, dirt on garage floor, holes in garage wall. No pet or odor items (Odor: satisfactory)."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1950,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-05-04",
+  "current_term_end": "2024-04-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2024-04-30",
+  "lease_start": "2023-05-04",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package (insurance opt-out rate; list price 59)",
+    "amount": 41
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready repairs (lightbulb, toilet seat, nail removal/hole fill, lawn service, paint touch-up, maid service, towel holder) - no sub-amounts given",
+   "category": "repairs_damage",
+   "amount_charged": 645.78,
+   "amount_open": 645.78,
+   "date_posted": "2024-05-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1175 Ranch Falls - Itemization - Charles Peck.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-05-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1175 Ranch Falls - Itemization - Charles Peck.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Handling Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-05-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1175 Ranch Falls - Itemization - Charles Peck.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "NSF Fee - returned payment (chargeback of 740.78 pulled funds)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-06-12",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1175 Ranch Falls - Ledger - Charles Peck.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Legal letter to past tenant (Brown Law inv 7615)",
+   "category": "eviction_legal_court",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-09-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1175 Ranch Falls - Ledger - Charles Peck.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "1175 Ranch Falls - Ledger - Charles Peck.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant chargeback on PTP funds pulled - in violation of lease agreement (Peck III - $740.78)"
+  },
+  {
+   "file": "1175 Ranch Falls - Ledger - Charles Peck.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "legal letter to past tenant Peck- all itemized charges stand. Tenant to reimburse owner."
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-09-10",
+  "balance_due": 900.78,
+  "first_full_month": "2023-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-04"
+ },
+ "reconciliation": "sum(open line items)=645.78+45+50+85+75=900.78 - credits 0.00 = 900.78 vs pm_stated_amount_due 900.78 (itemization total and ledger balance); matches.",
+ "notes": "Tenant moved out at end of term 04/30/2024; PM pulled 740.78 (make-ready + 95 itemization fees) from the tenant's account on 05/17/2024 under the Preferred Tenant Program, tenant charged it back on 06/12/2024 (reversal nets to zero, NSF 85 added), so no credit applies. Ledger 'Itemization Fee 95' equals itemization letter's 45 + 50. Make-ready 645.78 is lumped across repairs, lawn service, painting touch-up and maid service with no sub-amounts; invoices are behind an external link not in the folder. Add-ons: ledger RBP 41 from 12/2023 (59 before). Last real tenant payment 04/04/2024 (the 05/17/2024 payment was reversed). Move-in 5/4/2023 charges included a 2,500 Risk Mitigation Fee and 295 lease prep (history only).",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a239e24ea9804bd23"
+ }
+}

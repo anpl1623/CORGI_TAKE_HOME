@@ -1,0 +1,196 @@
+{
+  "tracking": 241,
+  "documents": [
+    {
+      "file": "3080 Tarian Way - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3080 Tarian Way - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-10-02",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "3080 Tarian Way - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-10-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3080 Tarian Way - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-08-29",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "3080 Tarian Way - Tenant Contact.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "3080 Tarian Way - Ledger.pdf",
+  "pm_stated_amount_due": 346.16,
+  "lease": {
+    "base_monthly_rent": 1895.0,
+    "recurring_addons": [
+      {
+        "name": "YRIG Prem - Owners",
+        "amount": 20.0
+      },
+      {
+        "name": "Sec Dep Ins Charge to Tenant",
+        "amount": 48.0
+      },
+      {
+        "name": "Latchel Concierge Service",
+        "amount": 14.99
+      }
+    ],
+    "lease_start": "2022-08-30",
+    "lease_end": "2023-08-31",
+    "current_term_start": "2022-08-30",
+    "current_term_end": "2023-08-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2000.0,
+    "monthly_sd_premium": 48.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "60 days prior notice, one month's rent as liquidated damages, $500 early lease termination admin fee"
+  },
+  "move_out": {
+    "move_out_date": "2023-09-01",
+    "termination": "holdover_then_vacated",
+    "holdover_days_after_lease_end": 1,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-10-02",
+    "balance_due": 346.16,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-08-05"
+  },
+  "line_items": [
+    {
+      "description": "Rent Charge: 1 day holdover rent for 09/01/2023 ($1,895.00 less $1,831.83 credit for 9/2-9/30)",
+      "category": "rent_after_lease_end",
+      "amount_open": 63.17,
+      "amount_charged": 1895.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-01",
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3080 Tarian Way - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "description": "YRIG Prem - Owners",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 20.0,
+      "amount_charged": 20.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3080 Tarian Way - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "description": "Sec Dep Ins Charge to Tenant",
+      "category": "sdrp_premium",
+      "amount_open": 48.0,
+      "amount_charged": 48.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3080 Tarian Way - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "description": "Latchel Concierge Service",
+      "category": "other_fee",
+      "amount_open": 14.99,
+      "amount_charged": 14.99,
+      "date_posted": "2023-09-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 1,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3080 Tarian Way - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    },
+    {
+      "description": "Tenant Damages to Property: Drywall damage throughout house",
+      "category": "repairs_damage",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-09-28",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": 28,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "3080 Tarian Way - Ledger.pdf",
+      "source_page": 4,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = $63.17 + $20.00 + $48.00 + $14.99 + $200.00 - $0.00 = $346.16 vs PM stated $346.16; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "3080 Tarian Way - Ledger.pdf is the winning accounting document with $346.16 balance due. Open charges comprise 1 day holdover rent ($63.17 net after reversal of 9/2-9/30 rent), YRIG owner insurance premium ($20.00), security deposit insurance premium ($48.00), Latchel concierge service ($14.99), and drywall repairs ($200.00). September late fee was reversed."
+}

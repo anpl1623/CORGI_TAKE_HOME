@@ -1,0 +1,199 @@
+{
+ "tracking": 81,
+ "documents": [
+  {
+   "file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-04-24",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting (scan, no text layer). Move-out 3/28/23 Lease Break, inspected 4/3/23. Deductions: Cleaning 336.75, Repair 95.00, Repair-turnover 431.15, Carpet Cleaning 199.00, Landscaping-Firm Bid 280.00; total 1,341.90; credits 0. Attached: Tucker Cleaning inv 1535 (336.75), Jack'll Fix It inv 4/5/23 total 1,250 with handwritten T/O split (tenant 431.15), Jack'll Fix It inv 3/20/23 service call 95 (GFCI tripped, tenant responsibility), Dave's carpet inv (199), Trim Landscaping estimate email (280 tenant / 155 owner), mailing envelope."
+  },
+  {
+   "file": "tenant ledger Squyres.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-05-02",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware, newest-first. Balance 1,341.90 = five unpaid 04/24/2023 Sec Dep charges matching the statement. All rent, fees, $3,300 lease-break fee to owner and $1,000 re-renting fee were paid."
+  },
+  {
+   "file": "8193NMidnightWay_TrimLandscaping.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-04-24",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "BJs/Trim Landscaping invoice 6716, $435 total; statement charges tenant only $280 (weed whack/chemicals/debris); $155 branch trimming marked owner."
+  },
+  {
+   "file": "FW_ Auto Coverage 800 827 4926 Transaction Receipt.msg",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2023-06-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Global Home USA forwarded a card-sale receipt to YRIG, subject 'Contract 4571R': $1,341.90 card sale on 6/13/2023, billing address 8193 N Midnight Way. This is a collection after the claim was filed, on the insurer side, not a payment to the PM."
+  },
+  {
+   "file": "Security_Deposit_Waiver_Addendum1_(10-06-2022_-_10-06-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-06",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver: YES, $43.00/month in lieu of $2,475.00 deposit."
+  },
+  {
+   "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(10-06-2022_-_10-06-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-10-06",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Term 10/07/2022-10/10/2023, rent $1,650, prorated $1,330.65 for Oct 2022; security deposit N/A (No Security Deposit Option); RBP $29/mo; pet fee $25/pet/mo; lease-break clause 41f."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 43,
+  "waived_deposit_amount": 2475,
+  "cash_deposit_amount": 0,
+  "lease_start": "2022-10-07",
+  "lease_end": "2023-10-10",
+  "current_term_start": "2022-10-07",
+  "current_term_end": "2023-10-10",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "RIS / No Security Deposit Option monthly fee",
+    "amount": 43
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   },
+   {
+    "name": "Monthly pet fee (2 pets x $25)",
+    "amount": 50
+   }
+  ],
+  "lease_break_terms": "Para 41f: tenant may terminate by paying Agent a non-refundable $1,000 lease break/re-renting fee plus a fee to Landlord equal to 2x monthly rent. The ledger shows the tenant paid the $1,000 re-renting fee and the $3,300 lease-break fee."
+ },
+ "move_out": {
+  "move_out_date": "2023-03-28",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2023-05-02",
+  "balance_due": 1341.9,
+  "first_full_month": "2022-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-03-31"
+ },
+ "line_items": [
+  {
+   "description": "Cleaning - move out cleaning (Tucker Cleaning inv 1535)",
+   "category": "cleaning",
+   "amount_charged": 336.75,
+   "amount_open": 336.75,
+   "date_posted": "2023-04-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Repair - Jack'll Fix It service call 3/17/2023 (GFCI tripped, tenant responsibility; fridge leak check)",
+   "category": "repairs_damage",
+   "amount_charged": 95,
+   "amount_open": 95,
+   "date_posted": "2023-04-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Repair-turnover - tenant share of Jack'll Fix It inv 4/5/2023 ($1,250 total): A/C filter, patch hole in bath door, light switch, 2 blinds, kitchen disposal",
+   "category": "repairs_damage",
+   "amount_charged": 431.15,
+   "amount_open": 431.15,
+   "date_posted": "2023-04-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet Cleaning - 5 rooms and hall steam cleaned (Dave's carpet and tile)",
+   "category": "carpet_cleaning",
+   "amount_charged": 199,
+   "amount_open": 199,
+   "date_posted": "2023-04-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Landscaping - weed whack, chemicals, blow debris (tenant portion of Trim Landscaping $435 inv 6716; $155 branch trim was owner's)",
+   "category": "landscaping_lawn",
+   "amount_charged": 280,
+   "amount_open": 280,
+   "date_posted": "2023-04-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 1341.9,
+ "winning_document": "8193NMidnightWay_042423_StatementofAccounting_Squyres.pdf",
+ "reconciliation": "336.75+95.00+431.15+199.00+280.00 = 1,341.90 - credits 0 = 1,341.90 = PM statement total = ledger balance 5/2/2023; matches exactly.",
+ "notes": "Lease break: tenant moved out 3/28/23. Tenant paid all rent through March, the $3,300 lease-break fee to owner and the $1,000 re-renting fee. The claim covers only move-out damage, cleaning and landscaping. Landscaping invoice $435: $155 branch trimming marked owner ('O') and excluded by the PM. Jack'll Fix It $1,250 invoice: items marked O (smoke detectors, batteries, doorbell, dryer vent, fence etc.) excluded; tenant share $431.15. Tenant had pets (pet fees) but no pet damage is charged. The .msg shows a $1,341.90 card sale on 6/13/2023 under Contract 4571R, forwarded by Global Home USA to YRIG. It looks like a collection from the tenant after the claim, on the insurer side, so it is not recorded as a PM credit or settlement.",
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "a292dc4070b3b3ab7"
+ }
+}

@@ -1,0 +1,182 @@
+{
+  "tracking": 274,
+  "documents": [
+    {
+      "file": "916 Villa Seca SD and Demand Letter.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-10-19",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "916 Villa Seca, 79928.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-09-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Demand Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-10-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "IMG_9524.png",
+      "doc_type": "email_or_screenshot",
+      "doc_date": "2023-11-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "SD Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-09-20",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "916 Villa Seca SD and Demand Letter.pdf",
+  "pm_stated_amount_due": 1677.37,
+  "lease": {
+    "base_monthly_rent": 1230.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Waiver",
+        "amount": 33.0
+      }
+    ],
+    "lease_start": "2022-09-25",
+    "lease_end": "2023-09-30",
+    "current_term_start": "2022-09-25",
+    "current_term_end": "2023-09-30",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1230.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-10-07",
+    "termination": "holdover_then_vacated",
+    "holdover_days_after_lease_end": 7,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": null,
+    "balance_due": null,
+    "first_full_month": null,
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": null
+  },
+  "line_items": [
+    {
+      "description": "Damages: Trash removal, stucco damage front door, blinds LR/MBR, touch up paint, filter change, light bulbs, closet door, drywall repair, door stop",
+      "category": "repairs_damage",
+      "amount_open": 818.31,
+      "amount_charged": 818.31,
+      "date_posted": "2023-10-19",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "916 Villa Seca SD and Demand Letter.pdf",
+      "source_page": 2,
+      "confidence": 1.0
+    },
+    {
+      "description": "Cleaning and maintenance",
+      "category": "cleaning",
+      "amount_open": 543.54,
+      "amount_charged": 543.54,
+      "date_posted": "2023-10-19",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "916 Villa Seca SD and Demand Letter.pdf",
+      "source_page": 2,
+      "confidence": 1.0
+    },
+    {
+      "description": "October 2023 Prorated Rent (10/01/2023 to 10/07/2023 holdover)",
+      "category": "rent_after_lease_end",
+      "amount_open": 277.76,
+      "amount_charged": 277.76,
+      "date_posted": "2023-10-19",
+      "service_period_start": "2023-10-01",
+      "service_period_end": "2023-10-07",
+      "days_after_lease_end": 7,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "916 Villa Seca SD and Demand Letter.pdf",
+      "source_page": 2,
+      "confidence": 1.0
+    },
+    {
+      "description": "October 2023 Unpaid late charges",
+      "category": "late_fee",
+      "amount_open": 37.76,
+      "amount_charged": 37.76,
+      "date_posted": "2023-10-19",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "916 Villa Seca SD and Demand Letter.pdf",
+      "source_page": 2,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 1677.37 - 0.00 = 1677.37 vs PM stated 1677.37; exact match to TXR-2216 Itemization of Security Deposit.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": true,
+    "missing_itemization": false,
+    "missing_ledger": true,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [
+    {
+      "flag": "tenant_disputes_charges",
+      "quote": "I do not find these charges valid as this home was not in the best shape when it was leased",
+      "file": "IMG_9524.png"
+    },
+    {
+      "flag": "missing_ledger",
+      "quote": "attached the Itemization of Security Deposit",
+      "file": "916 Villa Seca SD and Demand Letter.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "TXR-2216 itemization signed 2023-10-19 totals ,677.37. Tenant held over 7 days until 2023-10-07 after lease ended 2023-09-30. Tenant submitted written dispute letter on 2023-11-01 contesting repairs, cleaning, prorated rent and late fee."
+}

@@ -1,0 +1,137 @@
+{
+ "tracking": 680,
+ "winning_document": "14708 David Latin Itemization (version 2) (1).pdf (TXR-2216 revised itemization dated 2024-06-20, balance due 2,627.69)",
+ "documents": [
+  {
+   "file": "14708 David Latin Itemization (version 2) (1).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-20",
+   "used_for_amounts": true,
+   "revised": true,
+   "note": "Winning: revised itemization; repairs 1476.10, clean 780, carpet 381.59, landscaping 240, less 250 deposit"
+  },
+  {
+   "file": "Statement (9).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-15",
+   "used_for_amounts": false,
+   "note": "Tenant statement corroborates 2,877.69 charges less 250 applied, balance 2,627.69"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "sd_program": "unknown",
+  "lease_start": "2022-05-04",
+  "lease_end": "2024-04-30",
+  "recurring_addons": [
+   {
+    "name": "Zero Deposit fee",
+    "amount": 43
+   },
+   {
+    "name": "RBP",
+    "amount": 35
+   },
+   {
+    "name": "Pet rent",
+    "amount": 30
+   }
+  ]
+ },
+ "ledger": {
+  "as_of_date": "2024-07-15",
+  "balance_due": 2627.69,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "move_out": {
+  "move_out_date": "2024-04-30",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Interior repairs per itemization",
+   "category": "repairs_damage",
+   "amount_open": 1476.1,
+   "amount_charged": 1476.1,
+   "date_posted": "2024-06-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14708 David Latin Itemization (version 2) (1).pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaning per itemization",
+   "category": "cleaning",
+   "amount_open": 780,
+   "amount_charged": 780,
+   "date_posted": "2024-06-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14708 David Latin Itemization (version 2) (1).pdf",
+   "source_page": 1,
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet charge, no invoice",
+   "category": "flooring",
+   "amount_open": 381.59,
+   "amount_charged": 381.59,
+   "date_posted": "2024-06-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14708 David Latin Itemization (version 2) (1).pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Landscaping and yard cleanup",
+   "category": "landscaping_lawn",
+   "amount_open": 240,
+   "amount_charged": 240,
+   "date_posted": "2024-06-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14708 David Latin Itemization (version 2) (1).pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit 250 applied (orig. pet deposit)",
+   "amount": 250,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "Statement (9).pdf"
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "Carpet $381.59",
+   "file": "14708 David Latin Itemization (version 2) (1).pdf"
+  }
+ ],
+ "pm_stated_amount_due": 2627.69,
+ "reconciliation": "Open lines 2877.69 minus SD credit 250.00 = 2627.69, equal to itemization balance due and statement balance.",
+ "extraction_confidence": 0.8,
+ "notes": "Carpet line has no invoice or photos in the folder, so flooring_without_support is set. Category is flooring if it is a replacement, not carpet cleaning. Lease not opened per lite mode; statement shows Zero Deposit fee (sd program may be zero_deposit).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ae7e4cdfc6d13ff65"
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "tracking": 745,
+ "documents": [
+  {
+   "file": "7123 Ribbon Creek.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ForeFront Move Out Statement, 8 charges totaling 1,483.61, credits 0.00. Winning accounting document."
+  },
+  {
+   "file": "Tenant-Ledger-2024_08_27_10_53_42.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Newest-first ledger (48 records). Used to split/confirm statement lines and for the 08-15-2024 check payment of 1,483.61 that zeroes the balance."
+  },
+  {
+   "file": "EMAIL FROM PM.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Email thread PM/claims administrator about payment on 8-15-2024. Contains a claims-administration message; not used for amounts and not used as a decision."
+  },
+  {
+   "file": "Residential Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "TXR-2001 lease, 37 pages; rent, term and SD waiver read from digest excerpt."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1695,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver",
+    "amount": 48
+   },
+   {
+    "name": "2023 Second Nature RBP",
+    "amount": 60
+   },
+   {
+    "name": "Insurance Services",
+    "amount": 20
+   }
+  ],
+  "lease_start": "2023-11-30",
+  "lease_end": "2024-11-30",
+  "current_term_start": "2023-11-30",
+  "current_term_end": "2024-11-30",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Lease para 28 is generic (no fee stated); default para 27 gives lost rent and reletting costs. Ledger shows Re-letting fee 1,695.00 charged 04-30-2024 (paid)."
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "early_termination",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Rent (07-2024) prorated; 601.45 = 11/31 of 1,695, period end inferred (re-let about 07-12)",
+   "category": "rent_after_move_out",
+   "amount_charged": 601.45,
+   "amount_open": 601.45,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Security Deposit Waiver (07-2024)",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "2023 Second Nature RBP (07-2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Insurance Services (07-2024)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Late Fee (12% of rent, posted 07-04-2024)",
+   "category": "late_fee",
+   "amount_charged": 203.4,
+   "amount_open": 203.4,
+   "date_posted": "2024-07-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Turnover - Lawn Care",
+   "category": "landscaping_lawn",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Turnover - House Cleaning - Deep Clean",
+   "category": "cleaning",
+   "amount_charged": 284.76,
+   "amount_open": 284.76,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Turnover - Trash Removal",
+   "category": "trash_removal",
+   "amount_charged": 176,
+   "amount_open": 176,
+   "date_posted": "2024-08-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "7123 Ribbon Creek.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "08-15-2024 Check Payment (Check#141) 1,483.61 under tenant contact; ledger balance 0.00. PM email says it was made by the management company as an advance to the owner (no proof in folder). Statement shows credits 0.00.",
+   "amount": 1483.61,
+   "type": "tenant_payment",
+   "source_file": "Tenant-Ledger-2024_08_27_10_53_42.pdf",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 0,
+  "first_full_month": "2023-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-08-15"
+ },
+ "flags": {
+  "tenant_paid_or_settled_with_pm": true,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Tenant-Ledger-2024_08_27_10_53_42.pdf",
+   "flag": "tenant_paid_or_settled_with_pm",
+   "quote": "08-15-2024 Check Payment (Check#141) $1,483.61, balance $0.00"
+  },
+  {
+   "file": "EMAIL FROM PM.pdf",
+   "flag": "payer_disputed_note",
+   "quote": "That payment was actually made by the management company to advance to the owner."
+  }
+ ],
+ "extraction_confidence": 0.8,
+ "pm_stated_amount_due": 1483.61,
+ "reconciliation": "Sum of statement lines 1,483.61 - credits 1,483.61 = 0.00 vs PM stated 1,483.61: statement lists credits 0.00 but ledger shows a 1,483.61 check payment on 08-15-2024 zeroing the balance (PM says that payer was the management company).",
+ "winning_document": "7123 Ribbon Creek.pdf",
+ "notes": "Sheet move-out 2024-07-31 conflicts with statement and ledger (05-31-2024, notice 04-26-2024); documents used. June rent 1,695 was paid 06-01 and a 1,695 re-letting fee was charged 04-30 and paid, so only prorated July rent is open. July rent period end is inferred, not stated. Statement dated the same day as ledger, 2024-08-27; the 1,483.61 equals the 07/08-2024 ledger charges that the 08-15 payment cleared.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a347f77b2d73a21d6"
+ }
+}

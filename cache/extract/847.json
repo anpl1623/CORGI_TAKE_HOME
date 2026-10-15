@@ -1,0 +1,203 @@
+{
+ "tracking": 847,
+ "documents": [
+  {
+   "file": "Oltman final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-23",
+   "note": "Rent Manager final statement, balance 4028.43; winning document",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": true
+  },
+  {
+   "file": "Oltman ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-04",
+   "note": "Same 7 open charges; used for last payment date and duplicate check",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Oltman collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-23",
+   "note": "Repeats 4028.43 balance; collection fees not counted",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Oltman invoice repairs.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-13",
+   "note": "Invoice 27702 for 402.20; statement line counted once",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Oltman invoice paint.pdf",
+   "doc_type": "vendor_estimate",
+   "doc_date": "2024-09-13",
+   "note": "Estimate 1030 total 1736; statement line 520.80 is a prorated share",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  },
+  {
+   "file": "Oltman invoice carpet.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-16",
+   "note": "Invoice 3-314271 total 6747.53; statement carpet line is prorated",
+   "opened_visually": false,
+   "revised": false,
+   "used_for_amounts": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1820,
+  "lease_start": "2022-08-03",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-04",
+  "balance_due": 4028.43,
+  "last_payment_date": "2024-08-09",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "line_items": [
+  {
+   "description": "Tenant-responsible repairs, parts and labor (Infinite M&C)",
+   "category": "repairs_damage",
+   "amount_charged": 402.2,
+   "amount_open": 402.2,
+   "date_posted": "2024-09-04",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "Non-normal wear cleaning (Antonia)",
+   "category": "cleaning",
+   "amount_charged": 215,
+   "amount_open": 215,
+   "date_posted": "2024-09-04",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "Non-normal wear painting correction (Paynter)",
+   "category": "painting",
+   "amount_charged": 520.8,
+   "amount_open": 520.8,
+   "date_posted": "2024-09-04",
+   "confidence": 0.75,
+   "is_estimate_only": true,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "Lawncare clean-up (Pablo)",
+   "category": "landscaping_lawn",
+   "amount_charged": 590,
+   "amount_open": 590,
+   "date_posted": "2024-09-04",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "Haul of leftover items at vacancy",
+   "category": "trash_removal",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2024-09-04",
+   "confidence": 0.85,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "Carpet inspection and prorated animal-damaged carpet",
+   "category": "pet_damage_odor",
+   "amount_charged": 2004.38,
+   "amount_open": 2004.38,
+   "date_posted": "2024-09-04",
+   "confidence": 0.65,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  },
+  {
+   "description": "City of Boise sewer and trash through 8/31/24",
+   "category": "utilities",
+   "amount_charged": 231.05,
+   "amount_open": 231.05,
+   "date_posted": "2024-09-10",
+   "service_period_end": "2024-08-31",
+   "confidence": 0.9,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Oltman final statement.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 4028.43,
+ "winning_document": "Oltman final statement.pdf",
+ "reconciliation": "Open lines 4028.43 minus credits 0.00 equals PM balance due 4028.43 (final statement 09/23/2024). Ledger 10/04/2024 shows the same seven open charges. Statement collection fee 2014.21 and collection total 6042.64 are not charges.",
+ "notes": "Carpet line categorized pet_damage_odor; flooring is the alternative and the line is an unsplit prorate of invoice 3-314271. Cleaning, City of Boise, and landscaping/haul scans not opened (lite mode; statement lines carry the amounts). Carpet line mixes an inspection with pet damage with no split, so mixed flag left false.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa69d676c477787bc"
+ }
+}

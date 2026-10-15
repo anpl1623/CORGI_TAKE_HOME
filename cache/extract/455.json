@@ -1,0 +1,239 @@
+{
+ "tracking": 455,
+ "winning_document": "Washington move out charges05022024_2.pdf",
+ "pm_stated_amount_due": 1148.47,
+ "reconciliation": "sum(open lines)=1148.47 - credits 0.00 = 1148.47 vs PM stated 1148.47 (2/5/2024 demand letter and ledger total both 1,148.47); exact match.",
+ "notes": "Winning document is the 7-page scan: 2/5/2024 1st Choice PM Notice of Outstanding Charges (1,148.47) + SD waiver addendum + three vendor invoices. Ledger (oldest-first, created 2/14/2024) shows the same three move-out charges as the only open items; all rent through 1/7/2024 paid. Invoice 7849 (775) split by its own rows: interior painting 525, wall plate 5, garage remote batteries 20, trash haul 75, gutter cleaning 150 (gutters mapped to pest_routine per taxonomy). JAK invoice 1676 (211.09 incl. 16.09 sales tax at 8.25%) split into carpet cleaning 120+9.90 tax and pet treatment 75+6.19 tax (ledger lumps it as Cleaning House and Carpet). Pro Solutions pest invoice 162.38 (150 + 12.38 tax) for German roaches, remediation. Lease runs 6/17/2023-6/16/2024 while tenant moved out 1/7/2024 (sheet and ledger header show lease end 1/7/2024); no post-move-out rent or lease-break fee was claimed, so early_termination vs end_of_term does not change any line. Deposit paid 0.00 (SD waiver 51/mo in lieu of 2,195 deposit; ledger label Security Deposit Alternative, Jan 2024 charged 55). Tenant pays monthly non-refundable pet fee 55 (pet on premises). Certified receipt (USPS mailing) not opened. Pest invoice header shows customer Cole Group / White Settlement but address 310 Saddle Road.",
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "Washington move out charges05022024_2.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "doc_date": "2024-02-05",
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scan: demand letter listing 3 invoices total 1,148.47, SD waiver addendum, invoice 7849, JAK invoice 1676, Pro Solutions pest ticket. Winning document."
+  },
+  {
+   "file": "tenant_ledger-michael_a_washington_elizabeth_pena_washington-20240214.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "doc_date": "2024-02-14",
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger; total open 1,148.47 = 3 move-out charges; used for payment history and first-month check."
+  },
+  {
+   "file": "Security Deposit Waiver - 310 Saddle (1).pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "doc_date": "2023-05-22",
+   "opened_visually": false,
+   "revised": false,
+   "note": "Lease Addendum for Security Deposit Waiver: 51/mo in lieu of 2,195 deposit, signed 5/22/2023."
+  },
+  {
+   "file": "Residential Lease - 722 (20).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "doc_date": null,
+   "opened_visually": false,
+   "revised": false,
+   "note": "TAR lease: rent 1,995, 6/17/2023-6/16/2024, prorated first month 931, auto-renews MTM, holdover 3x rent, pet fee and benefits package add-ons."
+  },
+  {
+   "file": "Washington Certified Reciept05022024.pdf",
+   "doc_type": "other",
+   "used_for_amounts": false,
+   "doc_date": null,
+   "opened_visually": false,
+   "revised": false,
+   "note": "USPS certified mail receipt; classified from file name, not opened."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1995,
+  "lease_start": "2023-06-17",
+  "lease_end": "2024-06-16",
+  "current_term_start": "2023-06-17",
+  "current_term_end": "2024-06-16",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2195,
+  "monthly_sd_premium": 51,
+  "lease_break_terms": "TAR Par.27 default: tenant liable for lost rent and reletting costs; no flat lease-break fee seen in lease excerpt.",
+  "recurring_addons": [
+   {
+    "name": "Tenant Benefit Package",
+    "amount": 35
+   },
+   {
+    "name": "Pet Fee Non-Refundable (monthly)",
+    "amount": 55
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-01-07",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-02-14",
+  "balance_due": 1148.47,
+  "first_full_month": "2023-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-01-02"
+ },
+ "line_items": [
+  {
+   "description": "Invoice 7849 - Interior painting (hole fill, touch-up, wall repairs, paint prep, Kilz) supplies and labor",
+   "category": "painting",
+   "amount_charged": 525,
+   "amount_open": 525,
+   "date_posted": "2024-01-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 4,
+   "confidence": 0.9
+  },
+  {
+   "description": "Invoice 7849 - Wall plate, master bedroom",
+   "category": "repairs_damage",
+   "amount_charged": 5,
+   "amount_open": 5,
+   "date_posted": "2024-01-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 4,
+   "confidence": 0.8
+  },
+  {
+   "description": "Invoice 7849 - Replace batteries in garage remote controls",
+   "category": "keys_remotes",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-01-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 5,
+   "confidence": 0.6
+  },
+  {
+   "description": "Invoice 7849 - Trash haul (empty all trash bins)",
+   "category": "trash_removal",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-01-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 5,
+   "confidence": 0.9
+  },
+  {
+   "description": "Invoice 7849 - Clean gutters",
+   "category": "pest_routine",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-01-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 5,
+   "confidence": 0.6
+  },
+  {
+   "description": "JAK invoice 1676 - Carpet cleaning, 3 rooms (120.00 + 9.90 sales tax)",
+   "category": "carpet_cleaning",
+   "amount_charged": 129.9,
+   "amount_open": 129.9,
+   "date_posted": "2024-01-24",
+   "service_period_start": "2024-01-17",
+   "service_period_end": "2024-01-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 6,
+   "confidence": 0.9
+  },
+  {
+   "description": "JAK invoice 1676 - Pet treatment (75.00 + 6.19 sales tax)",
+   "category": "pet_damage_odor",
+   "amount_charged": 81.19,
+   "amount_open": 81.19,
+   "date_posted": "2024-01-24",
+   "service_period_start": "2024-01-17",
+   "service_period_end": "2024-01-17",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 6,
+   "confidence": 0.85
+  },
+  {
+   "description": "Pro Solutions Termite & Pest Control 1/29/2024 - German roach treatment (150.00 + 12.38 tax)",
+   "category": "pest_remediation",
+   "amount_charged": 162.38,
+   "amount_open": 162.38,
+   "date_posted": "2024-01-30",
+   "service_period_start": "2024-01-29",
+   "service_period_end": "2024-01-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Washington move out charges05022024_2.pdf",
+   "source_page": 7,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a2b6bac24619fbc69"
+ }
+}

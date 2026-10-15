@@ -1,0 +1,420 @@
+{
+ "tracking": 882,
+ "documents": [
+  {
+   "file": "Dunn 219 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc; total 4049.69"
+  },
+  {
+   "file": "Dunn 219 Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-17",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Splits 1835.19 balance forward; no payments since 7/07"
+  },
+  {
+   "file": "Dunn 219 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 4049.69 total"
+  },
+  {
+   "file": "Dunn 219 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Same 4049.69; 2962.19 less 695.00 plus 1782.50"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 970,
+  "cash_deposit_amount": null,
+  "current_term_end": null,
+  "current_term_start": null,
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "lease_end": "2025-04-30",
+  "lease_start": "2024-04-26",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Monthly pet fee",
+    "amount": 25
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 50
+   },
+   {
+    "name": "Renters insurance",
+    "amount": 19
+   },
+   {
+    "name": "SD protection",
+    "amount": 33
+   }
+  ],
+  "sd_program": "unknown",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-09-11",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Electric bill back 4/26-7/11/2024",
+   "category": "utilities",
+   "amount_charged": 463.89,
+   "amount_open": 463.89,
+   "confidence": 0.8,
+   "service_period_start": "2024-04-26",
+   "service_period_end": "2024-07-11",
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Electric bill back 7/11-8/7/2024",
+   "category": "utilities",
+   "amount_charged": 244.3,
+   "amount_open": 244.3,
+   "confidence": 0.8,
+   "service_period_start": "2024-07-11",
+   "service_period_end": "2024-08-07",
+   "date_posted": "2024-08-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 rent",
+   "category": "rent_in_term",
+   "amount_charged": 970,
+   "amount_open": 970,
+   "confidence": 0.85,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "confidence": 0.85,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "confidence": 0.85,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 SD protection",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "confidence": 0.85,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 2024 utility revenue",
+   "category": "utilities",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "confidence": 0.85,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Aug 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.85,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Ledger.docx"
+  },
+  {
+   "description": "Sep 2024 rent, 9/1-9/11 net of proration",
+   "category": "rent_in_term",
+   "amount_charged": 970,
+   "amount_open": 356,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 renters insurance, 9/1-9/11",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 7,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 pet fee, 9/1-9/11",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 9,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-11",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 SD protection, 9/1-9/11",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 12,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 2024 utility revenue, 9/1-9/11",
+   "category": "utilities",
+   "amount_charged": 50,
+   "amount_open": 18,
+   "confidence": 0.85,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Sep 6 2024 late fee",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "confidence": 0.9,
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Floor repair 9/26/2024",
+   "category": "flooring",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "confidence": 0.6,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Painting and drywall repairs",
+   "category": "painting",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "confidence": 0.8,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Cleaning charges 9/26/2024",
+   "category": "cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "confidence": 0.85,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Replacement blinds 9/26/2024",
+   "category": "repairs_damage",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "confidence": 0.8,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Dishwasher and microwave vandalized",
+   "category": "appliance",
+   "amount_charged": 667.2,
+   "amount_open": 667.2,
+   "confidence": 0.8,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Cabinet door repair 9/26/2024",
+   "category": "repairs_damage",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "confidence": 0.8,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  },
+  {
+   "description": "Rekeying 9/26/2024",
+   "category": "rekey_locks",
+   "amount_charged": 90.3,
+   "amount_open": 90.3,
+   "confidence": 0.9,
+   "date_posted": "2024-09-26",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Dunn 219 Move Out Statement.pdf"
+  }
+ ],
+ "credits": [
+  {
+   "type": "rent_refund_relet",
+   "amount": 695,
+   "description": "Move-out proration 9/12-9/30",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_without_support",
+   "quote": "09/26/2024 Floor Repair 75.00",
+   "file": "Dunn 219 Move Out Statement.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-10-17",
+  "balance_due": 4049.69,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-07"
+ },
+ "pm_stated_amount_due": 4049.69,
+ "winning_document": "Dunn 219 Move Out Statement.pdf",
+ "reconciliation": "Sum of open lines 4049.69 less unnetted credits 0.00 equals PM stated 4049.69; the 695.00 proration is already netted in the September lines.",
+ "extraction_confidence": 0.8,
+ "notes": "Balance forward 1835.19 has no payments since 7/07, so it equals the charges after 7/07 exactly. Lease runs to 4/30/2025; tenant out 9/11, so 9/12-9/30 is credited and no future rent is charged. Floor repair has no invoice or photos in the folder; flag is low-dollar judgment. Statement, letter and SDI agree at 4049.69.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a83618aee02f97567"
+ }
+}

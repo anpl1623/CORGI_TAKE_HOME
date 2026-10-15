@@ -1,0 +1,174 @@
+{
+ "tracking": 71,
+ "documents": [
+  {
+   "file": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2022-12-13",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Handwritten New Heights Move Out Form marked 'Eviction'. Move-out 12/12/22, evaluation 12/13/22. Deposit in escrow: $4500 (SDRP). Deductions: Legal Fees $171.52 and MCF $200.00, total $371.52."
+  },
+  {
+   "file": "1ae818a601e74fd3860afda75fe02e70 (2) 5106 torrey Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-02-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware ledger, newest-first. Balance $371.52: open rows are Legal 'Dec evict' $171.52 and Maintenance Coordination $200. State of SC HFD paid $10,598.71 on 02/02/2023. The tenant's first payment of $2,620 on 09/06/22 was returned/charged back."
+  },
+  {
+   "file": "065626ab01654e04b99cd441d6be7df5 (1) Demand letter Torrey.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-02-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Demand for an outstanding balance of $371.52."
+  },
+  {
+   "file": "19d2c9959b8149939e8bf92f70bdc900 addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-09-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Security Deposit Waiver: YES at $81/month in lieu of a $4,500.00 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2250,
+  "cash_deposit_amount": 0,
+  "current_term_end": null,
+  "current_term_start": "2022-09-06",
+  "initial_term_months": null,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "lease_end": null,
+  "lease_start": "2022-09-06",
+  "monthly_sd_premium": 81,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 81
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 4500
+ },
+ "move_out": {
+  "move_out_date": "2022-12-12",
+  "termination": "eviction",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Legal Fees - Legal and Professional : Dec evict",
+   "category": "eviction_legal_court",
+   "amount_charged": 171.52,
+   "amount_open": 171.52,
+   "date_posted": "2023-01-27",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "MCF - Maintenance Coordination Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-02-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "State of South Carolina HFD payment 02/02/2023, applied to all prior rent, fees, late fees, eviction fee and the $800 move-out repair",
+   "amount": 10598.71,
+   "type": "third_party_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "1ae818a601e74fd3860afda75fe02e70 (2) 5106 torrey Ledger.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "eviction",
+   "quote": "5060 - Legal and Professional : Dec evict $171.52",
+   "file": "1ae818a601e74fd3860afda75fe02e70 (2) 5106 torrey Ledger.pdf"
+  },
+  {
+   "flag": "eviction",
+   "quote": "Eviction (handwritten header); Move Out Date: 12/12/22",
+   "file": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf"
+  },
+  {
+   "flag": "first_payment_bounced",
+   "quote": "Returned Payment Adjustment 09/28/2022 ($2,620.00) ... /Charged Back",
+   "file": "1ae818a601e74fd3860afda75fe02e70 (2) 5106 torrey Ledger.pdf"
+  },
+  {
+   "flag": "third_party_payment",
+   "quote": "Deposited Payment 02/02/2023 ... State of South Carolina HFD $10,598.71",
+   "file": "1ae818a601e74fd3860afda75fe02e70 (2) 5106 torrey Ledger.pdf"
+  },
+  {
+   "flag": "sd_program",
+   "quote": "Amount of Deposit in Escrow: $4500 (SDRP) Return Full Deposit: NO",
+   "file": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-02-16",
+  "balance_due": 371.52,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": false,
+  "first_payment_bounced": true,
+  "last_payment_date": "2023-02-02"
+ },
+ "pm_stated_amount_due": 371.52,
+ "winning_document": "c49254f1f9aa48f5bf4180c3e1f64c32 Torrey Move out.pdf",
+ "reconciliation": "Open lines 171.52 + 200.00 = 371.52 - credits 0 (HFD 10,598.71 already applied to paid charges) = 371.52 = Move Out Form total = ledger balance 02/16/2023 = demand letter; exact match.",
+ "extraction_confidence": 0.88,
+ "notes": "The lease agreement is not in the folder. Base rent of $2,250 comes from the ledger (Sep and Nov $2,250; Oct $1,875, apparently reduced by $375 for 9/1-9/5; Dec $870.97 = 2250*12/31, prorated through the 12/12 move-out). Lease end and term length are unknown. The tenant's only payment, $2,620 on 09/06/2022 for Sept rent, admin fee, SDRP and RBP, was returned on 09/28/2022. Nothing else was paid until the State of SC HFD (housing assistance) paid $10,598.71 on 02/02/2023, after move-out. That payment cleared all rent, late fees, the Oct eviction fee, legal fees and the $800 move-out repair. Only the Dec eviction legal fees and the $200 maintenance coordination fee remain. October is the first full calendar month; its rent was not paid by month end (paid by HFD 02/02/2023). Termination was an eviction: the form is marked 'Eviction' and the ledger shows 'Dec evict' legal fees.",
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "ac2e83783a58da07b"
+ }
+}

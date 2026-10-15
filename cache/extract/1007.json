@@ -1,0 +1,248 @@
+{
+ "tracking": 1007,
+ "winning_document": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+ "pm_stated_amount_due": 2125,
+ "reconciliation": "sum(open lines)=2,525.00 - credits 400.00 (mgmt-held cash deposit) = 2,125.00 = PM stated amount due 2,125.00 (also equals 12/10 ledger balance); no variance.",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-12-10",
+   "used_for_amounts": true,
+   "note": "PURE TN deposit disposition letter: charges 2,525.00, credit 400.00, amount due 2,125.00. Winning accounting document.",
+   "opened_visually": false,
+   "revised": false
+  },
+  {
+   "file": "tenant_ledger-ana_livia_e_lorean_pillow_ian_l_pillow-20241210.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-10",
+   "used_for_amounts": true,
+   "note": "Latest ledger (AppFolio style, oldest-first). Shows 400 deposit transfer and the six 'Deposit Forfeit' charges that match the letter; all pre-move-out rent/fees paid, balance 2,125.00.",
+   "opened_visually": false
+  },
+  {
+   "file": "tenant_ledger-ana_livia_e_lorean_pillow_ian_l_pillow-20241209.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-12-09",
+   "used_for_amounts": false,
+   "note": "Earlier ledger, identical through 10/05/2024 (balance 0.00) but before the post-move-out charges were posted; superseded by 12/10 ledger. Used for rent/payment history only.",
+   "opened_visually": false
+  },
+  {
+   "file": "INV1986.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-25",
+   "used_for_amounts": false,
+   "note": "Best One Cleaning invoice 1986: Full clean 300.00 + Carpet clean 150.00 = 450.00; corroborates statement's 300 cleaning and 150 carpet cleaning lines (counted once, from statement).",
+   "opened_visually": true
+  },
+  {
+   "file": "2024-11-22 16_16_46.958122+00_00-1165 - PURE - 2717 Kennedy Ct. Franklin.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-22",
+   "used_for_amounts": false,
+   "note": "Farmer Property Mgmt invoice 1165 total 3,360.00 (Paint all walls 2,600; MAINT 675 less 25 faucet cap; Trash out 85). Does not match the lower statement lines (paint 490, repairs 250); PM statement governs, invoice not added (no double count). Trash out 85 matches statement.",
+   "opened_visually": false
+  },
+  {
+   "file": "2717 Kennedy Ct._Move Out_2024-10-29 (1).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": false,
+   "note": "24-page zInspector move-out report (mostly photos). Text comments scanned only: no pet odor/urine comment; Flooring/Baseboard Satisfactory in every room; final comments estimate 'Carpet Replacement: TBD'. Not opened visually.",
+   "opened_visually": false
+  },
+  {
+   "file": "2717 Kennedy Ct._Move Out_2024-10-29 (2).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-10-29",
+   "used_for_amounts": false,
+   "note": "Byte-identical copy of (1); ignored.",
+   "opened_visually": false
+  },
+  {
+   "file": "ana-livia-e-lorean-pillow_06-09-2023.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-06-09",
+   "used_for_amounts": false,
+   "note": "Renewal lease for current term 07/22/2023-10/21/2024, rent 2,142; includes Alternative Deposit Program addendum (400 cash deposit, 100 enrollment, 35/mo) and pet addendum (cat, 3 paws).",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2142,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 400,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "Pet Program (Cato, 3 paws)",
+    "amount": 60
+   },
+   {
+    "name": "Resident Benefit Package w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Tenant Administrative Fee",
+    "amount": 20
+   }
+  ],
+  "lease_start": "2022-07-22",
+  "lease_end": "2024-10-21",
+  "current_term_start": "2023-07-22",
+  "current_term_end": "2024-10-21",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination only with landlord written permission: 45 days notice, fee of 150% of one month's rent (+50% admin fee if within first 9 months), tenant not in default. Holdover = month-to-month at 115% of rent."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-26",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 5,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-12-10",
+  "balance_due": 2125,
+  "first_full_month": "2022-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-05"
+ },
+ "line_items": [
+  {
+   "description": "Shower head replacement, light bulbs, missing handles",
+   "category": "repairs_damage",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning (invoice 1986 carpet clean 150.00)",
+   "category": "carpet_cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-12-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash Out",
+   "category": "trash_removal",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Paint (statement 490.00; vendor invoice 1165 shows paint all walls 2,600 - statement governs)",
+   "category": "painting",
+   "amount_charged": 490,
+   "amount_open": 490,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning Chargeback for pet - per lease (matches Best One full clean 300.00; lease pet addendum says landlord professionally cleans at end of term and bills tenant)",
+   "category": "pet_damage_odor",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-12-10",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Carpet replacement chargeback for stains (no invoice, no photos cited; move-out report rates all flooring Satisfactory and says 'Carpet Replacement: TBD')",
+   "category": "flooring",
+   "amount_charged": 1250,
+   "amount_open": 1250,
+   "date_posted": "2024-12-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Management Held Security Deposit applied (12/09/2024 transfer at move-out)",
+   "amount": 400,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "2717 Kennedy Ct._Move Out_2024-10-29 (1).pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet Replacement: TBD"
+  },
+  {
+   "file": "deposit_disposition_amount_due_ana_livia_e_lorean_pillow_121024.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet replacement chargeback for stains $1,250.00"
+  }
+ ],
+ "extraction_confidence": 0.85,
+ "notes": "Dates conflict: lease text and PM ledger give lease expiration 10/21/2024; PM ledger move-out 10/26/2024 (Oct rent prorated 26/30 = 1,856.40, fully paid); sheet/inspection say 10/29. No holdover premium billed and no open rent. Tenant had a cat on a pet program (60/mo, paid). Vendor invoices total more than the statement; statement lines only counted. Two identical move-out report copies counted once.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a65aa65996b07eafd"
+ }
+}

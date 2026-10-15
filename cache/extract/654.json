@@ -1,0 +1,302 @@
+{
+ "tracking": 654,
+ "documents": [
+  {
+   "file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "revised": true,
+   "opened_visually": false,
+   "note": "TXR-2216 amended itemization; damages total 9105.26 matches ledger"
+  },
+  {
+   "file": "Statement (8).pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-03",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Tenant statement 1/2023-5/2024; used to split statement line (3)"
+  },
+  {
+   "file": "2232 Sammy Cervantes Street  Loeza (1).pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Lease PDF not opened; digest excerpt only for term dates"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2350,
+  "sd_program": "unknown",
+  "lease_start": "2023-07-20",
+  "lease_end": "2024-02-29",
+  "cash_deposit_amount": 250
+ },
+ "move_out": {
+  "move_out_date": "2024-02-29",
+  "termination": "eviction"
+ },
+ "ledger": {
+  "as_of_date": "2024-05-08",
+  "balance_due": 13098.26,
+  "last_payment_date": "2024-01-03"
+ },
+ "line_items": [
+  {
+   "description": "Repairs (generic, unitemized)",
+   "category": "repairs_damage",
+   "amount_charged": 1200,
+   "amount_open": 1200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Fridge purchased (tax included)",
+   "category": "appliance",
+   "amount_charged": 780.48,
+   "amount_open": 780.48,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Grout repair (tile)",
+   "category": "flooring",
+   "amount_charged": 1800,
+   "amount_open": 1800,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": true,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Garage door invoice (opener arm broken)",
+   "category": "repairs_damage",
+   "amount_charged": 1099.66,
+   "amount_open": 1099.66,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "1st hazard/deep clean (vinegar)",
+   "category": "cleaning",
+   "amount_charged": 1664.25,
+   "amount_open": 1664.25,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "2nd deep clean",
+   "category": "cleaning",
+   "amount_charged": 450,
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Bulk haul furniture/trash",
+   "category": "trash_removal",
+   "amount_charged": 852.46,
+   "amount_open": 852.46,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Landscape dog-feces cleanup; gate repairs",
+   "category": "landscaping_lawn",
+   "amount_charged": 1258.41,
+   "amount_open": 1258.41,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-05-08",
+   "source_file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Jan 2024 rent, open after 1/3 payment",
+   "category": "rent_in_term",
+   "amount_charged": 2350,
+   "amount_open": 945.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "date_posted": "2024-01-01",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Jan 2024 monthly charges 35/30/43 (unlabeled)",
+   "category": "other_fee",
+   "amount_charged": 108,
+   "amount_open": 108,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "date_posted": "2024-01-01",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.4
+  },
+  {
+   "description": "EFT convenience fee 01/03/2024",
+   "category": "admin_itemization_fee",
+   "amount_charged": 4.5,
+   "amount_open": 4.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-01-03",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late fees January 2024 (initial 235 plus daily)",
+   "category": "late_fee",
+   "amount_charged": 285,
+   "amount_open": 285,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-01-05",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Feb 2024 rent (month-to-month period)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 2350,
+   "amount_open": 2350,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "days_after_lease_end": 29,
+   "date_posted": "2024-02-01",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Month-to-month premium Feb 2024",
+   "category": "rent_after_lease_end",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-02-01",
+   "service_period_end": "2024-02-29",
+   "days_after_lease_end": 29,
+   "date_posted": "2024-02-01",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Late fees February 2024 (daily)",
+   "category": "late_fee",
+   "amount_charged": 115,
+   "amount_open": 115,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-02-07",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee 03/05/2024 (10% of Feb rent)",
+   "category": "late_fee",
+   "amount_charged": 235,
+   "amount_open": 235,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-03-05",
+   "source_file": "Statement (8).pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payment 01/03/2024 applied to Jan rent",
+   "amount": 1404.5,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Security deposit applied to MO repairs",
+   "amount": 250,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "1st Hazard/Deep Clean (vinegar) - $1664.25 (spoiled food/dog feces/dog hair/dog urine)"
+  },
+  {
+   "file": "2232 Sammy Cervantes Itemization (version 2).pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Landscape clean up dog feces excessive, back iron gate repair and side gate repair $1258.41"
+  }
+ ],
+ "pm_stated_amount_due": 13098.26,
+ "reconciliation": "Open lines 13348.26 (damages 9105.26 + rent/fees 4243.00) - SD credit 250.00 = 13098.26 vs PM 13098.26; match.",
+ "notes": "Damages 9105.26 equals sum of page-1 and addendum priced items. Statement line (3) 4243.00 split into Jan rent remainder, Jan unlabeled charges, fees and Feb MTM rent. Feb 2024 treated as month-to-month because the digest lease excerpt shows primary term ended 1/31/2024; sheet lease end is 2/29/2024 (rent_in_term if sheet governs). Sheet lease start 2023-07-20 conflicts with 1/20/2023 commencement in digest excerpt. Addendum says fridge replacement and grout still pending; no invoices in folder. Itemization shows 250 deposit tendered while lease section 10 states 0.00. Lease PDF and ledger scans not opened (lite mode).",
+ "extraction_confidence": 0.65,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0d251c85bb700ab5"
+ }
+}

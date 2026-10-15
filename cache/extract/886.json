@@ -1,0 +1,352 @@
+{
+ "tracking": 886,
+ "winning_document": "23103 Cardigan Chase - Itemization - Perales.pdf",
+ "pm_stated_amount_due": 1673.37,
+ "reconciliation": "sum(open lines) 300.00+13.20+26.50+5.50+313.50+416.67+418.00+45.00+50.00+85.00 = 1673.37; credits 0.00 (1,588.37 payment pulled 8/23/2024 was returned NSF 8/30/2024, nets to zero); equals PM stated 1,673.37 (itemization letter and ledger as of 10/21/2024). The 9/9/2024 PM email sub-amounts sum to 1,193.47 vs make-ready 1,193.37, so carpet cleaning is carried at 416.67 (email 416.77).",
+ "documents": [
+  {
+   "file": "23103 Cardigan Chase - Itemization - Perales.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentWerx Itemization of Move out Charges; letter is dated '23 August 2022' (typo for 2024). Total 1,673.37 incl. 300 ledger balance, 1,193.37 make ready, 45 itemization fee, 50 maintenance handling fee, 85 NSF."
+  },
+  {
+   "file": "23103 Cardigan Chase - Ledger - Perales.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Newest-first Propertyware-style ledger; confirms 300 penalty, 1,193.37 make ready, 95 itemization fee (=45+50), NSF 85; balance 1,673.37; deposit balance 0.00."
+  },
+  {
+   "file": "IMG_0975.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-09-09",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "RentWerx Itemization Reviews email giving make-ready sub-amounts, 300 cancellation-policy penalty and 95 Final Accounting Fee."
+  },
+  {
+   "file": "IMG_0976.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Tenant reply disputing cleaning, carpet and paint charges."
+  },
+  {
+   "file": "IMG_0977.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-09-10",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Tenant reply continued: disputes 300 penalty, says funds were deducted without permission, mentions Obligo and BBB."
+  },
+  {
+   "file": "IMG_0978.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Lease excerpt screenshots (move-out condition) attached to tenant reply."
+  },
+  {
+   "file": "IMG_0979.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-06-12",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Lease para 28/29 excerpt plus PM email (6/12) about Obligo deposit amount."
+  },
+  {
+   "file": "IMG_0980.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-06-19",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "PM and Obligo invitation emails about renewal deposit."
+  },
+  {
+   "file": "IMG_0981.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-06-21",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Obligo invite for 3,173 deposit; PM says tenant has no security deposit and must move forward with Obligo."
+  },
+  {
+   "file": "IMG_0982.png",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-07-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Tenant Zelle receipt 175.00 'House cleaning' (not a PM credit)."
+  },
+  {
+   "file": "23103 Cardigan Chase - Lease 2023-2024 - Perales.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-05-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-2 read: term 6/1/2023-5/31/2024, rent 2,115, auto month-to-month with +25% rent and 85 admin fee; Preferred Resident Program 33/mo in lieu of deposit (digest excerpt)."
+  },
+  {
+   "file": "23103 Cardigan Chase - Lease 2022-2023 - Perales.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-05-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Prior term; not needed."
+  },
+  {
+   "file": "23103 Cardigan Chase - Move Out Report - Perales.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Text notes only scanned: light maid service, paint touch-up, nail removal, carpet cleaning; no pet or odor findings."
+  },
+  {
+   "file": "23103 Cardigan Chase - Application - Rachelia Perales.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Classified from file name; not opened."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2115,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 33,
+  "lease_start": "2023-06-01",
+  "lease_end": "2024-05-31",
+  "current_term_start": "2023-06-01",
+  "current_term_end": "2024-05-31",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": true,
+  "lease_break_terms": "Auto-renews month-to-month unless 30 days written notice; M2M rent = original rent +25% plus 85 M2M admin fee; termination effective last day of month following notice, no proration if surrendered early; 300 cancellation penalty if tenant requests renewal, allows inspection, then backs out (per PM email).",
+  "recurring_addons": [
+   {
+    "name": "Preferred Tenant Monthly Fee (SD fee in lieu)",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package (billed 41; 59 less 18 insurance opt-out)",
+    "amount": 41
+   },
+   {
+    "name": "Month-to-month admin fee (June-July 2024 only)",
+    "amount": 85
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-08-01",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 62,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-21",
+  "balance_due": 1673.37,
+  "first_full_month": "2022-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-02"
+ },
+ "line_items": [
+  {
+   "description": "Resident Default - Penalty Fee Lease Charge: tenant backed out of renewal after inspection ($300 Cancellation Policy)",
+   "category": "other_fee",
+   "amount_charged": 300,
+   "amount_open": 300,
+   "date_posted": "2024-08-07",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "23103 Cardigan Chase - Itemization - Perales.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Make ready - A/C filter replacement",
+   "category": "repairs_damage",
+   "amount_charged": 13.2,
+   "amount_open": 13.2,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.7
+  },
+  {
+   "description": "Make ready - bags of water softener salt",
+   "category": "other_damage",
+   "amount_charged": 26.5,
+   "amount_open": 26.5,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.65
+  },
+  {
+   "description": "Make ready - bulb replacement",
+   "category": "repairs_damage",
+   "amount_charged": 5.5,
+   "amount_open": 5.5,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.7
+  },
+  {
+   "description": "Make ready - maid service (tenant says home was professionally cleaned)",
+   "category": "cleaning",
+   "amount_charged": 313.5,
+   "amount_open": 313.5,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.9
+  },
+  {
+   "description": "Make ready - carpet cleaning, bedrooms (email shows 416.77; carried at 416.67 so make-ready sums to ledger 1,193.37)",
+   "category": "carpet_cleaning",
+   "amount_charged": 416.77,
+   "amount_open": 416.67,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.8
+  },
+  {
+   "description": "Make ready - touch-up paint, drywall nail removal and wall marks",
+   "category": "painting",
+   "amount_charged": 418,
+   "amount_open": 418,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "IMG_0975.png",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move Out Itemization Fee (ledger lumps this with the 50 below as 95 Itemization Fee; PM email calls the 95 a single Final Accounting Fee)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "23103 Cardigan Chase - Itemization - Perales.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "Maintenance Handling Fee (part of the 95 ledger Itemization Fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-08-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "23103 Cardigan Chase - Itemization - Perales.pdf",
+   "source_page": 1,
+   "confidence": 0.65
+  },
+  {
+   "description": "NSF fee - returned payment (tenant chargeback of 1,588.37 pull-funds payment)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-08-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "23103 Cardigan Chase - Ledger - Perales.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": true,
+  "other_provider": false,
+  "no_policy_evidence": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "test_claim": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "mixed_pet_nonpet_line": false,
+  "flooring_without_support": false
+ },
+ "evidence": [
+  {
+   "file": "IMG_0977.png",
+   "flag": "tenant_disputes_charges",
+   "quote": "Your $300 Penalty Does not stand ground"
+  },
+  {
+   "file": "IMG_0976.png",
+   "flag": "tenant_disputes_charges",
+   "quote": "$416.77 of carpet cleaning is absurd considering they were just lived normally."
+  },
+  {
+   "file": "IMG_0981.png",
+   "flag": "other_provider (considered, not set)",
+   "quote": "RentWerx uses Obligo to handle security deposits for their residents."
+  }
+ ],
+ "notes": "Renewal term 6/1/2023-5/31/2024 (original tenancy began 5/2022); tenant held over month-to-month in June and July 2024 at 2,644 rent (+85 M2M fee), all paid, and vacated 8/1/2024. No unpaid rent. The 8/23/2024 pull of 1,588.37 was returned NSF on 8/30/2024 (net zero) and an 85 NSF fee added. Obligo was proposed for the renewal deposit in June 2024 but the tenant never completed it; the in-force term used the 33/month Preferred Resident Program fee in lieu of deposit (ledger deposit balance 0.00), so other_provider is not set. Itemization letter is misdated 2022. Move-out report shows no pet findings. First full month reported from ledger tenancy start (June 2022, paid 6/4/2022); June 2023 renewal month also paid 6/3/2023.",
+ "extraction_confidence": 0.82,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a79e46a43e2439838"
+ }
+}

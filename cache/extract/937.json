@@ -1,0 +1,329 @@
+{
+ "tracking": 937,
+ "winning_document": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+ "documents": [
+  {
+   "file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "TXR-2216 itemization; page 3 balance after deductions 6757.81 read visually"
+  },
+  {
+   "file": "4200 Alan Kent Dr Apt D - Stam - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Used to split rent months and confirm payments and deposit release"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 850,
+  "lease_start": "2024-03-21",
+  "lease_end": "2025-03-31",
+  "current_term_start": "2024-03-21",
+  "current_term_end": "2025-03-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": null,
+  "cash_deposit_amount": 800,
+  "sd_program": "unknown"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-03",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": "2024-12-14"
+ },
+ "line_items": [
+  {
+   "description": "Jul 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Aug 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 rent, in term",
+   "category": "rent_in_term",
+   "amount_open": 850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 rent; moved out 10/3",
+   "category": "rent_after_move_out",
+   "amount_open": 850,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Nov 1-Dec 14 2024 rent, post move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1215,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-12-14",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Itemized rent over ledger months by 35",
+   "category": "rent_after_move_out",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-12-14",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.4
+  },
+  {
+   "description": "Damages beyond wear, itemization line 1",
+   "category": "repairs_damage",
+   "amount_open": 931,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Move-out cleaning and maintenance",
+   "category": "cleaning",
+   "amount_open": 351.81,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fees Jun-Sep (4 x 102)",
+   "category": "late_fee",
+   "amount_open": 408,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Temporary electric and water",
+   "category": "utilities",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Light bulbs, living room",
+   "category": "other_damage",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Eviction documents and filing fee",
+   "category": "eviction_legal_court",
+   "amount_open": 229,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-08-19",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Resident benefit package, Jun-Oct (5 x 40)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "AssetProtect fee, Jun-Oct (5 x 15)",
+   "category": "other_fee",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Fee in lieu SD fee, Jun-Oct (5 x 33)",
+   "category": "sdrp_premium",
+   "amount_open": 165,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-31",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Dishonored bank payment, June",
+   "category": "nsf_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-21",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Unpaid rent posting fees (3 x 25)",
+   "category": "eviction_legal_court",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Trash removal plus dog feces, yard",
+   "category": "trash_removal",
+   "amount_open": 95,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "confidence": 0.5
+  }
+ ],
+ "credits": [
+  {
+   "description": "Move-out deposit release 11/06/2024",
+   "amount": 800,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam - Ledger RV.pdf"
+  },
+  {
+   "description": "Tenant cashier check and eCheck payments",
+   "amount": 2279,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam - Ledger RV.pdf"
+  },
+  {
+   "description": "Bell County Salvation Army payment 07/26/2024",
+   "amount": 850,
+   "type": "third_party_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "4200 Alan Kent Dr Apt D - Stam - Ledger RV.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "4200 Alan Kent Dr Apt D - Stam -Itemization of Security Deposit.pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Remove trash throughout along with dog feces from yard"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 6757.81,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-07-26"
+ },
+ "pm_stated_amount_due": 6757.81,
+ "reconciliation": "Open lines total 7557.81; less 800.00 deposit credit gives 6757.81, equal to stated. Tenant and third-party payments (3129) are already netted in line amounts. Rent 4650 is ledger rent 4615 plus an unallocated 35 variance.",
+ "extraction_confidence": 0.7,
+ "notes": "Sheet move-out 2025-10-03 conflicts with itemization (October 3, 2024) and ledger (10-1-2024); used 2024-10-03. Sheet says Move-Out; lease runs to 3/31/2025 so early exit. Utilities 300 on itemization vs 30 on ledger; categories follow itemization. Ledger shows fee-in-lieu charges, sd_program left unknown per lite mode. The 06/17 eCheck returned NSF and nets to zero.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a029a31b1805cefd9"
+ }
+}

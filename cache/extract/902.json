@@ -1,0 +1,223 @@
+{
+ "tracking": 902,
+ "winning_document": "Arnold 03 Move Out Statement.pdf",
+ "pm_stated_amount_due": 245,
+ "reconciliation": "Open lines 45.00 + 100.00 + 50.00 + 50.00 = 245.00; credits 0.00 open (the 1,123.00 ACH payment on 9/3/2024 is already netted in the 145.00 September remainder); equals PM stated 245.00 on statement, letter, SDI and 10/28 ledger.",
+ "extraction_confidence": 0.93,
+ "documents": [
+  {
+   "file": "Arnold 03 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-15",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "NE lease addendum: Security Deposit Waiver YES $33/month (waives one month's rent deposit); renters insurance NO."
+  },
+  {
+   "file": "Arnold 03 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-14",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Pages 1-3 and 7-9 read. Rent 935, term 9/15/2023-8/31/2024, SD $0.00, reletting charge $250 (para 11), 60-day notice special provision."
+  },
+  {
+   "file": "Arnold 03 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 245.00, collections threat in 10 days; corroborates statement."
+  },
+  {
+   "file": "Arnold 03 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning document; open balance 245.00 after 9/3 payment of 1,123.00."
+  },
+  {
+   "file": "Arnold 03 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "SDI labels: rent increase 45, month-to-month fee 100, carpet shampoo 50, drywall repair 50; total 245 due; deposit blank."
+  },
+  {
+   "file": "Arnold Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first AppFolio-style ledger; ending balance 245.00; used for payment history and first full month."
+  },
+  {
+   "file": "NUV DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Direct deposit form; ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 935,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-08-31",
+  "current_term_start": "2023-09-15",
+  "initial_term_months": 11.5,
+  "is_month_to_month": true,
+  "is_renewal": false,
+  "lease_break_terms": "Para 11: reletting charge $250 if move out early or without required 60-day notice; para 46: liable for full term if early move-out. Special provision: 60-day written notice before the last full calendar month; same for month-to-month.",
+  "lease_end": "2024-08-31",
+  "lease_start": "2023-09-15",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (waiver fee)",
+    "amount": 33
+   },
+   {
+    "name": "Pet Fee Income (monthly pet fee)",
+    "amount": 25
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 30
+   },
+   {
+    "name": "Garage Rent (from 6/10/2024)",
+    "amount": 100
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 935
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": 30,
+  "move_out_date": "2024-09-30",
+  "re_let_date": null,
+  "termination": "holdover_then_vacated"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent 09/01/2024 to 09/30/2024 - rent increase for month-to-month holdover (SDI: 'rent increase')",
+   "category": "rent_after_lease_end",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Arnold 03 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Month to Month Rent 09/01/2024 to 09/30/2024 (SDI: 'Month to month fee')",
+   "category": "rent_after_lease_end",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "days_after_lease_end": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Arnold 03 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting/Drywall Repairs (SDI: drywall repair)",
+   "category": "painting",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Arnold 03 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Carpet Cleaning (SDI: carpet shampoo)",
+   "category": "carpet_cleaning",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Arnold 03 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "ACH payment 9/3/2024 (PayLease) applied oldest-first to Sept 2024 rent 935, garage 100, pet 25, SD protection 33, utility 30 (total 1,123); open remainder is the 145.00 MTM charges",
+   "amount": 1123,
+   "type": "tenant_payment",
+   "source_file": "Arnold 03 Move Out Statement.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 245,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-03"
+ },
+ "notes": "Lease ended 8/31/2024; tenant stayed through 9/30/2024 as month-to-month (notice dated 7/31/2024) and paid regular September charges of 1,123 on 9/3. PM later added 45 rent increase and 100 MTM fee (dated 9/1, posted 10/8) plus two turnover charges. No cash deposit; waiver fee 33/month. Tenant has a pet (monthly pet fee) but no open line is attributed to pet damage. Reletting fee not charged.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "aeee161bb03c1c2ef"
+ }
+}

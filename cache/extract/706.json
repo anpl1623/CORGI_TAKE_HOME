@@ -1,0 +1,131 @@
+{
+ "tracking": 706,
+ "documents": [
+  {
+   "file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "TXR-2216 itemization, balance 2,449.00 owed (winning)"
+  },
+  {
+   "file": "12020 Pecangate Way-Johnson-Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-08",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Open rows total 2,449; used to split carpet/cleaning and rental verification"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1900,
+  "lease_start": "2023-03-13",
+  "lease_end": "2025-03-13",
+  "initial_term_months": 24,
+  "is_month_to_month": false,
+  "is_renewal": null,
+  "cash_deposit_amount": 0,
+  "recurring_addons": [],
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-08",
+  "balance_due": 2449,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-02"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-01",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Damages: HVAC filter, paint, flooring, blind",
+   "category": "repairs_damage",
+   "amount_open": 1317,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 437,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 370,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Light bulbs: secondary bath, formal dining",
+   "category": "repairs_damage",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Mow, trim, edge lawn; trim bushes; weeds",
+   "category": "landscaping_lawn",
+   "amount_open": 270,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Unpaid rental verification charge (RentSpree)",
+   "category": "other_fee",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.65,
+ "pm_stated_amount_due": 2449,
+ "reconciliation": "Open lines 2,449.00 minus credits 0.00 equals PM stated 2,449.00; fee-in-lieu means no cash deposit credit.",
+ "winning_document": "12020 Pecangate Way-Johnson-Itemization of Security Deposit.pdf (TXR-2216, 07/29/2024)",
+ "notes": "Ledger RV open rows (ozone 200, move-out repairs 1,277, carpet 437, move-out cleaning 370, lawn 150, RentSpree 15) total 2,449, matching the statement. The statement relabels the rows: carpet plus move-out cleaning equals its clean line 807, and the RentSpree 15 is split from the 285 other line. The ozone treatment likely sits inside the damages line; no pet evidence, so pet flag is not set. No July rent, lease-break fee or rent after move-out was billed, even though the lease ran to 3/13/2025; nothing added. Ledger PW is a 02/17/2024 snapshot with 0.00 balance and was not used. Lease not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab1b0b175bb67a7c2"
+ }
+}

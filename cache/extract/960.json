@@ -1,0 +1,129 @@
+{
+ "tracking": 960,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_david_w_shaw_112224.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-22",
+   "used_for_amounts": true,
+   "revised": true,
+   "note": "amended letter: credits 350 professional clean; amount due 790.00; winning document"
+  },
+  {
+   "file": "deposit_disposition_amount_due_david_w_shaw_112024 (1).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-11-20",
+   "used_for_amounts": false,
+   "revised": false,
+   "note": "superseded 11/20 letter, amount due 1,140.00 before credit"
+  },
+  {
+   "file": "tenant_ledger-david_w_shaw_joseph_rury-20241121.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-21",
+   "used_for_amounts": true,
+   "note": "no open rent or fees before 11/20 forfeits; forfeit lines total 1,140.00"
+  },
+  {
+   "file": "Invoice-Joseph_Rury.pdf",
+   "doc_type": "other",
+   "doc_date": "2024-09-26",
+   "used_for_amounts": false,
+   "note": "tenant-paid card receipt for MaidPro cleaning, total 287.75; not a charge"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "cash_deposit_amount": 0,
+  "lease_start": "2021-09-10",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDRP fee",
+    "amount": 35
+   },
+   {
+    "name": "RBP with insurance",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-11-21",
+  "balance_due": 1140,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-03"
+ },
+ "line_items": [
+  {
+   "description": "Professional clean",
+   "amount_open": 350,
+   "category": "cleaning",
+   "date_posted": "2024-11-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_david_w_shaw_112224.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Lawn care, shrubs",
+   "amount_open": 310,
+   "category": "landscaping_lawn",
+   "date_posted": "2024-11-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_david_w_shaw_112224.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Prorated touch-up paint",
+   "amount_open": 480,
+   "category": "painting",
+   "date_posted": "2024-11-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_david_w_shaw_112224.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "PM credit: residents' proof of professional clean",
+   "amount": 350,
+   "type": "receipt_credit",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "tenant_disputes_charges": true
+ },
+ "evidence": [
+  {
+   "file": "deposit_disposition_amount_due_david_w_shaw_112224.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Residents provided proof of Professional Clean. Attached in Docs"
+  }
+ ],
+ "extraction_confidence": 0.8,
+ "pm_stated_amount_due": 790,
+ "reconciliation": "Sum of 3 open lines = 1,140.00; less 350 PM credit for professional clean = 790.00, equal to the 11/22 letter. The MaidPro receipt totals 287.75, so the supported credit could be 287.75 and the balance 852.25.",
+ "notes": "Winning doc is the 11/22/2024 letter, which supersedes the 11/20 letter (1,140.00). Ledger shows zero rent or fee balance before the 11/20 forfeits, and the 2024-09-03 payment cleared Sept rent, RBP and SDRP. The MaidPro receipt is a tenant-paid card receipt, not a charge.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

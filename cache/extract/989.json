@@ -1,0 +1,187 @@
+{
+ "tracking": 989,
+ "winning_document": "Copeland 34 SDI.pdf",
+ "pm_stated_amount_due": 1065,
+ "documents": [
+  {
+   "file": "CEN DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Classified from file name; not opened."
+  },
+  {
+   "file": "Copeland 34 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "doc_date": "2023-11-30",
+   "note": "Security Deposit Waiver YES ($33/mo; waives $1,200 deposit); Renters Insurance YES ($19/mo)."
+  },
+  {
+   "file": "Copeland 34 Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "doc_date": "2023-12-05",
+   "note": "Iowa NAA lease, 7 pages read. Rent $670, term 12/5/2023-12/31/2024, security deposit $0.00, auto-renews to MTM. Para 11 early move-out: liable for rent until re-rented, no fixed fee."
+  },
+  {
+   "file": "Copeland 34 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-11-07",
+   "note": "States balance due 1065.00 to The Landings Apartments."
+  },
+  {
+   "file": "Copeland 34 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-11-07",
+   "note": "Balance forward 15.00 + Oct charges 862 - payment 857 + carpet 1,045.00 = 1,065.00."
+  },
+  {
+   "file": "Copeland 34 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "doc_date": null,
+   "revised": false,
+   "note": "Scanned SDI: ledger balance '$5 for July/Aug/Sept/October' 20.00 + flooring replacement 'carpet/pad replacement dog urine' 1,045.00 = 1,065.00 Due; no deposit."
+  },
+  {
+   "file": "Copeland Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "doc_date": "2024-11-19",
+   "note": "Oldest-first ledger; used to trace the 20.00 carry-forward ($5/month shortfall Jul-Oct 2024) and first-month history."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 670,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Garage Rent (from 02/2024)",
+    "amount": 55
+   },
+   {
+    "name": "Renters Insurance",
+    "amount": 19
+   },
+   {
+    "name": "Pet Fee Income (monthly pet rent)",
+    "amount": 15
+   },
+   {
+    "name": "Utility Revenue (Eco fee)",
+    "amount": 70
+   }
+  ],
+  "lease_start": "2023-12-05",
+  "lease_end": "2024-12-31",
+  "current_term_start": "2023-12-05",
+  "current_term_end": "2024-12-31",
+  "initial_term_months": 13,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 11 Early Move-Out: tenant may be liable for all rent owed as it becomes due until re-rented, and repayment of any rent concession; no fixed reletting or break fee; para 33 mitigation. PM billed no post-move-out rent."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 1065,
+  "first_full_month": "2024-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-02"
+ },
+ "line_items": [
+  {
+   "description": "Carpet/Carpet Pad Replacement Due To Dog Urine (SDI lists under Flooring Replacement); no invoice or photos in folder",
+   "category": "pet_damage_odor",
+   "amount_charged": 1045,
+   "amount_open": 1045,
+   "date_posted": "2024-11-07",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Copeland 34 Move Out Statement.pdf",
+   "confidence": 0.93
+  },
+  {
+   "description": "Ledger shortfall '$5 for July/Aug/Sept/October': tenant autopay 857 vs 862 billed monthly; FIFO leaves 20.00 of Oct 2024 Utility Revenue (70.00 charged) open",
+   "category": "utilities",
+   "amount_charged": 70,
+   "amount_open": 20,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Copeland 34 SDI.pdf",
+   "confidence": 0.5
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant ACH payment 10/02/2024 applied to Oct charges and carry-forward",
+   "amount": 857,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "Copeland 34 Move Out Statement.pdf"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Copeland 34 Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet/Carpet Pad Replacement Due To Dog Urine 1,045.00"
+  },
+  {
+   "file": "Copeland 34 SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "carpet/pad replacement dog urine $ 1,045.00"
+  }
+ ],
+ "reconciliation": "Open lines 1,045.00+20.00 = 1,065.00; credits already netted (857 Oct payment) vs PM stated 1,065.00 (letter, SDI, statement, ledger): match.",
+ "notes": "Pet was authorized (300 non-refundable pet fee plus monthly pet fee on ledger; no pet addendum in folder). Carpet/pad replacement billed on SDI/statement only; no invoice, photos or carpet age in folder; tenancy about 11 months. Tenant moved out 10/31/24, two months before lease end (notice 10/1/24); no future rent, reletting fee or lease-break fee billed. The 20.00 is a $5/month shortfall (tenant autopay 857 vs 862 billed since garage rent began, likely garage rent 55 vs 50 assumed) accumulated Jul-Oct 2024; category follows oldest-first allocation (utility) and is low confidence. Jun 2024 prepaid credit of 25 was refunded to tenant.",
+ "extraction_confidence": 0.88,
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "adafe35db18521d94"
+ }
+}

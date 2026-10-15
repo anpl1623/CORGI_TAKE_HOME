@@ -1,0 +1,237 @@
+{
+  "tracking": 45,
+  "documents": [
+    {
+      "file": "Statement 219 Lazy River Lane.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-02-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "f2363eeef05d407b9226bde66199e460.pdf",
+      "doc_type": "lease",
+      "doc_date": "2021-11-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "f2dfefacd28240f188c43c16f38bb36b.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2021-11-05",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Statement 219 Lazy River Lane.pdf",
+  "pm_stated_amount_due": 4290.5,
+  "lease": {
+    "base_monthly_rent": 1675.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 35.0
+      },
+      {
+        "name": "Filter Program",
+        "amount": 10.0
+      }
+    ],
+    "lease_start": "2021-11-19",
+    "lease_end": "2022-11-18",
+    "current_term_start": "2021-11-19",
+    "current_term_end": "2022-11-18",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2513.0,
+    "monthly_sd_premium": 35.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2022-11-30",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": 12,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-02-09",
+    "balance_due": 4290.5,
+    "first_full_month": "2021-12",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2022-10-24"
+  },
+  "line_items": [
+    {
+      "description": "4000 - Rent",
+      "category": "rent_in_term",
+      "amount_open": 1175.0,
+      "amount_charged": 1675.0,
+      "date_posted": "2022-10-01",
+      "service_period_start": "2022-10-01",
+      "service_period_end": "2022-10-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4017 - Filter Program",
+      "category": "other_fee",
+      "amount_open": 10.0,
+      "amount_charged": 10.0,
+      "date_posted": "2022-10-01",
+      "service_period_start": "2022-10-01",
+      "service_period_end": "2022-10-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4037 - SDRP Monthly Premium",
+      "category": "sdrp_premium",
+      "amount_open": 35.0,
+      "amount_charged": 35.0,
+      "date_posted": "2022-10-01",
+      "service_period_start": "2022-10-01",
+      "service_period_end": "2022-10-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4340 - Late Fee : Calculated on 10/06/2022 5:02 AM by system",
+      "category": "late_fee",
+      "amount_open": 256.5,
+      "amount_charged": 256.5,
+      "date_posted": "2022-10-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4345 - Late Fee:Late Fee (Manu...",
+      "category": "late_fee",
+      "amount_open": 100.0,
+      "amount_charged": 100.0,
+      "date_posted": "2022-10-17",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "5018 - Move-out Repair : T3GR56L",
+      "category": "repairs_damage",
+      "amount_open": 264.0,
+      "amount_charged": 264.0,
+      "date_posted": "2022-12-13",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "5018 - Move-out Repair : TY9UXY5",
+      "category": "repairs_damage",
+      "amount_open": 2200.0,
+      "amount_charged": 2200.0,
+      "date_posted": "2022-12-27",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "4005 - Break Lease Fee : vacated early due to not paying",
+      "category": "lease_break_fee",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2022-12-29",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Statement 219 Lazy River Lane.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Payment of $500.00 applied to 10/01/22 rent",
+      "amount": 500.0,
+      "type": "tenant_payment",
+      "already_netted_in_line_items": true,
+      "source_file": "Statement 219 Lazy River Lane.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 4290.50 - 0 = 4290.50 vs PM stated 4290.50; exact match (the $500 tenant payment is already netted into October 2022 rent).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Propertyware ledger shows total open balance of $4,290.50. Tenant partially paid October 2022 rent with $500 on 10/24/2022, leaving $1,175.00 unpaid. Subsequent repairs and break lease fee brought the total unpaid balance to $4,290.50."
+}

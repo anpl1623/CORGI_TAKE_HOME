@@ -1,0 +1,118 @@
+{
+ "tracking": 929,
+ "winning_document": "1217NTyndallAve#1_102824_StatementofAccounting_Esquer.pdf (Blue Fox Statement of Accounting, 10/28/24, total 842.50)",
+ "documents": [
+  {
+   "file": "1217NTyndallAve#1_102824_StatementofAccounting_Esquer.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "winning statement; invoices 2751 (Tucker) and INV0387 (Jay) attached"
+  },
+  {
+   "file": "1217NTyndallAve#1_tenantledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-12",
+   "used_for_amounts": true,
+   "note": "two unpaid Sec Dep rows total 842.50 match statement"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1120,
+  "cash_deposit_amount": null,
+  "current_term_start": null,
+  "current_term_end": "2024-10-08",
+  "lease_start": "2022-10-10",
+  "lease_end": "2024-10-08",
+  "initial_term_months": 24,
+  "is_month_to_month": null,
+  "is_renewal": null,
+  "lease_break_terms": null,
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "RIS monthly fee",
+    "amount": 35
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   }
+  ],
+  "sd_program": "unknown",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-10-17",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 9,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-12",
+  "balance_due": 842.5,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-04"
+ },
+ "line_items": [
+  {
+   "description": "Landscaping: cleanup 350 and weed spray 130",
+   "category": "landscaping_lawn",
+   "amount_open": 480,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1217NTyndallAve#1_102824_StatementofAccounting_Esquer.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Move-out cleaning (Tucker inv 2751)",
+   "category": "cleaning",
+   "amount_open": 262.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1217NTyndallAve#1_102824_StatementofAccounting_Esquer.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Trash haul away (Tucker inv 2751)",
+   "category": "trash_removal",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "1217NTyndallAve#1_102824_StatementofAccounting_Esquer.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 842.5,
+ "reconciliation": "Sum of 3 open lines = 842.50, credits 0, equals PM stated 842.50 (landscaping 480 + cleaning 262.50 + trash 100). Ledger unpaid rows 362.50 and 480.00 match.",
+ "notes": "Holdover 10/9 to 10/17 has no rent charged, so no open rent line. Oct 1-8 prorated rent 289.03 was paid. Invoices sub-split only; each counted once.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a1f3962fd80b72338"
+ }
+}

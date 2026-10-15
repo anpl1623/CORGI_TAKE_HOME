@@ -1,0 +1,169 @@
+{
+ "tracking": 900,
+ "winning_document": "Winkler 049 Move Out Statement.pdf (10/08/2024); Move Out Letter (10/08/2024), SDI and ledger (10/28/2024) agree at $290.00",
+ "documents": [
+  {
+   "file": "Winkler 049 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 290.00: carpet cleaning 90.00 and cleaning excessive 200.00"
+  },
+  {
+   "file": "Winkler 049 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 290.00"
+  },
+  {
+   "file": "Winkler 049 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned SDI: Notice 07/10/24, move out 09/30/24, carpet/floor cleaning 90.00, general cleaning (excessive filth) 200.00, total due 290.00"
+  },
+  {
+   "file": "Winkler Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent, SDRP and utility charges paid through 09/2024 (paid 09/05/2024); only open rows are 10/08 carpet and cleaning"
+  },
+  {
+   "file": "Winkler 049 Addendum.jpg",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-07-27",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SDRP waiver YES at 33.00 per month, signed 7/27/23; renters insurance box not checked YES"
+  },
+  {
+   "file": "Winkler 049 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent 1010.00/mo; term 10/20/2023 to 09/30/2024 per sheet and ledger; month-to-month renewal clause; reletting charge 250.00"
+  },
+  {
+   "file": "PGF DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened (ACH form per rule 9)"
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.93,
+ "lease": {
+  "base_monthly_rent": 1010,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2023-10-20",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2023-10-20",
+  "lease_end": "2024-09-30",
+  "lease_break_terms": "Clause 11 early move-out reletting charge 250.00 (not to exceed highest monthly rent) if tenant moves out without paying full term rent or is judicially evicted; not a cancellation fee.",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection (SDRP)",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 25
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 1010
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null,
+  "notes": "Move out equals lease end 09/30/2024; notice 07/10/2024"
+ },
+ "line_items": [
+  {
+   "description": "Carpet/floor cleaning (10/08/2024 turnover charge)",
+   "category": "carpet_cleaning",
+   "amount_charged": 90,
+   "amount_open": 90,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-08",
+   "source_file": "Winkler 049 Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Cleaning charges - excessive (10/08/2024 turnover charge; SDI: excessive filth)",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-10-08",
+   "source_file": "Winkler 049 Move Out Statement.pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 290,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-05"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "pm_stated_amount_due": 290,
+ "reconciliation": "Open lines 90 + 200 = 290; credits 0; PM stated 290 (statement, letter, SDI and ledger agree). Difference 0.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a2e242b763d30fd5f"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "tracking": 60,
+ "documents": [
+  {
+   "file": "1200ERiverRd#I104_032023_StatementofAccounting_Corbiere.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-03-14",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting: move-out 2/27/23, inspected 3/1/23; cleaning 138.46 + repairs 240.00 = 378.46 due; credits 0. Attached: Elevate inv 1160 ($240: new tub drain assembly, wall touch-ups, light bulbs), Tony and Tonie's inv 929 ($276.92 move-out cleaning, handwritten split 50% tenant 138.46 / 50% owner 138.46), and the mailing envelope dated 3/20/23."
+  },
+  {
+   "file": "Corbiere.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-03-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Propertyware ledger, newest-first. Unpaid: 5310 Sec Dep-Hndymn 240.00 and 5302 Sec Dep-General&Window 138.46 = 378.46. Lease break fee 2,800 and re-renting fee 1,000 were paid by a 3,800 payment on 2/16/23. Deposit held 0."
+  },
+  {
+   "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(11-03-2022_-_11-03-2022)-1.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-11-04",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Lease 11/07/2022-01/16/2024, $1,400/mo, prorated $1,120 for 11/7-11/30; SD N/A (No Security Deposit Option $43/mo); RBP $29/mo. Para 41f lease break: $1,000 re-renting fee + 2x monthly rent."
+  },
+  {
+   "file": "Security_Deposit_Waiver_Addendum1_(11-03-2022_-_11-03-2022)-1.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-04",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver: YES, $43/month in lieu of a $2,100 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1400,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2100,
+  "monthly_sd_premium": 43,
+  "recurring_addons": [
+   {
+    "name": "RIS - No Security Deposit Option monthly fee",
+    "amount": 43
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   }
+  ],
+  "lease_start": "2022-11-07",
+  "lease_end": "2024-01-16",
+  "current_term_start": "2022-11-07",
+  "current_term_end": "2024-01-16",
+  "initial_term_months": 14,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "Para 41f: tenant may terminate by paying a non-refundable $1,000 lease break/re-renting fee plus a fee equal to 2x monthly rent. Authorized holdover is MTM at +20% rent."
+ },
+ "move_out": {
+  "move_out_date": "2023-02-27",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Cleaning - tenant 50% share of Tony and Tonie's move-out cleaning invoice #929 ($276.92 total; owner pays other 50%)",
+   "category": "cleaning",
+   "amount_charged": 138.46,
+   "amount_open": 138.46,
+   "date_posted": "2023-03-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1200ERiverRd#I104_032023_StatementofAccounting_Corbiere.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Repairs - Elevate Contract Services invoice #1160 handyman: new tub drain assembly, wall touch-ups, light bulbs",
+   "category": "repairs_damage",
+   "amount_charged": 240,
+   "amount_open": 240,
+   "date_posted": "2023-03-17",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "1200ERiverRd#I104_032023_StatementofAccounting_Corbiere.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "flooring_without_support": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "test_claim": false
+ },
+ "evidence": [
+  {
+   "flag": "owner_share_excluded",
+   "quote": "Tenant $138.46 50% / owner 50% $138.46",
+   "file": "1200ERiverRd#I104_032023_StatementofAccounting_Corbiere.pdf"
+  },
+  {
+   "flag": "lease_break_paid",
+   "quote": "Payment of $2,800.00 applied to [02/17/23, acct 4023 ...] and $1,000.00 applied to [02/17/23, acct 4012]",
+   "file": "Corbiere.pdf"
+  },
+  {
+   "flag": "sd_program",
+   "quote": "YES $43.00 per month - You waive payment of the security deposit $2,100.00",
+   "file": "Security_Deposit_Waiver_Addendum1_(11-03-2022_-_11-03-2022)-1.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-03-20",
+  "balance_due": 378.46,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-02-16"
+ },
+ "pm_stated_amount_due": 378.46,
+ "winning_document": "1200ERiverRd#I104_032023_StatementofAccounting_Corbiere.pdf",
+ "reconciliation": "138.46 + 240.00 = 378.46, minus 0 credits = 378.46, which matches the Statement of Accounting and ledger balance of 378.46.",
+ "notes": "This was an early termination under the lease-break clause. On 2/16/23 the tenant paid 3,800 to the PM (2,800 lease break fee to owner + 1,000 re-renting fee), so those are paid history and not claimed. Rent was paid through Feb 2023 and no unpaid rent is claimed. The PM charged the tenant only 50% of the cleaning invoice; the owner's 138.46 is excluded. The first full month (Dec 2022) was paid late: a 5-day notice fee of 50, a late fee of 100 and a processing fee of 25 were all paid, and rent was fully paid by 12/20/22. No cash deposit was held.",
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_3643befa-057",
+  "agent": "a8fa24adb31b23ac7"
+ }
+}

@@ -1,0 +1,175 @@
+{
+  "tracking": 647,
+  "documents": [
+    {
+      "file": "A418 Oswald SDI.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-06-07",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "A418 Oswald Move Out Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-06-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "A418 Oswald Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-06-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "A418 Oswald Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-07-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "A418 Oswald Addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-07-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "A418 Oswald Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-07-07",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "LOD DD-Authorization-Form.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "A418 Oswald SDI.pdf",
+  "pm_stated_amount_due": 145.00,
+  "lease": {
+    "base_monthly_rent": 965.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Protection",
+        "amount": 33.0
+      },
+      {
+        "name": "Renters Insurance",
+        "amount": 17.0
+      },
+      {
+        "name": "Utility Revenue",
+        "amount": 35.0
+      },
+      {
+        "name": "Pet Fee Income",
+        "amount": 25.0
+      },
+      {
+        "name": "Garage Rent",
+        "amount": 65.0
+      }
+    ],
+    "lease_start": "2023-07-20",
+    "lease_end": "2024-06-30",
+    "current_term_start": "2023-07-20",
+    "current_term_end": "2024-06-30",
+    "initial_term_months": 11,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 965.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2024-05-31",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": "2024-06-14"
+  },
+  "ledger": {
+    "as_of_date": "2024-07-01",
+    "balance_due": 145.00,
+    "first_full_month": "2023-08",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-06-03"
+  },
+  "line_items": [
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 0.0,
+      "amount_charged": 250.0,
+      "date_posted": "2024-06-07",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "A418 Oswald SDI.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Future Month's Rent 14 day of June 6/13/24",
+      "category": "rent_after_move_out",
+      "amount_open": 145.0,
+      "amount_charged": 433.0,
+      "date_posted": "2024-06-07",
+      "service_period_start": "2024-06-01",
+      "service_period_end": "2024-06-13",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "A418 Oswald SDI.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Payment via CheckScan PayLease Check #1078 on 06/03/2024",
+      "amount": 538.0,
+      "type": "tenant_payment",
+      "already_netted_in_line_items": true,
+      "source_file": "A418 Oswald SDI.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 145.00 - 0 = 145.00 vs PM stated 145.00; exact match (538.00 payment netted against 250.00 reletting fee and 433.00 future rent)",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant gave notice on 04/26/2024 and vacated on 05/31/2024 prior to 06/30/2024 lease end. Charged $250 reletting fee and $433 future rent through 6/13/2024 ($683 total), minus $538 payment on 06/03/2024, leaving $145 open."
+}

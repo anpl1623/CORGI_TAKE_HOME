@@ -1,0 +1,320 @@
+{
+ "tracking": 1016,
+ "winning_document": "3447 Pre Diposition Mailed 12112024 (1).pdf (12/11/2024 security deposit statement, scanned)",
+ "documents": [
+  {
+   "file": "3447 Pre Diposition Mailed 12112024 (1).pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Winning statement, amount due 19,869.18"
+  },
+  {
+   "file": "tenant_ledger-christopher_p_martin_jaclyn_r_holsomback-20241212.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Payment allocation, labels, move-out 11/22/2024"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2458,
+  "sd_program": "unknown",
+  "lease_start": "2024-04-26",
+  "lease_end": "2025-04-25"
+ },
+ "move_out": {
+  "move_out_date": "2024-11-22",
+  "termination": "eviction"
+ },
+ "line_items": [
+  {
+   "description": "Aug 2024 late fee remainder",
+   "category": "late_fee",
+   "amount_open": 13,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-05",
+   "service_period_end": "2024-08-31",
+   "confidence": 0.7,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Sep 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 2300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Oct 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 2300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Nov 2024 rent, move-out 11/22",
+   "category": "rent_in_term",
+   "amount_open": 2300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.6,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "RBP w/insurance, Sep-Nov 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 117,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Monthly pet fee, Sep-Nov 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 180,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "SDRP monthly fee, Sep-Nov 2024",
+   "category": "sdrp_premium",
+   "amount_open": 177,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Late fees Sep-Nov 2024",
+   "category": "late_fee",
+   "amount_open": 570,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "3-day notice posting fees, Sep-Nov",
+   "category": "eviction_legal_court",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-11-30",
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Eviction expenses",
+   "category": "eviction_legal_court",
+   "amount_open": 802.18,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Early termination / lease break fee",
+   "category": "lease_break_fee",
+   "amount_open": 4916,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.7,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Utilities not left on",
+   "category": "utilities",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Tenant admin fee, missed walkthrough",
+   "category": "admin_itemization_fee",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Replace carpet, master bedroom",
+   "category": "flooring",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.7,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Heavy move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 650,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Nail and hole patching; blinds; tub stoppers",
+   "category": "repairs_damage",
+   "amount_open": 315,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Paint walls, 17 areas",
+   "category": "painting",
+   "amount_open": 3890,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.85,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Multiple flea treatments",
+   "category": "pet_damage_odor",
+   "amount_open": 200,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.7,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "New air filter 16x20",
+   "category": "other_fee",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Replace loft light bulb",
+   "category": "other_damage",
+   "amount_open": 4,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.6,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  },
+  {
+   "description": "Garage remotes and keys not returned",
+   "category": "keys_remotes",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.9,
+   "source_file": "3447 Pre Diposition Mailed 12112024 (1).pdf"
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments 8/29 and 9/13 applied oldest-first",
+   "amount": 2680,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "evidence": [
+  {
+   "file": "3447 Pre Diposition Mailed 12112024 (1).pdf",
+   "flag": "flooring_without_support",
+   "quote": "Replace Carpet at downstairs master bedroom- tearing and staining"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-12-12",
+  "balance_due": 19869.18,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 19869.18,
+ "reconciliation": "Open lines sum 19,829.18; credits 0 (2,680 of payments already netted); PM stated 19,869.18; difference -40.00 = duplicate utilities-not-left-on $40 on 12/11 deposit forfeit, counted once.",
+ "notes": "Statement lines are open amounts after oldest-first allocation; Aug late-fee line 13.00 is the open remainder (ledger posts 135.00). Utilities not left on 40 posted 11/20 and again 12/11 as deposit forfeit with no deposit held; counted once. Lease break fee 4916 equals 2 x 2458 monthly total. Sheet Monthly Rent 2458 used per lite mode; ledger base rent is 2300 excluding RBP 39, pet 60, SDRP 59. Nov rent charged as full month despite 11/22 move-out. Painting aggregated from 17 statement lines. Three 3-day notices and lease not opened.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

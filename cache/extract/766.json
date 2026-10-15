@@ -1,0 +1,244 @@
+{
+  "tracking": 766,
+  "documents": [
+    {
+      "file": "709 Dibbles Addendum.PDF",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-10-11",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "709 Dibbles Lease.PDF",
+      "doc_type": "lease",
+      "doc_date": "2023-10-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "709 Dibbles Ledger.docx",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-08-27",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "709 Dibbles Move Out Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2024-08-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "709 Dibbles Move Out Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-08-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "709 Dibbles SDI.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2024-08-09",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "WTF DD Authorization.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "709 Dibbles SDI.pdf",
+  "pm_stated_amount_due": 1527.0,
+  "lease": {
+    "base_monthly_rent": 865.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Waiver",
+        "amount": 33.0
+      },
+      {
+        "name": "Renters Insurance",
+        "amount": 19.0
+      },
+      {
+        "name": "Utility Revenue",
+        "amount": 30.0
+      }
+    ],
+    "lease_start": "2023-10-19",
+    "lease_end": "2024-10-31",
+    "current_term_start": "2023-10-19",
+    "current_term_end": "2024-10-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 865.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Reletting charge of .00 (paragraph 11)"
+  },
+  "move_out": {
+    "move_out_date": "2024-07-31",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-08-27",
+    "balance_due": 1527.0,
+    "first_full_month": "2023-11",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-06-23"
+  },
+  "line_items": [
+    {
+      "description": "Residential Rent (07/2024)",
+      "category": "rent_in_term",
+      "amount_open": 865.0,
+      "amount_charged": 865.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Renters Insurance (07/2024)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 19.0,
+      "amount_charged": 19.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Security Deposit Protection (07/2024)",
+      "category": "sdrp_premium",
+      "amount_open": 33.0,
+      "amount_charged": 33.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Utility Revenue (07/2024)",
+      "category": "utilities",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2024-07-01",
+      "service_period_start": "2024-07-01",
+      "service_period_end": "2024-07-31",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Late Charge Late Fee 7/8/2024",
+      "category": "late_fee",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2024-07-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles Move Out Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Smoke Treatment",
+      "category": "cleaning",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-08-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles SDI.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 500.0,
+      "amount_charged": 500.0,
+      "date_posted": "2024-08-09",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "709 Dibbles SDI.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) (1527.00) - credits (0.00) = 1527.00 vs PM stated 1527.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated early on 2024-07-31 (lease end was 2024-10-31). PM move out statement and SDI both show ,527.00 total due, matching the tenant ledger balance. Charges consist of unpaid July 2024 rent (.00), July insurance (.00), July SDRP (.00), July utility (.00), July late fee (.00), smoke treatment (.00), and contractual reletting fee (.00)."
+}

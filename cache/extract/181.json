@@ -1,0 +1,178 @@
+{
+  "tracking": 181,
+  "documents": [
+    {
+      "file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-08-04",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "2691 Stoney Brook Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-08-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "RBP_2022_SPG_Lease_Agreement_2691_Stoney_Broo.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-11",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+  "pm_stated_amount_due": 445.0,
+  "lease": {
+    "base_monthly_rent": 2100.0,
+    "recurring_addons": [
+      {
+        "name": "Resident Benefit Package Plan A",
+        "amount": 39.0
+      },
+      {
+        "name": "SDRP Fee",
+        "amount": 65.0
+      }
+    ],
+    "lease_start": "2022-08-12",
+    "lease_end": "2023-07-31",
+    "current_term_start": "2022-08-12",
+    "current_term_end": "2023-07-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 65.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "Pay all rent due through notice period plus additional 4 months rent as liquidated damages"
+  },
+  "move_out": {
+    "move_out_date": "2023-07-31",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-08-30",
+    "balance_due": 439.70,
+    "first_full_month": null,
+    "first_full_month_paid_in_full": null,
+    "first_payment_bounced": null,
+    "last_payment_date": "2023-07-13"
+  },
+  "line_items": [
+    {
+      "description": "Cleaning: Partial Clean",
+      "category": "cleaning",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-08-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repairs: Haul away trash",
+      "category": "trash_removal",
+      "amount_open": 65.0,
+      "amount_charged": 65.0,
+      "date_posted": "2023-08-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repairs: Replace 7 light bulbs",
+      "category": "repairs_damage",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-08-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repairs: Replace blind wand",
+      "category": "repairs_damage",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2023-08-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Repairs: Sand, patch, and seal for paint",
+      "category": "painting",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-08-04",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "2691_Stoney_Brook_-SDT_-_Williams (1).pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 445.00 vs PM stated 445.00 on Security Deposit Transmittal. Tenant ledger shows an open balance of 439.70 after applying a 5.30 overpayment credit resulting from an August rent reversal.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "PM itemization document Security Deposit Transmittal lists 5 repair/cleaning items totaling 445.00. On the ledger, a lump sum 4153 - Damage Fees of 445.00 was charged on 08/28/2023, offset by an existing 5.30 credit to yield 439.70."
+}

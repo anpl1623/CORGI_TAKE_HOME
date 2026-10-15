@@ -1,0 +1,309 @@
+{
+ "tracking": 957,
+ "documents": [
+  {
+   "file": "Coke 413 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-16",
+   "used_for_amounts": true,
+   "revised": false,
+   "note": "move-out statement, balance 4,026.00; winning document"
+  },
+  {
+   "file": "Coke 413 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-16",
+   "used_for_amounts": true,
+   "note": "cover letter stated due 4,026.00, matches statement"
+  },
+  {
+   "file": "Coke 413 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "note": "cross-check totals; labels 995 future-rent line 'Reletting Fee'"
+  },
+  {
+   "file": "Coke Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "note": "payment allocation and Aug/Sep/Oct charge detail"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 995,
+  "cash_deposit_amount": null,
+  "lease_start": "2024-09-01",
+  "lease_end": "2025-08-31",
+  "current_term_start": "2024-09-01",
+  "current_term_end": "2025-08-31",
+  "is_renewal": true,
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "Liability protection option 1",
+    "amount": 16
+   },
+   {
+    "name": "SDRP protection fee",
+    "amount": 33
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 35
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-10-14",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-16",
+  "balance_due": 4026,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-09-07"
+ },
+ "line_items": [
+  {
+   "description": "Aug 2024 rent, open after payments",
+   "amount_charged": 975,
+   "amount_open": 370,
+   "category": "rent_in_term",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.75
+  },
+  {
+   "description": "Aug 2024 renters insurance",
+   "amount_open": 20,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Aug 2024 SDRP protection fee",
+   "amount_open": 33,
+   "category": "sdrp_premium",
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Aug 2024 utility revenue",
+   "amount_open": 30,
+   "category": "utilities",
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Aug 6 late fee",
+   "amount_open": 50,
+   "category": "late_fee",
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Sep 2024 rent",
+   "amount_charged": 995,
+   "amount_open": 995,
+   "category": "rent_in_term",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 liability protection option 1",
+   "amount_open": 16,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 SDRP protection fee",
+   "amount_open": 33,
+   "category": "sdrp_premium",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 2024 utility revenue",
+   "amount_open": 35,
+   "category": "utilities",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Sep 6 late fee",
+   "amount_open": 50,
+   "category": "late_fee",
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 rent, full month billed",
+   "amount_charged": 995,
+   "amount_open": 995,
+   "category": "rent_in_term",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Oct 2024 liability protection option 1",
+   "amount_open": 16,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 SDRP protection fee",
+   "amount_open": 33,
+   "category": "sdrp_premium",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 utility revenue",
+   "amount_open": 35,
+   "category": "utilities",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 6 late fee",
+   "amount_open": 50,
+   "category": "late_fee",
+   "date_posted": "2024-10-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning, 10/16 turnover",
+   "amount_open": 85,
+   "category": "carpet_cleaning",
+   "date_posted": "2024-10-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning charges, 10/16 turnover",
+   "amount_open": 185,
+   "category": "cleaning",
+   "date_posted": "2024-10-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Future months rent, improper notice",
+   "amount_open": 995,
+   "category": "rent_after_move_out",
+   "date_posted": "2024-10-16",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Coke 413 Move Out Statement.pdf",
+   "confidence": 0.7
+  }
+ ],
+ "credits": [],
+ "flags": {},
+ "evidence": [],
+ "extraction_confidence": 0.7,
+ "pm_stated_amount_due": 4026,
+ "reconciliation": "Sum of 18 open lines = 4,026.00, equal to PM stated 4,026.00; no credits. Apr-Sep 2024 payments (5,037) are netted oldest-first, leaving 370 of Aug rent open.",
+ "notes": "Winning doc is the 10/16 move-out statement (matches letter and SDI). Sheet lease end 2024-08-31 precedes the 2024-09-01 start; statement and ledger show the current renewal term to 08/31/2025, which is used here. Future months rent (995) is coded rent_after_move_out; the SDI calls it 'Reletting Fee', and the Nov 2024 service period is inferred, not stated. Oct 2024 rent billed in full though move-out was 10/14; coded rent_in_term for 10/01-10/31. Lease and addendum not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

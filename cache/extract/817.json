@@ -1,0 +1,156 @@
+{
+ "tracking": 817,
+ "winning_document": "deposit_disposition_amount_due_devin_s_henry_091324.pdf (dated 09/13/2024)",
+ "pm_stated_amount_due": 838.06,
+ "reconciliation": "Open lines total 838.06; credits none; equals PM stated 838.06; difference 0.00.",
+ "extraction_confidence": 0.85,
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning itemization; total 838.06"
+  },
+  {
+   "file": "tenant_ledger-devin_s_henry-20240921.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "09/13 postings match; balance otherwise zero"
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Traditions at Worthington Woods 7476 Sancus Blvd Devin Henry.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Same 838.06 total"
+  },
+  {
+   "file": "Inspections_Move-out_Devin S. Henry.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-08-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Text comments only; pet urine stains noted"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "lease": {
+  "base_monthly_rent": 2253.95,
+  "lease_start": "2023-08-19",
+  "lease_end": "2024-08-18",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 0
+ },
+ "move_out": {
+  "move_out_date": "2024-08-18",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-09-21",
+  "balance_due": 838.06,
+  "last_payment_date": "2024-08-01",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "credits": [],
+ "line_items": [
+  {
+   "description": "Unit cleaning fee (end of lease)",
+   "category": "cleaning",
+   "amount_open": 259,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  },
+  {
+   "description": "Floor sealed for pet stains",
+   "category": "pet_damage_odor",
+   "amount_open": 319.06,
+   "date_posted": "2024-09-13",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  },
+  {
+   "description": "Window blind wand replacement",
+   "category": "other_damage",
+   "amount_open": 20,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  },
+  {
+   "description": "Stove drip pans",
+   "category": "appliance",
+   "amount_open": 75,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  },
+  {
+   "description": "Door frame trim replacement",
+   "category": "repairs_damage",
+   "amount_open": 100,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  },
+  {
+   "description": "Drywall repairs",
+   "category": "repairs_damage",
+   "amount_open": 65,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "deposit_disposition_amount_due_devin_s_henry_091324.pdf"
+  }
+ ],
+ "notes": "Winning doc is the 09/13/24 deposit disposition letter; ledger 09/13 postings equal it and the ledger was otherwise at zero (Aug prorated rent 1274.52 and pet 22.65 paid by ACH 08/01). Ledger labels the 259 as end-of-lease carpet cleaning; letter says cleaning fees and inspection says unit clean, so coded cleaning with lower confidence. Pet line coded from the 319.06 'floor sealed from pet stains' item; inspection comments note pet urine stains on bedroom carpet. Deposit waived in 2023 (ledger SDW1500 credit), deposit paid 0.00. Lite mode: lease not opened; base rent is the sheet Monthly Rent 2253.95 (includes add-ons; the lease excerpt in the digest shows 2195 rent, TLL20 19.95, pet 39, not used). Inspection photo report read via text comments only.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a41b3ed03db7eafdc"
+ }
+}

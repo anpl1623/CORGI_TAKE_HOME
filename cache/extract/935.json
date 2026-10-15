@@ -1,0 +1,209 @@
+{
+ "tracking": 935,
+ "winning_document": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 2631.75,
+ "documents": [
+  {
+   "file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-10-30",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned TXR-2216 + addendum (4 pages): damages 1,138.00, cleaning 757.75, holdover rent 500.00, light bulbs 221.00, lease verification 15.00 = balance owed 2,631.75; Fee in Lieu so no deposit"
+  },
+  {
+   "file": "101 Rustler Circle - Crooks - Fee In Lieu.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-09-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Fee in Lieu of Security Deposit addendum, $77/month"
+  },
+  {
+   "file": "101 Rustler Circle - Crooks - Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Read via text layer; 09/11/2023-09/30/2024, rent 2,500, deposit 'Fee in Lieu', holdover rent 3x daily, early termination only per statute/replacement tenant"
+  },
+  {
+   "file": "101 Rustler Circle - Crooks - Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Older Propertyware ledger (newest-first) balance as of 02/16/2024 = 0; used only for first-month payment history (Sept-Dec 2023)"
+  },
+  {
+   "file": "101 Rustler Circle - Crooks - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest ledger (newest-first as printed): open items holdover 500, repairs 1,359 (=1,138+221), cleaning 757.75, rental verification 15.00; balance 2,631.75"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2500,
+  "lease_start": "2023-09-11",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2023-09-11",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": 12.7,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "fee_in_lieu",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 77,
+  "recurring_addons": [
+   {
+    "name": "Fee in lieu of security deposit (Sec Dep Replacement Pr)",
+    "amount": 77
+   },
+   {
+    "name": "SecondNature Resident Benefits Package",
+    "amount": 40
+   },
+   {
+    "name": "Asset Protection (AssetProtect insurance)",
+    "amount": 15
+   }
+  ],
+  "lease_break_terms": "Para 28: no early termination right except statutory (military, family violence); replacement tenant allowed with fee of 25% of one month's rent; holdover rent 3x monthly rent daily"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-02",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 2,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear: replace vent hood filter and refrigerator filter, repair garbage disposal, patch holes larger than nail size and spot paint throughout, replace blind, reinstall/install doorknobs, remove mildewed caulking and re-caulk tubs, replace light globe (no sub-amounts given)",
+   "category": "repairs_damage",
+   "amount_charged": 1138,
+   "amount_open": 1138,
+   "date_posted": "2024-10-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cost to replace missing/burned-out light bulbs in listed rooms (itemization item 11; ledger rolls into Move Out Repairs 1,359)",
+   "category": "repairs_damage",
+   "amount_charged": 221,
+   "amount_open": 221,
+   "date_posted": "2024-10-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.8
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_charged": 757.75,
+   "amount_open": 757.75,
+   "date_posted": "2024-10-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Holdover rent October - 2 days (10/1-10/2) after lease end 9/30/2024; lease rate 3x rent daily (2,500x3/30 = 250/day)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-02",
+   "days_after_lease_end": 2,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Unpaid lease/rental verification request (Just Rentals LLC) - tenant administration fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 15,
+   "amount_open": 15,
+   "date_posted": "2024-09-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 2631.75,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-17"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "flag": "holdover",
+   "quote": "Unpaid or accelerated rent: Holdover Rent October- 2 Days $500.00; Move-Out Date: October 2, 2024"
+  },
+  {
+   "file": "101 Rustler Circle - Crooks - Itemization of Security Deposit.pdf",
+   "flag": "statement_total",
+   "quote": "Balance of Security Deposit after Deductions (2,631.75)"
+  }
+ ],
+ "reconciliation": "Open lines 1,138.00 + 221.00 + 757.75 + 500.00 + 15.00 = 2,631.75, no credits (Fee in Lieu, no deposit held); equals itemization balance 2,631.75 and ledger balance 2,631.75 (no difference).",
+ "extraction_confidence": 0.93,
+ "notes": "All prior ledger charges (rent, SDRP/fee-in-lieu 77, RBP 40, asset protection 15, late fees) are paid; only move-out items are open. RV ledger move-out date says 9-30-2024 but itemization and sheet say 10/02/2024 (2 days holdover billed). Ledger Move Out Repairs 1,359 = itemization items 1 (1,138) + 11 (221). Rent after lease end days measured to period end (2). Historic NSF: Nov 2023 payments from Tammy Crooks returned (insufficient funds) and later re-paid; first payments and first full month (Oct 2023) cleared normally. Lease auto-renews month-to-month absent notice, but PM billed holdover; tenant vacated 2 days after term end. Itemization 'Damages Beyond Wear and Tear' has no pet or water/fire context.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a98d10d0d3097dae9"
+ }
+}

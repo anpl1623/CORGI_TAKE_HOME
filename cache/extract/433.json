@@ -1,0 +1,406 @@
+{
+ "tracking": 433,
+ "documents": [
+  {
+   "file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-01-26",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger, newest-first. Balance 6,053.00. Status 'Active - Evicting', move-out date blank."
+  },
+  {
+   "file": "Fire Sun Judgement.pdf",
+   "doc_type": "court_document",
+   "doc_date": "2024-01-05",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Default eviction judgment: rent 5,058.06 + court costs 274.00 + attorney fees 1,000.00; possession to landlord. These amounts are not posted on the ledger."
+  },
+  {
+   "file": "Petition.pdf",
+   "doc_type": "court_document",
+   "doc_date": "2023-12-01",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Eviction petition. Lease dated 07/19/2023, term 07/21/2023-07/31/2024, rent 1,600, tenants not active-duty military, tenant still in possession at filing."
+  },
+  {
+   "file": "Exhibit_5.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2023-11-09",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Only pages 1-2 opened: TXR-2209 late notice for November, cure amount 2,169.00 by 11/09/2023. Remaining pages are portal text messages, not opened."
+  },
+  {
+   "file": "download.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-07-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "37-page Texas lease: commencement 07/21/2023, expiration 07/31/2024, rent 1,600, late fee 12%, NSF 35, Security Deposit Waiver Program 70/month"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1600,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-07-31",
+  "current_term_start": "2023-07-21",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2024-07-31",
+  "lease_start": "2023-07-21",
+  "monthly_sd_premium": 70,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver",
+    "amount": 70
+   },
+   {
+    "name": "2023 Second Nature RBP",
+    "amount": 60
+   },
+   {
+    "name": "Renters Insurance Services",
+    "amount": 20
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2024-01-05",
+  "re_let_date": null,
+  "termination": "eviction"
+ },
+ "line_items": [
+  {
+   "description": "NSF fee for returned 10/03/2023 eCheck",
+   "category": "nsf_fee",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2023-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee Oct 2023 (posted 10/10/2023)",
+   "category": "late_fee",
+   "amount_charged": 192,
+   "amount_open": 192,
+   "date_posted": "2023-10-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent 11/2023",
+   "category": "rent_in_term",
+   "amount_charged": 1600,
+   "amount_open": 1600,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  },
+  {
+   "description": "2023 Second Nature RBP 11/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  },
+  {
+   "description": "Renters Insurance Services 11/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  },
+  {
+   "description": "Security Deposit Waiver 11/2023",
+   "category": "sdrp_premium",
+   "amount_charged": 70,
+   "amount_open": 70,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.88
+  },
+  {
+   "description": "Late fee Nov 2023 (posted 11/04/2023)",
+   "category": "late_fee",
+   "amount_charged": 192,
+   "amount_open": 192,
+   "date_posted": "2023-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent 12/2023",
+   "category": "rent_in_term",
+   "amount_charged": 1600,
+   "amount_open": 1600,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "2023 Second Nature RBP 12/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance Services 12/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Security Deposit Waiver 12/2023",
+   "category": "sdrp_premium",
+   "amount_charged": 70,
+   "amount_open": 70,
+   "date_posted": "2023-12-01",
+   "service_period_start": "2023-12-01",
+   "service_period_end": "2023-12-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee Dec 2023 (posted 12/04/2023)",
+   "category": "late_fee",
+   "amount_charged": 192,
+   "amount_open": 192,
+   "date_posted": "2023-12-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent 01/2024",
+   "category": "rent_in_term",
+   "amount_charged": 1600,
+   "amount_open": 1600,
+   "date_posted": "2024-01-01",
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "2023 Second Nature RBP 01/2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-01-01",
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance Services 01/2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-01-01",
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Security Deposit Waiver 01/2024",
+   "category": "sdrp_premium",
+   "amount_charged": 70,
+   "amount_open": 70,
+   "date_posted": "2024-01-01",
+   "service_period_start": "2024-01-01",
+   "service_period_end": "2024-01-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee Jan 2024 (posted 01/04/2024)",
+   "category": "late_fee",
+   "amount_charged": 192,
+   "amount_open": 192,
+   "date_posted": "2024-01-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "11/14/2023 check payment of 1,750 applied oldest-first to the Oct 2023 charges (rent 1,600, RBP 60, insurance 20, SDW 70); those charges are not listed as open",
+   "amount": 1750,
+   "type": "tenant_payment",
+   "source_file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": true,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+   "flag": "tenant_still_in_possession",
+   "quote": "Lease Status:Active - Active - Evicting; Move Out Date: (blank)"
+  },
+  {
+   "file": "Fire Sun Judgement.pdf",
+   "flag": "tenant_still_in_possession",
+   "quote": "Plaintiff(s) have restitution of the premises; Signed this the 5th day of January, 2024"
+  },
+  {
+   "file": "Fire Sun Judgement.pdf",
+   "flag": "eviction",
+   "quote": "Made Default ... judgment for rent in the amount of $5,058.06"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-01-26",
+  "balance_due": 6053,
+  "first_full_month": "2023-08",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-11-14"
+ },
+ "pm_stated_amount_due": 6053,
+ "winning_document": "Tenant-Ledger-2024_01_26_13_24_48.pdf",
+ "reconciliation": "Open lines 6,053.00 (rent 4,800 + SDW 210 + RBP 180 + renters ins 60 + late fees 768 + NSF 35); the 11/14 payment of 1,750 is already netted; equals the ledger balance 6,053.00. The 01/05/2024 judgment adds 274.00 court costs and 1,000.00 attorney fees, which are not on the ledger and are not included.",
+ "extraction_confidence": 0.82,
+ "notes": "Eviction claim with no PM itemization letter, so the ledger (printed 1/26/2024) is the accounting document. Open amounts come from allocating payments oldest-charge-first. The 1,750 payment on 11/14/2023 cleared the Oct 1 charges, and the 10/03 eCheck was returned. The lease says non-rent items are paid first, so the split between rent and fees would shift under that order, but the total stays 6,053. The sheet move-out date is 2024-01-05, the judgment date. The ledger printed 1/26/2024 still shows 'Active - Evicting' with no move-out date, so actual vacate is unconfirmed. The default judgment awarded rent 5,058.06, court costs 274.00 and attorney fees 1,000.00; the 5,058.06 rent figure cannot be tied to the ledger. Risk Mitigation Fee (500 x 3 installments) and the 199 lease processing fee were paid and are not deposits. The petition says tenants are not active-duty military. Only pages 1-2 of Exhibit 5 were opened; they are a TXR-2209 late notice for November.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "afa9b5a0c251cd1da"
+ }
+}

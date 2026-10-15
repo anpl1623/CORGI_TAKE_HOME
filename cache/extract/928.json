@@ -1,0 +1,215 @@
+{
+ "tracking": 928,
+ "winning_document": "14040ERedPinePlace_102824_StatementofAccounting_Pinkerton.pdf",
+ "pm_stated_amount_due": 1194.72,
+ "documents": [
+  {
+   "file": "14040ERedPinePlace_102824_StatementofAccounting_Pinkerton.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting (scan, 3 pp): unpaid rent 870.00, pet/RIS/RBP fees 137.00, replace refrigerator bin 187.72 (AAA Appliance Repair invoice 10/24/2024 attached) = 1,194.72 due from resident; page 3 is a mailing envelope"
+  },
+  {
+   "file": "14040 E Red Pine Place_tenantledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-12",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first; open unpaid charges 11/01/2024 rent 870, pet fee 50, RIS 58, RBP 29 and 10/28/2024 appliance repair 187.72 = 1,194.72"
+  },
+  {
+   "file": "14040_3_Lease_Renewal_Addendum_-_rev_042722_(08-01-2023_-_08-01-2023).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-08-02",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Renewal 11/08/2023-11/12/2024 at 2,175/mo; lease break fee 1,000 + 2x rent; pet fee $25/pet/mo"
+  },
+  {
+   "file": "14040_3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(10-14-2022_-_10-14-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-10-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Original agreement starting 11/04/2022 at 2,150; security deposit 0.00, No Security Deposit Option 58.00, RBP 29, pet fee 25/pet/mo"
+  },
+  {
+   "file": "14040_Security_Deposit_Waiver_Addendum1_(10-19-2022_-_10-19-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-19",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, $58.00/month, waives deposit of $3,225.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2175,
+  "lease_start": "2022-11-04",
+  "lease_end": "2024-11-12",
+  "current_term_start": "2023-11-08",
+  "current_term_end": "2024-11-12",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3225,
+  "monthly_sd_premium": 58,
+  "recurring_addons": [
+   {
+    "name": "Monthly pet fee (2 pets x $25)",
+    "amount": 50
+   },
+   {
+    "name": "RIS monthly fee to terminate/waive deposit (SDRP)",
+    "amount": 58
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   }
+  ],
+  "lease_break_terms": "Renewal addendum: tenant may terminate by paying lease break/re-renting fee of $1,000 plus a fee equal to 2x monthly rent (computed after possession relinquished)"
+ },
+ "move_out": {
+  "move_out_date": "2024-10-14",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Unpaid rent 11/01-11/12/2024 (12 days x 2,175/30 = 870) for remainder of lease term after tenant vacated 10/14/2024",
+   "category": "rent_after_move_out",
+   "amount_charged": 870,
+   "amount_open": 870,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-12",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14040ERedPinePlace_102824_StatementofAccounting_Pinkerton.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "November 2024 monthly pet fee (2 pets), split out of statement's 137.00 lump by ledger",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14040 E Red Pine Place_tenantledger.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "November 2024 RIS monthly fee (SDRP / no-security-deposit option)",
+   "category": "sdrp_premium",
+   "amount_charged": 58,
+   "amount_open": 58,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14040 E Red Pine Place_tenantledger.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "November 2024 Resident Benefit Package fee",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 29,
+   "amount_open": 29,
+   "date_posted": "2024-11-01",
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14040 E Red Pine Place_tenantledger.pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Replace refrigerator bin (cracked crisper pan) - AAA Appliance Repair invoice 10/24/2024: part 102.78 + tax 8.94 + labor 76.00",
+   "category": "appliance",
+   "amount_charged": 187.72,
+   "amount_open": 187.72,
+   "date_posted": "2024-10-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "14040ERedPinePlace_102824_StatementofAccounting_Pinkerton.pdf",
+   "source_page": 2,
+   "confidence": 0.92
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-11-12",
+  "balance_due": 1194.72,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-28"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "14040ERedPinePlace_102824_StatementofAccounting_Pinkerton.pdf",
+   "flag": "early_termination",
+   "quote": "Move-out Date: 10/14/24 ... Unpaid Rent $870.00 ... Lease Break Fee $0"
+  },
+  {
+   "file": "14040_3_Lease_Renewal_Addendum_-_rev_042722_(08-01-2023_-_08-01-2023).pdf",
+   "flag": "current_term",
+   "quote": "terms of the agreement will extend to include the period of 11/08/2023 through 11/12/2024"
+  }
+ ],
+ "reconciliation": "Open lines 870.00 + 50.00 + 58.00 + 29.00 + 187.72 = 1,194.72, no credits (statement credits $0, deposit held 0.00); equals Statement of Accounting 1,194.72 (870 + 137 + 187.72) and ledger balance 1,194.72 (no difference).",
+ "extraction_confidence": 0.95,
+ "notes": "Statement lumps pet fee, RIS fee and RBP into one 137.00 line; ledger splits it 50/58/29 so no mixed pet line remains. Unpaid rent 870.00 is the 11/01-11/12 stub of the final lease month (tenant vacated 10/14; October rent and fees were paid in full 10/01), billed as rent after move-out within the lease term; statement shows lease-break fee 0 and advertising fee 0. Monthly fees were billed for full November. Early termination: moved out 29 days before 11/12/2024 lease end. Rent history: all months paid via auto-pay; first full calendar month Dec 2022 paid 12/01/2022; first payment 10/18/2022 cleared. Refrigerator repair is a billed vendor invoice (not an estimate).",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a98d10d0d3097dae9"
+ }
+}

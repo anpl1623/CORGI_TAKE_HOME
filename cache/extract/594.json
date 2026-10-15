@@ -1,0 +1,149 @@
+{
+ "tracking": 594,
+ "winning_document": "128EAR - Closeout.pdf",
+ "pm_stated_amount_due": 729,
+ "extraction_confidence": 0.9,
+ "documents": [
+  {
+   "file": "128EAR - Closeout.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-05-22",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Pages 1-5 scanned (PURE cover letter and TXR-2216 itemization 5/22/2024: damages 644 + HOA 85, balance 729.00); pages 6-7 vendor invoices (text); remainder move-out photo report (not used)."
+  },
+  {
+   "file": "128EAR - Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Digest excerpt sufficient: 10/21/2022-4/22/2024, rent 1,900, auto-renews month-to-month if no notice."
+  },
+  {
+   "file": "SD Waiver.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-10-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Waived deposit 2,150.00, monthly fee 51.00."
+  },
+  {
+   "file": "Transactions_20240530085532630.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-05-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager ledger; open balance 729.00 = HOA 50+35 and make ready 260+384. Used to split HOA lump."
+  },
+  {
+   "file": "DISPUTE - NOLAN MOEHLE - 128 EARL KEEN ST.txt",
+   "doc_type": "email_or_screenshot",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Tenant dispute statement."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1900,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2150,
+  "monthly_sd_premium": 51,
+  "lease_start": "2022-10-21",
+  "lease_end": "2024-04-22",
+  "current_term_start": "2022-10-21",
+  "current_term_end": "2024-04-22",
+  "initial_term_months": 18,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Tenant Benefits Package A3",
+    "amount": 39
+   },
+   {
+    "name": "Renters Choice Program (SD waiver fee)",
+    "amount": 51
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-04-22",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make ready haul off: tarp, toys, BBQ grill, miscellaneous trash (V Square invoice TTF5HDD 4/25/24)",
+   "category": "trash_removal",
+   "amount_open": 260,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "128EAR - Closeout.pdf",
+   "source_page": 3,
+   "confidence": 0.9,
+   "date_posted": "2024-05-22"
+  },
+  {
+   "description": "Make ready maintenance: remove coat hanger in bedroom 2, move fridge back/clean stickers and magnets, replace missing bulbs (K.B. Service invoice T9X0HHC, tenant portion 384; owner paint 434 excluded)",
+   "category": "repairs_damage",
+   "amount_open": 384,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "128EAR - Closeout.pdf",
+   "source_page": 3,
+   "confidence": 0.7,
+   "date_posted": "2024-05-22"
+  },
+  {
+   "description": "HOA violation (yard, 4/24/24)",
+   "category": "hoa_violation",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Transactions_20240530085532630.pdf",
+   "source_page": 2,
+   "confidence": 0.9,
+   "date_posted": "2024-04-24"
+  },
+  {
+   "description": "HOA administrative fee (4/24/24)",
+   "category": "hoa_violation",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Transactions_20240530085532630.pdf",
+   "source_page": 2,
+   "confidence": 0.8,
+   "date_posted": "2024-04-24"
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-05-30",
+  "balance_due": 729,
+  "first_full_month": "2022-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-01"
+ },
+ "flags": {
+  "tenant_disputes_charges": true
+ },
+ "evidence": [
+  {
+   "file": "DISPUTE - NOLAN MOEHLE - 128 EARL KEEN ST.txt",
+   "flag": "tenant_disputes_charges",
+   "quote": "I'm disupting the charges and have notified PURE Property Management of the dispute as well."
+  }
+ ],
+ "reconciliation": "sum(open lines) 260+384+50+35 = 729.00 - credits 0 = PM stated 729.00 (itemization damages 644 + HOA 85; ledger balance 729.00).",
+ "notes": "Itemization lists HOA 85 under 'unpaid utilities'; ledger splits it into HOA violation 50 and HOA administrative fee 35. Owner-responsible touch-up paint 434 on invoice not charged to tenant. Earlier HOA 25+50 (3/13/24) was paid with the 4/1/24 payment. Waiver fee 51 monthly (SD Waiver.pdf) and benefits package 39 were paid through April 2024; move-out at lease end so end_of_term. First full calendar month taken as Dec 2022 (Oct 21 first-month charge paid 10/20/22 and Nov prorated paid 11/2/22; all paid).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aa37b49fc61e54eed"
+ }
+}

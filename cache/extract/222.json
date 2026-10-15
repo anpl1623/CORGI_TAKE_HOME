@@ -1,0 +1,311 @@
+{
+  "tracking": 222,
+  "documents": [
+    {
+      "file": "HPT 28 Medina Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-04-14",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "HPT 28  Medina YRIG addendum.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2023-04-14",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "HPT 28 Medina Moveout_Statement.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2023-09-22",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "HPT 28 Medina MO Letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-09-22",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "HPT 28 Medina Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-25",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "HPT DD-Authorization-Form.pdf",
+      "doc_type": "ach_dd_authorization",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "HPT 28 Medina Moveout_Statement.pdf",
+  "pm_stated_amount_due": 1765.0,
+  "lease": {
+    "base_monthly_rent": 860.0,
+    "recurring_addons": [
+      {
+        "name": "Renters Insurance",
+        "amount": 17.0
+      },
+      {
+        "name": "Security Deposit Protection",
+        "amount": 33.0
+      },
+      {
+        "name": "Utility Revenue",
+        "amount": 30.0
+      }
+    ],
+    "lease_start": "2023-04-14",
+    "lease_end": "2024-03-31",
+    "current_term_start": "2023-04-14",
+    "current_term_end": "2024-03-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 860.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "Reletting charge of $250.00"
+  },
+  "move_out": {
+    "move_out_date": "2023-09-12",
+    "termination": "skip_abandon",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-09-25",
+    "balance_due": 1765.0,
+    "first_full_month": "2023-05",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-08-03"
+  },
+  "line_items": [
+    {
+      "description": "Residential Rent (09/2023)",
+      "category": "rent_in_term",
+      "amount_open": 860.0,
+      "amount_charged": 860.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Renters Insurance (09/2023)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 17.0,
+      "amount_charged": 17.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Security Deposit Protection (09/2023)",
+      "category": "sdrp_premium",
+      "amount_open": 33.0,
+      "amount_charged": 33.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Utility Revenue (09/2023)",
+      "category": "utilities",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2023-09-01",
+      "service_period_start": "2023-09-01",
+      "service_period_end": "2023-09-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Late Charge",
+      "category": "late_fee",
+      "amount_open": 30.0,
+      "amount_charged": 30.0,
+      "date_posted": "2023-09-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Unauthorizes Pet in apartment",
+      "category": "pet_fee_rent",
+      "amount_open": 100.0,
+      "amount_charged": 100.0,
+      "date_posted": "2023-09-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Clean out Fridge - Eletric shut off",
+      "category": "cleaning",
+      "amount_open": 25.0,
+      "amount_charged": 25.0,
+      "date_posted": "2023-09-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Reletting Fee",
+      "category": "reletting_fee",
+      "amount_open": 250.0,
+      "amount_charged": 250.0,
+      "date_posted": "2023-09-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Electric turned back on",
+      "category": "utilities",
+      "amount_open": 100.0,
+      "amount_charged": 100.0,
+      "date_posted": "2023-09-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Cleaning Charges - skip nothing done/dirty",
+      "category": "cleaning",
+      "amount_open": 170.0,
+      "amount_charged": 170.0,
+      "date_posted": "2023-09-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Carpet/Floor Cleaning - skip/pet",
+      "category": "carpet_cleaning",
+      "amount_open": 150.0,
+      "amount_charged": 150.0,
+      "date_posted": "2023-09-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "HPT 28 Medina Moveout_Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) 1765.00 - credits 0.00 = 1765.00 vs PM stated 1765.00; exact match.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Carpet/Floor Cleaning - skip/pet",
+      "file": "HPT 28 Medina Moveout_Statement.pdf"
+    }
+  ],
+  "extraction_confidence": 1.0,
+  "notes": "Tenant skipped/abandoned unit on 2023-09-12. Move-out statement itemizes all unpaid charges totalling $1,765.00."
+}

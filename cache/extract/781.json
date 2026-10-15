@@ -1,0 +1,238 @@
+{
+ "tracking": 781,
+ "extraction_confidence": 0.8,
+ "winning_document": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+ "pm_stated_amount_due": 4789.81,
+ "reconciliation": "Open lines sum 5389.81; less 600 security deposit tendered gives 4789.81, equal to the PM stated balance; match.",
+ "notes": "TXR-2216 itemization (pages 1-3) is the winning statement. The 1393 damages line has no sub-amounts; the addendum lists the items without prices. Ledger RV 08-07 Repairs - Move Out Repairs 1572 = 1393 damages + 24 bulbs + 155 removal items; the 155 plus monthly fees 113 equal statement line 19 (268). Fee-in-lieu and lease files not opened. Ledger PW used only to confirm the 600 deposit held.",
+ "documents": [
+  {
+   "file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-08-07",
+   "used_for_amounts": true,
+   "note": "Winning PM itemization, 4789.81 demanded",
+   "opened_visually": true
+  },
+  {
+   "file": "4207 Primrose Dr Apt D-Pena-Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-29",
+   "used_for_amounts": true,
+   "note": "Splits lines; ends at 4789.81 after deposit",
+   "opened_visually": true
+  },
+  {
+   "file": "4207 Primrose Dr Apt D-Pena-Ledger PW.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-18",
+   "used_for_amounts": false,
+   "note": "History only; deposit held 600 confirmed",
+   "opened_visually": true
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 900,
+  "lease_start": "2023-09-07",
+  "lease_end": "2024-09-30",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-29",
+  "balance_due": 4789.81,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-13"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-10",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent Jul 2024 (moved out 07/10)",
+   "category": "rent_in_term",
+   "amount_open": 900,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Rent Aug 2024 (post move-out)",
+   "category": "rent_after_move_out",
+   "amount_open": 900,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent Sep 2024 (post move-out)",
+   "category": "rent_after_move_out",
+   "amount_open": 900,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee Jul 2024",
+   "category": "late_fee",
+   "amount_open": 108,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Posting fee, unpaid rent Jul",
+   "category": "eviction_legal_court",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Resident benefit package Jul 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "AssetProtect Jul 2024",
+   "category": "other_fee",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "SDRP replacement premium Jul 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Move-out damages (no sub-amounts)",
+   "category": "repairs_damage",
+   "amount_open": 1393,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Light bulbs replacement",
+   "category": "other_damage",
+   "amount_open": 24,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Item removal: stickers, hoses, freezer",
+   "category": "trash_removal",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 351.81,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting fee 25% (Para 27)",
+   "category": "reletting_fee",
+   "amount_open": 225,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Temp electric and water utilities",
+   "category": "utilities",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Replace unreturned keys",
+   "category": "keys_remotes",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "4207 Primrose Dr Apt D-Pena-Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit tendered applied",
+   "amount": 600,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

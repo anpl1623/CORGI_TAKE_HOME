@@ -1,0 +1,160 @@
+{
+ "tracking": 83,
+ "documents": [
+  {
+   "file": "167 Red Knot_Current Ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-04-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware, newest-first. Only open row: 04/19/2023 5018 Move-out Repair TKC5CDGB $390. Balance $390. All rent Apr 2022-Mar 2023 paid; Nov 2022 payment returned NSF and later made good."
+  },
+  {
+   "file": "167 Red Knot Collections - SDRP Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2023-04-25",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "NHPM final-account letter: total amount due $390.00."
+  },
+  {
+   "file": "Clean and Carpet Clean_167 Red Knot.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2023-04-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "TnT Property Solutions Meld TKC5CDGB: Full Interior Clean $250 + Full Carpet Clean $140 = $390. Same charge as the ledger move-out repair line, counted once and used to split it."
+  },
+  {
+   "file": "167 Red Knot Ln_Move Out Evaluation_2023-04-06 (2).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-04-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector photo report. Comments: light cleaning needed; carpets need cleaning; carpet stains; Bed 2 carpet odor (photo caption 'Pet odor'); fridge garbage odor."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum__(03-22-2022_-_03-22-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-03-22",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Security Deposit Waiver YES, $58/month."
+  },
+  {
+   "file": "Docusign_NHPM_Lease_v_2021_(03-22-2022_-_03-22-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-03-22",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 04/01/2022-03/31/2023, rent $3,150/mo; para 8 security deposit $4,725 (waived via SDRP addendum); Animal Rent addendum box checked; SDRP addendum listed."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3150,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 58,
+  "waived_deposit_amount": 4725,
+  "cash_deposit_amount": 0,
+  "lease_start": "2022-04-01",
+  "lease_end": "2023-03-31",
+  "current_term_start": "2022-04-01",
+  "current_term_end": "2023-03-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium (53 until Aug 2022, then 58)",
+    "amount": 58
+   },
+   {
+    "name": "RBP with Insurance",
+    "amount": 39
+   },
+   {
+    "name": "Administrative fee (Apr-Aug 2022 only)",
+    "amount": 5
+   },
+   {
+    "name": "Convenience fee per ePayment",
+    "amount": 3
+   }
+  ],
+  "lease_break_terms": "Para 14: either party may terminate at end of initial term with 30 days written notice. A holdover without consent costs 2x the daily rate."
+ },
+ "move_out": {
+  "move_out_date": "2023-03-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2023-04-25",
+  "balance_due": 390,
+  "first_full_month": "2022-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-03-01"
+ },
+ "line_items": [
+  {
+   "description": "Move-out: Full Interior Clean (TnT Meld TKC5CDGB; part of ledger 'Move-out Repair' $390)",
+   "category": "cleaning",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2023-04-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Clean and Carpet Clean_167 Red Knot.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move-out: Full Carpet Clean (TnT Meld TKC5CDGB; part of ledger 'Move-out Repair' $390)",
+   "category": "carpet_cleaning",
+   "amount_charged": 140,
+   "amount_open": 140,
+   "date_posted": "2023-04-19",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Clean and Carpet Clean_167 Red Knot.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "pm_stated_amount_due": 390,
+ "winning_document": "167 Red Knot_Current Ledger.pdf",
+ "reconciliation": "250.00 + 140.00 = 390.00 - credits 0 = 390.00 = collection letter total = ledger balance 4/25/2023; matches exactly. The ledger line and the TnT invoice are the same charge, counted once.",
+ "notes": "End-of-term move-out 3/31/2023 (lease 4/1/2022-3/31/2023). All rent and fees were paid; the only open item is the $390 TnT clean and carpet clean. The sheet rent of 3143 differs from the lease and ledger rent of $3,150, so the lease value is used. The inspection notes 'Pet odor' on the Bed 2 carpet, and the lease's Animal Rent addendum box is checked, but no pet rent appears on the ledger. The carpet cleaning is a general full-house clean with no pet-specific charge. The Nov 2022 ePayment was returned NSF ($45 returned-payment fee, $472.50 late fee); both were paid 11/7/2022.",
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "a292dc4070b3b3ab7"
+ }
+}

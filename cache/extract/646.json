@@ -1,0 +1,117 @@
+{
+ "tracking": 646,
+ "documents": [
+  {
+   "file": "C016 Lee Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-06",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Move-out statement; balance 1350.00"
+  },
+  {
+   "file": "C016 Lee Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-06",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "States 1350.00 balance; agrees"
+  },
+  {
+   "file": "C016 Lee SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Total 1350.00; agrees"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 910,
+  "sd_program": "unknown",
+  "lease_start": "2023-05-03",
+  "lease_end": "2024-04-30"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 31
+ },
+ "ledger": {
+  "as_of_date": "2024-06-06",
+  "balance_due": 1350,
+  "last_payment_date": "2024-05-03"
+ },
+ "line_items": [
+  {
+   "description": "Cleaning charges - excessive",
+   "category": "cleaning",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-06",
+   "source_file": "C016 Lee Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting/drywall repairs",
+   "category": "painting",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-06",
+   "source_file": "C016 Lee Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Flooring replacement",
+   "category": "flooring",
+   "amount_charged": 750,
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-06",
+   "source_file": "C016 Lee Move Out Statement.pdf",
+   "confidence": 0.75
+  }
+ ],
+ "credits": [
+  {
+   "description": "Check payment 05/03/2024 applied to May charges",
+   "amount": 329,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Lease charge adjustments May (-27, -50)",
+   "amount": 77,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "C016 Lee Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Flooring Replacement 750.00"
+  }
+ ],
+ "pm_stated_amount_due": 1350,
+ "reconciliation": "Open lines 1350.00 - credits 0.00 = 1350.00 vs PM 1350.00; match. May charges, payment and adjustments already bring the prior balance to zero.",
+ "notes": "Holdover May 2024 (lease ended 4/30/2024); May charges fully paid (balance 0.00 before June charges). Flooring replacement billed with no invoice or photo in the claim folder. Statement, letter and SDI agree at 1350.00. Ledger scan and lease not opened (lite mode).",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a0d251c85bb700ab5"
+ }
+}

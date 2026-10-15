@@ -1,0 +1,204 @@
+{
+ "tracking": 762,
+ "documents": [
+  {
+   "file": "3308 Garling Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-18",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 5,091.44"
+  },
+  {
+   "file": "3308 Garling Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-18",
+   "used_for_amounts": true,
+   "note": "Total 5,091.44; source of line items"
+  },
+  {
+   "file": "3308 Garling SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "note": "Total 5,091.44; current ledger 1,623.11 matches statement to 07/09"
+  },
+  {
+   "file": "3308 Garlng Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Confirms charges and credit"
+  }
+ ],
+ "evidence": [
+  {
+   "file": "3308 Garling Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet Replacement Due To Smoke Smell"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1470,
+  "lease_start": "2024-04-06",
+  "lease_end": "2025-04-30",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 5091.44,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-06"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-15",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent July 2024",
+   "category": "rent_in_term",
+   "amount_open": 1470,
+   "amount_charged": 1470,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection July 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility revenue July 2024",
+   "category": "utilities",
+   "amount_open": 40,
+   "date_posted": "2024-07-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late fee July 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-07-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "MidAmerican utility bill 6/21-6/24",
+   "category": "utilities",
+   "amount_open": 11.11,
+   "service_period_start": "2024-06-21",
+   "service_period_end": "2024-06-24",
+   "date_posted": "2024-07-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "MidAmerican utility bill 6/25-7/15",
+   "category": "utilities",
+   "amount_open": 58.33,
+   "service_period_start": "2024-06-25",
+   "service_period_end": "2024-07-15",
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent August 2024 (future month)",
+   "category": "rent_after_move_out",
+   "amount_open": 1470,
+   "amount_charged": 1470,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Utility revenue August 2024",
+   "category": "utilities",
+   "amount_open": 40,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet replacement, smoke smell",
+   "category": "flooring",
+   "amount_open": 1800,
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning (four hours)",
+   "category": "cleaning",
+   "amount_open": 200,
+   "date_posted": "2024-07-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "3308 Garling Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [
+  {
+   "description": "Gate remote deposit credit",
+   "amount": 100,
+   "type": "other",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "pm_stated_amount_due": 5091.44,
+ "reconciliation": "Open items 5191.44 (1612 + 11.11 + 58.33 + 1470 + 40 + 1800 + 200) less credit 100 = 5091.44 vs PM stated 5091.44; difference 0. The 1510 'Future Months Rent and Utilities' line is split into August rent 1470 and utility 40.",
+ "notes": "Move-out date: statement and SDI say 07/15/2024; sheet and ledger header say 07/31/2024 (07/15 used). Full July rent charged. Balance as of 07/01 was 0.00. Gate remote deposit 100 credited 07/18 and netted in the statement total. No invoice or photos in folder for the smoke-smell carpet.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

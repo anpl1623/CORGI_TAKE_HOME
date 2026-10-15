@@ -1,0 +1,115 @@
+{
+ "tracking": 543,
+ "winning_document": "Aston Deposit.pdf",
+ "pm_stated_amount_due": 152.06,
+ "reconciliation": "sum(open lines) 152.06 - credits 0.00 = 152.06 vs pm_stated 152.06 (TXR-2216 balance after deductions (152.06); ledger total 152.06) - match.",
+ "documents": [
+  {
+   "file": "Aston Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-04-15",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned. Pages 1-3 are TXR-2216 itemization (only deduction: broken transition strip 152.06; deposit tendered blank; box B excess demanded). Pages 4-10 are the move-out inventory/condition form (pages 4-5 viewed: only move-out note is 'transition strip broken' in kitchen)."
+  },
+  {
+   "file": "Aston Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-03-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "TXR-2001 17pp: term 4/28/2023-4/27/2024, rent 1,895, auto-renews MTM unless 30-day notice, para 27 default/para 28 early termination, addenda list incl. Security Deposit Alternative and Tenant Benefits Package, Animal Agreement."
+  },
+  {
+   "file": "SDA.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-03-31",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Lease Addendum for Security Deposit Waiver: $51/month in lieu of $2,095 deposit, signed by both tenants."
+  },
+  {
+   "file": "tenant_ledger-kristy_l_aston_dustin_t_aston-20240429.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-29",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first. Only open row is 04/15/2024 flooring repair 152.06; everything else paid. No April 2024 rent charged."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1895,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 2095,
+  "monthly_sd_premium": 51,
+  "lease_start": "2023-04-28",
+  "lease_end": "2024-04-27",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "current_term_start": "2023-04-28",
+  "current_term_end": "2024-04-27",
+  "lease_break_terms": "TXR-2001 para 27B: on default unpaid rent for remainder of term accelerated, tenant liable for lost rent and reletting costs; para 28B: replacement-tenant fee 100% of one month's rent if a replacement is procured; auto-renews MTM absent 30-day written notice. No flat lease-break fee stated.",
+  "recurring_addons": [
+   {
+    "name": "Pet Fee Non-Refundable (monthly)",
+    "amount": 55
+   },
+   {
+    "name": "Tenant Benefits Package",
+    "amount": 35
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-03-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Damages to the Property beyond wear and tear: broken transition strip (ledger: 'Repair - Flooring - Broken transition strip'); no vendor invoice or photos in folder",
+   "category": "repairs_damage",
+   "amount_charged": 152.06,
+   "amount_open": 152.06,
+   "date_posted": "2024-04-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Aston Deposit.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "no_policy_evidence": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "short_term_lease": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-04-29",
+  "balance_due": 152.06,
+  "first_full_month": "2023-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-03-01"
+ },
+ "extraction_confidence": 0.9,
+ "notes": "Single small claim. Tenant vacated 3/31/2024, 27 days before the 4/27/2024 expiration; PM charged no April rent, no lease-break or reletting fee. Deposit waived (SD Alternative 51/mo), no cash deposit. Category choice: transition strip is a trim piece so repairs_damage rather than flooring (ledger labels it Repair - Flooring); amount has no invoice backup, only the PM itemization and the move-out inventory comment. 1/10/2024 missed-appointment fee 25 was paid on the 2/1 payment, not open. Move-out inventory pages 6-10 not opened (inspection form).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "aba57a533e2fd2ef2"
+ }
+}

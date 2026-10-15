@@ -1,0 +1,227 @@
+{
+ "tracking": 912,
+ "winning_document": "Flint 03-6812 Move Out Statement.pdf",
+ "pm_stated_amount_due": 450,
+ "extraction_confidence": 0.9,
+ "reconciliation": "sum(open line items) 450.00 - credits 0.00 = 450.00 vs PM stated 450.00 (statement, SDI, move-out letter and ledger all tie).",
+ "notes": "Perry Reid / Mansions at Hemingway (IA). Tenant in possession since 09/15/2023; the lease in the folder (dated 07/12/2024, term 07/01/2024-09/30/2024) is a 3-month renewal term, so initial term of the tenancy is not 3 months and short_term_lease is false; original lease not in folder. Security deposit waiver addendum signed 07/12/2024 (33/mo); lease deposit 0.00 (ledger shows a 1,200 deposit charged then reversed 08/01/2023). Move-out at lease end, no rent or fees open; the 450 balance is all post move-out turnover charges posted 10/08/2024, flat amounts with no invoices or photos in the folder. The 100 'Repair to hole in bedroom' is listed on the SDI under Flooring Replacement (ledger code carp.rpl), so treated as flooring without support. Move-out letter threatens collections (Hunter Warfield) but no collection fee charged.",
+ "documents": [
+  {
+   "file": "Flint 03-6812 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning PM statement; balance 450.00"
+  },
+  {
+   "file": "Flint 03-6812 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Security Deposit Itemization; 450 total maintenance/cleaning; gives category labels"
+  },
+  {
+   "file": "Flint 03-6812 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-08",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "States balance due 450.00, collections warning"
+  },
+  {
+   "file": "Flint Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Oldest-first; zero balance before 10/08/2024 charges; ledger code carp.rpl on bedroom hole line"
+  },
+  {
+   "file": "Flint 03-6812 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-07-12",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES 33/mo; Liability Protection Option 1 16/mo; policy start 07/01/2024"
+  },
+  {
+   "file": "Flint 03-6812 Lease.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-07-12",
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": true,
+   "note": "Pages 1-4 read: rent 1,550, term 07/01-09/30/2024, deposit 0.00, auto month-to-month renewal, early move-out and replacement clauses"
+  },
+  {
+   "file": "MAH DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Not opened; classified from file name"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1550,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1200,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters insurance / liability protection",
+    "amount": 19
+   },
+   {
+    "name": "Security Deposit Protection (waiver)",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 60
+   }
+  ],
+  "lease_start": "2023-09-15",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2024-07-01",
+  "current_term_end": "2024-09-30",
+  "initial_term_months": null,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early move-out: liable for rent until apartment is re-rented and repayment of concessions; replacement resident: admin fee, rekey fee, tenant stays liable for remaining term, no re-renting charge. Not triggered (moved out at lease end)."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 450,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-01"
+ },
+ "line_items": [
+  {
+   "description": "Repair to hole in bedroom (listed on SDI as Flooring Replacement; ledger code carp.rpl)",
+   "category": "flooring",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Flint 03-6812 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.75
+  },
+  {
+   "description": "Painting/Drywall repairs - holes from TVs and lock on door",
+   "category": "painting",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Flint 03-6812 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning charges - appliances",
+   "category": "cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Flint 03-6812 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet cleaning - stains beyond normal wear",
+   "category": "carpet_cleaning",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-10-08",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Flint 03-6812 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": true,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Flint 03-6812 SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Flooring Replacement - Repair to hole in bedroom $100"
+  },
+  {
+   "file": "Flint 03-6812 Addendum.pdf",
+   "flag": "deposit_waiver",
+   "quote": "Security Deposit Waiver: YES $33 per month"
+  },
+  {
+   "file": "Flint 03-6812 Lease.pdf",
+   "flag": "renewal_term",
+   "quote": "initial term of the Lease Contract begins 1st July 2024 and ends 30th September 2024"
+  }
+ ],
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a4cc4d6e931d30d9a"
+ }
+}

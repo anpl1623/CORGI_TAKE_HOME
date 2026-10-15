@@ -1,0 +1,182 @@
+{
+  "tracking": 540,
+  "documents": [
+    {
+      "file": "9850 Alisa Brooke - Application - Bryan Holloway.pdf",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "9850 Alisa Brooke - Application - Rachel Ordonez.pdf",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-03-22",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "9850 Alisa Brooke - Lease Mar2023-Feb2024 - Ordonez Halloway.pdf",
+      "doc_type": "lease",
+      "doc_date": "2023-03-01",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "9850 Alisa Brooke - Ledger - Ordonez Halloway.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-04-24",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "9850 Alisa Brooke - Move Out Report - Ordonez Halloway.pdf",
+      "doc_type": "inspection_photo_report",
+      "doc_date": "2024-03-05",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+  "pm_stated_amount_due": 2982.4,
+  "lease": {
+    "base_monthly_rent": 1457.0,
+    "recurring_addons": [
+      {
+        "name": "Preferred Tenant Monthly Fee",
+        "amount": 33.0
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 41.0
+      }
+    ],
+    "lease_start": "2023-03-01",
+    "lease_end": "2024-02-29",
+    "current_term_start": "2023-03-01",
+    "current_term_end": "2024-02-29",
+    "initial_term_months": 12,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 1457.0,
+    "monthly_sd_premium": 33.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2024-03-01",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": 1,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-04-24",
+    "balance_due": 2982.4,
+    "first_full_month": "2022-03",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-02-03"
+  },
+  "line_items": [
+    {
+      "description": "Make Ready (Air Filter Replacement, Maid Service, Carpet Cleaning, Touch up paint, Item Removal, Lawn Service, Drywall Repairs, Repaint front door)",
+      "category": "repairs_damage",
+      "amount_open": 2802.4,
+      "amount_charged": 2802.4,
+      "date_posted": "2024-03-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Move Out Itemization Fee",
+      "category": "admin_itemization_fee",
+      "amount_open": 45.0,
+      "amount_charged": 45.0,
+      "date_posted": "2024-03-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Handling Fee",
+      "category": "admin_itemization_fee",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2024-03-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "NSF Fee",
+      "category": "nsf_fee",
+      "amount_open": 85.0,
+      "amount_charged": 85.0,
+      "date_posted": "2024-03-22",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "9850 Alisa Brooke - Itemization - Ordonez Halloway.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 2982.40 - 0.00 = 2982.40 vs PM stated 2982.40; matches exactly. PM pulled $1,457.00 via PTP bank draft on 2024-03-26, but the tenant charged it back on 2024-04-01 with an $85 NSF fee, leaving the full $2,982.40 balance open.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.98,
+  "notes": "All rent was paid through lease end. Balance due consists of make ready repairs/cleaning, move out itemization fee, handling fee, and NSF fee from tenant chargeback."
+}

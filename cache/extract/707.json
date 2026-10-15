@@ -1,0 +1,143 @@
+{
+ "tracking": 707,
+ "documents": [
+  {
+   "file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-07-29",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "TXR-2216 itemization, balance 9,566.74 owed (winning)"
+  },
+  {
+   "file": "6609 Taree Loop-Stingley-Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-08",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Open rows dated 7/1 and 7/29 total 9,566.74; used to split lines"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2000,
+  "lease_start": "2022-07-01",
+  "lease_end": "2024-06-30",
+  "initial_term_months": 24,
+  "is_month_to_month": false,
+  "is_renewal": null,
+  "cash_deposit_amount": 0,
+  "recurring_addons": [],
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-08",
+  "balance_due": 9566.74,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-06"
+ },
+ "move_out": {
+  "move_out_date": "2024-07-01",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 1
+ },
+ "line_items": [
+  {
+   "description": "Holdover rent, 1 day",
+   "category": "rent_after_lease_end",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-01",
+   "days_after_lease_end": 1,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Temporary electric and water for move-out",
+   "category": "utilities",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 700,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Pest control treatments (exterminate)",
+   "category": "pest_remediation",
+   "amount_open": 205.68,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "Damages beyond wear and tear (addendum list)",
+   "category": "repairs_damage",
+   "amount_open": 7456.06,
+   "pet_related": false,
+   "water_fire_flood": true,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.5
+  },
+  {
+   "description": "Replace missing light bulbs, multiple rooms",
+   "category": "repairs_damage",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Remove trash throughout; wasp nest removal",
+   "category": "trash_removal",
+   "amount_open": 550,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf",
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.7,
+ "pm_stated_amount_due": 9566.74,
+ "reconciliation": "Open lines 9,566.74 minus credits 0.00 equals PM stated 9,566.74; fee-in-lieu means no cash deposit credit.",
+ "winning_document": "6609 Taree Loop-Stingley-Itemization of Security Deposit.pdf (TXR-2216, 07/29/2024)",
+ "notes": "Ledger RV open rows (ionizer 400, lock 79.56, window 275, HVAC 85, move-out repairs 7,321.50, move-out cleaning 700, pest control 205.68, utilities 300, holdover 200) sum to the same total. Itemized clean+exterminate 905.68 = move-out cleaning 700 + pest control 205.68. Repair rows of 8,161.06 equal damages 7,456.06 + bulbs 155 + trash/wasp 550, so the statement relabels them. Damages line includes water-damaged wall/ceiling items (water flag set, mixed line, cause unstated). Ionizer treatment has no pet evidence. Ledger PW is a 02/18/2024 snapshot with 0.00 balance and was not used. Lease not opened (lite mode).",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "ab1b0b175bb67a7c2"
+ }
+}

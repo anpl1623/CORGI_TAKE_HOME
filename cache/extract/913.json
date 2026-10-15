@@ -1,0 +1,304 @@
+{
+ "tracking": 913,
+ "winning_document": "Lautt 115 Move Out Statement.pdf (10/07/2024)",
+ "documents": [
+  {
+   "file": "Lautt 115 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Latest PM statement, balance 4,082.50"
+  },
+  {
+   "file": "Lautt 115 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-07",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Quotes same 4,082.50 balance"
+  },
+  {
+   "file": "Lautt 115 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Itemization totals 4,082.50; notice date 07/08/24"
+  },
+  {
+   "file": "Lautt Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Running ledger; open items derived from it"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 820,
+  "lease_start": "2023-12-08",
+  "lease_end": "2024-11-30",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null,
+  "monthly_sd_premium": 33
+ },
+ "move_out": {
+  "move_out_date": "2024-10-03",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 4082.5,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-04"
+ },
+ "line_items": [
+  {
+   "description": "June 2024 rent, open remainder",
+   "category": "rent_in_term",
+   "amount_open": 53,
+   "amount_charged": 820,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-06-01",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.7
+  },
+  {
+   "description": "July 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 820,
+   "amount_charged": 820,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "August 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 820,
+   "amount_charged": 820,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "September 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 820,
+   "amount_charged": 820,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "October 2024 rent, 3 days",
+   "category": "rent_in_term",
+   "amount_open": 82,
+   "amount_charged": 82,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-03",
+   "source_file": "Lautt 115 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Renters insurance Jun-Sep plus Oct 3 days",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 78,
+   "amount_charged": 78,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-03",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Security deposit protection Jun-Sep plus Oct",
+   "category": "sdrp_premium",
+   "amount_open": 135,
+   "amount_charged": 135,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-03",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Utility revenue Jun-Sep plus Oct 3 days",
+   "category": "utilities",
+   "amount_open": 144,
+   "amount_charged": 144,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-10-03",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Late fees 7/6, 8/6, 9/6/2024",
+   "category": "late_fee",
+   "amount_open": 90,
+   "amount_charged": 90,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-07-06",
+   "service_period_start": "2024-07-06",
+   "service_period_end": "2024-09-06",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Legal fees posted 8/14/2024",
+   "category": "eviction_legal_court",
+   "amount_open": 485.5,
+   "amount_charged": 485.5,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-08-14",
+   "source_file": "Lautt Ledger.docx",
+   "confidence": 0.6
+  },
+  {
+   "description": "Hole in wall, 4 blinds, door, window",
+   "category": "repairs_damage",
+   "amount_open": 455,
+   "amount_charged": 455,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "source_file": "Lautt 115 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Entry and mailbox locks",
+   "category": "rekey_locks",
+   "amount_open": 100,
+   "amount_charged": 100,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "date_posted": "2024-10-07",
+   "source_file": "Lautt 115 Move Out Statement.pdf",
+   "confidence": 0.8
+  }
+ ],
+ "credits": [
+  {
+   "description": "11/29/2023 check, application and admin fees",
+   "amount": 140,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "2/19/2024 credit card payment",
+   "amount": 1608.5,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "2/20/2024 check",
+   "amount": 820,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "2/22/2024 paid by State of TN",
+   "amount": 629,
+   "type": "third_party_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "3/6/2024 check",
+   "amount": 900,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "6/4/2024 check",
+   "amount": 2646,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "short_term_lease": false
+ },
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 4082.5,
+ "reconciliation": "Open lines 4,082.50 (rent 2,595.00 + fees and damages 1,487.50) are already net of the listed payments; less 0 open credits = 4,082.50 vs PM 4,082.50: match.",
+ "notes": "Balance 3,436.50 at 10/01/24 equals the open June-Sept items after oldest-first allocation of 6,743.50 in payments. Only the 10/1-10/3 rent was charged after move-out; no later rent. Notice date conflict: SDI 07/08/24 vs statement 08/16/24. Sheet says Move-Out; lease runs to 11/30/24, so classed early_termination. Legal fee purpose not stated. Monthly fee lines aggregated.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "aa257c12afa44520c"
+ }
+}

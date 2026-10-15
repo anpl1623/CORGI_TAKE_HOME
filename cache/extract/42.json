@@ -1,0 +1,158 @@
+{
+ "tracking": 42,
+ "documents": [
+  {
+   "file": "2209 Whistling Way tenant closeout packet scan.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2023-02-23",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "GDAA deposit disposition letter (2/23/2023) + TXR-2216 Itemization of Security Deposit. Move-out 01/25/2023. (1) makeready maintenance $718.58, (2) cleaning $365.00, balance (1,083.58) owed. Invoices are 'sent in separate email' and not in the folder. This is the winning document."
+  },
+  {
+   "file": "Transactions_20230223102243604.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-02-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Rent Manager ledger, oldest-first. All rent/fees through the prorated Jan 2023 are paid. Only open items: 02/23/23 Make Ready 718.58 and Cleaning Fee 365.00, balance 1,083.58."
+  },
+  {
+   "file": "2209WH - BOLTON LEASE AGREEMENT.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-01-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "TXR-2001 lease (pages 1-4 viewed). Term 01/28/2022-01/26/2023, $1,755/mo, prorated $234. Security deposit stated as $3,000. Auto-renews month-to-month without 45 days notice."
+  },
+  {
+   "file": "2209WH - BOLTON NEW TENANT ADDENDUMS.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-01-20",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Pages 1-4 and 11-17 viewed. Includes the Security Deposit Waiver (YES, $60/mo in lieu of a $3,000 deposit), Tenant Benefit Package Plan A at $36/mo, and the tenant-charges fee schedule."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1755,
+  "lease_start": "2022-01-28",
+  "lease_end": "2023-01-26",
+  "current_term_start": "2022-01-28",
+  "current_term_end": "2023-01-26",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3000,
+  "monthly_sd_premium": 60,
+  "recurring_addons": [
+   {
+    "name": "Renters Choice Program (security deposit waiver fee)",
+    "amount": 60
+   },
+   {
+    "name": "Tenant Benefits A2 (Tenant Benefit Package Plan A, liability/content insurance)",
+    "amount": 36
+   }
+  ],
+  "lease_break_terms": "No specific early-termination fee seen. Reletting costs apply per Paragraph 27 if the tenant is in default. Tenant Charges addendum: holdover fee of 3x daily rent; collection admin fee $200. Auto-renews month-to-month unless 45 days notice is given."
+ },
+ "move_out": {
+  "move_out_date": "2023-01-25",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready - maintenance (itemization line 1 'makeready maintenance', invoices not included)",
+   "category": "repairs_damage",
+   "amount_charged": 718.58,
+   "amount_open": 718.58,
+   "date_posted": "2023-02-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2209 Whistling Way tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.8
+  },
+  {
+   "description": "Cleaning Fee (itemization line 2 'full cleaning')",
+   "category": "cleaning",
+   "amount_charged": 365,
+   "amount_open": 365,
+   "date_posted": "2023-02-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "2209 Whistling Way tenant closeout packet scan.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2023-02-23",
+  "balance_due": 1083.58,
+  "first_full_month": "2022-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-01-01"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "sd_program",
+   "quote": "YES $60.00 per month You waive payment of the security deposit $3,000.00 in lieu of",
+   "file": "2209WH - BOLTON NEW TENANT ADDENDUMS.pdf"
+  },
+  {
+   "flag": "itemization",
+   "quote": "Line (1) makeready maintenance $718.58; Line (2) full cleaning $365.00",
+   "file": "2209 Whistling Way tenant closeout packet scan.pdf"
+  },
+  {
+   "flag": "balance",
+   "quote": "Balance of Security Deposit after Deductions $ (1,083.58)",
+   "file": "2209 Whistling Way tenant closeout packet scan.pdf"
+  },
+  {
+   "flag": "first_month",
+   "quote": "01/25/22 Web Pay CHK Payment Received -2,037.80",
+   "file": "Transactions_20230223102243604.pdf"
+  }
+ ],
+ "pm_stated_amount_due": 1083.58,
+ "winning_document": "2209 Whistling Way tenant closeout packet scan.pdf",
+ "reconciliation": "Open lines 718.58 + 365.00 = 1,083.58, with no credits. This equals the TXR-2216 balance (1,083.58) and the ledger balance due of 1,083.58.",
+ "notes": "Tenant vacated 1/25/2023, one day before the 1/26/2023 lease end, so this is an end-of-term move-out. All rent, SD waiver fees ($60/mo 'Renters Choice Program') and TBP fees ($36/mo) are paid, including the Jan 2023 proration (1/1-1/26) paid 12/30/22. June 2022 late fees and posting fees were paid. First full month (Feb 2022, covered by the 1/28/22 'First month' charge) was prepaid on 1/25/22. The make-ready amount has no description or invoice in the folder, which says 'See invoices sent in separate email'. No pets; no disputes.",
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "af80d67f7f47dad81"
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "tracking": 975,
+ "winning_document": "Disposition Letter for Darrell Arnold.pdf (11/13/2024), 200.94; ledger 11/25/2024 and demand letter 11/18/2024 tie to the same 200.94",
+ "documents": [
+  {
+   "file": "Disposition Letter for Darrell Arnold.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-11-13",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning PM accounting doc: Final Utility Bill 125.94 + Drip Pans 75.00 = 200.94"
+  },
+  {
+   "file": "tenant_ledger-darrell_arnold-20241125.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-25",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Confirms open total 200.94; unit clean 199 and carpet clean 99 (10/30) paid by 10/31 payment 298; Nov prorated rent 155.90 and fees prepaid 10/29-10/31"
+  },
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 6413 Darrell Arnold.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-11-18",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand for same 200.94; duplicate of disposition amount"
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary_Darrell Arnold_FinalBill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-11-04",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Final utility statement, billing period 10/16/24-11/03/24, total 125.94; prior balance 227.43 paid in full"
+  },
+  {
+   "file": "Inspections_Move-out_Darrell Arnold.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-11-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Photo report not opened; text layer scanned for comments only (Drip Pans - $75; cleaning noted as paid)"
+  },
+  {
+   "file": "darrell-arnold_06-21-2023- Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-06-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Keyword excerpts: term 08/28/2023-02/27/2024 then 2-month auto renewals; rent 1,459 + trash 20 + TLL20 19.95 = 1,498.95"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1559,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1000,
+  "monthly_sd_premium": null,
+  "recurring_addons": [
+   {
+    "name": "Trash fee",
+    "amount": 20
+   },
+   {
+    "name": "TLL20 tenant liability",
+    "amount": 19.95
+   }
+  ],
+  "lease_start": "2023-08-28",
+  "lease_end": "2024-11-03",
+  "current_term_start": null,
+  "current_term_end": null,
+  "initial_term_months": 6,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "2023 lease 1.8: auto-renews on 2-month terms; abandonment or eviction ends possession and tenant remains liable for rent until lease expires or unit is re-occupied; tenant liable for re-letting expenses after breach"
+ },
+ "move_out": {
+  "move_out_date": "2024-11-03",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-25",
+  "balance_due": 200.94,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-10-31"
+ },
+ "line_items": [
+  {
+   "description": "Final utility bill 10/16/24-11/03/24 (AEP electric, City water/sewer, common area); posted as Utility Reimbursement Fee 11/13/24",
+   "category": "utilities",
+   "amount_charged": 125.94,
+   "amount_open": 125.94,
+   "date_posted": "2024-11-13",
+   "service_period_start": "2024-10-16",
+   "service_period_end": "2024-11-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "UT_RPT_Invoice_Template81_Summary_Darrell Arnold_FinalBill.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Drip pans (stove) charge, posted as Cleaning and Maintenance - Other - Drip Pans 11/13/24",
+   "category": "appliance",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-11-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Disposition Letter for Darrell Arnold.pdf",
+   "confidence": 0.65
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 200.94,
+ "reconciliation": "Open line sum 200.94 (125.94 utilities + 75.00 drip pans) less credits 0.00 = 200.94 vs PM stated 200.94: match.",
+ "notes": "Ledger rent coded 'Rent Income SDW1000' (deposit waiver) with no separate SD premium line; Deposit Paid 0.00. Lease text shows 1,459 but ledger steps rent to 1,559 from 04/2024 (used 1,559 as rent in effect; lease figure noted). Sheet lease start 08/28/2023 and end 11/03/2024 (move-out); demand letter says lease 08/31/2022-11/03/2024; ledger move-in 02/28/2021. Unit clean and carpet clean were charged 10/30 and paid, so not open. Inspection photos not opened; drip pans category (appliance vs other) is a judgment call.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a67b4a6fb7a3cfbba"
+ }
+}

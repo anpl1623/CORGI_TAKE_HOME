@@ -1,0 +1,204 @@
+{
+ "tracking": 533,
+ "winning_document": "9122 Vondel Park - Itemization - Turner.pdf",
+ "pm_stated_amount_due": 1434,
+ "documents": [
+  {
+   "file": "9122 Vondel Park - Application - Brian Turner.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name"
+  },
+  {
+   "file": "9122 Vondel Park - Application - Lanette Turner.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name"
+  },
+  {
+   "file": "9122 Vondel Park - Application - Tegwin Turner.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "classified from file name"
+  },
+  {
+   "file": "9122 Vondel Park - Itemization - Turner.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-01-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentWerx Itemization of Move out Charges with formal demand; total 1,434.00"
+  },
+  {
+   "file": "9122 Vondel Park - Lease 2023-2023 - Turner.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-12-29",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "pages 1-2 viewed: move-in 10-Jan-2023, anniversary 31-Dec-2023, risk mitigation fee 0.00; clause 11 Preferred Resident Program 33/month"
+  },
+  {
+   "file": "9122 Vondel Park - Ledger - Turner.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-04-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "newest-first RentWerx ledger; balance 1,434.00; confirms Make Ready 1,254 + itemization fee 95 + NSF 85"
+  },
+  {
+   "file": "9122 Vondel Park - Move Out Report - Turner.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-01-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "comments scanned only: carpet cleaning (2 bedrooms), marks on garage wall, holes in bedroom 3 wall, tape on fan blades; no pet/odor mention"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1650,
+  "sd_program": "fee_in_lieu",
+  "monthly_sd_premium": 33,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "lease_start": "2023-01-10",
+  "lease_end": "2023-12-31",
+  "current_term_start": "2023-01-10",
+  "current_term_end": "2023-12-31",
+  "initial_term_months": 12,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null,
+  "recurring_addons": [
+   {
+    "name": "Preferred Resident Program monthly fee (fee in lieu of deposit)",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 41
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-01-02",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 2,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready: carpet cleaning, maid service, garage wall paint, item removal - lumped, no sub-amounts",
+   "category": "cleaning",
+   "amount_charged": 1254,
+   "amount_open": 1254,
+   "date_posted": "2024-01-30",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9122 Vondel Park - Itemization - Turner.pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2024-01-30",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9122 Vondel Park - Itemization - Turner.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Handling Fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-01-30",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9122 Vondel Park - Itemization - Turner.pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "NSF fee - returned payment (tenant chargeback on funds pulled by PM)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-02-15",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9122 Vondel Park - Ledger - Turner.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "tenant_disputes_charges": true,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "9122 Vondel Park - Ledger - Turner.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant placed chargeback on PTP funds pulled - in violation of lease agreement (Turner $1349)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-04-19",
+  "balance_due": 1434,
+  "first_full_month": "2023-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-12-04"
+ },
+ "reconciliation": "sum(open lines)=1254.00+45.00+50.00+85.00=1434.00; credits 0 (PM pulled 1,349.00 on 01-30-2024, tenant charged it back 02-15-2024, net zero); matches PM demand 1,434.00 and ledger balance 1,434.00",
+ "extraction_confidence": 0.8,
+ "notes": "RentWerx claim. Lease ended 12/31/2023, tenant vacated 1/2/2024 (ledger/sheet); no January rent or holdover charged. Make Ready 1,254 is a single lumped line (carpet cleaning, maid service, garage wall paint, item removal) with no sub-amounts or vendor invoices; categorized cleaning (2 of 4 tasks) with low confidence. Ledger itemization fee 95 = letter's 45 itemization + 50 handling. Ledger shows move-in 1-7-2023 but lease and prorated rent (22/30 days of 1,650 = 1,210) support 1/10/2023. Initial term is about 11.7 months. Late fee of 198 in April 2023 was paid, not open. No pet fees on ledger. Application text mentions Obligo, but the lease has a RentWerx Preferred Resident Program (28 insurance + 5 admin) and the sheet carries a policy number, so other_provider not flagged.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a72e50c982a28a302"
+ }
+}

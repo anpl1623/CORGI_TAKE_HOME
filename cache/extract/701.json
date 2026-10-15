@@ -1,0 +1,293 @@
+{
+ "tracking": 701,
+ "winning_document": "804 Buckhorn SDRP ledger .pdf",
+ "pm_stated_amount_due": 4884,
+ "documents": [
+  {
+   "file": "804 Buckhorn SDRP ledger .pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-07-24",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Propertyware ledger (newest-first); only accounting doc with open charges; Total Unpaid 4,884.00 as of 7/24/2024; Deposit Held 0.00. Lines taken from Unpaid Charge rows."
+  },
+  {
+   "file": "804 Buckthorn Cir_Move Out Evaluation_2024-05-28 (1).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-05-28",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Move-out evaluation; text scanned only for pet evidence (none). Confirms tenant had vacated by 5/28."
+  },
+  {
+   "file": "804 Buckthorn lock charge .pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-19",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Meld TWK7XMV Mojo lock install 275.00 (ticket 6/12/2024); equals ledger line 'expense recovery bill #90445'; counted once via ledger."
+  },
+  {
+   "file": "804 bucktthorn misc reparis .pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-07-06",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "TnT Property Solutions Meld TLD07HN 850.00 = ledger 'bill #90391'; used only to split into 675 (trash-out/clean/carpet) + 175 (paint/bulbs). No sub-amounts within each item."
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2023_(08-09-2023_-_08-09-2023).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "SD waiver YES, 65/month, waived deposit 3,600."
+  },
+  {
+   "file": "Docusign_Notice_of_Early_Vacating_(05-21-2024_-_05-21-2024).pdf",
+   "doc_type": "other",
+   "doc_date": "2024-05-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Tenant notice of early termination: vacate 5/26/2024; acknowledges leasing commission, rekey, 500 early termination fee, rent until re-let."
+  },
+  {
+   "file": "Docusign_Pure_Lease_v_2023_(08-09-2023_-_08-09-2023).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-08-09",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Term 9/9/2023-9/8/2024, rent 1,850; ledger shows same tenant since 9/9/2022 so this is the renewal term."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1850,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3600,
+  "monthly_sd_premium": 65,
+  "lease_start": "2022-09-09",
+  "lease_end": "2024-09-08",
+  "current_term_start": "2023-09-09",
+  "current_term_end": "2024-09-08",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Notice of Early Termination / lease Sec. 29: tenant pays rent and late fees until re-rented, leasing commission, rekey, 500 early-termination fee, and any rent shortfall if re-rented for less.",
+  "recurring_addons": [
+   {
+    "name": "SDRP monthly premium",
+    "amount": 65
+   },
+   {
+    "name": "RBP with insurance",
+    "amount": 39
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-05-26",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-07-24",
+  "balance_due": 4884,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-03"
+ },
+ "line_items": [
+  {
+   "description": "Move-out repair: expense recovery bill #90445 - Mojo lock install (resident charge)",
+   "category": "rekey_locks",
+   "amount_charged": 275,
+   "amount_open": 275,
+   "date_posted": "2024-07-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Leasing fee (re-let commission after early termination)",
+   "category": "reletting_fee",
+   "amount_charged": 925,
+   "amount_open": 925,
+   "date_posted": "2024-07-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-07-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "TnT invoice item 1 of bill #90391: trash out garage items, clean kitchen appliances and bathtubs, carpet cleaning (single 675 price, no sub-amounts; mixed trash/clean/carpet)",
+   "category": "cleaning",
+   "amount_charged": 675,
+   "amount_open": 675,
+   "date_posted": "2024-07-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 bucktthorn misc reparis .pdf",
+   "source_page": 1,
+   "confidence": 0.5
+  },
+  {
+   "description": "TnT invoice item 2 of bill #90391: paint small kitchen wall for excessive markings and lightbulb replacement (single 175 price)",
+   "category": "painting",
+   "amount_charged": 175,
+   "amount_open": 175,
+   "date_posted": "2024-07-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 bucktthorn misc reparis .pdf",
+   "source_page": 1,
+   "confidence": 0.55
+  },
+  {
+   "description": "Move-out repair: mailbox key (funds go to owner)",
+   "category": "keys_remotes",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-07-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.7
+  },
+  {
+   "description": "Break lease fee (early termination)",
+   "category": "lease_break_fee",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2024-07-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "SD Forfeit (move-out charges): tenant move out charges - evaluation",
+   "category": "other_fee",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-07-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "July 2024 rent charged after tenant vacated, within lease term (lease ends 9/8/2024); no re-let evidence",
+   "category": "rent_after_move_out",
+   "amount_charged": 1850,
+   "amount_open": 1850,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "RBP with insurance, July 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP monthly premium, July 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 65,
+   "amount_open": 65,
+   "date_posted": "2024-07-01",
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "804 Buckhorn SDRP ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "reconciliation": "Sum of 11 open lines 4,884.00 - credits 0.00 = 4,884.00 vs PM stated ledger Total Unpaid 4,884.00 (match; no separate PM move-out statement in folder, ledger is the claim).",
+ "extraction_confidence": 0.8,
+ "notes": "No PM move-out letter; ledger dated 7/24/2024 is the winning doc. June rent was paid in full (6/3), so only July rent is open. Sheet move-out date is 6/18/2024 (notice-effective date); the tenant's signed notice says vacate 5/26/2024 and the move-out evaluation was done 5/28, so 5/26 is used as the physical vacate date (conf ~0.65). Invoice item 1 (675) mixes trash-out, appliance/tub cleaning and carpet cleaning with no sub-amounts, so it is one line categorized as cleaning; item 2 (175) mixes painting and bulbs, categorized painting. The Mojo lock install is billed as a resident charge; PM's notice says tenant owes rekey/code change. Ledger shows tenant since 9/9/2022 (rent 1,800 then 1,850), so current term is a renewal. Earlier NSF (9/2023) was paid and is not open.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a70f23ff1a16dbef0"
+ }
+}

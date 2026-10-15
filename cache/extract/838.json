@@ -1,0 +1,268 @@
+{
+ "tracking": 838,
+ "winning_document": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+ "pm_stated_amount_due": 1284.38,
+ "documents": [
+  {
+   "file": "Gmail - Demand Letter for Payment - Rocky Ridge 5686 RR Myra Christian.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-24",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Demand letter for $1,284.38, due 10/1/2024. Item list is an unfilled template. Total equals the disposition letter, so not used separately."
+  },
+  {
+   "file": "Inspections_Move-out_Myra Christian.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-09-11",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Photo report not opened, text layer only. Summary: Unit Clean $199, Trash removal $150, Refrigerator shelf $129. Carpet replacement: no charge, original carpet. No pet odor/urine comments."
+  },
+  {
+   "file": "UT_RPT_Invoice_Template81_Summary_Myra Christian_FinalBill.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Pioneer Energy Management final utility bill, period 08/16-09/10/24. Previous past-due balance $426.80 plus current billing $159.58 = $586.38. Used only to split the utility line."
+  },
+  {
+   "file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning document. Itemized deposit statement totalling $1,284.38."
+  },
+  {
+   "file": "myra-christian_07-19-2023- lease.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2023-07-16",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Term 09/11/2023-09/10/2024, rent $1,295 plus garage $95, trash $20 and TLL $19.95 = $1,429.95. Section 6 is a Security Deposit Waiver addendum."
+  },
+  {
+   "file": "tenant_ledger-myra_christian-20240930.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-30",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "AppFolio ledger, oldest-first, total open $1,284.38. Matches the statement line by line."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1022,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": null,
+  "recurring_addons": [
+   {
+    "name": "Garage #4",
+    "amount": 95
+   },
+   {
+    "name": "Trash fee",
+    "amount": 20
+   },
+   {
+    "name": "TLL20 tenant liability program",
+    "amount": 19.95
+   },
+   {
+    "name": "Pet charge (ledger from 04/2024)",
+    "amount": 49
+   }
+  ],
+  "lease_start": "2023-09-11",
+  "lease_end": "2024-09-10",
+  "current_term_start": "2023-09-11",
+  "current_term_end": "2024-09-10",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "No early-termination fee clause found. Tenant remains liable for rent until lease expiry or re-occupancy and for re-letting expenses after breach."
+ },
+ "move_out": {
+  "move_out_date": "2024-09-10",
+  "termination": "end_of_term",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": null
+ },
+ "ledger": {
+  "as_of_date": "2024-09-30",
+  "balance_due": 1284.38,
+  "first_full_month": "2023-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-09"
+ },
+ "line_items": [
+  {
+   "description": "Late Fee for Sep 2024",
+   "category": "late_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-09-04",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee of $5.00 per day 09/05/2024-09/08/2024",
+   "category": "late_fee",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-09-08",
+   "service_period_start": "2024-09-05",
+   "service_period_end": "2024-09-08",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Final utility bill: previous past-due balance carried on Pioneer Energy Management bill",
+   "category": "utilities",
+   "amount_charged": 426.8,
+   "amount_open": 426.8,
+   "date_posted": "2024-09-24",
+   "service_period_start": null,
+   "service_period_end": "2024-08-15",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "UT_RPT_Invoice_Template81_Summary_Myra Christian_FinalBill.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Final utility bill: current billing 08/16/24-09/10/24 (electric, water/sewer, service, common area)",
+   "category": "utilities",
+   "amount_charged": 159.58,
+   "amount_open": 159.58,
+   "date_posted": "2024-09-24",
+   "service_period_start": "2024-08-16",
+   "service_period_end": "2024-09-10",
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "UT_RPT_Invoice_Template81_Summary_Myra Christian_FinalBill.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Unit Clean (end of lease unit clean fee)",
+   "category": "cleaning",
+   "amount_charged": 199,
+   "amount_open": 199,
+   "date_posted": "2024-09-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Trash removal",
+   "category": "trash_removal",
+   "amount_charged": 150,
+   "amount_open": 150,
+   "date_posted": "2024-09-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Refrigerator shelf (broken shelf replaced, ledger: maintenance charge)",
+   "category": "appliance",
+   "amount_charged": 129,
+   "amount_open": 129,
+   "date_posted": "2024-09-24",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_myra_christian_092424.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "flooring_not_billed (flag false)",
+   "file": "Inspections_Move-out_Myra Christian.pdf",
+   "quote": "Carpet Replacement - no charge, original carpet"
+  },
+  {
+   "flag": "sd_program_deposit_waiver",
+   "file": "tenant_ledger-myra_christian-20240930.pdf",
+   "quote": "Mgmt Held Security Deposits - Security Deposit Waiver/ Credit-LJS -1,022.00"
+  }
+ ],
+ "extraction_confidence": 0.93,
+ "reconciliation": "Sum of open lines 200+20+426.80+159.58+199+150+129 = 1284.38, no credits, equals the PM disposition letter total, ledger total and demand letter total of 1284.38. Utility line split into prior past-due 426.80 and current billing 159.58 per the utility bill, total 586.38.",
+ "notes": "Same tenant and property as claim 837. The 1,022 cash deposit was credited back to the tenant on 10/01/2023 when the SD waiver took effect, so no deposit was held at move-out (ledger header Deposit Paid 0.00). Rent code is SDW1000 with no separate waiver premium line, so monthly_sd_premium is null. The 9/9/2024 NSF reversal and $50 NSF fee were paid on 9/9 and are not open. A pet fee ($395) and pet charge ($49/mo) were billed and paid earlier, and none of the open lines are pet related. Carpet replacement was not billed. The sheet shows Max Benefit 1000.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "adfab871fec764706"
+ }
+}

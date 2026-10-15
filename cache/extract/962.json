@@ -1,0 +1,243 @@
+{
+ "tracking": 962,
+ "winning_document": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf (06/24/2024), 5,694.91; ledger 11/21/2024 posts the same charges on 06/24/2024",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-06-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning PM accounting doc; 11 itemized lines total 5,694.91 = amount due on letter; clean text layer"
+  },
+  {
+   "file": "tenant_ledger-daniel_r_jordan-20241121.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-21",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Same 11 forfeit charges posted 06/24/2024, total 5,694.91; rent paid through May 2024 with no open balance before forfeits"
+  },
+  {
+   "file": "Lease 5-17-23 thru 5-16-24.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-05-17",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Keyword excerpts: term 05/17/2023-05/16/2024, rent 1,250, SD line RIS_SD_$1,500.00, termination 5.4 and holdover at double rent"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1250,
+  "sd_program": "sdrp",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 1500,
+  "monthly_sd_premium": 28,
+  "recurring_addons": [
+   {
+    "name": "RBP w/ Insurance",
+    "amount": 39
+   },
+   {
+    "name": "SDRP fee",
+    "amount": 28
+   }
+  ],
+  "lease_start": "2023-05-17",
+  "lease_end": "2024-05-16",
+  "current_term_start": "2023-05-17",
+  "current_term_end": "2024-05-16",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": null,
+  "lease_break_terms": "Lease 5.4: tenant may terminate after 6 months on 60-day written notice with termination fee of 2 months additional rent, 125 modification fee and 150 processing fee; failure to vacate voids termination; holdover rent at double rate"
+ },
+ "move_out": {
+  "move_out_date": "2024-05-08",
+  "termination": "unknown",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-21",
+  "balance_due": 5694.91,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-04-29"
+ },
+ "line_items": [
+  {
+   "description": "Rekey property - keys not returned",
+   "category": "rekey_locks",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Lawn services - lawn knee high",
+   "category": "landscaping_lawn",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Prorated portion of painting based on 5-year paint lifespan (PM-stated amount)",
+   "category": "painting",
+   "amount_charged": 1800,
+   "amount_open": 1800,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Professional clean",
+   "category": "cleaning",
+   "amount_charged": 400,
+   "amount_open": 400,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "R/R damaged blinds",
+   "category": "repairs_damage",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "R/R damaged closet door",
+   "category": "repairs_damage",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "R/R shower head",
+   "category": "repairs_damage",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Refinish bathtubs",
+   "category": "repairs_damage",
+   "amount_charged": 700,
+   "amount_open": 700,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Replace damaged / missing outlet covers",
+   "category": "repairs_damage",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replace all damaged / missing towel racks",
+   "category": "repairs_damage",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Replacement of appliances (unspecified; no invoice or photos in folder)",
+   "category": "appliance",
+   "amount_charged": 1494.91,
+   "amount_open": 1494.91,
+   "date_posted": "2024-06-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "deposit_disposition_amount_due_daniel_r_jordan_062424 (1).pdf",
+   "confidence": 0.6
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 5694.91,
+ "reconciliation": "Open line sum 5694.91 less credits 0.00 = 5694.91 vs PM stated 5694.91: match.",
+ "notes": "Ledger shows May 2024 rent 1,250 + RBP 39 + SDRP 28 prepaid 04/29/2024 and nothing charged after 05/01; move-out 05/08 with no post-move-out rent charged and no open rent. Sheet lease dates 05/20/2023-05/19/2024 conflict with lease document 05/17/2023-05/16/2024 (used document). Ledger move-in 05/20/2022; folder ledger starts 08/29/2023. Painting line is a PM-prorated 5-year lifespan amount, extracted as stated. Appliance line has no invoice in folder.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a67b4a6fb7a3cfbba"
+ }
+}

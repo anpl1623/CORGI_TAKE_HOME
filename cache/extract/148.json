@@ -1,0 +1,265 @@
+{
+  "tracking": 148,
+  "documents": [
+    {
+      "file": "Final Account Statement.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-28",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "593 Flat Creek Dr_lease_Smith.Williams.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-11-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "593 Flat Creek Dr_SD waiver_Smith.Williams.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-11-16",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "593 Flat Creek Dr_HoldingfeeAgreement_Smith.Williams.pdf",
+      "doc_type": "other",
+      "doc_date": "2022-11-16",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "Final Account Statement.pdf",
+  "pm_stated_amount_due": 2799.34,
+  "lease": {
+    "base_monthly_rent": 1795.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Replacement Program (SDRP)",
+        "amount": 50.0
+      },
+      {
+        "name": "RBP w/insurance",
+        "amount": 45.95
+      },
+      {
+        "name": "Pet Admin Fee Monthly",
+        "amount": 60.0
+      }
+    ],
+    "lease_start": "2022-11-17",
+    "lease_end": "2023-12-01",
+    "current_term_start": "2022-11-17",
+    "current_term_end": "2023-12-01",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 1795.0,
+    "monthly_sd_premium": 50.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-27",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-07-28",
+    "balance_due": 2799.34,
+    "first_full_month": "2022-12",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-05-05"
+  },
+  "line_items": [
+    {
+      "description": "Rent (06-2023)",
+      "category": "rent_in_term",
+      "amount_open": 1563.39,
+      "amount_charged": 1795.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Pet Admin Fee Monthly (06-2023)",
+      "category": "pet_fee_rent",
+      "amount_open": 60.0,
+      "amount_charged": 60.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "RBP w/insurance (06-2023)",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 45.95,
+      "amount_charged": 45.95,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Security Deposit Replacement Program (SDRP) (06-2023)",
+      "category": "sdrp_premium",
+      "amount_open": 50.0,
+      "amount_charged": 50.0,
+      "date_posted": "2023-06-01",
+      "service_period_start": "2023-06-01",
+      "service_period_end": "2023-06-30",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Late Fee",
+      "category": "late_fee",
+      "amount_open": 190.0,
+      "amount_charged": 190.0,
+      "date_posted": "2023-06-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Magistrate Filing Fee",
+      "category": "eviction_legal_court",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2023-06-15",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Tenant Chargeback (Touch Up Paint)",
+      "category": "painting",
+      "amount_open": 362.0,
+      "amount_charged": 362.0,
+      "date_posted": "2023-07-07",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Tenant Chargeback (Carpet Cleaning)",
+      "category": "carpet_cleaning",
+      "amount_open": 169.0,
+      "amount_charged": 169.0,
+      "date_posted": "2023-07-11",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    },
+    {
+      "description": "Tenant Chargeback (repaired blind)",
+      "category": "repairs_damage",
+      "amount_open": 159.0,
+      "amount_charged": 159.0,
+      "date_posted": "2023-07-24",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Final Account Statement.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [
+    {
+      "description": "Per Owner: Credit tenant $231.61 for HVAC issue",
+      "amount": 231.61,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "Final Account Statement.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 2799.34 - 0.00 (HVAC concession of $231.61 already netted in June rent open amount) = 2799.34 vs PM stated 2799.34; exact match.",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant moved out early on 2023-06-27 prior to lease end 2023-12-01. Final ledger balance as of 2023-07-28 is $2,799.34. Open charges are June rent ($1,795 less $231.61 HVAC credit = $1,563.39), pet fee ($60), RBP ($45.95), SDRP ($50), late fee ($190), magistrate filing fee ($200), and tenant chargebacks for touch-up paint ($362), carpet cleaning ($169), and repaired blind ($159)."
+}

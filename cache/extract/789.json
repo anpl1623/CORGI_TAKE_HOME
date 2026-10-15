@@ -1,0 +1,156 @@
+{
+ "tracking": 789,
+ "extraction_confidence": 0.92,
+ "winning_document": "SDRP Move Out Calculation .pdf",
+ "pm_stated_amount_due": 1321.25,
+ "reconciliation": "Open lines sum 1321.25 equal the ledger unpaid total; the 3.75 tenant payment is already netted in the stove knob line; PM amount due 1321.25; match.",
+ "notes": "Propertyware ledger is newest-first. All unpaid rows are move-out charges; no rent is open. Notification email says the tenant has the replacement plan, not a traditional deposit; sd_program left unknown per lite mode. Move-out evaluation photo report not used for amounts.",
+ "documents": [
+  {
+   "file": "SDRP Move Out Calculation .pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": true,
+   "note": "Winning PM statement, 1321.25 due",
+   "opened_visually": false
+  },
+  {
+   "file": "Ledger 315 Bering.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": true,
+   "note": "Open rows match statement; 3.75 payment applied",
+   "opened_visually": false
+  },
+  {
+   "file": "Notification Sent.pdf",
+   "doc_type": "email_or_screenshot",
+   "doc_date": "2024-08-23",
+   "used_for_amounts": false,
+   "note": "Transmittal email; replacement plan wording",
+   "opened_visually": false
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2050,
+  "lease_start": "2023-06-30",
+  "lease_end": "2024-06-29",
+  "sd_program": "unknown"
+ },
+ "ledger": {
+  "as_of_date": "2024-08-23",
+  "balance_due": 1321.25,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-12"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-29",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Stove knob replacement (partly paid)",
+   "category": "appliance",
+   "amount_charged": 100,
+   "amount_open": 96.25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Back door light bulb missing",
+   "category": "other_damage",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Broken master bedroom blind",
+   "category": "other_damage",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Wall dent/ding, door knob patch",
+   "category": "repairs_damage",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Large drywall holes, master bedroom",
+   "category": "repairs_damage",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Half bath door crack, replacement",
+   "category": "repairs_damage",
+   "amount_open": 325,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet unravel hole, patch",
+   "category": "flooring",
+   "amount_open": 220,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation .pdf",
+   "confidence": 0.95
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payment applied to stove knob",
+   "amount": 3.75,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {},
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a6c3aaea8d8c37323"
+ }
+}

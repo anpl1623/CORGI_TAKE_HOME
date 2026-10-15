@@ -1,0 +1,276 @@
+{
+ "tracking": 904,
+ "winning_document": "Haack 1120A Move Out Statement.pdf (dated 09/10/2024). Matches Move Out Letter (09/10/2024, balance 2,162.00) and SDI (total 2,162.00). Ledger (10/28/2024) used to split the 864.00 current balance and confirm no payments after 07/25/2024.",
+ "documents": [
+  {
+   "file": "Haack 1120A Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 09/10/2024; winning doc; total 2,162.00"
+  },
+  {
+   "file": "Haack 1120A Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "09/10/2024; balance due 2,162.00 (matches statement)"
+  },
+  {
+   "file": "Haack 1120A SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "(A) 1,896 + (B) 266 = 2,162; current ledger 864 = Aug balance"
+  },
+  {
+   "file": "Haack Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "dated 10/28/2024; open rows 2,162; used for payment history and rent months"
+  },
+  {
+   "file": "Haack 1120A Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "KS addendum: Security Deposit Waiver YES $33/mo (waives one month's rent); Renters insurance YES $19/mo; signed 2-27-24"
+  },
+  {
+   "file": "Haack 1120A Lease.pdf",
+   "doc_type": "lease",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "9pp no text layer; not opened (rent, term and SD program confirmed from sheet, ledger and addendum)"
+  },
+  {
+   "file": "MAR DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "ignored"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 782,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2024-04-01",
+  "current_term_end": "2025-03-31",
+  "lease_start": "2024-04-01",
+  "lease_end": "2025-03-31",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "Lease not read (9pp, no text layer). PM charged a 250 reletting fee and one month future rent after the 08/31/2024 move-out.",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Renters insurance (YRIG)",
+    "amount": 19
+   },
+   {
+    "name": "Security Deposit Protection (SD waiver fee)",
+    "amount": 33
+   }
+  ],
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 782
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 2162,
+  "first_full_month": "2024-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-25"
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent 08/2024 (tenant in possession all month)",
+   "category": "rent_in_term",
+   "amount_charged": 782,
+   "amount_open": 782,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Renters Insurance 08/2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 19,
+   "amount_open": 19,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security Deposit Protection 08/2024",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "date_posted": "2024-08-01",
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late Charge 08/06/2024",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "date_posted": "2024-08-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Reletting Fee 09/10/2024",
+   "category": "reletting_fee",
+   "amount_charged": 250,
+   "amount_open": 250,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Future Months Rent 09/10/2024 (one month; PM gave no period, assumed 09/2024)",
+   "category": "rent_after_move_out",
+   "amount_charged": 782,
+   "amount_open": 782,
+   "date_posted": "2024-09-10",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.6
+  },
+  {
+   "description": "4 Drip Pans (stove)",
+   "category": "appliance",
+   "amount_charged": 36,
+   "amount_open": 36,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Clean Patio Track, Wax Wall, Clean Toilets",
+   "category": "cleaning",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Painting/Drywall Repairs - 1 Small Wall",
+   "category": "painting",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Cleaning Charges - Oven, Cab Fronts, Fridge",
+   "category": "cleaning",
+   "amount_charged": 60,
+   "amount_open": 60,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet Cleaning/Stains",
+   "category": "carpet_cleaning",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2024-09-10",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Haack 1120A Move Out Statement.pdf",
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": false,
+  "military_scra": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "mixed_pet_nonpet_line": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "premiums_unpaid": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "test_claim": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 2162,
+ "reconciliation": "Sum(open lines) = 864.00 (Aug 2024 rent 782 + ins 19 + SDP 33 + late 30) + 1,298.00 (reletting 250, future rent 782, drip pans 36, cleaning 60+60, painting 25, carpet 85) = 2,162.00. Credits 0. Equals PM statement/letter 2,162.00.",
+ "notes": "Sheet termination 'Move-Out' classified early_termination (lease runs to 03/31/2025; reletting fee and future rent charged). SDI lists rental address '1124-E Keating' vs lease unit 1120-A (clerical). Future Months Rent period not stated; assumed 09/2024. Addendum confirms SD waiver so no_policy_evidence is false.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "abf787c28a9ada6ce"
+ }
+}

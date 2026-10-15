@@ -1,0 +1,314 @@
+{
+ "tracking": 958,
+ "documents": [
+  {
+   "file": "Eveningred 425 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-23",
+   "used_for_amounts": true,
+   "revised": false,
+   "note": "move-out statement, balance 4,185.72; winning document"
+  },
+  {
+   "file": "Eveningred 425 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-23",
+   "used_for_amounts": true,
+   "note": "cover letter stated due 4,185.72, matches statement"
+  },
+  {
+   "file": "Eveningred 425 SDI.pdf",
+   "doc_type": "itemization_form",
+   "used_for_amounts": true,
+   "note": "cross-check: current ledger 2,122.54 plus maintenance 2,063.18"
+  },
+  {
+   "file": "Eveningred Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "note": "payment allocation and Sep/Oct charge detail"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1075,
+  "cash_deposit_amount": null,
+  "lease_start": "2023-11-17",
+  "lease_end": "2024-10-31",
+  "sd_program": "unknown",
+  "recurring_addons": [
+   {
+    "name": "SDRP protection fee",
+    "amount": 33
+   },
+   {
+    "name": "Renters insurance",
+    "amount": 20
+   },
+   {
+    "name": "Utility revenue",
+    "amount": 45
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2024-10-15",
+  "termination": "early_termination"
+ },
+ "ledger": {
+  "as_of_date": "2024-10-23",
+  "balance_due": 4185.72,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-10-01"
+ },
+ "line_items": [
+  {
+   "description": "Sep 2024 rent, open after payments",
+   "amount_charged": 1075,
+   "amount_open": 751.54,
+   "category": "rent_in_term",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Eveningred Ledger.docx",
+   "confidence": 0.7
+  },
+  {
+   "description": "Sep 2024 renters insurance",
+   "amount_open": 20,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Sep 2024 SDRP protection fee",
+   "amount_open": 33,
+   "category": "sdrp_premium",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Sep 2024 utility revenue",
+   "amount_open": 45,
+   "category": "utilities",
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Sep 6 late fee",
+   "amount_open": 50,
+   "category": "late_fee",
+   "date_posted": "2024-09-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred Ledger.docx",
+   "confidence": 0.8
+  },
+  {
+   "description": "Oct 2024 rent, full month billed",
+   "amount_charged": 1075,
+   "amount_open": 1075,
+   "category": "rent_in_term",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.7
+  },
+  {
+   "description": "Oct 2024 renters insurance",
+   "amount_open": 20,
+   "category": "rbp_insurance_liability_fee",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 SDRP protection fee",
+   "amount_open": 33,
+   "category": "sdrp_premium",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 2024 utility revenue",
+   "amount_open": 45,
+   "category": "utilities",
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Oct 6 late fee",
+   "amount_open": 50,
+   "category": "late_fee",
+   "date_posted": "2024-10-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet shampoo, 10/23 turnover",
+   "amount_open": 85,
+   "category": "carpet_cleaning",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Cleaning charges, 10/23 turnover",
+   "amount_open": 185,
+   "category": "cleaning",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Painting and drywall repairs",
+   "amount_open": 475,
+   "category": "painting",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Carpet repair, no invoice in folder",
+   "amount_open": 200,
+   "category": "flooring",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.75
+  },
+  {
+   "description": "Furniture removal",
+   "amount_open": 50,
+   "category": "trash_removal",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Three window blinds",
+   "amount_open": 122.9,
+   "category": "other_damage",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Four doors",
+   "amount_open": 369.44,
+   "category": "repairs_damage",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Countertop resurface",
+   "amount_open": 350,
+   "category": "repairs_damage",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Microwave replacement",
+   "amount_open": 225.84,
+   "category": "appliance",
+   "date_posted": "2024-10-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "Eveningred 425 Move Out Statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "evidence": [
+  {
+   "file": "Eveningred 425 Move Out Statement.pdf",
+   "flag": "flooring_without_support",
+   "quote": "10/23/2024 Carpet Repair 200.00"
+  }
+ ],
+ "extraction_confidence": 0.7,
+ "pm_stated_amount_due": 4185.72,
+ "reconciliation": "Sum of 19 open lines = 4,185.72, equal to PM stated 4,185.72; no credits. Payments of 371.97 (9/13) and 600 (10/01) are netted oldest-first, so the 1,499.54 balance forward is split by component, not listed as one line.",
+ "notes": "Winning doc is the 10/23 move-out statement (matches cover letter and SDI). Balance forward 1,499.54 split with the ledger: payments of 371.97 (9/13) and 600 (10/01) applied oldest-first, which fully pays the 08/23 stove-top charge (648.51) and leaves 323.46 against Sept rent. Oct 2024 rent billed in full though move-out was 10/15; coded rent_in_term for 10/01-10/31. No invoices or photo report for turnover items in folder. Lease and addendum not opened (lite mode). Payments are netted in open amounts, so no credit lines.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a53229ec3332010b9"
+ }
+}

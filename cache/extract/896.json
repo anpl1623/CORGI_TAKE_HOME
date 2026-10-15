@@ -1,0 +1,293 @@
+{
+ "tracking": 896,
+ "winning_document": "Ramos 3212 Move Out Statement.pdf (10/09/2024) and Move Out Letter (10/9/2024); SDI and ledger (10/28/2024) agree at $2,426.00",
+ "documents": [
+  {
+   "file": "Ramos 3212 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance as of 9/01/2024 1,213.00 plus Sep charges 1,213.00 = 2,426.00"
+  },
+  {
+   "file": "Ramos 3212 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-09",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "States balance due 2,426.00"
+  },
+  {
+   "file": "Ramos 3212 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Notice 09/26/24, move out 09/30/24; current ledger balance 2,426.00; total due 2,426.00"
+  },
+  {
+   "file": "Ramos Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance 2,426.00; August and September charges unpaid; last payment 07/11/2024; 06/2024 hotel stipend 625 and check 625 net to zero"
+  },
+  {
+   "file": "Ramos 3212 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2024-03-04",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Lease addendum KS: Security Deposit Waiver YES 33.00 per month; renters insurance NO (variable); signed 03/04/2024 (eSignature)"
+  },
+  {
+   "file": "Ramos 3212 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2024-03-04",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Rent 1075.00 commencing 04/01/2024; prorated 968.00 March; term 03/04/2024 to 04/30/2025; deposit blank; reletting charge 500.00"
+  },
+  {
+   "file": "WDD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened (ACH form per rule 9)"
+  }
+ ],
+ "evidence": [],
+ "extraction_confidence": 0.9,
+ "lease": {
+  "base_monthly_rent": 1075,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2024-03-04",
+  "current_term_end": "2025-04-30",
+  "initial_term_months": 14,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_start": "2024-03-04",
+  "lease_end": "2025-04-30",
+  "lease_break_terms": "Clause 11 early move-out reletting charge 500.00 (not to exceed highest monthly rent) if tenant moves out without paying full term rent or is judicially evicted; not a cancellation fee. No reletting or future rent charged on this claim.",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Pet Fee Income (monthly pet rent)",
+    "amount": 25
+   },
+   {
+    "name": "Security Deposit Protection (SDRP waiver)",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 50
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 1075
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": 0,
+  "re_let_date": null,
+  "notes": "Notice 09/26/2024; move out 09/30/2024; lease ran to 04/30/2025; no reletting fee or future rent charged"
+ },
+ "line_items": [
+  {
+   "description": "Residential rent August 2024 (carried-forward balance component)",
+   "category": "rent_in_term",
+   "amount_charged": 1075,
+   "amount_open": 1075,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  },
+  {
+   "description": "Pet fee income August 2024 (monthly pet rent)",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "source_file": "Ramos Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection August 2024 (SDRP waiver fee)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  },
+  {
+   "description": "Utility revenue August 2024",
+   "category": "utilities",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "source_file": "Ramos Ledger.docx",
+   "confidence": 0.9
+  },
+  {
+   "description": "Late charge (August 2024 rent cycle)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-08-06",
+   "source_file": "Ramos Ledger.docx",
+   "confidence": 0.92
+  },
+  {
+   "description": "Residential rent September 2024 (tenant in possession through 09/30/2024)",
+   "category": "rent_in_term",
+   "amount_charged": 1075,
+   "amount_open": 1075,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-09-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.95
+  },
+  {
+   "description": "Pet fee income September 2024 (monthly pet rent)",
+   "category": "pet_fee_rent",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-09-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  },
+  {
+   "description": "Security deposit protection September 2024 (SDRP waiver fee)",
+   "category": "sdrp_premium",
+   "amount_charged": 33,
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-09-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  },
+  {
+   "description": "Utility revenue September 2024",
+   "category": "utilities",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "date_posted": "2024-09-01",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  },
+  {
+   "description": "Late charge (September 2024 rent cycle)",
+   "category": "late_fee",
+   "amount_charged": 30,
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": null,
+   "service_period_end": null,
+   "date_posted": "2024-09-06",
+   "source_file": "Ramos 3212 Move Out Statement.pdf",
+   "confidence": 0.92
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-10-28",
+  "balance_due": 2426,
+  "first_full_month": "2024-04",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-11"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "pm_stated_amount_due": 2426,
+ "reconciliation": "Open lines: August 1075+25+33+50+30 = 1213 plus September 1075+25+33+50+30 = 1213; total 2426; credits 0 open (06/2024 hotel stipend 625 and its check 625 net to zero). PM stated 2426. Difference 0. The 1,213.00 balance forward on the statement is August; no tenant payment after 07/11/2024.",
+ "_meta": {
+  "run": "wf_687d7294-ad1",
+  "agent": "a2e242b763d30fd5f"
+ }
+}

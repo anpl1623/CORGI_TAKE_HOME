@@ -1,0 +1,150 @@
+{
+ "tracking": 743,
+ "documents": [
+  {
+   "file": "8807 Olmstead.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "ForeFront Move Out Statement: Rebulbing 55.00, full cleaning 451.69, touch up paint and repair holes 477.00 = 983.69. Winning document."
+  },
+  {
+   "file": "Tenant-Ledger-2024_08_27_10_00_14.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Newest-first, 103 records; open balance 983.69 = the three 07-22-2024 Turnover charges. Earlier NSF and rent history fully paid."
+  },
+  {
+   "file": "49171139c5bc7f98432ff33ee0572e1eb16e5417.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-06-10",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "RentCheck move-out inspection, 120 pages; text scanned only for pet/odor evidence."
+  },
+  {
+   "file": "residential_lease__919_ts06383 (6).pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "TXR-2001 lease, 16 pages; rent, term and Security Deposit Waiver Program read from digest excerpt."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2400,
+  "sd_program": "deposit_waiver",
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": null,
+  "monthly_sd_premium": 59,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Waiver",
+    "amount": 59
+   },
+   {
+    "name": "SecondNature Resident Benefits Package",
+    "amount": 60
+   },
+   {
+    "name": "Insurance Services",
+    "amount": 20
+   },
+   {
+    "name": "Pet Fee (pet rent; 30 until 11-2023, 60 from 12-2023)",
+    "amount": 60
+   }
+  ],
+  "lease_start": "2023-05-09",
+  "lease_end": "2024-05-31",
+  "current_term_start": "2023-05-09",
+  "current_term_end": "2024-05-31",
+  "initial_term_months": 13,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": null
+ },
+ "move_out": {
+  "move_out_date": "2024-05-31",
+  "termination": "end_of_term",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": 0
+ },
+ "line_items": [
+  {
+   "description": "Rebulbing (Turnover - General Repairs)",
+   "category": "repairs_damage",
+   "amount_charged": 55,
+   "amount_open": 55,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8807 Olmstead.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Full cleaning (Turnover - House Cleaning)",
+   "category": "cleaning",
+   "amount_charged": 451.69,
+   "amount_open": 451.69,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8807 Olmstead.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Touch up paint and repair holes (Turnover - Interior Painting)",
+   "category": "painting",
+   "amount_charged": 477,
+   "amount_open": 477,
+   "date_posted": "2024-07-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "8807 Olmstead.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 983.69,
+  "first_full_month": "2023-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-05-06"
+ },
+ "flags": {
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "extraction_confidence": 0.92,
+ "pm_stated_amount_due": 983.69,
+ "reconciliation": "Sum of open lines 55.00 + 451.69 + 477.00 = 983.69 - credits 0.00 = 983.69 vs PM stated 983.69: exact match; ledger open balance also 983.69.",
+ "winning_document": "8807 Olmstead.pdf",
+ "notes": "Tenant had pets (Pet Fee on ledger); inspection report notes the Fourth Bedroom floor 'looks clean but it stinks', but no pet or odor charge is billed and none of the three lines is pet-related. May 2024 eCheck 1,100 returned NSF with 35 fee, all later paid. Initial term is about 12.7 months (05-09-2023 to 05-31-2024), rounded to 13. No vendor invoices in folder; amounts come from statement and ledger Turnover tickets.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a347f77b2d73a21d6"
+ }
+}

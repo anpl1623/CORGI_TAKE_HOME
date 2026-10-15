@@ -1,0 +1,124 @@
+{
+  "tracking": 844,
+  "documents": [
+    {
+      "file": "416SContempoDr_091824_StatementofAccounting_King.pdf",
+      "doc_type": "move_out_statement",
+      "doc_date": "2024-09-18",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "416 S Contempo Dr_tenantledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2024-10-02",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "416_3_Lease_Renewal_Addendum_-_rev_122223_(01-16-2024_-_01-16-2024).pdf",
+      "doc_type": "renewal_lease",
+      "doc_date": "2024-01-28",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "416_3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(05-19-2022_-_05-19-2022).pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-05-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "416_Security_Deposit_Waiver_Addendum1_(05-19-2022_-_05-19-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-05-20",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "416SContempoDr_091824_StatementofAccounting_King.pdf",
+  "pm_stated_amount_due": 680.0,
+  "lease": {
+    "base_monthly_rent": 1795.0,
+    "recurring_addons": [
+      {
+        "name": "RIS - Monthly fee to tenant (Security Deposit Waiver)",
+        "amount": 43.0
+      },
+      {
+        "name": "Resident Benefit Package",
+        "amount": 29.0
+      }
+    ],
+    "lease_start": "2022-06-15",
+    "lease_end": "2025-06-17",
+    "current_term_start": "2024-06-26",
+    "current_term_end": "2025-06-17",
+    "initial_term_months": 12,
+    "is_renewal": true,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 2475.0,
+    "monthly_sd_premium": 43.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "$1,000 lease break/re-renting fee plus two times monthly rent"
+  },
+  "move_out": {
+    "move_out_date": "2024-08-30",
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2024-10-02",
+    "balance_due": 680.0,
+    "first_full_month": "2022-07",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2024-07-22"
+  },
+  "line_items": [
+    {
+      "description": "Handyman Work - repairs, painting, air filter, and duct cleaning per Chito Remodeling invoice",
+      "category": "repairs_damage",
+      "amount_open": 680.0,
+      "amount_charged": 680.0,
+      "date_posted": "2024-09-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "416SContempoDr_091824_StatementofAccounting_King.pdf",
+      "source_page": 1,
+      "confidence": 1.0
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 680.00 - 0.00 = 680.00 vs PM stated 680.00; exact match",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Statement of Accounting lists $680.00 Handyman Work, backed by Chito Remodeling invoice for $680.00 dated 09/07/2024. All earlier rent and fees were fully paid."
+}

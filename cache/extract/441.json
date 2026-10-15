@@ -1,0 +1,171 @@
+{
+ "tracking": 441,
+ "documents": [
+  {
+   "file": "SDRP Move Out Calculation  (5).pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-01-22",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning PM move-out calculation: SDRP premium 28 + RBP 27 + rent 1,500 = 1,555.00"
+  },
+  {
+   "file": "558 Orangeburg ledger_.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-05",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger, newest-first. Only the 11/01/2023 charges are unpaid; balance 1,555.00. Used for payment history."
+  },
+  {
+   "file": "Collections - SDRP Notice to Tenant (27).pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-01-22",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Cover letter states 1,555.00, same as the move-out calculation"
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2022_(11-14-2022_-_11-14-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Deposit waiver: 28 per month in lieu of 2,100 deposit"
+  },
+  {
+   "file": "Docusign_NHPM_Lease_RENEWAL_v_2021_(11-14-2022_-_11-14-2022) (2).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2022-11-14",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Renewal term 12/01/2022-11/30/2023, rent 1,500"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2023-11-30",
+  "current_term_start": "2022-12-01",
+  "initial_term_months": 13,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": null,
+  "lease_end": "2023-11-30",
+  "lease_start": "2021-11-05",
+  "monthly_sd_premium": 28,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package (RBP)",
+    "amount": 27
+   },
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 28
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2100
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2023-11-30",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Rent 11/01/2023 (unpaid)",
+   "category": "rent_in_term",
+   "amount_charged": 1500,
+   "amount_open": 1500,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation  (5).pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "RBP 11/01/2023 (unpaid)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 27,
+   "amount_open": 27,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation  (5).pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  },
+  {
+   "description": "SDRP Monthly Premium 11/01/2023 (unpaid)",
+   "category": "sdrp_premium",
+   "amount_charged": 28,
+   "amount_open": 28,
+   "date_posted": "2023-11-01",
+   "service_period_start": "2023-11-01",
+   "service_period_end": "2023-11-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "SDRP Move Out Calculation  (5).pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2022_(11-14-2022_-_11-14-2022).pdf",
+   "flag": "sd_program",
+   "quote": "You waive payment of the security deposit of $2,100.00 in lieu of the indicated monthly payment"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-02-05",
+  "balance_due": 1555,
+  "first_full_month": "2021-12",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-10-09"
+ },
+ "pm_stated_amount_due": 1555,
+ "winning_document": "SDRP Move Out Calculation  (5).pdf",
+ "reconciliation": "Open lines 1,500.00 rent + 27.00 RBP + 28.00 SDRP premium = 1,555.00; no credits; equals PM stated 1,555.00, the move-out calculation, collection letter and ledger balance.",
+ "extraction_confidence": 0.95,
+ "notes": "End-of-term move-out 11/30/2023. The only open charges are the Nov 2023 rent, RBP and SDRP premium. No damage, cleaning or late-fee lines. The ledger shows a paid unauthorized pet fee (3 dogs, Feb 2023) but no pet damage is billed. The original 2021 lease is not in the folder, so the 13-month initial term is inferred from the 11/05/2021 start and the 12/01/2022 renewal. The renewal runs 12/01/2022 to 11/30/2023 at 1,500; rent was 1,400 before that. Deposit waiver addendum waives a 2,100 deposit for 28 per month.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "afa9b5a0c251cd1da"
+ }
+}

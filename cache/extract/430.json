@@ -1,0 +1,196 @@
+{
+ "tracking": 430,
+ "documents": [
+  {
+   "file": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2023-10-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning PM itemization/demand: make ready 450.81, NSF/stop payment 85, itemization fee 45, handling fee 50 = 630.81"
+  },
+  {
+   "file": "8102 Laguna Palm - Ledger - Gonzalez Ramirez.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-01-24",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger, newest-first. Balance 630.81 = make ready 450.81 + itemization fee 95 + stop payment fee 85. The 545.81 pulled on 9/29 was charged back on 10/18."
+  },
+  {
+   "file": "8102 Laguna Palm - Lease 2022-2023 - Gonzalez Ramirez.pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-09-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "RentWerx lease with Preferred Tenant Program fee 33 per month in lieu of deposit; facts from digest excerpt and sheet"
+  },
+  {
+   "file": "8102 Laguna Palm - Move Out Report - Gonzalez Ramirez.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-09-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector photo report, no amounts"
+  },
+  {
+   "file": "8102 Laguna Palm - Application - Elizabeth Ramirez.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Application, not used"
+  },
+  {
+   "file": "8102 Laguna Palm - Application - Isaias Gonzalez.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Application, not used"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1800,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2023-08-31",
+  "current_term_start": "2022-09-15",
+  "initial_term_months": 11.5,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2023-08-31",
+  "lease_start": "2022-09-15",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Preferred Tenant Monthly Fee (fee in lieu of deposit)",
+    "amount": 33
+   },
+   {
+    "name": "Resident Benefit Package",
+    "amount": 59
+   },
+   {
+    "name": "Administrative Pet Fee",
+    "amount": 70
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": 4500
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": null,
+  "move_out_date": "2023-08-31",
+  "re_let_date": null,
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Make Ready: air filter replacement, lawn service, lightbulb replacement, paint touchup, replace deck rails (no sub-amounts given)",
+   "category": "repairs_damage",
+   "amount_charged": 450.81,
+   "amount_open": 450.81,
+   "date_posted": "2023-09-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "NSF/Stop Payment fee (tenant charged back the 545.81 pulled funds)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2023-10-18",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Move Out Itemization Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2023-09-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Handling Fee",
+   "category": "admin_itemization_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-09-29",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "8102 Laguna Palm - Ledger - Gonzalez Ramirez.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant placed chargeback on funds pulled - in violation of lease agreement (Gonzalez)"
+  },
+  {
+   "file": "8102 Laguna Palm - Lease 2022-2023 - Gonzalez Ramirez.pdf",
+   "flag": "sd_program",
+   "quote": "tenant agrees to pay a monthly fee of $33.00 ($28.00 Insurance Fee and $5.00 Administration Fee)"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-01-24",
+  "balance_due": 630.81,
+  "first_full_month": "2022-10",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-08-03"
+ },
+ "pm_stated_amount_due": 630.81,
+ "winning_document": "8102 Laguna Palm - Itemization - Gonzalez Ramirez.pdf",
+ "reconciliation": "Open lines 450.81 + 85.00 + 45.00 + 50.00 = 630.81; no credits (the 545.81 pull on 9/29 was reversed by chargeback on 10/18, net 0); equals PM stated 630.81 and the ledger balance 630.81, where the 95.00 ledger itemization fee equals the letter's 45 + 50.",
+ "extraction_confidence": 0.85,
+ "notes": "End-of-term move-out 8/31/2023. The lump 'Make Ready' 450.81 has no sub-amounts, so it is one repairs_damage line with low confidence. Components: filter, lawn service, lightbulb, paint touchup, deck rails. Nothing is pet-related, although the tenant paid a monthly administrative pet fee. The tenant charged back the 545.81 that the PM pulled, so tenant_disputes_charges is set from the ledger note. Waived deposit 4,500 is derived from the lease/application option of 2.5 x rent. A one-time Risk Mitigation Fee of 1,500 was charged at move-in; it is a PM fee, not a deposit (ledger deposit balance 0.00). In Oct 2022 an eCheck was returned and replaced the same day by card; the first (move-in) payments cleared. The lease was not opened visually, so lease-break terms are not extracted.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "afa9b5a0c251cd1da"
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "tracking": 942,
+ "winning_document": "1607 N 24th - Little - Itemization of Security Deposit.pdf (TXR-2216, signed 10/28/24, balance 3,792.63)",
+ "documents": [
+  {
+   "file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2024-10-28",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Balance after deductions 3,792.63; move-out 9/30/24"
+  },
+  {
+   "file": "1607 N 24th - Little - Ledger RV.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-14",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Used to split itemization lines and confirm balance"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1450,
+  "lease_start": "2023-11-02",
+  "lease_end": "2024-11-30",
+  "sd_program": "unknown",
+  "cash_deposit_amount": 300
+ },
+ "move_out": {
+  "move_out_date": "2024-09-30",
+  "termination": "early_termination",
+  "re_let_date": null,
+  "holdover_days_after_lease_end": null
+ },
+ "line_items": [
+  {
+   "description": "Wall, blind, drip pan, sink repairs",
+   "category": "repairs_damage",
+   "amount_charged": 341,
+   "amount_open": 341,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "confidence": 0.8
+  },
+  {
+   "description": "Mow, trim and edge lawn",
+   "category": "landscaping_lawn",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "1607 N 24th - Little - Ledger RV.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Dog feces pickup, back yard",
+   "category": "pet_damage_odor",
+   "amount_charged": 125,
+   "amount_open": 125,
+   "is_estimate_only": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "confidence": 0.65
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_charged": 629.13,
+   "amount_open": 629.13,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "source_file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "October 2024 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_charged": 1450,
+   "amount_open": 1450,
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-31",
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-01",
+   "source_file": "1607 N 24th - Little - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "November 2024 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_charged": 1450,
+   "amount_open": 1450,
+   "service_period_start": "2024-11-01",
+   "service_period_end": "2024-11-30",
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-28",
+   "source_file": "1607 N 24th - Little - Ledger RV.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting expense, 25% of rent",
+   "category": "reletting_fee",
+   "amount_charged": 362.5,
+   "amount_open": 362.5,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-28",
+   "source_file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Key replacement, unreturned keys",
+   "category": "keys_remotes",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "is_estimate_only": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "date_posted": "2024-10-28",
+   "source_file": "1607 N 24th - Little - Itemization of Security Deposit.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant ledger credit balance before October",
+   "amount": 400,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Security deposit applied, move-out release",
+   "amount": 300,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_still_in_possession": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "tenant_disputes_charges": false,
+  "pm_withdrew_or_void": false,
+  "other_provider": false
+ },
+ "pm_stated_amount_due": 3792.63,
+ "ledger": {
+  "as_of_date": "2024-11-14",
+  "balance_due": 3792.63,
+  "last_payment_date": "2024-09-30",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "reconciliation": "Sum of 8 open lines = 4,492.63; less credits 700.00 (ledger credit 400 + SD 300) = 3,792.63, equal to the PM itemization balance 3,792.63. Difference 0.00.",
+ "notes": "Winner is the TXR-2216 itemization signed 10/28/24. Itemization line 19 nets to (150.00): lawn 125 and dog feces 125 against the 400 ledger credit. The split uses the ledger: 'Repairs - Move Out Repairs' 466 equals itemization damages 341 plus 125 dog-feces (inferred). Cash SD 300 was paid 12/22/23 and is applied. Fee-in-lieu addendum not opened (lite mode). Lease ends 11/30/24, so Oct and Nov rent are after move-out but within the term.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a321e520abcd8a847"
+ }
+}

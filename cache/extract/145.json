@@ -1,0 +1,180 @@
+{
+  "tracking": 145,
+  "documents": [
+    {
+      "file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+      "doc_type": "itemization_form",
+      "doc_date": "2023-06-23",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "309_E_Gemini_-_2022_Lease_-_Harley.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-08",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "309_E_Gemini_-_Ledger_-_Harley.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-07-25",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "309_E_Gemini_-_SD Addendum_-_Harley.pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-08-08",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+  "pm_stated_amount_due": 270.5,
+  "lease": {
+    "base_monthly_rent": 1500.0,
+    "recurring_addons": [
+      {
+        "name": "Fee in Lieu of Security Deposit",
+        "amount": 51.0
+      },
+      {
+        "name": "Asset Protection",
+        "amount": 15.0
+      },
+      {
+        "name": "SecondNature Resident Benefits",
+        "amount": 40.0
+      }
+    ],
+    "lease_start": "2022-08-08",
+    "lease_end": "2023-01-31",
+    "current_term_start": "2023-02-01",
+    "current_term_end": "2023-05-31",
+    "initial_term_months": 6,
+    "is_renewal": true,
+    "is_month_to_month": true,
+    "sd_program": "fee_in_lieu",
+    "waived_deposit_amount": null,
+    "monthly_sd_premium": 51.0,
+    "cash_deposit_amount": 500.0,
+    "lease_break_terms": null
+  },
+  "move_out": {
+    "move_out_date": "2023-06-01",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-07-25",
+    "balance_due": 270.5,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-04-29"
+  },
+  "line_items": [
+    {
+      "description": "Damages: smoke detector batteries, blinds, door stop, charlie bar, pantry door hole, burned globe",
+      "category": "repairs_damage",
+      "amount_open": 0.0,
+      "amount_charged": 289.5,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Replace light bulbs (overhead garage opener, dining room, utility room, upstairs living, front/back bedroom)",
+      "category": "repairs_damage",
+      "amount_open": 0.0,
+      "amount_charged": 66.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Treated ant piles",
+      "category": "pest_routine",
+      "amount_open": 0.0,
+      "amount_charged": 15.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+      "source_page": 2,
+      "confidence": 0.95
+    },
+    {
+      "description": "Move Out Cleaning",
+      "category": "cleaning",
+      "amount_open": 270.5,
+      "amount_charged": 400.0,
+      "date_posted": "2023-06-23",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "Security deposit applied to repairs (.50) and cleaning (.50)",
+      "amount": 500.0,
+      "type": "security_deposit_applied",
+      "already_netted_in_line_items": true,
+      "source_file": "309 E Gemini Ln-Harley-Itemization of Security Deposit.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 270.50 - 0 = 270.50 vs PM stated 270.50; exact match (security deposit of  applied to .50 repairs and .50 cleaning, leaving .50 open on cleaning).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant paid  cash deposit plus /mo fee in lieu of security deposit. Move-out repairs .50 and cleaning .00 totaled .50. After  deposit applied, .50 remained due on cleaning."
+}

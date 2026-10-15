@@ -1,0 +1,302 @@
+{
+ "tracking": 726,
+ "documents": [
+  {
+   "file": "26124 Valley Ridge Rd. - Polacheck - Lease 2-1-23 thru 7-31-24.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "33-page scan not opened; term 2/1/2023-7/31/2024 from file name and sheet, rent 1795 confirmed by ledger"
+  },
+  {
+   "file": "Demand letter - 26124 Valley .pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-08-08",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware email: balance 2594.75, 30 days before collections; matches ledger"
+  },
+  {
+   "file": "Ledger - 26124 Valley Ridge.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Propertyware newest-first; balance 2,594.75; open rows July 1 charges, 7/6 late fee, 7/18 fee, Aug 1 prorated charges"
+  },
+  {
+   "file": "SDRP addendum - 26124 Valley.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-01-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Security Deposit Waiver YES, 35.00/month in lieu of 2,000.00 deposit; signed 1/18/23"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1795,
+  "cash_deposit_amount": 0,
+  "current_term_end": "2024-07-31",
+  "current_term_start": "2023-02-01",
+  "initial_term_months": 18,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": null,
+  "lease_end": "2024-07-31",
+  "lease_start": "2023-02-01",
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 35
+   },
+   {
+    "name": "RBP with Ins",
+    "amount": 39
+   },
+   {
+    "name": "ADMIN-PETREN (pet rent)",
+    "amount": 20
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 2000
+ },
+ "move_out": {
+  "holdover_days_after_lease_end": 7,
+  "move_out_date": "2024-08-07",
+  "re_let_date": null,
+  "termination": "holdover_then_vacated"
+ },
+ "line_items": [
+  {
+   "description": "July 2024 rent (unpaid; payments of 7/18 and 7/31 returned NSF)",
+   "category": "rent_in_term",
+   "amount_charged": 1795,
+   "amount_open": 1795,
+   "date_posted": "2024-07-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "July 2024 pet rent (4007 ADMIN-PETREN)",
+   "category": "pet_fee_rent",
+   "amount_charged": 20,
+   "amount_open": 20,
+   "date_posted": "2024-07-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "July 2024 RBP with Ins",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-07-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "July 2024 SDRP Monthly Premium",
+   "category": "sdrp_premium",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-07-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late fee calculated 07/06/2024 by system",
+   "category": "late_fee",
+   "amount_charged": 186.9,
+   "amount_open": 186.9,
+   "date_posted": "2024-07-06",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "4460 Other Income: 'Fee For Re...' (truncated; likely returned-payment fee, posted 07/18/2024 with returned ePayment)",
+   "category": "nsf_fee",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-07-18",
+   "days_after_lease_end": null,
+   "service_period_start": null,
+   "service_period_end": null,
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 2,
+   "confidence": 0.55
+  },
+  {
+   "description": "August 2024 rent prorated based on inspection (8/1-8/7 holdover past 7/31 lease end)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 405.3,
+   "amount_open": 405.3,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": 7,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-07",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "August 2024 pet rent prorated based on inspection (4007 ADMIN-PETREN)",
+   "category": "pet_fee_rent",
+   "amount_charged": 4.55,
+   "amount_open": 4.55,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-07",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "August 2024 RBP with Ins",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "August 2024 SDRP Monthly Premium",
+   "category": "sdrp_premium",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-08-01",
+   "days_after_lease_end": null,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "is_estimate_only": false,
+   "owner_responsible": false,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "Ledger - 26124 Valley Ridge.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Ledger - 26124 Valley Ridge.pdf",
+   "flag": "holdover_prorated",
+   "quote": "60000 - Rental Income : Prorated based on inspection 405.30"
+  },
+  {
+   "file": "Ledger - 26124 Valley Ridge.pdf",
+   "flag": "returned_payments",
+   "quote": "Returned Payment Adjustment ($2,075.90) ... NSF - R01 Insufficient Funds"
+  },
+  {
+   "file": "Demand letter - 26124 Valley .pdf",
+   "flag": "pm_stated_amount",
+   "quote": "Your balance is $2594.75."
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-08-20",
+  "balance_due": 2594.75,
+  "first_full_month": "2023-02",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-05"
+ },
+ "pm_stated_amount_due": 2594.75,
+ "winning_document": "Ledger - 26124 Valley Ridge.pdf",
+ "reconciliation": "Sum of 10 open lines 2,594.75 - credits 0 = 2,594.75 equals demand letter 2,594.75 and ledger balance 2,594.75 (July 2,075.90 + 7/18 fee 35 + Aug 483.85); deposit held 0.00.",
+ "notes": "No move-out statement or itemization in folder; ledger (Propertyware newest-first) is winning doc and demand letter total matches. Both July payments (7/18 and 7/31, 2,075.90 each) were returned NSF so all July charges remain open; running balance verified (2,594.75). Tenant held over 8/1-8/7/2024 past 7/31 lease end; August rent/pet rent prorated 'based on inspection' (405.30 vs 7/31 x 1795 = 405.32). Last payment date shown is last cleared payment (6/5/2024); later 7/18 and 7/31 payments returned. Lease (33-page scan) not opened: term, rent, SD program all clear from file name, sheet, ledger and SDRP addendum (opened visually).",
+ "extraction_confidence": 0.86,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a46cadb7cb11817af"
+ }
+}

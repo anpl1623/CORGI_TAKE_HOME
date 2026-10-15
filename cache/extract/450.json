@@ -1,0 +1,183 @@
+{
+ "tracking": 450,
+ "winning_document": "9 Campden Ct - Itemizaiton - Johnson Nunez.pdf",
+ "pm_stated_amount_due": 1493.19,
+ "documents": [
+  {
+   "file": "9 Campden Ct - Itemizaiton - Johnson Nunez.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": "2023-08-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "RentWerx move-out itemization/formal demand, total 1,493.19; includes NSF fee that the ledger posts 2023-09-28 (letter appears regenerated). Read from digest text."
+  },
+  {
+   "file": "9 Campden Ct - Ledger - Johnson Nunez.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-07",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Open balance 1,493.19 = make ready 1,313.19 + itemization fee 95 + NSF 85. 08-24 funds pull of 1,408.19 was charged back 09-28 (net zero)."
+  },
+  {
+   "file": "9 Campden Ct - Lease 2022-2023 - Johnson Nunez.pdf",
+   "doc_type": "lease",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Digest excerpt only: Preferred Tenant Program 33/mo in lieu of deposit, RBP 59/mo (includes one-time returned payment fee forgiveness 85), 85 returned payment fee, 95 final accounting inspection fee."
+  },
+  {
+   "file": "9 Campden Ct - Move Out Report - Johnson Nunez.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2023-08-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Inspection report, no amounts. Scanned digest text for pet evidence: none (pool toys left behind; carpet stains on stairs and garage bedroom)."
+  },
+  {
+   "file": "9 Campden Ct - Application - Carolina Nunez.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Classified from file name"
+  },
+  {
+   "file": "9 Campden Ct - Application - Michael Johnson.pdf",
+   "doc_type": "tenant_contact_or_application",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Classified from file name"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 3250,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2022-12-12",
+  "current_term_end": "2023-11-30",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": false,
+  "lease_break_terms": "No early-termination fee seen in excerpt; ledger note on July 2023 rent: 'Discounted rent by 50% if tenants vacate by 07/31' (rent 1,625 charged and paid).",
+  "lease_end": "2023-11-30",
+  "lease_start": "2022-12-12",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package",
+    "amount": 59
+   }
+  ],
+  "sd_program": "fee_in_lieu",
+  "waived_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2023-07-31",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Make Ready (air filter, water softener salt, lightbulb replacement, maid service, item removal, secure fixture, install new mirror, cabinet repair, carpet clean) - single lump, no sub-amounts given",
+   "category": "repairs_damage",
+   "amount_charged": 1313.19,
+   "amount_open": 1313.19,
+   "date_posted": "2023-08-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9 Campden Ct - Itemizaiton - Johnson Nunez.pdf",
+   "source_page": 1,
+   "confidence": 0.6
+  },
+  {
+   "description": "Move Out Itemization Fee (ledger shows 95.00 Itemization Fee; letter splits 45 + 50)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 45,
+   "amount_open": 45,
+   "date_posted": "2023-08-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9 Campden Ct - Itemizaiton - Johnson Nunez.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Handling Fee (part of ledger 95.00 Itemization Fee)",
+   "category": "admin_itemization_fee",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-08-24",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9 Campden Ct - Itemizaiton - Johnson Nunez.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Stop Payment Fee - NSF Fee (tenant charged back 1,408.19 funds pull)",
+   "category": "nsf_fee",
+   "amount_charged": 85,
+   "amount_open": 85,
+   "date_posted": "2023-09-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "9 Campden Ct - Ledger - Johnson Nunez.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": true,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "9 Campden Ct - Ledger - Johnson Nunez.pdf",
+   "flag": "tenant_disputes_charges",
+   "quote": "Tenant placed chargeback on funds pulled - in violation of lease agreement"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-02-07",
+  "balance_due": 1493.19,
+  "first_full_month": "2023-01",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-07-12"
+ },
+ "extraction_confidence": 0.85,
+ "reconciliation": "sum(open lines)=1313.19+45+50+85=1493.19, credits 0 => 1493.19 vs PM stated 1493.19 (letter) and ledger balance 1493.19; letter splits ledger 95.00 itemization fee into 45+50.",
+ "notes": "Only charges: unsplit make-ready lump (includes cleaning, carpet clean, item removal, repairs; categorized repairs_damage at low confidence), itemization/handling fees, NSF fee. No rent charged after the 2023-07-31 move-out (lease end 2023-11-30); July rent was discounted 50% to 1,625 and paid in full. 08-24-2023 funds pull of 1,408.19 per lease was charged back 09-28-2023 (net zero, not a credit). Lease RBP (59/mo) lists one-time returned payment fee forgiveness (85), relevant to the NSF line. First full month Jan 2023 (Dec 12-31 prorated 2,166.66); Jan rent paid in advance 12/31/2022. Initial term approx 11.6 months (Dec 12 2022 to Nov 30 2023), recorded as 12. SD program is RentWerx Preferred Tenant fee in lieu (33/mo = 28 insurance + 5 admin).",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a3fbe41df262c3103"
+ }
+}

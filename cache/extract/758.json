@@ -1,0 +1,174 @@
+{
+ "tracking": 758,
+ "documents": [
+  {
+   "file": "0310 Cruz Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-06-28",
+   "used_for_amounts": true,
+   "note": "Winning doc; states balance due 3,123.00"
+  },
+  {
+   "file": "0310 Cruz Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-06-28",
+   "used_for_amounts": true,
+   "note": "Total 3,123.00; source of line items"
+  },
+  {
+   "file": "0310 Cruz SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "note": "Total 3,123.00; dates typed as 06/25/25 (apparent typo)"
+  },
+  {
+   "file": "0310 Cruz Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "note": "Confirms 06/04 payment of 1,402 clearing the balance forward"
+  }
+ ],
+ "evidence": [
+  {
+   "file": "0310 Cruz SDI.pdf",
+   "flag": "flooring_without_support",
+   "quote": "Carpet to be replaced 826.00"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 945,
+  "lease_start": "2023-12-18",
+  "lease_end": "2024-11-30",
+  "sd_program": "unknown",
+  "monthly_sd_premium": 33
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 3123,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null,
+  "last_payment_date": "2024-06-04"
+ },
+ "move_out": {
+  "move_out_date": "2024-06-25",
+  "termination": "early_termination"
+ },
+ "line_items": [
+  {
+   "description": "Rent June 2024",
+   "category": "rent_in_term",
+   "amount_open": 945,
+   "amount_charged": 945,
+   "service_period_start": "2024-06-01",
+   "service_period_end": "2024-06-30",
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Renters insurance June 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Pet fee June 2024",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "date_posted": "2024-06-01",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Security deposit protection June 2024",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility revenue June 2024",
+   "category": "utilities",
+   "amount_open": 30,
+   "date_posted": "2024-06-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.85
+  },
+  {
+   "description": "Late fee June 2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-06-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Reletting fee",
+   "category": "reletting_fee",
+   "amount_open": 250,
+   "date_posted": "2024-06-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Rent July 2024 (future month)",
+   "category": "rent_after_move_out",
+   "amount_open": 945,
+   "amount_charged": 945,
+   "service_period_start": "2024-07-01",
+   "service_period_end": "2024-07-31",
+   "date_posted": "2024-06-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.9
+  },
+  {
+   "description": "Carpet replacement",
+   "category": "flooring",
+   "amount_open": 826,
+   "date_posted": "2024-06-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "source_file": "0310 Cruz Move Out Statement.pdf",
+   "confidence": 0.85
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "flooring_without_support": true
+ },
+ "pm_stated_amount_due": 3123,
+ "reconciliation": "Open items 1102 (June incl. late fee) + 250 + 945 + 826 = 3123; credits 0; letter, statement and SDI all state 3123.00; difference 0. The 06/01 balance forward of 1402 was paid by check 06/04 and is excluded.",
+ "notes": "Move-out 06/25/2024 (sheet and statement notice date). SDI date fields are typed as 06/25/25, an apparent typo for 2024. Utility 30 (06/01) carries a 'Write Off by Charge Ctrl# 3467153' note with no reversal row in the ledger; counted as open, consistent with PM totals. Full June rent charged. Pet fee line is pet-rent category.",
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a24f69c17a5499441"
+ }
+}

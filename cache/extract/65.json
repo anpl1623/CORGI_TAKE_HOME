@@ -1,0 +1,316 @@
+{
+ "tracking": 65,
+ "documents": [
+  {
+   "file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2023-03-23",
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Blue Fox Statement of Accounting (p1) total 8,277.20 due from resident; p2 Jack'll Fix It invoice 425 annotated Tenant 200 / Owner 225; p3 Tucker Cleaning invoice 925 annotated Tenant 868.75 / Owner 56.25; p4 mailing envelope."
+  },
+  {
+   "file": "tenant ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2023-03-23",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware newest-first; balance 8,277.20; used to confirm March rent proration 1,006.45 and RIS partial payment (62 open), payment history."
+  },
+  {
+   "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(06-08-2022_-_06-08-2022).pdf",
+   "doc_type": "lease",
+   "doc_date": "2022-06-08",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Page 1 viewed: term 06/14/2022-06/20/2023, rent 2,400/mo, security deposit N/A (No Security Deposit Option); lease-break clause 41(f) via text search."
+  },
+  {
+   "file": "Security_Deposit_Waiver_Addendum1_(06-08-2022_-_06-08-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-06-08",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Security Deposit Waiver YES: $65/month in lieu of $3,600 deposit."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 2400,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 3600,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 65,
+  "recurring_addons": [
+   {
+    "name": "Resident Benefit Package",
+    "amount": 29
+   },
+   {
+    "name": "Monthly Pet Fee",
+    "amount": 50
+   },
+   {
+    "name": "RIS / No Security Deposit Option monthly fee",
+    "amount": 65
+   }
+  ],
+  "lease_start": "2022-06-14",
+  "lease_end": "2023-06-20",
+  "current_term_start": "2022-06-14",
+  "current_term_end": "2023-06-20",
+  "initial_term_months": 12.2,
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "lease_break_terms": "41(f): tenant may terminate by paying a non-refundable lease break/re-renting fee of $1,000 plus a fee equal to two times the monthly rental rate, computed after possession is relinquished. Late fee $20/day; $50 5-day notice fee."
+ },
+ "move_out": {
+  "move_out_date": "2023-03-13",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Unpaid Rent - March 2023 prorated 3/1-3/13 (2,400 x 13/31)",
+   "category": "rent_in_term",
+   "amount_charged": 1006.45,
+   "amount_open": 1006.45,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Lease Break Fee (Lease Break fee to Owner, 2x monthly rent)",
+   "category": "lease_break_fee",
+   "amount_charged": 4800,
+   "amount_open": 4800,
+   "date_posted": "2023-03-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Advertising Fee (ledger: 4012 Re-renting fee; lease: lease break/re-renting fee $1,000)",
+   "category": "reletting_fee",
+   "amount_charged": 1000,
+   "amount_open": 1000,
+   "date_posted": "2023-03-16",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Late Fees (calculated 3/23/2023, $20/day on March rent)",
+   "category": "late_fee",
+   "amount_charged": 240,
+   "amount_open": 240,
+   "date_posted": "2023-03-23",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "5-day notice Fee (Tenant 5-Day Notice Prep)",
+   "category": "eviction_legal_court",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-03-06",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Pet Fee - March 2023 monthly pet fee",
+   "category": "pet_fee_rent",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "RIS Fee - March 2023 No Security Deposit Option monthly fee (65 charged, 3 paid)",
+   "category": "sdrp_premium",
+   "amount_charged": 65,
+   "amount_open": 62,
+   "date_posted": "2023-03-01",
+   "service_period_start": "2023-03-01",
+   "service_period_end": "2023-03-31",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Repairs - Jack'll Fix It: patch and paint areas where paint tore off bedroom (tenant-marked)",
+   "category": "painting",
+   "amount_charged": 120,
+   "amount_open": 120,
+   "date_posted": "2023-03-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 2,
+   "confidence": 0.9
+  },
+  {
+   "description": "Repairs - Jack'll Fix It: repair slow draining kitchen sink (tenant-marked)",
+   "category": "repairs_damage",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2023-03-21",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 2,
+   "confidence": 0.85
+  },
+  {
+   "description": "Tucker Cleaning: move out cleaning (tenant)",
+   "category": "cleaning",
+   "amount_charged": 500,
+   "amount_open": 500,
+   "date_posted": "2023-03-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Tucker Cleaning: maintenance incl. parts/labor - light bulbs, HVAC filters, smoke detectors (tenant 75% of 225)",
+   "category": "repairs_damage",
+   "amount_charged": 225,
+   "amount_open": 168.75,
+   "date_posted": "2023-03-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 3,
+   "confidence": 0.75
+  },
+  {
+   "description": "Tucker Cleaning: landscaping and haul away (tenant)",
+   "category": "landscaping_lawn",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2023-03-22",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+   "source_page": 3,
+   "confidence": 0.7
+  }
+ ],
+ "credits": [
+  {
+   "description": "Portion of 02/16/23 tenant payment applied to March charges (3.00 to RIS fee, 29.00 to RBP)",
+   "amount": 32,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true,
+   "source_file": "tenant ledger.pdf"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2023-03-23",
+  "balance_due": 8277.2,
+  "first_full_month": "2022-07",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2023-02-16"
+ },
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "flag": "sd_program",
+   "quote": "You waive payment of the security deposit $ 3,600.00 in lieu of the indicated monthly payment.",
+   "file": "Security_Deposit_Waiver_Addendum1_(06-08-2022_-_06-08-2022).pdf"
+  },
+  {
+   "flag": "lease_break_terms",
+   "quote": "Tenant may terminate this agreement by paying Agent a lease break/re-renting fee of $1,000",
+   "file": "3_ResidentialRentalAgreement_Rev_100521_-_RBP_-_for_Propertyware_(06-08-2022_-_06-08-2022).pdf"
+  },
+  {
+   "flag": "owner_items_excluded",
+   "quote": "Tenant: $200 Owner: $225",
+   "file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf"
+  },
+  {
+   "flag": "move_out",
+   "quote": "Move-out Date: 03/13/2023 Date Inspected: 03/16/2023",
+   "file": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf"
+  }
+ ],
+ "winning_document": "12179NMeditationDr_032323_StatementofAccounting_Slycord_Romero.pdf",
+ "pm_stated_amount_due": 8277.2,
+ "reconciliation": "Open lines 8,277.20 - unnetted credits 0 = 8,277.20 = Statement of Accounting Amount Due From Resident 8,277.20 (= ledger balance); owner portions of invoices (door handle 90, mailbox 135, 25% maintenance 56.25) excluded.",
+ "notes": "Blue Fox Statement of Accounting dated 3/23/23 is the winning doc; ledger matches line-for-line. Statement 'Repairs - Jack'll Fix It 200' split per invoice tenant marks (paint 120 + sink drain 80); 'Cleaning/Landscaping - Tucker Cleaning 868.75' split as cleaning 500 + 75% of maintenance 225 (168.75) + landscaping/haul away 200. Early termination ~3 months before 6/20/2023 lease end; lease break fee 4,800 (2x rent) and re-renting/advertising fee 1,000 both per lease 41(f). No cash deposit; deposit waiver $65/mo (ledger 'RIS - Monthly fee'). Payment history shows NSF returns on 8/12/22 and 1/3/23 and frequent late fees, but first payment (6/13/22, 1,725) cleared and July 2022 rent paid 7/3/22.",
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_f7f175fa-0bc",
+  "agent": "ada35707e5be0d362"
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "tracking": 800,
+ "winning_document": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+ "pm_stated_amount_due": 1722,
+ "documents": [
+  {
+   "file": "angelica-m-oliveras (4).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-04-15",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "PURE FL renewal lease 04/15/2024-04/20/2025 (sheet end date 2024-04-20 is a typo). Rent 1500 + RBP 39 + SDRP 48. Addendum 5.1 Security Deposit Waiver YES $48/mo; original deposit released month after first SDRP payment. Animal addendum lists no animals."
+  },
+  {
+   "file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first ledger, balance 0.00 at 08/01/2024, open balance 1722.00 (all September 2024 charges). 05/07/2024 'Sec Dep to SDRP' entries net to zero."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "cash_deposit_amount": 0,
+  "current_term_start": "2024-04-15",
+  "current_term_end": "2025-04-20",
+  "initial_term_months": 12,
+  "is_month_to_month": false,
+  "is_renewal": true,
+  "lease_break_terms": "No fixed lease-break fee found. Sec 1.13: landlord MAY agree to early termination on tenant's 60-day written request at its sole discretion; evaluated as if term fulfilled. Sec 1.20: on default tenant remains liable for rent, fees, utilities, damages.",
+  "lease_end": "2025-04-20",
+  "lease_start": "2024-04-15",
+  "monthly_sd_premium": 48,
+  "recurring_addons": [
+   {
+    "name": "RBP w/Insurance",
+    "amount": 39
+   }
+  ],
+  "sd_program": "sdrp",
+  "waived_deposit_amount": 1500
+ },
+ "move_out": {
+  "move_out_date": "2024-09-06",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Rent Income - September 2024 (full month charged, not prorated)",
+   "category": "rent_in_term",
+   "amount_charged": 1500,
+   "amount_open": 1500,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "SDRP Fee - September 2024",
+   "category": "sdrp_premium",
+   "amount_charged": 48,
+   "amount_open": 48,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP w/Insurance - September 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 39,
+   "amount_open": 39,
+   "date_posted": "2024-09-01",
+   "service_period_start": "2024-09-01",
+   "service_period_end": "2024-09-30",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 2,
+   "confidence": 0.95
+  },
+  {
+   "description": "Late Fee Income - Late Fee for Sep 2024",
+   "category": "late_fee",
+   "amount_charged": 75,
+   "amount_open": 75,
+   "date_posted": "2024-09-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  },
+  {
+   "description": "Notice Posting Fee - 3-Day Prep & Serve Fee",
+   "category": "eviction_legal_court",
+   "amount_charged": 25,
+   "amount_open": 25,
+   "date_posted": "2024-09-05",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 3,
+   "confidence": 0.9
+  },
+  {
+   "description": "Daily late fee $5/day 09/05/2024-09/11/2024 (7 days)",
+   "category": "late_fee",
+   "amount_charged": 35,
+   "amount_open": 35,
+   "date_posted": "2024-09-11",
+   "service_period_start": "2024-09-05",
+   "service_period_end": "2024-09-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-angelica_m_oliveras_jessica_e_oliveras-20240911.pdf",
+   "source_page": 3,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "ledger": {
+  "as_of_date": "2024-09-11",
+  "balance_due": 1722,
+  "first_full_month": "2024-05",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-07-31"
+ },
+ "reconciliation": "sum(open line items)=1500+48+39+75+25+35=1722.00 - credits 0.00 = 1722.00 vs pm_stated_amount_due 1722.00 (ledger total); matches.",
+ "notes": "Only lease + ledger in folder; no move-out statement. Open balance is entirely September 2024 (balance was 0.00 on 08/01/2024). PM charged full September rent (not prorated) with no post-move-out rent beyond that month. DATE CONFLICTS: ledger header says Status 'Notice' and Move out 09/09/2025 (impossible, ledger printed 09/11/2024, likely typo for 2024 or a scheduled date); sheet says move-out 2024-09-06, used here. Sheet lease end 2024-04-20 conflicts with lease doc 04/20/2025 (doc used). Original move-in 04/04/2023; this lease is a renewal (Lease Renewal Fee 150 on 03/26/2024). The $1500 cash deposit was released on conversion to SDRP on 05/07/2024, so no cash deposit held. If the tenant was in fact still in possession at 09/11/2024 the 'Notice' status would support tenant_still_in_possession; judged less likely.",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a239e24ea9804bd23"
+ }
+}

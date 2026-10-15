@@ -1,0 +1,327 @@
+{
+ "tracking": 815,
+ "winning_document": "R Johnson final statement.pdf (Rent Manager statement dated 09/13/2024)",
+ "pm_stated_amount_due": 3037.5,
+ "reconciliation": "Open lines total 3037.50; credits 0 (the three NSF-tagged tenant payments were reversed, net 0); equals PM stated 3037.50; difference 0.00.",
+ "extraction_confidence": 0.75,
+ "documents": [
+  {
+   "file": "R Johnson final statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Winning statement; balance 3037.50"
+  },
+  {
+   "file": "R Johnson ledger.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-09-20",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Ties line-for-line; used to split the 10.00 previous balance"
+  },
+  {
+   "file": "R Johnson collection letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-09-13",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Same 3037.50; collection fees excluded"
+  },
+  {
+   "file": "R Johnson invoice carpet.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-04",
+   "used_for_amounts": true,
+   "revised": false,
+   "opened_visually": false,
+   "note": "Total 550; used only to split the 425 cleaning and 125 carpet repair lines"
+  },
+  {
+   "file": "R Johnson invoice cleaning.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-02",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice 297.50 vs statement 225; statement used"
+  },
+  {
+   "file": "R Johnson invoice repair.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice total 447.50 matches statement"
+  },
+  {
+   "file": "R Johnson invoice paint.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-09-05",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Invoice 440 vs statement 264; statement used; pet chewing note"
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": true
+ },
+ "evidence": [
+  {
+   "file": "R Johnson invoice paint.pdf",
+   "flag": "mixed_pet_nonpet_line",
+   "quote": "Touch up trim as needed from pet chewing on them"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1295,
+  "lease_start": "2022-07-21",
+  "lease_end": "2024-08-31",
+  "sd_program": "unknown",
+  "cash_deposit_amount": null
+ },
+ "move_out": {
+  "move_out_date": "2024-08-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": 0
+ },
+ "ledger": {
+  "as_of_date": "2024-09-20",
+  "balance_due": 3037.5,
+  "last_payment_date": "2024-07-24",
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "credits": [],
+ "line_items": [
+  {
+   "description": "NSF fee (7/22 returned payment)",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "date_posted": "2024-07-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson ledger.pdf"
+  },
+  {
+   "description": "NSF fee (7/23 returned payment)",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "date_posted": "2024-07-25",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson ledger.pdf"
+  },
+  {
+   "description": "Zero Deposit Program charge August 2024",
+   "category": "sdrp_premium",
+   "amount_open": 45,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Amenity service package August 2024",
+   "category": "other_fee",
+   "amount_open": 50,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "August 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 1295,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Renters insurance YRIG August 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 16,
+   "service_period_start": "2024-08-01",
+   "service_period_end": "2024-08-31",
+   "date_posted": "2024-08-01",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Late charge 08/08/2024",
+   "category": "late_fee",
+   "amount_open": 50,
+   "date_posted": "2024-08-08",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "NSF fee (8/15 returned payment)",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "date_posted": "2024-08-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Three day notice service 08/20/2024",
+   "category": "eviction_legal_court",
+   "amount_open": 25,
+   "date_posted": "2024-08-20",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "NSF fee (8/23 returned payment)",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Repair invoice 6543 (walls blinds fixtures parts)",
+   "category": "repairs_damage",
+   "amount_open": 447.5,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "R Johnson invoice repair.pdf"
+  },
+  {
+   "description": "Painting (Tona), includes pet-chew trim touch-up",
+   "category": "painting",
+   "amount_open": 264,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.7,
+   "source_file": "R Johnson invoice paint.pdf"
+  },
+  {
+   "description": "Unit cleaning (Rayo), non-normal wear",
+   "category": "cleaning",
+   "amount_open": 225,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "R Johnson invoice cleaning.pdf"
+  },
+  {
+   "description": "Carpet patch, reinstall, reseam (invoice 3-325768)",
+   "category": "flooring",
+   "amount_open": 125,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.85,
+   "source_file": "R Johnson invoice carpet.pdf"
+  },
+  {
+   "description": "Haul-away of left-over items (Ford)",
+   "category": "trash_removal",
+   "amount_open": 45,
+   "date_posted": "2024-08-28",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "NSF fee (8/28 returned payment)",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "date_posted": "2024-09-03",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.9,
+   "source_file": "R Johnson final statement.pdf"
+  },
+  {
+   "description": "Carpet odor treatments and pet hair removal",
+   "category": "pet_damage_odor",
+   "amount_open": 240,
+   "date_posted": "2024-09-13",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "R Johnson invoice carpet.pdf"
+  },
+  {
+   "description": "Carpet cleaning, vacuum, de-grease, stairs",
+   "category": "carpet_cleaning",
+   "amount_open": 185,
+   "date_posted": "2024-09-13",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "confidence": 0.8,
+   "source_file": "R Johnson invoice carpet.pdf"
+  }
+ ],
+ "notes": "Statement lines counted once; invoices used only to split or support. Carpet cleaning statement line 425 equals invoice 3-325768 less its 125 carpet-repair lines: 240 pet (odor treatments 200 plus pet hair and dander 40) and 185 non-pet. Invoice amounts differ from statement for cleaning (297.50 vs 225) and paint (440 vs 264); statement amounts used. Paint invoice job address reads 1904 Lexi's Ln. The 10.00 previous balance is two July NSF items split into 5.00 each. Tenant payments of 08/15, 08/23 and 08/28 were NSF and reversed (net 0); last valid payment 07/24/24 (232). Collection fees 1518.75 and the 4556.25 collection total are hypothetical and excluded. Hauling invoice is a scan not opened (lite mode); statement amount 45 used. Lease and ZDP addendum not opened (lite mode). Base rent is sheet Monthly Rent 1295.",
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "a41b3ed03db7eafdc"
+ }
+}

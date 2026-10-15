@@ -1,0 +1,213 @@
+{
+ "tracking": 955,
+ "winning_document": "Bromwich B089 Move Out Statement.pdf",
+ "pm_stated_amount_due": 314,
+ "documents": [
+  {
+   "file": "Bromwich B089 Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-10-18",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "SD waiver YES $33/mo (equal to one month's rent); renters insurance NO (third party); policy start 10/30/23."
+  },
+  {
+   "file": "Bromwich B089 Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-10-25",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Page 1 read: rent 820, term 10/30/2023-9/30/2024, auto MTM, SD 0.00, reletting 250 clause (36 pages total)."
+  },
+  {
+   "file": "Bromwich B089 Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-10-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Balance due 314.00."
+  },
+  {
+   "file": "Bromwich B089 Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-10-15",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning doc; 4 lines totaling 314.00."
+  },
+  {
+   "file": "Bromwich B089 SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "264.00 labeled Future Month's Rent 10/1-10/9/24 plus removal of items 50 = 314.00."
+  },
+  {
+   "file": "Bromwich Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Oldest-first; all months paid through 9/1/2024; only 10/15 charges open."
+  },
+  {
+   "file": "LOD DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Ignored per rules."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 820,
+  "cash_deposit_amount": 0,
+  "waived_deposit_amount": 820,
+  "sd_program": "deposit_waiver",
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Security Deposit Protection",
+    "amount": 33
+   },
+   {
+    "name": "Utility Revenue",
+    "amount": 25
+   }
+  ],
+  "lease_start": "2023-10-30",
+  "lease_end": "2024-09-30",
+  "current_term_start": "2024-10-01",
+  "current_term_end": null,
+  "initial_term_months": 11,
+  "is_renewal": false,
+  "is_month_to_month": true,
+  "lease_break_terms": "Para 11: reletting charge $250 if no proper written move-out notice, move out without paying rent for full term, or judicially evicted."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-09",
+  "termination": "holdover_then_vacated",
+  "holdover_days_after_lease_end": 9,
+  "re_let_date": null
+ },
+ "line_items": [
+  {
+   "description": "Residential Rent (10/2024) 9 days (MTM holdover after 9/30 lease end; SDI labels it Future Month's Rent 10/1-10/9/24)",
+   "category": "rent_after_lease_end",
+   "amount_charged": 246,
+   "amount_open": 246,
+   "date_posted": "2024-10-15",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-09",
+   "days_after_lease_end": 9,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bromwich B089 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  },
+  {
+   "description": "Utility Revenue (10/2024) 9 days",
+   "category": "utilities",
+   "amount_charged": 8,
+   "amount_open": 8,
+   "date_posted": "2024-10-15",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bromwich B089 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.85
+  },
+  {
+   "description": "Security Deposit Protection (10/2024) 9 days",
+   "category": "sdrp_premium",
+   "amount_charged": 10,
+   "amount_open": 10,
+   "date_posted": "2024-10-15",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-09",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bromwich B089 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  },
+  {
+   "description": "Removal of Items",
+   "category": "trash_removal",
+   "amount_charged": 50,
+   "amount_open": 50,
+   "date_posted": "2024-10-15",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Bromwich B089 Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.9
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "Bromwich B089 Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "You waive payment of the security deposit equal to one month's rent in lieu of the indicated monthly payment. $33 per month"
+  },
+  {
+   "file": "Bromwich B089 SDI.pdf",
+   "flag": "holdover_rent",
+   "quote": "Future Month's Rent 10/1-10/9/24 $264.00"
+  }
+ ],
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 314,
+  "first_full_month": "2023-11",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-01"
+ },
+ "reconciliation": "sum(open lines)=246+8+10+50=314.00 - credits 0 = 314.00 vs PM stated 314.00; exact match (statement, letter, SDI, ledger).",
+ "notes": "Lease ended 9/30/2024; tenant gave notice 9/1/2024 and vacated 10/9/2024 (9-day MTM holdover, rent prorated 820*9/30=246). All rent through 9/2024 paid; opening balance 10/01 was 0. Cash deposit 0; no credits. Lease read page 1 of 36 only (term and rent clear); addendum opened visually.",
+ "extraction_confidence": 0.93,
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "a0f1937c02b1d1965"
+ }
+}

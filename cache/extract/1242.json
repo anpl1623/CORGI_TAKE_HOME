@@ -1,0 +1,198 @@
+{
+ "tracking": 1242,
+ "winning_document": "deposit_disposition_amount_due_anna_lovett_032825.pdf (03/28/2025 letter)",
+ "documents": [
+  {
+   "file": "deposit_disposition_amount_due_anna_lovett_032825.pdf",
+   "doc_type": "move_out_statement",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning letter, total 1,467.79"
+  },
+  {
+   "file": "tenant_ledger-anna_lovett_john_t_schoettmer-20250404.pdf",
+   "doc_type": "tenant_ledger",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Matches letter; Mar 1 prorations and payment history"
+  },
+  {
+   "file": "UT_RPT_Invoice_Anna Lovett & John T. Schoettmer_Final Bill.pdf",
+   "doc_type": "vendor_invoice",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Final utility bill 189.22 (includes 115.23 prior past due)"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1877.95,
+  "sd_program": "unknown",
+  "lease_start": "2024-03-02",
+  "lease_end": "2025-03-01"
+ },
+ "move_out": {
+  "move_out_date": "2025-03-01",
+  "termination": "end_of_term"
+ },
+ "line_items": [
+  {
+   "description": "Trash fee, Mar 1 prorated",
+   "category": "utilities",
+   "amount_open": 0.65,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Garage #4, Mar 1 prorated",
+   "category": "other_fee",
+   "amount_open": 3.23,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Garage #2, Mar 1 prorated",
+   "category": "other_fee",
+   "amount_open": 3.23,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Pet charge, Mar 1 prorated",
+   "category": "pet_fee_rent",
+   "amount_open": 1.26,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Base rent, Mar 1 prorated (1 day)",
+   "category": "rent_in_term",
+   "amount_open": 51.58,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.6,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "TLL20 liability charge, Mar 1 prorated",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 0.64,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-03-01",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Final utility bill 2/16-3/1/25",
+   "category": "utilities",
+   "amount_open": 189.22,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "service_period_start": "2025-02-16",
+   "service_period_end": "2025-03-01",
+   "confidence": 0.9,
+   "source_file": "UT_RPT_Invoice_Anna Lovett & John T. Schoettmer_Final Bill.pdf"
+  },
+  {
+   "description": "End-of-lease unit clean",
+   "category": "cleaning",
+   "amount_open": 199,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.8,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Stove top replacement",
+   "category": "appliance",
+   "amount_open": 718.98,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.75,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Blinds x2",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.75,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  },
+  {
+   "description": "Granite repair",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "confidence": 0.75,
+   "source_file": "deposit_disposition_amount_due_anna_lovett_032825.pdf"
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "premiums_unpaid": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false
+ },
+ "ledger": {
+  "as_of_date": "2025-04-04",
+  "balance_due": 1467.79,
+  "first_full_month": null,
+  "first_full_month_paid_in_full": null,
+  "first_payment_bounced": null
+ },
+ "pm_stated_amount_due": 1467.79,
+ "reconciliation": "Open lines sum 1,467.79; credits 0; PM stated 1,467.79; difference 0.00.",
+ "notes": "Letter 03/28/2025 matches ledger and utility bill. Feb 2025 charges incl. Tenant Related Damage 914.30 were paid in full (ACH 2,450.00 on 2/1 and 342.25 on 2/3) and are not in the claim. No vendor invoices in folder for stove top, blinds, granite or unit clean. Sheet move-out equals lease end 3/1/25, so 1-day March prorations treated as in-term. Inspection photo report and lease not opened (lite mode).",
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_72f263a2-488",
+  "agent": "af4022af00037ad07"
+ }
+}

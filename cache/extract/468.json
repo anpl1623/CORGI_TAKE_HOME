@@ -1,0 +1,177 @@
+{
+ "tracking": 468,
+ "winning_document": "7358 Suncatcher Dr - Move Out Calculation.pdf",
+ "pm_stated_amount_due": 475,
+ "extraction_confidence": 0.93,
+ "reconciliation": "sum(open line items)=475.00 (275.00 ozone + 200.00 coordination fee); no credits (deposit held 0.00, no prepayments); equals PM stated 475.00 (Move Out Calculation, 2/6/24 SDRP notice, ledger unpaid charges 2/22/24), no difference.",
+ "documents": [
+  {
+   "file": "7358 Suncatcher Dr - Move Out Calculation.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": null,
+   "revised": false,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Winning doc (PURE Move Out Calculation, undated): coordination fee 200 + move-out repair 275 = 475 remaining balance"
+  },
+  {
+   "file": "Suncatcher ledger .pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-02-22",
+   "revised": false,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Propertyware ledger, newest-first; only two unpaid charges (2/5/24) 275 and 200; everything else paid, deposit held 0.00"
+  },
+  {
+   "file": "expenditures_05_Feb_2024_19_42_38.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-02-05",
+   "revised": false,
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Meld T7ELUB3 run ozone machine 275.00, ozone generator ran 24+ hours; equals ledger Move-out Repair line, counted once"
+  },
+  {
+   "file": "7358 Suncatcher Drive - Collections - SDRP Notice to Tenant.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-02-06",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Demand 475.00 within 15 days"
+  },
+  {
+   "file": "DOCUSIGN_-_Security_Deposit_Addendum_2022_(11-24-2022_-_11-24-2022).pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2022-12-06",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Signed waiver YES $28/month in lieu of $2,100 deposit"
+  },
+  {
+   "file": "Docusign_NHPM_Lease_RENEWAL_v_2021_(11-24-2022_-_11-24-2022).pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2022-11-24",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Page 1 viewed: renewal term 01/14/2023 to 01/15/2024, rent 1500, $200 administrative fee clause, no-pet-specific terms in excerpt"
+  },
+  {
+   "file": "7358 SUNCATCHER DRIVE_Move Out Evaluation_2024-01-02.pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-01-02",
+   "revised": false,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Only comment scanned: Strong pet odor, requires ozone machine"
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1500,
+  "cash_deposit_amount": 0,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 28,
+  "waived_deposit_amount": 2100,
+  "lease_start": "2022-01-14",
+  "lease_end": "2024-01-13",
+  "current_term_start": "2023-01-14",
+  "current_term_end": "2024-01-15",
+  "initial_term_months": 12,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Renewal para 14: either party may terminate at end of term with 30 days written notice; no lease-break fee seen; $200 administrative fee if deductions are taken; holdover at 2x daily rate",
+  "recurring_addons": [
+   {
+    "name": "SDRP Monthly Premium",
+    "amount": 28
+   },
+   {
+    "name": "Resident Benefits Package (RBP)",
+    "amount": 27
+   },
+   {
+    "name": "Animal Fee (pet rent)",
+    "amount": 90
+   }
+  ]
+ },
+ "move_out": {
+  "move_out_date": "2023-12-31",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-02-22",
+  "balance_due": 475,
+  "first_full_month": "2022-03",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-01-02"
+ },
+ "line_items": [
+  {
+   "description": "Move-out repair: run ozone machine for strong pet odor (Meld T7ELUB3, ozone generator ran 24+ hours; inspection: Strong pet odor, requires ozone machine)",
+   "category": "pet_damage_odor",
+   "amount_charged": 275,
+   "amount_open": 275,
+   "date_posted": "2024-02-05",
+   "service_period_start": "2024-01-31",
+   "service_period_end": "2024-01-31",
+   "days_after_lease_end": null,
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "Suncatcher ledger .pdf",
+   "source_page": 1,
+   "confidence": 0.93
+  },
+  {
+   "description": "Maintenance coordination fee - Fee to PURE (flat move-out coordination fee per lease 200 administrative fee)",
+   "category": "maintenance_coordination_fee",
+   "amount_charged": 200,
+   "amount_open": 200,
+   "date_posted": "2024-02-05",
+   "service_period_start": null,
+   "service_period_end": null,
+   "days_after_lease_end": null,
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "7358 Suncatcher Dr - Move Out Calculation.pdf",
+   "source_page": 1,
+   "confidence": 0.95
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [],
+ "notes": "Both lines are tied: ledger Move-out Repair 275 equals the Meld ozone invoice (counted once) and the 200 coordination fee is the lease administrative fee. Tenant moved out 12/31/2023, 13 days before the sheet lease end of 1/13/2024 (renewal document says 01/15/2024); January rent was prorated 1/1-1/13 (629.03) and fully paid on 1/2/2024, so no open rent. Historical NSF items (11/2022, 1/2023) were all paid. Pet fee (Animal Fee 90/mo) was charged throughout, so the pet was authorized. Inspection comment: Strong pet odor, requires ozone machine, supports pet_related on the ozone line.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a56793ede948f0aed"
+ }
+}

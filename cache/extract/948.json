@@ -1,0 +1,237 @@
+{
+ "tracking": 948,
+ "winning_document": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+ "pm_stated_amount_due": 801.6,
+ "documents": [
+  {
+   "file": "2024-10-21 11_49_01.739170+00_00-1140 - PURE - 633 Hadley Village Blvd.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-21",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Farmer Property Management invoice 1140: Paint 2,200 + Maint 750 = 2,950 billed to PURE (owner/PM cost). PM charged tenant only 440 paint + 280 maintenance-type lines per ledger; invoice not used over ledger."
+  },
+  {
+   "file": "633 Hadley Village Blvd_Move Out_2024-10-03 (1).pdf",
+   "doc_type": "inspection_photo_report",
+   "doc_date": "2024-10-03",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "zInspector report with estimated total 3,675 (maint 700, paint 2,250, cleaning 275, carpet 250, pressure wash 200); estimate only. Notes vinyl flooring ripped up, junk removal, full repaint. No pet odor/urine comments."
+  },
+  {
+   "file": "INV1679.pdf",
+   "doc_type": "vendor_invoice",
+   "doc_date": "2024-10-14",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "note": "Best One Cleaning invoice 1679: full clean 350 + carpet clean 250 = 600 to PURE. Full clean 350 matches the 'property cleaning chargeback for pet' ledger line."
+  },
+  {
+   "file": "dereka-c-larkin_03-20-2024.pdf",
+   "doc_type": "renewal_lease",
+   "doc_date": "2024-03-20",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "note": "Renewal lease 4/3/2024-10/2/2024, rent 1,900; cash deposit 400; SD Waiver addendum 35/mo waiving 1,900; Animal addendum (Coco, English bulldog); parsed via text layer."
+  },
+  {
+   "file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-11-19",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "note": "Oldest-first. No PM statement/itemization in folder, so ledger open rows govern: 10/2024 prorated charges plus 11/04/2024 'Deposit Forfeit' rows, less 400 deposit transfer; balance 801.60."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1900,
+  "cash_deposit_amount": 400,
+  "waived_deposit_amount": 1900,
+  "sd_program": "sdrp",
+  "monthly_sd_premium": 35,
+  "recurring_addons": [
+   {
+    "name": "SDRP Fee - Alternative Deposit",
+    "amount": 35
+   },
+   {
+    "name": "RBP w/ Insurance - Resident Benefit Package",
+    "amount": 39
+   }
+  ],
+  "lease_start": "2021-06-01",
+  "lease_end": "2024-10-02",
+  "current_term_start": "2024-04-03",
+  "current_term_end": "2024-10-02",
+  "initial_term_months": null,
+  "is_renewal": true,
+  "is_month_to_month": false,
+  "lease_break_terms": "Early termination only with landlord written permission: 45-day notice, fee of 150% of one month's rent (plus 50% admin fee if under 9 months into initial term); holdover is month-to-month at 115% of rent; 45-day notice of intent to vacate required."
+ },
+ "move_out": {
+  "move_out_date": "2024-10-02",
+  "termination": "end_of_term",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-11-19",
+  "balance_due": 801.6,
+  "first_full_month": "2021-06",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-09-05"
+ },
+ "line_items": [
+  {
+   "description": "SDRP Fee - October 2024 Alternative Deposit (prorated 10/1-10/2)",
+   "category": "sdrp_premium",
+   "amount_charged": 2.33,
+   "amount_open": 2.33,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.95
+  },
+  {
+   "description": "RBP w/ Insurance - October 2024 Resident Benefit Package (prorated)",
+   "category": "rbp_insurance_liability_fee",
+   "amount_charged": 2.6,
+   "amount_open": 2.6,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.95
+  },
+  {
+   "description": "Rent Income - October 2024 (prorated 10/1-10/2, 1900 x 2/30)",
+   "category": "rent_in_term",
+   "amount_charged": 126.67,
+   "amount_open": 126.67,
+   "date_posted": "2024-10-01",
+   "service_period_start": "2024-10-01",
+   "service_period_end": "2024-10-02",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.95
+  },
+  {
+   "description": "Deposit Forfeit - Air Filter, Light bulb, reattach smoke detector",
+   "category": "repairs_damage",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.85
+  },
+  {
+   "description": "Deposit Forfeit - Junk Removal",
+   "category": "trash_removal",
+   "amount_charged": 80,
+   "amount_open": 80,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.95
+  },
+  {
+   "description": "Deposit Forfeit - Paint",
+   "category": "painting",
+   "amount_charged": 440,
+   "amount_open": 440,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.9
+  },
+  {
+   "description": "Deposit Forfeit - Property cleaning chargeback per lease for pet (amount matches Best One 'Full clean' 350; could be general cleaning)",
+   "category": "pet_damage_odor",
+   "amount_charged": 350,
+   "amount_open": 350,
+   "date_posted": "2024-11-04",
+   "pet_related": true,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.6
+  },
+  {
+   "description": "Deposit Forfeit - Flooring Repair (vinyl ripped up in living room per inspection)",
+   "category": "flooring",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-11-04",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "source_page": 10,
+   "confidence": 0.85
+  }
+ ],
+ "credits": [
+  {
+   "description": "Transfer of Management Held Security Deposit at Move Out (cash deposit applied)",
+   "amount": 400,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false,
+   "source_file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf"
+  }
+ ],
+ "flags": {
+  "tenant_disputes_charges": false
+ },
+ "evidence": [
+  {
+   "file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "flag": "pet_related_line",
+   "quote": "Deposit Forfeit - Property cleaning chargeback per lease for pet 350.00"
+  },
+  {
+   "file": "tenant_ledger-dereka_c_larkin_ricardo_j_lang-20241119.pdf",
+   "flag": "cash_deposit_applied",
+   "quote": "Transfer of Management Held Security Deposit at Move Out -400.00"
+  }
+ ],
+ "extraction_confidence": 0.8,
+ "reconciliation": "Open lines 2.33+2.60+126.67+100+80+440+350+100 = 1,201.60, less 400.00 deposit transfer = 801.60 = ledger balance/PM stated 801.60 (no separate PM statement exists).",
+ "notes": "No PM statement or itemization in folder; ledger (11/19/2024) governs. Vendor invoices to PM (Farmer 2,950; Best One 600) and inspection estimate (3,675) are far above what PM charged the tenant (1,070 in move-out charges); not used per rule that ledger beats invoices and estimates. Tenant had an approved dog (Coco, English bulldog; pet program fees billed through 4/2024). Both a 400 cash deposit and an SD waiver (35/mo, waives 1,900) exist. Lease is a 6-month renewal 4/3/2024-10/2/2024; original initial term length not in folder. Tenant vacated at lease end 10/2/2024 (inspection dated 10/3). All earlier months paid; no late/NSF open.",
+ "_meta": {
+  "run": "wf_9f183f6d-842",
+  "agent": "ae8aec7c8d4df42f9"
+ }
+}

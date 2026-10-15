@@ -1,0 +1,333 @@
+{
+  "tracking": 35,
+  "documents": [
+    {
+      "file": "14d3970bd2194cb88a358545e6d1b116.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2022-12-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "2f52862839ca4ebf9df32c64e678af33.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "313 Camelot Break down of charges.png",
+      "doc_type": "email_or_screenshot",
+      "doc_date": "2022-12-13",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "313 Camelot Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-01-23",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "313 Camelot lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-01-19",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "313_Camelot_-_Collections_Letter_.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-01-12",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "5b7b0a9a6da44f418d8702acbc8c085e.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "7ffc94b491a54bfea36cdd62c9b7ad36.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2022-12-15",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "DOCUSIGN_-_Security_Deposit_Addendum__(01-14-2022_-_01-14-2022).pdf",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-01-17",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Invoice_235143.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-11-22",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Meld Camelot.pdf",
+      "doc_type": "other",
+      "doc_date": "2023-01-03",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "Owner Handbook 2022 (2).pdf",
+      "doc_type": "marketing_or_policy",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "invoice_09_Dec_2022_22_24_41.pdf",
+      "doc_type": "vendor_invoice",
+      "doc_date": "2022-12-09",
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "313 Camelot Ledger.pdf",
+  "pm_stated_amount_due": 2846.25,
+  "lease": {
+    "base_monthly_rent": 1975.0,
+    "recurring_addons": [
+      {
+        "name": "SDRP Monthly Premium",
+        "amount": 30.0
+      },
+      {
+        "name": "Filter Program",
+        "amount": 10.0
+      },
+      {
+        "name": "Administrative Fee",
+        "amount": 5.0
+      }
+    ],
+    "lease_start": "2022-01-19",
+    "lease_end": "2023-01-18",
+    "current_term_start": "2022-01-19",
+    "current_term_end": "2023-01-18",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "sdrp",
+    "waived_deposit_amount": 2963.0,
+    "monthly_sd_premium": 30.0,
+    "cash_deposit_amount": null,
+    "lease_break_terms": "Responsible for rent and utilities until new tenant found or through entire term of lease"
+  },
+  "move_out": {
+    "move_out_date": null,
+    "termination": "early_termination",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-01-23",
+    "balance_due": 2846.25,
+    "first_full_month": "2022-02",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2022-10-06"
+  },
+  "line_items": [
+    {
+      "description": "4340 - Late Fee : Calculated on 10/06/2022 5:02 AM by system",
+      "category": "late_fee",
+      "amount_open": 296.25,
+      "amount_charged": 296.25,
+      "date_posted": "2022-10-06",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "313 Camelot Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "4010 - Maintenance Coordination Fee",
+      "category": "maintenance_coordination_fee",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "313 Camelot Ledger.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "5018 - Move-out Repair : T3Y8TLZ (Atlantic Pest odd job / flea treatment)",
+      "category": "pest_remediation",
+      "amount_open": 150.0,
+      "amount_charged": 150.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "Invoice_235143.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Full landscaping needed including filling in holes (Meld #T7BJF7V)",
+      "category": "landscaping_lawn",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Full trash out (Meld #T7BJF7V)",
+      "category": "trash_removal",
+      "amount_open": 400.0,
+      "amount_charged": 400.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Full deep cleaning (Meld #T7BJF7V)",
+      "category": "cleaning",
+      "amount_open": 400.0,
+      "amount_charged": 400.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "Carpet cleaning with stain treatment and pet enzyme treatment (Meld #T7BJF7V)",
+      "category": "carpet_cleaning",
+      "amount_open": 200.0,
+      "amount_charged": 200.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "List of all maintenance items on Meld (Meld #T7BJF7V)",
+      "category": "repairs_damage",
+      "amount_open": 875.0,
+      "amount_charged": 875.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_22_54.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    },
+    {
+      "description": "5018 - Move-out Repair : TJAEZHX (Vacuum carpets after flea treatment, cat feces/litter in room off garage)",
+      "category": "pet_damage_odor",
+      "amount_open": 125.0,
+      "amount_charged": 125.0,
+      "date_posted": "2022-12-12",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": true,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "invoice_09_Dec_2022_22_24_41.pdf",
+      "source_page": 1,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [],
+  "reconciliation": "sum(open lines) - credits = 2846.25 vs PM stated 2846.25; exact match to unpaid ledger balance backed by vendor invoices",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": true
+  },
+  "evidence": [
+    {
+      "flag": "mixed_pet_nonpet_line",
+      "quote": "Carpet cleaning with stain treatment and pet enzyme treatment",
+      "file": "invoice_09_Dec_2022_22_22_54.pdf"
+    }
+  ],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated early around November 2022 (no November rent charged; move-out work order created 2022-11-04). Outstanding balance comprises unpaid October 2022 late fee ($296.25), maintenance coordination fee ($200.00), and three vendor repair invoices totaling $2,350.00."
+}

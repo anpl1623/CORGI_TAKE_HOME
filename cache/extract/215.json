@@ -1,0 +1,241 @@
+{
+  "tracking": 215,
+  "documents": [
+    {
+      "file": "333 Sarava Lane - Lease.pdf",
+      "doc_type": "lease",
+      "doc_date": "2022-08-31",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "333 Sarava Lane - Ledger.pdf",
+      "doc_type": "tenant_ledger",
+      "doc_date": "2023-09-20",
+      "revised": false,
+      "used_for_amounts": true
+    },
+    {
+      "file": "333 Sarava Lane - No refund letter.pdf",
+      "doc_type": "demand_or_collection_letter",
+      "doc_date": "2023-09-20",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "333 Sarava Lane - SD Insurance Addendum.JPG",
+      "doc_type": "sd_addendum",
+      "doc_date": "2022-08-30",
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "333 Sarava Lane - Tenant Contact Virginia.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    },
+    {
+      "file": "333 Sarava Lane - Tenant Contact Xavier.JPG",
+      "doc_type": "tenant_contact_or_application",
+      "doc_date": null,
+      "revised": false,
+      "used_for_amounts": false
+    }
+  ],
+  "winning_document": "333 Sarava Lane - Ledger.pdf",
+  "pm_stated_amount_due": 2260.92,
+  "lease": {
+    "base_monthly_rent": 2395.0,
+    "recurring_addons": [
+      {
+        "name": "Security Deposit Insurance",
+        "amount": 59.0
+      },
+      {
+        "name": "YRIG Renters Insurance",
+        "amount": 20.0
+      }
+    ],
+    "lease_start": "2022-08-31",
+    "lease_end": "2023-08-31",
+    "current_term_start": "2022-08-31",
+    "current_term_end": "2023-08-31",
+    "initial_term_months": 12,
+    "is_renewal": false,
+    "is_month_to_month": false,
+    "sd_program": "deposit_waiver",
+    "waived_deposit_amount": 2500.0,
+    "monthly_sd_premium": 59.0,
+    "cash_deposit_amount": 0.0,
+    "lease_break_terms": "60 days notice, pay 1 month rent as liquidated damages, pay early lease termination admin fee of $500"
+  },
+  "move_out": {
+    "move_out_date": "2023-08-21",
+    "termination": "end_of_term",
+    "holdover_days_after_lease_end": null,
+    "re_let_date": null
+  },
+  "ledger": {
+    "as_of_date": "2023-09-20",
+    "balance_due": 2260.92,
+    "first_full_month": "2022-09",
+    "first_full_month_paid_in_full": true,
+    "first_payment_bounced": false,
+    "last_payment_date": "2023-07-02"
+  },
+  "line_items": [
+    {
+      "description": "TBR Rent Charge (prorated 08/01/23 - 08/21/23 net of reversal)",
+      "category": "rent_in_term",
+      "amount_open": 1622.42,
+      "amount_charged": 2395.0,
+      "date_posted": "2023-08-01",
+      "service_period_start": "2023-08-01",
+      "service_period_end": "2023-08-21",
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "YRIG Prem",
+      "category": "rbp_insurance_liability_fee",
+      "amount_open": 20.0,
+      "amount_charged": 20.0,
+      "date_posted": "2023-08-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "Sec Dep Ins Charge to Tenant",
+      "category": "sdrp_premium",
+      "amount_open": 59.0,
+      "amount_charged": 59.0,
+      "date_posted": "2023-08-01",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Late Charge to Owner",
+      "category": "late_fee",
+      "amount_open": 239.5,
+      "amount_charged": 239.5,
+      "date_posted": "2023-08-07",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - MARK ON WALL",
+      "category": "painting",
+      "amount_open": 150.0,
+      "amount_charged": 150.0,
+      "date_posted": "2023-09-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - ADDITIONAL CLEANING NEEDED FOR STOVE",
+      "category": "cleaning",
+      "amount_open": 85.0,
+      "amount_charged": 85.0,
+      "date_posted": "2023-09-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    },
+    {
+      "description": "TBR Damages to Property Charges - ADDITIONAL CLEANING NEEDED FOR FRIDGE",
+      "category": "cleaning",
+      "amount_open": 85.0,
+      "amount_charged": 85.0,
+      "date_posted": "2023-09-18",
+      "service_period_start": null,
+      "service_period_end": null,
+      "days_after_lease_end": null,
+      "pet_related": false,
+      "water_fire_flood": false,
+      "owner_responsible": false,
+      "is_estimate_only": false,
+      "source_file": "333 Sarava Lane - Ledger.pdf",
+      "source_page": 3,
+      "confidence": 0.95
+    }
+  ],
+  "credits": [
+    {
+      "description": "TBR Rent Charge reversal for 8/22/23-8/31/23 (tenant vacated 8/21/23)",
+      "amount": 772.58,
+      "type": "concession_or_reversal",
+      "already_netted_in_line_items": true,
+      "source_file": "333 Sarava Lane - Ledger.pdf"
+    }
+  ],
+  "reconciliation": "sum(open lines) - credits = 2260.92 vs PM stated 2260.92; exact match (August rent of $2395.00 netted with -$772.58 reversal for 8/22-8/31 yields $1622.42 net open rent).",
+  "flags": {
+    "test_claim": false,
+    "no_policy_evidence": false,
+    "other_provider": false,
+    "premiums_unpaid": false,
+    "pm_withdrew_or_void": false,
+    "tenant_paid_or_settled_with_pm": false,
+    "payment_arrangement": false,
+    "owner_waived_balance": false,
+    "tenant_still_in_possession": false,
+    "tenant_never_moved_in": false,
+    "military_scra": false,
+    "short_term_lease": false,
+    "tenant_disputes_charges": false,
+    "missing_itemization": false,
+    "missing_ledger": false,
+    "flooring_without_support": false,
+    "mixed_pet_nonpet_line": false
+  },
+  "evidence": [],
+  "extraction_confidence": 0.95,
+  "notes": "Tenant vacated 10 days before lease end (8/21/2023). PM reversed rent for 8/22-8/31 ($772.58). Remaining balance comprises prorated August rent ($1,622.42), August SDRP premium ($59.00), August renters insurance ($20.00), late fee ($239.50), wall mark touchup ($150.00), and stove and fridge cleaning ($85.00 each)."
+}

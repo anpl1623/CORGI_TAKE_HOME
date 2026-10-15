@@ -1,0 +1,172 @@
+{
+ "tracking": 774,
+ "winning_document": "102 Waymire Move Out Statement.pdf",
+ "pm_stated_amount_due": 100,
+ "documents": [
+  {
+   "file": "102 Waymire Move Out Statement.pdf",
+   "doc_type": "move_out_statement",
+   "doc_date": "2024-07-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Winning accounting doc: June 2024 charges prorated 25 days credit and paid; only Carpet Cleaning 100.00 open."
+  },
+  {
+   "file": "102 Waymire SDI.pdf",
+   "doc_type": "itemization_form",
+   "doc_date": null,
+   "used_for_amounts": true,
+   "opened_visually": true,
+   "revised": false,
+   "note": "Scanned SDI opened: notice 5/22/24, move-out 6/5/24, lease expiration 8/31/24; only Carpet/Floor Cleaning 100.00; total due 100.00; no deposit; no reletting/future rent entries."
+  },
+  {
+   "file": "102 Waymire Move Out Letter.pdf",
+   "doc_type": "demand_or_collection_letter",
+   "doc_date": "2024-07-11",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Cover letter states balance due 100.00."
+  },
+  {
+   "file": "102 Waymire Ledger.docx",
+   "doc_type": "tenant_ledger",
+   "doc_date": "2024-08-27",
+   "used_for_amounts": true,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Confirms June proration credits and that only 7/11/2024 carpet cleaning 100.00 is open."
+  },
+  {
+   "file": "102 Waymire Addendum.pdf",
+   "doc_type": "sd_addendum",
+   "doc_date": "2023-08-08",
+   "used_for_amounts": false,
+   "opened_visually": true,
+   "revised": false,
+   "note": "No text layer; opened. Security Deposit Waiver YES (33/mo, waives one month's rent); renters insurance NO; signed 8/8/23."
+  },
+  {
+   "file": "102 Waymire Lease.pdf",
+   "doc_type": "lease",
+   "doc_date": "2023-09-01",
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Nebraska lease: rent 1,395.00; para 11 early move-out reletting charge 500.00; acceleration/mitigation clauses (text-extracted, not opened visually)."
+  },
+  {
+   "file": "TRE DD Authorization Form.pdf",
+   "doc_type": "ach_dd_authorization",
+   "doc_date": null,
+   "used_for_amounts": false,
+   "opened_visually": false,
+   "revised": false,
+   "note": "Not opened; template, ignored."
+  }
+ ],
+ "lease": {
+  "base_monthly_rent": 1395,
+  "lease_start": "2023-09-01",
+  "lease_end": "2024-08-31",
+  "current_term_start": "2023-09-01",
+  "current_term_end": "2024-08-31",
+  "is_renewal": false,
+  "is_month_to_month": false,
+  "initial_term_months": 12,
+  "sd_program": "deposit_waiver",
+  "waived_deposit_amount": 1395,
+  "cash_deposit_amount": 0,
+  "monthly_sd_premium": 33,
+  "recurring_addons": [
+   {
+    "name": "Utility Revenue",
+    "amount": 30
+   },
+   {
+    "name": "Security Deposit Protection (deposit waiver fee)",
+    "amount": 33
+   }
+  ],
+  "lease_break_terms": "Nebraska lease para 11: reletting charge 500.00 for early move-out; tenant remains liable for remaining rent (acceleration clause) subject to landlord's duty to mitigate/re-rent."
+ },
+ "move_out": {
+  "move_out_date": "2024-06-05",
+  "termination": "early_termination",
+  "holdover_days_after_lease_end": null,
+  "re_let_date": null
+ },
+ "ledger": {
+  "as_of_date": "2024-08-27",
+  "balance_due": 100,
+  "first_full_month": "2023-09",
+  "first_full_month_paid_in_full": true,
+  "first_payment_bounced": false,
+  "last_payment_date": "2024-06-10"
+ },
+ "line_items": [
+  {
+   "description": "Carpet Cleaning",
+   "category": "carpet_cleaning",
+   "amount_charged": 100,
+   "amount_open": 100,
+   "date_posted": "2024-07-11",
+   "pet_related": false,
+   "water_fire_flood": false,
+   "owner_responsible": false,
+   "is_estimate_only": false,
+   "source_file": "102 Waymire Move Out Statement.pdf",
+   "source_page": 1,
+   "confidence": 0.97
+  }
+ ],
+ "credits": [
+  {
+   "description": "PM proration credit for 25 days after 6/5/2024 move-out on June 2024 charges (rent -1,163, SD protection -27, utility -25); leaves net June rent 232 for 6/1-6/5 which was paid by 6/10/2024 payment of 243",
+   "amount": 1215,
+   "type": "concession_or_reversal",
+   "source_file": "102 Waymire Move Out Statement.pdf",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "test_claim": false,
+  "no_policy_evidence": false,
+  "other_provider": false,
+  "premiums_unpaid": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "payment_arrangement": false,
+  "owner_waived_balance": false,
+  "tenant_still_in_possession": false,
+  "tenant_never_moved_in": false,
+  "military_scra": false,
+  "short_term_lease": false,
+  "tenant_disputes_charges": false,
+  "missing_itemization": false,
+  "missing_ledger": false,
+  "flooring_without_support": false,
+  "mixed_pet_nonpet_line": false
+ },
+ "evidence": [
+  {
+   "file": "102 Waymire Addendum.pdf",
+   "flag": "sd_program_deposit_waiver",
+   "quote": "Security Deposit Waiver YES checked, $33 per month, waives deposit equal to one month's rent"
+  },
+  {
+   "file": "102 Waymire Move Out Letter.pdf",
+   "flag": "pm_stated_amount_due",
+   "quote": "shows your balance due of $100.00"
+  }
+ ],
+ "reconciliation": "Open line carpet cleaning 100.00; credits 0 net (June proration credit 1,215 already offset against June charges, which are paid); matches PM stated 100.00 exactly.",
+ "extraction_confidence": 0.97,
+ "notes": "Early termination: move-out 6/5/2024 vs lease end 8/31/2024 (14-day notice given 5/22/2024). PM claimed NO post-move-out rent, reletting fee ($500 per lease para 11) or lease-break fee; only carpet cleaning 100.00 is claimed. Net June rent for 6/1-6/5 was 232 (1,395 less 1,163 credit) and was paid. May late fee 100 was paid 6/1/2024. Deposit waived, no cash deposit.",
+ "_meta": {
+  "run": "wf_c00934e2-f06",
+  "agent": "a56a10499bfb3a86d"
+ }
+}
