@@ -18,6 +18,18 @@ python3 payout.py 49 --docs-only     # ignore the adjuster's PM Explanation
 python3 payout.py 49 --json          # machine-readable decision
 ```
 
+## Demo UI (Next.js)
+
+```bash
+cd ui && npm install
+npm run build && npm start          # http://localhost:3217
+python3 payout_engine/export_ui.py  # (re)export engine decisions + metrics to ui/data/
+```
+
+Pages: **Overview** (headline metrics) · **Payout lookup** (`49`, `7-20`, `7-20,49`, `open`, `all`) with a per-claim
+line-by-line adjudication · **Evals** (exact %, MAPE, held-out vs in-sample, ablation, error distribution, splits,
+decline confusion) · **Rule book** · **Data findings** · **System**. Styled after the AP-2002 datasheet design system.
+
 ## How it works
 
 ```
