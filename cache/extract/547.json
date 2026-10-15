@@ -1,0 +1,98 @@
+{
+ "tracking": 547,
+ "line_items": [
+  {
+   "description": "Rent Mar 2024 (full month)",
+   "category": "rent_in_term",
+   "amount_open": 1700,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fee Mar 2024",
+   "category": "sdrp_premium",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SecondNature resident benefit Mar 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Asset Protection Mar 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Posting fee for unpaid rent",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Mar 2024",
+   "category": "late_fee",
+   "amount_open": 204,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out cleaning 04/04/24",
+   "category": "cleaning",
+   "amount_open": 375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lawn service 04/04/24",
+   "category": "landscaping_lawn",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Backflow repair 04/04/24",
+   "category": "repairs_damage",
+   "amount_open": 240,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repairs 04/04/24",
+   "category": "repairs_damage",
+   "amount_open": 683,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility expenses 04/04/24",
+   "category": "utilities",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 3817,
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

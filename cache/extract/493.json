@@ -1,0 +1,98 @@
+{
+ "tracking": 493,
+ "line_items": [
+  {
+   "description": "Re-rent service charge",
+   "category": "reletting_fee",
+   "amount_open": 1000,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Tenant responsible repairs parts labor",
+   "category": "repairs_damage",
+   "amount_open": 367.09,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear painting",
+   "category": "painting",
+   "amount_open": 168,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear cleaning",
+   "category": "cleaning",
+   "amount_open": 285,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Hauling leftover items and vacancy",
+   "category": "trash_removal",
+   "amount_open": 290,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Returned January payment recharged",
+   "category": "rent_in_term",
+   "amount_open": 1331.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF returned item fee",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "February and prorated March rent",
+   "category": "rent_after_move_out",
+   "amount_open": 1581,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Amenity packages Feb and Mar",
+   "category": "other_fee",
+   "amount_open": 70,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Renters insurance Feb and Mar",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 23.9,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Zero deposit fees Feb-Mar",
+   "category": "sdrp_premium",
+   "amount_open": 90,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "pm_stated_amount_due": 5211.94,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81df49f6aae7cd20"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "tracking": 580,
+ "line_items": [
+  {
+   "description": "Move-out rekey",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Removed items, debris, trash",
+   "category": "trash_removal",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Blind, bulbs, smoke alarm battery",
+   "category": "repairs_damage",
+   "amount_open": 124,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning (invoice 4424)",
+   "category": "carpet_cleaning",
+   "amount_open": 239,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Deep cleaning",
+   "category": "cleaning",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Ozone pet treatment",
+   "category": "pet_damage_odor",
+   "amount_open": 82.5,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Front and back yard maintenance",
+   "category": "landscaping_lawn",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Paint touch-ups",
+   "category": "painting",
+   "amount_open": 187,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 1471.5,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81e0bf8ef17b1ccc"
+ }
+}

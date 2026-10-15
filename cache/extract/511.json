@@ -1,0 +1,56 @@
+{
+ "tracking": 511,
+ "line_items": [
+  {
+   "description": "Make ready repairs",
+   "category": "repairs_damage",
+   "amount_open": 977.9,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee, returned chargeback",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utilities Schertz Dec-Jan",
+   "category": "utilities",
+   "amount_open": 88.74,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utilities CPS Nov-Dec 2023",
+   "category": "utilities",
+   "amount_open": 23.47,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 12271.92,
+ "extraction_confidence": 0.25,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a07b4b30cd181eb12"
+ }
+}

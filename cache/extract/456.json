@@ -1,0 +1,41 @@
+{
+ "tracking": 456,
+ "line_items": [
+  {
+   "description": "Maintenance deposit forfeit",
+   "category": "repairs_damage",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Landscaping deposit forfeit",
+   "category": "landscaping_lawn",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Painting deposit forfeit",
+   "category": "painting",
+   "amount_open": 3500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Cleaning deposit forfeit",
+   "category": "cleaning",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 5450,
+ "flags": {},
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

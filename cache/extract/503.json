@@ -1,0 +1,98 @@
+{
+ "tracking": 503,
+ "line_items": [
+  {
+   "description": "Make ready (cleaning, paint, repairs)",
+   "category": "repairs_damage",
+   "amount_open": 1564.31,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee February 2024",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Dec 2023 and Jan 2024",
+   "category": "rent_in_term",
+   "amount_open": 3590,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Feb 2024 after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Dec through Feb",
+   "category": "late_fee",
+   "amount_open": 646.2,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utilities Dec through Feb",
+   "category": "utilities",
+   "amount_open": 352.32,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package Dec-Feb",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 135,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Preferred tenant fees Dec-Feb",
+   "category": "other_fee",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Notice delivery fee December",
+   "category": "other_fee",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 8461.83,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a07b4b30cd181eb12"
+ }
+}

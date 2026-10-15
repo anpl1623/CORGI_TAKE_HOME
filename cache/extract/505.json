@@ -1,0 +1,69 @@
+{
+ "tracking": 505,
+ "line_items": [
+  {
+   "description": "Jan 2024 rent remainder",
+   "category": "rent_in_term",
+   "amount_open": 65.9,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package January",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 45.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fee January 2024",
+   "category": "sdrp_premium",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee January 2024",
+   "category": "late_fee",
+   "amount_open": 195,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out rekey chargeback",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Prepaid overpayment from Oct 2023",
+   "amount": 576,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Tenant payments Nov 2023 to Jan 2024",
+   "amount": 3115,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 440.85,
+ "extraction_confidence": 0.6,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a07b4b30cd181eb12"
+ }
+}

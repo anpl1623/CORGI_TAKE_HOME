@@ -1,0 +1,42 @@
+{
+ "tracking": 545,
+ "line_items": [
+  {
+   "description": "Sec Dep charge - landscape (5303)",
+   "category": "landscaping_lawn",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec Dep charge - carpet and tile (5301)",
+   "category": "flooring",
+   "amount_open": 275,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec Dep charge - general and window (5302)",
+   "category": "repairs_damage",
+   "amount_open": 503.58,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 1228.58,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

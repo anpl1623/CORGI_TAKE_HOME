@@ -1,0 +1,98 @@
+{
+ "tracking": 322,
+ "line_items": [
+  {
+   "description": "Make-ready repairs and services",
+   "category": "repairs_damage",
+   "amount_open": 2822.48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "October rent after lease end",
+   "category": "rent_after_lease_end",
+   "amount_open": 1500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package October",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 59,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Preferred tenant monthly fee",
+   "category": "other_fee",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee charged 10/05/23",
+   "category": "late_fee",
+   "amount_open": 180,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction writ invoice fees",
+   "category": "eviction_legal_court",
+   "amount_open": 349.29,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Water utility reimbursement",
+   "category": "utilities",
+   "amount_open": 94.78,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Earlier unpaid rent and fees",
+   "category": "rent_in_term",
+   "amount_open": 8092.83,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 13311.38,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acb8d1951fbb887b3"
+ }
+}

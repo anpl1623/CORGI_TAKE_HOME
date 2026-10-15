@@ -1,0 +1,112 @@
+{
+ "tracking": 667,
+ "line_items": [
+  {
+   "description": "Prior balance as of 6/01",
+   "category": "rent_in_term",
+   "amount_open": 1730,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "June residential rent, month-to-month",
+   "category": "rent_after_lease_end",
+   "amount_open": 978,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "June month-to-month rent",
+   "category": "rent_after_lease_end",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Renters insurance June",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 17,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pet fee June",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit protection June",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility revenue June",
+   "category": "utilities",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charge 06/06",
+   "category": "late_fee",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Excessive cleaning",
+   "category": "cleaning",
+   "amount_open": 170,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Removal of items",
+   "category": "trash_removal",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet replacement",
+   "category": "flooring",
+   "amount_open": 1340,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Reletting fee, no notice",
+   "category": "reletting_fee",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Move-out proration credits, 11 days",
+   "amount": 417,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 4541,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a994069ccbf0dc814"
+ }
+}

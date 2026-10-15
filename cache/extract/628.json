@@ -1,0 +1,112 @@
+{
+ "tracking": 628,
+ "line_items": [
+  {
+   "description": "Unpaid rent Apr-May 2024",
+   "category": "rent_in_term",
+   "amount_open": 3390,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Haul away items and trash",
+   "category": "trash_removal",
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Steam clean carpets",
+   "category": "carpet_cleaning",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replace 4 of 5 blinds",
+   "category": "repairs_damage",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Touch up paint from scuffs",
+   "category": "painting",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey after set-out",
+   "category": "rekey_locks",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trim bushes and mow lawn",
+   "category": "landscaping_lawn",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Apr and May",
+   "category": "late_fee",
+   "amount_open": 508.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Court filing fees",
+   "category": "eviction_legal_court",
+   "amount_open": 80,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fees Apr and May",
+   "category": "sdrp_premium",
+   "amount_open": 96,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance fees Apr and May",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 78,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility final bills Apr 2024",
+   "category": "utilities",
+   "amount_open": 407.66,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lease violation unauthorized occupant",
+   "category": "other_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 5850.16,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a2fed951b37547054"
+ }
+}

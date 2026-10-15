@@ -1,0 +1,185 @@
+{
+ "tracking": 796,
+ "line_items": [
+  {
+   "description": "Jul rent, net of payments",
+   "category": "rent_in_term",
+   "amount_open": 1100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jul security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 70,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jul pet rent",
+   "category": "pet_fee_rent",
+   "amount_open": 40,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jul Latchel concierge service",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jul late fee to owner",
+   "category": "late_fee",
+   "amount_open": 145,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jul 3-day vacate notice",
+   "category": "eviction_legal_court",
+   "amount_open": 65,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug rent",
+   "category": "rent_in_term",
+   "amount_open": 1450,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 70,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug pet rent",
+   "category": "pet_fee_rent",
+   "amount_open": 40,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug Latchel concierge service",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug late fee to owner",
+   "category": "late_fee",
+   "amount_open": 145,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 3-day vacate notice",
+   "category": "eviction_legal_court",
+   "amount_open": 65,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep rent, 9/1-9/3 only",
+   "category": "rent_in_term",
+   "amount_open": 145,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 70,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep pet rent, 9/1-9/3",
+   "category": "pet_fee_rent",
+   "amount_open": 4,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep Latchel concierge service",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Exterior trash-out",
+   "category": "trash_removal",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pet damage to door frame",
+   "category": "pet_damage_odor",
+   "amount_open": 100,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sink cabinet door damaged",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Opening prior-balance credit",
+   "amount": 1450,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Six tenant payments",
+   "amount": 9274.13,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Security deposit applied 9/9",
+   "amount": 350,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Eviction fee reversed 9/9",
+   "amount": 235,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Post-move-out rent and pet reversed",
+   "amount": 1341,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 3803.97,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "extraction_confidence": 0.75,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a6bd79cfe3179ecb3"
+ }
+}

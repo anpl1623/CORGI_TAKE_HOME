@@ -1,0 +1,175 @@
+{
+ "tracking": 482,
+ "line_items": [
+  {
+   "description": "Firepit removal, landscaping damage",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Painting, drywall, touch-up",
+   "category": "painting",
+   "amount_open": 575,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 325,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out trash out",
+   "category": "trash_removal",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Jan 2024, after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Jan 2024",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Jan 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 12/06/2023",
+   "category": "late_fee",
+   "amount_open": 137.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Dec 2023",
+   "category": "rent_in_term",
+   "amount_open": 1375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Dec 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Dec 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 11/06/2023",
+   "category": "late_fee",
+   "amount_open": 137.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Nov 2023",
+   "category": "rent_in_term",
+   "amount_open": 1375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Nov 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Nov 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Returned payment rent recharge",
+   "category": "rent_in_term",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 10/25/2023",
+   "category": "late_fee",
+   "amount_open": 167.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Oct 2023",
+   "category": "rent_in_term",
+   "amount_open": 1375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Oct 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Oct 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Older balance, ledger truncated",
+   "category": "other_fee",
+   "amount_open": 2356,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 10516.5,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.55,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a3aa53ec26f52220b"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "tracking": 608,
+ "line_items": [
+  {
+   "description": "Repairs (drywall, hinge, paint)",
+   "category": "repairs_damage",
+   "amount_open": 262.35,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Cleaning",
+   "category": "cleaning",
+   "amount_open": 308.51,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet",
+   "category": "carpet_cleaning",
+   "amount_open": 194.85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Landscape work",
+   "category": "landscaping_lawn",
+   "amount_open": 514.19,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit tendered",
+   "amount": 250,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 1029.9,
+ "extraction_confidence": 0.75,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ae8b5459b760ecf12"
+ }
+}

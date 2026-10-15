@@ -1,0 +1,91 @@
+{
+ "tracking": 557,
+ "line_items": [
+  {
+   "description": "Rent Mar 2024 (unpaid)",
+   "category": "rent_in_term",
+   "amount_open": 1715,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Amenity service package Mar 2024",
+   "category": "other_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Zero deposit program charge Mar 2024",
+   "category": "sdrp_premium",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF item 03/14/24",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Three-day notice service",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Tenant-responsible repairs (Jarvis #0296)",
+   "category": "repairs_damage",
+   "amount_open": 135.43,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear cleaning",
+   "category": "cleaning",
+   "amount_open": 320,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Hauling left-over furniture",
+   "category": "trash_removal",
+   "amount_open": 90,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet clean and pet remediation",
+   "category": "pet_damage_odor",
+   "amount_open": 805,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear painting",
+   "category": "painting",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 3220.43,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "tracking": 353,
+ "line_items": [
+  {
+   "description": "Aug 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 3495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Aug 2023",
+   "category": "sdrp_premium",
+   "amount_open": 67,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Aug 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee Aug 2023",
+   "category": "admin_itemization_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unlabeled $125 charge",
+   "category": "other_fee",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 3495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Sep 2023",
+   "category": "sdrp_premium",
+   "amount_open": 67,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Sep 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee Sep 2023",
+   "category": "admin_itemization_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 3495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Oct 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Oct 2023",
+   "category": "sdrp_premium",
+   "amount_open": 67,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee Oct 2023",
+   "category": "admin_itemization_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction court fees, invoice 9141",
+   "category": "eviction_legal_court",
+   "amount_open": 771,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Nov rent, 13 days prorated",
+   "category": "rent_after_lease_end",
+   "amount_open": 1514,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Nov RBP prorated, 13 days",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 16.9,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Nov 2023",
+   "category": "sdrp_premium",
+   "amount_open": 67,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee Nov 2023",
+   "category": "admin_itemization_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Nov 2023",
+   "category": "late_fee",
+   "amount_open": 139.8,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction court fees, 9521",
+   "category": "eviction_legal_court",
+   "amount_open": 1040,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Diamond Construction repairs and hauling",
+   "category": "repairs_damage",
+   "amount_open": 2995,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior painting",
+   "category": "painting",
+   "amount_open": 4850,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior cleaning",
+   "category": "cleaning",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 230,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey",
+   "category": "rekey_locks",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replaced master bath tub handles",
+   "category": "repairs_damage",
+   "amount_open": 970,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 24391.7,
+ "flags": {
+  "missing_itemization": false
+ },
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a2e3fb1aca1ab0a2a"
+ }
+}

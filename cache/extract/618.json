@@ -1,0 +1,119 @@
+{
+ "tracking": 618,
+ "line_items": [
+  {
+   "description": "Late fees Nov 2023-Apr 2024",
+   "category": "late_fee",
+   "amount_open": 713,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Dec 2023-Feb 2024",
+   "category": "rent_in_term",
+   "amount_open": 4200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Mar-Apr 2024, post-lease",
+   "category": "rent_after_lease_end",
+   "amount_open": 2800,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP w/ insurance Dec-Apr",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 195,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RIS/SDRP premium Dec-Apr",
+   "category": "sdrp_premium",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction legal fees",
+   "category": "eviction_legal_court",
+   "amount_open": 1275,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash removal",
+   "category": "trash_removal",
+   "amount_open": 500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pest control",
+   "category": "pest_remediation",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior painting",
+   "category": "painting",
+   "amount_open": 2800,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unlabeled charge",
+   "category": "other_damage",
+   "amount_open": 357.83,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unlabeled charge",
+   "category": "other_damage",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lawn care",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Vanity mirror replacement",
+   "category": "repairs_damage",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Light fixture replacement (2)",
+   "category": "repairs_damage",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 13905.83,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "afda8639df4ee7df6"
+ }
+}

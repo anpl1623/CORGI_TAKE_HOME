@@ -1,0 +1,62 @@
+{
+ "tracking": 434,
+ "line_items": [
+  {
+   "description": "Bulbs, blind, filter, door repairs",
+   "category": "repairs_damage",
+   "amount_open": 154,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Clean of home",
+   "category": "cleaning",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Scope and walk-through",
+   "category": "other_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning (invoice 1524)",
+   "category": "carpet_cleaning",
+   "amount_open": 189,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Yard cut and cleanup",
+   "category": "landscaping_lawn",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey locks",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Curb and storage trash removal",
+   "category": "trash_removal",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 1142,
+ "flags": {},
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

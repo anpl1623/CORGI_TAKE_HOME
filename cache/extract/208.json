@@ -1,0 +1,152 @@
+{
+ "tracking": 208,
+ "line_items": [
+  {
+   "description": "Admin fee per lease",
+   "category": "admin_itemization_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Prorated rent Feb 7-28",
+   "category": "rent_in_term",
+   "amount_open": 1433.93,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Mar-Jul",
+   "category": "rent_in_term",
+   "amount_open": 9125,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Aug 1-17 after reversal",
+   "category": "rent_in_term",
+   "amount_open": 1000.81,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pet rent Feb-Aug after reversal",
+   "category": "pet_fee_rent",
+   "amount_open": 253.37,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pinata service fee Mar-Aug",
+   "category": "other_fee",
+   "amount_open": 24,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge Mar-Aug",
+   "category": "other_fee",
+   "amount_open": 89.94,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit insurance Feb-Aug",
+   "category": "sdrp_premium",
+   "amount_open": 336,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "EFT service fees",
+   "category": "other_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee 1st NSF 4/5",
+   "category": "nsf_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charge 4/12",
+   "category": "late_fee",
+   "amount_open": 182.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee 5/18",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Overgrown lawn",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior trash haul",
+   "category": "trash_removal",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Dirty stove and fridge",
+   "category": "cleaning",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey three doors",
+   "category": "rekey_locks",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments Feb-Mar",
+   "type": "tenant_payment",
+   "amount": 1830.35,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "April free rent credit",
+   "type": "concession_or_reversal",
+   "amount": 1825,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Rent reservation fee reversal 2/1",
+   "type": "concession_or_reversal",
+   "amount": 1825,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 9165.2,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aea06506fbfdd25d1"
+ }
+}

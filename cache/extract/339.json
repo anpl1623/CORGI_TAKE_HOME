@@ -1,0 +1,214 @@
+{
+ "tracking": 339,
+ "pm_stated_amount_due": 9089.57,
+ "extraction_confidence": 0.8,
+ "line_items": [
+  {
+   "description": "Aug 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 Latchel concierge",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 Latchel concierge",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Durable Heating and Air chargeback",
+   "category": "repairs_damage",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 rent net",
+   "category": "rent_in_term",
+   "amount_open": 1737.1,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 Latchel concierge",
+   "category": "other_fee",
+   "amount_open": 14.99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Overgrown lawn, shrubs, weeds",
+   "category": "landscaping_lawn",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey doors and smartlock",
+   "category": "rekey_locks",
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Drywall damage and small holes",
+   "category": "repairs_damage",
+   "amount_open": 325,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Kitchen floor damaged",
+   "category": "flooring",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Touch clean house, appliances",
+   "category": "cleaning",
+   "amount_open": 500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash removal inside and outside",
+   "category": "trash_removal",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Screen door damaged",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Feb-Jul 2023 tenant payments",
+   "amount": 8820.45,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Feb 2023 rent reservation reversal",
+   "amount": 1795,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "April 2023 free rent credit",
+   "amount": 1795,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Oct 2023 rent reversal",
+   "amount": 57.9,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad6e01548e6093c60"
+ }
+}

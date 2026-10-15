@@ -1,0 +1,84 @@
+{
+ "tracking": 389,
+ "pm_stated_amount_due": 3949,
+ "line_items": [
+  {
+   "description": "Rent September 2023",
+   "category": "rent_in_term",
+   "amount_open": 1350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent October 2023",
+   "category": "rent_in_term",
+   "amount_open": 1350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fees Sep-Oct 2023",
+   "category": "sdrp_premium",
+   "amount_open": 56,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP with insurance Sep-Oct",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 78,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pet rent Sep-Oct (1 cat)",
+   "category": "pet_fee_rent",
+   "amount_open": 60,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Forfeit: remove trash, items",
+   "category": "trash_removal",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lawn cut and cleanup forfeit",
+   "category": "landscaping_lawn",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "House cleaning forfeit",
+   "category": "cleaning",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lease violation coordination fee",
+   "category": "other_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a8c12810fc3241ffb"
+ }
+}

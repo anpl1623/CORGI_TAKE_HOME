@@ -1,0 +1,70 @@
+{
+ "tracking": 421,
+ "line_items": [
+  {
+   "description": "Unpaid rent Sep-Dec 2023",
+   "category": "rent_in_term",
+   "amount_open": 1869,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "January 2024 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 595,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP without insurance Oct-Jan",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 108,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Water and gas reimbursements Sep-Jan",
+   "category": "utilities",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premiums Sep 2023-Jan 2024",
+   "category": "sdrp_premium",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Dec 2023 and Jan 2024",
+   "category": "late_fee",
+   "amount_open": 119,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash out unit hauling",
+   "category": "trash_removal",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 4949,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.5,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "adfad89316d19def4"
+ }
+}

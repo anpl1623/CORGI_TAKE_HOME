@@ -1,0 +1,108 @@
+{
+ "tracking": 308,
+ "line_items": [
+  {
+   "description": "Prorated rent Aug 2022",
+   "category": "rent_in_term",
+   "amount_open": 1129.03,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Sep 2022-Aug 2023",
+   "category": "rent_in_term",
+   "amount_open": 21000,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Holdover rent Sep-Oct 12 2023",
+   "category": "rent_after_lease_end",
+   "amount_open": 2427.42,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee per lease",
+   "category": "admin_itemization_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec dep insurance premiums x14",
+   "category": "sdrp_premium",
+   "amount_open": 672,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "EFT service fees x3",
+   "category": "other_fee",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charge Mar 2023",
+   "category": "late_fee",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Sep 2 web payment",
+   "amount": 1187.03,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Oct 3 web payment",
+   "amount": 1808,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Nov 4 web payment",
+   "amount": 1808,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Aug 11 cash payment",
+   "amount": 200,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Aug 8 cash prepaid, reallocated",
+   "amount": 1750,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.8,
+ "pm_stated_amount_due": 20930.42,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aebdc18932c84dd11"
+ }
+}

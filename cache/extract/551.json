@@ -1,0 +1,168 @@
+{
+ "tracking": 551,
+ "line_items": [
+  {
+   "description": "Early termination fee 11/08/23",
+   "category": "lease_break_fee",
+   "amount_open": 2955,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Dec 2023 (after move-out)",
+   "category": "rent_after_move_out",
+   "amount_open": 2755,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Preferred tenant fee Dec 2023",
+   "category": "other_fee",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package Dec 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 41,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Dec 2023",
+   "category": "late_fee",
+   "amount_open": 330.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SAWS water 11/28-12/13/23",
+   "category": "utilities",
+   "amount_open": 48.75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Jan 2024 (after move-out)",
+   "category": "rent_after_move_out",
+   "amount_open": 2755,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Preferred tenant fee Jan 2024",
+   "category": "other_fee",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package Jan 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 41,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Jan 2024",
+   "category": "late_fee",
+   "amount_open": 330.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "CPS electric 12/01-12/27/23",
+   "category": "utilities",
+   "amount_open": 68.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SAWS water 12/14/23-01/17/24",
+   "category": "utilities",
+   "amount_open": 44.08,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Feb 2024 prorated 2/1-2/22",
+   "category": "rent_after_move_out",
+   "amount_open": 2020.33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Preferred tenant fee Feb 2024",
+   "category": "other_fee",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package Feb 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 41,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Feb 2024",
+   "category": "late_fee",
+   "amount_open": 330.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "CPS electric 12/28/23-1/26/24",
+   "category": "utilities",
+   "amount_open": 83.73,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Make ready (split-share items)",
+   "category": "repairs_damage",
+   "amount_open": 1326.88,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee 04/22/24",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 13451.52,
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

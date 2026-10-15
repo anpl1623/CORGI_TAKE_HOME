@@ -1,0 +1,56 @@
+{
+ "tracking": 559,
+ "line_items": [
+  {
+   "description": "Carpet cleaning invoice 3-323903",
+   "category": "carpet_cleaning",
+   "amount_open": 135,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Cleaning invoice #155 (Vetos)",
+   "category": "cleaning",
+   "amount_open": 217.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trim and door spot painting",
+   "category": "painting",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior repaint invoice 1014",
+   "category": "painting",
+   "amount_open": 900,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Repairs invoice #0304 (Jarvis)",
+   "category": "repairs_damage",
+   "amount_open": 298.4,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 2727.9,
+ "extraction_confidence": 0.4,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

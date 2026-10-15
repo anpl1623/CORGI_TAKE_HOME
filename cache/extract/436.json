@@ -1,0 +1,27 @@
+{
+ "tracking": 436,
+ "line_items": [
+  {
+   "description": "Deposit forfeit, house cleaning",
+   "category": "cleaning",
+   "amount_open": 400,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lease violation coordination fee",
+   "category": "other_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 455,
+ "flags": {},
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "tracking": 469,
+ "line_items": [
+  {
+   "description": "Whole house cleaning",
+   "category": "cleaning",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 200,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.92,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a3aa53ec26f52220b"
+ }
+}

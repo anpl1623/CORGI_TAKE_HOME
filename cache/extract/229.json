@@ -1,0 +1,97 @@
+{
+ "tracking": 229,
+ "line_items": [
+  {
+   "description": "Rent reservation fee 8/19/22",
+   "category": "other_fee",
+   "amount_open": 1895,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee per lease",
+   "category": "admin_itemization_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Prorated Aug rent plus Sep-Mar rent",
+   "category": "rent_in_term",
+   "amount_open": 13326.13,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "YRIG premium Sep-Mar",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 140,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit insurance Sep-Mar",
+   "category": "sdrp_premium",
+   "amount_open": 336,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge Sep-Mar",
+   "category": "other_fee",
+   "amount_open": 104.93,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "EFT service fees",
+   "category": "other_fee",
+   "amount_open": 193.12,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charges 12/6, 1/6, 2/6, 3/6",
+   "category": "late_fee",
+   "amount_open": 758,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee 12/29",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments Aug 2022-Mar 2023",
+   "type": "tenant_payment",
+   "amount": 15373.18,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Rent reservation fee reversal 8/23",
+   "type": "concession_or_reversal",
+   "amount": 1895,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 3072.49,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.2,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aea06506fbfdd25d1"
+ }
+}

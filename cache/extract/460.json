@@ -1,0 +1,77 @@
+{
+ "tracking": 460,
+ "line_items": [
+  {
+   "description": "Dec 2023 rent, 8 days",
+   "category": "rent_after_move_out",
+   "amount_open": 567.74,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 11/30/2023",
+   "category": "late_fee",
+   "amount_open": 80.07,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance 11/01/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 25.69,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance 12/01/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium 12/01/2023",
+   "category": "sdrp_premium",
+   "amount_open": 86,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee 01/11/2024",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repair, Tideland invoice 786",
+   "category": "repairs_damage",
+   "amount_open": 2957.53,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repair, no invoice text",
+   "category": "repairs_damage",
+   "amount_open": 1080,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 5036.03,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a3aa53ec26f52220b"
+ }
+}

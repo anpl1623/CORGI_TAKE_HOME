@@ -1,0 +1,90 @@
+{
+ "tracking": 233,
+ "line_items": [
+  {
+   "description": "Rent Jun-Sep 2023",
+   "category": "rent_in_term",
+   "amount_open": 7400,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Earlier unpaid balance, unitemized",
+   "category": "rent_in_term",
+   "amount_open": 1850,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Water and power utility charges",
+   "category": "utilities",
+   "amount_open": 1566.8,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees 6/6, 7/6, 8/25, 9/6",
+   "category": "late_fee",
+   "amount_open": 750.96,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Administrative fees Jun-Oct and 6/7",
+   "category": "admin_itemization_fee",
+   "amount_open": 285,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premiums Jun-Sep",
+   "category": "sdrp_premium",
+   "amount_open": 232,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Jun-Sep",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 156,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction filing and legal fees",
+   "category": "eviction_legal_court",
+   "amount_open": 1133,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Deposited tenant payment 5/18",
+   "type": "tenant_payment",
+   "amount": 5533.73,
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "Late fee waiver 5/18",
+   "type": "concession_or_reversal",
+   "amount": 185,
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 13373.76,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.75,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aea06506fbfdd25d1"
+ }
+}

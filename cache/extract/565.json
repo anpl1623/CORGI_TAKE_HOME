@@ -1,0 +1,84 @@
+{
+ "tracking": 565,
+ "line_items": [
+  {
+   "description": "Rent Dec 2023 through Mar 2024",
+   "category": "rent_in_term",
+   "amount_open": 2950,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit waiver fees",
+   "category": "sdrp_premium",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Resident benefit package fees",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 230,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Dec 2023-Mar 2024",
+   "category": "late_fee",
+   "amount_open": 456.2,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility and water charges",
+   "category": "utilities",
+   "amount_open": 342.67,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Clean house and appliances",
+   "category": "cleaning",
+   "amount_open": 532,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "General debris removal",
+   "category": "trash_removal",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction and court charges",
+   "category": "eviction_legal_court",
+   "amount_open": 717,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments Jan-Feb 2024",
+   "type": "tenant_payment",
+   "amount": 1220,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 4707.87,
+ "extraction_confidence": 0.55,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81e0bf8ef17b1ccc"
+ }
+}

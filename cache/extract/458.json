@@ -1,0 +1,27 @@
+{
+ "tracking": 458,
+ "line_items": [
+  {
+   "description": "Sec dep general and window",
+   "category": "cleaning",
+   "amount_open": 360,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec dep landscape",
+   "category": "landscaping_lawn",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 810,
+ "flags": {},
+ "extraction_confidence": 0.65,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

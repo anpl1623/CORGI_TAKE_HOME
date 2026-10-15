@@ -1,0 +1,118 @@
+{
+ "tracking": 447,
+ "line_items": [
+  {
+   "description": "January 2024 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1700,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "December 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1700,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "December pet rent",
+   "category": "pet_fee_rent",
+   "amount_open": 25,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SecondNature resident benefit",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec dep replacement premium Dec",
+   "category": "sdrp_premium",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee December 2023",
+   "category": "late_fee",
+   "amount_open": 207,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction court appearance balance",
+   "category": "eviction_legal_court",
+   "amount_open": 108,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Writ of possession fee",
+   "category": "eviction_legal_court",
+   "amount_open": 155,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash haul-off",
+   "category": "trash_removal",
+   "amount_open": 450,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Temporary utilities",
+   "category": "utilities",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Tenant reletting expense 25%",
+   "category": "reletting_fee",
+   "amount_open": 425,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 375,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning balance",
+   "category": "carpet_cleaning",
+   "amount_open": 102.02,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repairs",
+   "category": "repairs_damage",
+   "amount_open": 3293,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "SECDEP applied to pet fee",
+   "amount": 350,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 8940.02,
+ "flags": {},
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

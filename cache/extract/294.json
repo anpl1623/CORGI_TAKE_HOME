@@ -1,0 +1,77 @@
+{
+ "tracking": 294,
+ "line_items": [
+  {
+   "description": "Rent Aug 2023 in term",
+   "category": "rent_in_term",
+   "amount_open": 2190,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Sep 2023 in term",
+   "category": "rent_in_term",
+   "amount_open": 2190,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Oct 1-4 2023 in term",
+   "category": "rent_in_term",
+   "amount_open": 282.58,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Oct 5-31 post move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1907.42,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec dep insurance premiums x3",
+   "category": "sdrp_premium",
+   "amount_open": 81,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge fees x3",
+   "category": "other_fee",
+   "amount_open": 44.97,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "YRIG premiums x3",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.3,
+ "pm_stated_amount_due": 6051.55,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aebdc18932c84dd11"
+ }
+}

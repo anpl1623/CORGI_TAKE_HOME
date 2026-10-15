@@ -1,0 +1,211 @@
+{
+ "tracking": 347,
+ "line_items": [
+  {
+   "description": "Oct 2023 rent unpaid remainder",
+   "category": "rent_in_term",
+   "amount_open": 557.4,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Nov 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1695,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Dec 2023 rent after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1695,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Jan-Aug 2024 rent, within lease",
+   "category": "rent_after_move_out",
+   "amount_open": 13560,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 10/04/2023",
+   "category": "late_fee",
+   "amount_open": 203.4,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 11/30/2023",
+   "category": "late_fee",
+   "amount_open": 1830.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 12/04/2023",
+   "category": "late_fee",
+   "amount_open": 203.4,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Posting fee, unpaid rent",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "In-office payment fee",
+   "category": "other_fee",
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "HOA lawn violation fee",
+   "category": "hoa_violation",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rental verification fee",
+   "category": "other_fee",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unauthorized animal breach fee",
+   "category": "pet_fee_rent",
+   "amount_open": 300,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction filing fee",
+   "category": "eviction_legal_court",
+   "amount_open": 137.87,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction document prep fee",
+   "category": "eviction_legal_court",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Court appearance fee",
+   "category": "eviction_legal_court",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Asset protection charge",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit replacement premium",
+   "category": "sdrp_premium",
+   "amount_open": 42,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Fridge replacement",
+   "category": "appliance",
+   "amount_open": 3000,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Lawn service",
+   "category": "landscaping_lawn",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Temporary utility expenses",
+   "category": "utilities",
+   "amount_open": 252.57,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repairs",
+   "category": "repairs_damage",
+   "amount_open": 1350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash out, haul-off, toilet cleaning",
+   "category": "trash_removal",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Re-key",
+   "category": "rekey_locks",
+   "amount_open": 130.98,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pool key not returned",
+   "category": "keys_remotes",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Garage remote replacements",
+   "category": "keys_remotes",
+   "amount_open": 70,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unitemized prior balance remainder",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 26338.22,
+ "flags": {
+  "missing_itemization": false
+ },
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a2e3fb1aca1ab0a2a"
+ }
+}

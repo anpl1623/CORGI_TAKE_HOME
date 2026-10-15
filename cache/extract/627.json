@@ -1,0 +1,70 @@
+{
+ "tracking": 627,
+ "line_items": [
+  {
+   "description": "Prorated May 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Door stop",
+   "category": "repairs_damage",
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior door replacement",
+   "category": "repairs_damage",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Stove top replacement",
+   "category": "appliance",
+   "amount_open": 636.22,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Patch hole in door",
+   "category": "repairs_damage",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility reimbursement, prior unit",
+   "category": "utilities",
+   "amount_open": 171.39,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Hold deposit credited back",
+   "amount": 300,
+   "type": "security_deposit_applied",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 1117.61,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "afda8639df4ee7df6"
+ }
+}

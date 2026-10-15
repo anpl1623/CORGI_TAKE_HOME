@@ -1,0 +1,182 @@
+{
+ "tracking": 334,
+ "pm_stated_amount_due": 11105.08,
+ "extraction_confidence": 0.55,
+ "line_items": [
+  {
+   "description": "July 2023 rent balance",
+   "category": "rent_in_term",
+   "amount_open": 1657.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "July 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "July 2023 late fee",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug 2023 eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sep 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 rent",
+   "category": "rent_in_term",
+   "amount_open": 1795,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 YRIG premium",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 SD insurance",
+   "category": "sdrp_premium",
+   "amount_open": 48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Oct 2023 late charge",
+   "category": "late_fee",
+   "amount_open": 179.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash removal inside and outside",
+   "category": "trash_removal",
+   "amount_open": 650,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Blinds, living room and bedrooms",
+   "category": "repairs_damage",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet replacement, three rooms",
+   "category": "flooring",
+   "amount_open": 1200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey home",
+   "category": "rekey_locks",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replacement toilet tissue holder",
+   "category": "repairs_damage",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Clean appliances, net (truncated)",
+   "category": "cleaning",
+   "amount_open": 627.58,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Ledger payments and reversals",
+   "amount": 19033.75,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad6e01548e6093c60"
+ }
+}

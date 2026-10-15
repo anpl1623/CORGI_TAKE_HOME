@@ -1,0 +1,63 @@
+{
+ "tracking": 592,
+ "line_items": [
+  {
+   "description": "Rent Mar-Apr 2024",
+   "category": "rent_in_term",
+   "amount_open": 4390,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Tenant benefits package Mar-Apr",
+   "category": "other_fee",
+   "amount_open": 110,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Deposit waiver fee Mar-Apr",
+   "category": "sdrp_premium",
+   "amount_open": 102,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 243.56,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Keys",
+   "category": "keys_remotes",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Make-ready",
+   "category": "repairs_damage",
+   "amount_open": 960,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 5905.56,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ae8b5459b760ecf12"
+ }
+}

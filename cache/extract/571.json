@@ -1,0 +1,56 @@
+{
+ "tracking": 571,
+ "line_items": [
+  {
+   "description": "Make-ready repairs and cleaning",
+   "category": "repairs_damage",
+   "amount_open": 2805.03,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Ledger balance (M2M rent, fees)",
+   "category": "rent_after_lease_end",
+   "amount_open": 5278.56,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out itemization fee",
+   "category": "admin_itemization_fee",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance handling fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee on returned payment",
+   "category": "nsf_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 8263.59,
+ "extraction_confidence": 0.6,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81e0bf8ef17b1ccc"
+ }
+}

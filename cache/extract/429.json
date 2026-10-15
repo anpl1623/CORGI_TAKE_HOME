@@ -1,0 +1,55 @@
+{
+ "tracking": 429,
+ "line_items": [
+  {
+   "description": "Rent Nov and Dec 1-14",
+   "category": "rent_in_term",
+   "amount_open": 5588.71,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Nov and Dec",
+   "category": "sdrp_premium",
+   "amount_open": 160,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Nov and Dec",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 54,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Animal fee Nov and Dec",
+   "category": "pet_fee_rent",
+   "amount_open": 43.55,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Nov and Dec",
+   "category": "late_fee",
+   "amount_open": 938.31,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repair (statement amount)",
+   "category": "repairs_damage",
+   "amount_open": 320.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 7105.17,
+ "flags": {},
+ "extraction_confidence": 0.75,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

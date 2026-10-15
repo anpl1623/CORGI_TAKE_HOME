@@ -1,0 +1,126 @@
+{
+ "tracking": 630,
+ "line_items": [
+  {
+   "description": "Rent pro-rate May 1-27",
+   "category": "rent_in_term",
+   "amount_open": 1084.35,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-in free rent charged back",
+   "category": "rent_in_term",
+   "amount_open": 622.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Renters insurance May 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 17,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Amenity service package",
+   "category": "other_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Zero deposit program charge",
+   "category": "sdrp_premium",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charge May 8",
+   "category": "late_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Three-day notice service",
+   "category": "other_fee",
+   "amount_open": 25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Tenant-responsible repairs parts labor",
+   "category": "repairs_damage",
+   "amount_open": 96.75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear cleaning",
+   "category": "cleaning",
+   "amount_open": 235,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Non-normal wear painting",
+   "category": "painting",
+   "amount_open": 423,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet inspection, animal damage",
+   "category": "pet_damage_odor",
+   "amount_open": 125,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Hauling couch, trash, vacuums",
+   "category": "trash_removal",
+   "amount_open": 190,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Animal-damaged carpet repair, prorated",
+   "category": "pet_damage_odor",
+   "amount_open": 1433.95,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unauthorized pet charge",
+   "category": "other_fee",
+   "amount_open": 1000,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF item fee",
+   "category": "nsf_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 5402.55,
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a2fed951b37547054"
+ }
+}

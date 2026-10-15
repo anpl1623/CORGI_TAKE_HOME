@@ -1,0 +1,133 @@
+{
+ "tracking": 478,
+ "line_items": [
+  {
+   "description": "Eviction legal fees, Mar 2024",
+   "category": "eviction_legal_court",
+   "amount_open": 900,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Damage fees 02/28/2024",
+   "category": "other_damage",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 01/02/2024",
+   "category": "late_fee",
+   "amount_open": 188.7,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fee 01/01/2024",
+   "category": "sdrp_premium",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP no insurance 01/01/2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 27,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Jan 2024",
+   "category": "rent_in_term",
+   "amount_open": 1810,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee 12/02/2023",
+   "category": "late_fee",
+   "amount_open": 188.7,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fee 12/01/2023",
+   "category": "sdrp_premium",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP no insurance 12/01/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 27,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Dec 2023",
+   "category": "rent_in_term",
+   "amount_open": 1810,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Court filing fee 11/17/2023",
+   "category": "eviction_legal_court",
+   "amount_open": 132.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Attorney fees 11/17/2023",
+   "category": "eviction_legal_court",
+   "amount_open": 385,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee, in-house payment",
+   "category": "other_fee",
+   "amount_open": 5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fee 11/01/2023",
+   "category": "sdrp_premium",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP no insurance 11/01/2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 27,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Nov 2023 unpaid remainder",
+   "category": "rent_in_term",
+   "amount_open": 631,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 7031.9,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a3aa53ec26f52220b"
+ }
+}

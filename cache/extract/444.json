@@ -1,0 +1,83 @@
+{
+ "tracking": 444,
+ "line_items": [
+  {
+   "description": "Rent Sep-Dec 2023 (unpaid)",
+   "category": "rent_in_term",
+   "amount_open": 6323,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Sep-Dec 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 183.8,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Sep-Dec 2023",
+   "category": "sdrp_premium",
+   "amount_open": 172,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Sep-Dec 2023",
+   "category": "late_fee",
+   "amount_open": 735,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Magistrate filing fees",
+   "category": "eviction_legal_court",
+   "amount_open": 210,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out rekey",
+   "category": "rekey_locks",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash-out inside and outside",
+   "category": "trash_removal",
+   "amount_open": 550,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Touch-up paint",
+   "category": "painting",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Bulbs, bifold door, blinds",
+   "category": "repairs_damage",
+   "amount_open": 158,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 229,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 9409.8,
+ "flags": {},
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad37f652e1cbfe8ad"
+ }
+}

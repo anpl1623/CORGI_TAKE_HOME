@@ -1,0 +1,105 @@
+{
+ "tracking": 698,
+ "line_items": [
+  {
+   "description": "Landscaping back patio",
+   "category": "landscaping_lawn",
+   "amount_open": 295,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee June 2024",
+   "category": "late_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Daily late fee, June 7-30",
+   "category": "late_fee",
+   "amount_open": 120,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Water past-due charge",
+   "category": "late_fee",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Electric final utility bill",
+   "category": "utilities",
+   "amount_open": 176.03,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Water final utility bill",
+   "category": "utilities",
+   "amount_open": 140.25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Key fob not returned",
+   "category": "keys_remotes",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unit cleaning",
+   "category": "cleaning",
+   "amount_open": 259,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Bulk trash removal",
+   "category": "trash_removal",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Repair wall damage",
+   "category": "repairs_damage",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Vertical blind replacement",
+   "category": "repairs_damage",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Patio mulch landscaping",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 2085.28,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a92841ae0b81f5ab5"
+ }
+}

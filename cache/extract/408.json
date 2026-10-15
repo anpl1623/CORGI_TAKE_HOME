@@ -1,0 +1,189 @@
+{
+ "tracking": 408,
+ "line_items": [
+  {
+   "description": "Rent October 2023",
+   "category": "rent_in_term",
+   "amount_open": 1495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent November 2023",
+   "category": "rent_in_term",
+   "amount_open": 1495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent December 2023 after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Oct 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 45.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Nov 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 45.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Dec 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 45.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Oct 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Nov 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premium Dec 2023",
+   "category": "sdrp_premium",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Oct 2023",
+   "category": "late_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Nov 2023",
+   "category": "late_fee",
+   "amount_open": 195,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee Dec 2023",
+   "category": "late_fee",
+   "amount_open": 85,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee Oct 10",
+   "category": "nsf_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee Oct 12",
+   "category": "nsf_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee Oct 17",
+   "category": "nsf_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Property visit, unauthorized pets",
+   "category": "other_fee",
+   "amount_open": 99,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Property visit, Oct 2023",
+   "category": "other_fee",
+   "amount_open": 99,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Touch-up paint charge",
+   "category": "painting",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Debris removal from curb",
+   "category": "trash_removal",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 259,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction set-out labor",
+   "category": "eviction_legal_court",
+   "amount_open": 320,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Kitchen drawer, blinds, cleaning",
+   "category": "repairs_damage",
+   "amount_open": 448,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Magistrate filing fee, Oct 2023",
+   "category": "eviction_legal_court",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Magistrate filing fee, Nov 2023",
+   "category": "eviction_legal_court",
+   "amount_open": 10,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 7321.85,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "adfad89316d19def4"
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "tracking": 669,
+ "line_items": [
+  {
+   "description": "Carpet/vinyl replacement",
+   "category": "flooring",
+   "amount_open": 791.35,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "pm_stated_amount_due": 791.35,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a75ee959ade735bba"
+ }
+}

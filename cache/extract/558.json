@@ -1,0 +1,97 @@
+{
+ "tracking": 558,
+ "line_items": [
+  {
+   "description": "Rent Jun 2023-Feb 2024 (9 months)",
+   "category": "rent_in_term",
+   "amount_open": 10800,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fees Jun 2023-Feb 2024",
+   "category": "sdrp_premium",
+   "amount_open": 252,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP with insurance Jun 2023-Feb 2024",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 351,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees (8 months)",
+   "category": "late_fee",
+   "amount_open": 960,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction legal fees 03/13/24",
+   "category": "eviction_legal_court",
+   "amount_open": 1275,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior painting and wall writing",
+   "category": "painting",
+   "amount_open": 2975,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Blind replacement (12 blinds)",
+   "category": "repairs_damage",
+   "amount_open": 241,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Professional cleaning 03/13/24",
+   "category": "cleaning",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Door and frame replacement",
+   "category": "repairs_damage",
+   "amount_open": 1039,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Partial rent payments Nov-Dec 2023",
+   "amount": 2400,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "SDRP claim payment 03/25/24",
+   "amount": 1500,
+   "type": "other",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 14343,
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

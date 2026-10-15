@@ -1,0 +1,42 @@
+{
+ "tracking": 344,
+ "pm_stated_amount_due": 6127,
+ "extraction_confidence": 0.3,
+ "line_items": [
+  {
+   "description": "Balance owed as of 6/20/23",
+   "category": "other_fee",
+   "amount_open": 513.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Net activity after 6/20/23 (truncated)",
+   "category": "other_fee",
+   "amount_open": 5613.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Ledger payments and reversals",
+   "amount": 41858.16,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ad6e01548e6093c60"
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "tracking": 556,
+ "line_items": [],
+ "credits": [
+  {
+   "description": "Prior balance credit (prepaid)",
+   "amount": 2050,
+   "type": "prepaid_credit_balance",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": true,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 9815.25,
+ "extraction_confidence": 0.3,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acd516670aff918e4"
+ }
+}

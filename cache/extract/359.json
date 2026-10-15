@@ -1,0 +1,14 @@
+{
+ "tracking": 359,
+ "line_items": [],
+ "credits": [],
+ "pm_stated_amount_due": 4544.18,
+ "flags": {
+  "missing_itemization": true
+ },
+ "extraction_confidence": 0.2,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a2e3fb1aca1ab0a2a"
+ }
+}

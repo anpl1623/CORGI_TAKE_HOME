@@ -1,0 +1,42 @@
+{
+ "tracking": 321,
+ "line_items": [
+  {
+   "description": "Damages beyond wear and tear",
+   "category": "repairs_damage",
+   "amount_open": 1826,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Cleaning and maintenance costs",
+   "category": "cleaning",
+   "amount_open": 112.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Security deposit tendered",
+   "type": "security_deposit_applied",
+   "amount": 250,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 1688.5,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acb8d1951fbb887b3"
+ }
+}

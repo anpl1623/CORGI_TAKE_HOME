@@ -1,0 +1,105 @@
+{
+ "tracking": 315,
+ "line_items": [
+  {
+   "description": "Lawn not maintained",
+   "category": "landscaping_lawn",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replace missing oven",
+   "category": "appliance",
+   "amount_open": 1000,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Heavy trash out",
+   "category": "trash_removal",
+   "amount_open": 1200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Repair nail and screw holes",
+   "category": "painting",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replace missing smoke detectors",
+   "category": "other_damage",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rekey the locks",
+   "category": "rekey_locks",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Remove bedroom shelves, repair holes",
+   "category": "other_damage",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees 09/06 and 10/06",
+   "category": "late_fee",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "October rent net of reversal",
+   "category": "rent_after_lease_end",
+   "amount_open": 1016.13,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unallocated earlier rent and fees",
+   "category": "rent_in_term",
+   "amount_open": 3596,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Prepaid balance credit",
+   "type": "prepaid_credit_balance",
+   "amount": 1750,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 6587.13,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.6,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "acb8d1951fbb887b3"
+ }
+}

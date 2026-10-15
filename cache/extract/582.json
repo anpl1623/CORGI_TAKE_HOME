@@ -1,0 +1,84 @@
+{
+ "tracking": 582,
+ "line_items": [
+  {
+   "description": "Rent Oct-Dec 2023 charges",
+   "category": "rent_in_term",
+   "amount_open": 4004.33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Jan 2024 after move-out",
+   "category": "rent_after_move_out",
+   "amount_open": 1950,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees and manual late fee",
+   "category": "late_fee",
+   "amount_open": 977.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP with insurance, 3 months",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 117,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP monthly premium, 3 months",
+   "category": "sdrp_premium",
+   "amount_open": 105,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Door and hinge repairs (Tideland)",
+   "category": "repairs_damage",
+   "amount_open": 677.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning (Tideland invoice 884)",
+   "category": "carpet_cleaning",
+   "amount_open": 385,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repair (tenant charges)",
+   "category": "repairs_damage",
+   "amount_open": 640,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 9056.33,
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81e0bf8ef17b1ccc"
+ }
+}

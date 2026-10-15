@@ -1,0 +1,119 @@
+{
+ "tracking": 821,
+ "line_items": [
+  {
+   "description": "Balance as of 8/1, unitemized",
+   "category": "rent_in_term",
+   "amount_open": 429.46,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 17,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug utility revenue",
+   "category": "utilities",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug late charge",
+   "category": "late_fee",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning, stains",
+   "category": "carpet_cleaning",
+   "amount_open": 280,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Housekeeping, apartment left filthy",
+   "category": "cleaning",
+   "amount_open": 275,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Hole in master bedroom door",
+   "category": "repairs_damage",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Trash and items left behind",
+   "category": "trash_removal",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Stove drip pans, 4",
+   "category": "appliance",
+   "amount_open": 20,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Window blinds, 4",
+   "category": "repairs_damage",
+   "amount_open": 145,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Fridge damage from locks, stains",
+   "category": "appliance",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Reletting fee, broke lease",
+   "category": "reletting_fee",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Aug rent paid 8/3",
+   "amount": 865,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 1754.46,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a6bd79cfe3179ecb3"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "tracking": 563,
+ "line_items": [
+  {
+   "description": "Rent Feb-Apr 2024 (3 months)",
+   "category": "rent_in_term",
+   "amount_open": 2962.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Feb-Apr 2024",
+   "category": "late_fee",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP fees Feb-Apr 2024",
+   "category": "sdrp_premium",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP w/o insurance Feb-Apr",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 81,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Yard cleaning and mowing",
+   "category": "landscaping_lawn",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Hauling clean-out (invoice 0000366)",
+   "category": "trash_removal",
+   "amount_open": 2200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 5938.5,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81e0bf8ef17b1ccc"
+ }
+}

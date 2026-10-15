@@ -1,0 +1,77 @@
+{
+ "tracking": 378,
+ "line_items": [
+  {
+   "description": "Rent Jul-Oct 2023",
+   "category": "rent_in_term",
+   "amount_open": 9180,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Nov 1-8 rent after reversal",
+   "category": "rent_in_term",
+   "amount_open": 612,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sec dep insurance Jul-Nov",
+   "category": "sdrp_premium",
+   "amount_open": 295,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "YRIG premium Jul-Nov",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge fee Jul-Nov",
+   "category": "other_fee",
+   "amount_open": 74.95,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Loose faucet, upstairs bathroom",
+   "category": "repairs_damage",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Nov 9-30 rent reversed",
+   "amount": 1683,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "extraction_confidence": 0.9,
+ "pm_stated_amount_due": 11744.45,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a26c11f7a058aba26"
+ }
+}

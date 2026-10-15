@@ -1,0 +1,91 @@
+{
+ "tracking": 655,
+ "line_items": [
+  {
+   "description": "Balance forward as of 5/01",
+   "category": "rent_in_term",
+   "amount_open": 2573.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "May 2024 rent",
+   "category": "rent_in_term",
+   "amount_open": 900,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "May renters insurance",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 19,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "May security deposit protection",
+   "category": "sdrp_premium",
+   "amount_open": 33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "May utility revenue",
+   "category": "utilities",
+   "amount_open": 45,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charge 05/06",
+   "category": "late_fee",
+   "amount_open": 30,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replace two sets of blinds",
+   "category": "repairs_damage",
+   "amount_open": 40,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Early termination fee",
+   "category": "lease_break_fee",
+   "amount_open": 820,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Reletting fee",
+   "category": "reletting_fee",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Quick cleanup adjustment 05/08",
+   "amount": 4,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 4706.5,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a994069ccbf0dc814"
+ }
+}

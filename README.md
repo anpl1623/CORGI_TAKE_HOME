@@ -3,7 +3,7 @@
 Corgi work trial. Given a tracking number (or a range), the engine computes the claim payout, explains each line,
 and compares the result to the historical **Approved Benefit Amount**.
 
-**Results:** 72.8% exact over the whole book. On 555 held-out claims it is 73.9% exact with MAPE 10.9%. The meeting
+**Results:** 76.0% exact over the whole book (MAPE 22.5%). On 786 held-out claims it is 78.2% exact with MAPE 10.4%. The meeting
 examples (#7–20 and #49) are 100% exact. See [REPORT.md](REPORT.md) for the findings, rule book, accuracy and design.
 
 ## Run it (Python 3.10+, standard library only)
@@ -38,7 +38,7 @@ comment threads (no-doc claims) → LLM read → cache/comment_reads.json ──
 | `payout_engine/ingest_zip.py`, `extract_text.py`, `digest.py` | Data ingestion: safe zip merge, text extraction, per-claim digests |
 | `payout_engine/harvest.py` | Collects AI extractions into `cache/extract/` |
 | `GEMINI_EXTRACTION_PROMPT.md` | The extraction spec (schema + document-handling rules). It works with any LLM. |
-| `cache/extract/` | Structured facts for 722 claims (the AI extraction output) |
+| `cache/extract/` | Structured facts for 953 claims (the AI extraction output) |
 | `cache/understand/` | Rule-discovery evidence: 110 hand-audited claims, mined adjuster notes, quantitative analysis |
 
 ## Rebuild from raw data

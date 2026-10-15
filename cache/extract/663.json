@@ -1,0 +1,49 @@
+{
+ "tracking": 663,
+ "line_items": [
+  {
+   "description": "Move-out cleaning: kitchen, garage",
+   "category": "cleaning",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Leaf removal, trim, yard cleanup",
+   "category": "landscaping_lawn",
+   "amount_open": 1500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Dump fees, 5 loads",
+   "category": "trash_removal",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 2625,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.95,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a994069ccbf0dc814"
+ }
+}

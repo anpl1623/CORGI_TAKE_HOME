@@ -1,0 +1,63 @@
+{
+ "tracking": 801,
+ "line_items": [
+  {
+   "description": "Balance as of 8/1, unitemized",
+   "category": "rent_in_term",
+   "amount_open": 2675,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug late charge",
+   "category": "late_fee",
+   "amount_open": 50,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug rent, 5 days",
+   "category": "rent_in_term",
+   "amount_open": 169,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit protection, 5 days",
+   "category": "sdrp_premium",
+   "amount_open": 6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Utility revenue, 5 days",
+   "category": "utilities",
+   "amount_open": 7,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Stove drip pans",
+   "category": "appliance",
+   "amount_open": 15,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 2922,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a6bd79cfe3179ecb3"
+ }
+}

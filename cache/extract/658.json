@@ -1,0 +1,49 @@
+{
+ "tracking": 658,
+ "line_items": [
+  {
+   "description": "Turnover deep clean incl. appliances",
+   "category": "cleaning",
+   "amount_open": 780,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Backyard landscape cleanup",
+   "category": "landscaping_lawn",
+   "amount_open": 250,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Turnover repair T2JGVX2, details truncated",
+   "category": "other_damage",
+   "amount_open": 975,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 2205,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.85,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a994069ccbf0dc814"
+ }
+}

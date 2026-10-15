@@ -1,0 +1,91 @@
+{
+ "tracking": 412,
+ "line_items": [
+  {
+   "description": "November 2023 rent",
+   "category": "rent_after_move_out",
+   "amount_open": 1620,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP with insurance, Nov 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP monthly premium, Nov 2023",
+   "category": "sdrp_premium",
+   "amount_open": 65,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee, Nov 2023",
+   "category": "late_fee",
+   "amount_open": 162,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet steam clean, invoice 138540",
+   "category": "carpet_cleaning",
+   "amount_open": 165,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Driveway pressure wash",
+   "category": "cleaning",
+   "amount_open": 150,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out repair, 12/14/2023",
+   "category": "repairs_damage",
+   "amount_open": 430,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Sod installation, 12/09/2023",
+   "category": "landscaping_lawn",
+   "amount_open": 750,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Move-out repair credit, 01/11/24",
+   "amount": 668,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 3581,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.8,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "adfad89316d19def4"
+ }
+}

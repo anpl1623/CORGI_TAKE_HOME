@@ -1,0 +1,49 @@
+{
+ "tracking": 602,
+ "line_items": [
+  {
+   "description": "Repairs (blinds, baseboards, paint)",
+   "category": "repairs_damage",
+   "amount_open": 597.42,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Deep clean",
+   "category": "cleaning",
+   "amount_open": 460.06,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Landscape and brick repair",
+   "category": "repairs_damage",
+   "amount_open": 460.06,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning",
+   "category": "carpet_cleaning",
+   "amount_open": 368.05,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 1885.59,
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "ae8b5459b760ecf12"
+ }
+}

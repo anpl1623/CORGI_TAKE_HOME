@@ -1,0 +1,83 @@
+{
+ "tracking": 611,
+ "line_items": [
+  {
+   "description": "R/R damaged blinds",
+   "category": "repairs_damage",
+   "amount_open": 90,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "R/R damaged stove eyes",
+   "category": "appliance",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Smoke alarm batteries, air filter",
+   "category": "repairs_damage",
+   "amount_open": 100,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Professional clean of appliances, tubs",
+   "category": "cleaning",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee for professional clean",
+   "category": "other_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unclog bathroom sink, P-trap",
+   "category": "repairs_damage",
+   "amount_open": 135,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Prorated paint, laundry room",
+   "category": "painting",
+   "amount_open": 120,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Drip pans missing at move-in",
+   "amount": 200,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Laundry room unchanged since move-in",
+   "amount": 120,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "pm_stated_amount_due": 555,
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "afda8639df4ee7df6"
+ }
+}

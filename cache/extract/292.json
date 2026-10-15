@@ -1,0 +1,84 @@
+{
+ "tracking": 292,
+ "line_items": [
+  {
+   "description": "Unpaid rent Jan\u2013Sep 2023",
+   "category": "rent_in_term",
+   "amount_open": 20655,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Holdover rent Oct 2023",
+   "category": "rent_after_lease_end",
+   "amount_open": 2295,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fee",
+   "category": "eviction_legal_court",
+   "amount_open": 300,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Misc chargeback, missed appointment",
+   "category": "other_fee",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "YRIG premiums Jan\u2013Oct 2023",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit insurance Jan\u2013Oct",
+   "category": "sdrp_premium",
+   "amount_open": 590,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge service Jan\u2013Oct",
+   "category": "other_fee",
+   "amount_open": 149.9,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unitemized remaining balance",
+   "category": "other_fee",
+   "amount_open": 2728.06,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments through 12/20/22",
+   "amount": 12710.41,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 29058.46,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.45,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aacec3e7ae8bb9416"
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "tracking": 225,
+ "line_items": [
+  {
+   "description": "Rent reservation fee 1/25",
+   "category": "other_fee",
+   "amount_open": 2495,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Prorated Jan rent plus Feb-Aug rent",
+   "category": "rent_in_term",
+   "amount_open": 17545.48,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pet rent Mar-Aug",
+   "category": "pet_fee_rent",
+   "amount_open": 240,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "YRIG premium Jan-Aug",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 160,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Security deposit insurance Jan-Aug",
+   "category": "sdrp_premium",
+   "amount_open": 216,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pinata service fee Feb-Aug",
+   "category": "other_fee",
+   "amount_open": 28,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Latchel concierge Feb-Aug",
+   "category": "other_fee",
+   "amount_open": 104.93,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Admin fee per lease",
+   "category": "admin_itemization_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "EFT service fees",
+   "category": "other_fee",
+   "amount_open": 60,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late charges 4/6, 5/8, 7/6",
+   "category": "late_fee",
+   "amount_open": 748.5,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Eviction cancellation fees 5/25, 8/9",
+   "category": "eviction_legal_court",
+   "amount_open": 600,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Tenant payments Jan-Jul",
+   "type": "tenant_payment",
+   "amount": 11655.95,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Rent reservation fee reversal 1/27",
+   "type": "concession_or_reversal",
+   "amount": 2495,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "March free rent credit",
+   "type": "concession_or_reversal",
+   "amount": 2495,
+   "already_netted_in_line_items": false
+  },
+  {
+   "description": "Late fee waiver 6/1",
+   "type": "concession_or_reversal",
+   "amount": 249.5,
+   "already_netted_in_line_items": false
+  }
+ ],
+ "pm_stated_amount_due": 6360.82,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.3,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aea06506fbfdd25d1"
+ }
+}

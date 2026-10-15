@@ -1,0 +1,54 @@
+{
+ "tracking": 740,
+ "line_items": [
+  {
+   "description": "Stage two cleaning charges",
+   "category": "cleaning",
+   "amount_open": 102.6,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Large blind replacement",
+   "category": "repairs_damage",
+   "amount_open": 146.8,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "July ACH payment, Zearing",
+   "amount": 502.33,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "July ACH payment, Zwack",
+   "amount": 503,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  },
+  {
+   "description": "July ACH payment, Allen",
+   "amount": 501.67,
+   "type": "tenant_payment",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 249.4,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.95,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a92841ae0b81f5ab5"
+ }
+}

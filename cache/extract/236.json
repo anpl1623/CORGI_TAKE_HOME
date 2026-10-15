@@ -1,0 +1,77 @@
+{
+ "tracking": 236,
+ "line_items": [
+  {
+   "description": "Rent after 7/31 move-out, August",
+   "category": "rent_after_move_out",
+   "amount_open": 1600,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP monthly premium August",
+   "category": "sdrp_premium",
+   "amount_open": 43,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP with insurance August",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 39,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fee calculated 8/29",
+   "category": "late_fee",
+   "amount_open": 240,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Maintenance coordination fee",
+   "category": "maintenance_coordination_fee",
+   "amount_open": 200,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Interior clean and carpet clean",
+   "category": "cleaning",
+   "amount_open": 500,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Patch paint, pet-damaged trim, fixture",
+   "category": "painting",
+   "amount_open": 975,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Replace bulbs and microwave light",
+   "category": "repairs_damage",
+   "amount_open": 75,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [],
+ "pm_stated_amount_due": 3672,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.9,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "aea06506fbfdd25d1"
+ }
+}

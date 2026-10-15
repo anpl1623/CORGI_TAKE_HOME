@@ -1,0 +1,20 @@
+{
+ "tracking": 675,
+ "line_items": [],
+ "credits": [],
+ "flags": {
+  "missing_itemization": true,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "pm_stated_amount_due": null,
+ "extraction_confidence": 0.1,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a75ee959ade735bba"
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "tracking": 489,
+ "line_items": [
+  {
+   "description": "March 2024 lease violation fee",
+   "category": "other_fee",
+   "amount_open": 55,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Full move-out cleaning",
+   "category": "cleaning",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Bulbs, smoke detector batteries, filters",
+   "category": "repairs_damage",
+   "amount_open": 125,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Carpet cleaning with enzyme treatment",
+   "category": "pet_damage_odor",
+   "amount_open": 300,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Paint, drywall and trim repair",
+   "category": "painting",
+   "amount_open": 425,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Move-out trash removal",
+   "category": "trash_removal",
+   "amount_open": 350,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Pest control",
+   "category": "pest_remediation",
+   "amount_open": 175,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Unauthorized pet violation fee",
+   "category": "other_fee",
+   "amount_open": 500,
+   "pet_related": true,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Rent Nov, Dec, Jan",
+   "category": "rent_in_term",
+   "amount_open": 4275,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Nov rent returned payment recharge",
+   "category": "rent_in_term",
+   "amount_open": 683.25,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "RBP insurance Nov through Jan",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 117,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "SDRP premiums Nov through Jan",
+   "category": "sdrp_premium",
+   "amount_open": 84,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Late fees Nov through Jan",
+   "category": "late_fee",
+   "amount_open": 638.33,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "NSF fee Nov 2023",
+   "category": "nsf_fee",
+   "amount_open": 35,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Returned payment reversal adjustment",
+   "amount": 3326.5,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": false
+  }
+ ],
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_never_moved_in": false,
+  "tenant_paid_or_settled_with_pm": false
+ },
+ "extraction_confidence": 0.4,
+ "pm_stated_amount_due": 9947.08,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a81df49f6aae7cd20"
+ }
+}

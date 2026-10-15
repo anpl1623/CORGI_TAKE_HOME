@@ -1,0 +1,63 @@
+{
+ "tracking": 804,
+ "line_items": [
+  {
+   "description": "Balance as of 8/1, unitemized",
+   "category": "rent_in_term",
+   "amount_open": 3055,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug rent, 6 days net",
+   "category": "rent_in_term",
+   "amount_open": 206,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug utility revenue, net",
+   "category": "utilities",
+   "amount_open": 7,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug security deposit protection, net",
+   "category": "sdrp_premium",
+   "amount_open": 7,
+   "pet_related": false,
+   "water_fire_flood": false
+  },
+  {
+   "description": "Aug renters insurance, net",
+   "category": "rbp_insurance_liability_fee",
+   "amount_open": 3,
+   "pet_related": false,
+   "water_fire_flood": false
+  }
+ ],
+ "credits": [
+  {
+   "description": "Move-out proration credit",
+   "amount": 891,
+   "type": "concession_or_reversal",
+   "already_netted_in_line_items": true
+  }
+ ],
+ "pm_stated_amount_due": 3278,
+ "flags": {
+  "missing_itemization": false,
+  "no_policy_evidence": false,
+  "owner_waived_balance": false,
+  "payment_arrangement": false,
+  "pm_withdrew_or_void": false,
+  "tenant_paid_or_settled_with_pm": false,
+  "tenant_never_moved_in": false
+ },
+ "extraction_confidence": 0.7,
+ "_meta": {
+  "run": "wf_8cb38453-46f",
+  "agent": "a6bd79cfe3179ecb3"
+ }
+}
