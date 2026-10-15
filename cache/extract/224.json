@@ -1,0 +1,31 @@
+{
+  "tracking":224,
+  "documents":[
+    {"file":"615-1 Pet Agreement.pdf","doc_type":"sd_addendum","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"615-1 Spring Lease.pdf","doc_type":"lease","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"615SPR 1 - MCDOWELL CLOSEOUT.pdf","doc_type":"inspection_photo_report","doc_date":"2023-09-14","revised":false,"used_for_amounts":false},
+    {"file":"SD Addendum.pdf","doc_type":"sd_addendum","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"Transactions.pdf","doc_type":"tenant_ledger","doc_date":"2023-10-03","revised":false,"used_for_amounts":true}
+  ],
+  "winning_document":"Transactions.pdf",
+  "pm_stated_amount_due":489.11,
+  "lease":{"base_monthly_rent":1995.00,"recurring_addons":[],"lease_start":"2022-06-03","lease_end":null,"current_term_start":"2022-06-03","current_term_end":null,"initial_term_months":null,"is_renewal":false,"is_month_to_month":false,"sd_program":"unknown","waived_deposit_amount":null,"monthly_sd_premium":null,"cash_deposit_amount":null,"lease_break_terms":null},
+  "move_out":{"move_out_date":"2023-09-03","termination":"unknown","holdover_days_after_lease_end":null,"re_let_date":null},
+  "ledger":{"as_of_date":"2023-10-03","balance_due":489.11,"first_full_month":null,"first_full_month_paid_in_full":null,"first_payment_bounced":null,"last_payment_date":null},
+  "line_items":[
+    {"description":"Final utility charge","category":"utilities","amount_open":67.73,"amount_charged":67.73,"date_posted":"2023-08-24","service_period_start":"2023-06-23","service_period_end":"2023-07-24","days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"September prorated rent","category":"rent_in_term","amount_open":199.50,"amount_charged":199.50,"date_posted":"2023-09-01","service_period_start":"2023-09-01","service_period_end":"2023-09-03","days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"Prorated tenant benefits","category":"rbp_insurance_liability_fee","amount_open":3.90,"amount_charged":3.90,"date_posted":"2023-09-01","service_period_start":"2023-09-01","service_period_end":"2023-09-03","days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"Prorated pet fee","category":"pet_fee_rent","amount_open":2.00,"amount_charged":2.00,"date_posted":"2023-09-01","service_period_start":"2023-09-01","service_period_end":"2023-09-03","days_after_lease_end":null,"pet_related":true,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"Prorated Renters Choice","category":"sdrp_premium","amount_open":6.00,"amount_charged":6.00,"date_posted":"2023-09-01","service_period_start":"2023-09-01","service_period_end":"2023-09-03","days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"September late charge","category":"late_fee","amount_open":9.98,"amount_charged":9.98,"date_posted":"2023-09-04","service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"Replace missing bulbs","category":"repairs_damage","amount_open":75.00,"amount_charged":75.00,"date_posted":"2023-09-30","service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99},
+    {"description":"Make-ready house cleaning","category":"cleaning","amount_open":325.00,"amount_charged":325.00,"date_posted":"2023-09-30","service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions.pdf","source_page":3,"confidence":0.99}
+  ],
+  "credits":[{"description":"Pet deposit applied","amount":200.00,"type":"pet_deposit_applied","already_netted_in_line_items":false,"source_file":"Transactions.pdf"}],
+  "reconciliation":"Open charges total $689.11 less $200.00 pet-deposit credit = $489.11, matching the final ledger balance of $489.11; difference $0.00.",
+  "flags":{"test_claim":false,"no_policy_evidence":false,"other_provider":false,"premiums_unpaid":false,"pm_withdrew_or_void":false,"tenant_paid_or_settled_with_pm":false,"payment_arrangement":false,"owner_waived_balance":false,"tenant_still_in_possession":false,"tenant_never_moved_in":false,"military_scra":false,"short_term_lease":false,"tenant_disputes_charges":false,"missing_itemization":false,"missing_ledger":false,"flooring_without_support":false,"mixed_pet_nonpet_line":false},
+  "evidence":[],
+  "extraction_confidence":0.99,
+  "notes":"Lite mode. The closeout includes a vendor estimate, but the ledger's billed make-ready and cleaning charges were used."
+}

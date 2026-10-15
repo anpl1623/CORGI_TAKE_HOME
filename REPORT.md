@@ -14,15 +14,15 @@ Metric per Corgi: **% exact match** (±$1), plus MAPE (mean absolute % error on 
 
 | Accuracy vs. Approved Benefit Amount | Claims | Exact (±$1) | Within 5% | MAPE | MAE |
 |---|---|---|---|---|---|
-| **Whole book** (every decided claim, all methods) | 1,228 | **71.7%** | 73.8% | 50.0% | $300 |
-| **Held-out claims** (extracted after the rules were frozen; Gemini Flash / Haiku / Sonnet) | 508 | **72.4%** | 76.2% | **11.5%** | $212 |
+| **Whole book** (every decided claim, all methods) | 1,228 | **72.8%** | 75.0% | 44.7% | $272 |
+| **Held-out claims** (extracted after the rules were frozen; Gemini Flash / Haiku / Sonnet / ChatGPT) | 555 | **73.9%** | 77.5% | **10.9%** | $197 |
 | Claims used to tune the rules (in-sample) | 161 | 87.0% | 89.4% | 6.8% | $68 |
 | Claims with no documents (sheet + PM note + LLM comment read) | 219 | 61.6% | 62.6% | – | $363 |
-| Documents with no extraction yet (pay ceiling) | ~340 | ~67% | – | ~99% | $443 |
+| Documents with no extraction yet (pay ceiling) | ~290 | ~67% | – | ~95% | $415 |
 | Sheet-only baseline (pay Max Benefit, no documents) | 1,230 | 53.3% | 53.9% | – | $679 |
 | Meeting examples: #7–20 and #49 | 15 | 100% | 100% | 0% | $0 |
 
-The honest generalization number is the **held-out 72%**. The 87% in-sample figure is optimistic. The gap comes from three things: rules fitted on those claims, a 2023-heavy held-out mix, and cheaper extraction models. The remaining ~340 documented claims weren't extracted because of a compute budget, not a design limit (extraction takes about 1 minute per claim and runs in parallel).
+The honest generalization number is the **held-out 74%**. The 87% in-sample figure is optimistic. The gap comes from three things: rules fitted on those claims, a 2023-heavy held-out mix, and cheaper extraction models. The remaining ~290 documented claims weren't extracted because of a compute budget, not a design limit (extraction takes about 1 minute per claim and runs in parallel).
 
 Total dollars computed on the extracted claims are within 1% of the actual total.
 

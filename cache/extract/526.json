@@ -1,0 +1,24 @@
+{
+  "tracking":526,
+  "documents":[
+    {"file":"Transactions_20240412094450600.pdf","doc_type":"tenant_ledger","doc_date":"2024-04-12","revised":false,"used_for_amounts":true},
+    {"file":"Closeout packet with invoices.pdf","doc_type":"vendor_invoice","doc_date":"2024-03-07","revised":false,"used_for_amounts":false}
+  ],
+  "winning_document":"Transactions_20240412094450600.pdf",
+  "pm_stated_amount_due":480.17,
+  "lease":{"base_monthly_rent":1895.0,"recurring_addons":[],"lease_start":"2022-02-28","lease_end":"2024-02-29","current_term_start":null,"current_term_end":null,"initial_term_months":null,"is_renewal":null,"is_month_to_month":null,"sd_program":"unknown","waived_deposit_amount":null,"monthly_sd_premium":null,"cash_deposit_amount":null,"lease_break_terms":null},
+  "move_out":{"move_out_date":"2024-02-29","termination":"end_of_term","holdover_days_after_lease_end":null,"re_let_date":null},
+  "ledger":{"as_of_date":"2024-04-12","balance_due":480.17,"first_full_month":null,"first_full_month_paid_in_full":null,"first_payment_bounced":null,"last_payment_date":"2024-02-02"},
+  "line_items":[
+    {"description":"Haul-off and lawn","category":"landscaping_lawn","amount_open":301.29,"amount_charged":301.29,"date_posted":"2024-03-28","service_period_start":null,"service_period_end":null,"days_after_lease_end":28,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions_20240412094450600.pdf","source_page":3,"confidence":0.97},
+    {"description":"Cleaning fee","category":"cleaning","amount_open":378.88,"amount_charged":378.88,"date_posted":"2024-03-28","service_period_start":null,"service_period_end":null,"days_after_lease_end":28,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Transactions_20240412094450600.pdf","source_page":3,"confidence":0.99}
+  ],
+  "credits":[
+    {"description":"Refundable pet deposit applied","amount":200.00,"type":"pet_deposit_applied","already_netted_in_line_items":false,"source_file":"Transactions_20240412094450600.pdf"}
+  ],
+  "reconciliation":"sum(open lines) 680.17 - credits 200.00 = 480.17 vs PM stated 480.17; difference 0.00",
+  "flags":{"test_claim":false,"no_policy_evidence":false,"other_provider":false,"premiums_unpaid":false,"pm_withdrew_or_void":false,"tenant_paid_or_settled_with_pm":false,"payment_arrangement":false,"owner_waived_balance":false,"tenant_still_in_possession":false,"tenant_never_moved_in":false,"military_scra":false,"short_term_lease":false,"tenant_disputes_charges":false,"missing_itemization":false,"missing_ledger":false,"flooring_without_support":false,"mixed_pet_nonpet_line":false},
+  "evidence":[],
+  "extraction_confidence":0.98,
+  "notes":"Lite mode. Ledger controls. Invoices match both billed totals; owner-only lawn invoice portions were excluded from the tenant charge."
+}

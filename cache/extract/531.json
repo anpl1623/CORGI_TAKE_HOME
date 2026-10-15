@@ -1,0 +1,28 @@
+{
+  "tracking":531,
+  "documents":[
+    {"file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","doc_type":"itemization_form","doc_date":"2024-04-11","revised":true,"used_for_amounts":true},
+    {"file":"19 Ferguson -TenantLedger - Stilwell&Bradbury.pdf","doc_type":"tenant_ledger","doc_date":"2024-04-16","revised":false,"used_for_amounts":false}
+  ],
+  "winning_document":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf",
+  "pm_stated_amount_due":3023.00,
+  "lease":{"base_monthly_rent":1945.0,"recurring_addons":[],"lease_start":"2023-03-27","lease_end":"2024-03-26","current_term_start":null,"current_term_end":null,"initial_term_months":null,"is_renewal":null,"is_month_to_month":null,"sd_program":"unknown","waived_deposit_amount":null,"monthly_sd_premium":null,"cash_deposit_amount":null,"lease_break_terms":null},
+  "move_out":{"move_out_date":"2024-03-26","termination":"end_of_term","holdover_days_after_lease_end":null,"re_let_date":null},
+  "ledger":{"as_of_date":"2024-04-16","balance_due":3023.00,"first_full_month":null,"first_full_month_paid_in_full":null,"first_payment_bounced":null,"last_payment_date":"2024-02-28"},
+  "line_items":[
+    {"description":"Replace light bulbs","category":"repairs_damage","amount_open":18.00,"amount_charged":18.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Interior paint preparation","category":"painting","amount_open":875.00,"amount_charged":875.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Replace garage door opener","category":"keys_remotes","amount_open":80.00,"amount_charged":80.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Replace blinds","category":"repairs_damage","amount_open":130.00,"amount_charged":130.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Whole house cleaning","category":"cleaning","amount_open":450.00,"amount_charged":450.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Steam clean carpet","category":"carpet_cleaning","amount_open":500.00,"amount_charged":500.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Trash haul-away","category":"trash_removal","amount_open":910.00,"amount_charged":910.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99},
+    {"description":"Lawn service","category":"landscaping_lawn","amount_open":60.00,"amount_charged":60.00,"date_posted":"2024-04-11","service_period_start":null,"service_period_end":null,"days_after_lease_end":16,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"19_Ferguson_-SDT_-_Stilwell&Bradbury_FINALIZED.pdf","source_page":1,"confidence":0.99}
+  ],
+  "credits":[],
+  "reconciliation":"sum(open lines) 3023.00 - credits 0.00 = 3023.00 vs PM stated 3023.00; difference 0.00",
+  "flags":{"test_claim":false,"no_policy_evidence":false,"other_provider":false,"premiums_unpaid":false,"pm_withdrew_or_void":false,"tenant_paid_or_settled_with_pm":false,"payment_arrangement":false,"owner_waived_balance":false,"tenant_still_in_possession":false,"tenant_never_moved_in":false,"military_scra":false,"short_term_lease":false,"tenant_disputes_charges":false,"missing_itemization":false,"missing_ledger":false,"flooring_without_support":false,"mixed_pet_nonpet_line":false},
+  "evidence":[],
+  "extraction_confidence":0.99,
+  "notes":"Lite mode. Finalized transmittal itemizes the ledger's single 3023.00 damage charge. The separate 313.71 rent overpayment was refunded to the resident and did not offset damages."
+}

@@ -1,0 +1,26 @@
+{
+  "tracking":272,
+  "documents":[
+    {"file":"Gingle Statement.pdf","doc_type":"move_out_statement","doc_date":"2023-11-03","revised":false,"used_for_amounts":true},
+    {"file":"Gingles Lease.pdf","doc_type":"lease","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"Gingles SD Ledger.pdf","doc_type":"tenant_ledger","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"Gingles SDW Form.pdf","doc_type":"sd_addendum","doc_date":null,"revised":false,"used_for_amounts":false},
+    {"file":"Tenant-Ledger-2023_11_03_14_46_20.pdf","doc_type":"tenant_ledger","doc_date":"2023-11-03","revised":false,"used_for_amounts":false}
+  ],
+  "winning_document":"Gingle Statement.pdf",
+  "pm_stated_amount_due":858.24,
+  "lease":{"base_monthly_rent":750.00,"recurring_addons":[],"lease_start":"2022-07-28","lease_end":"2023-07-31","current_term_start":"2022-07-28","current_term_end":"2023-07-31","initial_term_months":null,"is_renewal":false,"is_month_to_month":false,"sd_program":"unknown","waived_deposit_amount":null,"monthly_sd_premium":null,"cash_deposit_amount":null,"lease_break_terms":null},
+  "move_out":{"move_out_date":"2023-08-31","termination":"holdover_then_vacated","holdover_days_after_lease_end":31,"re_let_date":null},
+  "ledger":{"as_of_date":"2023-11-03","balance_due":458.24,"first_full_month":null,"first_full_month_paid_in_full":null,"first_payment_bounced":null,"last_payment_date":null},
+  "line_items":[
+    {"description":"Carpet cleaning","category":"carpet_cleaning","amount_open":102.71,"amount_charged":102.71,"date_posted":null,"service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Gingle Statement.pdf","source_page":1,"confidence":0.99},
+    {"description":"Post-move-out property repairs","category":"repairs_damage","amount_open":339.01,"amount_charged":339.01,"date_posted":null,"service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Gingle Statement.pdf","source_page":1,"confidence":0.99},
+    {"description":"Move-out cleaning","category":"cleaning","amount_open":416.52,"amount_charged":416.52,"date_posted":null,"service_period_start":null,"service_period_end":null,"days_after_lease_end":null,"pet_related":false,"water_fire_flood":false,"owner_responsible":false,"is_estimate_only":false,"source_file":"Gingle Statement.pdf","source_page":1,"confidence":0.99}
+  ],
+  "credits":[],
+  "reconciliation":"Move-out statement charges total $102.71 + $339.01 + $416.52 = $858.24, matching its stated amount due of $858.24; difference $0.00. The supporting tenant ledger shows only $16.52 of the cleaning charge and therefore a lower $458.24 balance, but the later final move-out statement controls.",
+  "flags":{"test_claim":false,"no_policy_evidence":false,"other_provider":false,"premiums_unpaid":false,"pm_withdrew_or_void":false,"tenant_paid_or_settled_with_pm":false,"payment_arrangement":false,"owner_waived_balance":false,"tenant_still_in_possession":false,"tenant_never_moved_in":false,"military_scra":false,"short_term_lease":false,"tenant_disputes_charges":false,"missing_itemization":false,"missing_ledger":false,"flooring_without_support":false,"mixed_pet_nonpet_line":false},
+  "evidence":[],
+  "extraction_confidence":0.98,
+  "notes":"Lite mode. Final move-out statement used over the incomplete ledger posting."
+}
